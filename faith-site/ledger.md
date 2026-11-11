@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–059 Live — Months 1–2 Complete)
+## 2. Published Articles Ledger (Days 001–066 Live — Months 1–2 Complete, Month 3 Open)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -102,6 +102,13 @@
 | 057 | M2·D57 | The Spirit and the Word Agree | `/the-spirit-and-the-word-agree/` | The Holy Spirit | John 6:63 | 941 | 41c / 142c | 18/18 ✔ | 2026-12-28 |
 | 058 | M2·D58 | Walking in the Spirit Ends the War of the Flesh | `/walking-in-the-spirit-ends-the-war-of-the-flesh/` | The Holy Spirit | Gal 5:16 | 958 | 58c / 142c | 18/18 ✔ | 2026-12-29 |
 | 059 | M2·D59 | Grieve Not, Quench Not: Guarding the Flow | `/grieve-not-quench-not-guarding-the-flow/` | The Holy Spirit | 1 Thess 5:19 | 920 | 41c / 142c | 18/18 ✔ | 2026-12-30 |
+| 060 | M3·D60 | Faith Is Now | `/faith-is-now/` | Faith | Mark 11:24 | 975 | 35c / 144c | 18/18 ✔ | 2026-12-31 |
+| 061 | M3·D61 | The Substance of Things Hoped For | `/the-substance-of-things-hoped-for/` | Faith | Heb 11:1 | 1,005 | 48c / 144c | 18/18 ✔ | 2027-01-01 |
+| 062 | M3·D62 | Faith Talks: What You Say Is What You Sow | `/faith-talks-what-you-say-is-what-you-sow/` | Faith | Mark 11:23 | 934 | 54c / 143c | 18/18 ✔ | 2027-01-02 |
+| 063 | M3·D63 | Call Those Things That Are Not | `/call-those-things-that-are-not/` | Faith | Rom 4:17 | 984 | 44c / 146c | 18/18 ✔ | 2027-01-03 |
+| 064 | M3·D64 | The God-Kind of Faith Does Not Consider Circumstances | `/the-god-kind-of-faith-does-not-consider-circumstances/` | Faith | Rom 4:19 | 933 | 53c / 142c | 18/18 ✔ | 2027-01-04 |
+| 065 | M3·D65 | Faith Comes by Hearing — and Keeps Coming | `/faith-comes-by-hearing-and-keeps-coming/` | Faith | Rom 10:17 | 932 | 47c / 143c | 18/18 ✔ | 2027-01-05 |
+| 066 | M3·D66 | Living Faith vs Dead Doctrine | `/living-faith-vs-dead-doctrine/` | Faith | James 2:26 | 934 | 42c / 142c | 18/18 ✔ | 2027-01-06 |
 
 ---
 
@@ -114,4 +121,5 @@
 - **2026-12-03:** Published Month 2 Days `032`–`040` (9 articles, ~8,539 words, 9/9 passing 18/18 audit). Total live: **40 articles**; build 61 pages, 0 broken internal links.
 - **2026-12-12:** Published Month 2 Days `041`–`050` (10 articles, ~9,484 words, 10/10 passing 18/18 audit). **50-article AdSense floor crossed**; build 71 pages, 0 broken internal links.
 - **2026-12-22:** Published Month 2 Days `051`–`059` (9 articles, ~8,507 words, 9/9 passing 18/18 audit). **Month 2 complete — 59 articles live**; build 80 pages, 0 broken internal links. Homepage now lists newest 10.
-- **Next batch queued:** Month 3 Days `060`–`066` (*Faith: The Attitude and Action of Trust*) (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
+- **2026-12-31:** Published Month 3 Days `060`–`066` (7 articles, ~6,697 words, 7/7 passing 18/18 audit). Total live: **66 articles**; build 87 pages, 0 broken internal links.
+- **Next batch queued:** Month 3 Days `067`–`073` (*The Good Fight* through *Building Yourself Up on Your Most Holy Faith*) (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
