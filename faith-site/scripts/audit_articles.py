@@ -68,12 +68,46 @@ def load_source_titles(repo_root: str):
     return titles
 
 
+def fm_block_terms(raw: str) -> str:
+    """Return only the glossaryTerms list block from the frontmatter."""
+    if not raw.startswith("---\n"):
+        return ""
+    end = raw.find("\n---\n", 4)
+    fm_block = raw[4:end] if end != -1 else ""
+    m = re.search(r"^glossaryTerms:\s*\n((?:[ \t]+- .*\n)+)", fm_block, flags=re.M)
+    return m.group(1) if m else ""
+
+
+def load_glossary_terms(site_dir: str):
+    path = os.path.join(site_dir, "glossary.md")
+    if not os.path.exists(path):
+        return set()
+    txt = open(path, encoding="utf-8").read()
+    terms = set()
+    for t in re.findall(r"^### \d+\. (.+)$", txt, flags=re.M):
+        t = re.sub(r"\s*\(\*.*?\)\s*", " ", t)
+        terms.add(re.sub(r"\s+", " ", t).strip().lower())
+    return terms
+
+
+def load_published_slugs(articles_dir: str):
+    slugs = set()
+    for path in glob.glob(os.path.join(articles_dir, "*.md")):
+        txt = open(path, encoding="utf-8").read()
+        m = re.search(r'^slug:\s*"?([A-Za-z0-9\-]+)"?\s*$', txt, flags=re.M)
+        if m:
+            slugs.add(m.group(1))
+    return slugs
+
+
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     site_dir = os.path.dirname(script_dir)
     repo_root = os.path.dirname(site_dir)
     articles_dir = os.path.join(site_dir, "articles")
     source_titles = load_source_titles(repo_root)
+    glossary_terms = load_glossary_terms(site_dir)
+    published_slugs = load_published_slugs(articles_dir)
 
     files = sorted(glob.glob(os.path.join(articles_dir, "*.md")))
     if not files:
@@ -162,6 +196,19 @@ def main():
         if len(refs) < 3:
             errors.append(f"cross-references in prose {len(refs)} < 3")
 
+        # Related-teaching handoffs must resolve to a published article (no 404s / fallbacks).
+        related_slugs = re.findall(r'slug:\s*"([A-Za-z0-9\-]+)"', raw)
+        related_slugs = [sl for sl in related_slugs if sl != slug]
+        for sl in related_slugs:
+            if sl not in published_slugs:
+                errors.append(f"relatedTeaching slug '{sl}' is not published")
+
+        # Every glossaryTerms value must be a canonised entry in glossary.md.
+        if glossary_terms:
+            for term in re.findall(r'^  - "(.+)"$', fm_block_terms(raw), flags=re.M):
+                if term.strip().lower() not in glossary_terms:
+                    errors.append(f"glossaryTerm '{term}' is not in glossary.md")
+
         status = "PASS (18/18)" if not errors else "FAIL: " + "; ".join(errors)
         if errors:
             failures += 1
@@ -173,7 +220,7 @@ def main():
     if failures:
         print(f"\nFAILED: {failures} article(s) had audit errors.")
         sys.exit(1)
-    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, length, voice, and compliance check.")
+    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, length, voice, link-integrity, glossary, and compliance check.")
 
 
 if __name__ == "__main__":
