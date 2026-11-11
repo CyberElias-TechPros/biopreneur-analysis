@@ -1,0 +1,65 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import { SITE } from '../data/site';
+import { getGlossaryTerms } from '../data/glossary';
+
+const terms = getGlossaryTerms();
+const groups = Array.from(new Set(terms.map((t) => t.group)));
+---
+
+<BaseLayout
+  title={`Doctrinal Glossary (36 Core Terms) — ${SITE.name}`}
+  description="Clear Scripture-grounded definitions and boundaries for 36 core Christian doctrinal terms used across In Jesus Name — from the New Birth to the Blessed Hope."
+  canonicalPath="/glossary/"
+>
+  <section class="page-header">
+    <div class="reading-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        Terminology &amp; Definitions
+      </p>
+      <h1>Site Glossary</h1>
+      <p style="font-size: 1.1rem; color: var(--ink-soft);">
+        Sound teaching never hides behind undefined church shorthand. These {terms.length} foundational biblical terms
+        maintain a consistent, Scripture-anchored definition and boundary across every article published on <strong>{SITE.name}</strong>.
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <div class="reading-container" style="padding-block: 3rem;">
+    {
+      groups.map((group) => (
+        <section style="margin-bottom: 3.25rem;">
+          <h2 style="border-bottom: 1px solid var(--border-gold); padding-bottom: 0.6rem;">
+            {group}
+          </h2>
+          {terms
+            .filter((t) => t.group === group)
+            .map((item) => (
+              <article
+                style="padding-block: 1.35rem; border-bottom: 1px solid var(--border-subtle);"
+              >
+                <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 0.4rem;">
+                  <h3 style="margin: 0; font-size: 1.25rem;">
+                    {String(item.number).padStart(2, '0')}. {item.term}
+                  </h3>
+                  <span class="meta-caps" style="color: var(--gold-text);">
+                    {item.category}
+                  </span>
+                </div>
+                <p style="margin: 0 0 0.55rem 0;">{item.definition}</p>
+                <p style="margin: 0 0 0.45rem 0; font-size: 0.93rem; color: var(--ink-soft);">
+                  <strong>Guardrail:</strong> {item.boundary}
+                </p>
+                <p class="meta-caps" style="margin: 0;">
+                  Scripture Anchors: {item.anchors}
+                </p>
+              </article>
+            ))}
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>

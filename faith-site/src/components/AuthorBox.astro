@@ -1,0 +1,25 @@
+---
+import { SITE } from '../data/site';
+---
+
+<aside class="author-box" aria-label="About the Teacher">
+  <div class="author-avatar" aria-hidden="true">
+    {SITE.teacher.initials}
+  </div>
+  <div>
+    <p class="meta-caps" style="margin: 0 0 0.25rem 0;">
+      {SITE.teacher.role}
+    </p>
+    <p
+      style="font-family: var(--font-display); font-size: 1.25rem; margin: 0 0 0.55rem 0; color: var(--ink);"
+    >
+      <a href="/about/" style="color: inherit;">{SITE.teacher.name}</a>
+    </p>
+    <p style="margin: 0 0 0.75rem 0; font-size: 0.95rem; color: var(--ink-soft);">
+      {SITE.teacher.shortBio}
+    </p>
+    <p class="meta-caps" style="margin: 0;">
+      <a href="/doctrinal-basis/">Read our Doctrinal Basis &rarr;</a>
+    </p>
+  </div>
+</aside>

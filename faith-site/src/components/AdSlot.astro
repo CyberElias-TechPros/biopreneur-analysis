@@ -1,0 +1,48 @@
+---
+import { SITE } from '../data/site';
+
+interface Props {
+  position: 'after-theme' | 'mid-article' | 'before-related';
+}
+
+const { position } = Astro.props;
+const slotMap = {
+  'after-theme': SITE.adsense.slots.afterTheme,
+  'mid-article': SITE.adsense.slots.midArticle,
+  'before-related': SITE.adsense.slots.beforeRelated,
+};
+const slotId = slotMap[position];
+const isLive = SITE.adsense.live;
+---
+
+<aside
+  class="ad-slot-wrapper"
+  data-ad-wrapper={position}
+  aria-label="Advertisement"
+  hidden={!isLive}
+>
+  <span class="ad-slot-label">Advertisement</span>
+  {
+    isLive ? (
+      <Fragment>
+        <ins
+          class="adsbygoogle"
+          style="display:block; min-height:250px;"
+          data-ad-client={SITE.adsense.publisherId}
+          data-ad-slot={slotId}
+          data-ad-format="auto"
+          data-full-width-responsive="true"
+        />
+        <script is:inline>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </Fragment>
+    ) : (
+      <div class="ad-slot-box">
+        <span>
+          Reserved Zero-CLS AdSense Slot ({position} &middot; {SITE.adsense.publisherId})
+        </span>
+      </div>
+    )
+  }
+</aside>

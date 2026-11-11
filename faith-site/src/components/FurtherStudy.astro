@@ -1,0 +1,19 @@
+---
+interface Props {
+  passages: string[];
+}
+const { passages } = Astro.props;
+---
+
+<section class="further-study" aria-labelledby="further-study-heading">
+  <h2 id="further-study-heading" class="meta-caps" style="margin: 0;">
+    Further Study in Scripture
+  </h2>
+  <ul class="further-study-list">
+    {
+      passages.map((p) => (
+        <li class="further-study-item">{p}</li>
+      ))
+    }
+  </ul>
+</section>

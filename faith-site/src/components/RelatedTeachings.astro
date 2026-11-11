@@ -1,0 +1,47 @@
+---
+import CategoryChip from './CategoryChip.astro';
+
+interface RelatedItem {
+  title: string;
+  slug: string;
+  category: string;
+  handoff: string;
+}
+
+interface Props {
+  items: RelatedItem[];
+  publishedSlugs: Set<string>;
+}
+
+const { items, publishedSlugs } = Astro.props;
+---
+
+<section class="related-teachings" aria-labelledby="related-heading">
+  <h2 id="related-heading" class="meta-caps" style="margin: 0;">
+    Related Teachings
+  </h2>
+  <ul class="editorial-row-list">
+    {
+      items.map((item) => {
+        const isLive = publishedSlugs.has(item.slug);
+        const href = isLive ? `/${item.slug}/` : '/slate/';
+        return (
+          <li class="editorial-row">
+            <div>
+              <a class="editorial-row-title" href={href}>
+                {item.title}
+                {!isLive && (
+                  <span class="meta-caps" style="margin-left: 0.5rem;">
+                    (On the Slate)
+                  </span>
+                )}
+              </a>
+              <p class="editorial-row-sub">{item.handoff}</p>
+            </div>
+            <CategoryChip category={item.category} />
+          </li>
+        );
+      })
+    }
+  </ul>
+</section>

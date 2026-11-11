@@ -1,52 +1,52 @@
-# MASTER TODO — Faith Teaching Site Project
+# MASTER TODO — *In Jesus Name* (Faith Teaching Publication)
 *Everything planned, in one list. Status: ☐ pending · ◐ in progress · ✔ done · ⏸ blocked/decision needed*
-*Project root: D:\biopreneur · Repo: github.com/CyberElias-TechPros/biopreneur-analysis (private) · Design spec: DESIGN_SPEC.md · Writing prompt: FAITH_TEACHING_PROMPT.md · Topics: TOPICS_365.md*
+*Publication: **In Jesus Name** · Repo: github.com/CyberElias-TechPros/biopreneur-analysis (public) · App root: `faith-site/` (Astro 6) · Design spec: `DESIGN_SPEC.md` · Writing prompt: `FAITH_TEACHING_PROMPT.md` · Topics: `TOPICS_365.md`*
 
 ---
 
 ## A. FOUNDATION & SYSTEM (the engines)
 
-- ✔ A1. Scrape + analyze biopreneur.com.ng (1,143 pages) — done; analysis artifacts retained (`site_stats.csv`, `all_urls.txt`, sitemaps); raw HTML scrape removed from repo/git history, kept only as local working copy
+- ✔ A1. Scrape + analyze biopreneur.com.ng (1,143 URLs / 1,137 posts) — done; analysis artifacts retained (`site_stats.csv`, `all_urls.txt`, sitemaps); raw HTML scrape removed from repo/git history
 - ✔ A2. Pattern analysis & reproduction blueprint — `PATTERN_ANALYSIS.md`
 - ✔ A3. AdSense reviewer audit — `ADSENSE_REVIEW.md`
 - ✔ A4. Biopreneur-class publisher master prompt — `SUPER_PROMPT.md`
 - ✔ A5. Faith teaching master prompt (fused: publisher system + revelation-teaching profile + topic engine) — `FAITH_TEACHING_PROMPT.md`
-- ✔ A6. 365-topic year slate, 12 monthly arcs, zero source duplication — `TOPICS_365.md`
-- ✔ A7. Test-drive article #001 (18/18 audit) — `faith-site/articles/001-you-are-a-new-species-of-being.md`
+- ✔ A6. 365-topic year slate, 12 monthly arcs, zero source duplication (verified vs all 30 source titles) — `TOPICS_365.md`
+- ✔ A7. Flagship article #001 (verified 18/18 audit) — `faith-site/articles/001-you-are-a-new-species-of-being.md`
 - ✔ A8. Design direction chosen + full design spec — `DESIGN_SPEC.md`
-- ☐ A9. Site glossary v1: define the core terminology bank (30–40 terms, usage rules) — feeds Terminity Law
-- ☐ A10. Used-title ledger system: `faith-site/ledger.md` — all published titles + source-exclusion list, updated on every publish
-- ☐ A11. Brand kit: site name decision ⏸ (needs owner decision), logo, wordmark, favicon, social cards
+- ✔ A9. Site glossary v1: 36 core doctrinal terms with definitions, scripture anchors, and boundaries — `faith-site/glossary.md` + `/glossary/`
+- ✔ A10. Used-title ledger system: `faith-site/ledger.md` — 30 excluded source titles + all published articles tracked
+- ✔ A11. Brand kit: site name locked as **In Jesus Name**, horizon-cross SVG emblem, wordmark, `/favicon.svg`, and 1200×630 Open Graph social card (`/images/og-default.png`)
 
 ## B. DESIGN / UI / UX (per DESIGN_SPEC.md)
 
-- ☐ B1. Wireframes: Home, Teachings index, Article, Category, About, Doctrinal Basis, Contact (low-fi)
-- ☐ B2. High-fi mockups in the chosen direction: **Reverent Editorial — Swiss luxury minimalism + celestial atmosphere** (light mode + midnight-gold dark mode)
-- ☐ B3. Typography system implementation: Fraunces (or Cormorant Garamond) display + Inter body; scale, rhythm, scripture-block styling
-- ☐ B4. Color system tokens: ivory/ink/gold light mode + midnight/gold dark mode; WCAG AA verified
-- ☐ B5. Core components: Theme-Scripture block, Reaffirmation pull-line, Declaration card, Further-Study list, Related-Teaching cards, author box, category chips
-- ☐ B6. Motion spec build: scripture reveal-on-scroll (opacity/translate 12px), declaration "speak-aloud" affordance, page transitions ≤300ms, prefers-reduced-motion honored
-- ☐ B7. Article template HTML/CSS build (static first: Eleventy/Astro or plain) — the reading column is the flagship
-- ☐ B8. Home page build: full-bleed dawn hero + mission line, 4 category strips, featured teachings, author card
-- ☐ B9. Dark mode + light mode toggle with system default
-- ☐ B10. Accessibility pass: keyboard nav, contrast audit, focus states, alt-text rules, reduced-motion
-- ☐ B11. Performance budget: LCP <1.8s, CLS <0.05, <90KB CSS+JS unminified budget; image pipeline (webp/avif)
-- ☐ B12. Design QA against AdSense: ad slot styling (Section 7 of spec), no layout-shift ad containers
+- ✔ B1. Wireframes: Home, Teachings index, Article, Category, About, Doctrinal Basis, Contact & Privacy — `faith-site/WIREFRAMES.md`
+- ✔ B2. Full implementation in **Reverent Editorial — Swiss luxury minimalism + celestial atmosphere** (Dawn/Ivory light mode + Midnight/Gold dark mode)
+- ✔ B3. Typography system: self-hosted variable `Fraunces` + `Inter` `.woff2` preloaded, fluid clamp scale, 680px reading measure, text-size comfort control (`0.92×`–`1.24×`)
+- ✔ B4. Color system tokens: ivory/ink/gold light mode (`#7A5C1B` text gold 5.82:1 AA; `#B08D3E` hairline) + midnight/gold dark mode (`#D4AF6A` 9.14:1 AAA); zero `#000000`
+- ✔ B5. All 10 core components built in `faith-site/src/components/`: `ThemeScripture`, `Reaffirmation`, `DeclarationCard`, `FurtherStudy`, `RelatedTeachings`, `CategoryChip`, `AuthorBox`, `ReadingProgress`, `CategoryStrips`, `LightLine`
+- ✔ B6. Motion spec: scroll-reveal (`opacity 0→1`, `translateY 12px→0`, `600ms`), Declaration "Pace Aloud" speech/pulse affordance, `prefers-reduced-motion` honored
+- ✔ B7. Flagship 680px single-column Article template (`faith-site/src/pages/[slug].astro`)
+- ✔ B8. Home page build (`faith-site/src/pages/index.astro`): 70vh full-bleed Dawn Hero (AVIF/WebP preloaded), editorial promise, 4 numbered category strips, Week One featured teachings, 12-month arc overview, teacher box
+- ✔ B9. Light / Night theme toggle in header with `prefers-color-scheme` default, zero-FOUC bootstrap, and `localStorage` persistence
+- ✔ B10. Accessibility pass: skip-to-content link, semantic landmarks, strict heading hierarchy, `2px` gold `:focus-visible` outlines, WCAG AA verified
+- ✔ B11. Performance budget verified: `16.5 KB` total CSS (`≤50 KB` budget), `6.6 KB` inline JS + `0 KB` external JS (`≤40 KB` budget), AVIF/WebP responsive images
+- ✔ B12. AdSense slot styling (`AdSlot.astro`): 3 reserved-height (`min-height: 250px`, `contain: layout`) slots with hairline top rule + `ADVERTISEMENT` label; previewable via `?ads=preview`
 
 ## C. SITE BUILD & INFRASTRUCTURE
 
-- ☐ C1. Stack decision ⏸: static generator (Astro recommended — performance + AdSense-safe) vs WordPress (Astra familiarity). Default: Astro.
-- ☐ C2. Domain decision ⏸ (needs owner input) + HTTPS, hosting (Cloudflare Pages/Vercel)
-- ☐ C3. Build all static pages: Home · Teachings index · About · Contact (working form) · Privacy Policy ≥1,500 words (cookies/advertising/GDPR/CCPA/remarketing/children sections) · Doctrinal Basis · 12 category archives with descriptions
-- ☐ C4. SEO plumbing: sitemap, robots.txt, canonical, Open Graph/Twitter cards, RSS/JSON feed
-- ☐ C5. Schema: Article/BlogPosting + Person + BreadcrumbList + WebSite site-wide; FAQPage where used
-- ☐ C6. Analytics: GA4 or privacy-first alternative; Search Console + Bing webmaster
+- ✔ C1. Stack implemented: **Astro 6** static site in `faith-site/` (29 static pages built in <4s)
+- ◐ C2. Domain decision ⏸ (placeholder `https://injesusname.org` configurable via `PUBLIC_SITE_URL`) + Vercel hosting ready
+- ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (working form + mailto dispatch) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
+- ✔ C4. SEO plumbing: `sitemap-index.xml`, `robots.txt`, `ads.txt`, canonicals, Open Graph/Twitter cards, `rss.xml`
+- ✔ C5. JSON-LD Schema: `BlogPosting` + `Person` + `BreadcrumbList` on every article; `WebSite` + `Organization` site-wide
+- ☐ C6. Analytics: GA4 or privacy-first alternative; Search Console + Bing Webmaster once custom domain is live
 - ☐ C7. Comments: lightweight (giscus or none — zero-comment is fine per analysis)
-- ☐ C8. Backup/deploy pipeline: GitHub → auto-deploy; weekly tag
+- ☐ C8. Backup/deploy pipeline: connect `faith-site/` root directory to Vercel for automatic deploys
 
 ## D. CONTENT PRODUCTION (365-slate execution)
 
-- ☐ D1. Month 1 (Jan arc — New-Creation Foundations): write days 1–31 (article 001 done → days 002–031 pending)
+- ◐ D1. Month 1 (Jan arc — New-Creation Foundations): **Week 1 complete (Days 001–008 live, ~9,640 words, 8/8 passing 18/18 audit)**; Days 009–031 pending
 - ☐ D2. Month 2 (Feb — Holy Spirit): 28 articles
 - ☐ D3. Month 3 (Mar — Faith): 31
 - ☐ D4. Month 4 (Apr — Authority): 30
@@ -58,31 +58,31 @@
 - ☐ D10. Month 10 (Oct — Unseen Realm): 31 (no demonizing people; victory-framing)
 - ☐ D11. Month 11 (Nov — Glory Life): 30
 - ☐ D12. Month 12 (Dec — Incarnation & Return): 31
-- ☐ D13. Every article: 18/18 self-audit table + SEO pack + ledger update before publish
-- ☐ D14. Internal-link discipline: every article linked by 1 sibling + 2 cluster siblings within 7 days
-- ☐ D15. Launch minimum: 50+ articles live before AdSense application (per 15-factor checklist)
-- ☐ D16. Extend beyond year 1: re-run `TOPIC ENGINE` with ledger + new seed PDFs
+- ✔ D13. Self-audit + SEO pack + ledger update workflow active (`faith-site/scripts/audit_articles.py` + `faith-site/ledger.md`)
+- ✔ D14. Internal-link discipline: all 8 Week-1 articles interlinked with 0 broken links across all 29 built pages
+- ☐ D15. Launch minimum: reach 50+ live articles before submitting AdSense application (8/50 complete)
+- ☐ D16. Extend beyond year 1: re-run `TOPIC ENGINE` with ledger + new seed themes
 
 ## E. SEO, ADSENSE & COMPLIANCE
 
-- ☐ E1. Verify every article ships meta description 140–158 chars + ≤60-char SEO title (batch QA script)
-- ☐ E2. AdSense wiring with owner pub-ID **`ca-pub-9124992249317290`** (canonical snippet in `faith-site/adsense.html`): head script on all pages, ads.txt at root, 3 content-embedded slots only — deployed after account approval
-- ☐ E3. Pre-application audit vs the 15-factor checklist in ADSENSE_REVIEW.md (author/privacy/contact/nav/depth)
-- ☐ E4. Unreliable-claims sweep: no outcome guarantees anywhere; faith-and-wisdom lines present where practical life touched
-- ☐ E5. Copyright sweep: zero source-devotional phrasing (spot-check 10% of corpus each month)
+- ✔ E1. Automated batch QA verifier (`npm run audit` / `python3 faith-site/scripts/audit_articles.py`) verifying SEO title ≤60c, meta 140–158c, declaration 40–80w, word floor, questions, and originality
+- ◐ E2. AdSense wiring (`ca-pub-9124992249317290`): `/ads.txt` live at root; `AdSenseHead.astro` and 3 zero-CLS `AdSlot.astro` units wired and gated behind `PUBLIC_ADSENSE_LIVE=true` for activation when ready to submit for review
+- ☐ E3. Pre-application audit vs the 15-factor checklist in `ADSENSE_REVIEW.md` once 50+ articles are live
+- ✔ E4. Unreliable-claims shield active across Week 1 + Doctrinal Basis Article VIII
+- ✔ E5. Copyright sweep: 0 non-scripture 8-gram overlaps on Days 002–008 against seed extract
 - ☐ E6. Annual refresh cycle: re-date "Updated" stamps, re-verify scriptures each January
-- ☐ E7. Author presence: teacher bio page, photo, doctrinal-statement link on every page
+- ✔ E7. Author presence: resident Bible teacher profile (`Elias Okafor`), `AuthorBox` + Doctrinal Basis link on every teaching page
 
 ## F. REPO & HOUSEKEEPING
 
-- ✔ F1. GitHub repo created + full push — CyberElias-TechPros/biopreneur-analysis
-- ✔ F2. Scrape removed from repo + git history (filter-repo, force-pushed) — copyright risk eliminated; `.gitignore` keeps it local-only. Remaining scratch files (curl_config.txt, curl_test.txt, allofit.txt) still to tidy.
+- ✔ F1. GitHub repo created — `CyberElias-TechPros/biopreneur-analysis`
+- ✔ F2. Scrape removed from repo + git history; `.gitignore` updated for Astro (`faith-site/node_modules/`, `faith-site/dist/`, `faith-site/.astro/`)
 - ☐ F3. Keep repo synced: commit after every content/design batch
-- ☐ F4. README update as project evolves
-- ☐ F5. ✔ Visibility decision: repo is **public** (scrape purged from repo + history first, so no third-party content is exposed)
+- ✔ F4. README (`REPO.md`) updated for **In Jesus Name** Astro build
+- ✔ F5. Visibility note: repo is **public** (note: consider removing `rhapsody_extract.txt` + scratch files from public tracking if keeping repo public)
 
-## CURRENT SPRINT (next actions, in order)
-1. B1 wireframes → B3/B4 tokens → B7 article template build (design comes first; content shell next)
-2. A9 glossary + A10 ledger (both feed every article)
-3. D1: write slate days 002–008 (week one of Month 1)
-4. C3 static pages after template build
+## NEXT SPRINT (immediate next actions)
+1. **D1 (Weeks 2–4):** Write Month 1 Days `009`–`031` (23 articles to complete Arc 1: *New-Creation Foundations*)
+2. **D2 (Month 2):** Write Month 2 Days `032`–`050+` (*The Person and Ministry of the Holy Spirit*) to cross the 50-article AdSense application floor (`D15`)
+3. **C2 / C8:** Deploy `faith-site/` to Vercel and attach custom domain when chosen
+4. **E2 / E3:** Enable `PUBLIC_ADSENSE_LIVE=true` and run the 15-factor pre-application audit

@@ -1,0 +1,200 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CategoryChip from '../../components/CategoryChip.astro';
+import LightLine from '../../components/LightLine.astro';
+import { SITE } from '../../data/site';
+import { CATEGORIES } from '../../data/categories';
+
+const allArticles = (await getCollection('articles')).sort(
+  (a, b) => a.data.day - b.data.day
+);
+
+const countsByCategory: Record<string, number> = {};
+for (const entry of allArticles) {
+  countsByCategory[entry.data.category] =
+    (countsByCategory[entry.data.category] || 0) + 1;
+}
+---
+
+<BaseLayout
+  title={`Teachings Library — ${SITE.name}`}
+  description="Browse all Scripture-anchored Christian teachings at In Jesus Name by day, Scripture anchor, and doctrinal category across our 365-topic curriculum."
+  canonicalPath="/teachings/"
+>
+  <section class="page-header">
+    <div class="swiss-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.5rem 0;">
+        The Teaching Library
+      </p>
+      <h1 style="max-width: 22ch;">Unveiling Christ in the Written Word</h1>
+      <p style="max-width: 62ch; color: var(--ink-soft); font-size: 1.1rem; margin-bottom: 1.5rem;">
+        Every teaching follows our eight-step Scripture chain — opening with a full anchor passage, examining biblical words in context,
+        confirming truth across multiple books, and landing in weekday obedience and spoken confession.
+      </p>
+
+      <!-- Progressive-enhancement search & category filter -->
+      <div
+        style="display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; max-width: 46rem;"
+      >
+        <label for="teaching-search" class="meta-caps" style="position: absolute; left: -9999px;">
+          Filter teachings
+        </label>
+        <input
+          id="teaching-search"
+          type="search"
+          class="form-input"
+          placeholder="Search by title, Scripture (e.g. Romans 3:24), or keyword..."
+          style="flex: 1 1 280px;"
+        />
+        <a class="category-chip" href="/slate/" style="padding: 0.78rem 1rem;">
+          Full 365-Day Slate &rarr;
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <!-- Editorial List -->
+  <section class="swiss-container" style="padding-block: 3rem;">
+    <div
+      style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem;"
+      role="toolbar"
+      aria-label="Filter by category"
+    >
+      <button type="button" class="category-chip is-filter-active" data-cat-filter="all" style="cursor: pointer;">
+        All Published ({allArticles.length})
+      </button>
+      {
+        Object.entries(countsByCategory).map(([catName, count]) => (
+          <button
+            type="button"
+            class="category-chip"
+            data-cat-filter={catName}
+            style="cursor: pointer;"
+          >
+            {catName} ({count})
+          </button>
+        ))
+      }
+    </div>
+
+    <ol class="editorial-row-list" id="teachings-list">
+      {
+        allArticles.map((entry) => (
+          <li
+            class="editorial-row"
+            data-category={entry.data.category}
+            data-search={`${entry.data.title} ${entry.data.centralTruth} ${entry.data.themeScripture.reference} ${entry.data.tags.join(' ')}`.toLowerCase()}
+          >
+            <div style="display: flex; gap: 1.25rem; align-items: baseline;">
+              <span
+                style="font-family: var(--font-display); font-size: 1.05rem; color: var(--gold-text); min-width: 3.2rem;"
+              >
+                Day {String(entry.data.day).padStart(3, '0')}
+              </span>
+              <div>
+                <a class="editorial-row-title" href={`/${entry.data.slug}/`}>
+                  {entry.data.title}
+                </a>
+                <p class="editorial-row-sub">{entry.data.centralTruth}</p>
+                <p class="meta-caps" style="margin: 0.45rem 0 0 0;">
+                  {entry.data.themeScripture.reference} ({entry.data.themeScripture.translation}) &middot;{' '}
+                  {entry.data.pubDate}
+                </p>
+              </div>
+            </div>
+            <CategoryChip category={entry.data.category} />
+          </li>
+        ))
+      }
+    </ol>
+    <p id="no-results-msg" hidden style="color: var(--ink-soft); padding-block: 1.5rem;">
+      No published teachings matched that filter yet. Explore all 365 scheduled topics on the{' '}
+      <a href="/slate/">Year Curriculum Slate</a>.
+    </p>
+  </section>
+
+  <!-- All 12 Categories Directory -->
+  <section
+    id="categories"
+    class="swiss-container"
+    style="padding-block: 2rem 3.5rem;"
+    data-reveal
+  >
+    <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">
+      Complete Doctrinal Architecture
+    </p>
+    <h2 style="margin-top: 0; margin-bottom: 1.5rem;">Browse All 12 Categories</h2>
+
+    <div
+      style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem;"
+    >
+      {
+        CATEGORIES.map((cat) => {
+          const count = countsByCategory[cat.name] || 0;
+          return (
+            <a
+              href={`/category/${cat.slug}/`}
+              style="display: block; padding: 1.35rem; background: var(--surface); border: 1px solid var(--border-subtle); color: var(--ink); background-image: none;"
+            >
+              <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 0.45rem;">
+                <span class="meta-caps" style="color: var(--gold-text);">
+                  {cat.numeral}
+                </span>
+                <span class="meta-caps">
+                  {count > 0 ? `${count} live` : 'Curriculum arc'}
+                </span>
+              </div>
+              <h3 style="margin: 0 0 0.5rem 0; font-size: 1.25rem;">{cat.name}</h3>
+              <p style="margin: 0 0 0.75rem 0; font-size: 0.92rem; color: var(--ink-soft);">
+                {cat.shortLine}
+              </p>
+              <span class="meta-caps" style="font-size: 0.72rem;">{cat.anchors}</span>
+            </a>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <script is:inline>
+    (function () {
+      var input = document.getElementById('teaching-search');
+      var rows = document.querySelectorAll('#teachings-list .editorial-row');
+      var filterBtns = document.querySelectorAll('[data-cat-filter]');
+      var emptyMsg = document.getElementById('no-results-msg');
+      var activeCat = 'all';
+
+      function applyFilter() {
+        var q = input ? input.value.trim().toLowerCase() : '';
+        var visible = 0;
+        rows.forEach(function (row) {
+          var cat = row.getAttribute('data-category');
+          var text = row.getAttribute('data-search') || '';
+          var matchCat = activeCat === 'all' || cat === activeCat;
+          var matchText = !q || text.indexOf(q) !== -1;
+          if (matchCat && matchText) {
+            row.style.display = '';
+            visible++;
+          } else {
+            row.style.display = 'none';
+          }
+        });
+        if (emptyMsg) emptyMsg.hidden = visible > 0;
+      }
+
+      if (input) input.addEventListener('input', applyFilter);
+      filterBtns.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          activeCat = btn.getAttribute('data-cat-filter') || 'all';
+          filterBtns.forEach(function (b) {
+            b.style.backgroundColor = b === btn ? 'var(--gold-tint)' : 'transparent';
+          });
+          applyFilter();
+        });
+      });
+    })();
+  </script>
+</BaseLayout>

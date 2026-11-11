@@ -1,0 +1,223 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import CategoryStrips from '../components/CategoryStrips.astro';
+import CategoryChip from '../components/CategoryChip.astro';
+import AuthorBox from '../components/AuthorBox.astro';
+import { SITE } from '../data/site';
+import { getYearSlate } from '../data/slate';
+
+const allArticles = (await getCollection('articles')).sort(
+  (a, b) => a.data.day - b.data.day
+);
+const dayOne = allArticles[0];
+const slate = getYearSlate();
+
+const countsByCategory: Record<string, number> = {};
+for (const entry of allArticles) {
+  countsByCategory[entry.data.category] =
+    (countsByCategory[entry.data.category] || 0) + 1;
+}
+---
+
+<BaseLayout
+  title={`${SITE.name} — Scripture-Anchored Christian Teaching`}
+  description="In Jesus Name publishes Scripture-saturated Christian teachings unveiling your new-creation identity in Christ, right standing by grace, and wise daily living."
+  canonicalPath="/"
+  preloadHero={true}
+>
+  <!-- Full-Bleed Dawn Hero (DESIGN_SPEC §2 & §3) -->
+  <section class="dawn-hero">
+    <div class="dawn-hero-media" aria-hidden="true">
+      <picture>
+        <source
+          type="image/avif"
+          srcset="/images/hero-dawn-960.avif 960w, /images/hero-dawn-1600.avif 1600w"
+          sizes="100vw"
+        />
+        <source
+          type="image/webp"
+          srcset="/images/hero-dawn-960.webp 960w, /images/hero-dawn-1600.webp 1600w"
+          sizes="100vw"
+        />
+        <img
+          src="/images/hero-dawn-1600.webp"
+          alt="First dawn light rising over a quiet misted horizon"
+          width="1600"
+          height="893"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
+    </div>
+
+    <div class="swiss-container dawn-hero-content">
+      <span class="meta-caps hero-kicker">
+        Revelation &middot; Identity &middot; Everyday Walk in Christ
+      </span>
+      <h1>The entrance of His Word gives light.</h1>
+      <p class="hero-lead">
+        {SITE.mission}
+      </p>
+      <div class="hero-actions">
+        {
+          dayOne && (
+            <a class="btn-editorial" href={`/${dayOne.data.slug}/`}>
+              Begin at Day 001 &rarr;
+            </a>
+          )
+        }
+        <a class="btn-editorial btn-editorial-ghost" href="/teachings/">
+          Browse the Library
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <!-- Editorial Promise (Asymmetric Swiss 12-Col) -->
+  <section class="swiss-container" style="padding-block: clamp(3.25rem, 6vw, 5rem);" data-reveal>
+    <div class="swiss-grid">
+      <div style="grid-column: span 4;">
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.5rem 0;">
+          The Reading Room
+        </p>
+        <h2 style="margin-top: 0;">Information is not yet understanding.</h2>
+      </div>
+      <div style="grid-column: span 8; max-width: 64ch;">
+        <p style="margin-top: 0; font-size: 1.125rem;">
+          Many sincere believers know what a verse says on the page while still living beneath what it means.
+          <strong> {SITE.name}</strong> exists as a quiet, unhurried teaching room built around one discipline:
+          examining Scripture in context until truth moves from memory into spiritual understanding, settled consciousness,
+          and responsible weekday conduct.
+        </p>
+        <p style="margin-bottom: 0; color: var(--ink-soft);">
+          No popups, no sensational claims, and no borrowed slogans — every study opens the biblical text, traces cross-references
+          across both Testaments, pairs faith with practical wisdom, and closes with a Scripture-anchored confession you can speak aloud.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 Featured Category Strips (DESIGN_SPEC §3 & §6.9) -->
+  <section class="swiss-container" style="padding-bottom: clamp(3.25rem, 6vw, 5rem);" data-reveal>
+    <div
+      style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem;"
+    >
+      <div>
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">
+          Core Pillars
+        </p>
+        <h2 style="margin: 0;">Four Doctrinal Foundations</h2>
+      </div>
+      <a class="meta-caps" href="/teachings/#categories">
+        View all 12 categories &rarr;
+      </a>
+    </div>
+
+    <CategoryStrips articleCounts={countsByCategory} />
+  </section>
+
+  <!-- Featured Teachings — Month 1 Week 1 (Numbered Magazine List) -->
+  <section class="swiss-container" style="padding-bottom: clamp(3.5rem, 6vw, 5.5rem);" data-reveal>
+    <div
+      style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem;"
+    >
+      <div>
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">
+          Arc 01 &middot; New-Creation Foundations
+        </p>
+        <h2 style="margin: 0;">Week One Teachings</h2>
+      </div>
+      <a class="meta-caps" href="/teachings/">
+        Open full Teaching Index &rarr;
+      </a>
+    </div>
+
+    <ol class="editorial-row-list" style="border-top: 1px solid var(--border-gold);">
+      {
+        allArticles.map((entry) => (
+          <li class="editorial-row">
+            <div style="display: flex; gap: 1.25rem; align-items: baseline;">
+              <span
+                style="font-family: var(--font-display); font-size: 1.05rem; color: var(--gold-text); min-width: 3.1rem;"
+              >
+                Day {String(entry.data.day).padStart(3, '0')}
+              </span>
+              <div>
+                <a class="editorial-row-title" href={`/${entry.data.slug}/`}>
+                  {entry.data.title}
+                </a>
+                <p class="editorial-row-sub">{entry.data.centralTruth}</p>
+                <p class="meta-caps" style="margin: 0.45rem 0 0 0;">
+                  {entry.data.themeScripture.reference} ({entry.data.themeScripture.translation})
+                </p>
+              </div>
+            </div>
+            <CategoryChip category={entry.data.category} />
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+
+  <!-- 12 Monthly Arcs Overview -->
+  <section
+    style="background: var(--surface); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle); padding-block: clamp(3rem, 6vw, 4.75rem);"
+    data-reveal
+  >
+    <div class="swiss-container">
+      <div
+        style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 2rem;"
+      >
+        <div>
+          <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">
+            The Full-Year Architecture
+          </p>
+          <h2 style="margin: 0;">12 Monthly Teaching Arcs &middot; 365 Studies</h2>
+        </div>
+        <a class="meta-caps" href="/slate/">
+          Browse all 365 topics &rarr;
+        </a>
+      </div>
+
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem;"
+      >
+        {
+          slate.map((m) => (
+            <a
+              href={`/slate/#month-${m.monthNumber}`}
+              style="display: block; padding: 1.2rem; border: 1px solid var(--border-subtle); background: var(--bg); color: var(--ink); background-image: none;"
+            >
+              <span class="meta-caps" style="color: var(--gold-text); display: block; margin-bottom: 0.35rem;">
+                Month {String(m.monthNumber).padStart(2, '0')} &middot; {m.totalDays} Days
+              </span>
+              <span style="font-family: var(--font-display); font-size: 1.15rem; display: block; margin-bottom: 0.35rem;">
+                {m.arcTitle}
+              </span>
+              <span style="font-size: 0.86rem; color: var(--ink-soft); display: block;">
+                {m.anchors}
+              </span>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <!-- Resident Teacher & Doctrinal Covenant -->
+  <section class="reading-container" style="padding-top: clamp(3rem, 5vw, 4rem);" data-reveal>
+    <AuthorBox />
+  </section>
+</BaseLayout>
+
+<style>
+  @media (max-width: 820px) {
+    .swiss-grid > div {
+      grid-column: 1 / -1 !important;
+    }
+  }
+</style>
