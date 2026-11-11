@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Month 1 · Days 001–015 Live)
+## 2. Published Articles Ledger (Month 1 · Days 001–022 Live)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -58,6 +58,13 @@
 | 013 | M1·D13 | Your Spirit: The Address of God | `/your-spirit-the-address-of-god/` | New Creation & Identity | Rom 8:16 | 1,153 | 45c / 141c | 18/18 ✔ | 2026-11-14 |
 | 014 | M1·D14 | Born of the Incorruptible Word of God | `/born-of-the-incorruptible-word-of-god/` | The Word | 1 Pet 1:23 | 1,126 | 45c / 144c | 18/18 ✔ | 2026-11-15 |
 | 015 | M1·D15 | What Actually Happened in You When You Believed | `/what-actually-happened-in-you-when-you-believed/` | New Creation & Identity | Eph 1:13 | 1,175 | 49c / 143c | 18/18 ✔ | 2026-11-16 |
+| 016 | M1·D16 | The Transformation You Never Earned | `/the-transformation-you-never-earned/` | New Creation & Identity | Titus 3:5 | 1,107 | 47c / 148c | 18/18 ✔ | 2026-11-17 |
+| 017 | M1·D17 | Eternity Is Already in Your Spirit | `/eternity-is-already-in-your-spirit/` | New Creation & Identity | John 17:3 | 1,062 | 46c / 146c | 18/18 ✔ | 2026-11-18 |
+| 018 | M1·D18 | Children, Not Orphans | `/children-not-orphans/` | New Creation & Identity | Rom 8:15 | 1,107 | 45c / 145c | 18/18 ✔ | 2026-11-19 |
+| 019 | M1·D19 | The Family Name You Now Carry | `/the-family-name-you-now-carry/` | New Creation & Identity | John 1:12 | 1,077 | 41c / 143c | 18/18 ✔ | 2026-11-20 |
+| 020 | M1·D20 | Sanctified Once, for All Time | `/sanctified-once-for-all-time/` | Righteousness & Grace | Heb 10:10 | 1,125 | 45c / 144c | 18/18 ✔ | 2026-11-21 |
+| 021 | M1·D21 | The Conscience That Was Made New | `/the-conscience-that-was-made-new/` | New Creation & Identity | Heb 9:14 | 1,119 | 47c / 152c | 18/18 ✔ | 2026-11-22 |
+| 022 | M1·D22 | Washed, Sanctified, Justified — In That Order | `/washed-sanctified-justified-in-that-order/` | Righteousness & Grace | 1 Cor 6:11 | 1,088 | 50c / 141c | 18/18 ✔ | 2026-11-23 |
 
 ---
 
@@ -65,4 +72,5 @@
 
 - **2026-11-11:** Verified all 365 titles in `TOPICS_365.md` against the 30 excluded source titles (0 overlaps). Replaced Month 9 Day 1 (`Righteousness Is a Nature, Not a Report Card`) with `Awake to Righteousness: Living Free From Accusation` to eliminate internal near-duplication with Month 1 Day 3.
 - **2026-11-11:** Published Month 1 Days `009`–`015` (7 articles, ~8,246 words, 7/7 passing 18/18 audit). Total live: **15 articles**. Internal links verified across all 15; related-teaching handoffs point to live siblings.
-- **Next batch queued:** Month 1 Days `016`–`022` (*The Transformation You Never Earned* through *Washed, Sanctified, Justified — In That Order*).
+- **2026-11-17:** Published Month 1 Days `016`–`022` (7 articles, ~7,685 words, 7/7 passing 18/18 audit). Total live: **22 articles**; build 43 pages, 0 broken internal links.
+- **Next batch queued:** Month 1 Days `023`–`031` (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
