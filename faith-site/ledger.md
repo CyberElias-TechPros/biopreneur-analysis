@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–073 Live — Months 1–2 Complete, Month 3 Open)
+## 2. Published Articles Ledger (Days 001–080 Live — Months 1–2 Complete, Month 3 Open)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -116,6 +116,13 @@
 | 071 | M3·D71 | Great Faith Recognizes Authority | `/great-faith-recognizes-authority/` | Faith | Matt 8:8 | 1,114 | 46c / 151c | 18/18 ✔ | 2027-01-11 |
 | 072 | M3·D72 | The Prayer of Faith Restores the Weary | `/the-prayer-of-faith-restores-the-weary/` | Faith | James 5:15 | 907 | 38c / 154c | 18/18 ✔ | 2027-01-12 |
 | 073 | M3·D73 | Building Yourself Up on Your Most Holy Faith | `/building-yourself-up-on-your-most-holy-faith/` | Faith | Jude 1:20 | 965 | 44c / 154c | 18/18 ✔ | 2027-01-13 |
+| 074 | M3·D74 | Faith's Report vs the World's Report | `/faiths-report-vs-the-worlds-report/` | Faith | Num 13:30 | 956 | 49c / 144c | 18/18 ✔ | 2027-01-14 |
+| 075 | M3·D75 | He Did Not Stagger: The Anatomy of Unwavering Faith | `/he-did-not-stagger-the-anatomy-of-unwavering-faith/` | Faith | Rom 4:20 | 976 | 42c / 143c | 18/18 ✔ | 2027-01-15 |
+| 076 | M3·D76 | Nothing Shall Be Impossible to the Believing | `/nothing-shall-be-impossible-to-the-believing/` | Faith | Matt 17:20 | 1,003 | 43c / 152c | 18/18 ✔ | 2027-01-16 |
+| 077 | M3·D77 | According to Your Faith, Not Your Feeling | `/according-to-your-faith-not-your-feeling/` | Faith | Matt 9:29 | 960 | 41c / 147c | 18/18 ✔ | 2027-01-17 |
+| 078 | M3·D78 | The Just Shall Live by Faith — Daily | `/the-just-shall-live-by-faith-daily/` | Faith | Hab 2:4 | 954 | 36c / 149c | 18/18 ✔ | 2027-01-18 |
+| 079 | M3·D79 | Faith Bridges the Gap Between Promise and Manifestation | `/faith-bridges-the-gap-between-promise-and-manifestation/` | Faith | Heb 10:36 | 969 | 39c / 140c | 18/18 ✔ | 2027-01-19 |
+| 080 | M3·D80 | Fear Paralyzes; Faith Mobilizes | `/fear-paralyzes-faith-mobilizes/` | Faith | 2 Tim 1:7 | 997 | 31c / 143c | 18/18 ✔ | 2027-01-20 |
 
 ---
 
@@ -131,4 +138,5 @@
 - **2026-12-31:** Published Month 3 Days `060`–`066` (7 articles, ~6,697 words, 7/7 passing 18/18 audit). Total live: **66 articles**; build 87 pages, 0 broken internal links.
 - **2027-01-13:** Published Month 3 Days `067`–`073` (7 articles, ~6,741 words, 7/7 passing 18/18 audit). Total live: **73 articles**; build 94 pages, 0 broken internal links. Also cleaned **all 21 dangling forward `relatedTeachings` slugs** across Days 043, 061–071 — every related-teaching handoff now points to a live sibling (0 dangling).
 - **2027-01-13:** Normalised every `glossaryTerms` value against `glossary.md` — 7 articles (043, 047, 058, 066, 070, 072, 073) referenced `Christian Living`, `the Power of God`, `the Body of Christ`, `Praying in the Spirit`, or `the Love of God`, none of which are canonised glossary entries. Each replaced with a real term and defined in prose at first use; 0 invalid terms remain across all 73 articles.
-- **Next batch queued:** Month 3 Days `074`–`082` (*Faith's Report vs the World's Report* through *Hope Draws the Picture; Faith Builds the House*) to close Month 3.
+- **2027-01-20:** Published Month 3 Days `074`–`080` (7 articles, ~6,815 words, 7/7 passing 18/18 audit). Total live: **80 articles**; build 101 pages, 0 broken internal links; sitemap 100 URLs.
+- **Next batch queued:** Month 3 Days `081`–`090` (*The Shield That Quenches Every Fiery Dart* through *Hope Draws the Picture; Faith Builds the House*) to close Month 3.
