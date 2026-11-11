@@ -8,8 +8,8 @@ This repository holds two connected bodies of work:
 
 | Path | What it is |
 |---|---|
-| `faith-site/` | **Astro 6 web application** for *In Jesus Name* (111 static pages, Dawn/Ivory + Midnight/Gold themes, self-hosted variable Fraunces + Inter fonts, zero-CLS AdSense slots, RSS, sitemap, JSON-LD) |
-| `faith-site/articles/` | Published Markdown teaching articles (`001`–`090`, Months 1–3 complete, Month 4 next — all verified 18/18) |
+| `faith-site/` | **Astro 6 web application** for *In Jesus Name* (118 static pages, Dawn/Ivory + Midnight/Gold themes, self-hosted variable Fraunces + Inter fonts, zero-CLS AdSense slots, RSS, sitemap, JSON-LD) |
+| `faith-site/articles/` | Published Markdown teaching articles (`001`–`097`, Months 1–3 complete, Month 4 in progress — all verified 18/18) |
 | `faith-site/glossary.md` | Site Glossary v1 — 36 core doctrinal terms, scripture anchors, and boundaries (`/glossary/`) |
 | `faith-site/ledger.md` | Used-title & publication ledger (30 excluded source titles + published article metrics) |
 | `faith-site/WIREFRAMES.md` | Low-fi structural wireframes & 12-column Swiss grid / 680px reading-column layouts |

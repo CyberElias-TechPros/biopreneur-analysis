@@ -133,6 +133,13 @@
 | 088 | M3·D88 | Holding Fast the Confession Without Wavering | `/holding-fast-the-confession-without-wavering/` | Faith | Heb 10:23 | 913 | 44c / 144c | 18/18 ✔ | 2027-01-28 |
 | 089 | M3·D89 | From Faith to Faith: The Levels of Trust | `/from-faith-to-faith-the-levels-of-trust/` | Faith | Rom 1:17 | 913 | 33c / 154c | 18/18 ✔ | 2027-01-29 |
 | 090 | M3·D90 | Hope Draws the Picture; Faith Builds the House | `/hope-draws-the-picture-faith-builds-the-house/` | Faith | Heb 6:19 | 928 | 46c / 142c | 18/18 ✔ | 2027-01-30 |
+| 091 | M4·D91 | Authority Is Delegated, Not Manufactured | `/authority-is-delegated-not-manufactured/` | Authority of the Believer | Luke 9:1 | 932 | 40c / 155c | 18/18 ✔ | 2027-01-31 |
+| 092 | M4·D92 | The Name of Jesus: Heaven's Legal Instrument | `/the-name-of-jesus-heavens-legal-instrument/` | Authority of the Believer | Phil 2:9–10 | 973 | 44c / 152c | 18/18 ✔ | 2027-02-01 |
+| 093 | M4·D93 | Darkness Recognizes Authority It Cannot Resist | `/darkness-recognizes-authority-it-cannot-resist/` | Authority of the Believer | Luke 4:36 | 971 | 41c / 154c | 18/18 ✔ | 2027-02-02 |
+| 094 | M4·D94 | Saved From the Power, Given the Power | `/saved-from-the-power-given-the-power/` | Authority of the Believer | Col 1:13 | 945 | 37c / 143c | 18/18 ✔ | 2027-02-03 |
+| 095 | M4·D95 | Binding and Loosing: Heaven's Endorsement of Your Word | `/binding-and-losing-heavens-endorsement-of-your-word/` | Authority of the Believer | Matt 18:18 | 962 | 35c / 144c | 18/18 ✔ | 2027-02-04 |
+| 096 | M4·D96 | You Fight From Victory, Not For It | `/you-fight-from-victory-not-for-it/` | Authority of the Believer | Col 2:15 | 961 | 34c / 151c | 18/18 ✔ | 2027-02-05 |
+| 097 | M4·D97 | Dominion Was the First Mandate | `/dominion-was-the-first-mandate/` | Authority of the Believer | Gen 1:26 | 933 | 45c / 148c | 18/18 ✔ | 2027-02-06 |
 
 ---
 
@@ -150,4 +157,5 @@
 - **2027-01-13:** Normalised every `glossaryTerms` value against `glossary.md` — 7 articles (043, 047, 058, 066, 070, 072, 073) referenced `Christian Living`, `the Power of God`, `the Body of Christ`, `Praying in the Spirit`, or `the Love of God`, none of which are canonised glossary entries. Each replaced with a real term and defined in prose at first use; 0 invalid terms remain across all 73 articles.
 - **2027-01-20:** Published Month 3 Days `074`–`080` (7 articles, ~6,815 words, 7/7 passing 18/18 audit). Total live: **80 articles**; build 101 pages, 0 broken internal links; sitemap 100 URLs.
 - **2027-01-30:** Published Month 3 Days `081`–`090` (10 articles, ~9,231 words, 10/10 passing 18/18 audit). **Month 3 complete — 90 articles live**; build 111 pages, 0 broken internal links; sitemap 110 URLs. Arc *Faith: The Attitude and Action of Trust* closed with *Hope Draws the Picture; Faith Builds the House*.
-- **Next batch queued:** Month 4 Days `091`–`099` (*The Authority of the Believer* — delegated dominion in the Name, the position, and the finished fight).
+- **2027-02-06:** Published Month 4 Days `091`–`097` (7 articles, ~6,527 words, 7/7 passing 18/18 audit). Total live: **97 articles**; build 118 pages, 0 broken internal links; sitemap 117 URLs. Month 4 *The Authority of the Believer* opened — delegation, the Name, the transfer of kingdom, binding and loosing, victory already won, and the dominion mandate.
+- **Next batch queued:** Month 4 Days `098`–`104` (*The Keys of the Kingdom Are in Your Hand* through *Christ in You: The Hope of Glory, the Power of Now*).

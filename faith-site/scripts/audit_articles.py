@@ -78,6 +78,14 @@ def fm_block_terms(raw: str) -> str:
     return m.group(1) if m else ""
 
 
+def load_categories(site_dir: str):
+    path = os.path.join(site_dir, "src", "data", "categories.ts")
+    if not os.path.exists(path):
+        return set()
+    txt = open(path, encoding="utf-8").read()
+    return {m.strip() for m in re.findall(r"^\s*name: '([^']+)',", txt, flags=re.M)}
+
+
 def load_glossary_terms(site_dir: str):
     path = os.path.join(site_dir, "glossary.md")
     if not os.path.exists(path):
@@ -107,6 +115,7 @@ def main():
     articles_dir = os.path.join(site_dir, "articles")
     source_titles = load_source_titles(repo_root)
     glossary_terms = load_glossary_terms(site_dir)
+    categories = load_categories(site_dir)
     published_slugs = load_published_slugs(articles_dir)
 
     files = sorted(glob.glob(os.path.join(articles_dir, "*.md")))
@@ -203,6 +212,10 @@ def main():
             if sl not in published_slugs:
                 errors.append(f"relatedTeaching slug '{sl}' is not published")
 
+        # Category must match a real category page (or the article 404s from its category).
+        if categories and fm.get("category") not in categories:
+            errors.append(f"category '{fm.get('category')}' is not in categories.ts")
+
         # Every glossaryTerms value must be a canonised entry in glossary.md.
         if glossary_terms:
             for term in re.findall(r'^  - "(.+)"$', fm_block_terms(raw), flags=re.M):
@@ -220,7 +233,7 @@ def main():
     if failures:
         print(f"\nFAILED: {failures} article(s) had audit errors.")
         sys.exit(1)
-    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, length, voice, link-integrity, glossary, and compliance check.")
+    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, length, voice, link-integrity, glossary, category, and compliance check.")
 
 
 if __name__ == "__main__":
