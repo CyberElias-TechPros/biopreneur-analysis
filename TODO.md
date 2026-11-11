@@ -79,7 +79,7 @@
 - ✔ F2. Scrape removed from repo + git history (filter-repo, force-pushed) — copyright risk eliminated; `.gitignore` keeps it local-only. Remaining scratch files (curl_config.txt, curl_test.txt, allofit.txt) still to tidy.
 - ☐ F3. Keep repo synced: commit after every content/design batch
 - ☐ F4. README update as project evolves
-- ☐ F5. Visibility decision ⏸: repo stays private while it contains the full third-party scrape
+- ☐ F5. ✔ Visibility decision: repo is **public** (scrape purged from repo + history first, so no third-party content is exposed)
 
 ## CURRENT SPRINT (next actions, in order)
 1. B1 wireframes → B3/B4 tokens → B7 article template build (design comes first; content shell next)
