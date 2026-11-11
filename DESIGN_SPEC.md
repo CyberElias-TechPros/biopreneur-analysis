@@ -124,6 +124,7 @@ From the full design-style catalogue, the chosen combination is:
 
 ## 8. AD SENSE SLOT STYLING (B12)
 
+- Publisher wiring: **`ca-pub-9124992249317290`** — canonical snippet, ads.txt line, and ad-unit pattern live in `faith-site/adsense.html`. Head snippet goes on every page; ads.txt (`google.com, pub-9124992249317290, DIRECT, f08c47fec0942fa0`) deploys at the root.
 - 3 content-embedded slots (after theme block · mid-article · before Related Teaching).
 - Containers are **reserved-height** (min-height locked, `contain: layout`) → zero CLS.
 - Slot chrome: hairline top rule + tiny caps label "ADVERTISEMENT" — matching the editorial system, invisible to policy reviewers as "deceptive".

@@ -188,7 +188,7 @@ New Creation & Identity · The Holy Spirit · Faith · Authority of the Believer
 Header nav (Home / Teachings / About / Doctrinal Basis / Privacy / Contact) → meta line (date · teacher byline · category) → H1 → theme scripture block → body → Reaffirmation → Declaration → Further Study → Related Teaching ×3 → Previous/Next → author box (photo + 3-sentence bio + doctrinal statement link) → footer (copyright year · privacy link).
 
 ### 10.4 AdSense & policy discipline
-- Ads: 3 content-embedded slots max (after the theme block or first section · mid · before Related Teaching). Never inside the Declaration or between heading and first paragraph. Content-first ratio.
+- Ads: 3 content-embedded slots max (after the theme block or first section · mid · before Related Teaching). Never inside the Declaration or between heading and first paragraph. Content-first ratio. Publisher wiring: `ca-pub-9124992249317290` — canonical head snippet, ads.txt line, and ad-unit pattern in `faith-site/adsense.html`; deployed after account approval.
 - **Unreliable-claims shield (critical for faith content):** frame teachings as doctrine and principle ("The Word teaches…", "our position in Christ is…"), never as guaranteed outcomes ("declare this and your business will succeed"). Where practical life intersects (health, finance, safety), include the faith-and-wisdom line: faith works with responsibility — prayer and wisdom, confession and diligence, healing and sound care.
 - No divisive attacks on denominations, persons, or groups; spiritual-warfare teaching targets *the defeated works of darkness*, never people.
 - Freshness: publish 3–5 articles/week (sustainable), refresh "Updated" stamps yearly; never mass-dump 30 posts in one day.

@@ -66,7 +66,7 @@
 ## E. SEO, ADSENSE & COMPLIANCE
 
 - ☐ E1. Verify every article ships meta description 140–158 chars + ≤60-char SEO title (batch QA script)
-- ☐ E2. ads.txt + AdSense pub-ID wiring after account approval; ads in 3 content-embedded slots only
+- ☐ E2. AdSense wiring with owner pub-ID **`ca-pub-9124992249317290`** (canonical snippet in `faith-site/adsense.html`): head script on all pages, ads.txt at root, 3 content-embedded slots only — deployed after account approval
 - ☐ E3. Pre-application audit vs the 15-factor checklist in ADSENSE_REVIEW.md (author/privacy/contact/nav/depth)
 - ☐ E4. Unreliable-claims sweep: no outcome guarantees anywhere; faith-and-wisdom lines present where practical life touched
 - ☐ E5. Copyright sweep: zero source-devotional phrasing (spot-check 10% of corpus each month)
