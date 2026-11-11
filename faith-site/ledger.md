@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Month 1 · Days 001–031 Live — Arc 1 Complete)
+## 2. Published Articles Ledger (Days 001–040 Live — Month 1 Complete, Month 2 in Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -74,6 +74,15 @@
 | 029 | M1·D29 | Reckon It So: Count What God Counts | `/reckon-it-so-count-what-god-counts/` | New Creation & Identity | Rom 6:11 | 955 | 49c / 145c | 18/18 ✔ | 2026-11-30 |
 | 030 | M1·D30 | The Mirror of the Word: Seeing Your Real Self | `/the-mirror-of-the-word-seeing-your-real-self/` | The Word | James 1:23 | 1,008 | 58c / 144c | 18/18 ✔ | 2026-12-01 |
 | 031 | M1·D31 | Start the Year From Your Spirit | `/start-the-year-from-your-spirit/` | Christian Living | Philemon 1:6 | 988 | 46c / 147c | 18/18 ✔ | 2026-12-02 |
+| 032 | M2·D32 | He Is Not a Wind, a Wave, or a Whisper | `/he-is-not-a-wind-a-wave-or-a-whisper/` | The Holy Spirit | John 14:26 | 980 | 51c / 143c | 18/18 ✔ | 2026-12-03 |
+| 033 | M2·D33 | The Comforter You Already Have | `/the-comforter-you-already-have/` | The Holy Spirit | John 14:16 | 946 | 43c / 149c | 18/18 ✔ | 2026-12-04 |
+| 034 | M2·D34 | The Spirit of Truth Guides Into All Truth | `/the-spirit-of-truth-guides-into-all-truth/` | The Holy Spirit | John 16:13 | 1,034 | 54c / 147c | 18/18 ✔ | 2026-12-05 |
+| 035 | M2·D35 | Communion With the Spirit: The Purpose of His Presence | `/communion-with-the-spirit-the-purpose-of-his-presence/` | The Holy Spirit | 2 Cor 13:14 | 949 | 54c / 146c | 18/18 ✔ | 2026-12-06 |
+| 036 | M2·D36 | The Spirit of Glory Rests Upon You | `/the-spirit-of-glory-rests-upon-you/` | The Holy Spirit | 1 Pet 4:14 | 935 | 49c / 152c | 18/18 ✔ | 2026-12-07 |
+| 037 | M2·D37 | He Convicts the World; He Comforts the Church | `/he-convicts-the-world-he-comforts-the-church/` | The Holy Spirit | John 16:8 | 965 | 57c / 143c | 18/18 ✔ | 2026-12-08 |
+| 038 | M2·D38 | Rivers of Living Water: The Flow You Did Not Earn | `/rivers-of-living-water-the-flow-you-did-not-earn/` | The Holy Spirit | John 7:38 | 909 | 49c / 148c | 18/18 ✔ | 2026-12-09 |
+| 039 | M2·D39 | Be Filled: The Command in the Continuing Tense | `/be-filled-the-command-in-the-continuing-tense/` | The Holy Spirit | Eph 5:18 | 901 | 57c / 140c | 18/18 ✔ | 2026-12-10 |
+| 040 | M2·D40 | The Anointing Abides and Teaches | `/the-anointing-abides-and-teaches/` | The Holy Spirit | 1 John 2:27 | 920 | 46c / 144c | 18/18 ✔ | 2026-12-11 |
 
 ---
 
@@ -83,4 +92,5 @@
 - **2026-11-11:** Published Month 1 Days `009`–`015` (7 articles, ~8,246 words, 7/7 passing 18/18 audit). Total live: **15 articles**. Internal links verified across all 15; related-teaching handoffs point to live siblings.
 - **2026-11-17:** Published Month 1 Days `016`–`022` (7 articles, ~7,685 words, 7/7 passing 18/18 audit). Total live: **22 articles**; build 43 pages, 0 broken internal links.
 - **2026-11-24:** Published Month 1 Days `023`–`031` (9 articles, ~9,048 words, 9/9 passing 18/18 audit). **Month 1 complete — 31 articles live (~34,600 words)**; build 52 pages, 0 broken internal links.
-- **Next batch queued:** Month 2 Days `032`–`038` (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
+- **2026-12-03:** Published Month 2 Days `032`–`040` (9 articles, ~8,539 words, 9/9 passing 18/18 audit). Total live: **40 articles**; build 61 pages, 0 broken internal links.
+- **Next batch queued:** Month 2 Days `041`–`047` (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
