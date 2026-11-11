@@ -48,7 +48,7 @@ relatedTeachings:
     handoff: "Trace the growth from one measure to the next."
 glossaryTerms:
   - "the Life of Faith"
-  - "Christian Living"
+  - "the Supernatural Life"
   - "the Word of God"
 featuredImageAlt: "Faith Grows by Use, Not by Age — Luke 17:5"
 ---
@@ -61,7 +61,7 @@ The disciples made that prayer in Luke 17:5: "**Increase our faith**." Here is t
 
 Jesus' answer is surprising. He does not hand them a larger measure; He tells them about a mustard seed and a sycamore tree, and then He tells them about a servant doing his duty. The increase they asked for comes through a different route than they expected.
 
-**The Life of Faith** — a life ordered by God's declarations — is a practice, not a possession. **Christian Living** — daily conduct — is the gym where faith is exercised. **The Word of God** — the standard you obey — is the load you lift against.
+**The Life of Faith** — a life ordered by God's declarations — is a practice, not a possession. **The Supernatural Life** — God's life expressed through ordinary conduct — is the gym where faith is exercised. **The Word of God** — the standard you obey — is the load you lift against.
 
 Romans 12:3 says God has dealt to every man "the measure of faith." You have a measure. The question is not whether you received one but whether you are using it.
 
@@ -149,7 +149,7 @@ Peter's account of his own growth is instructive here. He stepped out of a boat 
 | 12 | Original Declaration/Confession | 40–80 words | ✔ 50 words |
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
-| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, Christian Living, the Word of God |
+| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, the Supernatural Life, the Word of God |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 30c · Meta 146c |
 | 17 | Words | ≥900 (Standard) | ✔ ~950 words |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |

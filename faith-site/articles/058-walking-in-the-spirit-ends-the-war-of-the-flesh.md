@@ -48,7 +48,7 @@ relatedTeachings:
     handoff: "Draw on resurrection power for the fight."
 glossaryTerms:
   - "the Life of the Spirit"
-  - "Christian Living"
+  - "the Supernatural Life"
   - "the Divine Nature"
 featuredImageAlt: "Walking in the Spirit Ends the War of the Flesh — Galatians 5:16"
 ---
@@ -61,7 +61,7 @@ Galatians 5:16 offers a different strategy: "This I say then, **Walk in the Spir
 
 Paul does not say "fight the flesh and you will not fulfil it." He says walk in the Spirit — a metaphor of movement, direction, and companionship. A walk is made of steps, not leaps, and it continues rather than concludes.
 
-**The Life of the Spirit** — the Spirit's own life ordering your thoughts and conduct — is the path. **Christian Living** — the daily conduct of a believer — is where the walk happens. **The Divine Nature** — God's own nature imparted to your spirit — is the life that makes walking possible.
+**The Life of the Spirit** — the Spirit's own life ordering your thoughts and conduct — is the path. **The Supernatural Life** — God's own life expressed through daily conduct — is where the walk happens. **The Divine Nature** — God's own nature imparted to your spirit — is the life that makes walking possible.
 
 The contrast Paul draws is between two directions, not two equal powers. The flesh and the Spirit are contrary to one another (verse 17), and you choose which to follow in each moment. Walking is a series of choices, not one heroic decision.
 
@@ -145,7 +145,7 @@ Three witnesses, one strategy: spiritual-mindedness, no provision, and honest wa
 | 12 | Original Declaration/Confession | 40–80 words | ✔ 51 words |
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
-| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of the Spirit, Christian Living, the Divine Nature |
+| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of the Spirit, the Supernatural Life, the Divine Nature |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 55c · Meta 150c |
 | 17 | Words | ≥900 (Standard) | ✔ ~1,050 words |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |

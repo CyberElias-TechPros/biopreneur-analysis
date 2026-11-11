@@ -48,8 +48,8 @@ relatedTeachings:
     handoff: "Learn the language in which faith prays."
 glossaryTerms:
   - "the Life of Faith"
-  - "the Power of God"
-  - "the Body of Christ"
+  - "the Power of the Holy Spirit"
+  - "Divine Wholeness"
 featuredImageAlt: "The Prayer of Faith Restores the Weary — James 5:15"
 ---
 
@@ -59,7 +59,7 @@ Some prayers are whispered in a hospital corridor at two in the morning. No litu
 
 ## The Sick Man Is Also the Weary Man
 
-The word James uses for "sick" pictures someone worn down, exhausted, without strength to keep going. It is not only a medical category. **The Life of Faith** — a life ordered by God's declarations — includes the tired body and the discouraged mind, not just the crisis moment. **The Power of God** — His ability working on behalf of His people — is what the prayer reaches for. **The Body of Christ** — believers joined as one — is the setting James assumes.
+The word James uses for "sick" pictures someone worn down, exhausted, without strength to keep going. It is not only a medical category. **The Life of Faith** — a life ordered by God's declarations — includes the tired body and the discouraged mind, not just the crisis moment. **The Power of the Holy Spirit** — His ability working on behalf of God's people — is what the prayer reaches for. **Divine Wholeness** — the whole-person restoration God gives — is the setting James assumes.
 
 That matters, because James does not describe a solo performance. He says, "Is any sick among you? let him call for the elders of the church; and let them pray over him, anointing him with oil in the name of the Lord" (James 5:14). The initiative belongs to the one who is weak. The strength comes from the gathered.
 
@@ -143,7 +143,7 @@ Faith is also not a burden laid on the sick to manufacture enough certainty. The
 | 12 | Original Declaration/Confession | 40–80 words | ✔ 58 words |
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
-| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, the Power of God, the Body of Christ |
+| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, the Power of the Holy Spirit, Divine Wholeness |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 38c · Meta 154c |
 | 17 | Words | ≥900 (Standard) | ✔ ~980 words |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |

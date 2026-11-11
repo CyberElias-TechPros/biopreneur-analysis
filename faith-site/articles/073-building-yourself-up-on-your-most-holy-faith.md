@@ -48,8 +48,8 @@ relatedTeachings:
     handoff: "Understand growth as exercise rather than time."
 glossaryTerms:
   - "the Life of Faith"
-  - "Praying in the Spirit"
-  - "the Love of God"
+  - "the Life of the Spirit"
+  - "Communion With the Holy Spirit"
 featuredImageAlt: "Building Yourself Up on Your Most Holy Faith — Jude 1:20"
 ---
 
@@ -69,7 +69,7 @@ Think of a lighthouse on a rock. The storms do not ask the keeper's permission, 
 
 "Building up yourselves" is an instruction, and it puts the trowel in your hand. Nobody can eat for you, and nobody can believe for you. Your pastor can teach, your friends can pray, but the daily construction is yours.
 
-**Praying in the Spirit** — prayer in the language the Holy Spirit gives, whether in known words or in tongues — is Jude's stated method. He does not say build by worrying about the future or by arguing with the infiltrators. He says build by praying. **The Love of God** — His own love poured into the heart — is the atmosphere in which the building rises, which is why Jude immediately adds, "keep yourselves in the love of God" (Jude 1:21).
+**The Life of the Spirit** — the Spirit's own life ordering your prayer — is Jude's stated method, and he names it plainly: praying in the Holy Ghost. He does not say build by worrying about the future or by arguing with the infiltrators. He says build by praying. **Communion With the Holy Spirit** — ongoing personal fellowship with Him — is the atmosphere in which the building rises, which is why Jude immediately adds, "keep yourselves in the love of God" (Jude 1:21).
 
 Colossians 2:7 describes the same project from another angle: "Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving." Rooted below, built above, established within, overflowing outward.
 
@@ -145,7 +145,7 @@ These questions are not meant to produce shame. They are meant to hand you back 
 | 12 | Original Declaration/Confession | 40–80 words | ✔ 54 words |
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
-| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, Praying in the Spirit, the Love of God |
+| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, the Life of the Spirit, Communion With the Holy Spirit |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 44c · Meta 154c |
 | 17 | Words | ≥900 (Standard) | ✔ ~960 words |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |

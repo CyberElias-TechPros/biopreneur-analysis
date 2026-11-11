@@ -49,7 +49,7 @@ relatedTeachings:
 glossaryTerms:
   - "the Life of the Spirit"
   - "the Divine Nature"
-  - "Christian Living"
+  - "the Supernatural Life"
 featuredImageAlt: "The Fruit Is One; the Expressions Are Many — Galatians 5:22"
 ---
 
@@ -61,7 +61,7 @@ Paul's grammar says something different. He writes, "the **fruit** of the Spirit
 
 In the original language, *karpos* is singular, followed by nine nouns describing one harvest. The picture is not nine separate trees but one tree bearing fruit with varied qualities. Love, joy, peace, longsuffering, gentleness, goodness, faith, meekness, and temperance are not separate assignments; they are the character of Christ expressed in different situations.
 
-**The Life of the Spirit** — the Spirit's own life ordering your thoughts, desires, and conduct — produces this fruit. **The Divine Nature** — God's own nature imparted to your reborn spirit — is the root from which it grows. Fruit is not manufactured by effort; it is borne by life.
+**The Life of the Spirit** — the Spirit's own life ordering your thoughts, desires, and conduct — produces this fruit. **The Divine Nature** — God's own nature imparted to your reborn spirit — is the root from which it grows. Fruit is not manufactured by effort; it is borne by life. **The Supernatural Life** — the life of God expressed through ordinary human conduct — is what the fruit makes visible in a kitchen, an office, and a conversation.
 
 Think of an orange. You do not produce sweetness, colour, and juice as three separate projects; they all come from one tree drawing from one root. When the root is healthy, the fruit is whole. Paul says the same about character: one root, one life, many expressions.
 
@@ -143,7 +143,7 @@ Three witnesses, one harvest: branches abide, fruit is unified, and diligence co
 | 12 | Original Declaration/Confession | 40–80 words | ✔ 53 words |
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
-| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of the Spirit, the Divine Nature, Christian Living |
+| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of the Spirit, the Divine Nature, the Supernatural Life |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 55c · Meta 150c |
 | 17 | Words | ≥900 (Standard) | ✔ ~1,060 words |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |

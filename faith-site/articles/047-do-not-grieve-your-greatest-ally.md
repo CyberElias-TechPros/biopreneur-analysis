@@ -49,7 +49,7 @@ relatedTeachings:
 glossaryTerms:
   - "Communion With the Holy Spirit"
   - "the Presence of God"
-  - "Christian Living"
+  - "the Life of the Spirit"
 featuredImageAlt: "Do Not Grieve Your Greatest Ally — Ephesians 4:30"
 ---
 
@@ -61,7 +61,7 @@ Ephesians 4:30 says, "And **grieve not the holy Spirit of God**, whereby ye are 
 
 You cannot grieve a force. You can overload a circuit, ignore a signal, or misuse a tool, but you cannot hurt them. Grief belongs to relationship: it is the response of love to distance or betrayal. Paul's word assumes that the Spirit loves you and feels the distance your choices create.
 
-**Communion With the Holy Spirit** — ongoing personal fellowship — is what grief threatens. **The Presence of God** — God's manifest nearness — is not withdrawn, but fellowship is strained. **Christian Living** — the daily conduct of a believer — is the arena where fellowship is either protected or wounded.
+**Communion With the Holy Spirit** — ongoing personal fellowship — is what grief threatens. **The Presence of God** — God's manifest nearness — is not withdrawn, but fellowship is strained. **The Life of the Spirit** — the Spirit's own life within you — is the fellowship that grief wounds and obedience protects.
 
 Notice the security in the verse: "whereby ye are sealed unto the day of redemption." Paul is not threatening loss of salvation. He is appealing to a sealed relationship: you belong to Him permanently, so do not wound the One who secured you.
 
@@ -143,7 +143,7 @@ Three witnesses, one appeal: do not quench, do not vex, do not presume on His pr
 | 12 | Original Declaration/Confession | 40–80 words | ✔ 55 words |
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
-| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — Communion With the Holy Spirit, the Presence of God, Christian Living |
+| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — Communion With the Holy Spirit, the Presence of God, the Life of the Spirit |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 44c · Meta 150c |
 | 17 | Words | ≥900 (Standard) | ✔ ~1,070 words |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |

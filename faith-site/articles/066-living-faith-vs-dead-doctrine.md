@@ -48,7 +48,7 @@ relatedTeachings:
     handoff: "Feed the faith that acts."
 glossaryTerms:
   - "the Life of Faith"
-  - "Christian Living"
+  - "Faith and Wisdom"
   - "Kingdom Stewardship"
 featuredImageAlt: "Living Faith vs Dead Doctrine — James 2:26"
 ---
@@ -61,7 +61,7 @@ James 2:26 says, "For as the body without the spirit is dead, so **faith without
 
 James uses a striking analogy. A body without breath is not a lesser body; it is a corpse. The form remains, but the life is gone. So it is with faith that never produces action: the vocabulary is intact, the categories are correct, and the life is absent.
 
-**The Life of Faith** — a life ordered by God's declarations — is necessarily active. **Christian Living** — daily conduct — is where faith becomes visible. **Kingdom Stewardship** — managing life, gifts, and resources as a steward — is one of faith's most natural expressions, because stewardship requires trusting God enough to act.
+**The Life of Faith** — a life ordered by God's declarations — is necessarily active. **Faith and Wisdom** — faith that acts and wisdom that orders the action — is where believing becomes visible. **Kingdom Stewardship** — managing life, gifts, and resources as a steward — is one of faith's most natural expressions, because stewardship requires trusting God enough to act.
 
 Notice what James does *not* say. He does not say works save you; Paul settles that decisively in Ephesians 2:8–10. James says works demonstrate that faith is alive. The two apostles describe the same coin from different sides.
 
@@ -147,7 +147,7 @@ Three witnesses, one standard: faith working by love, work of faith, and profess
 | 12 | Original Declaration/Confession | 40–80 words | ✔ 47 words |
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
-| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, Christian Living, Kingdom Stewardship |
+| 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, Faith and Wisdom, Kingdom Stewardship |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 44c · Meta 150c |
 | 17 | Words | ≥900 (Standard) | ✔ ~950 words |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
