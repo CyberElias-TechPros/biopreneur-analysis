@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–080 Live — Months 1–2 Complete, Month 3 Open)
+## 2. Published Articles Ledger (Days 001–090 Live — Months 1–3 Complete, Month 4 Next)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -123,6 +123,16 @@
 | 078 | M3·D78 | The Just Shall Live by Faith — Daily | `/the-just-shall-live-by-faith-daily/` | Faith | Hab 2:4 | 954 | 36c / 149c | 18/18 ✔ | 2027-01-18 |
 | 079 | M3·D79 | Faith Bridges the Gap Between Promise and Manifestation | `/faith-bridges-the-gap-between-promise-and-manifestation/` | Faith | Heb 10:36 | 969 | 39c / 140c | 18/18 ✔ | 2027-01-19 |
 | 080 | M3·D80 | Fear Paralyzes; Faith Mobilizes | `/fear-paralyzes-faith-mobilizes/` | Faith | 2 Tim 1:7 | 997 | 31c / 143c | 18/18 ✔ | 2027-01-20 |
+| 081 | M3·D81 | Faith Is the Evidence; Feelings Are Not | `/faith-is-the-evidence-feelings-are-not/` | Faith | Heb 11:1 | 913 | 36c / 156c | 18/18 ✔ | 2027-01-21 |
+| 082 | M3·D82 | The Shield That Quenches Every Fiery Dart | `/the-shield-that-quenches-every-fiery-dart/` | Faith | Eph 6:16 | 917 | 36c / 149c | 18/18 ✔ | 2027-01-22 |
+| 083 | M3·D83 | Confession and Denial: What Faith Really Says | `/confession-and-denial-what-faith-really-says/` | Faith | Rom 10:10 | 936 | 38c / 153c | 18/18 ✔ | 2027-01-23 |
+| 084 | M3·D84 | Faith Sees the Unseen | `/faith-sees-the-unseen/` | Faith | 2 Cor 4:18 | 946 | 42c / 144c | 18/18 ✔ | 2027-01-24 |
+| 085 | M3·D85 | Trust His Faithfulness, Not Your Performance | `/trust-his-faithfulness-not-your-performance/` | Faith | Lam 3:22–23 | 910 | 44c / 150c | 18/18 ✔ | 2027-01-25 |
+| 086 | M3·D86 | Without Faith It Is Impossible to Please Him | `/without-faith-it-is-impossible-to-please-him/` | Faith | Heb 11:6 | 941 | 44c / 150c | 18/18 ✔ | 2027-01-26 |
+| 087 | M3·D87 | Show Me Your Faith: Works Are Faith Visible | `/show-me-your-faith-works-are-faith-visible/` | Faith | James 2:18 | 914 | 31c / 146c | 18/18 ✔ | 2027-01-27 |
+| 088 | M3·D88 | Holding Fast the Confession Without Wavering | `/holding-fast-the-confession-without-wavering/` | Faith | Heb 10:23 | 913 | 44c / 144c | 18/18 ✔ | 2027-01-28 |
+| 089 | M3·D89 | From Faith to Faith: The Levels of Trust | `/from-faith-to-faith-the-levels-of-trust/` | Faith | Rom 1:17 | 913 | 33c / 154c | 18/18 ✔ | 2027-01-29 |
+| 090 | M3·D90 | Hope Draws the Picture; Faith Builds the House | `/hope-draws-the-picture-faith-builds-the-house/` | Faith | Heb 6:19 | 928 | 46c / 142c | 18/18 ✔ | 2027-01-30 |
 
 ---
 
@@ -139,4 +149,5 @@
 - **2027-01-13:** Published Month 3 Days `067`–`073` (7 articles, ~6,741 words, 7/7 passing 18/18 audit). Total live: **73 articles**; build 94 pages, 0 broken internal links. Also cleaned **all 21 dangling forward `relatedTeachings` slugs** across Days 043, 061–071 — every related-teaching handoff now points to a live sibling (0 dangling).
 - **2027-01-13:** Normalised every `glossaryTerms` value against `glossary.md` — 7 articles (043, 047, 058, 066, 070, 072, 073) referenced `Christian Living`, `the Power of God`, `the Body of Christ`, `Praying in the Spirit`, or `the Love of God`, none of which are canonised glossary entries. Each replaced with a real term and defined in prose at first use; 0 invalid terms remain across all 73 articles.
 - **2027-01-20:** Published Month 3 Days `074`–`080` (7 articles, ~6,815 words, 7/7 passing 18/18 audit). Total live: **80 articles**; build 101 pages, 0 broken internal links; sitemap 100 URLs.
-- **Next batch queued:** Month 3 Days `081`–`090` (*The Shield That Quenches Every Fiery Dart* through *Hope Draws the Picture; Faith Builds the House*) to close Month 3.
+- **2027-01-30:** Published Month 3 Days `081`–`090` (10 articles, ~9,231 words, 10/10 passing 18/18 audit). **Month 3 complete — 90 articles live**; build 111 pages, 0 broken internal links; sitemap 110 URLs. Arc *Faith: The Attitude and Action of Trust* closed with *Hope Draws the Picture; Faith Builds the House*.
+- **Next batch queued:** Month 4 Days `091`–`099` (*The Authority of the Believer* — delegated dominion in the Name, the position, and the finished fight).
