@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–040 Live — Month 1 Complete, Month 2 in Progress)
+## 2. Published Articles Ledger (Days 001–050 Live — AdSense Floor Crossed)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -83,6 +83,16 @@
 | 038 | M2·D38 | Rivers of Living Water: The Flow You Did Not Earn | `/rivers-of-living-water-the-flow-you-did-not-earn/` | The Holy Spirit | John 7:38 | 909 | 49c / 148c | 18/18 ✔ | 2026-12-09 |
 | 039 | M2·D39 | Be Filled: The Command in the Continuing Tense | `/be-filled-the-command-in-the-continuing-tense/` | The Holy Spirit | Eph 5:18 | 901 | 57c / 140c | 18/18 ✔ | 2026-12-10 |
 | 040 | M2·D40 | The Anointing Abides and Teaches | `/the-anointing-abides-and-teaches/` | The Holy Spirit | 1 John 2:27 | 920 | 46c / 144c | 18/18 ✔ | 2026-12-11 |
+| 041 | M2·D41 | Sensitivity: The Lost Art of Listening to God | `/sensitivity-the-lost-art-of-listening-to-god/` | The Holy Spirit | Isa 30:21 | 947 | 60c / 141c | 18/18 ✔ | 2026-12-12 |
+| 042 | M2·D42 | Led by the Spirit: The Privilege of Sons | `/led-by-the-spirit-the-privilege-of-sons/` | The Holy Spirit | Rom 8:14 | 973 | 54c / 143c | 18/18 ✔ | 2026-12-13 |
+| 043 | M2·D43 | The Fruit Is One; the Expressions Are Many | `/the-fruit-is-one-the-expressions-are-many/` | The Holy Spirit | Gal 5:22 | 968 | 59c / 143c | 18/18 ✔ | 2026-12-14 |
+| 044 | M2·D44 | The Gifts Are Given, Not Earned | `/the-gifts-are-given-not-earned/` | The Holy Spirit | 1 Cor 12:7 | 941 | 52c / 154c | 18/18 ✔ | 2026-12-15 |
+| 045 | M2·D45 | Praying in the Spirit: Your Supernatural Language | `/praying-in-the-spirit-your-supernatural-language/` | The Holy Spirit | 1 Cor 14:14 | 972 | 49c / 155c | 18/18 ✔ | 2026-12-16 |
+| 046 | M2·D46 | The Spirit Helps Your Weakness | `/the-spirit-helps-your-weakness/` | The Holy Spirit | Rom 8:26 | 923 | 44c / 145c | 18/18 ✔ | 2026-12-17 |
+| 047 | M2·D47 | Do Not Grieve Your Greatest Ally | `/do-not-grieve-your-greatest-ally/` | The Holy Spirit | Eph 4:30 | 971 | 49c / 146c | 18/18 ✔ | 2026-12-18 |
+| 048 | M2·D48 | The Spirit of Adoption Cries Abba | `/the-spirit-of-adoption-cries-abba/` | The Holy Spirit | Gal 4:6 | 915 | 49c / 145c | 18/18 ✔ | 2026-12-19 |
+| 049 | M2·D49 | Power After the Holy Ghost Is Come Upon You | `/power-after-the-holy-ghost-is-come-upon-you/` | The Holy Spirit | Acts 1:8 | 940 | 54c / 140c | 18/18 ✔ | 2026-12-20 |
+| 050 | M2·D50 | He Searches the Deep Things of God | `/he-searches-the-deep-things-of-god/` | The Holy Spirit | 1 Cor 2:10 | 1,003 | 55c / 146c | 18/18 ✔ | 2026-12-21 |
 
 ---
 
@@ -93,4 +103,5 @@
 - **2026-11-17:** Published Month 1 Days `016`–`022` (7 articles, ~7,685 words, 7/7 passing 18/18 audit). Total live: **22 articles**; build 43 pages, 0 broken internal links.
 - **2026-11-24:** Published Month 1 Days `023`–`031` (9 articles, ~9,048 words, 9/9 passing 18/18 audit). **Month 1 complete — 31 articles live (~34,600 words)**; build 52 pages, 0 broken internal links.
 - **2026-12-03:** Published Month 2 Days `032`–`040` (9 articles, ~8,539 words, 9/9 passing 18/18 audit). Total live: **40 articles**; build 61 pages, 0 broken internal links.
-- **Next batch queued:** Month 2 Days `041`–`047` (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
+- **2026-12-12:** Published Month 2 Days `041`–`050` (10 articles, ~9,484 words, 10/10 passing 18/18 audit). **50-article AdSense floor crossed**; build 71 pages, 0 broken internal links.
+- **Next batch queued:** Month 2 Days `051`–`059` (closing out: *When the Spirit Came* through *Grieve Not, Quench Not*) (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
