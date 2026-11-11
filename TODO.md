@@ -6,7 +6,7 @@
 
 ## A. FOUNDATION & SYSTEM (the engines)
 
-- ✔ A1. Scrape + analyze biopreneur.com.ng (1,143 pages) — done, in `scrape/` + `site_stats.csv`
+- ✔ A1. Scrape + analyze biopreneur.com.ng (1,143 pages) — done; analysis artifacts retained (`site_stats.csv`, `all_urls.txt`, sitemaps); raw HTML scrape removed from repo/git history, kept only as local working copy
 - ✔ A2. Pattern analysis & reproduction blueprint — `PATTERN_ANALYSIS.md`
 - ✔ A3. AdSense reviewer audit — `ADSENSE_REVIEW.md`
 - ✔ A4. Biopreneur-class publisher master prompt — `SUPER_PROMPT.md`
@@ -75,8 +75,8 @@
 
 ## F. REPO & HOUSEKEEPING
 
-- ✔ F1. GitHub repo created + full push (1,165 files) — CyberElias-TechPros/biopreneur-analysis
-- ☐ F2. Repo hygiene: move scratch files (curl_config.txt, curl_test.txt, allofit.txt) to /scratch/ or delete
+- ✔ F1. GitHub repo created + full push — CyberElias-TechPros/biopreneur-analysis
+- ✔ F2. Scrape removed from repo + git history (filter-repo, force-pushed) — copyright risk eliminated; `.gitignore` keeps it local-only. Remaining scratch files (curl_config.txt, curl_test.txt, allofit.txt) still to tidy.
 - ☐ F3. Keep repo synced: commit after every content/design batch
 - ☐ F4. README update as project evolves
 - ☐ F5. Visibility decision ⏸: repo stays private while it contains the full third-party scrape

@@ -1,0 +1,11 @@
+# Raw third-party site scrape — analysis complete; kept local only (copyright risk if published)
+scrape/
+
+# Scratch files
+curl_config.txt
+curl_test.txt
+allofit.txt
+
+# OS noise
+Thumbs.db
+Desktop.ini
