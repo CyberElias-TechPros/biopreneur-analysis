@@ -35,7 +35,7 @@
 
 ## C. SITE BUILD & INFRASTRUCTURE
 
-- ✔ C1. Stack implemented: **Astro 6** static site in `faith-site/` (71 static pages built in ~3s)
+- ✔ C1. Stack implemented: **Astro 6** static site in `faith-site/` (80 static pages built in ~4s)
 - ◐ C2. Domain decision ⏸ (placeholder `https://injesusname.org` configurable via `PUBLIC_SITE_URL`) + Vercel hosting ready
 - ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (working form + mailto dispatch) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
 - ✔ C4. SEO plumbing: `sitemap-index.xml`, `robots.txt`, `ads.txt`, canonicals, Open Graph/Twitter cards, `rss.xml`
@@ -47,8 +47,8 @@
 ## D. CONTENT PRODUCTION (365-slate execution)
 
 - ✔ D1. Month 1 (Jan arc — New-Creation Foundations): **COMPLETE — 31 articles live (~30,000 words of teaching prose), 31/31 passing 18/18 audit**
-- ◐ D2. Month 2 (Feb — Holy Spirit): **Days 032–050 live (19/28)** — Days 051–059 remaining
-- ☐ D3. Month 3 (Mar — Faith): 31
+- ✔ D2. Month 2 (Feb — Holy Spirit): **COMPLETE — 28 articles live (Days 032–059)**, all passing 18/18 audit
+- ◐ D3. Month 3 (Mar — Faith): 31 — Days 060–066 next up
 - ☐ D4. Month 4 (Apr — Authority): 30
 - ☐ D5. Month 5 (May — The Word): 31
 - ☐ D6. Month 6 (Jun — Prayer): 30
@@ -59,8 +59,8 @@
 - ☐ D11. Month 11 (Nov — Glory Life): 30
 - ☐ D12. Month 12 (Dec — Incarnation & Return): 31
 - ✔ D13. Self-audit + SEO pack + ledger update workflow active (`faith-site/scripts/audit_articles.py` + `faith-site/ledger.md`)
-- ✔ D14. Internal-link discipline: all 50 articles interlinked with 0 broken links across all 71 built pages
-- ✔ D15. Launch minimum: **50+ live articles reached (50/50)** — Month 2 Days 051–059 will add buffer before submission
+- ✔ D14. Internal-link discipline: all 59 articles interlinked with 0 broken links across all 80 built pages
+- ✔ D15. Launch minimum: **59 live articles** (floor 50 cleared with buffer)
 - ☐ D16. Extend beyond year 1: re-run `TOPIC ENGINE` with ledger + new seed themes
 
 ## E. SEO, ADSENSE & COMPLIANCE
@@ -68,7 +68,7 @@
 - ✔ E1. Automated batch QA verifier (`npm run audit` / `python3 faith-site/scripts/audit_articles.py`) verifying SEO title ≤60c, meta 140–158c, declaration 40–80w, word floor, questions, and originality
 - ◐ E2. AdSense wiring (`ca-pub-9124992249317290`): `/ads.txt` live at root; `AdSenseHead.astro` and 3 zero-CLS `AdSlot.astro` units wired and gated behind `PUBLIC_ADSENSE_LIVE=true` for activation when ready to submit for review
 - ☐ E3. Pre-application audit vs the 15-factor checklist in `ADSENSE_REVIEW.md` once 50+ articles are live
-- ✔ E4. Unreliable-claims shield active across Days 001–050 + Doctrinal Basis Article VIII
+- ✔ E4. Unreliable-claims shield active across Days 001–059 + Doctrinal Basis Article VIII
 - ✔ E5. Copyright sweep: 0 non-scripture 8-gram overlaps on Days 002–008 against seed extract
 - ☐ E6. Annual refresh cycle: re-date "Updated" stamps, re-verify scriptures each January
 - ✔ E7. Author presence: resident Bible teacher profile (`Elias Okafor`), `AuthorBox` + Doctrinal Basis link on every teaching page
@@ -82,7 +82,7 @@
 - ✔ F5. Visibility note: repo is **public** (note: consider removing `rhapsody_extract.txt` + scratch files from public tracking if keeping repo public)
 
 ## NEXT SPRINT (immediate next actions)
-1. **D2 (Month 2):** Finish Month 2 Days `051`–`059` (*The Person and Ministry of the Holy Spirit*) — 9 articles to complete the arc
+1. **D3 (Month 3):** Write Month 3 Days `060`–`090` (*Faith: The Attitude and Action of Trust*) — start with Days 060–066
 2. **D1 review:** Month 1 arc complete (31/31 live); spot-check internal handoffs and category spread before AdSense submission
 3. **C2 / C8:** Deploy `faith-site/` to Vercel and attach custom domain when chosen
 4. **E2 / E3:** Enable `PUBLIC_ADSENSE_LIVE=true` and run the 15-factor pre-application audit (50-article floor now met)

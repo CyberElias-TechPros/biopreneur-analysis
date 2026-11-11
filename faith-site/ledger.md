@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–050 Live — AdSense Floor Crossed)
+## 2. Published Articles Ledger (Days 001–059 Live — Months 1–2 Complete)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -93,6 +93,15 @@
 | 048 | M2·D48 | The Spirit of Adoption Cries Abba | `/the-spirit-of-adoption-cries-abba/` | The Holy Spirit | Gal 4:6 | 915 | 49c / 145c | 18/18 ✔ | 2026-12-19 |
 | 049 | M2·D49 | Power After the Holy Ghost Is Come Upon You | `/power-after-the-holy-ghost-is-come-upon-you/` | The Holy Spirit | Acts 1:8 | 940 | 54c / 140c | 18/18 ✔ | 2026-12-20 |
 | 050 | M2·D50 | He Searches the Deep Things of God | `/he-searches-the-deep-things-of-god/` | The Holy Spirit | 1 Cor 2:10 | 1,003 | 55c / 146c | 18/18 ✔ | 2026-12-21 |
+| 051 | M2·D51 | When the Spirit Came: Why Pentecost Still Matters | `/when-the-spirit-came-why-pentecost-still-matters/` | The Holy Spirit | Acts 2:1 | 932 | 50c / 145c | 18/18 ✔ | 2026-12-22 |
+| 052 | M2·D52 | The Guarantee of Your Inheritance | `/the-guarantee-of-your-inheritance/` | The Holy Spirit | Eph 1:14 | 987 | 50c / 145c | 18/18 ✔ | 2026-12-23 |
+| 053 | M2·D53 | Temples Are for Occupancy: The Spirit in His House | `/temples-are-for-occupancy-the-spirit-in-his-house/` | The Holy Spirit | 1 Cor 6:19 | 963 | 50c / 149c | 18/18 ✔ | 2026-12-24 |
+| 054 | M2·D54 | The Same Spirit That Raised Christ Dwells in You | `/the-same-spirit-that-raised-christ-dwells-in-you/` | The Holy Spirit | Rom 8:11 | 939 | 48c / 144c | 18/18 ✔ | 2026-12-25 |
+| 055 | M2·D55 | Worship in Spirit and in Truth | `/worship-in-spirit-and-in-truth/` | The Holy Spirit | John 4:24 | 929 | 42c / 148c | 18/18 ✔ | 2026-12-26 |
+| 056 | M2·D56 | Fresh Oil: The Daily Renewal | `/fresh-oil-the-daily-renewal/` | The Holy Spirit | Ps 92:10 | 928 | 42c / 144c | 18/18 ✔ | 2026-12-27 |
+| 057 | M2·D57 | The Spirit and the Word Agree | `/the-spirit-and-the-word-agree/` | The Holy Spirit | John 6:63 | 941 | 41c / 142c | 18/18 ✔ | 2026-12-28 |
+| 058 | M2·D58 | Walking in the Spirit Ends the War of the Flesh | `/walking-in-the-spirit-ends-the-war-of-the-flesh/` | The Holy Spirit | Gal 5:16 | 958 | 58c / 142c | 18/18 ✔ | 2026-12-29 |
+| 059 | M2·D59 | Grieve Not, Quench Not: Guarding the Flow | `/grieve-not-quench-not-guarding-the-flow/` | The Holy Spirit | 1 Thess 5:19 | 920 | 41c / 142c | 18/18 ✔ | 2026-12-30 |
 
 ---
 
@@ -104,4 +113,5 @@
 - **2026-11-24:** Published Month 1 Days `023`–`031` (9 articles, ~9,048 words, 9/9 passing 18/18 audit). **Month 1 complete — 31 articles live (~34,600 words)**; build 52 pages, 0 broken internal links.
 - **2026-12-03:** Published Month 2 Days `032`–`040` (9 articles, ~8,539 words, 9/9 passing 18/18 audit). Total live: **40 articles**; build 61 pages, 0 broken internal links.
 - **2026-12-12:** Published Month 2 Days `041`–`050` (10 articles, ~9,484 words, 10/10 passing 18/18 audit). **50-article AdSense floor crossed**; build 71 pages, 0 broken internal links.
-- **Next batch queued:** Month 2 Days `051`–`059` (closing out: *When the Spirit Came* through *Grieve Not, Quench Not*) (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
+- **2026-12-22:** Published Month 2 Days `051`–`059` (9 articles, ~8,507 words, 9/9 passing 18/18 audit). **Month 2 complete — 59 articles live**; build 80 pages, 0 broken internal links. Homepage now lists newest 10.
+- **Next batch queued:** Month 3 Days `060`–`066` (*Faith: The Attitude and Action of Trust*) (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
