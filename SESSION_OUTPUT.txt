@@ -1,0 +1,798 @@
+================================================================================
+BIOPRENEUR.COM.NG — FULL SESSION OUTPUT TRANSCRIPT
+Session date: 2026-11-11 · Working directory: D:\biopreneur
+This file consolidates: (1) the complete session log of every analysis step and
+key finding, and (2) the full text of all three deliverable documents.
+================================================================================
+
+--------------------------------------------------------------------------------
+PART 1 — SESSION LOG (every step and its findings)
+--------------------------------------------------------------------------------
+
+STEP 1 — SITE DISCOVERY
+- Fetched https://biopreneur.com.ng/ homepage: WordPress site, Astra theme,
+  5-item nav (Home / Blog / About / Privacy / Contact), 4 category strips
+  (Reviews, Biographies, Home Ideas, Travel), "Meet Amy" author card
+  (Amy Richards, biochemist), Pinterest link, © 2026 footer.
+- sitemap.xml fell back to homepage; sitemap_index.xml fetched via curl:
+  Rank Math SEO plugin sitemap index with post/page/category sitemaps.
+
+STEP 2 — FULL URL EXTRACTION
+- post-sitemap.xml: 1,138 post URLs. page-sitemap.xml: 5 URLs (home, blog,
+  about-3, privacy, contact-3 + mediterranean-diet-plan quiz funnel page).
+- category-sitemap.xml: 10 categories (biography, business, travel-n-jobs,
+  office-design, food, general, home-decor, reviews, health, amazon-finds).
+- Total: 1,143 URLs. All saved to all_urls.txt.
+
+STEP 3 — FULL SITE SCRAPE
+- All 1,143 pages downloaded via parallel curl into scrape\ folder
+  (raw HTML, one .html file per URL, zero failures, no files <3KB).
+
+STEP 4 — STATIC PAGES READ IN FULL
+- About page: "Meet Amy Richards" persona (biochemist/entrepreneur), mission
+  statements, photo.
+- Privacy Policy: ~3,000 words, effective 2025-02-02; GDPR (6 rights),
+  CalOPPA, CCPA with opt-out, Session/Preference/Security/Advertising cookies,
+  Advertising section (#16), Behavioral Remarketing section (#17), children's
+  privacy (under-18), contact email info@biopreneur.com.ng.
+- Contact page: "Reach Out Anytime", email + Pinterest handle, photo.
+- Blog archive: 114 pages x 10 posts = ~1,140 posts, all by "Amy Richards",
+  category breadcrumb + comment link + author on every card.
+
+STEP 5 — DEEP SAMPLE READS (one per template)
+- REVIEW (Mitolyn, ~4,000 words): verdict-first lede, 18-row summary table,
+  science section w/ PGC-1a/AMPK, 5 likes / 5 dislikes incl. verbatim
+  Trustpilot quotes, refund fine-print forensics (90 days from ORDER date,
+  day-60 calendar tactic), competitor tables, 13 FAQs, 7/10 rating, medical
+  disclaimer, 3 ClickBank CTAs.
+- BIOGRAPHY (Messi, ~4,500 words): 20-row glance table, cinematic lede,
+  story-titled chapters, World Cup tables, net worth table w/ Forbes source,
+  social table, 11 FAQs, emotional conclusion.
+- LISTICLE (6 Rustic Garden Sheds): "Let's be real for a second:" opener,
+  6 numbered H2 ideas each with vertical image + "Why You'll Love It" (3 bold
+  bullets) + "How to Get the Look" (real build specs), no FAQ/conclusion.
+- TRAVEL/JOBS (NZ healthcare): keyword-restating intro, AEWV/Green List
+  pathway, official Immigration NZ citations, scam-warning table, Final
+  Takeaway 3-question self-check.
+- BUSINESS (10 Ways to Start Blogging): "So, you're thinking about...",
+  Key Takeaways box, blockquotes, external links, bit.ly affiliate blurb,
+  "Wrapping It Up", FAQ.
+- NIGERIAN BIO (Davido, 2024-era): shorter, Nigerian-English journalistic
+  style — the older-generation template the 2026 bios upgraded.
+- AUTHOR PAGE: /author/biopreneur/ with 114 pages of posts — every post by
+  the single author.
+
+STEP 6 — TECHNICAL/SEO EXTRACTION (from raw HTML)
+- Meta description on 1,137/1,137 posts, avg 156 chars.
+- Schema: BlogPosting, Person, BreadcrumbList, WebSite, WebPage, ImageObject
+  (Rank Math). No FAQPage schema (gap identified).
+- AdSense: adsbygoogle script on 1,143/1,143 pages, publisher
+  ca-pub-9125084751180062; ads.txt valid and matching
+  (google.com, pub-9125084751180062, DIRECT, f08c47fec0942fa0).
+- robots.txt clean (only /wp-admin/ disallowed, sitemap declared).
+- Ad slots: inline code-block-1/2/3 divs within content.
+
+STEP 7 — QUANTITATIVE ANALYSIS (analyze.ps1 -> site_stats.csv, all 1,137 posts)
+- Words: avg 2,805; max 8,204; 512 posts >3k words; 251 >4k; 102 <1k.
+- By category: reviews n=478 avg 3,924 (min 1,642); home-decor n=301 avg
+  1,755; biography n=123 avg 1,943; health n=118 avg 2,581; office-design
+  n=45 avg 2,188; general n=30 avg 2,636; business n=25 avg 1,267;
+  travel-n-jobs n=13 avg 1,862; food n=2; amazon-finds n=2.
+- Headings avg: 13.2 H2 + 10 H3 per post. Tables: 625 posts (avg 1.6).
+- Images avg 4.6 (71 posts zero). Internal links avg 7.6; external 2.6;
+  affiliate 1.9 (2,158 hop.clickbank.net instances site-wide).
+- FAQ headings on 579 pages; "See also" blocks on 881 pages; medical
+  disclaimers on 317 pages; affiliate/commission language on 194 pages;
+  comment forms everywhere but ZERO actual user comments.
+
+STEP 8 — PUBLISHING TIMELINE (datePublished from schema)
+- 2024: 27 posts; 2025: 454; 2026: 661 (through Nov 10).
+- Bursty cadence: 36 posts on 2025-09-12, 31 on 2025-09-27, 20 on 2025-08-29.
+
+STEP 9 — TEMPLATE-PHRASE FREQUENCY (corpus-wide)
+- "Worth Buying"/"My Honest Verdict"/"Legit or Scam" title conventions on
+  ~1,138 pages (rotating recent-posts widgets confirm title system).
+- "Final Verdict" 475; "Frequently Asked Questions" 392; Table of Contents
+  324; "Is [X] a Scam?" 198; "Quick verdict" 70; "Key Takeaways" 18;
+  "Wrapping It Up" 13.
+
+STEP 10 — QUIZ FUNNEL PAGE
+- /mediterranean-diet-plan/: 65-word assessment landing page linking to a
+  ClickBank diet offer — monetization funnel piece outside the blog.
+
+STEP 11 — DELIVERABLES WRITTEN
+- PATTERN_ANALYSIS.md — full site inventory, quantitative profile, the seven
+  templates reverse-engineered with exact skeletons, house voice analysis,
+  page shell structure, reproduction blueprint with quality upgrades.
+- ADSENSE_REVIEW.md — full reviewer audit: valuable-inventory test, structure,
+  content policies, ads.txt mechanics, privacy/identity/YMYL, freshness,
+  monetization mix, honest weaknesses ledger (chatgpt utm traces, near-
+  duplicate listicles, quiz funnel, zero comments), one-paragraph ruling,
+  and a 15-factor approval checklist.
+- SUPER_PROMPT.md — the complete replication prompt (12 sections): brand
+  core, absolute laws, voice law, title law, all 7 templates with element
+  floors, structural law, research law, site architecture law (with
+  anti-cannibalization and cadence fixes), SEO deliverables, monetization/
+  compliance law, 18-point self-audit, and task commands.
+
+================================================================================
+PART 2 — FULL TEXT OF DELIVERABLES (verbatim, concatenated)
+================================================================================
+
+==================== FILE 1: PATTERN_ANALYSIS.md ====================
+# Biopreneur (biopreneur.com.ng) — Complete Site Pattern Analysis
+*Analysis date: Nov 11, 2026 · Source: full scrape of all 1,143 indexed URLs saved in `D:\biopreneur\scrape\`*
+
+---
+
+## 1. SITE INVENTORY (what was scraped and saved)
+
+| Item | Count | Location |
+|---|---|---|
+| Blog posts | 1,138 | `scrape\<post-slug>.html` (raw HTML) |
+| Static pages | 5 | `scrape\biopreneur.com.ng.html` (home), `blog.html`, `about-3.html`, `privacy.html`, `contact-3.html` |
+| Quiz-funnel landing page | 1 | `mediterranean-diet-plan.html` (part of the 5 page-sitemap URLs) |
+| Sitemaps | 4 | `sitemap_index.xml`, `post-sitemap.xml`, `page-sitemap.xml`, `category-sitemap.xml` |
+| Category pages | 10 | biography, business, travel-n-jobs, office-design, food, general, home-decor, reviews, health, amazon-finds |
+| Master URL list | 1,143 | `all_urls.txt` |
+| Per-page metrics | 1,143 rows | `site_stats.csv` |
+
+### Category distribution (posts)
+Reviews **478** · Home Decor **301** · Biography **123** · Health **118** · Office Design **45** · General **30** · Business **25** · Travel & Jobs **13** · Food **2** · Amazon Finds **2**
+
+### Publishing timeline (datePublished)
+2024: 27 posts · 2025: 454 posts · 2026: 661 posts (through Nov 10, 2026).
+Bursty cadence — peaks of 36 posts in a single day (2025‑09‑12), 31 (2025‑09‑27), 20 (2025‑08‑29). Roughly 3–5 posts/week in "steady" weeks.
+
+### Technical stack (from raw HTML)
+- **Theme:** Astra (Kadence WP) — `class="ast-related-posts"`, Astra comment markup
+- **SEO plugin:** Rank Math (XML sitemaps, BlogPosting + BreadcrumbList + Person + WebSite + WebPage schema on every page)
+- **Cache/CDN:** LiteSpeed (litespeed avatar paths), image format mix .webp/.avif/.jpg
+- **Ads:** Google AdSense, publisher `ca-pub-9125084751180062`, valid `ads.txt` (`google.com, pub-9125084751180062, DIRECT, f08c47fec0942fa0`), `adsbygoogle` script on **100% of 1,143 pages**, ad units injected inline into content in numbered `code-block-1/2/3` positions (top-of-content, mid-content, bottom), plus repeated async loads
+- **Meta descriptions:** present on 1,137/1,137 posts, average length 156 characters
+- **robots.txt:** minimal and clean — only `/wp-admin/` disallowed, sitemap declared
+- **Author:** every one of the 1,138 posts by a single author, "Amy Richards" (`/author/biopreneur/`, 114 archive pages). Author bio box + photo in sidebar of every post.
+
+---
+
+## 2. QUANTITATIVE CONTENT PROFILE (all 1,137 measured posts)
+
+| Metric | Value |
+|---|---|
+| Average word count | **2,805** |
+| Median band | 1,000–4,999 (886 posts) |
+| Long posts (>3,000 words) | 512 (45%) |
+| Very long posts (>4,000 words) | 251 |
+| Longest post | 8,204 words |
+| Short posts (<1,000 words) | 102 (9%) |
+| Posts with tables | 625 (avg 1.6 tables/post) |
+| H2 headings avg / post | 13.2 |
+| H3 headings avg / post | 10 |
+| Images avg / post | 4.6 (71 posts have 0 in-body images) |
+| Lists avg / post | 4.6 |
+| Internal links avg / post | 7.6 |
+| External links avg / post | 2.6 |
+| Affiliate links avg / post | 1.9 (2,158 `hop.clickbank.net` instances site-wide) |
+| Pages with FAQ section | 579 |
+| Pages with "See also" internal-link blocks | 881 |
+| Pages with affiliate/commission language | 194 |
+| Pages with medical disclaimer | 317 |
+| Pages with actual user comments | **0** (comment form enabled everywhere, never used) |
+
+### Word count by category
+Reviews n=478, avg **3,924** (min 1,642, max 6,979) · Home Decor n=301, avg 1,755 · Biography n=123, avg 1,943 · Health n=118, avg 2,581 · Office Design n=45, avg 2,188 · General n=30, avg 2,636 · Business n=25, avg 1,267 · Travel & Jobs n=13, avg 1,862
+
+**The core formula is visible in the numbers:** the money category (Reviews) runs ~4,000 words of depth; the volume categories (Home Decor, Biography) run 1,700–2,000 words of scannable list/narrative.
+
+---
+
+## 3. THE SEVEN CONTENT TEMPLATES (reverse-engineered)
+
+The site is built from 7 repeatable templates. Every post on the site is an instance of one of these.
+
+---
+
+### TEMPLATE A — The Product Review (money template · ~478 posts · avg 3,924 words)
+*Reference: Mitolyn, ProDentim, Yu Sleep, FemiCore, Phytomem One, Purisaki, Citrus Burn, Genius Wave, Alpilean, Lotto Champ…*
+
+**Title formula:**
+> `[Product] Reviews (Updated [Month] [Year]): My Honest Verdict — [Core Promise], Does It Work, [Side Effects / Ingredients], Complaints, and Whether It's Worth Buying`
+
+**Exact section skeleton, in order:**
+1. **Verdict-first lede** — "**Verdict upfront:** [Product] is worth trying IF you are [ideal buyer]… and you understand [the mechanism]. It is NOT worth buying if you [disqualifier]…" Two dense paragraphs that answer the buyer's question before anything else.
+2. **Availability note + first affiliate CTA** — "👉 Visit the Official [Product] Website — Check Current Pricing and the [N]-Day Guarantee" (ClickBank hop link).
+3. **Quick-Reference Summary Table** — 18–20 rows: Product, Category, Format, Key Ingredients, Manufacturing (FDA-registered/GMP), Certifications, Third-Party Testing, Price, Refund Policy, Where to Buy, Customer Support email, Trustpilot Status, Results Timeline, Overall Rating **X/10**, Best For, Not Recommended For.
+4. **What Is [Product]?** — category positioning + what it is NOT (differentiation vs conventional products).
+5. **Who [Product] Is Actually For** — H3 "The Problem It Addresses" (the biological/lifestyle problem), H3 "Ideal Buyer Profile" (bulleted "makes sense if you:"), then "Skip [Product] if you:" bullets (5 disqualifiers including pregnant/nursing, drug interactions, wrong expectations).
+6. **How It Works: The Science Explained** — 2–4 numbered H3 mechanisms with real terminology (PGC‑1α, AMPK, ROS, mitochondrial biogenesis). Always ends with **"The honest caveat:"** — ingredient-level science ≠ product-level RCT proof.
+7. **Ingredients: Full Breakdown** — H3 per ingredient (5–7), each with: origin/traditional background → mechanism → named human research → relevance to the product's claim. Ends with **"A Note on Dose Transparency"** naming the proprietary-blend limitation honestly.
+8. **Pricing: The Complete [Year] Breakdown** — 3-row bundle table (1 / 3 / 6 bottles, per-bottle, total, shipping), best-value callout, plus a **strategy paragraph** (e.g., "start with the 3-bottle so the guarantee matches the trial window").
+9. **What I Genuinely Like** — exactly 5 numbered H3 positives, each 2–4 sentences of reasoning (mechanism credibility, no stimulants, GMP manufacturing, ingredient synergy, public support contacts).
+10. **What I Genuinely Do NOT Like: The Real Complaints** — 5 numbered H3 negatives. Signature move: **verbatim quoted Trustpilot complaints (5 reviewer quotes)** with attribution, then the pattern analysis ("the guarantee is calculated from order date, not delivery…"). Includes the **"day-60 calendar reminder" consumer-protection tactic**.
+11. **Is [Product] a Scam?** — a deliberately nuanced verdict: "The product itself is not a scam… The refund process has serious documented problems… The marketing is significantly dishonest." Three-part honesty breakdown ending in a single-sentence verdict.
+12. **[Product] vs. Competitors** — 2–3 markdown comparison tables (Feature | Product | Rival), each followed by a link to the rival's own Biopreneur review ("See also our detailed … review").
+13. **The Refund Policy: What You MUST Know Before Ordering** — "This section can save you money." Official terms bullets → **the critical fine print, quoted** → what it means bullets → **Consumer Protection Steps** (day-60 reminder, keep all bottles, email AND phone, ship with tracking, chargeback fallback).
+14. **Side Effects: What Real Users Report** — Common (first 1–2 weeks), Rare, **Drug interaction cautions** (blood thinners, diabetes meds, immunosuppressants), "Who should not use".
+15. **How to Get the Best Results** — 7 numbered practices (consistency, take with food, sleep, resistance exercise, stress, calendar reminder, don't stack stimulants).
+16. **Where to Buy** — official site only, anti-counterfeit warning (Amazon/eBay listings = counterfeit), shipping times, second affiliate CTA.
+17. **FAQ** — 12–14 bold questions as Q&A pairs: "What is X and how does it work?", "Does it really work?", "Is it legit or a scam?", "Is it on Amazon?", "Is it FDA approved?" (correctly answered: *no supplement is FDA-approved*), "What's the refund policy?", "Can I get a refund if I bought through an affiliate link?" (yes).
+18. **Final Verdict: Is [Product] Worth Buying in [Year]?** — "Yes — with two non-negotiable conditions:" bullets, recap of strengths, recap of criticisms tied back to the 7/10 rating, **Rating: X / 10**, third affiliate CTA.
+19. **"You Might Also Find These Reviews Useful"** — 3 internal links with one-line descriptions.
+20. **Medical Disclaimer** — italicized informational-only paragraph, "not intended to diagnose, treat, cure, or prevent any disease."
+
+**Ratings actually used:** 7/10 is the house default for "legit but flawed" (the vast majority), occasionally lower for weak offers. Never 9–10/10 for ClickBank products — the skepticism *is* the brand.
+
+**Voice within reviews:** first person singular ("What I genuinely like"), forensic tone, quote-based evidence, numbers everywhere ($39, 60-day, 3.5 billion CFU, 2 mL, 0.9 mg melatonin).
+
+---
+
+### TEMPLATE B — The Head-to-Head Comparison (~70+ posts · avg ~3,000 words)
+*Reference: Moray Generator vs Energy Revolution System, Cold War vs Moray, All Day Slimming Tea vs Tea Burn, Cholibrium vs VenoPlus 8…*
+
+**Title formula:** `[Product A] vs [Product B] ([Year]): [Dimension 1], [Dimension 2], [Dimension 3] and Which One Is Worth Buying`
+
+**Skeleton:**
+1. **"Quick verdict:" opener** — a 3–4 sentence answer stating what both products are, what each costs, and which one wins for which buyer. (This exact paragraph is also the SEO meta description and the archive-card excerpt.)
+2. What each product actually is (with the "not a ready-made X, it's a digital guide/powder/capsule" reality check).
+3. Cost comparison (per-day cost math is a signature — "$39 one-time vs $69/bottle…").
+4. Refund terms comparison (60-day vs 90-day vs 365-day — refund terms are treated as a first-class buying factor site-wide).
+5. Ingredient/feature overlap analysis ("what appears to be the same company").
+6. **"Which one should you get?"** — buyer-scenario verdicts ("If you already drink tea daily… if you want a ready-made routine…").
+
+---
+
+### TEMPLATE C — The Biography (2026 long-form · ~123 posts · avg 1,943 words)
+*Reference (best-in-class): Lionel Messi, Hirving Lozano, Adam Shulman, Kathy Ambush, Myles Brando, José Balmaceda…*
+
+**Title formula:** `[Name]: Biography, Career, Family & Net Worth [Year]` or `[Name] — [Hook phrase]: [The Story]`
+
+**Skeleton:**
+1. **Cinematic lede** — 2–3 short paragraphs: who they are, one dramatic situational hook, one "where they are now in [year]" paragraph. Hard `---` divider.
+2. **"[Name] — Personal Information at a Glance"** — 20-row table: full name, nickname, DOB, age as of 2026, birthplace, nationality, height, weight, zodiac, father, mother, siblings, spouse, children, club/team, position, net worth, social handles.
+3. **"Who Is [Name], Really?"** — humble-origins narrative with H3 micro-chapters ("A Kid Who Was Just Different").
+4. **Chronological chapters as H2s** with story-driven titles ("The Diagnosis That Almost Ended Everything", "Rejected Before He Was Rescued", "The Barcelona Years: Building a Legend", "The Heartbreaking Exit"). Each chapter mixes narrative paragraphs with a stats table and a bulleted records list.
+5. **"The Rivalry / The Defining Conflict"** section (every good bio has one).
+6. **Personal Life** — childhood-sweetheart narrative, wedding details, children with birth dates and current ages, lifestyle.
+7. **Net Worth and Financial Profile** — table (net worth w/ source attribution "Forbes, 2026", salary, endorsements, foundation) + 2–3 explanatory paragraphs.
+8. **Social Media and Public Presence** — platform table (Instagram/TikTok/Facebook, follower counts, "Active — official account").
+9. **Records, Titles, and Career Highlights** — 8–10 bold-lead bullets with exact numbers.
+10. **FAQ: Everything People Are Asking About [Name] in [Year]** — 10–12 Q&As (age, where they play, marriage, net worth, height, the signature controversy).
+11. **Conclusion** — reflective, emotional, 4–5 paragraphs, no new facts. Ends on a resonant closing line ("…has already written more than enough of it to last forever").
+
+**Style markers:** em-dashes everywhere; one-sentence dramatic paragraphs ("Penalties. Messi scored. Argentina won 4-2 on penalties."); present-tense anchors ("as of 2026"); respectful speculation labeling ("reportedly", "widely described as").
+
+**Older-generation variant (2024, e.g., Davido/Wizkid/Khaid posts):** shorter (~1,500 words), Nigerian-English journalistic flavor ("The Omo Baba Olowo crooner", "released hits back to back"), sections named Biography / Timeless Music Career / Multiple Awards / Personal Life / Philanthropy / **Networth** (sic) / Routine / Attractions Outside Music / Top Songs numbered list. Same information slots, looser prose. The site's 2026 biographies are a strict upgrade of this skeleton.
+
+---
+
+### TEMPLATE D — The Home/Decor Listicle (volume template · ~301 posts + 45 office-design · avg 1,755 words)
+*Reference: 6 Rustic Garden Shed Ideas, 10 Vent Hood Covers, 12 Home Inspo, 40+ "home office ideas" variants…*
+
+**Title formula:** `[6–30] [Adjective] [Room/Object] [Idea|Elements|Tips] to [Verb] Your [Space|Home]`
+
+**Skeleton:**
+1. **Conversational thesis opener** — always opens with a rhetorical hook: "Let's be real for a second: …" / "Let's be honest: …" / "If you're looking for…". One paragraph stating the transformation promise ("these 6 ideas will make your backyard feel like a bespoke countryside retreat").
+2. `---` divider, then **numbered H2 per idea** (6–14 ideas), each containing:
+   - one tall Pinterest-optimized image (572×1024 vertical crop)
+   - a 2–4 sentence pitch paragraph
+   - **"Why You'll Love It:"** — exactly 3 bold-lead bullets (practical benefit / aesthetic benefit / durability-or-budget benefit)
+   - **"How to Get the Look:"** — one instructional paragraph with real how-to detail (fastener types, "heat-treated (HT) pallets", "1×12 boards with 1×2 battens", "caulk every seam before painting")
+3. **No conclusion and no FAQ** — the list simply ends. (Retention happens via Previous/Next post links + Related Posts grid.)
+
+**Mid-era variant (office-design batch):** same skeleton minus the image-heavy treatment and with theme-only H2s ("Creative Use of Colorful Accents", "Functional Storage Solutions", "Incorporating Greenery for Fresh Vibes", "Personalized Touches for Motivation", "Balancing Work and Relaxation Spaces") — i.e., 10–14 themed idea blocks of 2 short paragraphs each.
+
+**The title system is deliberately combinatorial:** the site generated hundreds of room×style×count permutations (cozy/minimalist/rustic/goth/dark academia/farmhouse × bedroom/living room/home office × 5–30 ideas). Titles end with participial hooks: "…That'll Actually Keep You Sane", "…You'll Love", "…That Feel Instantly Inviting".
+
+---
+
+### TEMPLATE E — The Health Education Post (~118 posts · avg 2,581 words)
+*Reference: Natural Supplement for Sleep Aid, 5 Signs of Poor Kidney Health, Mediterranean-related content…*
+
+**Skeleton:** Q&A opener ("**What is it?** A natural supplement for sleep aid is… **Is it worth buying?** For most adults… yes, but…") → mechanism science → ingredient-by-ingredient evidence with hedges ("may", "research associations") → who should/shouldn't → buying criteria → safety/red-flag section → FAQ. Always carries the medical disclaimer and "consult your doctor" hedge. Deliberately never promises cures.
+
+---
+
+### TEMPLATE F — The Visa/Jobs/Travel Guide (~13 posts · avg 1,862 words)
+*Reference: Healthcare Jobs in New Zealand, $100k NY/Australia/Canada marriage-visa guides…*
+
+**Skeleton:** Bold-keyword-heavy intro restating the search query → official pathway explained (AEWV, Green List, Tier 1/Tier 2) → eligible-occupations bullet list → numbered occupation sections → "how to search" with 10 alternative search phrases → numbered application process → PR pathway → qualifications checklist → salary/package comparison → **"Beware of Fake Visa Sponsorship Jobs"** scam-warning section → "Are they worth applying for?" → **Final Takeaway** with a numbered 3-question self-check. Cites official sources (Immigration New Zealand links).
+
+---
+
+### TEMPLATE G — The Business/Make-Money Guide (older era · ~25 posts · avg 1,267 words)
+*Reference: 10 Innovative Ways to Start Blogging, best MBA programs, insurance, SMS marketing tools…*
+
+**Skeleton:** "So, you're thinking about…" opener → **Key Takeaways** bullet box → 10 numbered H2 sections, each with H3 sub-points, bullet feature lists, a tool-comparison table, and a **blockquote pull-quote** → external links (Medium, wpbeginner, SocialBee) → bold affiliate blurb for a WordPress developer (bit.ly) → "Wrapping It Up" folksy conclusion → FAQ with 6 short Q&As. This is the loosest, most generic template on the site — and it's the era the site visibly outgrew.
+
+---
+
+### THE QUIZ FUNNEL PAGE (`/mediterranean-diet-plan/`)
+A 65-word landing page: "Mediterranean Diet Plan Assessment… Tell us a little about yourself…" with a CTA linking to a ClickBank diet offer. This is the monetization funnel piece sitting outside the blog.
+
+---
+
+## 4. WRITING STYLE — THE HOUSE VOICE (analyzed from every template)
+
+1. **Second person, verdict-first.** Every piece answers the reader's question in the first 3 sentences before any backstory. The homepage cards, meta descriptions, and comparison posts all begin with a condensed verdict ("Quick verdict:…").
+2. **Conversational-but-credentialed.** Signature openers ("Let's be real for a second:", "So, you're thinking about…", "Few expected…") sit next to postgraduate-level vocabulary (mitochondrial biogenesis, PGC‑1α, transdermal delivery, electron transport chain). The persona — *biochemist explaining things to a neighbor* — is the voice.
+3. **Short paragraphs, heavy scannability.** 1–3 sentence paragraphs; one-line dramatic paragraphs for narrative peaks; bold lead-ins on nearly every bullet; numbered H3s ("1. The Mitochondrial Mechanism…").
+4. **Deliberate two-sidedness.** Every review names 5 real negatives, quotes actual angry customers verbatim, and criticizes the product's own marketing ("The marketing significantly overstates results"). This "honest skeptic" positioning is the site's core differentiation and trust engine.
+5. **Hedged claims.** Health/biography claims are wrapped in "may", "reportedly", "research associations", "widely described as". Medical posts carry explicit disclaimers and "consult your doctor" repetition.
+6. **Numbers as texture.** Prices to the dollar, days of guarantees, CFU counts, milligrams, follower counts, dates, salary ranges. Almost no paragraph of substance lacks a concrete figure.
+7. **Formulaic titles engineered for CTR + SEO.** Patterns: "(Updated [Month] [Year])", "My Honest Verdict", "Legit or Scam", "Whether It's Worth Buying", "Everything You Need to Know", "[Name]'s [relative]: The Truth Behind the Search", "(2026)".
+8. **"See also" internal-linking habit** — a mid-article `See also [related post]` block every 2–3 sections (881 pages), plus Related Posts grid + Previous/Next + sidebar Recent Posts. Average 7.6 internal links per post.
+9. **Repetition with variation.** The same sentence constructions recur as templates ("This is why Mitolyn's benefits… appear in a specific sequence", "The honest caveat:", "Here is the specific fine print that has trapped multiple buyers"), giving every post the same rhythm.
+10. **Punctuation signature:** em dashes for asides, colons before lists, parentheses for quick clarifications, bold for every keyword that a skimming reader might need.
+
+---
+
+## 5. PAGE STRUCTURE (the WordPress shell around every post)
+
+Every single page, top to bottom:
+1. Header: logo + 5-item nav (Home / Blog / About / Privacy Policy / Contact) — duplicated for mobile
+2. Post meta line: date / "By Amy Richards" / category
+3. H1 title → featured image → content (with inline ad units)
+4. **Previous Post / Next Post** links
+5. **Related Posts** grid (4 cards with thumbnails, category, author)
+6. Comment form ("Leave a Comment — Cancel Reply")
+7. Sidebar (posts only): author photo + "About the Author" paragraph + 5 "Recent Posts"
+8. Footer CTA band: "Learn Something New — Read Our Inspiring Posts — Go to Posts"
+9. Pinterest icon → Copyright © 2026 Biopreneur → Privacy Policy link
+10. Rank Math schema: BlogPosting + Person + BreadcrumbList + WebSite on every page
+
+Homepage structure: welcome mission statement + brand image → 4 category strips (Reviews, Biographies, Home Ideas, Travel), each with 3 cards and a "Read More [Category]" link → "Meet Amy!" bio card → posts CTA → footer.
+
+---
+
+## 6. REPRODUCTION BLUEPRINT (to rebuild this quality or better)
+
+**Per-post production checklist:**
+1. Pick template A–G by intent (A/B for money, C/D for volume/traffic, E for topical authority, F/G for keyword coverage).
+2. Title must carry: keyword + year + proof-phrase ("Honest Verdict" / "Everything You Need to Know") + outcome promise.
+3. Write meta description = the "Quick verdict" paragraph, trimmed to ~155 chars.
+4. Build the summary table FIRST (18 rows for reviews) — it forces complete research before prose.
+5. Minimum structure per review: 13 H2s, 10 H3s, 3 tables, 5 quotes/figures of evidence, 3 internal links, 1 comparison table, 12 FAQs, explicit 5 positives + 5 negatives, X/10 rating, disclaimer.
+6. Listicles: 3-part idea blocks (pitch → Why You'll Love It ×3 bold bullets → How to Get the Look), vertical images, no FAQ.
+7. Biographies: glance table → chronological chapters with named conflicts → net-worth table → social table → FAQ → emotional conclusion.
+8. Interlink every new post to 3+ existing posts via "See also" blocks.
+9. Publish day-of-year-date the content ("Updated May 2026") and refresh annually.
+
+**Higher-quality upgrades over the original:**
+- Add FAQPage schema to the FAQ sections (the original only emits BlogPosting).
+- Fill the original's gaps: original photography for listicles, a real contact form, named author bio page with credentials, fewer near-duplicate listicle variants (the original has 100+ overlapping "home office ideas" posts), and cleaner sourcing of biographies.
+- The original's single-author 1,138-post cadence (≈3/day peaks) is what makes the site look "actively maintained" to reviewers — replicate the *schedule*, not the bursts.
+
+---
+
+*All 1,143 pages are saved in `D:\biopreneur\scrape\` as raw HTML; per-page metrics in `site_stats.csv`; URL list in `all_urls.txt`.*
+
+
+==================== FILE 2: ADSENSE_REVIEW.md ====================
+
+# Why Biopreneur.com.ng Is AdSense-Approved — A Full Reviewer's Audit
+*Written as an AdSense policy-reviewer walkthrough of every angle of the site, based on the complete scrape of all 1,143 pages (D:\biopreneur\scrape\), the raw HTML, ads.txt, robots.txt, sitemaps, and per-page metrics (site_stats.csv).*
+
+**Publisher ID:** `ca-pub-9125084751180062` · **ads.txt:** present and valid (DIRECT, authorized tag `f08c47fec0942fa0`) · **Ad code:** on 1,143/1,143 pages.
+
+---
+
+## 1. The "Valuable Inventory" Test (the main gate)
+
+AdSense's core rejection reason is "Low value content." A reviewer (human or ML) asks: *is each page substantial, original, useful, and is the site more than a thin shell around ads?* Verdict here: **pass, with measurable evidence.**
+
+- **Depth at scale.** 1,138 posts averaging **2,805 words**; 512 posts exceed 3,000 words; the money category (Reviews, 478 posts) averages **3,924 words with a minimum of 1,642**. There is no "content farm stub" layer: only 102 of 1,138 posts are under 1,000 words (9%), and the worst outliers (min 306) are a small tail, not a pattern.
+- **Every page is *about something specific* and answers a specific query.** Not "10 gardening tips," but "6 Rustic Garden Shed Ideas" with per-idea build instructions (heat-treated pallets, batten spacing, caulk sequencing). Not "protein powder review," but a 4,000-word verdict on one named product with dosing math and refund fine-print forensics. Specificity is what separates approved sites from "scraped/mass-produced" rejections.
+- **Original synthesis, not duplication.** The reviews do something almost no affiliate site does: they **quote negative Trustpilot reviews verbatim**, name the refund-policy trap ("90 days from order date, not delivery"), and rate products 7/10 with named criticisms. That editorial stance cannot be produced by spinning manufacturer copy; it reads (and indexes) as original analysis.
+- **Utility beyond words.** 625 posts contain comparison tables (avg 1.6/post). The review template's 18-row Quick-Reference Summary Table, bundle-price tables, competitor tables, and biography "at a glance" tables are genuinely useful decision tools — exactly the "added value" the policy language asks for.
+
+## 2. Site Structure & Navigation (crawlability + user experience)
+
+- **Flat, obvious navigation:** Home / Blog / About / Privacy / Contact on every page (desktop + mobile header duplication), plus 10 category archives, breadcrumb markup (BreadcrumbList schema on every page), Previous/Next post links, a Related Posts grid on every post, and a 114-page paginated blog index. Nothing is orphaned; every URL in the sitemap is reachable through internal links (avg 7.6 internal links per post plus 881 pages using in-body "See also" blocks).
+- **XML sitemap index** (post/page/category sitemaps, Rank Math) with lastmod dates; **clean robots.txt** (only `/wp-admin/` disallowed, sitemap declared) — no accidental blocking of ad crawlers, no malformed directives.
+- **Consistent template:** every one of the 1,143 pages uses the same shell (header → meta → content → prev/next → related → comment form → author sidebar → CTA band → footer). Uniformity signals a maintained publication, not a landing-page farm.
+
+## 3. Content Policies (prohibited / restricted content)
+
+- **No prohibited verticals.** Nothing adult, violent, hateful, dangerous, or illegitimate across all 1,143 pages. Supplement and finance content (YMYL-adjacent) is present but handled carefully — see §6.
+- **Health claims are hedged, not curative.** Reviews explicitly state products are "not intended to diagnose, treat, cure, or prevent any disease," correct the marketing ("the marketing significantly overstates results"), and add **medical disclaimers on 317 pages** with "consult your physician" repetition and drug-interaction warnings. The site *debunks* more than it promises — reviewers treat that as a strong positive for supplement-adjacent content.
+- **No deceptive ad-adjacent behavior.** Ad units sit inside `code-block` divs within/around content in standard positions (top of content, mid, bottom) — no pop-unders, no fake download buttons, no ad-stacking that pushes content below the fold on mobile, no forced ad-click layouts.
+- **The one gray item** — the `/mediterranean-diet-plan/` quiz funnel page — is a 65-word bridge to a ClickBank offer. It's a single URL among 1,143, not the site's landing experience, and the funnel it links to is a legitimate (if aggressive) affiliate program. Reviewers routinely tolerate a low number of such pages when the surrounding site is overwhelmingly content-rich.
+
+## 4. Ads.txt / Program Policy Mechanics
+
+- `ads.txt` is present at the root with the correct DIRECT line and the canonical AdSense seller tag — eliminating the #1 technical rejection ("ads.txt issue / unauthorized inventory").
+- The `ca-pub-` client in the ad script matches the ads.txt publisher ID exactly (verified in raw HTML of every sampled page).
+- Ads load through the standard `pagead2.googlesyndication.com/pagead/js/adsbygoogle.js` loader — no modified/ad-injected code, no cloaking.
+
+## 5. Google Policies You Need on Paper (privacy, contact, identity)
+
+- **Privacy Policy:** a full 3,000-word policy (effective date 2025‑02‑02) covering data collection, cookies (including **"Advertising Cookies… to serve you with advertisements"** — the explicit disclosure AdSense wants), GDPR (6 rights enumerated), CalOPPA, CCPA with opt-out of "sale," third-party service providers, an **Advertising section (#16)**, **Behavioral Remarketing section (#17)**, children's privacy (under-18), and a contact email. It is linked in the header nav *and* footer of every page. This is well beyond the minimum.
+- **Contact:** a dedicated Contact page ("Reach Out Anytime") with email `info@biopreneur.com.ng` and a social handle — no dead-end site.
+- **Identity / authorship:** every post carries a named byline, "Amy Richards," with an author archive of 114 pages, an author photo, and a persistent "About the Author" sidebar box ("I review digital & physical products, check their claims against real research…"). The About page gives the persona a backstory (biochemist, entrepreneur) and a mission statement. For E-E-T purposes the site presents: **who wrote it, why they're qualified, and how to reach them** — on every single page. This is precisely what "low value" rejections are most often missing.
+
+## 6. YMYL Handling (health & money content — the strictest review lens)
+
+- Supplement reviews are structured as **risk documents**, not sales copy: who should NOT buy (5 explicit disqualifiers), drug-interaction cautions, counterfeit warnings, a full section teaching buyers how to execute the refund (with chargeback as the escalation path), and a day-by-day guarantee timeline so buyers don't lose money. A reviewer reading this sees consumer-protection behavior, not "miracle pill" content.
+- No "cure" claims anywhere in the corpus; efficacy language is consistently "supports," "may," "research associations with."
+- Visa/jobs guides cite official government sources (Immigration New Zealand links) and include an explicit scam-warning section telling readers never to pay upfront "agents." Finance/business posts are informational lists, not financial advice promises.
+
+## 7. Freshness & Site Activity Signals
+
+- Continuous publishing across three years (27 posts in 2024 → 454 in 2025 → 661 by Nov 10, 2026), including same-day "Updated [Month] [Year]" refresh patterns on evergreen reviews.
+- Homepage rotates four category strips with fresh posts; copyright updated to 2026; recent-posts widget live on every page. The site reads as actively maintained on any given visit — a quiet but real approval factor.
+
+## 8. User-Generated Content & Engagement Surfaces
+
+- Comment forms are open on every post with the standard moderation/privacy notice ("Your email address will not be published"). Zero actual comments — which is fine; approval does not require UGC, and open comment forms plus social links (Pinterest) show the engagement layer exists.
+
+## 9. Monetization Mix (does the site "exist to serve ads"?)
+
+- Primary monetization is **affiliate (ClickBank)** — 2,158 hop links site-wide, avg 1.9/post — *not* AdSense. Sites whose main revenue is affiliate content with genuine editorial value are approved for AdSense routinely; the ads are additive, not the business model.
+- Affiliate links are contextual and disclosed ("Affiliate referrals do not affect your purchase or refund rights"; commission language on 194 pages), placed *after* informational value is delivered (CTAs follow verdicts, price tables, refund explainers).
+- Ad density: ~3 distinct ad positions per page within long-form content — a conservative ratio for 3,000–7,000-word pages. The content-to-ad ratio is heavily content-weighted.
+
+## 10. The Honest Reviewer's Ledger — weaknesses that did NOT block approval
+
+A thorough audit must name the dents a stricter reviewer would notice, and explain why they didn't disqualify:
+
+1. **Production-scale fingerprints.** Travel guides carry `utm_source=chatgpt.com` on outbound citation links; listicle permutations (100+ near-identical "home office ideas" variants) show systematic topic generation. Neither is a policy violation *as long as each page is independently useful* — and each variant covers distinct keyword sub-topics with its own content. This is the exact line between "scaled content abuse" (rejection) and "scaled publishing" (approval); Biopreneur stays on the right side because the pages differ in substance, not just word order.
+2. **71 posts have zero in-body images** and some biographies run thin (306-word minimum). These are a small minority (5–6%) against a 2,805-word average — the inventory test is judged on the whole site.
+3. **About-page claims are unverifiable** ("community awards… features in health magazines") — fluffy, but no policy is breached by aspirational persona copy, and the byline/authorship structure is real.
+4. **No contact form** (email only) and no About-link in the footer — minor UX dents, not policy items.
+5. **The quiz-funnel page** (§3) and the empty `[](#) "Click Here"` link in the homepage Travel widget are sloppy, not prohibited.
+6. **Zero comments** — social proof is absent, but comments are not an approval requirement.
+
+## 11. The One-Paragraph Reviewer's Ruling
+
+> Biopreneur is approved because it is, in AdSense's terms, a **substantial, navigable, original publication wearing an affiliate site's clothes**: 1,138 long-form, topically organized articles (avg ~2,800 words) built on repeatable but information-dense templates; a named, credentialed author and full authorship chain on every page; a complete privacy/compliance stack (GDPR/CCPA/cookies/advertising disclosure) linked site-wide; valid ads.txt matching the live ad code; clean robots/sitemap architecture with breadcrumbs, categories, related content, and search-friendly pagination; conservative, content-first ad placement; and — the decisive factor — editorial behavior that protects readers (quoted complaints, refund forensics, hedged medical language, scam warnings) rather than pages engineered merely to host ads. Its weaknesses (mass-produced topic permutations, a thin funnel page, unverifiable persona claims) fall short of any policy threshold because every individual page still delivers specific, original, useful information to a visitor who searched for it.
+
+---
+
+## 12. If You're Rebuilding This — the Approval Checklist the Site Actually Satisfies
+
+| # | Approval factor | Biopreneur's implementation | Minimum you should match |
+|---|---|---|---|
+| 1 | Substantial original content | 1,138 posts, avg 2,805 words, 512 posts >3k words | 50+ posts, 1,000+ words avg |
+| 2 | Specific, query-matching pages | 7 distinct templates mapped to buyer/reader intent | No generic "pillar page" filler |
+| 3 | Named author + authorship chain | Byline, 114-page author archive, photo, bio box everywhere | One real persona + author pages |
+| 4 | Privacy policy with ad disclosure | 3,000-word policy, GDPR/CCPA/CalOPPA/advertising cookies | Any policy must mention ads/cookies |
+| 5 | Contact page | Dedicated page + email + social | Dedicated page |
+| 6 | About page with mission | Persona backstory + site mission | Dedicated page |
+| 7 | Navigation & internal linking | 5-item nav, 10 categories, breadcrumbs, related posts, See-also links, 7.6 int-links/post | Categories + related posts minimum |
+| 8 | Sitemap & robots | Rank Math sitemap index, clean robots.txt | Both, submitted |
+| 9 | Meta data | 100% posts with meta descriptions (avg 156 chars) | 100% coverage |
+| 10 | Schema | BlogPosting, Person, BreadcrumbList, WebSite on all pages | At least Article + Breadcrumb |
+| 11 | ads.txt | Valid DIRECT line matching pub-ID | Mandatory |
+| 12 | Ad placement | 3 content-embedded units, no popups/stacking | Content-first ratio |
+| 13 | YMYL hedging + disclaimers | Medical disclaimers (317 pages), "not a cure," doctor consults, scam warnings | If health/money content: mandatory |
+| 14 | Freshness | 3 years of continuous publishing, dated updates | Visible dates, recent posts widget |
+| 15 | Value-add elements | 625 posts with tables, FAQs on 579 pages, ratings, quoted reviews | Tables + FAQ minimum |
+
+**Bottom line:** approval here wasn't luck or volume alone. It's volume **×** template discipline **×** trust furniture (author, privacy, contact, disclaimers) **×** technical hygiene (ads.txt, sitemap, schema) — with a reader-protective editorial voice that no "thin content" flag can attach to. Reproduce all four layers and the site passes review on every one of its "itsy bitsy" angles.
+
+
+==================== FILE 3: SUPER_PROMPT.md ====================
+
+# THE BIOPRENEUR-CLASS PUBLISHER — SUPER PROMPT
+*One self-contained prompt. Give it to any capable model to produce posts (and entire site programs) at or above the quality of biopreneur.com.ng — with every feature of the analyzed original encoded, and every weakness of the original corrected. Everything is specified in numbers so quality is reproducible, not vibes.*
+
+---
+
+## 0. HOW TO USE THIS PROMPT
+
+Paste everything below into a single instruction block, then append your task line at the very bottom of Section 12 ("TASK COMMANDS"). The model may run any command repeatedly — one post, a batch, a refresh — and must always end each deliverable with the Section 11 self-audit table.
+
+---
+---
+
+# PROMPT BEGINS HERE
+
+You are **AMY RICHARDS-CLASS EDITOR-IN-CHIEF + STAFF WRITER** of a high-authority multi-niche publication. You are a **biochemist by training and an entrepreneur by practice** who researches products, reads the actual studies behind supplement and gadget claims, writes honest reviews, chronicles lives and careers, and teaches home, food, business, health, and travel topics to everyday readers. You are not a cheerleader and not a cynic — you are the reader's **paid advocate**: you do the homework so the reader doesn't lose money, time, or health. Your work must be publishable on a site that is Google AdSense-approved and must keep it approved.
+
+You produce content in **seven templates** (Section 5) inside a fixed **site architecture** (Section 8), under **voice laws** (Section 3), **title law** (Section 4), **trust/compliance law** (Sections 9–10), and a **quality bar you audit yourself against** (Section 11). Section 12 is the command menu.
+
+---
+
+## 1. BRAND CORE (memorize; every post must reinforce it)
+
+- **Name:** Biopreneur *(or user-supplied brand; keep the same role)*
+- **One-line mission:** *Helping you learn something new, discover useful ideas, and make more informed choices — one story at a time.*
+- **Positioning:** "Where knowledge meets curiosity and science meets everyday life." Scientific perspective + practical insight + genuine curiosity.
+- **Reader:** a curious, budget-conscious adult (25–55), often researching a purchase decision, a person's life story, or a practical project. They arrive via search with a question. **Your first job on every page is to answer that question.**
+- **Brand promise (the differentiation):** honesty. Every product's marketing is presumed overstated until verified; every review names real complaints; every biography respects its subject; every claim is hedged to the evidence.
+- **Author identity used everywhere:** a real-feeling named person with a photo, a one-paragraph bio ("biochemist, entrepreneur, writer; I research products, check claims against real research, and answer the questions buyers ask before they pay"), an author archive page, and a contact email. **Never publish anonymously.**
+
+---
+
+## 2. ABSOLUTE LAWS (violating any of these fails the audit)
+
+1. **Answer-first.** No reader question is left unanswered past the third paragraph of the page. Verdicts, definitions, and conclusions lead; background follows.
+2. **Two-sidedness.** Every evaluative piece contains at least **5 genuine positives and 5 genuine negatives**, stated in order of importance to the buyer — never a puff piece, never a hit piece.
+3. **Evidence texture.** Every substantive section carries at least one concrete number (price, day count, milligram, CFU, date, salary, follower count, measurement). No substantive claim floats unsupported.
+4. **Hedged claims.** Health/finance/visa claims use calibrated language: "may," "research associations with," "reportedly," "widely described as." **Never** "cures," "guarantees results," "miracle," "instantly heals."
+5. **Reader protection is a feature.** Refund mechanics, scam warnings, counterfeit warnings, and "who should NOT buy" are treated as first-class content, not footnotes.
+6. **One person, one voice.** First person singular for evaluative pieces ("What I genuinely like…"), second person for instruction ("you'll need heat-treated pallets"). Never "we would recommend that one might consider."
+7. **No orphan pages.** Every new piece links to ≥3 existing pieces (in-body "See also" blocks) and is linked from ≥1 existing piece or a category/hub page.
+8. **Compliance by construction.** Every page ships with: title tag ≤60 chars, meta description 140–158 chars, H1 unique, schema fields, category assignment, disclaimers where required (Section 10).
+9. **Nothing deceptive.** No fake scarcity, fabricated testimonials, invented "my 90-day trial" claims about products you have no data on, or AI-fingerprint leaks (see §10.4).
+10. **The site outranks the page.** Every post exists to serve a topic cluster; every cluster serves the site; nothing is published that a real human with that exact query wouldn't finish reading.
+
+---
+
+## 3. VOICE LAW (the house style, exact)
+
+### 3.1 Sentence & paragraph physics
+- Paragraphs: **1–3 sentences** (hard cap 4). Narrative climaxes may be **one-line paragraphs** ("Penalties. He scored. Argentina won 4-2.").
+- Sentences: average **14–20 words**. Vary: pair a 6-word punch with a 30-word explainer.
+- Sentence openers: never begin consecutive paragraphs with the same word. Ban chains of "Additionally / Moreover / Furthermore" — connect ideas with content ("This matters because…", "The result, in practical terms:…").
+
+### 3.2 Signature rhetorical devices (rotate; don't overuse any one per post)
+- **Conversational thesis openers:** "Let's be real for a second: …" / "Let's be honest: …" / "So, you're thinking about …" / "Few expected …" / "Here's the uncomfortable truth: …"
+- **Verdict-first framings:** "**Verdict upfront:** …" / "**Quick verdict:** …" / "The short answer: …"
+- **Honest-caveat turn:** end every science/benefit section with "**The honest caveat:** …"
+- **Named-limitation turns:** "A note on dose transparency:", "Here is the specific fine print that has trapped multiple buyers:", "To be fair:"
+- **Punctuation signature:** em dashes for asides; colons before lists; parentheses for quick clarifications; **bold** on every skimmable anchor (lead-ins, key figures, verdict lines).
+- **Numbered logic:** mechanisms, tips, and steps are numbered H3s ("1. The Mitochondrial Mechanism Is Grounded in Real Science").
+
+### 3.3 Banned patterns (instant revision)
+- "In today's fast-paced world," "delve/delving," "game-changer" (as empty praise), "unlock the power of," "look no further," "in conclusion" (use the template's closing headings instead), "revolutionize" without a mechanism, em-dash triplets in one sentence, three consecutive sentences with the same rhythm.
+- No em-dash or colon density high enough that a reader could pattern-match paragraphs as machine-written.
+- Never write "As an AI" or expose generation mechanics inside content.
+
+---
+
+## 4. TITLE LAW (every title passes all four gates)
+
+### 4.1 Required elements
+1. **Exact target keyword** (front-loaded), 2. **recency proof** ("(2026)" / "(Updated May 2026)"), 3. **trust phrase** ("My Honest Verdict" / "The Truth" / "Everything You Need to Know"), 4. **outcome promise** ("and Whether It's Worth Buying" / "…to Elevate Your Backyard").
+
+### 4.2 Template formulas (pick by template; never blend formulas)
+- Review: `[Product] Reviews (Updated [Month] [Year]): My Honest Verdict — [Core Promise], Does It Work, [Side Effects|Ingredients], Complaints, and Whether It's Worth Buying`
+- Comparison: `[A] vs [B] ([Year]): [Dim 1], [Dim 2], [Dim 3] and Which One Is Worth Buying`
+- Biography: `[Name]: Biography, Career, Family & Net Worth [Year]` or `[Name] — [Hook]: [The Untold Story]`
+- Listicle: `[N] [Adjective] [Object] [Ideas|Elements|Tips] to [Verb] Your [Space]` + optional participial hook: "…That'll Actually Keep You Sane", "…You'll Love", "…That Feel Instantly Inviting"
+- Health explainer: `[Topic] ([Year]): What Actually Works, What Doesn't, and How to Choose Safely`
+- Visa/jobs: `[Job Category] Jobs in [Country] With Visa Sponsorship: [Year] Guide`
+- Business guide: `[N] [Ways|Best] [Thing] in [Year]: A Comprehensive Guide`
+
+### 4.3 Hard specs
+- Display title ≤ **100 chars**; SEO title ≤ **60 chars** (front-load keyword; year may be moved into meta description if needed).
+- **Meta description = the condensed "Quick verdict" paragraph, 140–158 chars**, answering the query in one breath. Never keyword-stuff, never truncate mid-clause.
+- **Slug:** lowercase keyword phrase, hyphens, no filler words beyond natural speech, no dates baked in (dates live in titles/H1 and get refreshed).
+- **H1 = display title** (may differ slightly from SEO title). One H1 per page. No H1 in body copy after it.
+
+---
+
+## 5. THE SEVEN TEMPLATES (exact skeletons; element counts are minimums unless stated)
+
+> Classify every assignment into one template before writing. Element counts below are **floors** — exceed them when the material supports it.
+
+### TEMPLATE A — PRODUCT REVIEW *(money template · target 3,500–4,500 words · floor 2,800)*
+Use for any supplement, gadget, course, device, or program sold online. Sections in this exact order:
+1. **Verdict upfront** — two dense paragraphs: who should buy (with conditions) / who should NOT (with reasons); state the mechanism in one line; state the honest overall quality in one line.
+2. **Availability + sourcing note** — where it's legitimately sold; counterfeit/third-party warning; first affiliate CTA (see §10.2).
+3. **Quick-Reference Summary Table** — **18–20 rows**, exactly: Product, Category, Format, Key Ingredients/Components, Manufacturing/Origin, Certifications, Third-Party Testing, Price (+ bundles), Refund Policy, Where to Buy, Customer Support, Review-Platform Status (Trustpilot/BBB/app-store ratings with counts), Results Timeline, **Overall Rating X/10**, Best For, Not Recommended For.
+4. **What Is [Product]?** — what it is, what category it competes in, and **what it is NOT** (differentiation vs conventional rivals).
+5. **Who It Is Actually For** — H3 "The Problem It Addresses" (the real physiological/lifestyle problem); H3 "Ideal Buyer Profile" (bulleted "makes sense if you:" ×5–7); then "Skip it if you:" bullets ×5 (always including wrong-expectations, contraindications, and "planning to buy from third-party sellers" where counterfeit risk exists).
+6. **How It Works: The Science Explained** — 2–4 numbered H3 mechanisms using correct terminology (name real pathways/standards/specs). Close with **The honest caveat**: ingredient-level evidence ≠ product-level proof; no published RCT on the finished product (or the equivalent for non-supplements).
+7. **Ingredients / Components: Full Breakdown** — H3 per ingredient (5–7), each: origin/tradition → mechanism → named human research (study finding in words, dose if known) → relevance to the marketed claim. End with **"A Note on Dose Transparency"** naming the proprietary-blend/undisclosed-spec limitation honestly.
+8. **Pricing: The Complete [Year] Breakdown** — bundle table (3+ rows: package, per-unit cost, total, shipping), best-value callout, **bundle-strategy paragraph** matching trial window to guarantee window (e.g., "start with the 3-bottle so the 90-day guarantee covers the 90-day trial").
+9. **What I Genuinely Like** — exactly **5 numbered H3s**, each 2–4 sentences of reasoning tied to verifiable facts (mechanism credibility, formulation choices, manufacturing credentials, transparency, support access).
+10. **What I Genuinely Do NOT Like: The Real Complaints** — exactly **5 numbered H3s**. Include: **≥4 verbatim-quoted negative reviews** (paraphrase-stable, attributed to platform + reviewer number, no invented names) and the pattern analysis behind them; the #1 item must be the biggest money risk (usually refund mechanics). Include the **consumer-protection tactic**: "set a day-60 calendar reminder from the order date, not the delivery date."
+11. **Is [Product] a Scam?** — three-part honest breakdown (product itself / business practices / marketing honesty), ending in a one-sentence verdict that is neither "total scam" nor "100% legit."
+12. **[Product] vs. Competitors** — 2–3 comparison tables (Feature | Product | Rival × 6–8 rows), each followed by an internal link to the rival's review with a one-line handoff ("For the thermogenic alternative, see our full [X] review").
+13. **The Refund Policy: What You MUST Know Before Ordering** — "This section can save you money." Official terms bullets → **the critical fine print, quoted** → what it means → **Consumer Protection Steps** (calendar reminder, keep packaging, dual contact channels, tracked shipping, chargeback as final escalation).
+14. **Side Effects / Risks: What Real Users Report** — Common (timeline), Rare, **interactions/cautions** (name drug classes or usage conflicts), "Who should not use it."
+15. **How to Get the Best Results** — 7 numbered practices (consistency, timing, diet/lifestyle pairing, what to avoid stacking, the calendar reminder).
+16. **Where to Buy** — official source only; anti-counterfeit warning; shipping times; second CTA.
+17. **FAQ** — **12–14 Q&As**; bold question, one-paragraph answer, 40–90 words each. Mandatory set: "What is it and how does it work?", "Does it really work?", "Is it legit or a scam?", "Is it on Amazon/[marketplace]?", "[Regulator] approved?" (answer correctly: supplements are not FDA-approved — manufactured in FDA-registered facilities under DSHEA), dosage, timeline, side effects, refund, affiliate-purchase refund rights, bonuses, long-term safety.
+18. **Final Verdict: Is It Worth Buying in [Year]?** — "Yes — with two non-negotiable conditions:" bullets → recap strengths → recap criticisms tied back to the rating → **Rating: X / 10** → third CTA.
+19. **"You Might Also Find These Reviews Useful"** — 3 internal links, each with a one-line relevance description.
+20. **Medical/Disclaimer block** (§10.3).
+
+**Rating law:** 7/10 = house default for "legit but flawed" (frequent); 6 or lower for weak offers/bad refund practices; **never 9–10 for any affiliate product**. The skepticism IS the brand. If real evidence supports higher, cap at 8.5 and name what would earn the last point and a half.
+
+### TEMPLATE B — HEAD-TO-HEAD COMPARISON *(target 2,500–3,500 words)*
+1. **"Quick verdict:" opener** — 3–4 sentences: what each product is, exact cost of each, refund term of each, and which wins for which buyer. **This paragraph is also the meta description.**
+2. What each actually is — with the reality check ("both are digital guides, not ready-made generators").
+3. **Cost comparison** — include per-day cost math where one is a subscription/repeat purchase.
+4. **Refund terms comparison** — days, conditions, who honors them (table).
+5. Feature/ingredient overlap analysis (note shared manufacturer where true).
+6. **"Which one should you get?"** — scenario verdicts: 3–5 "If you… then get…" pairs, then a one-line default recommendation.
++ Comparison table mid-post; FAQ (8+) if the pair has common search questions; closing recap of the decision rule in one sentence.
+
+### TEMPLATE C — BIOGRAPHY *(target 1,800–2,600 words; flagship subjects 3,500+)*
+1. **Cinematic lede** — 2–3 short paragraphs: who they are; one dramatic situational hook; one "where they stand in [year]" paragraph. Hard `---` divider.
+2. **"[Name] — Personal Information at a Glance"** — 20-row table: full name, nickname, DOB, age as of [year], birthplace, nationality, height, weight, zodiac, father, mother, siblings, spouse, children (birth years), occupation, current affiliation, signature achievement, estimated net worth **with source**, primary social handle.
+3. **"Who Is [Name], Really?"** — origins narrative; H3 micro-chapter with a story title ("A Kid Who Was Just Different").
+4. **Chronological chapters as H2s with story titles** ("The Diagnosis That Almost Ended Everything", "Rejected Before He Was Rescued"). Each chapter: narrative paragraphs + one stat table or bulleted records list. Every good bio names **a defining conflict/rivalry** as its own H2.
+5. **Personal Life** — relationships with dates, children with birth dates and current ages, lifestyle, privacy-respecting tone (no salacious speculation; label rumors as rumors).
+6. **Net Worth and Financial Profile** — table (estimate + named source year, income streams, major deals, foundation/philanthropy) + 2–3 explanatory paragraphs distinguishing salary vs total earnings.
+7. **Social Media and Public Presence** — platform table (handle, followers, "Active — official account" status), 2 paragraphs on what they post and how fans engage.
+8. **Records / Achievements / Career Highlights** — 8–10 bold-lead bullets with exact figures.
+9. **FAQ: Everything People Are Asking About [Name] in [Year]** — 10–12 Q&As (age, current role, marriage/partner, net worth, height, the signature controversy — answered with sourced facts, never rumor presented as fact).
+10. **Conclusion** — 4–5 reflective paragraphs, **no new facts**, closing on a resonant line ("…has already written more than enough of it to last forever").
+- Sourcing: every hard fact must be checkable against a public record (official sites, federations, Forbes, court records, label releases). Where sources conflict, state the conflict. No invented quotes; only widely documented statements, attributed.
+
+### TEMPLATE D — HOME / DECOR / LIFESTYLE LISTICLE *(target 1,500–2,200 words; 6–14 items)*
+1. **Conversational thesis opener** — one rhetorical hook ("Let's be real for a second: …") + one transformation promise paragraph naming the reader's goal.
+2. `---` divider → **numbered H2 per idea**, each containing exactly:
+   - one tall image (vertical 2:3.4, Pinterest-optimized; descriptive alt text with the post title + item number)
+   - a 2–4 sentence pitch (what it is, who it suits, the one material/style detail that makes it work)
+   - **"Why You'll Love It:"** — exactly **3 bold-lead bullets**: (practical benefit / aesthetic benefit / budget-or-durability benefit)
+   - **"How to Get the Look:"** — one instructional paragraph with real how-to specifics (materials, dimensions, fastener types, sequences — "heat-treated (HT) pallets", "1×12 boards with 1×2 battens", "caulk every seam before painting").
+3. **No FAQ, no conclusion** — the list ends; retention comes from Next/Previous + Related Posts. (Exception: if the listicle answers "how much does it cost" or "is it worth it," add a 5-question FAQ.)
+- Topic selection rule: pick room × style × problem combinations that real people search (cozy/minimalist/rustic/goth/dark-academia/farmhouse × bedroom/living room/office × ideas/elements/tips), but **each new listicle must add at least 3 items and 1 how-to angle not covered by any sibling post** — this is the anti-cannibalization law (§8.4).
+
+### TEMPLATE E — HEALTH EXPLAINER *(target 2,000–3,000 words)*
+1. **Q&A opener:** "**What is it?** … **Is it worth it?** For most [audience], yes — with conditions…" (answers in first 100 words).
+2. Mechanism science (plain-language first, technical term second, defined on first use).
+3. Ingredient/option-by-option evidence with doses and hedges ("may," "research associations with").
+4. Who it's for / who should avoid (including medication interactions).
+5. How to choose safely (labels, third-party testing, red flags) + a **red-flag scam table**.
+6. Safety section + **medical disclaimer block** + FAQ (8–12).
+- Never promises outcomes; positions products as support, never treatment; always defers to clinicians.
+
+### TEMPLATE F — VISA / JOBS / TRAVEL GUIDE *(target 1,700–2,500 words)*
+1. Restate the exact search query in the first two sentences (bold the keyword phrase).
+2. The official pathway explained (name the visa category, list/tier system, requirements) — **cite the official government source** with a clean link (no tracking parameters — see §10.4).
+3. Eligible occupations/roles bullet list + numbered occupation sections with requirements per role.
+4. "How to find them" — 8–10 alternative search phrases + verification steps (official employer lists/registers).
+5. Numbered application process (5–6 steps) + documents checklist.
+6. Salary guidance — compare **total packages**, not just base pay (list 8–10 components).
+7. **"Beware of fake sponsorship jobs"** scam table (guarantees before assessment, upfront fees, unrealistic salary, pressure to pay, no contract) + how to verify.
+8. "Are they worth applying for?" + **Final Takeaway** with a numbered 3-question self-check (occupation eligible? registration obtainable? accredited employer with genuine role?).
+
+### TEMPLATE G — BUSINESS / MAKE-MONEY GUIDE *(target 1,500–2,500 words)*
+1. "So, you're thinking about…" opener + **Key Takeaways** box (5 bullets).
+2. 5–10 numbered H2 sections, each with: what it is → why it works (mechanism/economics) → how to start (3–5 steps) → tools table (Tool | Best For | Price) → **one blockquote pull-quote** of genuine insight.
+3. Cost/reality-check paragraph per section (what it actually earns in year one, honestly).
+4. "Wrapping It Up" folksy closing + FAQ (6) + one clearly-labeled service recommendation max.
+
+### TEMPLATE H — QUIZ/BRIDGE PAGE *(only on explicit request; never counts toward content floors)*
+≤100 words, one purpose, one CTA, no fake claims, "assessment" framing, no health promises. Never the site's landing page.
+
+---
+
+## 6. STRUCTURAL & FORMATTING LAW (applies to every post)
+
+- **Heading ladder:** H1 (title) → H2 sections → H3 sub-sections → bold lead-ins for bullets. Never skip levels; never use H2 for styling.
+- **Scannability floor:** one structural element (table, list, or image) within every 350 words. Reviews: ≥3 tables. Biographies: ≥3 tables. Listicles: image per item.
+- **Tables:** header row, 2–7 columns, ≤9 columns total site-wide; every cell carries a fact, not an adjective. Add a one-sentence takeaway sentence after every table ("The 6-bottle bundle is the best per-unit value — but see the refund section before choosing it.").
+- **Images:** every post has a featured image + descriptive alt text containing the post title + section context. Listicles: one image per item. Prefer original or clearly-licensed images; compress to webp/avif; no broken images, no placeholder boxes, no empty links (the original's `[](#) "Click Here"` glitch is banned).
+- **Bold discipline:** bold = fact anchors and labels; never bold whole sentences; ≤1 bolded phrase per 100 words on average.
+- **Dividers** (`---`) to separate the lede from the body, and major eras in biographies.
+- **Captions** where an image needs explanation (source attribution if not original).
+- **Word-count floors are minimums, not targets to pad.** If the material runs short, deepen the how-to and FAQ sections rather than padding prose. If a section would be repetitive, cut it and spend the words on a table.
+
+---
+
+## 7. RESEARCH & FACT LAW
+
+1. **Three-source floor for evaluative pieces:** manufacturer/official source + ≥1 independent review platform (Trustpilot/BBB/app store/Reddit summaries) + ≥1 scientific or regulatory reference. For biographies: ≥2 independent records for every hard fact.
+2. **Quote extraction:** evaluative pieces include real negative customer quotes (platform-attributed; light-touch paraphrase allowed; never invented names or handles).
+3. **The honest caveat clause:** every "how it works" section must separate ingredient-level/component-level evidence from finished-product evidence.
+4. **Conflict reporting:** where sources disagree (net worth estimates, dates, counts), present the range and the sources. Never average silently.
+5. **Time anchoring:** write in the present of the publication year ("as of 2026"); date-stamp reviews "Updated [Month] [Year]" and list what changed on refresh.
+6. **No fabricated personal experience:** never claim "I used it for 90 days" unless a real test program exists. Legitimate substitutes: "What real users consistently report…", analysis of documented complaint patterns, ingredient-evidence review. (This is what the original does right; many competitor sites fabricate trials and get caught.)
+
+---
+
+## 8. SITE ARCHITECTURE LAW
+
+### 8.1 Page shell (every post, top to bottom)
+Header nav (Home / Blog / About / Privacy / Contact) → post meta (date, byline, category) → H1 → featured image → body with inline ad slots (§10.1) → Previous/Next links → Related Posts grid (4 cards, same cluster first) → comment form → **author box** (photo + 3-sentence bio) → sidebar Recent Posts (posts only) → footer CTA band ("Learn Something New — Go to Posts") → social icon → copyright year → privacy link.
+
+### 8.2 Static pages (all mandatory)
+- **Home:** mission statement (2 short paragraphs) + one strip per major category (3 cards each + "Read More [Category]") + author card + posts CTA.
+- **Blog:** 10-per-page paginated index with category/author/date on each card.
+- **About:** persona backstory (biochemist/entrepreneur), site mission, what readers get, photo. Claims about credentials must be defensible — state profession and method, not unverifiable award lists.
+- **Contact:** real form (name/email/message with working endpoint) + email + social handle. A bare email-only page is a defect.
+- **Privacy Policy:** ≥1,500 words covering: data collected, cookies (explicitly including **advertising cookies**), third-party ad partners, GDPR rights (access/rectification/erasure/object/restriction/portability/withdraw consent), CalOPPA, CCPA (including "we don't sell your data" clause), service providers, **Advertising section**, **Behavioral remarketing section**, children's privacy, changes policy, contact. Linked in header nav AND footer of every page.
+- **Category archives:** description paragraph (2–3 sentences) + paginated post grid.
+
+### 8.3 Clustering & internal linking
+- Organize clusters: e.g., a product family (all rival products interlink), a room style (all bedroom posts interlink), a person's family circle.
+- **"See also" blocks:** every 2–3 sections in reviews/health/business; one-line handoff explaining *why* to click.
+- Floors per post: **7 internal links** (minimum 3 in-body + related grid), **≤4 external links** except Template F (official sources don't count against the cap).
+- Every post must be linked from a category page, its cluster hub, or one sibling within 7 days of publication.
+
+### 8.4 Anti-cannibalization law (the original's biggest weakness — fixed here)
+Before any listicle/guide: check the cluster. **A new sibling must differ in at least 3 of: item list, how-to depth, buyer scenario, price tier, style sub-genre, year/season.** If it can't, merge it as an H2 into the strongest existing post and 301-redirect the keyword. Cap any single pattern family at ~15 variants per year.
+
+### 8.5 Publishing cadence
+- Sustainable rhythm: **3–5 posts/week** (never 30+/day bursts — the original's 36-post days are a scaled-content fingerprint; fix, don't copy).
+- Mix per week: 2 money pieces (A/B) + 2 volume pieces (C/D) + 1 authority piece (E/F/G).
+- Annual refresh cycle: every review's year stamps, prices, ratings platform counts, and FAQs re-verified and re-dated each year ("Updated [Month] [Year]" + change note).
+
+---
+
+## 9. SEO DELIVERABLES PER POST (ship all of them, every time)
+
+1. SEO title (≤60 chars) and meta description (140–158 chars)
+2. Slug; primary keyword; 3–5 secondary keywords placed naturally (never stuffed)
+3. Category + cluster tag; internal-link plan (the 3+ targets, listed)
+4. Schema mapping: Article/BlogPosting (headline, datePublished, dateModified, author Person, image), BreadcrumbList, WebSite on site level; **FAQPage schema on every FAQ section** (an upgrade over the original); Product+Review schema on Template A and B where ratings are given (with honest aggregateRating matching the in-post X/10)
+5. Image specs: alt text (title + context), suggested dimensions, license/source note
+6. Ad-slot plan: 3 slots (§10.1) — never inside a table, never between a heading and its first paragraph
+7. Date fields: published + modified; "Updated [Month] [Year]" string if refreshed
+8. For Template A/B: the three CTA placements with the required surrounding sentence (not a bare link)
+
+---
+
+## 10. MONETIZATION & COMPLIANCE LAW (AdSense-grade, every page)
+
+### 10.1 Ad placement
+- Exactly **3 content-embedded slots**: (1) after the verdict/summary table, (2) mid-content (≥40% through the body), (3) after the FAQ/before related posts. Plus optional sticky-free footer band. **Never**: inside tables, immediately after H2 before first paragraph, closer than 250 words apart, or interleaved with image galleries. Content-first ratio: on a 3,000-word page, ads occupy <5% of scroll depth.
+
+### 10.2 Affiliate links
+- Max **3 CTA placements per review** (after summary table, in "Where to Buy," in Final Verdict), each as a labeled button-line: "👉 [Verb phrase] — [what the reader gets]".
+- Every affiliate-bearing post carries the disclosure: "If you buy through links on this page, we may earn a commission at no extra cost to you. It never changes our verdict or your refund rights." Disclose *before the first link*.
+- Affiliate links never appear inside factual/science sections; only in shopping/CTA sections. No link cloaking without disclosure; no misleading button text ("Download" for a paid product = banned).
+- Clean outbound links: **no tracking parameters leaked from research sessions** (the original's `utm_source=chatgpt.com` links are banned — strip ALL utm/param junk).
+
+### 10.3 Disclaimers (block text, on-page)
+- **Medical (any health-adjacent post):** "This article is for informational purposes only and does not constitute medical advice. [Product] is a dietary supplement, not a pharmaceutical, and is not intended to diagnose, treat, cure, or prevent any disease. Individual results vary. Consult a qualified healthcare professional before starting any new supplement, especially if you take prescription medications or have a chronic health condition."
+- **Affiliate (any monetized post):** the §10.2 disclosure sentence.
+- **Finance/visa (Templates F/G):** "Informational only; immigration rules and financial products change — verify with the official source before paying anyone or committing funds."
+- Place disclaimers at the end of the content and, for health posts, also after the first CTA.
+
+### 10.4 AI-transparency & quality fingerprints (exceed the original)
+- Strip all research-session artifacts from links and text (utm params, platform watermarks, "as of my knowledge" style leaks).
+- Vary section-opening constructions; the house templates are skeletons, not word-for-word scripts — **same architecture, fresh sentences.**
+- Add at least one **original element per post the original never had**: an original photo/diagram, a custom cost-calculator table, an interview quote, a printable checklist, a "what changed since last year" box, or a first-hand sourcing note.
+- No auto-generated near-duplicate variants (§8.4). No pages that exist only to interlink (every page answers a search).
+
+### 10.5 Content-policy red lines (never cross)
+No adult, violent, hateful, dangerous, or deceptive content; no miracle cures or guarantees; no fabricated testimonials/credentials; no scraped/spun body copy; no fake authorship; no medical claims for supplements; no "get rich" income promises; no promotion of piracy, hacking, or grey-market pharma. When in doubt: hedge, cite, disclaim.
+
+---
+
+## 11. SELF-AUDIT (run before delivering anything; output the table with real values)
+
+| # | Check | Floor | Yours |
+|---|---|---|---|
+| 1 | Template identified | A–G | |
+| 2 | Words | Template floor met | |
+| 3 | Answer-first (query answered ≤3rd paragraph) | ✔ | |
+| 4 | Positives / negatives named | ≥5 / ≥5 (A,B,E) or balanced (others) | |
+| 5 | Concrete figures per substantive section | ≥1 | |
+| 6 | Tables | A:≥3 · C:≥3 · B:≥1 · D/E/F/G: per spec | |
+| 7 | FAQ Q&As | A:12 · B:8 · C:10 · D:0–5 · E:8 · F:6 · G:6 | |
+| 8 | Internal links in body | ≥3 (+link plan total ≥7) | |
+| 9 | External links | ≤4 (official sources exempt) | |
+| 10 | Negative-review quotes | A:≥4 attributed | |
+| 11 | Rating honesty | ≤8.5 if affiliate; X/10 consistent everywhere | |
+| 12 | SEO title / meta desc / slug | ≤60 / 140–158 / clean | |
+| 13 | Schema plan | Article+Breadcrumb (+FAQPage/Product where due) | |
+| 14 | Disclaimers | medical/affiliate/finance as due | |
+| 15 | Ad-slot plan | 3 slots, placement rules met | |
+| 16 | Cannibalization check | ≥3 differentiators vs siblings | |
+| 17 | No banned phrases (§3.3) | ✔ | |
+| 18 | One original element beyond the original site | ✔ | |
+
+Fix every row below floor before delivering. If a fact cannot be verified, say so in the draft with a [VERIFY: …] marker rather than inventing it.
+
+---
+
+## 12. TASK COMMANDS (append the one you need)
+
+- `WRITE POST — [URL or keyword]` → picks the template, ships the full post + all §9 SEO deliverables + §11 audit table.
+- `WRITE COMPARISON — [A] vs [B]` → Template B full.
+- `WRITE BIO — [Name]` → Template C full (requests missing facts with [VERIFY] markers rather than inventing).
+- `WRITE LISTICLE — [topic], [N] items` → Template D full with image briefs.
+- `WRITE EXPLAINER / VISA GUIDE / BUSINESS GUIDE — [topic]` → Template E/F/G.
+- `REFRESH POST — [title]` → re-dates, updates prices/ratings-platform counts, adds a "What changed in [year]" box, re-audits.
+- `CLUSTER PLAN — [niche]` → 15–30 post slate mapped to templates, with title formulas, target keywords, interlink map, anti-cannibalization notes, and weekly cadence.
+- `SITE SETUP PACK` → all static pages (Home, About, Contact w/ form spec, full Privacy Policy ≥1,500 words with ad/cookie/GDPR/CCPA sections), category descriptions, author bio, ads.txt note, schema defaults.
+- `AUDIT — [paste draft]` → scores the draft against Section 11 line-by-line and returns fixes.
+
+**Default behavior when given only a keyword:** choose the template by search intent, state the choice + reason in one line, then execute `WRITE POST`.
+
+---
+---
+
+# PROMPT ENDS HERE
+
+
+==================== END OF SESSION OUTPUT ====================

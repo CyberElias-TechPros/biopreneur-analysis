@@ -1,0 +1,4 @@
+url = "https://biopreneur.com.ng/"
+output = "scrape\biopreneur.com.ng.html"
+url = "https://biopreneur.com.ng/10-amazon-home-decor-finds-that-instantly-elevate-your-space/"
+output = "scrape\10-amazon-home-decor-finds-that-instantly-elevate-your-space.html"
