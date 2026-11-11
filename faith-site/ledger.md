@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Month 1 · Week 1 Complete)
+## 2. Published Articles Ledger (Month 1 · Days 001–015 Live)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -51,10 +51,18 @@
 | 006 | M1·D06 | The Seed of God Remains in You | `/the-seed-of-god-remains-in-you/` | New Creation & Identity | 1 John 3:9 | 1,168 | 53c / 150c | 18/18 ✔ | 2026-11-07 |
 | 007 | M1·D07 | From Sinner by Nature to Saint by Re-creation | `/from-sinner-by-nature-to-saint-by-recreation/` | New Creation & Identity | Rom 5:19 | 1,236 | 56c / 149c | 18/18 ✔ | 2026-11-08 |
 | 008 | M1·D08 | Created in Righteousness and True Holiness | `/created-in-righteousness-and-true-holiness/` | Christian Living | Eph 4:24 | 1,186 | 53c / 153c | 18/18 ✔ | 2026-11-09 |
+| 009 | M1·D09 | The Old Man Died — Stop Burying Him | `/the-old-man-died-stop-burying-him/` | New Creation & Identity | Rom 6:6 | 1,309 | 48c / 143c | 18/18 ✔ | 2026-11-10 |
+| 010 | M1·D10 | Complete in Him: Nothing Missing, Nothing Broken | `/complete-in-him-nothing-missing-nothing-broken/` | New Creation & Identity | Col 2:10 | 1,177 | 50c / 143c | 18/18 ✔ | 2026-11-11 |
+| 011 | M1·D11 | The Miracle of the Exchanged Life | `/the-miracle-of-the-exchanged-life/` | New Creation & Identity | Gal 2:20 | 1,224 | 50c / 145c | 18/18 ✔ | 2026-11-12 |
+| 012 | M1·D12 | Accepted in the Beloved: Approval Before Achievement | `/accepted-in-the-beloved-approval-before-achievement/` | Righteousness & Grace | Eph 1:6 | 1,082 | 49c / 145c | 18/18 ✔ | 2026-11-13 |
+| 013 | M1·D13 | Your Spirit: The Address of God | `/your-spirit-the-address-of-god/` | New Creation & Identity | Rom 8:16 | 1,153 | 45c / 141c | 18/18 ✔ | 2026-11-14 |
+| 014 | M1·D14 | Born of the Incorruptible Word of God | `/born-of-the-incorruptible-word-of-god/` | The Word | 1 Pet 1:23 | 1,126 | 45c / 144c | 18/18 ✔ | 2026-11-15 |
+| 015 | M1·D15 | What Actually Happened in You When You Believed | `/what-actually-happened-in-you-when-you-believed/` | New Creation & Identity | Eph 1:13 | 1,175 | 49c / 143c | 18/18 ✔ | 2026-11-16 |
 
 ---
 
 ## 3. Slate Hygiene Log
 
 - **2026-11-11:** Verified all 365 titles in `TOPICS_365.md` against the 30 excluded source titles (0 overlaps). Replaced Month 9 Day 1 (`Righteousness Is a Nature, Not a Report Card`) with `Awake to Righteousness: Living Free From Accusation` to eliminate internal near-duplication with Month 1 Day 3.
-- **Next batch queued:** Month 1 Days `009`–`015` (*The Old Man Died — Stop Burying Him* through *What Actually Happened in You When You Believed*).
+- **2026-11-11:** Published Month 1 Days `009`–`015` (7 articles, ~8,246 words, 7/7 passing 18/18 audit). Total live: **15 articles**. Internal links verified across all 15; related-teaching handoffs point to live siblings.
+- **Next batch queued:** Month 1 Days `016`–`022` (*The Transformation You Never Earned* through *Washed, Sanctified, Justified — In That Order*).
