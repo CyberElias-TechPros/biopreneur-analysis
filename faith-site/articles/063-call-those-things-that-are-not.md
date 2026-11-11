@@ -38,10 +38,10 @@ relatedTeachings:
     slug: "faith-talks-what-you-say-is-what-you-sow"
     category: "Faith"
     handoff: "Learn how speaking aligns with believing."
-  - title: "He Did Not Stagger: The Anatomy of Unwavering Faith"
-    slug: "he-did-not-stagger-the-anatomy-of-unwavering-faith"
+  - title: "The Substance of Things Hoped For"
+    slug: "the-substance-of-things-hoped-for"
     category: "Faith"
-    handoff: "Study Abraham's example in detail."
+    handoff: "Study the substance behind Abraham's example."
   - title: "The God-Kind of Faith Does Not Consider Circumstances"
     slug: "the-god-kind-of-faith-does-not-consider-circumstances"
     category: "Faith"
@@ -112,7 +112,7 @@ Three witnesses, one pattern: declaring the end, prophesying to bones, and judgi
 
 **Further Study:** Romans 4:16–25 · Genesis 17:1–8 · Isaiah 46:9–10 · Ezekiel 37:1–10 · Hebrews 11:11–12
 
-**Related Teaching:** For the connection between believing and saying, read *Faith Talks: What You Say Is What You Sow*. For Abraham's unwavering example, read *He Did Not Stagger: The Anatomy of Unwavering Faith*. For where attention belongs, read *The God-Kind of Faith Does Not Consider Circumstances*.
+**Related Teaching:** For the connection between believing and saying, read *Faith Talks: What You Say Is What You Sow*. For the substance Abraham stood on, read *The Substance of Things Hoped For*. For where attention belongs, read *The God-Kind of Faith Does Not Consider Circumstances*.
 
 <!-- AUDIT-BELOW -->
 

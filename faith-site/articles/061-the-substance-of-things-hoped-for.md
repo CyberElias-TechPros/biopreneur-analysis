@@ -38,14 +38,14 @@ relatedTeachings:
     slug: "faith-is-now"
     category: "Faith"
     handoff: "See why faith operates in the present tense of prayer."
-  - title: "Faith Sees the Unseen"
-    slug: "faith-sees-the-unseen"
+  - title: "Doubt Is Not Faith's Opposite — Sight Is"
+    slug: "doubt-is-not-faiths-opposite-sight-is"
     category: "Faith"
     handoff: "Learn how faith perceives what sight cannot yet reach."
-  - title: "Hope Draws the Picture; Faith Builds the House"
-    slug: "hope-draws-the-picture-faith-builds-the-house"
+  - title: "Building Yourself Up on Your Most Holy Faith"
+    slug: "building-yourself-up-on-your-most-holy-faith"
     category: "Faith"
-    handoff: "Distinguish the blueprint of hope from the building of faith."
+    handoff: "Distinguish the blueprint from the building of faith."
 glossaryTerms:
   - "the Life of Faith"
   - "Spiritual Realities"
@@ -114,7 +114,7 @@ Three witnesses, one orientation: looking at the unseen, rejoicing without seein
 
 **Further Study:** Hebrews 11:1–6 · Hebrews 11:24–27 · Romans 8:24–25 · 2 Corinthians 4:16–18 · 1 Peter 1:8–9
 
-**Related Teaching:** For faith's tense, read *Faith Is Now*. For seeing the invisible, read *Faith Sees the Unseen*. For hope and faith together, read *Hope Draws the Picture; Faith Builds the House*.
+**Related Teaching:** For faith's tense, read *Faith Is Now*. For seeing the invisible, read *Doubt Is Not Faith's Opposite — Sight Is*. For hope and faith together, read *Building Yourself Up on Your Most Holy Faith*.
 
 <!-- AUDIT-BELOW -->
 

@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–066 Live — Months 1–2 Complete, Month 3 Open)
+## 2. Published Articles Ledger (Days 001–073 Live — Months 1–2 Complete, Month 3 Open)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -109,6 +109,13 @@
 | 064 | M3·D64 | The God-Kind of Faith Does Not Consider Circumstances | `/the-god-kind-of-faith-does-not-consider-circumstances/` | Faith | Rom 4:19 | 933 | 53c / 142c | 18/18 ✔ | 2027-01-04 |
 | 065 | M3·D65 | Faith Comes by Hearing — and Keeps Coming | `/faith-comes-by-hearing-and-keeps-coming/` | Faith | Rom 10:17 | 932 | 47c / 143c | 18/18 ✔ | 2027-01-05 |
 | 066 | M3·D66 | Living Faith vs Dead Doctrine | `/living-faith-vs-dead-doctrine/` | Faith | James 2:26 | 934 | 42c / 142c | 18/18 ✔ | 2027-01-06 |
+| 067 | M3·D67 | The Good Fight: Why Faith Is Worth Fighting For | `/the-good-fight-why-faith-is-worth-fighting-for/` | Faith | 1 Tim 6:12 | 958 | 47c / 147c | 18/18 ✔ | 2027-01-07 |
+| 068 | M3·D68 | Doubt Is Not Faith's Opposite — Sight Is | `/doubt-is-not-faiths-opposite-sight-is/` | Faith | 2 Cor 5:7 | 917 | 40c / 148c | 18/18 ✔ | 2027-01-08 |
+| 069 | M3·D69 | What You Believe After You Pray | `/what-you-believe-after-you-pray/` | Faith | Mark 11:24 | 929 | 44c / 150c | 18/18 ✔ | 2027-01-09 |
+| 070 | M3·D70 | Faith Grows by Use, Not by Age | `/faith-grows-by-use-not-by-age/` | Faith | Luke 17:5 | 951 | 30c / 152c | 18/18 ✔ | 2027-01-10 |
+| 071 | M3·D71 | Great Faith Recognizes Authority | `/great-faith-recognizes-authority/` | Faith | Matt 8:8 | 1,114 | 46c / 151c | 18/18 ✔ | 2027-01-11 |
+| 072 | M3·D72 | The Prayer of Faith Restores the Weary | `/the-prayer-of-faith-restores-the-weary/` | Faith | James 5:15 | 907 | 38c / 154c | 18/18 ✔ | 2027-01-12 |
+| 073 | M3·D73 | Building Yourself Up on Your Most Holy Faith | `/building-yourself-up-on-your-most-holy-faith/` | Faith | Jude 1:20 | 965 | 44c / 154c | 18/18 ✔ | 2027-01-13 |
 
 ---
 
@@ -122,4 +129,5 @@
 - **2026-12-12:** Published Month 2 Days `041`–`050` (10 articles, ~9,484 words, 10/10 passing 18/18 audit). **50-article AdSense floor crossed**; build 71 pages, 0 broken internal links.
 - **2026-12-22:** Published Month 2 Days `051`–`059` (9 articles, ~8,507 words, 9/9 passing 18/18 audit). **Month 2 complete — 59 articles live**; build 80 pages, 0 broken internal links. Homepage now lists newest 10.
 - **2026-12-31:** Published Month 3 Days `060`–`066` (7 articles, ~6,697 words, 7/7 passing 18/18 audit). Total live: **66 articles**; build 87 pages, 0 broken internal links.
-- **Next batch queued:** Month 3 Days `067`–`073` (*The Good Fight* through *Building Yourself Up on Your Most Holy Faith*) (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
+- **2027-01-13:** Published Month 3 Days `067`–`073` (7 articles, ~6,741 words, 7/7 passing 18/18 audit). Total live: **73 articles**; build 94 pages, 0 broken internal links. Also cleaned **all 21 dangling forward `relatedTeachings` slugs** across Days 043, 061–071 — every related-teaching handoff now points to a live sibling (0 dangling).
+- **Next batch queued:** Month 3 Days `074`–`082` (*Faith's Report vs the World's Report* through *Hope Draws the Picture; Faith Builds the House*) to close Month 3.

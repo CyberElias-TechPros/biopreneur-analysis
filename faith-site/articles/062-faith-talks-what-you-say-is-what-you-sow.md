@@ -42,10 +42,10 @@ relatedTeachings:
     slug: "call-those-things-that-are-not"
     category: "Faith"
     handoff: "See how God's pattern of calling shapes yours."
-  - title: "Confession and Denial: What Faith Really Says"
-    slug: "confession-and-denial-what-faith-really-says"
+  - title: "Great Faith Recognizes Authority"
+    slug: "great-faith-recognizes-authority"
     category: "Faith"
-    handoff: "Distinguish true confession from denial or pretence."
+    handoff: "Distinguish true confession from empty pretence."
 glossaryTerms:
   - "Confession of the Word"
   - "the Life of Faith"
@@ -110,7 +110,7 @@ Three witnesses, one pattern: belief confessed, faith spoken, and a small fire t
 
 **Further Study:** Mark 11:22–24 · Proverbs 18:21 · James 3:3–12 · Romans 10:9–10 · 2 Corinthians 4:13
 
-**Related Teaching:** For the tense of faith, read *Faith Is Now*. For God's pattern of calling, read *Call Those Things That Are Not*. For honest confession, read *Confession and Denial: What Faith Really Says*.
+**Related Teaching:** For the tense of faith, read *Faith Is Now*. For God's pattern of calling, read *Call Those Things That Are Not*. For the authority behind the words, read *Great Faith Recognizes Authority*.
 
 <!-- AUDIT-BELOW -->
 

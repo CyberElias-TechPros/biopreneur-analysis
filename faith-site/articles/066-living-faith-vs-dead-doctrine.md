@@ -34,8 +34,8 @@ furtherStudy:
   - "Hebrews 11:8–19"
   - "Titus 1:16"
 relatedTeachings:
-  - title: "Show Me Your Faith: Works Are Faith Visible"
-    slug: "show-me-your-faith-works-are-faith-visible"
+  - title: "The Prayer of Faith Restores the Weary"
+    slug: "the-prayer-of-faith-restores-the-weary"
     category: "Faith"
     handoff: "See how works make faith visible to others."
   - title: "Faith Grows by Use, Not by Age"
@@ -114,7 +114,7 @@ Three witnesses, one standard: faith working by love, work of faith, and profess
 
 **Further Study:** James 2:14–26 · Galatians 5:6 · 1 Thessalonians 1:2–3 · Hebrews 11:8–19 · Titus 1:16
 
-**Related Teaching:** For faith made visible, read *Show Me Your Faith: Works Are Faith Visible*. For growth by practice, read *Faith Grows by Use, Not by Age*. For the hearing that feeds faith, read *Faith Comes by Hearing — and Keeps Coming*.
+**Related Teaching:** For faith made visible in service, read *The Prayer of Faith Restores the Weary*. For growth by practice, read *Faith Grows by Use, Not by Age*. For the hearing that feeds faith, read *Faith Comes by Hearing — and Keeps Coming*.
 
 <!-- AUDIT-BELOW -->
 

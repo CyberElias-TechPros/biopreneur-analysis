@@ -42,8 +42,8 @@ relatedTeachings:
     slug: "the-nature-that-cannot-fail"
     category: "New Creation & Identity"
     handoff: "Understand the incorruptible nature producing this fruit."
-  - title: "The Fruit of the Spirit in Ordinary Life"
-    slug: "the-fruit-of-the-spirit-in-ordinary-life"
+  - title: "Fresh Oil: The Daily Renewal"
+    slug: "fresh-oil-the-daily-renewal"
     category: "The Holy Spirit"
     handoff: "Apply the fruit to home, work, and relationships."
 glossaryTerms:
@@ -110,7 +110,7 @@ Three witnesses, one harvest: branches abide, fruit is unified, and diligence co
 
 **Further Study:** Galatians 5:16–25 · John 15:1–8 · Colossians 3:12–14 · 2 Peter 1:5–8 · Ephesians 5:9
 
-**Related Teaching:** For the end of inner conflict, read *Walking in the Spirit Ends the War of the Flesh*. For the nature behind the fruit, read *The Nature That Cannot Fail*. For practical application, read *The Fruit of the Spirit in Ordinary Life*.
+**Related Teaching:** For the end of inner conflict, read *Walking in the Spirit Ends the War of the Flesh*. For the nature behind the fruit, read *The Nature That Cannot Fail*. For daily renewal, read *Fresh Oil: The Daily Renewal*.
 
 <!-- AUDIT-BELOW -->
 

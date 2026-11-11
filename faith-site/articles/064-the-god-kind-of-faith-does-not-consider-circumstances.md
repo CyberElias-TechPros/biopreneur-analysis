@@ -38,14 +38,14 @@ relatedTeachings:
     slug: "call-those-things-that-are-not"
     category: "Faith"
     handoff: "See the pattern Abraham's attention produced."
-  - title: "He Did Not Stagger: The Anatomy of Unwavering Faith"
-    slug: "he-did-not-stagger-the-anatomy-of-unwavering-faith"
+  - title: "Faith Grows by Use, Not by Age"
+    slug: "faith-grows-by-use-not-by-age"
     category: "Faith"
-    handoff: "Examine the whole anatomy of Abraham's faith."
-  - title: "Faith Is the Evidence; Feelings Are Not"
-    slug: "faith-is-the-evidence-feelings-are-not"
+    handoff: "Examine how Abraham's kind of faith is exercised."
+  - title: "The Good Fight: Why Faith Is Worth Fighting For"
+    slug: "the-good-fight-why-faith-is-worth-fighting-for"
     category: "Faith"
-    handoff: "Learn why evidence outranks emotion."
+    handoff: "Learn why the fight outranks the feeling."
 glossaryTerms:
   - "the Life of Faith"
   - "Renewing of the Mind"
@@ -112,7 +112,7 @@ Three witnesses, one focus: looking at the unseen, looking unto Jesus, and glory
 
 **Further Study:** Romans 4:18–25 · 2 Corinthians 4:16–18 · Hebrews 12:1–3 · Proverbs 4:20–23 · Philippians 4:8
 
-**Related Teaching:** For the calling that follows, read *Call Those Things That Are Not*. For Abraham's full example, read *He Did Not Stagger: The Anatomy of Unwavering Faith*. For evidence versus emotion, read *Faith Is the Evidence; Feelings Are Not*.
+**Related Teaching:** For the calling that follows, read *Call Those Things That Are Not*. For the exercise Abraham's faith required, read *Faith Grows by Use, Not by Age*. For the fight above the feeling, read *The Good Fight: Why Faith Is Worth Fighting For*.
 
 <!-- AUDIT-BELOW -->
 
