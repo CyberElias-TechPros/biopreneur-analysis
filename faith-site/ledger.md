@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Month 1 · Days 001–022 Live)
+## 2. Published Articles Ledger (Month 1 · Days 001–031 Live — Arc 1 Complete)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -65,6 +65,15 @@
 | 020 | M1·D20 | Sanctified Once, for All Time | `/sanctified-once-for-all-time/` | Righteousness & Grace | Heb 10:10 | 1,125 | 45c / 144c | 18/18 ✔ | 2026-11-21 |
 | 021 | M1·D21 | The Conscience That Was Made New | `/the-conscience-that-was-made-new/` | New Creation & Identity | Heb 9:14 | 1,119 | 47c / 152c | 18/18 ✔ | 2026-11-22 |
 | 022 | M1·D22 | Washed, Sanctified, Justified — In That Order | `/washed-sanctified-justified-in-that-order/` | Righteousness & Grace | 1 Cor 6:11 | 1,088 | 50c / 141c | 18/18 ✔ | 2026-11-23 |
+| 023 | M1·D23 | You Cannot Grow Into What You Already Are | `/you-cannot-grow-into-what-you-already-are/` | New Creation & Identity | 2 Pet 1:3 | 1,118 | 55c / 144c | 18/18 ✔ | 2026-11-24 |
+| 024 | M1·D24 | Identity Before Activity | `/identity-before-activity/` | Christian Living | Eph 2:10 | 1,000 | 41c / 148c | 18/18 ✔ | 2026-11-25 |
+| 025 | M1·D25 | The Nature That Cannot Fail | `/the-nature-that-cannot-fail/` | New Creation & Identity | 1 John 3:9 | 1,060 | 40c / 148c | 18/18 ✔ | 2026-11-26 |
+| 026 | M1·D26 | From Darkness Into His Marvellous Light | `/from-darkness-into-his-marvellous-light/` | New Creation & Identity | 1 Pet 2:9 | 1,020 | 53c / 143c | 18/18 ✔ | 2026-11-27 |
+| 027 | M1·D27 | Citizenship in Heaven: Your True Passport | `/citizenship-in-heaven-your-true-passport/` | New Creation & Identity | Phil 3:20 | 958 | 53c / 148c | 18/18 ✔ | 2026-11-28 |
+| 028 | M1·D28 | Reigning Through the Gift of Righteousness | `/reigning-through-the-gift-of-righteousness/` | Righteousness & Grace | Rom 5:17 | 997 | 50c / 144c | 18/18 ✔ | 2026-11-29 |
+| 029 | M1·D29 | Reckon It So: Count What God Counts | `/reckon-it-so-count-what-god-counts/` | New Creation & Identity | Rom 6:11 | 955 | 49c / 145c | 18/18 ✔ | 2026-11-30 |
+| 030 | M1·D30 | The Mirror of the Word: Seeing Your Real Self | `/the-mirror-of-the-word-seeing-your-real-self/` | The Word | James 1:23 | 1,008 | 58c / 144c | 18/18 ✔ | 2026-12-01 |
+| 031 | M1·D31 | Start the Year From Your Spirit | `/start-the-year-from-your-spirit/` | Christian Living | Philemon 1:6 | 988 | 46c / 147c | 18/18 ✔ | 2026-12-02 |
 
 ---
 
@@ -73,4 +82,5 @@
 - **2026-11-11:** Verified all 365 titles in `TOPICS_365.md` against the 30 excluded source titles (0 overlaps). Replaced Month 9 Day 1 (`Righteousness Is a Nature, Not a Report Card`) with `Awake to Righteousness: Living Free From Accusation` to eliminate internal near-duplication with Month 1 Day 3.
 - **2026-11-11:** Published Month 1 Days `009`–`015` (7 articles, ~8,246 words, 7/7 passing 18/18 audit). Total live: **15 articles**. Internal links verified across all 15; related-teaching handoffs point to live siblings.
 - **2026-11-17:** Published Month 1 Days `016`–`022` (7 articles, ~7,685 words, 7/7 passing 18/18 audit). Total live: **22 articles**; build 43 pages, 0 broken internal links.
-- **Next batch queued:** Month 1 Days `023`–`031` (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
+- **2026-11-24:** Published Month 1 Days `023`–`031` (9 articles, ~9,048 words, 9/9 passing 18/18 audit). **Month 1 complete — 31 articles live (~34,600 words)**; build 52 pages, 0 broken internal links.
+- **Next batch queued:** Month 2 Days `032`–`038` (*He Is Not a Wind, a Wave, or a Whisper* through *Be Filled: The Command in the Continuing Tense*) (*You Cannot Grow Into What You Already Are* through *Citizenship in Heaven: Your True Passport* and the Month 1 close) to complete Arc 1.
