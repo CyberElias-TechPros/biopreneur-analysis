@@ -1,0 +1,149 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LightLine from '../../components/LightLine.astro';
+import { SITE } from '../../data/site';
+import { CATEGORIES, type CategoryInfo } from '../../data/categories';
+import { getYearSlate } from '../../data/slate';
+
+export async function getStaticPaths() {
+  return CATEGORIES.map((category) => ({
+    params: { slug: category.slug },
+    props: { category },
+  }));
+}
+
+interface Props {
+  category: CategoryInfo;
+}
+
+const { category } = Astro.props;
+const allArticles = (await getCollection('articles')).sort(
+  (a, b) => a.data.day - b.data.day
+);
+const publishedInCat = allArticles.filter(
+  (a) => a.data.category.toLowerCase() === category.name.toLowerCase()
+);
+const publishedTitleSet = new Set(
+  allArticles.map((a) => a.data.title.toLowerCase())
+);
+const titleToSlug = new Map(
+  allArticles.map((a) => [a.data.title.toLowerCase(), a.data.slug])
+);
+
+const slate = getYearSlate();
+const relatedMonths = slate.filter((m) =>
+  category.slateMonths.includes(m.monthNumber)
+);
+---
+
+<BaseLayout
+  title={`${category.name} Teachings — ${SITE.name}`}
+  description={`${category.shortLine} Study Scripture-anchored Christian teachings in ${category.name} at In Jesus Name.`}
+  canonicalPath={`/category/${category.slug}/`}
+>
+  <section class="page-header">
+    <div class="reading-container">
+      <nav aria-label="Breadcrumb" class="meta-caps" style="margin-bottom: 1rem;">
+        <a href="/">Home</a>
+        <span aria-hidden="true"> / </span>
+        <a href="/teachings/#categories">Categories</a>
+        <span aria-hidden="true"> / </span>
+        <span>{category.name}</span>
+      </nav>
+
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        Doctrinal Pillar {category.numeral}
+      </p>
+      <h1>{category.name}</h1>
+      <p style="font-size: 1.12rem; line-height: 1.75; margin-bottom: 1.15rem;">
+        {category.description}
+      </p>
+      <p class="meta-caps" style="margin: 0; color: var(--gold-text);">
+        Anchor Passages: {category.anchors}
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <section class="reading-container" style="padding-block: 3rem;">
+    <h2 style="margin-top: 0;">
+      Published Teachings ({publishedInCat.length})
+    </h2>
+
+    {
+      publishedInCat.length > 0 ? (
+        <ol class="editorial-row-list">
+          {publishedInCat.map((entry) => (
+            <li class="editorial-row">
+              <div>
+                <span class="meta-caps" style="color: var(--gold-text); display: block; margin-bottom: 0.25rem;">
+                  Day {String(entry.data.day).padStart(3, '0')} &middot; {entry.data.themeScripture.reference}
+                </span>
+                <a class="editorial-row-title" href={`/${entry.data.slug}/`}>
+                  {entry.data.title}
+                </a>
+                <p class="editorial-row-sub">{entry.data.centralTruth}</p>
+              </div>
+            </li>
+          ))}
+        </ol>
+      ) : (
+        <div
+          style="padding: 1.5rem; background: var(--surface); border: 1px solid var(--border-subtle); margin-bottom: 2.5rem;"
+        >
+          <p style="margin: 0 0 0.65rem 0;">
+            Our publication is currently progressing sequentially through <strong>Month 1 (New-Creation Foundations)</strong> at a steady cadence of 3–5 teachings per week.
+          </p>
+          <p style="margin: 0; color: var(--ink-soft);">
+            Explore the full scheduled slate for <strong>{category.name}</strong> below, or begin reading with{' '}
+            <a href="/new-species-of-being-2-corinthians-5-17/">Day 001 — You Are a New Species of Being</a>.
+          </p>
+        </div>
+      )
+    }
+
+    {
+      relatedMonths.map((month) => (
+        <div style="margin-top: 3rem;">
+          <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">
+            Curriculum Arc &middot; Month {String(month.monthNumber).padStart(2, '0')} ({month.monthName})
+          </p>
+          <h2 style="margin-top: 0;">{month.arcTitle} ({month.totalDays} Studies)</h2>
+          <p style="color: var(--ink-soft); margin-top: 0;">{month.subtitle}</p>
+
+          <ol class="editorial-row-list">
+            {month.topics.map((t) => {
+              const slug = titleToSlug.get(t.title.toLowerCase());
+              const isLive = publishedTitleSet.has(t.title.toLowerCase()) && slug;
+              return (
+                <li
+                  style="display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; padding-block: 0.85rem; border-bottom: 1px solid var(--border-subtle);"
+                >
+                  <div>
+                    <span class="meta-caps" style="min-width: 4.5rem; display: inline-block; color: var(--gold-text);">
+                      Day {String(t.globalDay).padStart(3, '0')}
+                    </span>
+                    {isLive ? (
+                      <a href={`/${slug}/`} style="font-family: var(--font-display); font-size: 1.1rem;">
+                        {t.title}
+                      </a>
+                    ) : (
+                      <span style="font-family: var(--font-display); font-size: 1.08rem; color: var(--ink);">
+                        {t.title}
+                      </span>
+                    )}
+                  </div>
+                  <span class="meta-caps">
+                    {isLive ? 'Published' : 'Scheduled'}
+                  </span>
+                </li>
+              );
+            })}
+          </ol>
+        </div>
+      ))
+    }
+  </section>
+</BaseLayout>

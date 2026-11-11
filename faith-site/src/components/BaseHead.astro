@@ -1,0 +1,108 @@
+---
+import { SITE } from '../data/site';
+import AdSenseHead from './AdSenseHead.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  ogType?: 'website' | 'article';
+  publishedTime?: string;
+  modifiedTime?: string;
+  preloadHero?: boolean;
+}
+
+const {
+  title,
+  description,
+  canonicalPath = Astro.url.pathname,
+  ogType = 'website',
+  publishedTime,
+  modifiedTime,
+  preloadHero = false,
+} = Astro.props;
+
+const canonicalUrl = new URL(canonicalPath, Astro.site || SITE.url).toString();
+const ogImageUrl = new URL('/images/og-default.png', Astro.site || SITE.url).toString();
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title={`${SITE.name} — RSS Feed`}
+  href="/rss.xml"
+/>
+
+<!-- Preload the two variable font families only (DESIGN_SPEC §10) -->
+<link
+  rel="preload"
+  href="/fonts/fraunces-latin-opsz-normal.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
+<link
+  rel="preload"
+  href="/fonts/inter-latin-wght-normal.woff2"
+  as="font"
+  type="font/woff2"
+  crossorigin
+/>
+
+{
+  preloadHero && (
+    <link
+      rel="preload"
+      as="image"
+      href="/images/hero-dawn-1600.avif"
+      type="image/avif"
+      imagesrcset="/images/hero-dawn-960.avif 960w, /images/hero-dawn-1600.avif 1600w"
+      imagesizes="100vw"
+    />
+  )
+}
+
+<!-- Open Graph / Social -->
+<meta property="og:site_name" content={SITE.name} />
+<meta property="og:locale" content={SITE.locale} />
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:image" content={ogImageUrl} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImageUrl} />
+
+<!-- Zero-FOUC Theme & Reading-Comfort Initialization -->
+<script is:inline>
+  (function () {
+    try {
+      var saved = localStorage.getItem('ijn-theme');
+      var prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved === 'dark' || saved === 'light' ? saved : prefersDark ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+      var scale = localStorage.getItem('ijn-scale');
+      if (scale && ['0.92', '1', '1.12', '1.24'].indexOf(scale) !== -1) {
+        document.documentElement.style.setProperty('--reading-scale', scale);
+      }
+      document.documentElement.classList.add('js-ready');
+    } catch (e) {}
+  })();
+</script>
+
+<AdSenseHead />

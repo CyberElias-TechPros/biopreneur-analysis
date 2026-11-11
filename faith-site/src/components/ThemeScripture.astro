@@ -1,0 +1,19 @@
+---
+interface Props {
+  text: string;
+  reference: string;
+  translation: string;
+}
+const { text, reference, translation } = Astro.props;
+---
+
+<figure class="theme-scripture" data-reveal>
+  <blockquote cite={reference}>
+    &ldquo;{text}&rdquo;
+  </blockquote>
+  <figcaption class="meta-caps">
+    <span>&mdash; {reference}</span>
+    <span aria-hidden="true">&middot;</span>
+    <span>{translation}</span>
+  </figcaption>
+</figure>

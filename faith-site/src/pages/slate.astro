@@ -1,0 +1,93 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import { SITE } from '../data/site';
+import { getYearSlate } from '../data/slate';
+
+const allArticles = await getCollection('articles');
+const byDay = new Map(allArticles.map((a) => [a.data.day, a]));
+const months = getYearSlate();
+---
+
+<BaseLayout
+  title={`365-Day Teaching Slate — ${SITE.name}`}
+  description="Explore the complete 365-topic Christian teaching curriculum of In Jesus Name across 12 monthly Scripture arcs, from New-Creation Foundations to His Return."
+  canonicalPath="/slate/"
+>
+  <section class="page-header">
+    <div class="swiss-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        The Year Curriculum
+      </p>
+      <h1>365 Teachings &middot; 12 Monthly Arcs</h1>
+      <p style="max-width: 64ch; color: var(--ink-soft); font-size: 1.1rem;">
+        Designed so the library teaches in coherent seasons rather than random fragments.
+        Published studies link directly into the reading room; upcoming studies show the full doctrinal roadmap ahead.
+      </p>
+
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.25rem;">
+        {
+          months.map((m) => (
+            <a class="category-chip" href={`#month-${m.monthNumber}`}>
+              M{String(m.monthNumber).padStart(2, '0')} &middot; {m.monthName.slice(0, 3)}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <div class="swiss-container" style="padding-block: 3rem;">
+    {
+      months.map((month) => (
+        <section
+          id={`month-${month.monthNumber}`}
+          style="margin-bottom: 3.75rem; scroll-margin-top: 5.5rem;"
+        >
+          <div style="border-bottom: 1px solid var(--border-gold); padding-bottom: 0.9rem; margin-bottom: 1.25rem;">
+            <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">
+              Month {String(month.monthNumber).padStart(2, '0')} &middot; {month.monthName} ({month.totalDays} Days)
+            </p>
+            <h2 style="margin: 0 0 0.4rem 0;">{month.arcTitle}</h2>
+            <p style="margin: 0 0 0.4rem 0; color: var(--ink-soft);">{month.subtitle}</p>
+            <p class="meta-caps" style="margin: 0;">Anchor Passages: {month.anchors}</p>
+          </div>
+
+          <ol
+            style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 0.5rem 2rem;"
+          >
+            {month.topics.map((t) => {
+              const live = byDay.get(t.globalDay);
+              return (
+                <li
+                  style="padding-block: 0.6rem; border-bottom: 1px solid var(--border-subtle); display: flex; justify-content: space-between; gap: 0.75rem; align-items: baseline;"
+                >
+                  <span>
+                    <span class="meta-caps" style="color: var(--gold-text); margin-right: 0.5rem;">
+                      {String(t.globalDay).padStart(3, '0')}
+                    </span>
+                    {live ? (
+                      <a href={`/${live.data.slug}/`} style="font-weight: 550;">
+                        {t.title}
+                      </a>
+                    ) : (
+                      <span>{t.title}</span>
+                    )}
+                  </span>
+                  {live && (
+                    <span class="meta-caps" style="color: var(--gold-text);">
+                      Read &rarr;
+                    </span>
+                  )}
+                </li>
+              );
+            })}
+          </ol>
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>

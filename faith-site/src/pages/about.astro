@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import { SITE } from '../data/site';
+---
+
+<BaseLayout
+  title={`About ${SITE.name} — Editorial Mission & Bible Teaching`}
+  description="Learn why In Jesus Name exists, who writes and edits our Scripture-anchored Christian teachings, and how every article moves from exegesis to weekday living."
+  canonicalPath="/about/"
+>
+  <section class="page-header">
+    <div class="reading-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        About the Publication
+      </p>
+      <h1>A Quiet Room Where Scripture Speaks Plainly</h1>
+      <p style="font-size: 1.15rem; color: var(--ink-soft);">
+        <strong>{SITE.name}</strong> is an independent Christian teaching publication built to help believers move
+        from familiar Bible phrases into clear spiritual understanding, settled identity in Christ, and faithful everyday conduct.
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <article class="reading-container article-prose" style="padding-block: 3rem;">
+    <figure style="margin: 0 0 2.5rem 0;">
+      <picture>
+        <source
+          type="image/avif"
+          srcset="/images/open-scripture-720.avif 720w, /images/open-scripture-1200.avif 1200w"
+          sizes="(max-width: 760px) 100vw, 680px"
+        />
+        <source
+          type="image/webp"
+          srcset="/images/open-scripture-720.webp 720w, /images/open-scripture-1200.webp 1200w"
+          sizes="(max-width: 760px) 100vw, 680px"
+        />
+        <img
+          src="/images/open-scripture-1200.webp"
+          alt="An open clothbound Bible resting on a quiet wooden desk in morning light"
+          width="1200"
+          height="655"
+          loading="lazy"
+          decoding="async"
+          style="border: 1px solid var(--border-subtle);"
+        />
+      </picture>
+      <figcaption class="meta-caps" style="margin-top: 0.65rem;">
+        Every teaching begins with the open text in context — never with hype or borrowed clichés.
+      </figcaption>
+    </figure>
+
+    <h2>Why In Jesus Name Exists</h2>
+    <p>
+      Across the modern church, believers do not suffer from a shortage of religious noise; they suffer from a shortage of
+      unhurried biblical clarity. Many love Jesus sincerely yet still carry quiet confusion about what happened at the New Birth,
+      how grace and holiness fit together, and what it means to pray and live in Jesus’ Name between Sunday mornings.
+    </p>
+    <p>
+      <strong>{SITE.name}</strong> was founded to serve that exact need. Rather than publishing breathless commentary on passing controversies,
+      we publish structured, long-form Scripture teachings organized into twelve monthly arcs across a 365-topic curriculum —
+      so any reader, anywhere in the world, can study the New Testament’s core doctrines cleanly and systematically at no cost.
+    </p>
+
+    <h2>Who Teaches Here</h2>
+    <p>
+      Our studies are written and edited under the oversight of <strong>{SITE.teacher.name}</strong>, {SITE.teacher.role}.
+      {SITE.name} is an original editorial teaching desk: we do not impersonate any living preacher or ministry, nor do we reprint
+      or paraphrase third-party devotionals. Every exposition, illustration, weekday application, and closing confession is written
+      fresh from the biblical text.
+    </p>
+
+    <h2>How Every Teaching Is Built</h2>
+    <p>
+      Every article on this site must satisfy an eighteen-point editorial audit before publication and follows an eight-step
+      Scripture chain:
+    </p>
+    <ol>
+      <li><strong>Anchor in the written text:</strong> Open with a full Scripture quotation and labeled translation.</li>
+      <li><strong>Examine key words:</strong> Define biblical vocabulary plainly on first use without hiding behind jargon.</li>
+      <li><strong>Confirm across books:</strong> Establish every central claim from at least three cross-references across Scripture.</li>
+      <li><strong>Contrast truth and misconception:</strong> Distinguish gospel reality from both legalism and carelessness.</li>
+      <li><strong>Bridge with everyday life:</strong> Illustrate spiritual principles clearly, then explain the principle directly.</li>
+      <li><strong>Translate into Monday morning:</strong> Show what the doctrine looks like in speech, family, work, integrity, and stewardship.</li>
+      <li><strong>Honour responsible wisdom:</strong> Affirm plainly that biblical faith works alongside diligence, honesty, and sound medical or professional care.</li>
+      <li><strong>Respond in faith:</strong> Close with a Scripture-anchored confession and passages for personal verification, like the Bereans in Acts 17:11.</li>
+    </ol>
+
+    <h2>Our Commitment to Doctrinal Honesty</h2>
+    <p>
+      Where godly, Bible-honouring Christians have historically read a difficult verse with different nuances, we state our conviction
+      clearly while acknowledging the conversation respectfully — without caricaturing fellow believers and without making reckless
+      personal outcome guarantees that Scripture itself does not make.
+    </p>
+    <p>
+      To read the ten foundational doctrines that govern every page of this publication, visit our{' '}
+      <a href="/doctrinal-basis/">Doctrinal Basis</a>, browse the <a href="/glossary/">Site Glossary</a>, or write to our desk directly
+      through the <a href="/contact/">Contact page</a>.
+    </p>
+  </article>
+</BaseLayout>

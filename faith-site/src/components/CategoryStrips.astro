@@ -1,0 +1,30 @@
+---
+import { CATEGORIES } from '../data/categories';
+
+interface Props {
+  articleCounts?: Record<string, number>;
+}
+const { articleCounts = {} } = Astro.props;
+const featured = CATEGORIES.filter((c) => c.featuredOnHome);
+---
+
+<div class="category-strips">
+  {
+    featured.map((cat) => {
+      const count = articleCounts[cat.name] || 0;
+      return (
+        <a class="category-strip" href={`/category/${cat.slug}/`}>
+          <span class="strip-num">{cat.numeral}</span>
+          <span class="strip-name">{cat.name}</span>
+          <span class="strip-desc">
+            {cat.shortLine}
+            {count > 0 ? ` (${count} published)` : ' (30+ scheduled)'}
+          </span>
+          <span class="strip-arrow meta-caps" aria-hidden="true">
+            Explore &rarr;
+          </span>
+        </a>
+      );
+    })
+  }
+</div>

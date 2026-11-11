@@ -1,0 +1,226 @@
+---
+import '../styles/global.css';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ReadingProgress from '../components/ReadingProgress.astro';
+import JsonLd from '../components/JsonLd.astro';
+import { SITE } from '../data/site';
+
+interface Props {
+  title: string;
+  description: string;
+  canonicalPath?: string;
+  ogType?: 'website' | 'article';
+  publishedTime?: string;
+  modifiedTime?: string;
+  preloadHero?: boolean;
+  showReadingProgress?: boolean;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const {
+  title,
+  description,
+  canonicalPath,
+  ogType = 'website',
+  publishedTime,
+  modifiedTime,
+  preloadHero = false,
+  showReadingProgress = false,
+  jsonLd,
+} = Astro.props;
+
+const siteUrl = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const defaultWebSiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: SITE.name,
+  url: `${siteUrl}/`,
+  description: SITE.description,
+  inLanguage: SITE.language,
+  publisher: {
+    '@type': 'Organization',
+    name: SITE.name,
+    url: `${siteUrl}/`,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${siteUrl}/favicon.svg`,
+    },
+  },
+};
+---
+
+<!doctype html>
+<html lang={SITE.language}>
+  <head>
+    <BaseHead
+      title={title}
+      description={description}
+      canonicalPath={canonicalPath}
+      ogType={ogType}
+      publishedTime={publishedTime}
+      modifiedTime={modifiedTime}
+      preloadHero={preloadHero}
+    />
+    <JsonLd data={jsonLd || defaultWebSiteSchema} />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to teaching content</a>
+    <Header />
+    {showReadingProgress && <ReadingProgress />}
+    <main id="main-content">
+      <slot />
+    </main>
+    <Footer />
+
+    <!-- Lightweight Progressive Enhancement (< 3.5 KB unminified) -->
+    <script is:inline>
+      (function () {
+        var html = document.documentElement;
+        var header = document.getElementById('site-header');
+        var toggle = document.getElementById('theme-toggle');
+        var icon = document.getElementById('theme-icon');
+        var label = document.getElementById('theme-label');
+        var menuBtn = document.getElementById('menu-toggle');
+        var nav = document.getElementById('primary-nav');
+        var progress = document.getElementById('reading-progress-bar');
+
+        function syncThemeUI() {
+          var current = html.getAttribute('data-theme') || 'light';
+          if (icon) icon.textContent = current === 'dark' ? '☾' : '☀';
+          if (label) label.textContent = current === 'dark' ? 'Night' : 'Light';
+        }
+        syncThemeUI();
+
+        if (toggle) {
+          toggle.addEventListener('click', function () {
+            var next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', next);
+            try {
+              localStorage.setItem('ijn-theme', next);
+            } catch (e) {}
+            syncThemeUI();
+          });
+        }
+
+        if (menuBtn && nav) {
+          menuBtn.addEventListener('click', function () {
+            var open = nav.classList.toggle('is-open');
+            menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+          });
+        }
+
+        function onScroll() {
+          var y = window.scrollY || window.pageYOffset;
+          if (header) {
+            if (y > 24) header.classList.add('is-scrolled');
+            else header.classList.remove('is-scrolled');
+          }
+          if (progress) {
+            var docH = document.documentElement.scrollHeight - window.innerHeight;
+            var pct = docH > 0 ? Math.min(100, Math.max(0, (y / docH) * 100)) : 0;
+            progress.style.width = pct.toFixed(1) + '%';
+          }
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // Reading text-size buttons (0.92x - 1.24x)
+        var sizeBtns = document.querySelectorAll('[data-reading-scale]');
+        var activeScale =
+          html.style.getPropertyValue('--reading-scale') || '1';
+        sizeBtns.forEach(function (btn) {
+          var s = btn.getAttribute('data-reading-scale');
+          btn.setAttribute('aria-pressed', s === activeScale ? 'true' : 'false');
+          btn.addEventListener('click', function () {
+            html.style.setProperty('--reading-scale', s);
+            try {
+              localStorage.setItem('ijn-scale', s);
+            } catch (e) {}
+            sizeBtns.forEach(function (b) {
+              b.setAttribute(
+                'aria-pressed',
+                b.getAttribute('data-reading-scale') === s ? 'true' : 'false'
+              );
+            });
+          });
+        });
+
+        // Scroll-reveal (once per element, DESIGN_SPEC §7)
+        var reveals = document.querySelectorAll('[data-reveal]');
+        if ('IntersectionObserver' in window && reveals.length) {
+          var io = new IntersectionObserver(
+            function (entries) {
+              entries.forEach(function (entry) {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add('is-visible');
+                  io.unobserve(entry.target);
+                }
+              });
+            },
+            { threshold: 0.08, rootMargin: '0px 0px -32px 0px' }
+          );
+          reveals.forEach(function (el) {
+            io.observe(el);
+          });
+        } else {
+          reveals.forEach(function (el) {
+            el.classList.add('is-visible');
+          });
+        }
+
+        // Declaration "Pace Aloud" affordance (progressive enhancement)
+        var speakBtn = document.getElementById('speak-declaration-btn');
+        var speakCard = document.getElementById('declaration-card');
+        var speakText = document.getElementById('declaration-text');
+        var speakLabel = document.getElementById('speak-btn-text');
+        var paceTimer = null;
+
+        if (speakBtn && speakCard && speakText) {
+          speakBtn.addEventListener('click', function () {
+            var active = speakBtn.getAttribute('aria-pressed') === 'true';
+            if (active) {
+              speakBtn.setAttribute('aria-pressed', 'false');
+              speakCard.classList.remove('is-speaking');
+              if (speakLabel) speakLabel.textContent = 'Pace Aloud';
+              if (paceTimer) clearTimeout(paceTimer);
+              if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+              return;
+            }
+            speakBtn.setAttribute('aria-pressed', 'true');
+            speakCard.classList.add('is-speaking');
+            if (speakLabel) speakLabel.textContent = 'Speaking...';
+            var raw = (speakText.textContent || '').replace(/[“”"]/g, '').trim();
+            if ('speechSynthesis' in window && 'SpeechSynthesisUtterance' in window) {
+              try {
+                window.speechSynthesis.cancel();
+                var u = new SpeechSynthesisUtterance(raw);
+                u.rate = 0.92;
+                u.onend = u.onerror = function () {
+                  speakBtn.setAttribute('aria-pressed', 'false');
+                  speakCard.classList.remove('is-speaking');
+                  if (speakLabel) speakLabel.textContent = 'Pace Aloud';
+                };
+                window.speechSynthesis.speak(u);
+                return;
+              } catch (e) {}
+            }
+            paceTimer = setTimeout(function () {
+              speakBtn.setAttribute('aria-pressed', 'false');
+              speakCard.classList.remove('is-speaking');
+              if (speakLabel) speakLabel.textContent = 'Pace Aloud';
+            }, 24000);
+          });
+        }
+
+        // Optional ?ads=preview QA mode for AdSense layout verification (TODO B12)
+        if (window.location.search.indexOf('ads=preview') !== -1) {
+          document.querySelectorAll('[data-ad-wrapper]').forEach(function (el) {
+            el.removeAttribute('hidden');
+          });
+        }
+      })();
+    </script>
+  </body>
+</html>

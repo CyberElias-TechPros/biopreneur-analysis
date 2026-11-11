@@ -1,0 +1,91 @@
+---
+import { SITE } from '../data/site';
+
+const pathname = Astro.url.pathname;
+const isActive = (href: string) =>
+  href === '/' ? pathname === '/' : pathname.startsWith(href);
+---
+
+<header class="site-header" id="site-header" role="banner">
+  <div class="swiss-container header-inner">
+    <a class="brand-link" href="/" aria-label={`${SITE.name} — Home`}>
+      <svg
+        width="28"
+        height="28"
+        viewBox="0 0 36 36"
+        fill="none"
+        aria-hidden="true"
+      >
+        <line
+          x1="4"
+          y1="23"
+          x2="32"
+          y2="23"
+          stroke="currentColor"
+          stroke-width="1.5"
+          opacity="0.7"
+        />
+        <path
+          d="M9 23 A9 9 0 0 1 27 23"
+          stroke="var(--gold)"
+          stroke-width="1.5"
+          fill="none"
+        />
+        <line
+          x1="18"
+          y1="6"
+          x2="18"
+          y2="29"
+          stroke="var(--gold)"
+          stroke-width="1.6"
+          stroke-linecap="round"
+        />
+        <line
+          x1="13"
+          y1="12"
+          x2="23"
+          y2="12"
+          stroke="currentColor"
+          stroke-width="1.4"
+          stroke-linecap="round"
+        />
+      </svg>
+      <span class="brand-wordmark">{SITE.name}</span>
+    </a>
+
+    <div class="nav-group">
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+        {
+          SITE.nav.map((item) => (
+            <a
+              href={item.href}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <button
+        type="button"
+        class="theme-toggle"
+        id="theme-toggle"
+        aria-label="Switch reading mode between Light and Night"
+      >
+        <span id="theme-icon" aria-hidden="true">☀</span>
+        <span id="theme-label">Light</span>
+      </button>
+
+      <button
+        type="button"
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-expanded="false"
+        aria-controls="primary-nav"
+      >
+        Menu
+      </button>
+    </div>
+  </div>
+</header>

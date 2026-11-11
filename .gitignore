@@ -9,3 +9,12 @@ allofit.txt
 # OS noise
 Thumbs.db
 Desktop.ini
+
+# Astro site build & dependencies
+faith-site/node_modules/
+faith-site/dist/
+faith-site/.astro/
+.vercel/
+.env
+.env.*
+

@@ -1,0 +1,34 @@
+---
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+const wordCount = text.trim().split(/\s+/).length;
+const seconds = Math.max(15, Math.round((wordCount / 130) * 60));
+---
+
+<section
+  class="declaration-card"
+  id="declaration-card"
+  aria-labelledby="declaration-heading"
+  data-reveal
+>
+  <div class="declaration-header">
+    <span id="declaration-heading" class="meta-caps declaration-label">
+      Speak This Aloud
+    </span>
+    <div class="declaration-controls">
+      <span class="meta-caps">~{seconds}s aloud</span>
+      <button
+        type="button"
+        class="speak-btn"
+        id="speak-declaration-btn"
+        aria-pressed="false"
+      >
+        <span class="speak-dot" aria-hidden="true"></span>
+        <span id="speak-btn-text">Pace Aloud</span>
+      </button>
+    </div>
+  </div>
+  <p class="declaration-text" id="declaration-text">&ldquo;{text}&rdquo;</p>
+</section>

@@ -1,0 +1,14 @@
+---
+import LightLine from './LightLine.astro';
+
+interface Props {
+  text: string;
+}
+const { text } = Astro.props;
+---
+
+<aside class="reaffirmation-block" aria-label="Central Reaffirmation" data-reveal>
+  <LightLine />
+  <p class="reaffirmation-quote">&ldquo;{text}&rdquo;</p>
+  <LightLine />
+</aside>

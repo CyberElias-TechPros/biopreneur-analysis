@@ -1,0 +1,202 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import { SITE } from '../data/site';
+---
+
+<BaseLayout
+  title={`Privacy Policy — ${SITE.name}`}
+  description="Read the comprehensive Privacy Policy of In Jesus Name covering cookies, Google AdSense advertising disclosures, GDPR, CCPA/CPRA, NDPA, and reader privacy rights."
+  canonicalPath="/privacy/"
+>
+  <section class="page-header">
+    <div class="reading-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        Legal &amp; Reader Trust &middot; Effective November 11, 2026
+      </p>
+      <h1>Privacy Policy</h1>
+      <p style="font-size: 1.08rem; color: var(--ink-soft);">
+        At <strong>{SITE.name}</strong>, treating readers honourably includes explaining in plain, transparent language
+        what data is collected when you visit this website, how cookies and advertising technologies work, and how you control your privacy rights.
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <article class="reading-container article-prose" style="padding-block: 3rem;">
+    <h2>1. Overview and Scope</h2>
+    <p>
+      This Privacy Policy governs your access to and use of <strong>{SITE.name}</strong> (accessible at <code>{SITE.url}</code> and any
+      associated preview or mirror domains operated by our editorial desk, collectively referred to as the &ldquo;Site&rdquo;).
+      This policy explains what personal and non-personal information may be processed when you read teachings, adjust reading settings,
+      subscribe to updates, view advertisements, or correspond with us, together with your rights under applicable privacy laws including
+      the European Union and United Kingdom General Data Protection Regulation (&ldquo;GDPR / UK GDPR&rdquo;), the California Consumer Privacy Act
+      as amended by the California Privacy Rights Act (&ldquo;CCPA / CPRA&rdquo;), the Nigeria Data Protection Act (&ldquo;NDPA&rdquo;), and
+      children’s online privacy protections.
+    </p>
+    <p>
+      We design {SITE.name} as a quiet, low-friction reading room. You do not need to create an account, log in, or submit personal information
+      in order to read any teaching article, browse our 365-day curriculum slate, or consult our doctrinal glossary.
+    </p>
+
+    <h2>2. Information We Collect</h2>
+    <h3>2.1 Information You Voluntarily Provide</h3>
+    <p>
+      When you contact our editorial desk through our <a href="/contact/">Contact page</a> or write directly to <code>{SITE.email}</code>,
+      we receive the details you choose to share — typically your name, email address, the subject category of your message, and the contents
+      of your correspondence. Please refrain from including sensitive medical, financial, or confidential third-party records in general email inquiries.
+    </p>
+
+    <h3>2.2 On-Device Reading Preferences (Local Storage)</h3>
+    <p>
+      To make long-form Scripture study comfortable, the Site remembers two optional interface settings strictly inside your own browser’s
+      <code>localStorage</code>: your preferred theme mode (<code>ijn-theme</code>: Light or Night) and your preferred reading text scale
+      (<code>ijn-scale</code>). These values stay on your device, contain zero personal identifiers, and are never transmitted to our servers.
+      Clearing your browser storage resets them immediately.
+    </p>
+
+    <h3>2.3 Standard Server Log and Diagnostic Data</h3>
+    <p>
+      Like virtually all websites and content delivery networks, our hosting infrastructure automatically records standard HTTP request metadata
+      necessary to deliver pages securely and defend against abuse. Such log entries may include your truncated or full Internet Protocol (IP) address,
+      browser user-agent string, referring page, requested URL path, date and timestamp, HTTP status code, and approximate country or region derived
+      from network routing. Log files are used strictly for technical reliability, security monitoring, and aggregated traffic diagnostics.
+    </p>
+
+    <h2>3. Cookies, Web Beacons, and Similar Technologies</h2>
+    <p>
+      Cookies are small text files placed on your device by a web server when you visit a website. Depending on which features and third-party
+      services are active on the Site, cookies fall into three categories:
+    </p>
+    <ul>
+      <li>
+        <strong>Strictly Necessary Technical Storage:</strong> Essential mechanisms required to deliver pages securely over HTTPS, balance server load,
+        or remember explicit consent and privacy choices.
+      </li>
+      <li>
+        <strong>Analytics and Performance Measurement:</strong> Aggregated measurement tools (where enabled) that help us understand which teachings
+        readers find helpful, how quickly pages load, and whether broken links occur, without building invasive personal profiles.
+      </li>
+      <li>
+        <strong>Advertising Cookies (Google AdSense):</strong> When display advertising is active on the Site to sustain free public access to our
+        teaching library, third-party advertising partners — principally Google AdSense — may place or read cookies and web beacons on your browser.
+      </li>
+    </ul>
+    <p>
+      You can configure any modern web browser to refuse non-essential cookies, delete existing cookies automatically when closing a window,
+      or alert you before a cookie is stored. Restricting advertising cookies will never block you from reading teachings on {SITE.name}.
+    </p>
+
+    <h2>4. Google AdSense and Third-Party Advertising Disclosures</h2>
+    <p>
+      To keep every teaching on {SITE.name} free of paywalls and subscription fees, the Site is configured to participate in the
+      <strong> Google AdSense</strong> program (Publisher ID: <code>{SITE.adsense.publisherId}</code>, verified via our root <code>/ads.txt</code> file).
+      In accordance with Google Publisher Policies and international transparency laws, please note the following disclosures whenever AdSense units are active:
+    </p>
+    <ul>
+      <li>
+        <strong>Third-Party Vendors:</strong> Third-party vendors, including Google, use cookies to serve ads based on a user’s prior visits
+        to this Site or other websites across the internet.
+      </li>
+      <li>
+        <strong>Google’s Advertising Cookies (DoubleClick / DART):</strong> Google’s use of advertising cookies enables Google and its partners
+        to serve advertisements to our visitors based on their visit to {SITE.name} and/or other sites on the internet, as well as to cap ad frequency,
+        detect invalid click fraud, and measure aggregate ad performance.
+      </li>
+      <li>
+        <strong>How to Opt Out of Personalized Advertising:</strong> Users may opt out of personalized advertising served by Google at any time
+        by visiting Google’s Ads Settings at <code>https://adssettings.google.com</code> (or <code>https://myadcenter.google.com</code>).
+        Alternatively, you may opt out of a wide range of third-party vendors’ use of cookies for personalized advertising by visiting the
+        Network Advertising Initiative opt-out page at <code>https://optout.networkadvertising.org</code> or the Digital Advertising Alliance
+        consumer choice portal at <code>https://www.aboutads.info/choices/</code> (and for European readers, <code>https://www.youronlinechoices.eu</code>).
+      </li>
+      <li>
+        <strong>Editorial Independence:</strong> Advertisements are clearly separated from editorial content by reserved layout containers and an
+        explicit &ldquo;ADVERTISEMENT&rdquo; label, are never placed inside Scripture blocks or spoken Declaration cards, and never influence the
+        theological teaching or Scripture exposition published on {SITE.name}.
+      </li>
+    </ul>
+    <p>
+      For comprehensive details on how Google processes information from sites and apps that use its services, you may review Google’s partner
+      disclosure document at <code>https://policies.google.com/technologies/partner-sites</code>.
+    </p>
+
+    <h2>5. Behavioral Remarketing and Analytics</h2>
+    <p>
+      We do not sell personal correspondence lists to data brokers, telemarketers, or third-party ministries. If web analytics or advertising
+      measurement services (such as Google Analytics 4 or privacy-first traffic counters) are active, those services process pseudonymous usage events
+      — such as page views, scroll depth, device category, and session duration — to help us maintain site speed and editorial quality. Where required
+      by regional law (such as in the European Economic Area, the United Kingdom, and Switzerland), non-essential analytics and personalized advertising
+      tags respect Google Consent Mode and your browser or consent-banner preferences.
+    </p>
+
+    <h2>6. Legal Bases and Your Rights Under GDPR / UK GDPR</h2>
+    <p>
+      If you are located in the European Economic Area (EEA), the United Kingdom, or Switzerland, we process personal data only where a lawful basis
+      exists under Article 6 of the GDPR:
+    </p>
+    <ul>
+      <li><strong>Consent (Art. 6(1)(a)):</strong> For optional advertising personalization cookies where consent is required by law, and when you voluntarily write to us.</li>
+      <li><strong>Legitimate Interests (Art. 6(1)(f)):</strong> For securing the Site against malicious traffic, maintaining server reliability, and replying to editorial questions you initiate.</li>
+      <li><strong>Legal Obligation (Art. 6(1)(c)):</strong> Where retention or disclosure is required by applicable law.</li>
+    </ul>
+    <p>
+      Subject to statutory conditions, EEA and UK residents hold the right to request <strong>access</strong> to personal data we hold about them,
+      request <strong>rectification</strong> of inaccurate data, request <strong>erasure</strong> (&ldquo;right to be forgotten&rdquo;), request
+      <strong>restriction</strong> of processing, exercise <strong>data portability</strong>, <strong>object</strong> to processing based on legitimate interests,
+      and <strong>withdraw consent</strong> at any time without affecting prior lawful processing. You also have the right to lodge a complaint with your
+      national supervisory authority.
+    </p>
+
+    <h2>7. Your California Privacy Rights (CCPA / CPRA)</h2>
+    <p>
+      If you are a resident of California, the California Consumer Privacy Act (as amended by the CPRA) grants you specific rights regarding
+      personal information:
+    </p>
+    <ul>
+      <li><strong>Right to Know:</strong> You may request disclosure of the categories and specific pieces of personal information collected about you, the sources of collection, the business purpose, and categories of third parties with whom information is shared.</li>
+      <li><strong>Right to Delete:</strong> You may request deletion of personal information we have collected directly from you, subject to statutory exceptions.</li>
+      <li><strong>Right to Opt Out of &ldquo;Sale&rdquo; or &ldquo;Sharing&rdquo; for Cross-Context Behavioral Advertising:</strong> {SITE.name} never sells reader names or email addresses for money. Under the CCPA/CPRA’s broad technical definition, allowing third-party ad networks to use cookies for cross-context behavioral advertising may constitute &ldquo;sharing.&rdquo; You may opt out at any time via the opt-out mechanisms listed in Section 4 above or by enabling the Global Privacy Control (GPC) signal in a supported browser.</li>
+      <li><strong>Right to Non-Discrimination:</strong> We will never deny access, degrade quality, or penalize any reader for exercising privacy rights.</li>
+    </ul>
+
+    <h2>8. Rights Under the Nigeria Data Protection Act (NDPA) and Global Frameworks</h2>
+    <p>
+      For readers in Nigeria and across Africa, {SITE.name} honours the principles of fairness, lawfulness, transparency, data minimization,
+      storage limitation, and security established under the Nigeria Data Protection Act (NDPA) 2023. Data subjects may request confirmation,
+      correction, or deletion of any personal correspondence held by our desk by emailing <code>{SITE.email}</code>.
+    </p>
+
+    <h2>9. Children’s Privacy (COPPA)</h2>
+    <p>
+      {SITE.name} is a general-audience Christian Scripture study publication and is not directed at children under the age of 13 (or under 16 in
+      jurisdictions with a higher digital consent threshold). We do not knowingly collect personal information from children. If a parent or legal
+      guardian believes a child has submitted personal details to our contact email without parental consent, please notify us at
+      <code>{SITE.email}</code> and we will promptly delete those records.
+    </p>
+
+    <h2>10. Data Retention, Security, and External Links</h2>
+    <p>
+      Reader emails sent to our editorial desk are retained only as long as reasonably needed to answer your question and maintain editorial continuity,
+      after which routine correspondence is periodically archived or purged. We protect the Site with HTTPS transport encryption, minimal data collection,
+      and restricted administrative access; however, no method of electronic transmission over the public internet can be guaranteed 100 percent immune
+      from risk.
+    </p>
+    <p>
+      Occasionally our pages may reference external resources or opt-out portals operated by third parties. Once you follow a link outside {SITE.name},
+      that external website’s own privacy policy governs your visit.
+    </p>
+
+    <h2>11. Changes to This Privacy Policy and How to Contact Us</h2>
+    <p>
+      Whenever we update this Privacy Policy to reflect new site features, advertising changes, or legal requirements, we revise the
+      &ldquo;Effective&rdquo; date at the top of this page. For any privacy question, data access request, or deletion request, please write to:
+    </p>
+    <p>
+      <strong>{SITE.name} — Editorial &amp; Privacy Desk</strong><br />
+      Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a><br />
+      Contact Form: <a href="/contact/">{SITE.url}/contact/</a>
+    </p>
+  </article>
+</BaseLayout>

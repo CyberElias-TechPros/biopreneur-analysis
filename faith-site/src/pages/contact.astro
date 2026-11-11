@@ -1,0 +1,176 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import { SITE } from '../data/site';
+---
+
+<BaseLayout
+  title={`Contact ${SITE.name} — Questions, Corrections & Prayer`}
+  description="Reach the editorial and teaching desk at In Jesus Name with Scripture questions, feedback, editorial corrections, or correspondence."
+  canonicalPath="/contact/"
+>
+  <section class="page-header">
+    <div class="swiss-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        Correspondence
+      </p>
+      <h1>Contact the Teaching Desk</h1>
+      <p style="max-width: 58ch; font-size: 1.1rem; color: var(--ink-soft);">
+        Whether you have a thoughtful question about a Scripture passage, want to flag a typographical error,
+        or wish to share how a teaching helped clarify your walk with Christ, we welcome your note.
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <section class="swiss-container" style="padding-block: 3.25rem;">
+    <div class="swiss-grid">
+      <!-- Left 4 columns: Direct details & expectations -->
+      <div style="grid-column: span 4;">
+        <h2 style="margin-top: 0; font-size: 1.45rem;">Direct Editorial Desk</h2>
+        <p style="color: var(--ink-soft);">
+          You may write directly by email at any time:
+        </p>
+        <p style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 1.75rem;">
+          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+        </p>
+
+        <h3 style="font-size: 1.15rem;">Response Window</h3>
+        <p style="color: var(--ink-soft); font-size: 0.95rem;">
+          Every message is read by a human editor. We aim to respond to editorial and doctrinal inquiries within
+          <strong> 2–4 business days</strong>.
+        </p>
+
+        <h3 style="font-size: 1.15rem;">Pastoral &amp; Urgent Care Note</h3>
+        <p style="color: var(--ink-soft); font-size: 0.95rem;">
+          While we pray faithfully over reader notes, an online publication cannot substitute for local church shepherds,
+          licensed counsellors, or emergency medical professionals. In urgent health or safety situations, please contact
+          qualified local care immediately.
+        </p>
+      </div>
+
+      <!-- Right 8 columns: Accessible Contact Form -->
+      <div style="grid-column: span 8;">
+        <form
+          id="contact-form"
+          style="padding: clamp(1.5rem, 4vw, 2.5rem); background: var(--surface); border: 1px solid var(--border-subtle);"
+        >
+          <div class="form-field">
+            <label for="contact-name">Your Name *</label>
+            <input
+              id="contact-name"
+              name="name"
+              type="text"
+              required
+              autocomplete="name"
+              class="form-input"
+              placeholder="e.g. Grace Mensah"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="contact-email">Email Address *</label>
+            <input
+              id="contact-email"
+              name="email"
+              type="email"
+              required
+              autocomplete="email"
+              class="form-input"
+              placeholder="you@example.com"
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="contact-topic">Subject *</label>
+            <select id="contact-topic" name="topic" class="form-select" required>
+              <option value="Scripture or Teaching Question">Scripture or Teaching Question</option>
+              <option value="Testimony / Encouragement">Testimony / Reader Encouragement</option>
+              <option value="Editorial or Scripture Citation Correction">
+                Editorial or Scripture Citation Correction
+              </option>
+              <option value="Privacy or Policy Inquiry">Privacy or Policy Inquiry</option>
+              <option value="General Correspondence">General Correspondence</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="contact-message">Your Message *</label>
+            <textarea
+              id="contact-message"
+              name="message"
+              required
+              minlength="10"
+              class="form-textarea"
+              placeholder="Write your question, reference, or note..."
+            ></textarea>
+          </div>
+
+          <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 1.25rem;">
+            By sending a message, you agree that we may use your name and email solely to read and reply to your inquiry,
+            in accordance with our <a href="/privacy/">Privacy Policy</a>. We never sell or rent reader addresses.
+          </p>
+
+          <button
+            type="submit"
+            class="btn-editorial"
+            style="cursor: pointer;"
+          >
+            Compose &amp; Send Message &rarr;
+          </button>
+
+          <div
+            id="contact-status"
+            role="status"
+            aria-live="polite"
+            hidden
+            style="margin-top: 1.25rem; padding: 1rem 1.2rem; border-left: 3px solid var(--gold); background: var(--surface-subtle);"
+          ></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <script is:inline define:vars={{ deskEmail: SITE.email }}>
+    (function () {
+      var form = document.getElementById('contact-form');
+      var status = document.getElementById('contact-status');
+      if (!form || !status) return;
+
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        var name = document.getElementById('contact-name').value.trim();
+        var email = document.getElementById('contact-email').value.trim();
+        var topic = document.getElementById('contact-topic').value;
+        var message = document.getElementById('contact-message').value.trim();
+
+        var subject = encodeURIComponent('[In Jesus Name] ' + topic + ' — from ' + name);
+        var body = encodeURIComponent(
+          'Name: ' + name + '\nReply Email: ' + email + '\nTopic: ' + topic + '\n\n' + message
+        );
+        var mailtoHref = 'mailto:' + deskEmail + '?subject=' + subject + '&body=' + body;
+
+        status.hidden = false;
+        status.innerHTML =
+          '<strong>Message prepared for dispatch.</strong> Your email client is opening addressed to <code>' +
+          deskEmail +
+          '</code>. If your device does not have a default mail app configured, <a href="' +
+          mailtoHref +
+          '">click here to launch your mail client</a> or copy your note directly to <strong>' +
+          deskEmail +
+          '</strong>.';
+
+        window.location.href = mailtoHref;
+      });
+    })();
+  </script>
+</BaseLayout>
+
+<style>
+  @media (max-width: 820px) {
+    .swiss-grid > div {
+      grid-column: 1 / -1 !important;
+    }
+  }
+</style>

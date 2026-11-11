@@ -1,0 +1,270 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ThemeScripture from '../components/ThemeScripture.astro';
+import Reaffirmation from '../components/Reaffirmation.astro';
+import DeclarationCard from '../components/DeclarationCard.astro';
+import FurtherStudy from '../components/FurtherStudy.astro';
+import RelatedTeachings from '../components/RelatedTeachings.astro';
+import AuthorBox from '../components/AuthorBox.astro';
+import CategoryChip from '../components/CategoryChip.astro';
+import AdSlot from '../components/AdSlot.astro';
+import { SITE } from '../data/site';
+import { getCategoryByName } from '../data/categories';
+import { renderArticleProse } from '../lib/markdown';
+
+export async function getStaticPaths() {
+  const allArticles = await getCollection('articles');
+  const sorted = [...allArticles].sort((a, b) => a.data.day - b.data.day);
+  const publishedSlugs = new Set(sorted.map((entry) => entry.data.slug));
+
+  return sorted.map((entry, idx) => ({
+    params: { slug: entry.data.slug },
+    props: {
+      entry,
+      prevEntry: idx > 0 ? sorted[idx - 1] : null,
+      nextEntry: idx < sorted.length - 1 ? sorted[idx + 1] : null,
+      publishedSlugs: Array.from(publishedSlugs),
+    },
+  }));
+}
+
+const { entry, prevEntry, nextEntry, publishedSlugs } = Astro.props;
+const { data } = entry;
+const slugSet = new Set<string>(publishedSlugs);
+const cat = getCategoryByName(data.category);
+const { part1Html, part2Html, wordCount, readingMinutes } =
+  await renderArticleProse(entry.body || '');
+
+const dayPadded = String(data.day).padStart(3, '0');
+const siteOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const canonicalUrl = `${siteOrigin}/${data.slug}/`;
+
+const formattedPub = new Date(`${data.pubDate}T00:00:00Z`).toLocaleDateString(
+  'en-US',
+  { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' }
+);
+
+const structuredData = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: data.title,
+    description: data.description,
+    wordCount,
+    datePublished: data.pubDate,
+    dateModified: data.updatedDate || data.pubDate,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': canonicalUrl,
+    },
+    image: `${siteOrigin}/images/og-default.png`,
+    articleSection: data.category,
+    keywords: [data.primaryKeyword, ...data.secondaryKeywords].join(', '),
+    author: {
+      '@type': 'Person',
+      name: SITE.teacher.name,
+      jobTitle: SITE.teacher.role,
+      url: `${siteOrigin}/about/`,
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: SITE.name,
+      url: `${siteOrigin}/`,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${siteOrigin}/favicon.svg`,
+      },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: `${siteOrigin}/`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Teachings',
+        item: `${siteOrigin}/teachings/`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: cat.name,
+        item: `${siteOrigin}/category/${cat.slug}/`,
+      },
+      {
+        '@type': 'ListItem',
+        position: 4,
+        name: data.title,
+        item: canonicalUrl,
+      },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title={data.seoTitle}
+  description={data.description}
+  canonicalPath={`/${data.slug}/`}
+  ogType="article"
+  publishedTime={data.pubDate}
+  modifiedTime={data.updatedDate || data.pubDate}
+  showReadingProgress={true}
+  jsonLd={structuredData}
+>
+  <article class="reading-container" style="padding-top: clamp(2.25rem, 5vw, 3.75rem); padding-bottom: 2rem;">
+    <!-- Breadcrumb -->
+    <nav aria-label="Breadcrumb" class="meta-caps" style="margin-bottom: 1.1rem;">
+      <a href="/">Home</a>
+      <span aria-hidden="true"> / </span>
+      <a href="/teachings/">Teachings</a>
+      <span aria-hidden="true"> / </span>
+      <a href={`/category/${cat.slug}/`}>{cat.name}</a>
+    </nav>
+
+    <!-- Meta & Reading Comfort Bar -->
+    <div class="comfort-bar">
+      <div
+        class="meta-caps"
+        style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.65rem;"
+      >
+        <span style="color: var(--gold-text); font-weight: 600;">Day {dayPadded}</span>
+        <span aria-hidden="true">&middot;</span>
+        <time datetime={data.pubDate}>{formattedPub}</time>
+        <span aria-hidden="true">&middot;</span>
+        <span>By {SITE.teacher.name}</span>
+        <span aria-hidden="true">&middot;</span>
+        <span>{readingMinutes} min read</span>
+        <CategoryChip category={data.category} />
+      </div>
+
+      <div class="size-controls" role="group" aria-label="Adjust reading text size">
+        <button type="button" class="size-btn" data-reading-scale="0.92" title="Slightly smaller text">
+          A&minus;
+        </button>
+        <button type="button" class="size-btn" data-reading-scale="1" aria-pressed="true" title="Default text size">
+          A
+        </button>
+        <button type="button" class="size-btn" data-reading-scale="1.12" title="Larger text">
+          A+
+        </button>
+        <button type="button" class="size-btn" data-reading-scale="1.24" title="Extra large text">
+          A++
+        </button>
+      </div>
+    </div>
+
+    <!-- H1 -->
+    <h1>{data.title}</h1>
+
+    <!-- 1. Theme-Scripture Block -->
+    <ThemeScripture
+      text={data.themeScripture.text}
+      reference={data.themeScripture.reference}
+      translation={data.themeScripture.translation}
+    />
+
+    <!-- Ad Slot #1 (After Theme-Scripture Block) -->
+    <AdSlot position="after-theme" />
+
+    <!-- Article Prose Part 1 (Opening + Word Study + Cross-References) -->
+    <div class="article-prose" set:html={part1Html} />
+
+    <!-- Ad Slot #2 (Mid-Article Break) -->
+    {part2Html && <AdSlot position="mid-article" />}
+
+    <!-- Article Prose Part 2 (What This Means for You + Putting It to Work) -->
+    {part2Html && <div class="article-prose" set:html={part2Html} />}
+
+    <!-- 2. Reaffirmation Pull-Line -->
+    <Reaffirmation text={data.reaffirmation} />
+
+    <!-- 3. Declaration Card (Zero ads adjacent above or below per §8) -->
+    <DeclarationCard text={data.declaration} />
+
+    <!-- Glossary Terms Studied -->
+    <div
+      style="margin-block: 1.5rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.55rem;"
+    >
+      <span class="meta-caps">Key Doctrinal Terms:</span>
+      {
+        data.glossaryTerms.map((term) => (
+          <a class="category-chip" href="/glossary/">
+            {term}
+          </a>
+        ))
+      }
+    </div>
+
+    <!-- 4. Further Study -->
+    <FurtherStudy passages={data.furtherStudy} />
+
+    <!-- Ad Slot #3 (After Further Study / Before Related Teachings) -->
+    <AdSlot position="before-related" />
+
+    <!-- 5. Related Teachings -->
+    <RelatedTeachings items={data.relatedTeachings} publishedSlugs={slugSet} />
+
+    <!-- Previous / Next Day Links -->
+    <nav class="prev-next-nav" aria-label="Adjacent daily teachings">
+      <div>
+        {
+          prevEntry ? (
+            <a class="prev-next-link" href={`/${prevEntry.data.slug}/`}>
+              <span class="meta-caps" style="display: block; margin-bottom: 0.25rem;">
+                &larr; Day {String(prevEntry.data.day).padStart(3, '0')}
+              </span>
+              <span style="font-family: var(--font-display); font-size: 1.1rem; color: var(--ink);">
+                {prevEntry.data.title}
+              </span>
+            </a>
+          ) : (
+            <a class="prev-next-link" href="/slate/">
+              <span class="meta-caps" style="display: block; margin-bottom: 0.25rem;">
+                Year Curriculum
+              </span>
+              <span style="font-family: var(--font-display); font-size: 1.1rem; color: var(--ink);">
+                Explore the 365-Topic Teaching Slate &rarr;
+              </span>
+            </a>
+          )
+        }
+      </div>
+
+      <div style="text-align: right;">
+        {
+          nextEntry ? (
+            <a class="prev-next-link" href={`/${nextEntry.data.slug}/`}>
+              <span class="meta-caps" style="display: block; margin-bottom: 0.25rem;">
+                Day {String(nextEntry.data.day).padStart(3, '0')} &rarr;
+              </span>
+              <span style="font-family: var(--font-display); font-size: 1.1rem; color: var(--ink);">
+                {nextEntry.data.title}
+              </span>
+            </a>
+          ) : (
+            <a class="prev-next-link" href="/slate/">
+              <span class="meta-caps" style="display: block; margin-bottom: 0.25rem;">
+                Up Next on the Slate &rarr;
+              </span>
+              <span style="font-family: var(--font-display); font-size: 1.1rem; color: var(--ink);">
+                View Month 1 Days 009–031
+              </span>
+            </a>
+          )
+        }
+      </div>
+    </nav>
+
+    <!-- 7. Author Box -->
+    <AuthorBox />
+  </article>
+</BaseLayout>

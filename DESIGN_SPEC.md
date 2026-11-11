@@ -1,6 +1,6 @@
-# DESIGN SPEC — The Faith Teaching Site
+# DESIGN SPEC — *In Jesus Name* (The Faith Teaching Publication)
 *Direction name: **REVERENT EDITORIAL** — Swiss Luxury Minimalism × Celestial Atmosphere*
-*Status: chosen · governs TODO items B1–B12 · v1.0*
+*Status: implemented in `faith-site/` (Astro 6) · governs TODO items B1–B12 · v1.1*
 
 ---
 
