@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–357 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–358 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -400,6 +400,7 @@
 | 355 | M12·D355 | Peace on Earth Begins in the Heart | `/peace-on-earth-begins-in-the-heart/` | Redemption & His Return | Col 3:15 | 951 | 34c / 152c | 20/20 ✔ | 2027-10-22 |
 | 356 | M12·D356 | The Promise Kept: Every Prophecy Certified | `/the-promise-kept-every-prophecy-certified/` | Redemption & His Return | 2 Cor 1:20 | 946 | 42c / 141c | 20/20 ✔ | 2027-10-23 |
 | 357 | M12·D357 | The Word Made Flesh Heals Your Flesh | `/the-word-made-flesh-heals-your-flesh/` | Redemption & His Return | John 1:14 (sarx) | 916 | 36c / 144c | 20/20 ✔ | 2027-10-24 |
+| 358 | M12·D358 | He Was Poor That You Might Be Rich | `/he-was-poor-that-you-might-be-rich/` | Redemption & His Return | 2 Cor 8:9 | 929 | 34c / 146c | 20/20 ✔ | 2027-10-25 |
 
 ---
 
