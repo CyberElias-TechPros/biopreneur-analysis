@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–223 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–225 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -266,6 +266,8 @@
 | 221 | M8·D221 | Stewardship: You Manage, He Owns | `/stewardship-you-manage-he-owns/` | Prosperity & Stewardship | Ps 24:1 | 1,025 | 32c / 146c | 20/20 ✔ | 2027-06-10 |
 | 222 | M8·D222 | First Fruits Honour First Things | `/first-fruits-honour-first-things/` | Prosperity & Stewardship | Prov 3:9 | 939 | 32c / 149c | 20/20 ✔ | 2027-06-11 |
 | 223 | M8·D223 | The Hand of the Diligent Rules | `/the-hand-of-the-diligent-rules/` | Prosperity & Stewardship | Prov 12:24 | 1,057 | 30c / 142c | 20/20 ✔ | 2027-06-12 |
+| 224 | M8·D224 | Contentment Is Not Complacency | `/contentment-is-not-complacency/` | Prosperity & Stewardship | Phil 4:11 | 955 | 30c / 157c | 20/20 ✔ | 2027-06-13 |
+| 225 | M8·D225 | Debt Is a Symptom; Wisdom Is the Cure | `/debt-is-a-symptom-wisdom-is-the-cure/` | Prosperity & Stewardship | Rom 13:8 | 1,014 | 34c / 145c | 20/20 ✔ | 2027-06-14 |
 
 ---
 
