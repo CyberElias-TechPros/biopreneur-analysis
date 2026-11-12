@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–347 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–348 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -390,6 +390,7 @@
 | 345 | M12·D345 | No Room at the Inn — Make Room in the Heart | `/no-room-at-the-inn-make-room-in-the-heart/` | Redemption & His Return | Luke 2:7 (katalyma) | 988 | 43c / 144c | 20/20 ✔ | 2027-10-12 |
 | 346 | M12·D346 | Wise Men Still Seek Him | `/wise-men-still-seek-him/` | Redemption & His Return | Matt 2:2 | 913 | 43c / 150c | 20/20 ✔ | 2027-10-13 |
 | 347 | M12·D347 | The Name Above Every Name You Fear | `/the-name-above-every-name-you-fear/` | Redemption & His Return | Phil 2:9 | 1,009 | 34c / 146c | 20/20 ✔ | 2027-10-14 |
+| 348 | M12·D348 | Grace Came Down; Glory Goes Up | `/grace-came-down-glory-goes-up/` | Redemption & His Return | 2 Cor 4:15 | 936 | 30c / 149c | 20/20 ✔ | 2027-10-15 |
 
 ---
 
