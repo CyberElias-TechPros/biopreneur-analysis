@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–225 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–228 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -268,6 +268,9 @@
 | 223 | M8·D223 | The Hand of the Diligent Rules | `/the-hand-of-the-diligent-rules/` | Prosperity & Stewardship | Prov 12:24 | 1,057 | 30c / 142c | 20/20 ✔ | 2027-06-12 |
 | 224 | M8·D224 | Contentment Is Not Complacency | `/contentment-is-not-complacency/` | Prosperity & Stewardship | Phil 4:11 | 955 | 30c / 157c | 20/20 ✔ | 2027-06-13 |
 | 225 | M8·D225 | Debt Is a Symptom; Wisdom Is the Cure | `/debt-is-a-symptom-wisdom-is-the-cure/` | Prosperity & Stewardship | Rom 13:8 | 1,014 | 34c / 145c | 20/20 ✔ | 2027-06-14 |
+| 226 | M8·D226 | Treasure in Heaven Appreciates | `/treasure-in-heaven-appreciates/` | Prosperity & Stewardship | Matt 6:20–21 | 949 | 30c / 149c | 20/20 ✔ | 2027-06-15 |
+| 227 | M8·D227 | The Blessed Man Meditates — Then Prospers | `/the-blessed-man-meditates-then-prospers/` | Prosperity & Stewardship | Ps 1:3 | 969 | 40c / 150c | 20/20 ✔ | 2027-06-16 |
+| 228 | M8·D228 | Abundance for Every Good Work | `/abundance-for-every-good-work/` | Prosperity & Stewardship | 2 Cor 9:8 | 968 | 29c / 144c | 20/20 ✔ | 2027-06-17 |
 
 ---
 
