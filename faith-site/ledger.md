@@ -1,4 +1,4 @@
-# USED-TITLE & PUBLICATION LEDGER — *In Jesus Name*
+# USED-TITLE & PUBLICATION LEDGER — *Live In Jesus Name*
 *Governs TODO item A10 & Originality Law (`FAITH_TEACHING_PROMPT.md` §2.1, §11)*
 *Updated on every publication batch to guarantee zero title, angle, or phrasing duplication.*
 
@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–191 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–212 Live — Months 1–7 Complete)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -234,6 +234,27 @@
 | 189 | M7·D189 | The Healing Power in Communion | `/the-healing-power-in-communion/` | Divine Health | 1 Cor 11:29–30 | 1,569 | 30c / 151c | 20/20 ✔ | 2027-05-09 |
 | 190 | M7·D190 | Speak Health: Words That Carry Life | `/speak-health-words-that-carry-life/` | Divine Health | Prov 18:21 | 1,445 | 35c / 148c | 20/20 ✔ | 2027-05-10 |
 | 191 | M7·D191 | The Life That Quickens Your Mortal Body | `/the-life-that-quickens-your-mortal-body/` | Divine Health | Rom 8:11 | 1,439 | 39c / 147c | 20/20 ✔ | 2027-05-11 |
+| 192 | M7·D192 | He Took Your Infirmities — Legally | `/he-took-your-infirmities-legally/` | Divine Health | Matt 8:17 | 1,463 | 34c / 145c | 20/20 ✔ | 2027-05-12 |
+| 193 | M7·D193 | Healing Flows From Understanding, Not From Hope Alone | `/healing-flows-from-understanding/` | Divine Health | Mark 5:34 | 1,058 | 42c / 150c | 20/20 ✔ | 2027-05-13 |
+| 194 | M7·D194 | Rest Is a Healing Force | `/rest-is-a-healing-force/` | Divine Health | Ps 127:2 | 1,115 | 37c / 145c | 20/20 ✔ | 2027-05-14 |
+| 195 | M7·D195 | Unbelief: The Enemy of Wholeness | `/unbelief-the-enemy-of-wholeness/` | Divine Health | Matt 13:58 | 1,000 | 32c / 150c | 20/20 ✔ | 2027-05-15 |
+| 196 | M7·D196 | Health Is a Covenant Right, Not a Lottery | `/health-is-a-covenant-right-not-a-lottery/` | Divine Health | Ps 103:1–3 | 1,079 | 41c / 151c | 20/20 ✔ | 2027-05-16 |
+| 197 | M7·D197 | When You Feel Nothing: Healing Beyond Feelings | `/when-you-feel-nothing-healing-beyond-feelings/` | Divine Health | 2 Cor 5:7 | 1,128 | 46c / 141c | 20/20 ✔ | 2027-05-17 |
+| 198 | M7·D198 | Symptoms Are Signals, Not Verdicts | `/symptoms-are-signals-not-verdicts/` | Divine Health | Gen 1:31 | 1,137 | 34c / 155c | 20/20 ✔ | 2027-05-18 |
+| 199 | M7·D199 | Healthy Thoughts Make Whole Bodies | `/healthy-thoughts-make-whole-bodies/` | Divine Health | Prov 17:22 | 1,198 | 34c / 146c | 20/20 ✔ | 2027-05-19 |
+| 200 | M7·D200 | Forgiveness Unblocks the Flow of Life | `/forgiveness-unblocks-the-flow-of-life/` | Divine Health | Eph 4:31–32 | 1,156 | 37c / 153c | 20/20 ✔ | 2027-05-20 |
+| 201 | M7·D201 | Anointing With Oil: Obedience With Meaning | `/anointing-with-oil-obedience-with-meaning/` | Divine Health | James 5:14 | 1,047 | 42c / 146c | 20/20 ✔ | 2027-05-21 |
+| 202 | M7·D202 | The Elders and the Prayer of Faith | `/the-elders-and-the-prayer-of-faith/` | Divine Health | James 5:15 | 1,114 | 34c / 149c | 20/20 ✔ | 2027-05-22 |
+| 203 | M7·D203 | His Presence Is Your Healing Environment | `/his-presence-is-your-healing-environment/` | Divine Health | Ps 16:11 | 1,060 | 40c / 142c | 20/20 ✔ | 2027-05-23 |
+| 204 | M7·D204 | Stress, Fear, and the Body That Carries Them | `/stress-fear-and-the-body-that-carries-them/` | Divine Health | 1 Pet 5:7 | 1,096 | 26c / 153c | 20/20 ✔ | 2027-05-24 |
+| 205 | M7·D205 | Soul and Body: One Saved Whole Person | `/soul-and-body-one-saved-whole-person/` | Divine Health | 1 Thess 5:23 | 1,061 | 37c / 143c | 20/20 ✔ | 2027-05-25 |
+| 206 | M7·D206 | Stewardship of the Temple: Eat, Rest, and Rule | `/stewardship-of-the-temple-eat-rest-and-rule/` | Divine Health | 1 Cor 6:19–20 | 1,065 | 42c / 150c | 20/20 ✔ | 2027-05-26 |
+| 207 | M7·D207 | Testimonies: The Report That Builds Faith | `/testimonies-the-report-that-builds-faith/` | Divine Health | Rev 12:11 | 1,089 | 41c / 149c | 20/20 ✔ | 2027-05-27 |
+| 208 | M7·D208 | Wholeness Has an Order: Spirit, Soul, Then Body | `/wholeness-has-an-order-spirit-soul-then-body/` | Divine Health | 3 John 2 | 1,118 | 42c / 150c | 20/20 ✔ | 2027-05-28 |
+| 209 | M7·D209 | Long Life: The Conditions Scripture Names | `/long-life-the-conditions-scripture-names/` | Divine Health | Ps 91:16 | 1,123 | 41c / 151c | 20/20 ✔ | 2027-05-29 |
+| 210 | M7·D210 | Healing Streams: Life Where the River Comes | `/healing-streams-life-where-the-river-comes/` | Divine Health | Ezek 47:9 | 988 | 43c / 143c | 20/20 ✔ | 2027-05-30 |
+| 211 | M7·D211 | A Healing Culture Begins at Home | `/a-healing-culture-begins-at-home/` | Divine Health | Prov 14:1 | 1,068 | 32c / 157c | 20/20 ✔ | 2027-05-31 |
+| 212 | M7·D212 | Whole and Holy: The Same Word in Two Directions | `/whole-and-holy-the-same-word-in-two-directions/` | Divine Health | 1 Thess 5:23 | 1,061 | 47c / 150c | 20/20 ✔ | 2027-06-01 |
 
 ---
 
