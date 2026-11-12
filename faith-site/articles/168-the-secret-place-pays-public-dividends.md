@@ -202,7 +202,7 @@ Then hand over the hour without any demand on its visible result. Some mornings 
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — The Presence of God, Renewing of the Mind, The Consciousness of Righteousness |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 38c · Meta 141c |
-| 17 | Words | ≥900 (Standard) | ✔ 1,617XX words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1,617 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 8 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 14 anchors |

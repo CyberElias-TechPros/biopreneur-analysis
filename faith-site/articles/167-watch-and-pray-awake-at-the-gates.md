@@ -202,7 +202,7 @@ You do not watch because you are strong. **You watch because the watch is where 
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — The Life of the Spirit, Spiritual Warfare, The Presence of God |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 34c · Meta 146c |
-| 17 | Words | ≥900 (Standard) | ✔ 1,572XX words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1,572 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 7 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 13 anchors |
