@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–164 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–165 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -207,6 +207,7 @@
 | 162 | M6·D162 | Thanksgiving Completes the Circuit | `/thanksgiving-completes-the-circuit/` | Prayer & Fasting | Col 4:2 | 923 | 34c / 151c | 20/20 ✔ | 2027-04-12 |
 | 163 | M6·D163 | Pray Without Ceasing: An Attitude, Not a Marathon | `/pray-without-ceasing-an-attitude-not-a-marathon/` | Prayer & Fasting | 1 Thess 5:16–18 | 993 | 49c / 140c | 20/20 ✔ | 2027-04-13 |
 | 164 | M6·D164 | Effectual, Fervent Prayer Works | `/effectual-fervent-prayer-works/` | Prayer & Fasting | Jas 5:16 | 1,009 | 31c / 140c | 20/20 ✔ | 2027-04-14 |
+| 165 | M6·D165 | Ask Amiss: Diagnosing Empty Prayers | `/ask-amiss-diagnosing-empty-prayers/` | Prayer & Fasting | Jas 4:3 | 1,556 | 35c / 147c | 20/20 ✔ | 2027-04-15 |
 
 ---
 
