@@ -8,7 +8,6 @@ import FurtherStudy from '../components/FurtherStudy.astro';
 import RelatedTeachings from '../components/RelatedTeachings.astro';
 import AuthorBox from '../components/AuthorBox.astro';
 import CategoryChip from '../components/CategoryChip.astro';
-import AdSlot from '../components/AdSlot.astro';
 import { SITE } from '../data/site';
 import { getCategoryByName } from '../data/categories';
 import { renderArticleProse } from '../lib/markdown';
@@ -215,14 +214,8 @@ const structuredData = [
       translation={data.themeScripture.translation}
     />
 
-    <!-- Ad Slot #1 (After Theme-Scripture Block) -->
-    <AdSlot position="after-theme" />
-
     <!-- Article Prose Part 1 (Opening + Word Study + Cross-References) -->
     <div class="article-prose" set:html={part1Html} />
-
-    <!-- Ad Slot #2 (Mid-Article Break) -->
-    {part2Html && <AdSlot position="mid-article" />}
 
     <!-- Article Prose Part 2 (What This Means for You + Putting It to Work) -->
     {part2Html && <div class="article-prose" set:html={part2Html} />}
@@ -249,9 +242,6 @@ const structuredData = [
 
     <!-- 4. Further Study -->
     <FurtherStudy passages={data.furtherStudy} />
-
-    <!-- Ad Slot #3 (After Further Study / Before Related Teachings) -->
-    <AdSlot position="before-related" />
 
     <!-- 5. Related Teachings -->
     <RelatedTeachings items={data.relatedTeachings} publishedSlugs={slugSet} />

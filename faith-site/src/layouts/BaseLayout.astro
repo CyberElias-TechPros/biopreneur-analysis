@@ -277,12 +277,6 @@ const pageSchema = jsonLd
           });
         }
 
-        // Optional ?ads=preview QA mode for AdSense layout verification (TODO B12)
-        if (window.location.search.indexOf('ads=preview') !== -1) {
-          document.querySelectorAll('[data-ad-wrapper]').forEach(function (el) {
-            el.removeAttribute('hidden');
-          });
-        }
       })();
     </script>
   </body>

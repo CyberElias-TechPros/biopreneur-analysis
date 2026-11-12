@@ -1,17 +1,24 @@
 ---
 import { SITE } from '../data/site';
----
 
-<!--
-  Google AdSense loader.
-  Emitted on every page so AdSense can crawl, verify, and serve on any URL —
-  the script tag is harmless when no ad units are live. Ad units themselves are
-  rendered by <AdSlot />, which only inserts <ins class="adsbygoogle"> blocks
-  once PUBLIC_ADSENSE_LIVE="true".
--->
+/*
+  Google AdSense — Auto ads.
+
+  The loader below is Google's own snippet, emitted unconditionally on every
+  page: Auto ads needs nothing else to place units, and AdSense verifies site
+  ownership by crawling it. It is inert until the account is approved.
+
+  Because Auto ads chooses placement itself, the article template renders no
+  manual ad blocks (see the `adsense` block in src/data/site.ts).
+
+  The `google-adsense-account` meta tag is the second ownership signal Google
+  documents for Auto ads sites, so verification does not hinge on the script
+  alone.
+*/
+---
+<meta name="google-adsense-account" content={SITE.adsense.publisherId} />
 <script
   is:inline
   async
   src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsense.publisherId}`}
-  crossorigin="anonymous"
-></script>
+  crossorigin="anonymous"></script>

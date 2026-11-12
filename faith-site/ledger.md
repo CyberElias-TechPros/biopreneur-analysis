@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–191 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–200 Live — Months 1–6 Complete, Month 7 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -234,6 +234,15 @@
 | 189 | M7·D189 | The Healing Power in Communion | `/the-healing-power-in-communion/` | Divine Health | 1 Cor 11:29–30 | 1,569 | 30c / 151c | 20/20 ✔ | 2027-05-09 |
 | 190 | M7·D190 | Speak Health: Words That Carry Life | `/speak-health-words-that-carry-life/` | Divine Health | Prov 18:21 | 1,445 | 35c / 148c | 20/20 ✔ | 2027-05-10 |
 | 191 | M7·D191 | The Life That Quickens Your Mortal Body | `/the-life-that-quickens-your-mortal-body/` | Divine Health | Rom 8:11 | 1,439 | 39c / 147c | 20/20 ✔ | 2027-05-11 |
+| 192 | M7·D192 | He Took Your Infirmities — Legally | `/he-took-your-infirmities-legally/` | Divine Health | Matt 8:17 | 1,463 | 34c / 145c | 20/20 ✔ | 2027-05-12 |
+| 193 | M7·D193 | Healing Flows From Understanding, Not From Hope Alone | `/healing-flows-from-understanding/` | Divine Health | Mark 5:34 | 1,058 | 42c / 150c | 20/20 ✔ | 2027-05-13 |
+| 194 | M7·D194 | Rest Is a Healing Force | `/rest-is-a-healing-force/` | Divine Health | Ps 127:2 | 1,115 | 37c / 145c | 20/20 ✔ | 2027-05-14 |
+| 195 | M7·D195 | Unbelief: The Enemy of Wholeness | `/unbelief-the-enemy-of-wholeness/` | Divine Health | Matt 13:58 | 1,000 | 32c / 150c | 20/20 ✔ | 2027-05-15 |
+| 196 | M7·D196 | Health Is a Covenant Right, Not a Lottery | `/health-is-a-covenant-right-not-a-lottery/` | Divine Health | Ps 103:1–3 | 1,079 | 41c / 151c | 20/20 ✔ | 2027-05-16 |
+| 197 | M7·D197 | When You Feel Nothing: Healing Beyond Feelings | `/when-you-feel-nothing-healing-beyond-feelings/` | Divine Health | 2 Cor 5:7 | 1,128 | 46c / 141c | 20/20 ✔ | 2027-05-17 |
+| 198 | M7·D198 | Symptoms Are Signals, Not Verdicts | `/symptoms-are-signals-not-verdicts/` | Divine Health | Gen 1:31 | 1,137 | 34c / 155c | 20/20 ✔ | 2027-05-18 |
+| 199 | M7·D199 | Healthy Thoughts Make Whole Bodies | `/healthy-thoughts-make-whole-bodies/` | Divine Health | Prov 17:22 | 1,198 | 34c / 146c | 20/20 ✔ | 2027-05-19 |
+| 200 | M7·D200 | Forgiveness Unblocks the Flow of Life | `/forgiveness-unblocks-the-flow-of-life/` | Divine Health | Eph 4:31–32 | 1,156 | 37c / 153c | 20/20 ✔ | 2027-05-20 |
 
 ---
 

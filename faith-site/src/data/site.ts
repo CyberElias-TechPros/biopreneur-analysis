@@ -21,11 +21,17 @@ export const SITE = {
     publisherId: 'ca-pub-9124992249317290',
     sellerId: 'f08c47fec0942fa0',
     /**
-     * Per TODO E2 & faith-site/adsense.html:
-     * Flip PUBLIC_ADSENSE_LIVE="true" once 50+ teachings are live and AdSense is connected.
-     * Append ?ads=preview to any article URL to inspect the 3 zero-CLS reserved slots.
+     * Placement mode is **Auto ads**: the loader script is on every page and
+     * Google chooses where units appear. That is why no manual <ins> blocks are
+     * rendered in the article template — hand-placed slots alongside Auto ads
+     * compete with the same inventory and can stack two units on one screen.
+     *
+     * `<AdSlot />` and the slot IDs below are retained but intentionally unused,
+     * so a single anchored placement can be switched on later without rebuilding
+     * it. Set `manualSlots: true` and render <AdSlot /> to do that.
      */
-    live: import.meta.env.PUBLIC_ADSENSE_LIVE === 'true',
+    autoAds: true,
+    manualSlots: false,
     slots: {
       afterTheme: '1000000001',
       midArticle: '1000000002',
