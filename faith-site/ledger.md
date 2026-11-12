@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–355 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–356 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -398,6 +398,7 @@
 | 353 | M12·D353 | The Manger and the Mercy Seat | `/the-manger-and-the-mercy-seat/` | Redemption & His Return | Exod 25:21–22 | 944 | 29c / 151c | 20/20 ✔ | 2027-10-20 |
 | 354 | M12·D354 | Mary's Yes and Your Yes | `/marys-yes-and-your-yes/` | Redemption & His Return | Luke 1:38 | 940 | 43c / 147c | 20/20 ✔ | 2027-10-21 |
 | 355 | M12·D355 | Peace on Earth Begins in the Heart | `/peace-on-earth-begins-in-the-heart/` | Redemption & His Return | Col 3:15 | 951 | 34c / 152c | 20/20 ✔ | 2027-10-22 |
+| 356 | M12·D356 | The Promise Kept: Every Prophecy Certified | `/the-promise-kept-every-prophecy-certified/` | Redemption & His Return | 2 Cor 1:20 | 946 | 42c / 141c | 20/20 ✔ | 2027-10-23 |
 
 ---
 
