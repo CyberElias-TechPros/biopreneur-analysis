@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–334 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–339 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -377,6 +377,11 @@
 | 332 | M11·D332 | Atmosphere Architect: Change the Room You Enter | `/atmosphere-architect-change-the-room-you-enter/` | Christian Living | Acts 16:25 | 926 | 37c / 142c | 20/20 ✔ | 2027-09-29 |
 | 333 | M11·D333 | Live Loaded: The Fullness That Overflows | `/live-loaded-the-fullness-that-overflows/` | Christian Living | Eph 3:19 | 966 | 40c / 151c | 20/20 ✔ | 2027-09-30 |
 | 334 | M11·D334 | The God of Hope: Anchored and Radiant | `/the-god-of-hope-anchored-and-radiant/` | Christian Living | Rom 15:13 | 945 | 37c / 148c | 20/20 ✔ | 2027-10-01 |
+| 335 | M12·D335 | The Word Became Flesh: Love Moved In | `/the-word-became-flesh-love-moved-in/` | Redemption & His Return | John 1:14 | 952 | 36c / 146c | 20/20 ✔ | 2027-10-02 |
+| 336 | M12·D336 | Immanuel Means God With Us — and in Us | `/immanuel-means-god-with-us-and-in-us/` | Redemption & His Return | Matt 1:23 | 995 | 31c / 149c | 20/20 ✔ | 2027-10-03 |
+| 337 | M12·D337 | Bethlehem's Baby and Calvary's Lamb | `/bethlehems-baby-and-calvarys-lamb/` | Redemption & His Return | Luke 2:7 | 941 | 35c / 142c | 20/20 ✔ | 2027-10-04 |
+| 338 | M12·D338 | The Fullness of Time Came for Your Fullness | `/the-fullness-of-time-came-for-your-fullness/` | Redemption & His Return | Gal 4:4–5 | 938 | 43c / 142c | 20/20 ✔ | 2027-10-05 |
+| 339 | M12·D339 | He Emptied Himself to Fill You | `/he-emptied-himself-to-fill-you/` | Redemption & His Return | Phil 2:7 | 1,026 | 30c / 154c | 20/20 ✔ | 2027-10-06 |
 
 ---
 
