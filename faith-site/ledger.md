@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–327 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–329 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -370,6 +370,8 @@
 | 325 | M11·D325 | The Ministry of Encouragement | `/the-ministry-of-encouragement/` | Christian Living | Acts 11:23 | 975 | 29c / 155c | 20/20 ✔ | 2027-09-22 |
 | 326 | M11·D326 | Hospitality as High Worship | `/hospitality-as-high-worship/` | Christian Living | Heb 13:2 | 981 | 27c / 150c | 20/20 ✔ | 2027-09-23 |
 | 327 | M11·D327 | The Secret Power of a Thankful Heart | `/the-secret-power-of-a-thankful-heart/` | Christian Living | Phil 4:6 | 979 | 36c / 154c | 20/20 ✔ | 2027-09-24 |
+| 328 | M11·D328 | Resting Is Not Retiring From Faith | `/resting-is-not-retiring-from-faith/` | Christian Living | Heb 4:9–10 | 957 | 34c / 152c | 20/20 ✔ | 2027-09-25 |
+| 329 | M11·D329 | Joy Is Strength: Select It Daily | `/joy-is-strength-select-it-daily/` | Christian Living | Neh 8:10 | 939 | 32c / 152c | 20/20 ✔ | 2027-09-26 |
 
 ---
 
