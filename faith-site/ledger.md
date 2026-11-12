@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–151 Live — Months 1–5 Complete (Month 6 begins Day 152))
+## 2. Published Articles Ledger (Days 001–152 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -194,6 +194,7 @@
 | 149 | M5·D149 | The Word Separates, Sanctifies, and Sends | `/the-word-separates-sanctifies-and-sends/` | The Word | John 17:17–18 | 1,040 | 41c / 140c | 20/20 ✔ | 2027-03-30 |
 | 150 | M5·D150 | Search the Scriptures Daily: The Noble Habit | `/search-the-scriptures-daily/` | The Word | Acts 17:11 | 1,008 | 44c / 149c | 20/20 ✔ | 2027-03-31 |
 | 151 | M5·D151 | Your Bible Is a Will: Read the Inheritance | `/your-bible-is-a-will-read-the-inheritance/` | The Word | Heb 9:15–16 | 1,032 | 42c / 147c | 20/20 ✔ | 2027-04-01 |
+| 152 | M6·D152 | Prayer Is Relationship Before Request | `/prayer-is-relationship-before-request/` | Prayer & Fasting | Matt 6:9 | 1,166 | 37c / 151c | 20/20 ✔ | 2027-04-02 |
 
 ---
 
