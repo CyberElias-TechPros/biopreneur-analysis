@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–170 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–171 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -213,6 +213,7 @@
 | 168 | M6·D168 | The Secret Place Pays Public Dividends | `/the-secret-place-pays-public-dividends/` | Prayer & Fasting | Matt 6:6 | 1,617 | 38c / 141c | 20/20 ✔ | 2027-04-18 |
 | 169 | M6·D169 | Prayer Changes the One Who Prays | `/prayer-changes-the-one-who-prays/` | Prayer & Fasting | 2 Cor 3:18 | 1,386 | 32c / 143c | 20/20 ✔ | 2027-04-19 |
 | 170 | M6·D170 | Midnight Prayers Move Morning Mountains | `/midnight-prayers-move-morning-mountains/` | Prayer & Fasting | Acts 16:25–26 | 1,379 | 39c / 147c | 20/20 ✔ | 2027-04-20 |
+| 171 | M6·D171 | Praying for Governments: A Kingdom Assignment | `/praying-for-governments-a-kingdom-assignment/` | Prayer & Fasting | 1 Tim 2:1–2 | 1,498 | 39c / 147c | 20/20 ✔ | 2027-04-21 |
 
 ---
 
