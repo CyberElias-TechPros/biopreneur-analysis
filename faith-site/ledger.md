@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–273 Live — Month 9 Complete)
+## 2. Published Articles Ledger (Days 001–283 Live — Month 9 Complete)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -316,6 +316,16 @@
 | 271 | M9·D271 | From Slavish Service to Sonship Service | `/from-slavish-service-to-sonship-service/` | Righteousness & Grace | Gal 4:7 | 1,009 | 39c / 140c | 20/20 ✔ | 2027-07-30 |
 | 272 | M9·D272 | Righteousness and Peace Have Kissed — Guard Both | `/righteousness-and-peace-have-kissed/` | Righteousness & Grace | Ps 85:10 | 1,004 | 35c / 151c | 20/20 ✔ | 2027-07-31 |
 | 273 | M9·D273 | Live Right Because You Are Right | `/live-right-because-you-are-right/` | Righteousness & Grace | 1 John 3:7 | 1,065 | 32c / 153c | 20/20 ✔ | 2027-08-01 |
+| 274 | M10·D274 | The Unseen Realm Is More Real Than the Seen | `/the-unseen-realm-is-more-real-than-the-seen/` | Spiritual Warfare | 2 Kings 6:17 | 1,041 | 43c / 151c | 20/20 ✔ | 2027-08-02 |
+| 275 | M10·D275 | We Wrestle — Therefore We Win | `/we-wrestle-therefore-we-win/` | Spiritual Warfare | Eph 6:12 | 989 | 29c / 156c | 20/20 ✔ | 2027-08-03 |
+| 276 | M10·D276 | The Schemes Are Old; the Victory Is Older | `/the-schemes-are-old-the-victory-is-older/` | Spiritual Warfare | Eph 6:11 | 920 | 41c / 155c | 20/20 ✔ | 2027-08-04 |
+| 277 | M10·D277 | Spiritual Blindness: The Enemy's Favourite Weapon | `/spiritual-blindness-the-enemys-favourite-weapon/` | Spiritual Warfare | 2 Cor 4:4 | 997 | 49c / 152c | 20/20 ✔ | 2027-08-05 |
+| 278 | M10·D278 | Discerning the Times by the Spirit | `/discerning-the-times-by-the-spirit/` | Spiritual Warfare | Matt 16:3 | 996 | 34c / 141c | 20/20 ✔ | 2027-08-06 |
+| 279 | M10·D279 | The Enemy Studies You; Study the Word | `/the-enemy-studies-you-study-the-word/` | Spiritual Warfare | 2 Cor 2:11 | 981 | 37c / 153c | 20/20 ✔ | 2027-08-07 |
+| 280 | M10·D280 | Doors of Access: Close What You Open | `/doors-of-access-close-what-you-open/` | Spiritual Warfare | Eph 4:27 | 985 | 36c / 146c | 20/20 ✔ | 2027-08-08 |
+| 281 | M10·D281 | The Battle Is in the Mind First | `/the-battle-is-in-the-mind-first/` | Spiritual Warfare | 2 Cor 10:3 | 950 | 31c / 149c | 20/20 ✔ | 2027-08-09 |
+| 282 | M10·D282 | Covenant Covering: What Darkness Cannot Cancel | `/covenant-covering-what-darkness-cannot-cancel/` | Spiritual Warfare | Exod 12:13 | 928 | 46c / 145c | 20/20 ✔ | 2027-08-10 |
+| 283 | M10·D283 | Strongholds Are Thought-Structures | `/strongholds-are-thought-structures/` | Spiritual Warfare | 2 Cor 10:5 | 931 | 34c / 143c | 20/20 ✔ | 2027-08-11 |
 
 ---
 
