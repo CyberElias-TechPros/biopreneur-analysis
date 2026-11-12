@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–176 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–177 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -219,6 +219,7 @@
 | 174 | M6·D174 | Answers Delayed Are Not Answers Denied | `/answers-delayed-are-not-answers-denied/` | Prayer & Fasting | Hab 2:3 | 1,476 | 38c / 148c | 20/20 ✔ | 2027-04-24 |
 | 175 | M6·D175 | The Thorn, the Grace, and Persistent Strength | `/the-thorn-the-grace-and-persistent-strength/` | Prayer & Fasting | 2 Cor 12:9 | 1,452 | 45c / 147c | 20/20 ✔ | 2027-04-25 |
 | 176 | M6·D176 | The Spirit Prays When Words Run Out | `/the-spirit-prays-when-words-run-out/` | Prayer & Fasting | Rom 8:26 | 1,449 | 36c / 145c | 20/20 ✔ | 2027-04-26 |
+| 177 | M6·D177 | Family Altars and Generational Coverings | `/family-altars-and-generational-coverings/` | Prayer & Fasting | Josh 24:15 | 1,449 | 40c / 146c | 20/20 ✔ | 2027-04-27 |
 
 ---
 
