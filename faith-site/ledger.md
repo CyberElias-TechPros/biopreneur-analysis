@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–251 Live — Month 9 In Progress)
+## 2. Published Articles Ledger (Days 001–260 Live — Month 9 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -294,6 +294,15 @@
 | 249 | M9·D249 | Stand in the Liberty — Do Not Re-Enslave Yourself | `/stand-in-the-liberty-do-not-re-enslave-yourself/` | Righteousness & Grace | Gal 5:1 | 1,204 | 36c / 141c | 20/20 ✔ | 2027-07-08 |
 | 250 | M9·D250 | The Gift of Righteousness Reigns | `/the-gift-of-righteousness-reigns/` | Righteousness & Grace | Rom 5:17 | 1,166 | 32c / 144c | 20/20 ✔ | 2027-07-09 |
 | 251 | M9·D251 | Condemnation Speaks; Righteousness Answers | `/condemnation-speaks-righteousness-answers/` | Righteousness & Grace | Rev 12:10 | 1,144 | 42c / 144c | 20/20 ✔ | 2027-07-10 |
+| 252 | M9·D252 | Freedom From the Performance Trap | `/freedom-from-the-performance-trap/` | Righteousness & Grace | Eph 1:6 | 1,020 | 33c / 152c | 20/20 ✔ | 2027-07-11 |
+| 253 | M9·D253 | Your Righteousness Is His Faithfulness | `/your-righteousness-is-his-faithfulness/` | Righteousness & Grace | 1 Cor 1:9 | 995 | 38c / 140c | 20/20 ✔ | 2027-07-12 |
+| 254 | M9·D254 | The Accuser Has No Standing in Court | `/the-accuser-has-no-standing-in-court/` | Righteousness & Grace | Zech 3:1 | 1,020 | 36c / 150c | 20/20 ✔ | 2027-07-13 |
+| 255 | M9·D255 | Grace Teaches; It Never Spoils | `/grace-teaches-it-never-spoils/` | Righteousness & Grace | Titus 2:11 | 1,034 | 30c / 153c | 20/20 ✔ | 2027-07-14 |
+| 256 | M9·D256 | Walking Worthy Is Walking Aware | `/walking-worthy-is-walking-aware/` | Righteousness & Grace | Eph 4:1 | 1,028 | 31c / 141c | 20/20 ✔ | 2027-07-15 |
+| 257 | M9·D257 | The Fear of Falling vs the Rest of Faith | `/the-fear-of-falling-vs-the-rest-of-faith/` | Righteousness & Grace | Jude 24 | 959 | 40c / 141c | 20/20 ✔ | 2027-07-16 |
+| 258 | M9·D258 | Holiness Is Harvested From Identity | `/holiness-is-harvested-from-identity/` | Righteousness & Grace | 1 Pet 1:15 | 1,009 | 35c / 149c | 20/20 ✔ | 2027-07-17 |
+| 259 | M9·D259 | The Blood Speaks Better Things | `/the-blood-speaks-better-things/` | Righteousness & Grace | Heb 12:24 | 1,021 | 30c / 140c | 20/20 ✔ | 2027-07-18 |
+| 260 | M9·D260 | Cleansed Once, Cleansed Continuously | `/cleansed-once-cleansed-continuously/` | Righteousness & Grace | 1 John 1:7 | 983 | 36c / 143c | 20/20 ✔ | 2027-07-19 |
 
 ---
 
