@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–140 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–141 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -183,6 +183,7 @@
 | 138 | M5·D138 | Doers, Not Hearers Only: The Architecture of Obedience | `/doers-not-hearers-only/` | The Word | Matt 7:24 | 1,070 | 54c / 145c | 20/20 ✔ | 2027-03-19 |
 | 139 | M5·D139 | The Word as Medicine: Take It Daily | `/the-word-as-medicine-take-it-daily/` | The Word | Prov 4:20–22 | 1,224 | 35c / 150c | 20/20 ✔ | 2027-03-20 |
 | 140 | M5·D140 | What You Feed Grows; What You Starve Dies | `/what-you-feed-grows-what-you-starve-dies/` | The Word | Gal 5:17 | 1,177 | 41c / 153c | 20/20 ✔ | 2027-03-21 |
+| 141 | M5·D141 | Hidden Word, Hidden Victory: Treasuring Psalm 119:11 | `/hidden-word-hidden-victory/` | The Word | Ps 119:11 | 1,085 | 52c / 148c | 20/20 ✔ | 2027-03-22 |
 
 ---
 
