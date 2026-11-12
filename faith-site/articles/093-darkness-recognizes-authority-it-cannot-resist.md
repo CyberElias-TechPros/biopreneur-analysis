@@ -143,25 +143,27 @@ Accurate theology, spoken in terror, by an unclean spirit. It is a sobering remi
 - **Category:** Authority of the Believer · **Tags:** the Authority of the Believer · Spiritual Warfare · the Name of Jesus
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Luke 4:36 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 7 — Luke 4:34, Acts 16:18, Acts 19:15, Mark 1:25, James 4:7, Luke 4:32, Acts 19:11 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 9 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — knowing vs obeying · citation vs authority · loud vs authoritative · imitation vs delegation |
-| 6 | Rhetorical questions | 2 | ✔ 2 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 5 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ A trained dog obeying the voice it knows |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — Greek word study, narrative, contrast, cumulative build, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, development, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 5 applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 51 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 45 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Authority of the Believer, Spiritual Warfare, the Name of Jesus |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 40c · Meta 147c |
-| 17 | Words | ≥900 (Standard) | ✔ ~920 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 41c · Meta 154c|
+| 17 | Words | ≥900 (Standard) | ✔ 941 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 5 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 8 anchors |

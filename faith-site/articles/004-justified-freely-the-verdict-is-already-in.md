@@ -113,25 +113,27 @@ Consider the difference between a prisoner released on parole and a citizen hand
 - **Category:** Righteousness & Grace · **Tags:** Justification · Legal Position · the Blood of Jesus
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Romans 3:24 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — Rom 3:25–26, John 15:25, Rom 5:1, Rom 8:33–34, Col 2:13–14, Rom 5:2 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 8 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 3 — acquittal vs parole/probation · legal position vs emotional weather · bribing the Judge vs serving from gratitude |
-| 6 | Rhetorical questions | 2 | ✔ 3 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 6 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Parolee vs supreme-court exonerated citizen |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, cumulative build, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, word study, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 58 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 58 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Practical restitution & honest reconciliation included |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — Justification, Legal Position, the Blood of Jesus |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 58c · Meta 155c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,260 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 57c · Meta 154c|
+| 17 | Words | ≥900 (Standard) | ✔ 1,013 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 12 anchors |

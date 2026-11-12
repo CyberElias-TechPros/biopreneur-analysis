@@ -133,25 +133,27 @@ Three witnesses, one practice: fruit in old age, continuous filling, and renewed
 - **Category:** The Holy Spirit · **Tags:** the Anointing · Communion With the Holy Spirit · the Life of the Spirit
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Psalm 92:10 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — 2 Cor 4:16, Lam 3:22–23, Isa 40:31, Eph 5:18, Ps 92:14, Ps 92:2 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 7 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — seasonal vs daily · crisis intervention vs habit · depleted deposit vs maintained supply · mountaintop vs ordinary week |
-| 6 | Rhetorical questions | 2 | ✔ 2 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 2 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Lamp refilled from supply rather than failing for lack of oil |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, cumulative build, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, development, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 50 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 48 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Anointing, Communion With the Holy Spirit, the Life of the Spirit |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 41c · Meta 150c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,050 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 42c · Meta 144c|
+| 17 | Words | ≥900 (Standard) | ✔ 991 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 3 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 10 anchors |

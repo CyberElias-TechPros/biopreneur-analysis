@@ -139,25 +139,27 @@ Three witnesses, one altar: bodies offered, praise continual, and hearts singing
 - **Category:** The Holy Spirit · **Tags:** the Presence of God · Communion With the Holy Spirit · the Word of God
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ John 4:24 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — John 4:21, Ps 51:17, Rom 12:1, Heb 13:15, Eph 5:19, Eph 5:20 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 8 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — sacred place vs indwelling presence · spirit without truth vs truth without spirit · performer vs true worshipper · event vs lifestyle |
-| 6 | Rhetorical questions | 2 | ✔ 2 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 2 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Conversation with a close friend that needs no particular café |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, cumulative build, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, development, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 49 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 43 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Presence of God, Communion With the Holy Spirit, the Word of God |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 44c · Meta 150c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,060 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 42c · Meta 148c|
+| 17 | Words | ≥900 (Standard) | ✔ 1,001 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 3 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 10 anchors |

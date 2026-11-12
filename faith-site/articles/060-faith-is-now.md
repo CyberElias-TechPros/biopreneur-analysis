@@ -133,25 +133,27 @@ Three witnesses, one tense: knowing we have, asking without wavering, and agreei
 - **Category:** Faith · **Tags:** the Life of Faith · Confession of the Word · the Name of Jesus
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Mark 11:24 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — 1 John 5:14–15, James 1:6, 2 Cor 1:20, Heb 11:1, Mark 11:23, 1 John 5:15 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 7 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — present tense vs future tense · reception vs repetition · feelings vs decision · faith vs presumption |
-| 6 | Rhetorical questions | 2 | ✔ 2 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 2 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Signing a contract then expecting delivery |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, cumulative build, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, development, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 55 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 53 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, Confession of the Word, the Name of Jesus |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 36c · Meta 150c |
-| 17 | Words | ≥900 (Standard) | ✔ ~960 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 35c · Meta 144c|
+| 17 | Words | ≥900 (Standard) | ✔ 1,006 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 3 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 9 anchors |

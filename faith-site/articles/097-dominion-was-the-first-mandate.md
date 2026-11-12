@@ -148,25 +148,27 @@ That means the fall did not remove the mandate; it corrupted the exercise of it.
 - **Category:** Authority of the Believer · **Tags:** the Authority of the Believer · the New Creation · the Kingdom of God
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Genesis 1:26 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — Gen 1:29, Ps 8:5, Heb 2:8–9, Eph 2:6, Prov 16:32, Gen 9:1 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 8 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — commission vs warning · ruling vs exploiting · image defaced vs removed · abdication vs domination |
-| 6 | Rhetorical questions | 2 | ✔ 2 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 2 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ A steward given a great house before a day's work |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, cumulative build, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, development, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 5 applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 44 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 43 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Authority of the Believer, the New Creation, the Kingdom of God |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 41c · Meta 148c |
-| 17 | Words | ≥900 (Standard) | ✔ ~900 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 45c · Meta 148c|
+| 17 | Words | ≥900 (Standard) | ✔ 982 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 6 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 13 anchors |

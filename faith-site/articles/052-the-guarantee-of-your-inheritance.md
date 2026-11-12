@@ -133,25 +133,27 @@ Three witnesses, one guarantee: sealed hearts, given earnest, reserved inheritan
 - **Category:** The Holy Spirit · **Tags:** the Inheritance of the Believer · Sonship · the Blessed Hope
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Ephesians 1:14 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — Eph 1:13, 2 Cor 1:22, 2 Cor 5:5, 1 Pet 1:4, Rom 8:23, Eph 1:11 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — promise vs pledge · anxious vs confident · firstfruits vs harvest · hoping to be bought vs waiting to be delivered |
-| 6 | Rhetorical questions | 2 | ✔ 2 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 4 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Farmer given firstfruits as proof of the coming harvest |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, cumulative build, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, development, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 52 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 49 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 4) |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Inheritance of the Believer, Sonship, the Blessed Hope |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 48c · Meta 150c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,060 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 50c · Meta 145c|
+| 17 | Words | ≥900 (Standard) | ✔ 1,038 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 3 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 8 anchors |

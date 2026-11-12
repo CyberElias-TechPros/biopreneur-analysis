@@ -143,25 +143,27 @@ That is the divine irony at the centre of the gospel, and it means the believer'
 - **Category:** Authority of the Believer · **Tags:** the Authority of the Believer · Spiritual Warfare · the Finished Work
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Colossians 2:15 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — Col 2:14, Heb 2:14, James 4:7, Eph 6:13, 1 Cor 15:57, Eph 6:17 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 9 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — conquest vs occupation · desperation vs authority · fighting for vs fighting from · arsenal vs sword |
-| 6 | Rhetorical questions | 2 | ✔ 2 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 2 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ A Roman triumph and the signed surrender |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — historical illustration, Greek word study, contrast, cumulative build, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, development, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 5 applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 44 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 41 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Authority of the Believer, Spiritual Warfare, the Finished Work |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 35c · Meta 151c |
-| 17 | Words | ≥900 (Standard) | ✔ ~910 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 34c · Meta 151c|
+| 17 | Words | ≥900 (Standard) | ✔ 917 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 5 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 4 anchors |

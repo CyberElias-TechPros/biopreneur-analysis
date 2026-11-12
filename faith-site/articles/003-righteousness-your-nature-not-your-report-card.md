@@ -115,25 +115,27 @@ And look at the qualifier Paul adds: you were made the righteousness **of God** 
 - **Category:** Righteousness & Grace · **Tags:** Righteousness · the Consciousness of Righteousness · the Finished Work
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ 2 Corinthians 5:21 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 5 — Rom 5:17, Phil 3:9, Eph 4:24, Heb 4:16, Heb 10:19–22 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 8 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — report card vs DNA constitution · gift vs wage · sin-consciousness vs righteousness-consciousness · standing vs state |
-| 6 | Rhetorical questions | 2 | ✔ 4 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 4 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ School report card vs birth/DNA record |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 7 — all seven deployed; contrast title visible throughout |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, symmetry section, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 61 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 63 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Practical integrity & Honesty-law synthesis included |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — Righteousness, the Consciousness of Righteousness, the Finished Work |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 58c · Meta 152c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,270 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 58c · Meta 151c|
+| 17 | Words | ≥900 (Standard) | ✔ 1,025 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 10 anchors |

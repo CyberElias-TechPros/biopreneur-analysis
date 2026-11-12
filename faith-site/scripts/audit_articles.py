@@ -244,7 +244,13 @@ def main():
                 if term.strip().lower() not in glossary_terms:
                     errors.append(f"glossaryTerm '{term}' is not in glossary.md")
 
-        status = "PASS (18/18)" if not errors else "FAIL: " + "; ".join(errors)
+        # The self-audit table must tell the truth about the file it sits in.
+        for row, actual in (("17", prose_words), ("16", seo_len), ("12", decl_words), ("6", q_count)):
+            m_row = re.search(rf"^\| {row} \|[^\n]*?✔ ([\d,]+)", raw, flags=re.M)
+            if m_row and int(m_row.group(1).replace(",", "")) != actual:
+                errors.append(f"self-audit row {row} claims {m_row.group(1)}, actual {actual}")
+
+        status = "PASS (20/20)" if not errors else "FAIL: " + "; ".join(errors)
         if errors:
             failures += 1
         print(
@@ -255,7 +261,7 @@ def main():
     if failures:
         print(f"\nFAILED: {failures} article(s) had audit errors.")
         sys.exit(1)
-    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, prose-length, structure, voice, link-integrity, glossary, category, and compliance check.")
+    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, prose-length, structure, voice, self-audit-integrity, link-integrity, glossary, category, and compliance check.")
 
 
 if __name__ == "__main__":
