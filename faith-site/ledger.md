@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–107 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–108 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -150,6 +150,7 @@
 | 105 | M4·D105 | Christ in You: The Hope of Glory, the Power of Now | `/christ-in-you-hope-of-glory-power-of-now/` | Authority of the Believer | Col 1:27 | 1,243 | 42c / 149c | 20/20 ✔ | 2027-02-14 |
 | 106 | M4·D106 | Under His Feet, Above Your Problems | `/under-his-feet-above-your-problems/` | Authority of the Believer | Eph 1:22 | 1,272 | 35c / 146c | 20/20 ✔ | 2027-02-15 |
 | 107 | M4·D107 | The Armour Is for Standing | `/the-armour-is-for-standing/` | Authority of the Believer | Eph 6:13 | 1,396 | 26c / 150c | 20/20 ✔ | 2027-02-16 |
+| 108 | M4·D108 | Casting Down Imaginations: Authority at Thought Level | `/casting-down-imaginations-authority-at-thought-level/` | Authority of the Believer | 2 Cor 10:5 | 1,390 | 39c / 151c | 20/20 ✔ | 2027-02-17 |
 
 ---
 
