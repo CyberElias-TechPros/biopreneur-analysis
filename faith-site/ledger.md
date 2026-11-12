@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–156 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–157 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -199,6 +199,7 @@
 | 154 | M6·D154 | Praying With Understanding, Praying in the Spirit | `/praying-with-understanding-praying-in-the-spirit/` | Prayer & Fasting | 1 Cor 14:15 | 1,108 | 49c / 145c | 20/20 ✔ | 2027-04-04 |
 | 155 | M6·D155 | The Prayer of Petition: Ask With Precision | `/the-prayer-of-petition-ask-with-precision/` | Prayer & Fasting | Matt 7:7–8 | 1,125 | 42c / 151c | 20/20 ✔ | 2027-04-05 |
 | 156 | M6·D156 | The Prayer of Consecration: Not My Will | `/the-prayer-of-consecration-not-my-will/` | Prayer & Fasting | Luke 22:42 | 1,044 | 39c / 147c | 20/20 ✔ | 2027-04-06 |
+| 157 | M6·D157 | The Prayer of Intercession: Standing in the Gap | `/the-prayer-of-intercession-standing-in-the-gap/` | Prayer & Fasting | Ezek 22:30 | 1,148 | 47c / 143c | 20/20 ✔ | 2027-04-07 |
 
 ---
 
