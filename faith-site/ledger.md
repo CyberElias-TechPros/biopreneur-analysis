@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–162 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–163 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -205,6 +205,7 @@
 | 160 | M6·D160 | Your Prayer Life Reveals Your Trust Level | `/your-prayer-life-reveals-your-trust-level/` | Prayer & Fasting | Phil 4:6 | 1,049 | 41c / 140c | 20/20 ✔ | 2027-04-10 |
 | 161 | M6·D161 | The Altar Is Personal Before It Is Public | `/the-altar-is-personal-before-it-is-public/` | Prayer & Fasting | Matt 6:6 | 1,034 | 41c / 141c | 20/20 ✔ | 2027-04-11 |
 | 162 | M6·D162 | Thanksgiving Completes the Circuit | `/thanksgiving-completes-the-circuit/` | Prayer & Fasting | Col 4:2 | 923 | 34c / 151c | 20/20 ✔ | 2027-04-12 |
+| 163 | M6·D163 | Pray Without Ceasing: An Attitude, Not a Marathon | `/pray-without-ceasing-an-attitude-not-a-marathon/` | Prayer & Fasting | 1 Thess 5:16–18 | 993 | 49c / 140c | 20/20 ✔ | 2027-04-13 |
 
 ---
 
