@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–359 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–360 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -402,6 +402,7 @@
 | 357 | M12·D357 | The Word Made Flesh Heals Your Flesh | `/the-word-made-flesh-heals-your-flesh/` | Redemption & His Return | John 1:14 (sarx) | 916 | 36c / 144c | 20/20 ✔ | 2027-10-24 |
 | 358 | M12·D358 | He Was Poor That You Might Be Rich | `/he-was-poor-that-you-might-be-rich/` | Redemption & His Return | 2 Cor 8:9 | 929 | 34c / 146c | 20/20 ✔ | 2027-10-25 |
 | 359 | M12·D359 | Wrapped in Swaddling Cloths, Wrapped in Prophecy | `/wrapped-in-swaddling-cloths-wrapped-in-prophecy/` | Redemption & His Return | Luke 2:12 | 907 | 48c / 151c | 20/20 ✔ | 2027-10-26 |
+| 360 | M12·D360 | The Glory of the Only Begotten | `/the-glory-of-the-only-begotten/` | Redemption & His Return | John 1:14 (doxa) | 927 | 30c / 150c | 20/20 ✔ | 2027-10-27 |
 
 ---
 
