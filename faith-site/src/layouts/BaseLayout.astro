@@ -17,6 +17,9 @@ interface Props {
   preloadHero?: boolean;
   showReadingProgress?: boolean;
   jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+  noindex?: boolean;
+  articleSection?: string;
+  articleTags?: string[];
 }
 
 const {
@@ -29,26 +32,81 @@ const {
   preloadHero = false,
   showReadingProgress = false,
   jsonLd,
+  noindex = false,
+  articleSection,
+  articleTags,
 } = Astro.props;
 
 const siteUrl = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${siteUrl}/#organization`,
+  name: SITE.name,
+  alternateName: SITE.shortName,
+  url: `${siteUrl}/`,
+  description: SITE.description,
+  email: SITE.email,
+  foundingDate: String(SITE.foundedYear),
+  logo: {
+    '@type': 'ImageObject',
+    '@id': `${siteUrl}/#logo`,
+    url: `${siteUrl}/favicon.svg`,
+    caption: SITE.name,
+  },
+  image: `${siteUrl}/images/og-default.png`,
+  founder: {
+    '@type': 'Person',
+    name: SITE.teacher.name,
+    jobTitle: SITE.teacher.role,
+    url: `${siteUrl}/about/`,
+  },
+  knowsAbout: [
+    'Christian theology',
+    'New Testament exegesis',
+    'New creation identity in Christ',
+    'Righteousness by faith',
+    'Divine healing',
+    'Prayer and fasting',
+    'Biblical stewardship',
+  ],
+  publishingPrinciples: `${siteUrl}/doctrinal-basis/`,
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'editorial',
+    email: SITE.email,
+    url: `${siteUrl}/contact/`,
+    availableLanguage: ['en'],
+  },
+};
+
 const defaultWebSiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
+  '@id': `${siteUrl}/#website`,
   name: SITE.name,
+  alternateName: SITE.shortName,
   url: `${siteUrl}/`,
   description: SITE.description,
   inLanguage: SITE.language,
-  publisher: {
-    '@type': 'Organization',
-    name: SITE.name,
-    url: `${siteUrl}/`,
-    logo: {
-      '@type': 'ImageObject',
-      url: `${siteUrl}/favicon.svg`,
+  publisher: { '@id': `${siteUrl}/#organization` },
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: `${siteUrl}/teachings/?q={search_term_string}`,
     },
+    'query-input': 'required name=search_term_string',
   },
 };
+
+// Every page carries the Organization + WebSite identity graph plus any
+// page-specific nodes, so crawlers never see a page without a publisher.
+const pageSchema = jsonLd
+  ? Array.isArray(jsonLd)
+    ? [...jsonLd, organizationSchema, defaultWebSiteSchema]
+    : [jsonLd, organizationSchema, defaultWebSiteSchema]
+  : [organizationSchema, defaultWebSiteSchema];
 ---
 
 <!doctype html>
@@ -62,8 +120,11 @@ const defaultWebSiteSchema = {
       publishedTime={publishedTime}
       modifiedTime={modifiedTime}
       preloadHero={preloadHero}
+      noindex={noindex}
+      articleSection={articleSection}
+      articleTags={articleTags}
     />
-    <JsonLd data={jsonLd || defaultWebSiteSchema} />
+    <JsonLd data={pageSchema} />
   </head>
   <body>
     <a class="skip-link" href="#main-content">Skip to teaching content</a>

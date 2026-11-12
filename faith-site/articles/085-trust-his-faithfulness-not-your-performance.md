@@ -57,7 +57,7 @@ Jeremiah wrote these lines while sitting in the rubble of a burned city. Lamenta
 
 "They are new every morning: great is thy faithfulness" (Lamentations 3:23). Here is the central truth of this teaching: **your confidence was never meant to rest on how well you are doing but on how unchangeably faithful He is — and that is what makes sustained obedience possible.**
 
-### The Basis Jeremiah Names
+## The Basis Jeremiah Names
 
 Notice the reason given for hope: "It is of the LORD's mercies that we are not consumed" (Lamentations 3:22). Not Israel's improvement. Not the nation's repentance. The mercy of God and the fact that His compassions fail not.
 
@@ -69,7 +69,7 @@ The setting of the verse matters more than most readers realise. Jeremiah is not
 
 That is a faithfulness you cannot earn and cannot lose. It was true on the worst day in Jerusalem's history.
 
-## The Performance Trap
+### The Performance Trap
 
 Performance-driven faith has a predictable signature. It is confident when the quiet time happened and anxious when it did not. It reads a good day as evidence of acceptance and a bad day as evidence of abandonment.
 

@@ -57,7 +57,7 @@ In the synagogue at Capernaum, a man with an unclean spirit disrupted the servic
 
 "And they were all amazed... saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out" (Luke 4:36). Here is the central truth of this teaching: **the spirit realm does not respond to sincerity, volume, or seniority — it responds to genuine authority, and it can tell the difference immediately.**
 
-### It Knew Before the Crowd Did
+## It Knew Before the Crowd Did
 
 The congregation was still deciding who Jesus was. The demon already knew. Darkness is not ignorant of Christ; it is in rebellion against Him, which requires knowing exactly whom it is defying.
 
@@ -65,7 +65,7 @@ The congregation was still deciding who Jesus was. The demon already knew. Darkn
 
 Think of a trained dog and a stranger's shout. The dog does not obey the loudest voice; it obeys the voice it knows. Recognition precedes obedience.
 
-## "What a Word Is This"
+### "What a Word Is This"
 
 The crowd's amazement was not at the volume. It was at the category. Their scribes taught by citation — "Rabbi so-and-so said" — while Jesus spoke as the source. The Greek word for authority is *exousia*, the right to act.
 

@@ -2,12 +2,38 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LightLine from '../components/LightLine.astro';
 import { SITE } from '../data/site';
+
+const pvOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const pvUrl = `${pvOrigin}/privacy/`;
+const privacySchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pvUrl}#privacy`,
+    name: `Privacy Policy — ${SITE.name}`,
+    description: `Privacy Policy for ${SITE.name}.`,
+    url: pvUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${pvOrigin}/#website` },
+    dateModified: new Date().toISOString().slice(0, 10),
+    publisher: { '@id': `${pvOrigin}/#organization` },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${pvOrigin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Privacy Policy', item: pvUrl },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`Privacy Policy — ${SITE.name}`}
-  description="Read the comprehensive Privacy Policy of In Jesus Name covering cookies, Google AdSense advertising disclosures, GDPR, CCPA/CPRA, NDPA, and reader privacy rights."
+  description="Read the Privacy Policy of In Jesus Name: cookies, Google AdSense advertising disclosures, GDPR, CCPA/CPRA, NDPA, and your reader privacy rights."
   canonicalPath="/privacy/"
+  jsonLd={privacySchema}
 >
   <section class="page-header">
     <div class="reading-container">

@@ -10,6 +10,11 @@ const processor = unified()
   .use(remarkRehype)
   .use(rehypeStringify);
 
+/** Render a Markdown string to HTML with the site's own processing pipeline. */
+export async function renderMarkdown(md: string): Promise<string> {
+  return String(await processor.process(md));
+}
+
 export async function renderArticleProse(rawBody: string): Promise<{
   part1Html: string;
   part2Html: string;

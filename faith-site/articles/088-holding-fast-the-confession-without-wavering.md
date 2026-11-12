@@ -57,7 +57,7 @@ Hebrews was written to people who had started well and were in danger of driftin
 
 "Let us hold fast the profession of our faith without wavering; (for he is faithful that promised;)" (Hebrews 10:23). Here is the central truth of this teaching: **confession is a thing you hold rather than a thing you say once — and it can be held steadily because the faithfulness behind it is not yours.**
 
-### Why a Confession Needs Holding
+## Why a Confession Needs Holding
 
 You do not "hold fast" something that is weightless. The word picture is of a hand gripping under strain — the way a man holds a rope in a storm.
 
@@ -67,7 +67,7 @@ The pressure is real. Circumstances speak, bodies weaken, and friends grow tired
 
 The word translated "profession" is the same *homologia* Paul uses — saying the same thing. Hebrews is not asking for a slogan; it is asking for sustained agreement with the truth you already affirmed. In the first century that agreement could cost a man his property, which is why the writer has just reminded them of the plunder they had already endured joyfully (Hebrews 10:34).
 
-## The Parenthesis That Changes Everything
+### The Parenthesis That Changes Everything
 
 Most of the weight of this verse sits in the brackets: "for he is faithful that promised." The writer does not say hold fast because your grip is strong. He says hold fast because His character is reliable.
 

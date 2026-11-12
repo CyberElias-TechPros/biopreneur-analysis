@@ -6,12 +6,52 @@ import { getGlossaryTerms } from '../data/glossary';
 
 const terms = getGlossaryTerms();
 const groups = Array.from(new Set(terms.map((t) => t.group)));
+const glossaryOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const glossaryUrl = `${glossaryOrigin}/glossary/`;
+
+function termAnchor(term: string) {
+  return term
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '');
+}
+
+const glossarySchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    '@id': `${glossaryUrl}#glossary`,
+    name: `${SITE.name} Doctrinal Glossary`,
+    description:
+      'Scripture-grounded definitions and guardrails for the core doctrinal terms used across In Jesus Name.',
+    url: glossaryUrl,
+    inLanguage: SITE.language,
+    hasDefinedTerm: terms.map((item) => ({
+      '@type': 'DefinedTerm',
+      '@id': `${glossaryUrl}#${termAnchor(item.term)}`,
+      name: item.term,
+      description: item.definition,
+      termCode: String(item.number).padStart(2, '0'),
+      inDefinedTermSet: { '@id': `${glossaryUrl}#glossary` },
+      url: `${glossaryUrl}#${termAnchor(item.term)}`,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${glossaryOrigin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Glossary', item: glossaryUrl },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`Doctrinal Glossary (36 Core Terms) — ${SITE.name}`}
   description="Clear Scripture-grounded definitions and boundaries for 36 core Christian doctrinal terms used across In Jesus Name — from the New Birth to the Blessed Hope."
   canonicalPath="/glossary/"
+  jsonLd={glossarySchema}
 >
   <section class="page-header">
     <div class="reading-container">
@@ -39,11 +79,14 @@ const groups = Array.from(new Set(terms.map((t) => t.group)));
             .filter((t) => t.group === group)
             .map((item) => (
               <article
+                id={termAnchor(item.term)}
                 style="padding-block: 1.35rem; border-bottom: 1px solid var(--border-subtle);"
               >
                 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; margin-bottom: 0.4rem;">
                   <h3 style="margin: 0; font-size: 1.25rem;">
-                    {String(item.number).padStart(2, '0')}. {item.term}
+                    <a href={`#${termAnchor(item.term)}`} style="color: inherit; text-decoration: none;">
+                      {String(item.number).padStart(2, '0')}. {item.term}
+                    </a>
                   </h3>
                   <span class="meta-caps" style="color: var(--gold-text);">
                     {item.category}

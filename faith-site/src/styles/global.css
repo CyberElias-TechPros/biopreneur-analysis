@@ -1111,3 +1111,36 @@ html.js-ready [data-reveal].is-visible {
   min-height: 150px;
   resize: vertical;
 }
+
+
+/* ---------------------------------------------------------------- Article hero
+   One real photograph per teaching, above the fold, with reserved dimensions so
+   there is no layout shift (CLS 0) and the LCP image is fetched eagerly. */
+.article-hero {
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+
+.article-hero picture,
+.article-hero img {
+  display: block;
+  width: 100%;
+}
+
+.article-hero img {
+  height: auto;
+  aspect-ratio: 1200 / 654;
+  object-fit: cover;
+  border: 1px solid var(--border-subtle);
+  filter: saturate(0.96) contrast(1.02);
+}
+
+.article-hero figcaption {
+  margin-top: 0.6rem;
+  color: var(--gold-text);
+}
+
+/* Glossary term anchors land clearly below the sticky header. */
+[id] {
+  scroll-margin-top: 6.5rem;
+}

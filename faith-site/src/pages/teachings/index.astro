@@ -15,12 +15,49 @@ for (const entry of allArticles) {
   countsByCategory[entry.data.category] =
     (countsByCategory[entry.data.category] || 0) + 1;
 }
+
+const libOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const libUrl = `${libOrigin}/teachings/`;
+const teachingsSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${libUrl}#library`,
+    name: `Teachings Library — ${SITE.name}`,
+    description: SITE.mission,
+    url: libUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${libOrigin}/#website` },
+    mainEntity: {
+      '@type': 'ItemList',
+      '@id': `${libUrl}#teachings`,
+      name: 'Published Scripture-anchored teachings',
+      numberOfItems: allArticles.length,
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      itemListElement: allArticles.map((entry, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${libOrigin}/${entry.data.slug}/`,
+        name: entry.data.title,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${libOrigin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Teachings', item: libUrl },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`Teachings Library — ${SITE.name}`}
   description="Browse all Scripture-anchored Christian teachings at In Jesus Name by day, Scripture anchor, and doctrinal category across our 365-topic curriculum."
   canonicalPath="/teachings/"
+  jsonLd={teachingsSchema}
 >
   <section class="page-header">
     <div class="swiss-container">
@@ -162,6 +199,12 @@ for (const entry of allArticles) {
   <script is:inline>
     (function () {
       var input = document.getElementById('teaching-search');
+      // Honour ?q= so the WebSite SearchAction target resolves to real results.
+      try {
+        var params = new URLSearchParams(window.location.search);
+        var seed = params.get('q');
+        if (seed && input) input.value = seed;
+      } catch (e) {}
       var rows = document.querySelectorAll('#teachings-list .editorial-row');
       var filterBtns = document.querySelectorAll('[data-cat-filter]');
       var emptyMsg = document.getElementById('no-results-msg');

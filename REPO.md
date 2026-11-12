@@ -13,7 +13,8 @@ This repository holds two connected bodies of work:
 | `faith-site/glossary.md` | Site Glossary v1 — 36 core doctrinal terms, scripture anchors, and boundaries (`/glossary/`) |
 | `faith-site/ledger.md` | Used-title & publication ledger (30 excluded source titles + published article metrics) |
 | `faith-site/WIREFRAMES.md` | Low-fi structural wireframes & 12-column Swiss grid / 680px reading-column layouts |
-| `faith-site/scripts/audit_articles.py` | Automated 18-point SEO, length, voice, and originality QA verifier (`npm run audit`) |
+| `faith-site/scripts/audit_articles.py` | Automated 20-gate SEO, length, structure, voice, and originality verifier for source Markdown (`npm run audit`) |
+| `faith-site/scripts/seo_audit.py` | Post-build SEO verifier — 29 checks (A–H) run against the rendered `dist/` output (`npm run seo`) |
 | `FAITH_TEACHING_PROMPT.md` | *The Revelation Teacher's Desk* — master writing prompt governing *In Jesus Name* |
 | `TOPICS_365.md` | 365 teaching topics across 12 monthly arcs |
 | `DESIGN_SPEC.md` | *Reverent Editorial* v1.1 UI/UX, typography, color, motion, and performance spec |
@@ -31,6 +32,7 @@ npm install
 npm run audit   # Runs the 18-point compliance & SEO verifier across articles/*.md
 npm run dev     # Starts dev server on 0.0.0.0:4321
 npm run build   # Builds static production output into faith-site/dist/
+npm run seo     # Runs the 29-check post-build SEO verifier against dist/
 ```
 
 To preview the 3 reserved-height zero-CLS AdSense slots (`ca-pub-9124992249317290`) on any article before flipping `PUBLIC_ADSENSE_LIVE=true`, append `?ads=preview` to an article URL.

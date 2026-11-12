@@ -57,7 +57,7 @@ Before the ten commandments, before the tabernacle, before Abraham was called ou
 
 "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea" (Genesis 1:26). Here is the central truth of this teaching: **dominion is not a reward for spiritual maturity but a feature of the image — humanity was made to rule, and redemption restores what creation was designed for.**
 
-### A Mandate Before a Fall
+## A Mandate Before a Fall
 
 It is easy to read the Bible as a story of humanity losing ground, with a rescue appended at the end. But Genesis begins with a commission, not a warning. The very first thing God says about the creature He is about to make is that it will rule.
 
@@ -75,7 +75,7 @@ It is not a licence to dominate other people. Verses 26–28 give dominion over 
 
 It is also not automatic. Psalm 8 marvels that God crowned humanity "with glory and honour" (Psalm 8:5) and then asks, in effect, why He would bother.
 
-## The Fall's Damage
+### The Fall's Damage
 
 Sin did not remove the image; it defaced it. Human beings still rule — but now they rule badly, and they are ruled by what they were made to govern. Fear governs. Appetite governs. Circumstance governs.
 

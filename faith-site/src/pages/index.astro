@@ -22,6 +22,70 @@ for (const entry of allArticles) {
   countsByCategory[entry.data.category] =
     (countsByCategory[entry.data.category] || 0) + 1;
 }
+
+const recentArticles = [...allArticles].slice(-10).reverse();
+const homeOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const homeUrl = `${homeOrigin}/`;
+const homeSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    '@id': `${homeUrl}#blog`,
+    name: SITE.name,
+    description: SITE.mission,
+    url: homeUrl,
+    inLanguage: SITE.language,
+    publisher: { '@id': `${homeOrigin}/#organization` },
+    isPartOf: { '@id': `${homeOrigin}/#website` },
+    blogPost: recentArticles.map((entry) => {
+      const prose = (entry.body || '')
+        .split('<!-- AUDIT-BELOW -->')[0]
+        .split('<!-- END-PROSE -->')[0];
+      const words = prose
+        .replace(/[*_>#`|-]/g, ' ')
+        .split(/\s+/)
+        .filter((w) => /[A-Za-z0-9]/.test(w)).length + 180;
+      const postUrl = `${homeOrigin}/${entry.data.slug}/`;
+      return {
+        '@type': 'BlogPosting',
+        '@id': `${postUrl}#article`,
+        headline: entry.data.title,
+        description: entry.data.description,
+        url: postUrl,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+        datePublished: entry.data.pubDate,
+        dateModified: entry.data.updatedDate || entry.data.pubDate,
+        inLanguage: SITE.language,
+        wordCount: words,
+        articleSection: entry.data.category,
+        keywords: [entry.data.primaryKeyword, ...entry.data.secondaryKeywords].join(', '),
+        image: {
+          '@type': 'ImageObject',
+          url: `${homeOrigin}/images/open-scripture.jpg`,
+          width: 1200,
+          height: 654,
+          caption: entry.data.featuredImageAlt,
+        },
+        author: { '@id': `${homeOrigin}/about/#ellis-graham` },
+        publisher: { '@id': `${homeOrigin}/#organization` },
+        isPartOf: { '@id': `${homeOrigin}/#website` },
+      };
+    }),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': `${homeUrl}#courses`,
+    name: 'Twelve-month doctrinal curriculum',
+    numberOfItems: slate.length,
+    itemListElement: slate.map((month, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `Month ${String(month.monthNumber).padStart(2, '0')}: ${month.monthName}`,
+      description: month.subtitle,
+    })),
+  },
+];
 ---
 
 <BaseLayout
@@ -29,6 +93,7 @@ for (const entry of allArticles) {
   description="In Jesus Name publishes Scripture-saturated Christian teachings unveiling your new-creation identity in Christ, right standing by grace, and wise daily living."
   canonicalPath="/"
   preloadHero={true}
+  jsonLd={homeSchema}
 >
   <!-- Full-Bleed Dawn Hero (DESIGN_SPEC §2 & §3) -->
   <section class="dawn-hero">

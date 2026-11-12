@@ -2,12 +2,45 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LightLine from '../components/LightLine.astro';
 import { SITE } from '../data/site';
+
+const aboutOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const aboutUrl = `${aboutOrigin}/about/`;
+const aboutSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    '@id': `${aboutUrl}#about`,
+    name: `About ${SITE.name}`,
+    description: SITE.mission,
+    url: aboutUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${aboutOrigin}/#website` },
+    mainEntity: {
+      '@type': 'Person',
+      '@id': `${aboutOrigin}/about/#ellis-graham`,
+      name: SITE.teacher.name,
+      jobTitle: SITE.teacher.role,
+      description: SITE.teacher.shortBio,
+      url: aboutUrl,
+      worksFor: { '@id': `${aboutOrigin}/#organization` },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${aboutOrigin}/` },
+      { '@type': 'ListItem', position: 2, name: 'About', item: aboutUrl },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`About ${SITE.name} — Editorial Mission & Bible Teaching`}
   description="Learn why In Jesus Name exists, who writes and edits our Scripture-anchored Christian teachings, and how every article moves from exegesis to weekday living."
   canonicalPath="/about/"
+  jsonLd={aboutSchema}
 >
   <section class="page-header">
     <div class="reading-container">

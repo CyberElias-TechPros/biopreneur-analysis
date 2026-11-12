@@ -59,7 +59,7 @@ Paul borrows that image: "And having spoiled principalities and powers, he made 
 
 The letter to the Colossians was written against a teaching that made Christ insufficient — that added angelic intermediaries, ascetic rules, and mystical experiences to the gospel. Paul's answer is not a new technique but a completed fact. If the powers have been publicly disarmed, then any system that treats them as still in charge is not deeper spirituality; it is out-of-date information.
 
-### What Was Spoiled
+## What Was Spoiled
 
 The word means to strip, to disarm, to despoil. Christ did not merely defeat the powers; He took from them what they used to hold people — the record of debt, the accusation, the legal claim.
 
@@ -69,7 +69,7 @@ The preceding verse explains: "Blotting out the handwriting of ordinances that w
 
 Think of a war that ended with a signed surrender. There may still be skirmishes, but nobody in the field is deciding the outcome.
 
-## Why the Tense Matters
+### Why the Tense Matters
 
 Every verb in Colossians 2:15 is past tense. Spoiled. Made a show. Triumphed. Paul is not describing something that will happen if believers pray hard enough; he is reporting something that happened at the cross and was announced at the resurrection.
 

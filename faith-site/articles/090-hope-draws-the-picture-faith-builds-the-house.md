@@ -114,7 +114,7 @@ If hope has dimmed, the remedy is not to try harder to feel optimistic. It is to
 
 **5. Faith and wisdom use a plan.** Hope draws, faith builds, and wisdom draws the schedule — the wise builder sits down first and counts the cost (Luke 14:28).
 
-#### Month Three in Review
+### Month Three in Review
 
 This month we have walked through faith as the attitude and action of trust: faith present tense, faith speaking, faith refusing to consider circumstances, faith growing by use, faith recognising authority, faith bridging the gap. Every one of those teachings rests on the same foundation — God has spoken, and what He said is more solid than what you can see.
 
