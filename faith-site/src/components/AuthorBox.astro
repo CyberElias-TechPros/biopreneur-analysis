@@ -4,9 +4,11 @@ import { SITE } from '../data/site';
 
 <aside class="author-box" aria-label="About the Teacher">
   <picture class="author-avatar">
-    <source type="image/webp" srcset={SITE.teacher.image.replace('.jpg', '.webp')} />
+    <source type="image/webp" srcset="/images/author-ellis-graham-160.webp" />
     <img
-      src={SITE.teacher.image}
+      src="/images/author-ellis-graham-160.jpg"
+      srcset="/images/author-ellis-graham-160.jpg 160w, /images/author-ellis-graham-400.jpg 400w"
+      sizes="72px"
       alt={SITE.teacher.imageAlt}
       width="72"
       height="72"
