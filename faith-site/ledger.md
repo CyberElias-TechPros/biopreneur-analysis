@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–349 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–350 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -392,6 +392,7 @@
 | 347 | M12·D347 | The Name Above Every Name You Fear | `/the-name-above-every-name-you-fear/` | Redemption & His Return | Phil 2:9 | 1,009 | 34c / 146c | 20/20 ✔ | 2027-10-14 |
 | 348 | M12·D348 | Grace Came Down; Glory Goes Up | `/grace-came-down-glory-goes-up/` | Redemption & His Return | 2 Cor 4:15 | 936 | 30c / 149c | 20/20 ✔ | 2027-10-15 |
 | 349 | M12·D349 | The First Christmas Sermon Was Sung | `/the-first-christmas-sermon-was-sung/` | Redemption & His Return | Luke 2:14 | 901 | 35c / 147c | 20/20 ✔ | 2027-10-16 |
+| 350 | M12·D350 | God's Speech Became a Person | `/gods-speech-became-a-person/` | Redemption & His Return | Heb 1:1–2 | 933 | 28c / 140c | 20/20 ✔ | 2027-10-17 |
 
 ---
 
