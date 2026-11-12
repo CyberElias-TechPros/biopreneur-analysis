@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–300 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–304 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -343,6 +343,10 @@
 | 298 | M10·D298 | The Enemy's Expired Lease on Your Life | `/the-enemys-expired-lease-on-your-life/` | Spiritual Warfare | Col 2:15 | 923 | 38c / 155c | 20/20 ✔ | 2027-08-26 |
 | 299 | M10·D299 | War in the Heavenlies, Peace in the Heart | `/war-in-the-heavenlies-peace-in-the-heart/` | Spiritual Warfare | Phil 4:7 | 959 | 41c / 147c | 20/20 ✔ | 2027-08-27 |
 | 300 | M10·D300 | Don't Date Defeated Lies | `/dont-date-defeated-lies/` | Spiritual Warfare | 2 Cor 10:5 | 926 | 45c / 147c | 20/20 ✔ | 2027-08-28 |
+| 301 | M10·D301 | Victory Is a Position, Not a Mood | `/victory-is-a-position-not-a-mood/` | Spiritual Warfare | 2 Cor 2:14 | 987 | 33c / 156c | 20/20 ✔ | 2027-08-29 |
+| 302 | M10·D302 | Exposing Works of Darkness Without Fearing Them | `/exposing-works-of-darkness-without-fearing-them/` | Spiritual Warfare | Eph 5:11 | 952 | 39c / 154c | 20/20 ✔ | 2027-08-30 |
+| 303 | M10·D303 | The Full Armour, Piece by Piece | `/the-full-armour-piece-by-piece/` | Spiritual Warfare | Eph 6:13 | 954 | 31c / 146c | 20/20 ✔ | 2027-08-31 |
+| 304 | M10·D304 | Greater Is He: Living From the Overcomer's Seat | `/greater-is-he-living-from-the-overcomers-seat/` | Spiritual Warfare | 1 John 4:4 | 950 | 47c / 152c | 20/20 ✔ | 2027-09-01 |
 
 ---
 
