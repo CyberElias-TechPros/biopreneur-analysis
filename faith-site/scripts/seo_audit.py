@@ -34,7 +34,7 @@ from collections import Counter, defaultdict
 from urllib.parse import urlparse
 
 DIST = "dist"
-SITE_FALLBACK = "https://injesusname.org"
+SITE_FALLBACK = "https://lij.name.ng"
 
 results: list[tuple[str, str, str]] = []  # (level, code, message)
 
@@ -644,14 +644,16 @@ def main() -> None:
         print("ERROR: dist/ not found — run `npm run build` first.")
         sys.exit(1)
 
+    # Origin resolution mirrors astro.config.mjs: an explicit env override wins,
+    # otherwise the fallback domain the site is actually served from.
     origin = SITE_FALLBACK
-    cfg = open("astro.config.mjs", encoding="utf-8").read()
-    m = re.search(r"injesusname\.org", cfg)
-    if m:
-        origin = SITE_FALLBACK
     env = os.environ.get("PUBLIC_SITE_URL")
     if env:
         origin = env.rstrip("/")
+    else:
+        m = re.search(r"'site:\s*'([^']+)'", open("astro.config.mjs", encoding="utf-8").read())
+        if m:
+            origin = m.group(1).rstrip("/")
 
     pages = page_paths()
     print(f"SEO audit — {len(pages)} pages in dist/ (origin {origin})\n")

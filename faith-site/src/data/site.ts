@@ -6,7 +6,13 @@ export const SITE = {
     'Scripture-anchored teachings unveiling who you are in Christ, what His finished work secured, and how to live from that reality every day of the week.',
   description:
     'In Jesus Name is a Christian teaching publication devoted to Scripture-saturated revelation, new-creation identity, sound doctrine, and practical everyday discipleship.',
-  url: 'https://injesusname.org',
+  /**
+   * Canonical origin fallback. Production sets PUBLIC_SITE_URL=https://lij.name.ng
+   * in Vercel, so every canonical/sitemap/JSON-LD URL resolves to the live host
+   * even when a preview deploy runs on a *.vercel.app URL. Keep this fallback in
+   * step with whatever domain the project is actually served from.
+   */
+  url: 'https://lij.name.ng',
   locale: 'en_US',
   language: 'en',
   email: 'editorial@injesusname.org',
