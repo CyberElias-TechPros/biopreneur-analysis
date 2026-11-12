@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–113 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–114 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -156,6 +156,7 @@
 | 111 | M4·D111 | When You Decree a Thing | `/when-you-decree-a-thing/` | Authority of the Believer | Job 22:28 | 1,331 | 52c / 146c | 20/20 ✔ | 2027-02-20 |
 | 112 | M4·D112 | Sickness Has No Rightful Claim on You | `/sickness-has-no-rightful-claim-on-you/` | Authority of the Believer | Isa 53:5 | 1,391 | 40c / 146c | 20/20 ✔ | 2027-02-21 |
 | 113 | M4·D113 | Your Words Are Verdicts | `/your-words-are-verdicts/` | Authority of the Believer | Prov 18:21 | 1,347 | 40c / 146c | 20/20 ✔ | 2027-02-22 |
+| 114 | M4·D114 | Authority Over Fear Itself | `/authority-over-fear-itself/` | Authority of the Believer | 2 Tim 1:7 | 1,231 | 30c / 144c | 20/20 ✔ | 2027-02-23 |
 
 ---
 
