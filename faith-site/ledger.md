@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–240 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–241 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -283,6 +283,7 @@
 | 238 | M8·D238 | Planning With Prayer: Goals Under Grace | `/planning-with-prayer-goals-under-grace/` | Prosperity & Stewardship | James 4:13 | 1,030 | 39c / 141c | 20/20 ✔ | 2027-06-27 |
 | 239 | M8·D239 | The Wealth of the Sinner Is Laid Up — Then Released | `/the-wealth-of-the-sinner-is-laid-up-then-released/` | Prosperity & Stewardship | Prov 13:22 | 1,140 | 35c / 143c | 20/20 ✔ | 2027-06-28 |
 | 240 | M8·D240 | Faithful in Little, Trusted With Much | `/faithful-in-little-trusted-with-much/` | Prosperity & Stewardship | Luke 16:10 | 1,071 | 37c / 154c | 20/20 ✔ | 2027-06-29 |
+| 241 | M8·D241 | Rich Toward God, Wise Toward Earth | `/rich-toward-god-wise-toward-earth/` | Prosperity & Stewardship | Luke 16:8 | 1,010 | 34c / 146c | 20/20 ✔ | 2027-06-30 |
 
 ---
 
