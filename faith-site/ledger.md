@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–131 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–132 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -174,6 +174,7 @@
 | 129 | M5·D129 | Let the Word Dwell in You Richly | `/let-the-word-dwell-in-you-richly/` | The Word | Col 3:16 | 1,086 | 32c / 149c | 20/20 ✔ | 2027-03-10 |
 | 130 | M5·D130 | The Word Corrects Gently, Never Condemningly | `/the-word-corrects-gently-never-condemningly/` | The Word | Heb 12:5–6 | 1,101 | 44c / 147c | 20/20 ✔ | 2027-03-11 |
 | 131 | M5·D131 | Promises Are Provisions, Not Decorations | `/promises-are-provisions-not-decorations/` | The Word | 2 Pet 1:4 | 1,081 | 40c / 147c | 20/20 ✔ | 2027-03-12 |
+| 132 | M5·D132 | The Entrance of the Word Gives Light | `/the-entrance-of-the-word-gives-light/` | The Word | Ps 119:130 | 1,036 | 36c / 146c | 20/20 ✔ | 2027-03-13 |
 
 ---
 
