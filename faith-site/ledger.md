@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–361 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–362 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -404,6 +404,7 @@
 | 359 | M12·D359 | Wrapped in Swaddling Cloths, Wrapped in Prophecy | `/wrapped-in-swaddling-cloths-wrapped-in-prophecy/` | Redemption & His Return | Luke 2:12 | 907 | 48c / 151c | 20/20 ✔ | 2027-10-26 |
 | 360 | M12·D360 | The Glory of the Only Begotten | `/the-glory-of-the-only-begotten/` | Redemption & His Return | John 1:14 (doxa) | 927 | 30c / 150c | 20/20 ✔ | 2027-10-27 |
 | 361 | M12·D361 | Christmas Is a Decision, Not a Date | `/christmas-is-a-decision-not-a-date/` | Redemption & His Return | John 1:12 | 932 | 35c / 153c | 20/20 ✔ | 2027-10-28 |
+| 362 | M12·D362 | The Blessed Hope: Looking for His Appearing | `/the-blessed-hope-looking-for-his-appearing/` | Redemption & His Return | Titus 2:13 | 923 | 43c / 152c | 20/20 ✔ | 2027-10-29 |
 
 ---
 
