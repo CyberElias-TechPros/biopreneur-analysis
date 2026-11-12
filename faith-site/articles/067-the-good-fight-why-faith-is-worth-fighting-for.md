@@ -75,6 +75,14 @@ Have you ever noticed how quickly a spiritual struggle turns into an argument wi
 
 The line between them runs here: The fighter-with-a-face burns energy on arguments and relationships and loses ground in his own heart. The good fighter keeps his weapons aimed at unbelief and his kindness aimed at people.
 
+### The Fight Is Against a Contender, Not an Outcome
+
+Paul's charge to Timothy is set in a military metaphor that assumes opposition rather than outcome: "Fight the good fight of faith, lay hold on eternal life, whereunto thou art also called" (1 Timothy 6:12). The victory was never in question; the contest was. A soldier who doubts the war is already lost is called elsewhere "double-minded," and instability is his defining trait.
+
+Paul's own closing testimony uses the same image: "I have fought a good fight, I have finished my course, I have kept the faith" (2 Timothy 4:7). Three verbs, and not one of them claims success. Fought, finished, kept — the vocabulary of a man describing faithfulness rather than triumph.
+
+Jude frames the same charge corporately: "earnestly contend for the faith which was once delivered unto the saints" (Jude 1:3). Contend — the word is athletic, a straining toward. The faith is delivered; the contending is now.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **1 Timothy 1:18–19** — "That thou by them mightest war a good warfare; Holding faith, and a good conscience; which some having put away concerning faith have made shipwreck." Paul links the fight to holding faith *and* a good conscience — the battle is moral as well as mental.

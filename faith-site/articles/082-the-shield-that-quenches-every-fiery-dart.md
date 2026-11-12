@@ -91,6 +91,14 @@ The promise is not that no dart will be thrown. It is that the dart will not bur
 
 Watch what separates the two: The unguarded believer spends the day trying to outrun the accusation; the shielded believer stands still and lets it die against the armour.
 
+### The Shield Is Held, Not Worn
+
+Paul's word for the shield is *thureos* — the large door-shaped shield that covered the whole body, distinct from the small round buckler. It is the piece that could be moved to where the arrows were coming.
+
+That detail matters because it tells you what faith does under fire. A soldier does not stand still with a shield; he positions it. Faith is not a static assurance you own; it is an instrument you deploy toward the specific threat in front of you.
+
+So the practical question each morning is not "do I feel shielded?" but "where am I pointing this today?" The shield is useless in the tent.
+
 ## What This Means for You
 
 Revelation names the shield's contents from a heavenly perspective: "They overcame him by the blood of the Lamb, and by the word of their testimony" (Revelation 12:11). The blood is the objective ground; the testimony is the voice that declares it.

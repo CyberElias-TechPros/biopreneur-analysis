@@ -100,6 +100,12 @@ Luke 10 gives the practical outworking. The seventy returned rejoicing that the 
 
 Peter states it as an identity: "a chosen generation, a royal priesthood, an holy nation, a peculiar people" (1 Peter 2:9). Every phrase is a citizenship term.
 
+### The Inheritance Is Among Them That Are Sanctified
+
+Paul's commission to the Gentiles spells out what the transfer actually delivers: "To open their eyes, and to turn them from darkness to light, and from the power of Satan unto God, that they may receive forgiveness of sins, and inheritance among them which are sanctified by faith that is in me" (Acts 26:18).
+
+Four movements. Eyes opened, darkness left, authority changed, inheritance received. And note the means at the end: by faith that is in me. The whole transfer runs on faith, from first to last.
+
 ## What This Means for You
 
 **1. Stop renegotiating a completed transfer.** Repentance for a past failure, yes — but not re-imprisonment.

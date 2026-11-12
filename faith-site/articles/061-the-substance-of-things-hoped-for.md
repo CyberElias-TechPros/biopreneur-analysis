@@ -79,6 +79,14 @@ Hebrews 11 goes on to show faith in action: Abel offered, Noah built, Abraham we
 
 The difference is this: The hopeful believer admires the promise and waits passively; the believing believer acts on the promise and waits actively. One lives in anticipation; the other lives in appropriation. Which describes your relationship to the promise you are carrying right now?
 
+### Substance Is What Lets You Stand Before You See
+
+The word behind "substance" in Hebrews 11:1 is *hypostasis*, and it does not mean a vague hopefulness. In secular Greek it described the underlying reality of a thing — the sediment at the bottom of a vessel, the foundation beneath a building, the substance that remains when everything else is stripped away.
+
+That is what faith supplies for a promise not yet in your hands: an underlying reality to stand on. It is why Hebrews can go on to say Moses "endured, as seeing him who is invisible" (Hebrews 11:27) and that he had "respect unto the recompence of the reward" (Hebrews 11:26) — an accounting decision about an unseen asset.
+
+Peter says the same thing about the outcome of this posture: "whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable and full of glory" (1 Peter 1:8). Not seen, yet loved. Not seen, yet rejoicing. Substance is what makes that sentence possible.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 4:18** — "While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal." Paul redirects attention because attention determines what feels real.

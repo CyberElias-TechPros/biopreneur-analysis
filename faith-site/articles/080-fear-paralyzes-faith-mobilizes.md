@@ -89,6 +89,14 @@ Have you been waiting to feel ready? What if readiness in Scripture is a by-prod
 
 There is a reason Scripture so often joins courage to faith. Courage without faith is bravado; faith without courage is theory. The two together are what the Bible calls believing with your feet.
 
+### Courage Is a Command, Which Means It Is Obeyed
+
+One detail in Joshua's commission is easy to skim past: God gives the same instruction four times in nine verses — "be strong and of a good courage" (Joshua 1:6), "only be thou strong and very courageous" (Joshua 1:7), "have not I commanded thee? Be strong and of a good courage; be not afraid" (Joshua 1:9).
+
+You do not repeat a suggestion four times. You repeat an order, and you repeat it because the person receiving it is afraid. Courage in Scripture is not a temperament that arrives; it is a command that is obeyed, and it can be obeyed before it is felt.
+
+That is the practical answer to paralysis. You do not wait for fear to leave. You act on the instruction and let the feeling catch up, which is exactly the sequence Joshua followed for the next thirty years.
+
 ## What This Means for You
 
 Matthew 14 gives the clearest picture. Peter asked to come, and he walked on water — while the wind was still blowing. Then he looked at it and began to sink, and Jesus caught him with the gentlest rebuke in the Gospels: "O thou of little faith, wherefore didst thou doubt?" (Matthew 14:31).

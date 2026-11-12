@@ -95,6 +95,14 @@ There is a deep pastoral consequence to this. A believer who thinks God's dispos
 
 Grace removes both pressures at once. You can be honest about a bad week, because a bad week does not change your standing.
 
+### The Difference Between a Gift and a Wage
+
+Paul draws the line in one verse and does not blur it: "Now to him that worketh is the reward not reckoned of grace, but of debt. But to him that worketh not, but believeth on him that justifieth the ungodly, his faith is counted for righteousness" (Romans 4:4–5).
+
+The logic is accounting, not sentiment. A wage is owed. A gift is not. You cannot receive something as a gift and simultaneously hold the invoice.
+
+That is why performance-driven faith eventually exhausts itself. It is trying to be owed. And a person trying to be owed can never rest, because the ledger is never visibly balanced.
+
 ## What This Means for You
 
 - **Confess quickly instead of hiding.** "If we confess our sins, he is faithful and just" (1 John 1:9). The faithfulness is His, and it is the grounds for your return.

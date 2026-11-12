@@ -101,6 +101,14 @@ Usually not like triumph. Often like fear with your feet moving. Peter walked on
 
 The measure you are being invited into will almost always feel slightly beyond you. That is what makes it a level rather than a repeat.
 
+### The Measure Is Assigned, Not Compared
+
+Paul's instruction in Romans 12 is unusually practical for a chapter about the mind: "For I say, through the grace given unto me, to every man that is among you, not to think of himself more highly than he ought to think; but to think soberly, according as God hath dealt to every man the measure of faith" (Romans 12:3).
+
+Soberly. The word means balanced, measured, sane. A believer who has been given a measure of faith is not asked to feel more; he is asked to assess accurately what he has and use it.
+
+That kills both comparison and paralysis at once. Comparison says "why is his measure larger?" Paralysis says "mine is too small to use." Sobriety says "this is what I have been given; this is what I will act on."
+
 ## What This Means for You
 
 **1. Identify your current level.** What do you trust God for without flinching? Start the inventory there.

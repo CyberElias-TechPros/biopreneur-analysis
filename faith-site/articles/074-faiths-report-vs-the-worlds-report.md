@@ -85,6 +85,14 @@ Do you see what unbelief costs? The distance from Kadesh-barnea to Canaan was a 
 
 Caleb, though, was still collecting on that day when he was eighty-five: "I wholly followed the LORD my God... Now therefore give me this mountain" (Joshua 14:8, 12). A good report can be a long-term investment.
 
+### The Report You Repeat Becomes Your Address
+
+The wilderness generation did not simply hear bad news; they adopted it as their own confession. "And there we saw the giants, the sons of Anak, which come of the giants: and we were in our own sight as grasshoppers, and so we were in their sight" (Numbers 13:33). That sentence is a self-description, and it governed the next forty years.
+
+The contrast is not between optimism and realism. It is between two accounts of the same facts, one of which included God. Caleb's version named the same giants and the same walled cities, and then added the only fact that changed the arithmetic: "for they are bread for us: their defence is departed from them, and the LORD is with us: fear them not" (Numbers 14:9).
+
+Note his image. Bread. What the ten saw as an unassailable wall, Caleb saw as a meal — because he was counting the God who had already promised the land.
+
 ## What This Means for You
 
 "Who hath believed our report? and to whom is the arm of the LORD revealed?" (Isaiah 53:1). The question links belief to revelation — the arm of the Lord is revealed to those who believe the report. Paul quotes the same verse in Romans 10 and then says "faith cometh by hearing."

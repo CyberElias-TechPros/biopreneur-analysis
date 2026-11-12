@@ -89,6 +89,14 @@ Romans 8:16 says, "The Spirit itself beareth witness with our spirit, that we ar
 
 John makes the same case in legal language: "If we receive the witness of men, the witness of God is greater" (1 John 5:9). God's testimony about His Son is greater evidence than any human testimony — and vastly greater than any emotional state.
 
+### The Verdict Was Returned Before You Arrived
+
+Paul's logic in Romans 8 runs on courtroom procedure: "Who shall lay any thing to the charge of God's elect? It is God that justifieth. Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us" (Romans 8:33–34).
+
+Read the questions as a lawyer would. The prosecution has no standing because the judge has already justified. The condemnation has no basis because the one who would have grounds to press it has instead died for the defendant.
+
+That is evidence, and it is not a feeling. Your interior state on any given Tuesday has no bearing on a verdict that was returned at Calvary and announced at the tomb.
+
 ## What This Means for You
 
 2 Corinthians 5:7 is the summary: "we walk by faith, not by sight." Walking implies motion, and motion implies you have decided where you are going before you feel like going.

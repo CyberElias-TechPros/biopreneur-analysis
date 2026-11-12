@@ -67,7 +67,7 @@ Hope supplies the picture. Faith supplies the substance.
 
 The pairing also explains why so much Christian discouragement is misdiagnosed. A believer may be told he lacks faith when what has actually collapsed is hope. You cannot build a house from a missing drawing, and no amount of hammering will fix an absent blueprint. Sometimes the first act of obedience is to go back to the promise and let it draw again.
 
-## Why Hope Must Come First
+### Why Hope Must Come First
 
 You cannot build toward something you cannot picture. "Where there is no vision, the people perish" (Proverbs 29:18) is not a slogan about goal-setting; it is an observation about what happens to a community with no sense of destination.
 
@@ -91,6 +91,13 @@ Notice where the anchor is fastened: "that within the veil" (Hebrews 6:19). The 
 
 Consider what each one actually is. The wishful believer has a picture and no anchor, so the first storm erases the drawing; the anchored believer has both, and the storm only tests the walls.
 
+### Noah's Hope Had Measurements
+
+The ark is the clearest picture of hope and faith working in sequence. God gave a specification: length, breadth, height, rooms, a door, a window. That is a blueprint, in literal cubits.
+
+Noah's faith then spent decades cutting timber to those dimensions. Hope drew the shape; faith built the object. And the building was not an act of optimism about the weather — "as it was in the days of Noah" is Jesus's own description of a world that saw no storm coming.
+
+Which suggests a test for your own hope. Can it be translated into a specification? A hope vague enough to build nothing is probably not yet a hope you have heard from God.
 ## What This Means for You
 
 "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope" (Romans 15:13). Paul prays for hope to overflow, and he links it to believing — the two feed each other.
@@ -103,11 +110,11 @@ If hope has dimmed, the remedy is not to try harder to feel optimistic. It is to
 **4. Anchor daily.** Pray toward the veil, not only toward the problem.
 **5. Faith and wisdom use a plan.** Hope draws, faith builds, and wisdom draws the schedule — the wise builder sits down first and counts the cost (Luke 14:28).
 
-### Month Three in Review
+#### Month Three in Review
 
 This month we have walked through faith as the attitude and action of trust: faith present tense, faith speaking, faith refusing to consider circumstances, faith growing by use, faith recognising authority, faith bridging the gap. Every one of those teachings rests on the same foundation — God has spoken, and what He said is more solid than what you can see.
 
-**Putting It to Work This Week**
+## Putting It to Work This Week
 
 - **Draw the picture in words.** Describe the promised outcome in the present tense, in writing.
 - **Name one wall you can build this week.** A single obedient action toward the picture.

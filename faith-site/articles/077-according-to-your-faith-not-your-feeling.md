@@ -85,6 +85,14 @@ Have you been waiting to feel different before you dare to believe? What if the 
 
 One caution is worth stating plainly, because this truth has been abused. Telling a grieving person to stop feeling is not faith; it is cruelty dressed as doctrine. Jesus wept at a graveside He was about to empty. Faith does not hurry grief along — it simply refuses to let grief have the final word.
 
+### Feelings Are Honest About the Wrong Thing
+
+The woman with the issue of blood had twelve years of evidence that her body was not healed: "and had suffered many things of many physicians, and had spent all that she had, and was nothing bettered, but rather grew worse" (Mark 5:26). That is a medical record, and it was accurate.
+
+She pressed through the crowd anyway. "For she said, If I may touch but his clothes, I shall be whole" (Mark 5:28). Mark records her reasoning — she said it, presumably to herself, in the middle of a crowd, with no evidence to support it. Her confession contradicted her chart.
+
+Jesus's response did not rebuke the contradiction: "Daughter, thy faith hath made thee whole; go in peace, and be whole of thy plague" (Mark 5:34). He named the faith, not the feeling.
+
 ## What This Means for You
 
 "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God" (Psalm 42:5). The psalmist does not deny the depression. He talks to it. He addresses the soul as one addresses a frightened child, and then answers his own question with hope.

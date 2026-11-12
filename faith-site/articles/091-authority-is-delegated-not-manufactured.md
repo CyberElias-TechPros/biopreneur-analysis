@@ -96,6 +96,14 @@ The difference is this: Presumption acts where it was never sent and calls the f
 
 None of these is a formality. In Scripture, authority is always relational before it is functional.
 
+### Two Men, Two Crowns
+
+The centurion in Matthew 8 understood delegation from the inside, and Jesus called his understanding greater than anything He had found in Israel. "For I am a man under authority, having soldiers under me: and I say to this man, Go, and he goeth" (Matthew 8:9). He did not describe his own power. He described his position in a chain.
+
+That is the whole architecture of kingdom authority, and it explains why humility and boldness are not opposites in Scripture. Both are simply accurate assessments — of yourself as sent, and of the One who sent you.
+
+That last observation is worth one more sentence. A leader who resents every authority above him will exercise authority below him as a tyrant, because he has no experience of legitimate submission. The centurion was a good commander precisely because he was a good subordinate.
+
 ## What This Means for You
 
 Romans 13 establishes that human authority is also delegated, which is why the centurion's insight in Matthew 8 was so sharp: he understood that a word carries weight when the one speaking stands under authority.

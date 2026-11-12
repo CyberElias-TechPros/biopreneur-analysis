@@ -87,6 +87,13 @@ Have you been treating faith as a parachute, something you check before takeoff 
 
 Practically, this means the Christian life is sustained by intake and output. Intake: the word heard, read, and meditated on until it becomes the mind's default. Output: the obedience, speech, and generosity that prove the intake has landed. Skip the first and the second becomes performance; skip the second and the first becomes a hobby.
 
+### Habakkuk's Complaint Was Answered With a Posture
+
+The prophet's opening complaint is not polite: "O LORD, how long shall I cry, and thou wilt not hear! even cry out unto thee of violence, and thou wilt not save!" (Habakkuk 1:2). God's answer does not defend Himself or explain the timetable. He says, in effect, watch — and the just shall live by his faith.
+
+That is a remarkable reply to a question about injustice. God does not deny the violence. He gives a posture for living in the middle of it, and He grounds that posture in His own character rather than in improved circumstances.
+
+By the end of the book the prophet has moved from complaint to a settled declaration: "Although the fig tree shall not blossom, neither shall fruit be in the vines... yet I will rejoice in the LORD, I will joy in the God of my salvation" (Habakkuk 3:17–18). That is what living by faith sounds like when the harvest fails.
 ## What This Means for You
 
 Hebrews is honest about the pull. "Cast not away therefore your confidence, which hath great recompence of reward" (Hebrews 10:35). The audience was tired, and their circumstances had not improved as quickly as they hoped.

@@ -59,6 +59,7 @@
 - ☐ D11. Month 11 (Nov — Glory Life): 30
 - ☐ D12. Month 12 (Dec — Incarnation & Return): 31
 - ✔ D13. Self-audit + SEO pack + ledger update workflow active (`faith-site/scripts/audit_articles.py` + `faith-site/ledger.md`)
+- ✔ D14a. **Prose floor verified on the correct measure.** All 97 articles ≥900 words of *teaching prose* (min 902, median 998, max 1,139) with the closing reaffirmation/declaration block excluded from the count; Standard's 0–3 H2 limit and the required "What This Means for You" section enforced by `audit_articles.py`.
 - ✔ D14. Internal-link discipline: all 97 articles interlinked with 0 broken links across all 118 built pages (0 dangling related-teaching slugs, 0 invalid categories or glossary terms)
 - ✔ D15. Launch minimum: **97 live articles** (floor 50 cleared with buffer)
 - ☐ D16. Extend beyond year 1: re-run `TOPIC ENGINE` with ledger + new seed themes

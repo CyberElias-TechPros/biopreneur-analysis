@@ -97,6 +97,12 @@ Authority is not transferable by imitation. It is relational and delegated, and 
 
 There is a further point in the text that is easily missed. Luke says the report of this spread "into every place of the country round about" (Luke 4:37). Authority has a public effect. When darkness is displaced, the people watching take note, and the reputation of the Name grows.
 
+### The Spirit Knew Before the Sermon Ended
+
+Mark's account adds a detail Luke compresses: "And there was in their synagogue a man with an unclean spirit; and he cried out, Saying, Let us alone; what have we to do with thee, thou Jesus of Nazareth? art thou come to destroy us? I know thee who thou art, the Holy One of God" (Mark 1:23–24).
+
+Accurate theology, spoken in terror, by an unclean spirit. It is a sobering reminder that knowing correct things about Jesus is not the same as submitting to Him — and that the kingdom is not impressed by information.
+
 ## What This Means for You
 
 - **Stand, do not strive.** Authority is a position, not an exertion.

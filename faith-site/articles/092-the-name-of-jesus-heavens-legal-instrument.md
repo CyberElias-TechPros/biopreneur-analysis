@@ -94,6 +94,12 @@ Watch what separates the two: The believer who knows the scope of the name speak
 - **In baptism.** The Name is the ground of identity, not merely a ritual word.
 - **In daily work.** "Whatsoever ye do, do all in the name of the Lord Jesus" (Colossians 3:17) — the whole of life under the authority.
 
+### The Name Is Shared, Not Borrowed
+
+Jesus does not merely permit the use of His name; He authorises it as a transfer of standing: "And whatsoever ye shall ask in my name, that will I do, that the Father may be glorified in the Son" (John 14:13). The purpose clause matters — the glory of the Father in the Son. The name is not a tool for your agenda; it is a channel for His.
+
+That is why praying in the name is not a verbal formula appended to a request. It is the conscious decision to ask for what the Name represents, on the basis of what the Name accomplished, for the purpose the Name serves.
+
 ## What This Means for You
 
 Acts 19 gives the cautionary tale: seven men tried to use the Name they had seen Paul use, and the spirit answered, "Jesus I know, and Paul I know; but who are ye?" (Acts 19:15). The Name does not work for strangers to Christ.

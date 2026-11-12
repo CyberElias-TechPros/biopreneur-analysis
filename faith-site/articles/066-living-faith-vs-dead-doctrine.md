@@ -79,6 +79,16 @@ James also insists that such faith cannot save a person who claims it, because i
 
 Set them side by side and the gap shows. The doctrinal believer can explain faith accurately; the living believer can show faith visibly. One is prepared for an exam; the other is prepared for life.
 
+### Doctrine Can Be Accurate and Still Be Dead
+
+James's bluntness is pastoral rather than academic: "What doth it profit, my brethren, though a man say he hath faith, and have not works? can faith save him?" (James 2:14). The word "say" is doing the work. He is not denying that faith exists; he is distinguishing between the verbal claim and the living thing.
+
+Paul would agree entirely, having written to Titus about the same danger: "They profess that they know God; but in works they deny him" (Titus 1:16). Profession and practice are two different measurements, and a death exists where they contradict each other.
+
+Galatians gives the union Paul grew so insistent about: "For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love" (Galatians 5:6). Faith that works — the participle implies present activity. The genuine article is not inert.
+
+Thessalonica shows what a living faith looks like when the report reaches Paul: "Remembering without ceasing your work of faith, and labour of love, and patience of hope" (1 Thessalonians 1:3). Work of faith. Labour of love. Patience of hope. Three nouns, each moved by a motive.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **Galatians 5:6** — "For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love." Paul describes faith as active, working through love.

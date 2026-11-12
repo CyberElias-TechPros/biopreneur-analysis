@@ -93,6 +93,14 @@ There is also a warning folded into the grammar. The word is "impossible" — no
 
 That should not discourage anyone; it should simplify things. You are not being asked to produce an extraordinary life. You are being asked to bring an ordinary life to an extraordinary God, trusting Him as you go.
 
+### Enoch's Biography Is Deliberately Short
+
+"By faith Enoch was translated that he should not see death... for before his translation he had this testimony, that he pleased God" (Hebrews 11:5). That is the entire record. No miracles, no writings, no empire, no recorded words.
+
+Set that beside how we usually measure a life. We count output. Scripture counted a walk. And the verdict attached to that walk is the one every believer would most want said of them: he pleased God.
+
+The brevity is the teaching. If the most important thing about a man's life can be stated in one clause, then the clause is worth arranging your life around.
+
 ## What This Means for You
 
 "Enoch walked with God: and he was not; for God took him" (Genesis 5:24). A walk is unremarkable in itself — day after day, the same direction, the same company. That is the whole biography.

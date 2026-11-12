@@ -81,6 +81,16 @@ Why does this matter so much? Because unconfessed sin quietly divides the heart,
 
 Watch what separates the two: Proud prayer hides and stays sick at heart; humble prayer confesses and is healed. One protects a reputation; the other receives a restoration.
 
+### Oil, Elders, and the Word for Sozo
+
+James uses the Greek verb *sozo* for "shall save the sick" — the same verb the New Testament uses for salvation. It means to rescue, to heal, to make whole. That is a deliberate word choice when a narrower one was available.
+
+He is not confused about categories. He is refusing to separate them. The whole person is in view: body, soul, and the standing of the one who is ill. That is why the verse immediately continues, "and if he have committed sins, they shall be forgiven him."
+
+The anointing with oil belongs in this frame. Olive oil was the ordinary medicinal staple of the ancient Near East — a wound dressing, a balm, a fuel for lamps. James does not choose it because it is magical; he chooses it because it is the physical means at hand, brought into a spiritual act. Mark's Gospel describes the same practice: "And they cast out many devils, and anointed with oil many that were sick, and healed them" (Mark 6:13).
+
+**Divine Wholeness** — the whole-person restoration God gives — is not a denial of ordinary means. It is the encompassing of them.
+
 ## What This Means for You
 
 Faith is not a refusal to see a doctor. James assumes ordinary means and anoints with oil, which was itself a medicinal staple of the day. Faith is not a demand for a particular outcome on a particular day either. Consider Paul, who prayed three times for relief and received a different answer: "My grace is sufficient for thee" (2 Corinthians 12:9). The prayer of faith was answered — with grace rather than removal.

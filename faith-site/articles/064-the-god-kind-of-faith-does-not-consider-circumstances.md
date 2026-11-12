@@ -77,6 +77,16 @@ That is why Philippians 4:8 commands a particular kind of thinking: whatsoever i
 
 Have you ever noticed that the more you explain a problem, the larger it becomes in your mind? The distinction could not be sharper. The circumstance-centred believer prays and then studies the problem, growing more convinced of impossibility. The promise-centred believer prays and then studies God's faithfulness, growing more confident of His character.
 
+### Attention Is a Form of Obedience
+
+Paul's instruction in Philippians is explicitly about what the mind is permitted to dwell on: "Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just, whatsoever things are pure, whatsoever things are lovely, whatsoever things are of good report; if there be any virtue, and if there be any praise, think on these things" (Philippians 4:8).
+
+That is Abraham's strategy in Romans 4 translated into a daily discipline. He did not consider the deadness of his body because he had chosen to consider the power of God. The refusal was as deliberate as the focus.
+
+Proverbs gives the same instruction with a physical image: "My son, attend to my words; incline thine ear unto my sayings. Let them not depart from thine eyes; keep them in the midst of thine heart" (Proverbs 4:20–21). Attending is active. It can be commanded, which means it can be obeyed or neglected.
+
+Hebrews frames the outcome: "Looking unto Jesus the author and finisher of our faith" (Hebrews 12:2) — a present participle, a continuous direction of gaze, sustained in the same passage that says believers are surrounded by a great cloud of witnesses.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 4:18** — "While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal." Paul commands a deliberate redirect of the eyes.

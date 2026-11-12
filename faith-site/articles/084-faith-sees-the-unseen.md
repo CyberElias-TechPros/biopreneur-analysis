@@ -95,6 +95,14 @@ So what has been getting your attention lately, and what size has it grown to?
 
 The distinction could not be sharper. The sight-led believer allocates attention to whatever is loudest; the faith-led believer allocates attention to whatever is permanent, then lives in the light of it.
 
+### Sight Is Not the Enemy; Sight Alone Is
+
+Paul does not tell the Corinthians to close their eyes. He tells them where to look: "While we look not at the things which are seen, but at the things which are not seen" (2 Corinthians 4:18). The verb assumes continued seeing — just of a different object.
+
+That is a crucial distinction for anyone living with hard facts. A diagnosis is real. A bank statement is real. A closed door is real. Faith does not require you to call them illusions; it requires you to stop treating them as the final word.
+
+Isaiah gives the same instruction with a different image: "Lift up thine eyes round about, and see: all they gather themselves together, they come to thee" (Isaiah 60:4). The command is to look up, which implies you were looking down.
+
 ## What This Means for You
 
 "If ye then be risen with Christ, seek those things which are above... Set your affection on things above, not on things on the earth" (Colossians 3:1–2). The instruction is about affection, not merely attention — the heart's investment.

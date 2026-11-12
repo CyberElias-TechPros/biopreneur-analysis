@@ -85,6 +85,14 @@ Two Old Testament questions stand behind this promise. "Is any thing too hard fo
 
 Have you noticed that in Scripture the hard question is never aimed at God's capability? It is always aimed at a human heart.
 
+### The Mustard Seed Has a Properties Problem
+
+A mustard seed is not impressive, but it is *alive*. That distinction is the whole point, and it explains why Jesus used a seed rather than a stone. A stone of the same size has more mass and no capacity; a seed of that size contains an entire tree in compressed form.
+
+Paul uses the same logic about the resurrection body: "It is sown a natural body; it is raised a spiritual body" (1 Corinthians 15:44). What is sown looks like nothing. What rises is a whole order of life.
+
+Which means the question Jesus asks is never "how big is your faith" but "is your faith alive?" Dead faith of enormous size is still dead; it moves nothing because it is not connected to anything. A living seed in soil does what neither the seed nor the soil could do alone.
+
 ## What This Means for You
 
 Mark gives us the sentence every honest believer eventually prays: "Lord, I believe; help thou mine unbelief" (Mark 9:24). He did not clean himself up first. He brought the mixture and asked for help with the mixture.

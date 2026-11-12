@@ -75,6 +75,14 @@ This is not a call to denial. Faith does not pretend the mountain is not there; 
 
 Have you ever counted how many times you described a problem before you prayed about it? Watch what separates the two: The fearful believer describes the problem in detail and calls it realism. The believing believer states the problem briefly and then speaks God's word over it.
 
+### The Tongue Is Small and Proportionate
+
+James's argument about the tongue is built on a series of disproportions: "Behold, we put bits in the horses' mouths, that they may obey us; and we turn about their whole body. Behold also the ships, which though they be so great, and are driven of fierce winds, yet are they turned about with a very small helm" (James 3:3–4).
+
+Small thing, large consequence. That is the whole case for taking speech seriously, and it is why Jesus tied words to the state of the heart rather than treating them as decoration: "A good man out of the good treasure of the heart bringeth forth good things: and an evil man out of the evil treasure bringeth forth evil things" (Matthew 12:35).
+
+Paul locates the same connection in the resurrection: "We having the same spirit of faith, according as it is written, I believed, and therefore have I spoken; we also believe, and therefore speak" (2 Corinthians 4:13). Belief comes first; speech follows from it. The order is fixed, and reversing it produces the strange religious phenomenon of loud claims nobody believes — including the speaker.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **Romans 10:10** — "For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation." Belief and confession cooperate in salvation itself — the pattern continues into daily faith.

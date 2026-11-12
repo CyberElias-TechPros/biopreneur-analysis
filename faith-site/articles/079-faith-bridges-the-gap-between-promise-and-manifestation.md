@@ -91,6 +91,14 @@ Here the two diverge. Unbelief abandons the bridge and returns to the near bank;
 
 Have you ever treated the gap as a waiting room? What if it is a workshop?
 
+### Noah Built Before He Could See Weather
+
+The clearest Old Testament example of the gap is a man building a boat on dry ground for a hundred and twenty years. "By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark" (Hebrews 11:7).
+
+Note the phrase: things not seen as yet. Noah had a word, a blueprint, and a deadline that kept moving. Between the warning and the rain there was nothing to look at but the work.
+
+That is the gap in its purest form, and Hebrews treats it as the model rather than the exception. The gap is not an interruption of faith. It is where faith is exercised, which is why the writer can say that by it Noah "became heir of the righteousness which is by faith" — before a drop of water fell.
+
 ## What This Means for You
 
 Some promises take decades. Some are answered in a form different from what we pictured. Some are inherited by the next generation rather than received by us.

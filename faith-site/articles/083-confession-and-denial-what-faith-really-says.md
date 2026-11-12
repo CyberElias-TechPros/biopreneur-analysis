@@ -97,6 +97,13 @@ True confession costs something. "Whosoever therefore shall confess me before me
 
 And there is a quiet confession nobody applauds: agreeing with God about your own sin, your own need, your own limits. "If we confess our sins, he is faithful and just to forgive" (1 John 1:9). Denial cannot receive forgiveness, because denial has nothing to bring.
 
+### The Spirit of Faith Speaks
+
+Paul puts the mechanism in a single sentence drawn from the Psalms: "We having the same spirit of faith, according as it is written, I believed, and therefore have I spoken; we also believe, and therefore speak" (2 Corinthians 4:13).
+
+The phrase "the same spirit of faith" is significant. He is not describing a technique available to a spiritual elite but a shared inheritance of everyone who believes — the same spirit, the same sequence, the same outcome.
+
+And the psalm he quotes is about being delivered from death, which was written by a man in mortal danger. The confession of faith, in Scripture, is not a comfortable affirmation made in a safe room. It is what a person says while the thing is still happening.
 ## What This Means for You
 
 Speak about your circumstances the way God speaks about them — accurately, and with Him included. If a doctor gave a diagnosis, you may say so. Then say what God has promised. That is not double-mindedness; it is honesty with a larger fact attached.

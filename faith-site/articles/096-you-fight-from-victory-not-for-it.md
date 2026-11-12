@@ -97,6 +97,12 @@ Paul's own language in Ephesians is military but oddly static: "having done all,
 
 Ephesians 6 lists defensive armour for the most part, with one offensive item — the sword of the Spirit, which is the word of God. That is not an accident. Those who are enforcing a victory need protection and a single reliable weapon, not an arsenal.
 
+### The Triumph Was Public on Purpose
+
+Paul's word for "made a shew of them openly" is *edeigmatisen* — to display publicly, to expose to view. The cross looked like a defeat and was, in fact, a parade.
+
+That is the divine irony at the centre of the gospel, and it means the believer's warfare is always retrospective. You are not fighting to establish a fact. You are living in the aftermath of one that was announced while the world watched.
+
 ## What This Means for You
 
 - **Resist, do not plead.** "Resist the devil, and he will flee from you" (James 4:7).

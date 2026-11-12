@@ -103,6 +103,11 @@ The psalm's promise looks unfulfilled until you look at Christ. In Him, the crow
 
 The line between them runs here: The abdicating believer blames circumstances and calls it humility; the domineering believer seizes what was never given and calls it faith. One is passive where it should act; the other acts where it should submit.
 
+### The Image Is the Qualification
+
+Genesis does not say humanity was given dominion because it was capable. It says dominion followed the image: "Let us make man in our image, after our likeness: and let them have dominion" (Genesis 1:26). The capacity for rule was built into the resemblance.
+
+That means the fall did not remove the mandate; it corrupted the exercise of it. And it means redemption restores the qualification before it restores the performance — which is precisely the order the New Testament insists on everywhere.
 ## What This Means for You
 
 - **Take responsibility before you take authority.** Dominion begins with ownership of what is actually yours to manage.

@@ -97,6 +97,12 @@ Note where the two part company: Private certainty about a verdict produces isol
 
 One more observation about the setting. The authority in Matthew 18 is granted in the middle of a conversation about a brother who has sinned, and Peter's very next question is, "how oft shall my brother sin against me, and I forgive him?" (Matthew 18:21). It is as though Jesus anticipated that the first use of church authority would be forgiveness, and the parable that follows — the unforgiving servant — makes the point unforgettable.
 
+### The Verdict Is About a Person, Not a Preference
+
+Paul applied this authority to a specific case and was explicit about its limits: "For I verily, as absent in body, but present in spirit, have judged already, as though I were present, concerning him that hath so done this deed, In the name of our Lord Jesus Christ, when ye are gathered together, and my spirit, with the power of our Lord Jesus Christ" (1 Corinthians 5:3–4).
+
+Judged already, in the name, gathered together. Three conditions. And the purpose was restorative, not punitive — which is why the same apostle later insists the offender be forgiven and comforted (2 Corinthians 2:7). Authority that cannot restore is not kingdom authority.
+
 ## What This Means for You
 
 The most important question is not whether you can bind something, but whether your judgement has been formed by God's word or by your preferences. Authority follows agreement.

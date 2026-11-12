@@ -84,6 +84,14 @@ James explains the cost. The one who wavers "is like a wave of the sea driven wi
 
 Note where the two part company: Staggering keeps asking whether God meant it, while unwavering faith has already settled the question and moved on to obedience. One keeps reopening the file; the other files it and gets to work.
 
+### Faith Is a Verdict About Character
+
+Hebrews gives the same couple a different angle: "Through faith also Sara herself received strength to conceive seed, and was delivered of a child when she was past age, because she judged him faithful who had promised" (Hebrews 11:11). She judged. That is a deliberative act, not a mood.
+
+Paul's word for the result is *dunamis* — strength, ability, capacity. It was received, not manufactured. And the condition attached to the receiving is striking: because she judged him faithful.
+
+That is why faith can be commanded. You cannot command a feeling, but you can command a verdict. You can sit down with the evidence about God's character — the cross, the empty tomb, the record of His dealings in Scripture and in your own life — and return a finding.
+
 ## What This Means for You
 
 We should not read Romans 4 as if Abraham and Sarah were made of stone. Sarah laughed at the promise, and God answered her laughter not with rebuke but with a name: Isaac, "laughter." He took the very sound of her unbelief and turned it into the name of her son.

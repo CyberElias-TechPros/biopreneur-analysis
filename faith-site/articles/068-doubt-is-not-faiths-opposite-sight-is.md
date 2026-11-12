@@ -75,6 +75,16 @@ James warns that the one who doubts is like a wave tossed by wind — not becaus
 
 Which of the three — sight, faith, or doubt — has been directing your steps this month? Trace the difference to its root: Sight demands proof before movement and calls it wisdom. Faith moves on God's word and calls it obedience. Doubt sits between them, asking whether to move at all.
 
+### Doubt Is a Condition; Unbelief Is a Decision
+
+The New Testament uses both words, and it uses them differently. Doubt is a wobble in the moment — Thomas refusing to believe without evidence, Peter looking at the wind. Unbelief is a settled refusal, a direction of the will.
+
+That distinction is pastoral gold. The man in Mark 9 who cried out "Lord, I believe; help thou mine unbelief" (Mark 9:24) did not have a settled refusal; he had a mixture, and he brought it. Jesus healed his son. He did not wait for a clean heart.
+
+Hebrews warns about the settled version: "Take heed, brethren, lest there be in any of you an evil heart of unbelief, in departing from the living God" (Hebrews 3:12). Departing is a movement, and movement is a choice.
+
+The distinction keeps a struggling believer from reading a bad week as an apostasy. A wobble is not a departure.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **John 20:29** — "Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed." Jesus names the sight-faith distinction directly and blesses the second.

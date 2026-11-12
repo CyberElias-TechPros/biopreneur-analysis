@@ -79,6 +79,14 @@ There is also a communal dimension. Paul thanked God for a church's growing fait
 
 Consider what each one actually is. The passive believer waits for a feeling of greater faith and remains where he is. The exercising believer obeys in small things and discovers his capacity has grown without his noticing.
 
+### Faith Grows by Exposure to the Right Weather
+
+The disciples asked for more faith, and Jesus answered with a mustard seed and a sycamine tree. It is one of the few places in the Gospels where a request appears to be mildly deflected: "Increase our faith" (Luke 17:5) — and the answer is essentially, "A small amount of the real thing would be sufficient."
+
+The point is not that faith does not grow. Paul congratulates the Thessalonians because "your faith groweth exceedingly" (2 Thessalonians 1:3). Growth is real, visible, and reportable. But it does not grow by wishing for growth — the same way a muscle does not grow by being admired.
+
+Hebrews identifies the mechanism with a surprising word: "Though he were a Son, yet learned he obedience by the things which he suffered" (Hebrews 5:8). Learning by experiencing. James agrees: "knowing this, that the trying of your faith worketh patience" (James 1:3). The trial is not a detour from growth. It is the session.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **2 Thessalonians 1:3** — "Your faith groweth exceedingly, and the charity of every one of you all toward each other aboundeth." Paul describes measurable growth — not a static quantity but an increasing one.

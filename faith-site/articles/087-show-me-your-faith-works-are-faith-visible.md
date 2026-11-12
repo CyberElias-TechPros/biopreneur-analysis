@@ -91,6 +91,14 @@ The line between them runs here: A faith that is only spoken stays theoretical; 
 
 There is a subtle trap here worth naming. Some believers swing from doing nothing to doing everything, treating activity as a substitute for trust. That is not James's point and it is not the gospel. The question is never how much you are doing; it is whether what you are doing is the fruit of what you believe.
 
+### Rahab's Faith Had a Window
+
+The second example James chooses is jarring after Abraham: "Likewise also was not Rahab the harlot justified by works, when she had received the spies, and had sent them out another way?" (James 2:25). A prostitute in a doomed city, hanging a red cord out of a window.
+
+Her faith had a physical location. It was a rope, a promise, and a decision about which side of a wall she belonged to. That is what faith looks like when it becomes visible — it takes a specific, identifiable form, and someone could have pointed at it.
+
+Which is the test James is applying. Not "is your faith sincere?" but "is there anything to point at?"
+
 ## What This Means for You
 
 - **In generosity.** A hand that opens is a creed with legs.

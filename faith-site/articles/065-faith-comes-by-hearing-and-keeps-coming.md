@@ -79,6 +79,16 @@ It also matters how you hear. Jesus repeatedly said, "He that hath ears to hear,
 
 Note where the two part company: The starved believer hears the Word occasionally and wonders why faith feels thin, while the fed believer keeps hearing until faith becomes the natural atmosphere of the heart.
 
+### Hearing Is a Habit Before It Is an Event
+
+Paul's rhetorical questions in Romans 10 are designed to remove every alternative: "How then shall they call on him in whom they have not believed? and how shall they believe in him of whom they have not heard? and how shall they hear without a preacher?" (Romans 10:14). The chain runs backward from salvation to hearing to preaching to sending.
+
+The emphasis is not on the excellence of the preacher but on the necessity of the hearing. Faith does not come by adrenaline, novelty, or emotion. It comes by the report of God's word reaching a person's inner ear — and it keeps coming the same way.
+
+Hebrews warns that the mechanical version does not profit: "For unto us was the gospel preached, as well as unto them: but the word preached did not profit them, not being mixed with faith in them that heard it" (Hebrews 4:2). The sermon was the same. The mixing was missing.
+
+Joshua gives the method for mixing: "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night" (Joshua 1:8). Meditation is the digestion that turns hearing into faith.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **Romans 10:14** — "How then shall they call on him in whom they have not believed? and how shall they believe in him of whom they have not heard?" Paul's logic ties belief to hearing and hearing to preaching — the whole chain matters.

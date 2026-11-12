@@ -75,6 +75,16 @@ Philippians 4:6–7 describes the pattern: prayer with thanksgiving, and then th
 
 Do you know what you believe in the hour after you pray — or does the request simply take you over again? Here the two diverge. The anxious believer prays and then keeps negotiating, treating prayer as a lever to be pumped. The believing believer prays, thanks God, and guards the ground he has taken.
 
+### After the Amen
+
+"Be careful for nothing; but in every thing by prayer and supplication with thanksgiving let your requests be made known unto God" (Philippians 4:6). The verse is usually preached for its beginning. Its ending is the harder instruction: with thanksgiving.
+
+Thanksgiving is the specific act that proves the prayer was not a formality. It says, in effect, "I have now handed this over." A person who thanks God while continuing to rehearse the request has not yet handed anything over; he has described his request twice.
+
+Hebrews uses the same logic about confidence: "Cast not away therefore your confidence, which hath great recompence of reward" (Hebrews 10:35). The verse presupposes that confidence can be discarded — it is a thing you can hold or drop, and the dropping happens most often in the hours after the prayer, not during it.
+
+James adds the practical test: "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed" (James 1:6). You can see the wave from the shore. The question is whether you can see it in yourself.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **1 John 5:14–15** — "And this is the confidence that we have in him, that, if we ask any thing according to his will, he heareth us: And if we know that he hear us... we know that we have the petitions that we desired of him." John moves from asking to knowing, then to having.

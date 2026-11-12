@@ -75,6 +75,14 @@ The difficulty is not intellectual; it is emotional. Your senses report absence,
 
 Have you ever noticed how quickly a prayer turns into worry once you stop praying it? Consider what each one actually is. The future-tense believer prays and then re-prays the same request in anxiety, treating prayer as repetition rather than reception. The present-tense believer prays once in faith, gives thanks, and guards the confession.
 
+### Now Is Not the Same as Instant
+
+Faith is present tense, but the present tense of faith is not the same as the immediate appearance of the thing believed. Mark 11:24 is set inside a story that spans two days — Jesus curses the fig tree on one evening and the disciples notice it withered the next morning (Mark 11:20–21). The word was spoken in faith; the visible result arrived on a schedule.
+
+That gap is not a contradiction of "now." It is the difference between the time of believing and the time of seeing. Faith operates in the first; patience operates in the second. Confusing them produces either presumption (demanding instant evidence) or despair (concluding the prayer failed).
+
+**The Life of Faith** — a life ordered by God's declarations — holds both without strain. It can say "it is done" about the verdict and "it is not yet" about the circumstances, because the verdict and the circumstances are not the same category of fact.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **1 John 5:14–15** — "If we ask any thing according to his will, he heareth us: And if we know that he hear us, whatsoever we ask, we know that we have the petitions that we desired of him." John moves from asking to knowing — the same present-tense confidence Jesus commands.

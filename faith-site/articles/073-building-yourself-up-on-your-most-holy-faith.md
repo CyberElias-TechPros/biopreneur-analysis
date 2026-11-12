@@ -95,6 +95,16 @@ These questions are not meant to produce shame. They are meant to hand you back 
 **4. Build with others.** Find one believer to build alongside and be honest with.
 **5. Faith and wisdom build with a plan.** Faith lays the foundation, while wisdom chooses materials, counts the cost, and keeps the site ordered — the wise builder in Luke 14:28 sat down first and calculated.
 
+### The Word Says the Same Thing From Three Directions
+
+Jesus tells a building story that includes a budget: "For which of you, intending to build a tower, sitteth not down first, and counteth the cost, whether he have sufficient to finish it?" (Luke 14:28). The builder in that parable is not rebuked for planning. He is commended for realism.
+
+That belongs beside Jude's instruction rather than in competition with it. Building yourself up on your most holy faith is not a vague spiritual aspiration; it is a construction project with a site, materials, and a schedule.
+
+Colossians gives the project its charter: "As ye have therefore received Christ Jesus the Lord, so walk ye in him: Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving" (Colossians 2:6–7). Walk, rooted, built up, established, abounding — five participles describing a life going somewhere on purpose.
+
+**The Word of God** — His settled utterance — is the material. The plan is yours to make.
+
 ## Putting It to Work This Week
 
 - **Choose a daily slot.** Pick a fixed time and hold it for seven days. Guard it like an appointment.

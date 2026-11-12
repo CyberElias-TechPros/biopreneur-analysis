@@ -77,6 +77,16 @@ So faith looks honestly at the facts and then deliberately chooses the promise. 
 
 Which of the two have you been practising — honest calling or quiet pretending? Two postures, one choice: The pretender denies reality and loses credibility, while the caller acknowledges reality and stands on revelation.
 
+### Calling What Is Not Is God's Prerogative First
+
+Paul is not describing a technique available to human optimism. He is describing what God did, and then showing that Abraham's faith was a response to it: "As it is written, I have made thee a father of many nations, before him whom he believed, even God, who quickeneth the dead, and calleth those things which be not as though they were" (Romans 4:17).
+
+The order matters enormously. God names what does not yet exist because He is able to make it exist. When a believer speaks in agreement, he is not generating reality; he is aligning with the One who does.
+
+Ezekiel's valley is the same pattern with bones: "Again he said unto me, Prophesy upon these bones, and say unto them, O ye dry bones, hear the word of the LORD" (Ezekiel 37:4). A prophet spoke to dry bones — but only because God had already said what He intended to do.
+
+Isaiah grounds it in God's own self-description: "Remember the former things of old: for I am God, and there is none else, I am God, and there is none like me, Declaring the end from the beginning" (Isaiah 46:9–10). The calling precedes the fulfilment because the One who calls is the One who fulfils.
+
 ### The Word Says the Same Thing From Three Directions
 
 - **Isaiah 46:10** — "Declaring the end from the beginning, and from ancient times the things that are not yet done, saying, My counsel shall stand." God's declarations precede and determine events.
