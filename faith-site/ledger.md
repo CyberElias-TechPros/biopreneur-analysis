@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–220 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–222 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -263,6 +263,8 @@
 | 218 | M8·D218 | Sowing and Reaping: A Law Without Favorites | `/sowing-and-reaping-a-law-without-favorites/` | Prosperity & Stewardship | Gal 6:7 | 1,024 | 43c / 147c | 20/20 ✔ | 2027-06-07 |
 | 219 | M8·D219 | Giving Is Grace, Not Pressure | `/giving-is-grace-not-pressure/` | Prosperity & Stewardship | 2 Cor 8:7 | 1,132 | 29c / 146c | 20/20 ✔ | 2027-06-08 |
 | 220 | M8·D220 | God Gives Seed to the Sower | `/god-gives-seed-to-the-sower/` | Prosperity & Stewardship | 2 Cor 9:10 | 1008 | 27c / 142c | 20/20 ✔ | 2027-06-09 |
+| 221 | M8·D221 | Stewardship: You Manage, He Owns | `/stewardship-you-manage-he-owns/` | Prosperity & Stewardship | Ps 24:1 | 1,025 | 32c / 146c | 20/20 ✔ | 2027-06-10 |
+| 222 | M8·D222 | First Fruits Honour First Things | `/first-fruits-honour-first-things/` | Prosperity & Stewardship | Prov 3:9 | 939 | 32c / 149c | 20/20 ✔ | 2027-06-11 |
 
 ---
 
