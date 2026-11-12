@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–222 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–223 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -265,6 +265,7 @@
 | 220 | M8·D220 | God Gives Seed to the Sower | `/god-gives-seed-to-the-sower/` | Prosperity & Stewardship | 2 Cor 9:10 | 1008 | 27c / 142c | 20/20 ✔ | 2027-06-09 |
 | 221 | M8·D221 | Stewardship: You Manage, He Owns | `/stewardship-you-manage-he-owns/` | Prosperity & Stewardship | Ps 24:1 | 1,025 | 32c / 146c | 20/20 ✔ | 2027-06-10 |
 | 222 | M8·D222 | First Fruits Honour First Things | `/first-fruits-honour-first-things/` | Prosperity & Stewardship | Prov 3:9 | 939 | 32c / 149c | 20/20 ✔ | 2027-06-11 |
+| 223 | M8·D223 | The Hand of the Diligent Rules | `/the-hand-of-the-diligent-rules/` | Prosperity & Stewardship | Prov 12:24 | 1,057 | 30c / 142c | 20/20 ✔ | 2027-06-12 |
 
 ---
 
