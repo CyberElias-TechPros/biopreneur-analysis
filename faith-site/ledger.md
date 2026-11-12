@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–115 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–116 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -158,6 +158,7 @@
 | 113 | M4·D113 | Your Words Are Verdicts | `/your-words-are-verdicts/` | Authority of the Believer | Prov 18:21 | 1,347 | 40c / 146c | 20/20 ✔ | 2027-02-22 |
 | 114 | M4·D114 | Authority Over Fear Itself | `/authority-over-fear-itself/` | Authority of the Believer | 2 Tim 1:7 | 1,231 | 30c / 144c | 20/20 ✔ | 2027-02-23 |
 | 115 | M4·D115 | Rule in the Midst of Your Enemies | `/rule-in-the-midst-of-your-enemies/` | Authority of the Believer | Ps 110:2 | 1,299 | 32c / 152c | 20/20 ✔ | 2027-02-24 |
+| 116 | M4·D116 | Established in Righteousness: Far From Oppression | `/established-in-righteousness-far-from-oppression/` | Authority of the Believer | Isa 54:14 | 1,098 | 49c / 153c | 20/20 ✔ | 2027-02-25 |
 
 ---
 
