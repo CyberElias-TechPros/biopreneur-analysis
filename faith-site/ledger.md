@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–184 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–185 Live — Months 1–6 Complete, Month 7 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -227,6 +227,7 @@
 | 182 | M7·D182 | Healing Is the Children's Bread | `/healing-is-the-childrens-bread/` | Divine Health | Matt 15:26–27 | 1,385 | 31c / 148c | 20/20 ✔ | 2027-05-02 |
 | 183 | M7·D183 | By His Stripes You Were Healed — Past Tense | `/by-his-stripes-you-were-healed-past-tense/` | Divine Health | Isa 53:5 | 1,466 | 42c / 148c | 20/20 ✔ | 2027-05-03 |
 | 184 | M7·D184 | Sickness Is Not From God | `/sickness-is-not-from-god/` | Divine Health | Lam 3:33 | 1,553 | 43c / 142c | 20/20 ✔ | 2027-05-04 |
+| 185 | M7·D185 | The Body Is for the Lord | `/the-body-is-for-the-lord/` | Divine Health | 1 Cor 6:19–20 | 1,435 | 41c / 144c | 20/20 ✔ | 2027-05-05 |
 
 ---
 
