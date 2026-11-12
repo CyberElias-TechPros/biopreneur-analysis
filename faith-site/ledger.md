@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–311 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–317 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -354,6 +354,12 @@
 | 309 | M11·D309 | Shine as Lights in a Dark Generation | `/shine-as-lights-in-a-dark-generation/` | Christian Living | Phil 2:15 | 961 | 36c / 144c | 20/20 ✔ | 2027-09-06 |
 | 310 | M11·D310 | The Honor of Carrying His Presence | `/the-honor-of-carrying-his-presence/` | Christian Living | 2 Sam 6:14 | 968 | 34c / 156c | 20/20 ✔ | 2027-09-07 |
 | 311 | M11·D311 | Excellence Is a Spirit, Not a Standard | `/excellence-is-a-spirit-not-a-standard/` | Christian Living | Dan 6:3 | 1,013 | 38c / 146c | 20/20 ✔ | 2027-09-08 |
+| 312 | M11·D312 | The Beauty of Holiness Is Real Attractiveness | `/the-beauty-of-holiness-is-real-attractiveness/` | Christian Living | Ps 96:9 | 1,004 | 45c / 156c | 20/20 ✔ | 2027-09-09 |
+| 313 | M11·D313 | Grace Glories in Weakness | `/grace-glories-in-weakness/` | Christian Living | 2 Cor 12:9 | 1,062 | 25c / 155c | 20/20 ✔ | 2027-09-10 |
+| 314 | M11·D314 | Transformed From Glory to Glory | `/transformed-from-glory-to-glory/` | Christian Living | 2 Cor 3:18 | 963 | 31c / 142c | 20/20 ✔ | 2027-09-11 |
+| 315 | M11·D315 | The Fragrance of Christ in Ordinary Rooms | `/the-fragrance-of-christ-in-ordinary-rooms/` | Christian Living | 2 Cor 2:15 | 933 | 41c / 149c | 20/20 ✔ | 2027-09-12 |
+| 316 | M11·D316 | Kingdom Culture: Heaven's Etiquette on Earth | `/kingdom-culture-heavens-etiquette-on-earth/` | Christian Living | Matt 6:10 | 957 | 44c / 151c | 20/20 ✔ | 2027-09-13 |
+| 317 | M11·D317 | The Spirit of Might for Monotony | `/the-spirit-of-might-for-monotony/` | Christian Living | Isa 11:2 | 943 | 32c / 141c | 20/20 ✔ | 2027-09-14 |
 
 ---
 
