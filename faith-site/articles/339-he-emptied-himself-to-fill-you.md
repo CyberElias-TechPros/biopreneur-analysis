@@ -103,8 +103,6 @@ Hebrews says He was tempted in all points and learned obedience through sufferin
 
 **A costume cannot learn anything.**
 
-### The Pattern
-
 ### The Mind of Christ
 
 And Paul's purpose is ethical, not speculative. He introduces the passage with "Let this mind be in you, which was also in Christ Jesus" (Philippians 2:5).
@@ -187,7 +185,7 @@ First, this is not a call to accept abuse. Jesus laid His life down; He was not 
 
 Second, this is not a demand to deny your gifts. The emptied Christ raised the dead; emptying is about status, not ability.
 
-**The **The Divine Nature is what the emptying makes room for; The Finished Work is what it accomplished; and Sonship is the secure identity that lets a person kneel.
+Three terms hold this together. **The Divine Nature** is what the emptying makes room for — His life deposited in ours. **The Finished Work** is what the emptying accomplished at the cross, complete and unrepeatable. And **Sonship** is the secure identity that lets a yielded person kneel without disappearing.
 
 ## What This Means for You
 
@@ -228,7 +226,7 @@ Second, this is not a demand to deny your gifts. The emptied Christ raised the d
 ## SEO PACK (site metadata — verified)
 
 - **SEO title (30 chars):** He Emptied Himself to Fill You
-- **Meta description (151 chars):** Paul says Christ emptied Himself and took the form of a servant. See why the kenosis describes a laying down of rights, not a loss of nature or identity.
+- **Meta description (154 chars):** Paul says Christ emptied Himself and took the form of a servant. See why the kenosis describes a laying down of rights, not a loss of nature or identity.
 - **Slug:** `/he-emptied-himself-to-fill-you/`
 - **Primary keyword:** he emptied himself · **Secondary:** Philippians 2:7 made himself of no reputation · kenosis ekenosen he emptied himself · took upon him the form of a servant · the mind of Christ humility · he became poor that we might be rich
 - **Category:** Redemption & His Return · **Tags:** Redemption & His Return · New Creation & Identity · Righteousness & Grace
@@ -255,7 +253,7 @@ Second, this is not a demand to deny your gifts. The emptied Christ raised the d
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in guardrail 1 and application 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — The Divine Nature, The Finished Work, Sonship |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ Title 30c · Meta 154c
-| 17 | Words | ≥900 (Standard) | ✔ 1,026 words of prose (floor 900)
+| 17 | Words | ≥900 (Standard) | ✔ 1,043 words of prose (floor 900)
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
-| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 19 H3 · '## What This Means for You' present
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 18 H3 · '## What This Means for You' present
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 14 anchors

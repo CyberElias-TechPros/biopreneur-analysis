@@ -381,7 +381,7 @@
 | 336 | M12·D336 | Immanuel Means God With Us — and in Us | `/immanuel-means-god-with-us-and-in-us/` | Redemption & His Return | Matt 1:23 | 995 | 31c / 149c | 20/20 ✔ | 2027-10-03 |
 | 337 | M12·D337 | Bethlehem's Baby and Calvary's Lamb | `/bethlehems-baby-and-calvarys-lamb/` | Redemption & His Return | Luke 2:7 | 941 | 35c / 142c | 20/20 ✔ | 2027-10-04 |
 | 338 | M12·D338 | The Fullness of Time Came for Your Fullness | `/the-fullness-of-time-came-for-your-fullness/` | Redemption & His Return | Gal 4:4–5 | 938 | 43c / 142c | 20/20 ✔ | 2027-10-05 |
-| 339 | M12·D339 | He Emptied Himself to Fill You | `/he-emptied-himself-to-fill-you/` | Redemption & His Return | Phil 2:7 | 1,026 | 30c / 154c | 20/20 ✔ | 2027-10-06 |
+| 339 | M12·D339 | He Emptied Himself to Fill You | `/he-emptied-himself-to-fill-you/` | Redemption & His Return | Phil 2:7 | 1,043 | 30c / 154c | 20/20 ✔ | 2027-10-06 |
 
 ---
 
