@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–229 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–232 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -272,6 +272,9 @@
 | 227 | M8·D227 | The Blessed Man Meditates — Then Prospers | `/the-blessed-man-meditates-then-prospers/` | Prosperity & Stewardship | Ps 1:3 | 969 | 40c / 150c | 20/20 ✔ | 2027-06-16 |
 | 228 | M8·D228 | Abundance for Every Good Work | `/abundance-for-every-good-work/` | Prosperity & Stewardship | 2 Cor 9:8 | 968 | 29c / 144c | 20/20 ✔ | 2027-06-17 |
 | 229 | M8·D229 | Money Answers, but Wisdom Directs | `/money-answers-but-wisdom-directs/` | Prosperity & Stewardship | Eccl 10:19 | 1,005 | 33c / 155c | 20/20 ✔ | 2027-06-18 |
+| 230 | M8·D230 | Kingdom Investment Pays Eternal Dividends | `/kingdom-investment-pays-eternal-dividends/` | Prosperity & Stewardship | Matt 19:29 | 925 | 41c / 147c | 20/20 ✔ | 2027-06-19 |
+| 231 | M8·D231 | The Cheerful Giver's Secret | `/the-cheerful-givers-secret/` | Prosperity & Stewardship | 2 Cor 9:7 | 1,013 | 27c / 156c | 20/20 ✔ | 2027-06-20 |
+| 232 | M8·D232 | The Power to Get Wealth Is Covenant Enablement | `/the-power-to-get-wealth-is-covenant-enablement/` | Prosperity & Stewardship | Deut 8:18 | 994 | 33c / 142c | 20/20 ✔ | 2027-06-21 |
 
 ---
 
