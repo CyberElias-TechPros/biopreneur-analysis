@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–232 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–233 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -275,6 +275,7 @@
 | 230 | M8·D230 | Kingdom Investment Pays Eternal Dividends | `/kingdom-investment-pays-eternal-dividends/` | Prosperity & Stewardship | Matt 19:29 | 925 | 41c / 147c | 20/20 ✔ | 2027-06-19 |
 | 231 | M8·D231 | The Cheerful Giver's Secret | `/the-cheerful-givers-secret/` | Prosperity & Stewardship | 2 Cor 9:7 | 1,013 | 27c / 156c | 20/20 ✔ | 2027-06-20 |
 | 232 | M8·D232 | The Power to Get Wealth Is Covenant Enablement | `/the-power-to-get-wealth-is-covenant-enablement/` | Prosperity & Stewardship | Deut 8:18 | 994 | 33c / 142c | 20/20 ✔ | 2027-06-21 |
+| 233 | M8·D233 | Prosper Your Soul First | `/prosper-your-soul-first/` | Prosperity & Stewardship | 3 John 2 | 919 | 49c / 140c | 20/20 ✔ | 2027-06-22 |
 
 ---
 
