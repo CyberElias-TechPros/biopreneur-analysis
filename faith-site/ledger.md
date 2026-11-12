@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–304 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–311 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -347,6 +347,13 @@
 | 302 | M10·D302 | Exposing Works of Darkness Without Fearing Them | `/exposing-works-of-darkness-without-fearing-them/` | Spiritual Warfare | Eph 5:11 | 952 | 39c / 154c | 20/20 ✔ | 2027-08-30 |
 | 303 | M10·D303 | The Full Armour, Piece by Piece | `/the-full-armour-piece-by-piece/` | Spiritual Warfare | Eph 6:13 | 954 | 31c / 146c | 20/20 ✔ | 2027-08-31 |
 | 304 | M10·D304 | Greater Is He: Living From the Overcomer's Seat | `/greater-is-he-living-from-the-overcomers-seat/` | Spiritual Warfare | 1 John 4:4 | 950 | 47c / 152c | 20/20 ✔ | 2027-09-01 |
+| 305 | M11·D305 | The Glory in You Outweighs the Pressure Around You | `/the-glory-in-you-outweighs-the-pressure-around-you/` | Christian Living | 2 Cor 4:17 | 1,128 | 39c / 149c | 20/20 ✔ | 2027-09-02 |
+| 306 | M11·D306 | Glorified Together With Christ | `/glorified-together-with-christ/` | Christian Living | Rom 8:17 | 949 | 30c / 147c | 20/20 ✔ | 2027-09-03 |
+| 307 | M11·D307 | Light in the Lord: Children of the Day | `/light-in-the-lord-children-of-the-day/` | Christian Living | Eph 5:8 | 1,114 | 38c / 146c | 20/20 ✔ | 2027-09-04 |
+| 308 | M11·D308 | Creation Is Waiting for Your Manifestation | `/creation-is-waiting-for-your-manifestation/` | Christian Living | Rom 8:19 | 930 | 37c / 147c | 20/20 ✔ | 2027-09-05 |
+| 309 | M11·D309 | Shine as Lights in a Dark Generation | `/shine-as-lights-in-a-dark-generation/` | Christian Living | Phil 2:15 | 961 | 36c / 144c | 20/20 ✔ | 2027-09-06 |
+| 310 | M11·D310 | The Honor of Carrying His Presence | `/the-honor-of-carrying-his-presence/` | Christian Living | 2 Sam 6:14 | 968 | 34c / 156c | 20/20 ✔ | 2027-09-07 |
+| 311 | M11·D311 | Excellence Is a Spirit, Not a Standard | `/excellence-is-a-spirit-not-a-standard/` | Christian Living | Dan 6:3 | 1,013 | 38c / 146c | 20/20 ✔ | 2027-09-08 |
 
 ---
 
