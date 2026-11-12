@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–215 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–217 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -258,6 +258,8 @@
 | 213 | M8·D213 | Prosperity Is Progressive | `/prosperity-is-progressive/` | Prosperity & Stewardship | Prov 4:18 | 1,075 | 25c / 142c | 20/20 ✔ | 2027-06-02 |
 | 214 | M8·D214 | The Blessing That Adds No Sorrow | `/the-blessing-that-adds-no-sorrow/` | Prosperity & Stewardship | Prov 10:22 | 1,033 | 32c / 144c | 20/20 ✔ | 2027-06-03 |
 | 215 | M8·D215 | Wealth With a Purpose: Covenant Distribution | `/wealth-with-a-purpose-covenant-distribution/` | Prosperity & Stewardship | 2 Cor 9:8 | 1,081 | 44c / 150c | 20/20 ✔ | 2027-06-04 |
+| 216 | M8·D216 | Tithing Teaches the Heart | `/tithing-teaches-the-heart/` | Prosperity & Stewardship | Matt 6:21 | 941 | 25c / 144c | 20/20 ✔ | 2027-06-05 |
+| 217 | M8·D217 | The Tithe as Testimony of Priority | `/the-tithe-as-testimony-of-priority/` | Prosperity & Stewardship | Matt 6:33 | 1,109 | 34c / 158c | 20/20 ✔ | 2027-06-06 |
 
 ---
 
