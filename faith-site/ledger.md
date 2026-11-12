@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–206 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–209 Live — Months 1–6 Complete, Month 7 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -249,6 +249,9 @@
 | 204 | M7·D204 | Stress, Fear, and the Body That Carries Them | `/stress-fear-and-the-body-that-carries-them/` | Divine Health | 1 Pet 5:7 | 1,096 | 26c / 153c | 20/20 ✔ | 2027-05-24 |
 | 205 | M7·D205 | Soul and Body: One Saved Whole Person | `/soul-and-body-one-saved-whole-person/` | Divine Health | 1 Thess 5:23 | 1,061 | 37c / 143c | 20/20 ✔ | 2027-05-25 |
 | 206 | M7·D206 | Stewardship of the Temple: Eat, Rest, and Rule | `/stewardship-of-the-temple-eat-rest-and-rule/` | Divine Health | 1 Cor 6:19–20 | 1,065 | 42c / 150c | 20/20 ✔ | 2027-05-26 |
+| 207 | M7·D207 | Testimonies: The Report That Builds Faith | `/testimonies-the-report-that-builds-faith/` | Divine Health | Rev 12:11 | 1,089 | 41c / 149c | 20/20 ✔ | 2027-05-27 |
+| 208 | M7·D208 | Wholeness Has an Order: Spirit, Soul, Then Body | `/wholeness-has-an-order-spirit-soul-then-body/` | Divine Health | 3 John 2 | 1,118 | 42c / 150c | 20/20 ✔ | 2027-05-28 |
+| 209 | M7·D209 | Long Life: The Conditions Scripture Names | `/long-life-the-conditions-scripture-names/` | Divine Health | Ps 91:16 | 1,123 | 41c / 151c | 20/20 ✔ | 2027-05-29 |
 
 ---
 
