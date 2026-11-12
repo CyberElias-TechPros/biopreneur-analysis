@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–181 Live — Months 1–6 Complete, Month 7 Next)
+## 2. Published Articles Ledger (Days 001–182 Live — Months 1–6 Complete, Month 7 Next)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -224,6 +224,7 @@
 | 179 | M6·D179 | The Prayer of Dedication: Saying Yes to His Plan | `/the-prayer-of-dedication-saying-yes/` | Prayer & Fasting | Rom 12:1 | 1,418 | 36c / 148c | 20/20 ✔ | 2027-04-29 |
 | 180 | M6·D180 | From Prayer Requests to a Prayer Lifestyle | `/from-prayer-requests-to-a-prayer-lifestyle/` | Prayer & Fasting | Luke 11:1 | 1,275 | 42c / 149c | 20/20 ✔ | 2027-04-30 |
 | 181 | M6·D181 | The House of Prayer: What the Temple Teaches | `/the-house-of-prayer-what-the-temple-teaches/` | Prayer & Fasting | Isa 56:7 | 1,611 | 44c / 145c | 20/20 ✔ | 2027-05-01 |
+| 182 | M7·D182 | Healing Is the Children's Bread | `/healing-is-the-childrens-bread/` | Divine Health | Matt 15:26–27 | 1,385 | 31c / 148c | 20/20 ✔ | 2027-05-02 |
 
 ---
 
