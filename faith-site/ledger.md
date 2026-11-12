@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–135 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–136 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -178,6 +178,7 @@
 | 133 | M5·D133 | Quick and Powerful: The Word That Reads You | `/quick-and-powerful-the-word-that-reads-you/` | The Word | Heb 4:12 | 1,234 | 43c / 155c | 20/20 ✔ | 2027-03-14 |
 | 134 | M5·D134 | Broken Cisterns and the Fountain of the Word | `/broken-cisterns-and-the-fountain-of-the-word/` | The Word | Jer 2:13 | 1,068 | 44c / 156c | 20/20 ✔ | 2027-03-15 |
 | 135 | M5·D135 | The Word Works When You Work It | `/the-word-works-when-you-work-it/` | The Word | Jas 1:22 | 1,157 | 31c / 149c | 20/20 ✔ | 2027-03-16 |
+| 136 | M5·D136 | Take Heed How You Hear | `/take-heed-how-you-hear/` | The Word | Luke 8:18 | 1,079 | 34c / 146c | 20/20 ✔ | 2027-03-17 |
 
 ---
 
