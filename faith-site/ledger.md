@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–160 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–161 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -203,6 +203,7 @@
 | 158 | M6·D158 | The Prayer of Agreement: Two Are Better | `/the-prayer-of-agreement-two-are-better/` | Prayer & Fasting | Matt 18:19–20 | 1,039 | 39c / 143c | 20/20 ✔ | 2027-04-08 |
 | 159 | M6·D159 | Fasting Sharpens What Prayer Fires | `/fasting-sharpens-what-prayer-fires/` | Prayer & Fasting | Matt 6:16 | 943 | 34c / 149c | 20/20 ✔ | 2027-04-09 |
 | 160 | M6·D160 | Your Prayer Life Reveals Your Trust Level | `/your-prayer-life-reveals-your-trust-level/` | Prayer & Fasting | Phil 4:6 | 1,049 | 41c / 140c | 20/20 ✔ | 2027-04-10 |
+| 161 | M6·D161 | The Altar Is Personal Before It Is Public | `/the-altar-is-personal-before-it-is-public/` | Prayer & Fasting | Matt 6:6 | 1,034 | 41c / 141c | 20/20 ✔ | 2027-04-11 |
 
 ---
 
