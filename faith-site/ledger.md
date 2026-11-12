@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–139 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–140 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -182,6 +182,7 @@
 | 137 | M5·D137 | Soil Determines Harvest: The Parable of Hearing | `/soil-determines-harvest-the-parable-of-hearing/` | The Word | Matt 13:23 | 1,099 | 47c / 150c | 20/20 ✔ | 2027-03-18 |
 | 138 | M5·D138 | Doers, Not Hearers Only: The Architecture of Obedience | `/doers-not-hearers-only/` | The Word | Matt 7:24 | 1,070 | 54c / 145c | 20/20 ✔ | 2027-03-19 |
 | 139 | M5·D139 | The Word as Medicine: Take It Daily | `/the-word-as-medicine-take-it-daily/` | The Word | Prov 4:20–22 | 1,224 | 35c / 150c | 20/20 ✔ | 2027-03-20 |
+| 140 | M5·D140 | What You Feed Grows; What You Starve Dies | `/what-you-feed-grows-what-you-starve-dies/` | The Word | Gal 5:17 | 1,177 | 41c / 153c | 20/20 ✔ | 2027-03-21 |
 
 ---
 
