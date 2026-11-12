@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–345 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–346 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -388,6 +388,7 @@
 | 343 | M12·D343 | Shepherds and Stars: Heaven's Publicity | `/shepherds-and-stars-heavens-publicity/` | Redemption & His Return | Luke 2:8 | 962 | 39c / 150c | 20/20 ✔ | 2027-10-10 |
 | 344 | M12·D344 | Redemption Through His Blood | `/redemption-through-his-blood/` | Redemption & His Return | Eph 1:7 | 999 | 28c / 156c | 20/20 ✔ | 2027-10-11 |
 | 345 | M12·D345 | No Room at the Inn — Make Room in the Heart | `/no-room-at-the-inn-make-room-in-the-heart/` | Redemption & His Return | Luke 2:7 (katalyma) | 988 | 43c / 144c | 20/20 ✔ | 2027-10-12 |
+| 346 | M12·D346 | Wise Men Still Seek Him | `/wise-men-still-seek-him/` | Redemption & His Return | Matt 2:2 | 913 | 43c / 150c | 20/20 ✔ | 2027-10-13 |
 
 ---
 
