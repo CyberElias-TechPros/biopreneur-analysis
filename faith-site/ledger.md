@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–090 Live — Months 1–3 Complete, Month 4 Next)
+## 2. Published Articles Ledger (Days 001–099 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -140,6 +140,8 @@
 | 095 | M4·D95 | Binding and Loosing: Heaven's Endorsement of Your Word | `/binding-and-losing-heavens-endorsement-of-your-word/` | Authority of the Believer | Matt 18:18 | 950 | 35c / 144c | 20/20 ✔ | 2027-02-04 |
 | 096 | M4·D96 | You Fight From Victory, Not For It | `/you-fight-from-victory-not-for-it/` | Authority of the Believer | Col 2:15 | 917 | 34c / 151c | 20/20 ✔ | 2027-02-05 |
 | 097 | M4·D97 | Dominion Was the First Mandate | `/dominion-was-the-first-mandate/` | Authority of the Believer | Gen 1:26 | 982 | 45c / 148c | 20/20 ✔ | 2027-02-06 |
+| 098 | M4·D98 | The Keys of the Kingdom Are in Your Hand | `/keys-of-the-kingdom-are-in-your-hand/` | Authority of the Believer | Matt 16:19 | 1,516 | 40c / 143c | 20/20 ✔ | 2027-02-07 |
+| 099 | M4·D99 | Principalities Acknowledge Position | `/principalities-acknowledge-position/` | Authority of the Believer | Eph 2:6 | 1,247 | 35c / 152c | 20/20 ✔ | 2027-02-08 |
 
 ---
 

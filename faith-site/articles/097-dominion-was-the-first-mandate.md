@@ -93,11 +93,13 @@ The psalm's promise looks unfulfilled until you look at Christ. In Him, the crow
 
 ### Recovering the Mandate
 
-- **Take responsibility before you take authority.** Dominion begins with ownership of what is actually yours to manage.
-- **Rule your inner world first.** "He that is slow to anger is better than the mighty" (Proverbs 16:32).
-- **Govern your sphere, not someone else's.** The earth was given; the neighbour's field was not.
-- **Refuse passivity as a spiritual virtue.** Waiting on God is not the same as doing nothing.
-- **Faith and wisdom govern with skill.** Dominion is exercised through competence, planning, and diligence — wisdom is how authority becomes useful instead of merely loud.
+The Greek word behind "dominion" in the Septuagint is *archein* — to rule, to be first, to take the lead. It is the same verb family the New Testament uses for Christ as "the beginning, the firstborn from the dead, that in all things he might have the preeminence" (Colossians 1:18). Dominion, then, is not a mood of superiority; it is the act of taking the lead in a place where no one else is leading.
+
+Watch how differently Scripture treats the two failures available to a person holding this mandate. Passivity is never praised as faith. The servant who buried his talent was not commended for humility; he was called wicked and slothful (Matthew 25:26). Yet neither is seizure commended. When Israel's elders tried to take leadership God had not assigned, the earth opened (Numbers 16). The mandate is real, the boundaries are real, and both matter.
+
+There is also a recovery order worth noticing. God did not ask Adam to make himself an image before restoring his function, and He does not ask you to. You are not working toward a qualification; you are working from one. That is why Paul can tell the Colossians to behave in a way that matches what has already been done to them: "ye are dead, and your life is hid with Christ in God" (Colossians 3:3)."
+
+The indicative precedes the imperative, here as everywhere.
 
 ### Two Directions of Error
 
@@ -168,7 +170,7 @@ That means the fall did not remove the mandate; it corrupted the exercise of it.
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Authority of the Believer, the New Creation, the Kingdom of God |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 45c · Meta 148c|
-| 17 | Words | ≥900 (Standard) | ✔ 982 words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1,124 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 6 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 13 anchors |
