@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–149 Live — Months 1–4 Complete, Month 5 In Progress)
+## 2. Published Articles Ledger (Days 001–150 Live — Months 1–4 Complete, Month 5 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -192,6 +192,7 @@
 | 147 | M5·D147 | Speaking Scripture Is Planting Scripture | `/speaking-scripture-is-planting-scripture/` | The Word | Rom 10:8 | 1,101 | 40c / 150c | 20/20 ✔ | 2027-03-28 |
 | 148 | M5·D148 | When Memory Meets Meditation | `/when-memory-meets-meditation/` | The Word | Ps 143:5 | 1,044 | 28c / 154c | 20/20 ✔ | 2027-03-29 |
 | 149 | M5·D149 | The Word Separates, Sanctifies, and Sends | `/the-word-separates-sanctifies-and-sends/` | The Word | John 17:17–18 | 1,040 | 41c / 140c | 20/20 ✔ | 2027-03-30 |
+| 150 | M5·D150 | Search the Scriptures Daily: The Noble Habit | `/search-the-scriptures-daily/` | The Word | Acts 17:11 | 1,008 | 44c / 149c | 20/20 ✔ | 2027-03-31 |
 
 ---
 
