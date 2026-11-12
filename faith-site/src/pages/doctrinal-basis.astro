@@ -2,12 +2,37 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LightLine from '../components/LightLine.astro';
 import { SITE } from '../data/site';
+
+const dbOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const dbUrl = `${dbOrigin}/doctrinal-basis/`;
+const dbSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${dbUrl}#doctrinal-basis`,
+    name: `Doctrinal Basis — ${SITE.name}`,
+    description: SITE.description,
+    url: dbUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${dbOrigin}/#website` },
+    about: { '@id': `${dbOrigin}/#organization` },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${dbOrigin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Doctrinal Basis', item: dbUrl },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`Doctrinal Basis & Statement of Faith — ${SITE.name}`}
   description="Read the ten-article historic Christian Statement of Faith and Faith-with-Wisdom editorial covenant governing every teaching published at In Jesus Name."
   canonicalPath="/doctrinal-basis/"
+  jsonLd={dbSchema}
 >
   <section class="page-header">
     <div class="reading-container">

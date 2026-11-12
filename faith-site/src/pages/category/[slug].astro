@@ -35,12 +35,51 @@ const slate = getYearSlate();
 const relatedMonths = slate.filter((m) =>
   category.slateMonths.includes(m.monthNumber)
 );
+
+const catOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const catUrl = `${catOrigin}/category/${category.slug}/`;
+const categorySchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${catUrl}#collection`,
+    name: `${category.name} Teachings`,
+    description: category.metaDescription,
+    url: catUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${catOrigin}/#website` },
+    about: { '@type': 'Thing', name: category.name, description: category.shortLine },
+    mainEntity: {
+      '@type': 'ItemList',
+      '@id': `${catUrl}#teachings`,
+      name: `${category.name} — published teachings`,
+      numberOfItems: publishedInCat.length,
+      itemListOrder: 'https://schema.org/ItemListOrderAscending',
+      itemListElement: publishedInCat.map((entry, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        url: `${catOrigin}/${entry.data.slug}/`,
+        name: entry.data.title,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${catOrigin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Teachings', item: `${catOrigin}/teachings/` },
+      { '@type': 'ListItem', position: 3, name: category.name, item: catUrl },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`${category.name} Teachings — ${SITE.name}`}
-  description={`${category.shortLine} Study Scripture-anchored Christian teachings in ${category.name} at In Jesus Name.`}
+  description={category.metaDescription}
   canonicalPath={`/category/${category.slug}/`}
+  jsonLd={categorySchema}
 >
   <section class="page-header">
     <div class="reading-container">

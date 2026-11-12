@@ -9,7 +9,8 @@
     "build": "astro build",
     "preview": "astro preview --host 0.0.0.0 --port 4321",
     "astro": "astro",
-    "audit": "python3 scripts/audit_articles.py"
+    "audit": "python3 scripts/audit_articles.py",
+    "seo": "python3 scripts/seo_audit.py"
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.19",

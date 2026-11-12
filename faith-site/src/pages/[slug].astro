@@ -52,30 +52,35 @@ const structuredData = [
     headline: data.title,
     description: data.description,
     wordCount,
+    inLanguage: SITE.language,
     datePublished: data.pubDate,
     dateModified: data.updatedDate || data.pubDate,
     mainEntityOfPage: {
       '@type': 'WebPage',
       '@id': canonicalUrl,
     },
-    image: `${siteOrigin}/images/og-default.png`,
+    image: {
+      '@type': 'ImageObject',
+      url: `${siteOrigin}/images/open-scripture.jpg`,
+      width: 1200,
+      height: 654,
+      caption: data.featuredImageAlt,
+    },
+    thumbnailUrl: `${siteOrigin}/images/open-scripture-720.webp`,
     articleSection: data.category,
     keywords: [data.primaryKeyword, ...data.secondaryKeywords].join(', '),
     author: {
       '@type': 'Person',
+      '@id': `${siteOrigin}/about/#ellis-graham`,
       name: SITE.teacher.name,
       jobTitle: SITE.teacher.role,
       url: `${siteOrigin}/about/`,
     },
-    publisher: {
-      '@type': 'Organization',
-      name: SITE.name,
-      url: `${siteOrigin}/`,
-      logo: {
-        '@type': 'ImageObject',
-        url: `${siteOrigin}/favicon.svg`,
-      },
-    },
+    publisher: { '@id': `${siteOrigin}/#organization` },
+    isPartOf: { '@id': `${siteOrigin}/#website` },
+    isAccessibleForFree: true,
+    copyrightHolder: { '@id': `${siteOrigin}/#organization` },
+    copyrightYear: new Date(`${data.pubDate}T00:00:00Z`).getUTCFullYear(),
   },
   {
     '@context': 'https://schema.org',
@@ -118,6 +123,8 @@ const structuredData = [
   publishedTime={data.pubDate}
   modifiedTime={data.updatedDate || data.pubDate}
   showReadingProgress={true}
+  articleSection={data.category}
+  articleTags={data.tags}
   jsonLd={structuredData}
 >
   <article class="reading-container" style="padding-top: clamp(2.25rem, 5vw, 3.75rem); padding-bottom: 2rem;">
@@ -164,6 +171,35 @@ const structuredData = [
 
     <!-- H1 -->
     <h1>{data.title}</h1>
+
+    <!-- Hero art: one real, alt-described image per teaching (Core Web Vitals:
+         explicit dimensions + srcset, no layout shift, fetchpriority high) -->
+    <figure class="article-hero">
+      <picture>
+        <source
+          type="image/avif"
+          srcset="/images/open-scripture-720.avif 720w, /images/open-scripture-1200.avif 1200w"
+          sizes="(max-width: 760px) 100vw, 760px"
+        />
+        <source
+          type="image/webp"
+          srcset="/images/open-scripture-720.webp 720w, /images/open-scripture-1200.webp 1200w"
+          sizes="(max-width: 760px) 100vw, 760px"
+        />
+        <img
+          src="/images/open-scripture.jpg"
+          alt={data.featuredImageAlt}
+          width="1200"
+          height="654"
+          loading="eager"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </picture>
+      <figcaption class="meta-caps">
+        {data.themeScripture.reference} &middot; Day {dayPadded}
+      </figcaption>
+    </figure>
 
     <!-- 1. Theme-Scripture Block -->
     <ThemeScripture

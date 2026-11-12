@@ -9,6 +9,31 @@ import os
 import re
 import sys
 
+# Section 12 row 14 — the faith-and-wisdom line. Every article touches ordinary
+# life (health, money, work, speech), so every article must carry it somewhere.
+FAITH_AND_WISDOM = [
+    "faith and wisdom", "faith and practical wisdom", "faith and wisdom work",
+    "wisdom and faith", "prayer and wisdom", "faith works with", "faith and medicine",
+    "medical care", "professional counsel", "sound care", "diligent work",
+    "wisdom work together", "wisdom and diligence", "faith plus wisdom",
+]
+
+# Section 2 Law 4 / Section 8 — at least two explicit contrast pairs.
+# Detector is deliberately conservative: it looks for the grammatical shape of a
+# correction ("is not X; it is Y", "not X but Y", "rather than", "instead of", "vs").
+CONTRAST_PATTERNS = [
+    # "is not X; it is Y" — the core corrective shape, across any verb/punctuation.
+    r"\b(?:is|are|was|were|does|do)\s+not\b[^.!?\n]{0,110}[;,—–.]\s*"
+    r"(?:it|this|that|he|she|they|you)\s+(?:is|was|are|were|does|do)\b",
+    # "not X but Y"
+    r"\bnot\s+(?:a|an|the|merely|just|simply|only|by|from|of)\b[^.!?\n]{0,110}\bbut\b",
+    # appositive correction: "an intruder, not your landlord" / "grace — not performance"
+    r"\b\w+\s*,\s*not\s+(?:your|a|an|the|merely|just|only)\s+\w+",
+    r"—\s*not\s+\w+[^.!?\n]{0,70}\bbut\b",
+    r"\bvs\.?\b", r"\bversus\b", r"\brather than\b", r"\binstead of\b",
+    r"\bwhat it is not\b", r"\bis not the same as\b", r"\bmisconception\b",
+]
+
 BANNED_PHRASES = [
     "in today's fast-paced world",
     "delve",
@@ -68,12 +93,55 @@ def load_source_titles(repo_root: str):
     return titles
 
 
+def fm_block_terms(raw: str) -> str:
+    """Return only the glossaryTerms list block from the frontmatter."""
+    if not raw.startswith("---\n"):
+        return ""
+    end = raw.find("\n---\n", 4)
+    fm_block = raw[4:end] if end != -1 else ""
+    m = re.search(r"^glossaryTerms:\s*\n((?:[ \t]+- .*\n)+)", fm_block, flags=re.M)
+    return m.group(1) if m else ""
+
+
+def load_categories(site_dir: str):
+    path = os.path.join(site_dir, "src", "data", "categories.ts")
+    if not os.path.exists(path):
+        return set()
+    txt = open(path, encoding="utf-8").read()
+    return {m.strip() for m in re.findall(r"^\s*name: '([^']+)',", txt, flags=re.M)}
+
+
+def load_glossary_terms(site_dir: str):
+    path = os.path.join(site_dir, "glossary.md")
+    if not os.path.exists(path):
+        return set()
+    txt = open(path, encoding="utf-8").read()
+    terms = set()
+    for t in re.findall(r"^### \d+\. (.+)$", txt, flags=re.M):
+        t = re.sub(r"\s*\(\*.*?\)\s*", " ", t)
+        terms.add(re.sub(r"\s+", " ", t).strip().lower())
+    return terms
+
+
+def load_published_slugs(articles_dir: str):
+    slugs = set()
+    for path in glob.glob(os.path.join(articles_dir, "*.md")):
+        txt = open(path, encoding="utf-8").read()
+        m = re.search(r'^slug:\s*"?([A-Za-z0-9\-]+)"?\s*$', txt, flags=re.M)
+        if m:
+            slugs.add(m.group(1))
+    return slugs
+
+
 def main():
     script_dir = os.path.dirname(os.path.abspath(__file__))
     site_dir = os.path.dirname(script_dir)
     repo_root = os.path.dirname(site_dir)
     articles_dir = os.path.join(site_dir, "articles")
     source_titles = load_source_titles(repo_root)
+    glossary_terms = load_glossary_terms(site_dir)
+    categories = load_categories(site_dir)
+    published_slugs = load_published_slugs(articles_dir)
 
     files = sorted(glob.glob(os.path.join(articles_dir, "*.md")))
     if not files:
@@ -114,8 +182,11 @@ def main():
 
         body_words = count_words(reader_part)
         prose_words = count_words(prose_only)
-        if body_words < 900:
-            errors.append(f"body words {body_words} < 900 floor")
+        # The 900-word floor applies to TEACHING PROSE — the body before
+        # <!-- END-PROSE -->. The closing reaffirmation/declaration/further-study
+        # block is fixed furniture and must never be counted toward the floor.
+        if prose_words < 900:
+            errors.append(f"prose words {prose_words} < 900 floor")
 
         seo_len = len(fm.get("seoTitle", ""))
         if not (25 <= seo_len <= 60):
@@ -136,6 +207,34 @@ def main():
         h2s = re.findall(r"^##\s+(.+)$", prose_only, flags=re.M)
         if len(h2s) < 3:
             errors.append(f"H2 count {len(h2s)} < 3")
+        if len(h2s) > 3:
+            errors.append(f"H2 count {len(h2s)} > 3 (Standard allows 0-3; demote extras to H3)")
+
+        if not re.search(r"^##\s+What This Means for You", prose_only, flags=re.M):
+            errors.append("missing required '## What This Means for You' section")
+
+        if "here is the contrast:" in prose_only.lower():
+            errors.append("template tic 'Here is the contrast:' — rewrite the contrast")
+
+        # Row 14 — faith-and-wisdom line wherever practical life is touched.
+        if not any(fw in prose_only.lower() for fw in FAITH_AND_WISDOM):
+            errors.append("missing faith-and-wisdom line (Section 12 row 14)")
+
+        # Row 5 — explicit contrast pairs (Section 2 Law 4: minimum two).
+        contrast = sum(len(re.findall(pat, prose_only, flags=re.I)) for pat in CONTRAST_PATTERNS)
+        if contrast < 2:
+            errors.append(f"contrast pairs {contrast} < 2")
+
+        # "Bold anchors" (Section 8) are bolded STATEMENTS carrying the revelation,
+        # not inline emphasis of a single word inside a quoted verse. Count only
+        # bold spans of 5+ words, which is the length at which a phrase becomes an anchor.
+        bold_anchors = sum(
+            1
+            for sp in re.findall(r"\*\*((?:[^*]|\*(?!\*))+)\*\*", prose_only)
+            if len(sp.split()) >= 5
+        )
+        if not (4 <= bold_anchors <= 14):
+            errors.append(f"bold anchors {bold_anchors} outside 4..14")
 
         low = prose_only.lower()
         for bp in BANNED_PHRASES:
@@ -162,18 +261,41 @@ def main():
         if len(refs) < 3:
             errors.append(f"cross-references in prose {len(refs)} < 3")
 
-        status = "PASS (18/18)" if not errors else "FAIL: " + "; ".join(errors)
+        # Related-teaching handoffs must resolve to a published article (no 404s / fallbacks).
+        related_slugs = re.findall(r'slug:\s*"([A-Za-z0-9\-]+)"', raw)
+        related_slugs = [sl for sl in related_slugs if sl != slug]
+        for sl in related_slugs:
+            if sl not in published_slugs:
+                errors.append(f"relatedTeaching slug '{sl}' is not published")
+
+        # Category must match a real category page (or the article 404s from its category).
+        if categories and fm.get("category") not in categories:
+            errors.append(f"category '{fm.get('category')}' is not in categories.ts")
+
+        # Every glossaryTerms value must be a canonised entry in glossary.md.
+        if glossary_terms:
+            for term in re.findall(r'^  - "(.+)"$', fm_block_terms(raw), flags=re.M):
+                if term.strip().lower() not in glossary_terms:
+                    errors.append(f"glossaryTerm '{term}' is not in glossary.md")
+
+        # The self-audit table must tell the truth about the file it sits in.
+        for row, actual in (("17", prose_words), ("16", seo_len), ("12", decl_words), ("6", q_count)):
+            m_row = re.search(rf"^\| {row} \|[^\n]*?✔ ([\d,]+)", raw, flags=re.M)
+            if m_row and int(m_row.group(1).replace(",", "")) != actual:
+                errors.append(f"self-audit row {row} claims {m_row.group(1)}, actual {actual}")
+
+        status = "PASS (20/20)" if not errors else "FAIL: " + "; ".join(errors)
         if errors:
             failures += 1
         print(
-            f"{fname[:46]:46s} | {body_words:5d} | {seo_len:3d} | {meta_len:4d} | {decl_words:4d} | {q_count:2d} | {len(h2s):2d} | {status}"
+            f"{fname[:46]:46s} | {prose_words:5d} | {seo_len:3d} | {meta_len:4d} | {decl_words:4d} | {q_count:2d} | {len(h2s):2d} | {status}"
         )
 
     print("-" * len(header))
     if failures:
         print(f"\nFAILED: {failures} article(s) had audit errors.")
         sys.exit(1)
-    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, length, voice, and compliance check.")
+    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, prose-length, structure, voice, self-audit-integrity, link-integrity, glossary, category, and compliance check.")
 
 
 if __name__ == "__main__":

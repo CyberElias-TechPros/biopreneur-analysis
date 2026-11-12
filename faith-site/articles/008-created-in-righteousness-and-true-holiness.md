@@ -67,7 +67,7 @@ Picture a craftsman redeemed out of debt and adopted into a royal household. Cle
 
 Between "put off the old man" (verse 22) and "put on the new man" (verse 24), Paul places the hinge of the entire passage in verse 23: "And **be renewed in the spirit of your mind**." **Renewing of the Mind** — replacing old, deceit-trained patterns of thought with Scripture's truth — is the daily dressing room where inward creation becomes outward character.
 
-## How the Rest of Scripture Unpacks This Wardrobe
+### How the Rest of Scripture Unpacks This Wardrobe
 
 - **Ephesians 4:25–32** — Immediately after saying "put on the new man," Paul shows what that wardrobe looks like on Tuesday afternoon: putting away lying to speak truth, refusing to let anger harden overnight, working diligently with your hands so you have something to give to those in need, speaking words that minister grace, and forgiving one another "even as God for Christ's sake hath forgiven you." True holiness is wonderfully down-to-earth!
 - **Colossians 3:9–10, 12** — Seeing you have put off the old man with his deeds and "have put on the new man, which is renewed in knowledge **after the image of him that created him**… Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering." Every virtue you wear in relationships flows from the image of the Creator stamped on your reborn spirit.
@@ -115,25 +115,27 @@ Between "put off the old man" (verse 22) and "put on the new man" (verse 24), Pa
 - **Category:** Christian Living · **Tags:** the New Creation · Renewing of the Mind · Faith and Wisdom
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Ephesians 4:24 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — Gen 1:26, Eph 4:22–23, Eph 4:25–32, Col 3:9–12, Titus 2:11–12, Eph 4:28–29 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 10 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — borrowed costume vs tailored new man · lusts of deceit vs holiness of truth · legalism vs grace that teaches · counterfeit coldness vs warm Christlikeness |
-| 6 | Rhetorical questions | 2 | ✔ 3 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 3 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Adopted craftsman choosing royal wardrobe vs yesterday's workshop rags |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 7 — all seven deployed |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, wardrobe illustration, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 61 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 60 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit Faith and Wisdom section (Point 3) + work/anger ethics |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the New Creation, Renewing of the Mind, Faith and Wisdom |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 54c · Meta 151c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,280 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 53c · Meta 153c|
+| 17 | Words | ≥900 (Standard) | ✔ 1,027 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 12 anchors |

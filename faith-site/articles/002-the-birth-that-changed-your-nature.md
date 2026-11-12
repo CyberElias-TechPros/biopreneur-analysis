@@ -67,7 +67,7 @@ Consider two animals standing in the same farmyard after a heavy rain: a pig and
 
 In the same way, **the New Birth** — the inward regeneration accomplished by the Holy Spirit when you trusted Christ — gave your human spirit a new Parent and therefore a new appetite. God imparted **Divine Life** (*zoe*, His own eternal, uncreated life) into your inward man. That is why a genuinely born-again believer can never again feel permanently at home in sin. Even when an unrenewed habit trips you up, something deep inside you protests, grieves, and reaches for cleansing. That inner protest is not proof that you are fake; it is evidence that your nature has changed!
 
-## Scripture Witnesses to One Miracle of Origin
+### Scripture Witnesses to One Miracle of Origin
 
 Watch how the rest of the New Testament explains this same miracle of origin from three distinct angles:
 
@@ -117,25 +117,27 @@ Watch how the rest of the New Testament explains this same miracle of origin fro
 - **Category:** New Creation & Identity · **Tags:** the New Birth · Divine Life · the Life of the Spirit
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ John 3:6–7 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — John 3:3, John 3:4, John 1:12–13, Titus 3:5, James 1:18, Ezek 36:26 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 7 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 3 — flesh vs Spirit · training vs birth · willpower vs life of the Spirit |
-| 6 | Rhetorical questions | 2 | ✔ 3 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 5 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Lamb vs pig after rain (birth decides appetite) |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, reinterpretation, contrast, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, illustration turn, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 68 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 68 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Point 4 explicitly pairs faith and practical wisdom |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the New Birth, Divine Life, the Life of the Spirit |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 45c · Meta 149c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,240 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 45c · Meta 146c|
+| 17 | Words | ≥900 (Standard) | ✔ 1,135 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 10 anchors |

@@ -10,6 +10,9 @@ interface Props {
   publishedTime?: string;
   modifiedTime?: string;
   preloadHero?: boolean;
+  noindex?: boolean;
+  articleSection?: string;
+  articleTags?: string[];
 }
 
 const {
@@ -20,6 +23,9 @@ const {
   publishedTime,
   modifiedTime,
   preloadHero = false,
+  noindex = false,
+  articleSection,
+  articleTags,
 } = Astro.props;
 
 const canonicalUrl = new URL(canonicalPath, Astro.site || SITE.url).toString();
@@ -30,7 +36,17 @@ const ogImageUrl = new URL('/images/og-default.png', Astro.site || SITE.url).toS
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>{title}</title>
 <meta name="description" content={description} />
-<link rel="canonical" href={canonicalUrl} />
+{noindex ? (
+  <meta name="robots" content="noindex, follow" />
+) : (
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+)}
+{!noindex && <link rel="canonical" href={canonicalUrl} />}
+{!noindex && <link rel="alternate" hreflang="en" href={canonicalUrl} />}
+{!noindex && <link rel="alternate" hreflang="x-default" href={canonicalUrl} />}
+<meta name="author" content={SITE.teacher.name} />
+<meta name="theme-color" content="#0f0d0a" media="(prefers-color-scheme: dark)" />
+<meta name="theme-color" content="#faf7f2" media="(prefers-color-scheme: light)" />
 <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 <link
   rel="alternate"
@@ -76,15 +92,21 @@ const ogImageUrl = new URL('/images/og-default.png', Astro.site || SITE.url).toS
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:image" content={ogImageUrl} />
+<meta property="og:image:type" content="image/png" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content={`${SITE.name} — ${title}`} />
 {publishedTime && <meta property="article:published_time" content={publishedTime} />}
 {modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+{articleSection && <meta property="article:section" content={articleSection} />}
+{articleTags && articleTags.map((tag) => <meta property="article:tag" content={tag} />)}
+{publishedTime && <meta property="article:author" content={SITE.teacher.name} />}
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImageUrl} />
+<meta name="twitter:image:alt" content={`${SITE.name} — ${title}`} />
 
 <!-- Zero-FOUC Theme & Reading-Comfort Initialization -->
 <script is:inline>

@@ -8,12 +8,49 @@ import { getYearSlate } from '../data/slate';
 const allArticles = await getCollection('articles');
 const byDay = new Map(allArticles.map((a) => [a.data.day, a]));
 const months = getYearSlate();
+const slateOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const slateUrl = `${slateOrigin}/slate/`;
+const slateSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${slateUrl}#slate`,
+    name: '365-Day Teaching Slate',
+    description:
+      `The complete 365-topic teaching curriculum of ${SITE.name}, arranged in twelve monthly Scripture arcs.`,
+    url: slateUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${slateOrigin}/#website` },
+    mainEntity: {
+      '@type': 'ItemList',
+      '@id': `${slateUrl}#months`,
+      name: 'Twelve monthly teaching arcs',
+      numberOfItems: months.length,
+      itemListElement: months.map((month, i) => ({
+        '@type': 'ListItem',
+        position: i + 1,
+        name: `Month ${String(month.monthNumber).padStart(2, '0')}: ${month.monthName}`,
+        description: month.subtitle,
+        url: `${slateUrl}#month-${month.monthNumber}`,
+      })),
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${slateOrigin}/` },
+      { '@type': 'ListItem', position: 2, name: '365-Day Slate', item: slateUrl },
+    ],
+  },
+];
 ---
 
 <BaseLayout
   title={`365-Day Teaching Slate — ${SITE.name}`}
   description="Explore the complete 365-topic Christian teaching curriculum of In Jesus Name across 12 monthly Scripture arcs, from New-Creation Foundations to His Return."
   canonicalPath="/slate/"
+  jsonLd={slateSchema}
 >
   <section class="page-header">
     <div class="swiss-container">

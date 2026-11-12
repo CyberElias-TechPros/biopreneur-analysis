@@ -52,10 +52,10 @@ export const SITE = {
     ],
   },
   teacher: {
-    name: 'Elias Okafor',
+    name: 'Ellis Graham',
     role: 'Editor-in-Chief & Resident Bible Teacher',
-    initials: 'EO',
+    initials: 'EG',
     shortBio:
-      'Elias Okafor serves as Editor-in-Chief and resident Bible teacher at In Jesus Name, writing Scripture-anchored studies that bridge careful New Testament exegesis with Monday-morning Christian living. Every teaching is built on an eight-step Scripture chain — moving from text to principle, identity, and responsible action. His conviction is simple: when believers understand what Christ has finished, holiness and peace stop feeling forced.',
+      'Ellis Graham serves as Editor-in-Chief and resident Bible teacher at In Jesus Name, writing Scripture-anchored studies that bridge careful New Testament exegesis with Monday-morning Christian living. Every teaching is built on an eight-step Scripture chain — moving from text to principle, identity, and responsible action. The conviction behind each study is simple: when believers understand what Christ has finished, holiness and peace stop feeling forced.',
   },
 } as const;

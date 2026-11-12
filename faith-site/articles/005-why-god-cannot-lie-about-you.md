@@ -65,7 +65,7 @@ That is why **the Word of God** — God's authoritative self-revelation, supreme
 
 Imagine holding a bar of pure gold stamped by a national sovereign mint with its certified weight and `.9999` purity mark. Suppose you carry that bar into a dimly lit hallway and a nervous passerby squints at it and mutters, "In this shadow it looks dull — I doubt it is worth much." Did the dim hallway lower the purity of the gold? Not by a fraction of a gram! The assay stamp testifies to what the refiner verified in the furnace, not to how bright the hallway happens to be at dusk. In Christ, God's Word is the Refiner's stamp on your redeemed spirit. Hard seasons may dim the lighting around you, yet they never alter what God has certified in His Son.
 
-## From Moses to Hebrews: One Unbroken Testimony
+### From Moses to Hebrews: One Unbroken Testimony
 
 Watch how both Testaments build a fortress of assurance around this single truth:
 
@@ -82,6 +82,8 @@ Watch how both Testaments build a fortress of assurance around this single truth
 **3. Let God's truth outrank yesterday's memory.** Memory is an archive of where you have been, not a prophet of who you are in Christ. Whenever memory replays an old failure that has already been washed under Christ's blood, answer with Romans 3:4: "Let God be true, but every man a liar" — even when the doubting voice is your own!
 
 **4. Mirror your Father's truthfulness in everyday speech.** Children of the God who cannot lie are called to become people whose word can be trusted at home, in business contracts, and in private commitments (Ephesians 4:25).
+
+**5. Keep **Faith and Wisdom** in the same sentence.** Believing God's verdict about you is faith; verifying the contract, reading the terms before you sign, and keeping records of what you promised are wisdom. God's truthfulness does not suspend your diligence — it obligates it. The believer whose speech can be trusted is usually also the believer who checked the facts before speaking.
 
 ## Putting It to Work This Week
 
@@ -115,25 +117,27 @@ Watch how both Testaments build a fortress of assurance around this single truth
 - **Category:** The Word · **Tags:** the Word of God · Confession of the Word · Spiritual Realities
 - **Schema:** Article/BlogPosting + BreadcrumbList + Person
 
-## SELF-AUDIT TABLE (18/18 verified)
+## SELF-AUDIT TABLE (20/20 verified)
 
 | # | Check | Floor | Measured |
 |---|---|---|---|
 | 1 | Originality vs source & ledger | Title/content new vs 30 source titles + ledger | ✔ Verified clean |
 | 2 | Revelation-first (central truth ≤3rd paragraph) | ✔ | ✔ Stated in ¶2 |
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ Titus 1:2 (KJV) |
-| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 6 — Num 23:19, Heb 6:17–19, 1 John 5:10–11, Rom 3:4, Eph 4:25, James 1:5 |
+| 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 9 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 3 — God's unlying nature vs shifting feelings · false humility vs biblical humility · confession of truth vs denial of practical reality |
-| 6 | Rhetorical questions | 2 | ✔ 4 genuine `?` questions in prose |
+| 6 | Rhetorical questions | 2 | ✔ 6 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Sovereign mint `.9999` gold assay stamp in a dim hallway |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, cumulative build, cross-referencing, practical translation, reaffirmation |
-| 9 | Central-truth repetitions (strengthened) | 3 | ✔ 4 across opening, assay turn, reaffirmation, declaration |
+| 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
 | 10 | "What This Means for You" + practical translation | ✔ + 3–5 apps | ✔ + 4 weekday applications |
 | 11 | Reaffirmation line (quotable) | ✔ | ✔ Present |
-| 12 | Original Declaration/Confession | 40–80 words | ✔ 62 words |
+| 12 | Original Declaration/Confession | 40–80 words | ✔ 62 words|
 | 13 | Further Study passages | 3–5 | ✔ 5 passages |
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Point 2 & App 2 explicitly pair faith with sober practical action |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Word of God, Confession of the Word, Spiritual Realities |
-| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 55c · Meta 153c |
-| 17 | Words | ≥900 (Standard) | ✔ ~1,240 words |
-| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases |
+| 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 55c · Meta 152c|
+| 17 | Words | ≥900 (Standard) | ✔ 1092 words of prose (floor 900) |
+| 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
+| 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
+| 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 12 anchors |

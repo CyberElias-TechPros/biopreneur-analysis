@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import { serializeSitemapEntry } from './src/lib/sitemap-routes.ts';
 
 const siteUrl =
   process.env.PUBLIC_SITE_URL ||
@@ -12,7 +13,13 @@ const siteUrl =
 export default defineConfig({
   site: siteUrl,
   trailingSlash: 'always',
-  integrations: [sitemap()],
+  integrations: [
+    sitemap({
+      // Feed routes are for readers' RSS clients, not search result pages.
+      filter: (page) => !/\/(rss\.xml|robots\.txt)\/?$/.test(page),
+      serialize: serializeSitemapEntry,
+    }),
+  ],
   server: {
     host: '0.0.0.0',
     port: 4321,

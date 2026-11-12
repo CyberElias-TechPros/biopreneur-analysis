@@ -13,12 +13,79 @@ const allArticles = (await getCollection('articles')).sort(
 );
 const dayOne = allArticles[0];
 const slate = getYearSlate();
+const latestArticles = [...allArticles]
+  .sort((a, b) => b.data.day - a.data.day)
+  .slice(0, 10);
 
 const countsByCategory: Record<string, number> = {};
 for (const entry of allArticles) {
   countsByCategory[entry.data.category] =
     (countsByCategory[entry.data.category] || 0) + 1;
 }
+
+const recentArticles = [...allArticles].slice(-10).reverse();
+const homeOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const homeUrl = `${homeOrigin}/`;
+const homeSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Blog',
+    '@id': `${homeUrl}#blog`,
+    name: SITE.name,
+    description: SITE.mission,
+    url: homeUrl,
+    inLanguage: SITE.language,
+    publisher: { '@id': `${homeOrigin}/#organization` },
+    isPartOf: { '@id': `${homeOrigin}/#website` },
+    blogPost: recentArticles.map((entry) => {
+      const prose = (entry.body || '')
+        .split('<!-- AUDIT-BELOW -->')[0]
+        .split('<!-- END-PROSE -->')[0];
+      const words = prose
+        .replace(/[*_>#`|-]/g, ' ')
+        .split(/\s+/)
+        .filter((w) => /[A-Za-z0-9]/.test(w)).length + 180;
+      const postUrl = `${homeOrigin}/${entry.data.slug}/`;
+      return {
+        '@type': 'BlogPosting',
+        '@id': `${postUrl}#article`,
+        headline: entry.data.title,
+        description: entry.data.description,
+        url: postUrl,
+        mainEntityOfPage: { '@type': 'WebPage', '@id': postUrl },
+        datePublished: entry.data.pubDate,
+        dateModified: entry.data.updatedDate || entry.data.pubDate,
+        inLanguage: SITE.language,
+        wordCount: words,
+        articleSection: entry.data.category,
+        keywords: [entry.data.primaryKeyword, ...entry.data.secondaryKeywords].join(', '),
+        image: {
+          '@type': 'ImageObject',
+          url: `${homeOrigin}/images/open-scripture.jpg`,
+          width: 1200,
+          height: 654,
+          caption: entry.data.featuredImageAlt,
+        },
+        author: { '@id': `${homeOrigin}/about/#ellis-graham` },
+        publisher: { '@id': `${homeOrigin}/#organization` },
+        isPartOf: { '@id': `${homeOrigin}/#website` },
+      };
+    }),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    '@id': `${homeUrl}#courses`,
+    name: 'Twelve-month doctrinal curriculum',
+    numberOfItems: slate.length,
+    itemListElement: slate.map((month, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `Month ${String(month.monthNumber).padStart(2, '0')}: ${month.monthName}`,
+      description: month.subtitle,
+    })),
+  },
+];
 ---
 
 <BaseLayout
@@ -26,6 +93,7 @@ for (const entry of allArticles) {
   description="In Jesus Name publishes Scripture-saturated Christian teachings unveiling your new-creation identity in Christ, right standing by grace, and wise daily living."
   canonicalPath="/"
   preloadHero={true}
+  jsonLd={homeSchema}
 >
   <!-- Full-Bleed Dawn Hero (DESIGN_SPEC §2 & §3) -->
   <section class="dawn-hero">
@@ -120,16 +188,16 @@ for (const entry of allArticles) {
     <CategoryStrips articleCounts={countsByCategory} />
   </section>
 
-  <!-- Featured Teachings — Month 1 Week 1 (Numbered Magazine List) -->
+  <!-- Latest Teachings (Numbered Magazine List) -->
   <section class="swiss-container" style="padding-bottom: clamp(3.5rem, 6vw, 5.5rem);" data-reveal>
     <div
       style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem;"
     >
       <div>
         <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">
-          Arc 01 &middot; New-Creation Foundations
+          Latest &middot; Arcs 01&ndash;02 &middot; {allArticles.length} Teachings Live
         </p>
-        <h2 style="margin: 0;">Week One Teachings</h2>
+        <h2 style="margin: 0;">Newest Teachings</h2>
       </div>
       <a class="meta-caps" href="/teachings/">
         Open full Teaching Index &rarr;
@@ -138,7 +206,7 @@ for (const entry of allArticles) {
 
     <ol class="editorial-row-list" style="border-top: 1px solid var(--border-gold);">
       {
-        allArticles.map((entry) => (
+        latestArticles.map((entry) => (
           <li class="editorial-row">
             <div style="display: flex; gap: 1.25rem; align-items: baseline;">
               <span
