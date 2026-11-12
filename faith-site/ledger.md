@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–180 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–181 Live — Months 1–6 Complete, Month 7 Next)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -223,6 +223,7 @@
 | 178 | M6·D178 | Praying the Word Is Praying His Will | `/praying-the-word-is-praying-his-will/` | Prayer & Fasting | 1 John 5:14–15 | 1,601 | 36c / 149c | 20/20 ✔ | 2027-04-28 |
 | 179 | M6·D179 | The Prayer of Dedication: Saying Yes to His Plan | `/the-prayer-of-dedication-saying-yes/` | Prayer & Fasting | Rom 12:1 | 1,418 | 36c / 148c | 20/20 ✔ | 2027-04-29 |
 | 180 | M6·D180 | From Prayer Requests to a Prayer Lifestyle | `/from-prayer-requests-to-a-prayer-lifestyle/` | Prayer & Fasting | Luke 11:1 | 1,275 | 42c / 149c | 20/20 ✔ | 2027-04-30 |
+| 181 | M6·D181 | The House of Prayer: What the Temple Teaches | `/the-house-of-prayer-what-the-temple-teaches/` | Prayer & Fasting | Isa 56:7 | 1,611 | 44c / 145c | 20/20 ✔ | 2027-05-01 |
 
 ---
 
@@ -246,4 +247,5 @@
 - **2027-02-06:** Published Month 4 Days `091`–`097` (7 articles, ~6,527 words, 7/7 passing 18/18 audit). Total live: **97 articles**; build 118 pages, 0 broken internal links; sitemap 117 URLs. Month 4 *The Authority of the Believer* opened — delegation, the Name, the transfer of kingdom, binding and loosing, victory already won, and the dominion mandate.
 - **2027-02-07 → 2027-03-01:** Published Month 4 Days `098`–`120` (23 articles, ~16,000 words of prose, 23/23 passing the 20-gate audit at first or second pass). **Month 4 complete — 120 articles live**; build 141 pages, 0 broken internal links. Arc *The Authority of the Believer* closed on *Occupying Until He Comes: Authority as Stewardship*.
 - **2027-03-02 → 2027-04-01:** Published Month 5 Days `121`–`151` (31 articles, 31/31 passing the 20-gate audit). **Month 5 complete — 151 articles live**; build clean, 0 broken internal links. Arc *The Word: God's Functional Manual* closed on *Your Bible Is a Will: Read the Inheritance*.
-- **Next batch queued:** Month 6 Days `152`–`181` (*Prayer and the Life of Communion*).
+- **2027-04-02 → 2027-05-01:** Published Month 6 Days `152`–`181` (30 articles, 30/30 passing the 20-gate audit at first or second pass). **Month 6 complete — 181 articles live**; build clean, 202 pages, 0 broken internal links. Arc *Prayer and the Life of Communion* closed on *The House of Prayer: What the Temple Teaches*.
+- **Next batch queued:** Month 7 Days `182`–`212` (*Divine Health and Wholeness*).

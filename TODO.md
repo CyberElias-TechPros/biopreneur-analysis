@@ -51,7 +51,7 @@
 - ✔ D3. Month 3 (Mar — Faith): **Complete — Days 060–090 live (31/31)**. Month 4 (Authority of the Believer) is next
 - ✔ D4. Month 4 (Apr — Authority): **Complete — Days 091–120 live (30/30)**, all passing 20/20 audit
 - ✔ D5. Month 5 (May — The Word): **Complete — Days 121–151 live (31/31)**, all passing 20/20 audit
-- ☐ D6. Month 6 (Jun — Prayer): 30
+- ✔ D6. Month 6 (Jun — Prayer): **Complete — Days 152–181 live (30/30)**, all passing 20/20 audit
 - ☐ D7. Month 7 (Jul — Divine Health): 31 (apply faith-and-wisdom line + medical disclaimer discipline)
 - ☐ D8. Month 8 (Aug — Prosperity & Stewardship): 31
 - ☐ D9. Month 9 (Sep — Righteousness Consciousness): 30
@@ -84,7 +84,7 @@
 - ✔ F5. Visibility note: repo is **public** (note: consider removing `rhapsody_extract.txt` + scratch files from public tracking if keeping repo public)
 
 ## NEXT SPRINT (immediate next actions)
-1. **D6 (Month 6):** Begin Month 6 Days `152`–`181` (*Prayer and the Life of Communion*)
+1. **D7 (Month 7):** Begin Month 7 Days `182`–`212` (*Divine Health and Wholeness*)
 2. **D1 review:** Month 1 arc complete (31/31 live); spot-check internal handoffs and category spread before AdSense submission
 3. **C2 / C8:** Deploy `faith-site/` to Vercel and attach custom domain when chosen
 4. **E2 / E3:** Enable `PUBLIC_ADSENSE_LIVE=true` and run the 15-factor pre-application audit (50-article floor now met)
