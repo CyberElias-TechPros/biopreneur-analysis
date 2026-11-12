@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–203 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–206 Live — Months 1–6 Complete, Month 7 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -246,6 +246,9 @@
 | 201 | M7·D201 | Anointing With Oil: Obedience With Meaning | `/anointing-with-oil-obedience-with-meaning/` | Divine Health | James 5:14 | 1,047 | 42c / 146c | 20/20 ✔ | 2027-05-21 |
 | 202 | M7·D202 | The Elders and the Prayer of Faith | `/the-elders-and-the-prayer-of-faith/` | Divine Health | James 5:15 | 1,114 | 34c / 149c | 20/20 ✔ | 2027-05-22 |
 | 203 | M7·D203 | His Presence Is Your Healing Environment | `/his-presence-is-your-healing-environment/` | Divine Health | Ps 16:11 | 1,060 | 40c / 142c | 20/20 ✔ | 2027-05-23 |
+| 204 | M7·D204 | Stress, Fear, and the Body That Carries Them | `/stress-fear-and-the-body-that-carries-them/` | Divine Health | 1 Pet 5:7 | 1,096 | 26c / 153c | 20/20 ✔ | 2027-05-24 |
+| 205 | M7·D205 | Soul and Body: One Saved Whole Person | `/soul-and-body-one-saved-whole-person/` | Divine Health | 1 Thess 5:23 | 1,061 | 37c / 143c | 20/20 ✔ | 2027-05-25 |
+| 206 | M7·D206 | Stewardship of the Temple: Eat, Rest, and Rule | `/stewardship-of-the-temple-eat-rest-and-rule/` | Divine Health | 1 Cor 6:19–20 | 1,065 | 42c / 150c | 20/20 ✔ | 2027-05-26 |
 
 ---
 
