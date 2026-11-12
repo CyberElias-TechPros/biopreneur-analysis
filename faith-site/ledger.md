@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–150 Live — Months 1–4 Complete, Month 5 In Progress)
+## 2. Published Articles Ledger (Days 001–151 Live — Months 1–5 Complete (Month 6 begins Day 152))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -193,6 +193,7 @@
 | 148 | M5·D148 | When Memory Meets Meditation | `/when-memory-meets-meditation/` | The Word | Ps 143:5 | 1,044 | 28c / 154c | 20/20 ✔ | 2027-03-29 |
 | 149 | M5·D149 | The Word Separates, Sanctifies, and Sends | `/the-word-separates-sanctifies-and-sends/` | The Word | John 17:17–18 | 1,040 | 41c / 140c | 20/20 ✔ | 2027-03-30 |
 | 150 | M5·D150 | Search the Scriptures Daily: The Noble Habit | `/search-the-scriptures-daily/` | The Word | Acts 17:11 | 1,008 | 44c / 149c | 20/20 ✔ | 2027-03-31 |
+| 151 | M5·D151 | Your Bible Is a Will: Read the Inheritance | `/your-bible-is-a-will-read-the-inheritance/` | The Word | Heb 9:15–16 | 1,032 | 42c / 147c | 20/20 ✔ | 2027-04-01 |
 
 ---
 
@@ -215,4 +216,5 @@
 - **2027-01-30:** Published Month 3 Days `081`–`090` (10 articles, ~9,231 words, 10/10 passing 18/18 audit). **Month 3 complete — 90 articles live**; build 111 pages, 0 broken internal links; sitemap 110 URLs. Arc *Faith: The Attitude and Action of Trust* closed with *Hope Draws the Picture; Faith Builds the House*.
 - **2027-02-06:** Published Month 4 Days `091`–`097` (7 articles, ~6,527 words, 7/7 passing 18/18 audit). Total live: **97 articles**; build 118 pages, 0 broken internal links; sitemap 117 URLs. Month 4 *The Authority of the Believer* opened — delegation, the Name, the transfer of kingdom, binding and loosing, victory already won, and the dominion mandate.
 - **2027-02-07 → 2027-03-01:** Published Month 4 Days `098`–`120` (23 articles, ~16,000 words of prose, 23/23 passing the 20-gate audit at first or second pass). **Month 4 complete — 120 articles live**; build 141 pages, 0 broken internal links. Arc *The Authority of the Believer* closed on *Occupying Until He Comes: Authority as Stewardship*.
-- **Next batch queued:** Month 5 Days `121`–`126` (*The Word: God's Functional Manual*).
+- **2027-03-02 → 2027-04-01:** Published Month 5 Days `121`–`151` (31 articles, 31/31 passing the 20-gate audit). **Month 5 complete — 151 articles live**; build clean, 0 broken internal links. Arc *The Word: God's Functional Manual* closed on *Your Bible Is a Will: Read the Inheritance*.
+- **Next batch queued:** Month 6 Days `152`–`181` (*Prayer and the Life of Communion*).
