@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–237 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–238 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -280,6 +280,7 @@
 | 235 | M8·D235 | Barns, Bigger Barns, and the Bigger Life | `/barns-bigger-barns-and-the-bigger-life/` | Prosperity & Stewardship | Luke 12:20 | 1,156 | 36c / 147c | 20/20 ✔ | 2027-06-24 |
 | 236 | M8·D236 | Partnerships That Preach: Supporting the Gospel | `/partnerships-that-preach-supporting-the-gospel/` | Prosperity & Stewardship | Phil 1:5 | 1,118 | 36c / 147c | 20/20 ✔ | 2027-06-25 |
 | 237 | M8·D237 | Little Is Much When God Is in It | `/little-is-much-when-god-is-in-it/` | Prosperity & Stewardship | John 6:9 | 996 | 32c / 149c | 20/20 ✔ | 2027-06-26 |
+| 238 | M8·D238 | Planning With Prayer: Goals Under Grace | `/planning-with-prayer-goals-under-grace/` | Prosperity & Stewardship | James 4:13 | 1,030 | 39c / 141c | 20/20 ✔ | 2027-06-27 |
 
 ---
 
