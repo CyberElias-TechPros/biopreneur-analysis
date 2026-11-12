@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–179 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–180 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -222,6 +222,7 @@
 | 177 | M6·D177 | Family Altars and Generational Coverings | `/family-altars-and-generational-coverings/` | Prayer & Fasting | Josh 24:15 | 1,449 | 40c / 146c | 20/20 ✔ | 2027-04-27 |
 | 178 | M6·D178 | Praying the Word Is Praying His Will | `/praying-the-word-is-praying-his-will/` | Prayer & Fasting | 1 John 5:14–15 | 1,601 | 36c / 149c | 20/20 ✔ | 2027-04-28 |
 | 179 | M6·D179 | The Prayer of Dedication: Saying Yes to His Plan | `/the-prayer-of-dedication-saying-yes/` | Prayer & Fasting | Rom 12:1 | 1,418 | 36c / 148c | 20/20 ✔ | 2027-04-29 |
+| 180 | M6·D180 | From Prayer Requests to a Prayer Lifestyle | `/from-prayer-requests-to-a-prayer-lifestyle/` | Prayer & Fasting | Luke 11:1 | 1,275 | 42c / 149c | 20/20 ✔ | 2027-04-30 |
 
 ---
 
