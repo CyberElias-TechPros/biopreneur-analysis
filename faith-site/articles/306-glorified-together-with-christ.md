@@ -17,7 +17,7 @@ primaryKeyword: "glorified together with christ"
 secondaryKeywords:
   - "Romans 8:17 joint heirs with Christ"
   - "suffer with him glorified together"
-  - "syn" compounds in Romans 8
+  - "the syn compounds in Romans 8"
   - "conformed to the image of his Son"
   - "the glory to be revealed in us"
 themeScripture:

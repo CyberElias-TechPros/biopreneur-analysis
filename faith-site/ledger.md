@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–329 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–334 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -372,6 +372,11 @@
 | 327 | M11·D327 | The Secret Power of a Thankful Heart | `/the-secret-power-of-a-thankful-heart/` | Christian Living | Phil 4:6 | 979 | 36c / 154c | 20/20 ✔ | 2027-09-24 |
 | 328 | M11·D328 | Resting Is Not Retiring From Faith | `/resting-is-not-retiring-from-faith/` | Christian Living | Heb 4:9–10 | 957 | 34c / 152c | 20/20 ✔ | 2027-09-25 |
 | 329 | M11·D329 | Joy Is Strength: Select It Daily | `/joy-is-strength-select-it-daily/` | Christian Living | Neh 8:10 | 939 | 32c / 152c | 20/20 ✔ | 2027-09-26 |
+| 330 | M11·D330 | Filled With All Joy and Peace in Believing | `/filled-with-all-joy-and-peace-in-believing/` | Christian Living | Rom 15:13 | 938 | 42c / 140c | 20/20 ✔ | 2027-09-27 |
+| 331 | M11·D331 | Sleeping in Storms: The Mark of Rest | `/sleeping-in-storms-the-mark-of-rest/` | Christian Living | Mark 4:38 | 962 | 36c / 143c | 20/20 ✔ | 2027-09-28 |
+| 332 | M11·D332 | Atmosphere Architect: Change the Room You Enter | `/atmosphere-architect-change-the-room-you-enter/` | Christian Living | Acts 16:25 | 926 | 37c / 142c | 20/20 ✔ | 2027-09-29 |
+| 333 | M11·D333 | Live Loaded: The Fullness That Overflows | `/live-loaded-the-fullness-that-overflows/` | Christian Living | Eph 3:19 | 966 | 40c / 151c | 20/20 ✔ | 2027-09-30 |
+| 334 | M11·D334 | The God of Hope: Anchored and Radiant | `/the-god-of-hope-anchored-and-radiant/` | Christian Living | Rom 15:13 | 945 | 37c / 148c | 20/20 ✔ | 2027-10-01 |
 
 ---
 
