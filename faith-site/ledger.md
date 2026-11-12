@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–244 Live — Month 9 In Progress)
+## 2. Published Articles Ledger (Days 001–245 Live — Month 9 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -287,6 +287,7 @@
 | 242 | M8·D242 | Overflow Is for Distribution | `/overflow-is-for-distribution/` | Prosperity & Stewardship | Ps 23:5 | 927 | 28c / 146c | 20/20 ✔ | 2027-07-01 |
 | 243 | M8·D243 | Prosperity Has an Order: Soul, Seed, Surplus | `/prosperity-has-an-order-soul-seed-surplus/` | Prosperity & Stewardship | 3 John 2 | 1,098 | 44c / 148c | 20/20 ✔ | 2027-07-02 |
 | 244 | M9·D244 | Awake to Righteousness: Living Free From Accusation | `/awake-to-righteousness-living-free-from-accusation/` | Righteousness & Grace | 1 Cor 15:34 | 1,085 | 44c / 147c | 20/20 ✔ | 2027-07-03 |
+| 245 | M9·D245 | No Condemnation: The Case Is Closed | `/no-condemnation-the-case-is-closed/` | Righteousness & Grace | Rom 8:1 | 1,183 | 35c / 146c | 20/20 ✔ | 2027-07-04 |
 
 ---
 
