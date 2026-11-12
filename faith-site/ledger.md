@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–099 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–100 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -142,6 +142,7 @@
 | 097 | M4·D97 | Dominion Was the First Mandate | `/dominion-was-the-first-mandate/` | Authority of the Believer | Gen 1:26 | 982 | 45c / 148c | 20/20 ✔ | 2027-02-06 |
 | 098 | M4·D98 | The Keys of the Kingdom Are in Your Hand | `/keys-of-the-kingdom-are-in-your-hand/` | Authority of the Believer | Matt 16:19 | 1,516 | 40c / 143c | 20/20 ✔ | 2027-02-07 |
 | 099 | M4·D99 | Principalities Acknowledge Position | `/principalities-acknowledge-position/` | Authority of the Believer | Eph 2:6 | 1,247 | 35c / 152c | 20/20 ✔ | 2027-02-08 |
+| 100 | M4·D100 | Greater Is He: The Internal Majority | `/greater-is-he-the-internal-majority/` | Authority of the Believer | 1 John 4:4 | 1,214 | 36c / 153c | 20/20 ✔ | 2027-02-09 |
 
 ---
 
