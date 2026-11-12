@@ -57,9 +57,11 @@ const organizationSchema = {
   image: `${siteUrl}/images/og-default.png`,
   founder: {
     '@type': 'Person',
+    '@id': `${siteUrl}/about/#ellis-graham`,
     name: SITE.teacher.name,
     jobTitle: SITE.teacher.role,
     url: `${siteUrl}/about/`,
+    image: `${siteUrl}${SITE.teacher.image}`,
   },
   knowsAbout: [
     'Christian theology',

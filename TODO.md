@@ -1,6 +1,6 @@
-# MASTER TODO — *In Jesus Name* (Faith Teaching Publication)
+# MASTER TODO — *Live In Jesus Name* (Faith Teaching Publication)
 *Everything planned, in one list. Status: ☐ pending · ◐ in progress · ✔ done · ⏸ blocked/decision needed*
-*Publication: **In Jesus Name** · Repo: github.com/CyberElias-TechPros/biopreneur-analysis (public) · App root: `faith-site/` (Astro 6) · Design spec: `DESIGN_SPEC.md` · Writing prompt: `FAITH_TEACHING_PROMPT.md` · Topics: `TOPICS_365.md`*
+*Publication: **Live In Jesus Name** · Repo: github.com/CyberElias-TechPros/biopreneur-analysis (public) · App root: `faith-site/` (Astro 6) · Design spec: `DESIGN_SPEC.md` · Writing prompt: `FAITH_TEACHING_PROMPT.md` · Topics: `TOPICS_365.md`*
 
 ---
 
@@ -16,7 +16,7 @@
 - ✔ A8. Design direction chosen + full design spec — `DESIGN_SPEC.md`
 - ✔ A9. Site glossary v1: 36 core doctrinal terms with definitions, scripture anchors, and boundaries — `faith-site/glossary.md` + `/glossary/`
 - ✔ A10. Used-title ledger system: `faith-site/ledger.md` — 30 excluded source titles + all published articles tracked
-- ✔ A11. Brand kit: site name locked as **In Jesus Name**, horizon-cross SVG emblem, wordmark, `/favicon.svg`, and 1200×630 Open Graph social card (`/images/og-default.png`)
+- ✔ A11. Brand kit: site name locked as **Live In Jesus Name** (renamed from *In Jesus Name*; short name `LIJN`), horizon-cross SVG emblem, wordmark, `/favicon.svg`, and 1200×630 Open Graph social card (`/images/og-default.png`)
 
 ## B. DESIGN / UI / UX (per DESIGN_SPEC.md)
 
@@ -36,7 +36,7 @@
 ## C. SITE BUILD & INFRASTRUCTURE
 
 - ✔ C1. Stack implemented: **Astro 6** static site in `faith-site/` (118 static pages built in ~7s)
-- ✔ C2. Domain decided: canonical origin is `https://lij.name.ng` (set as `PUBLIC_SITE_URL` in Vercel for production + preview). The earlier `injesusname.org` placeholder was a parked domain — replaced everywhere. Outstanding: the editorial contact address `editorial@injesusname.org` in `src/data/site.ts` still needs a mailbox on the live domain.
+- ✔ C2. Domain decided: canonical origin is `https://lij.name.ng` (set as `PUBLIC_SITE_URL` in Vercel for production + preview). The earlier `injesusname.org` placeholder was a parked domain — replaced everywhere. The editorial address is now `editorial@lij.name.ng` (create that mailbox on the domain before publishing it widely).
 - ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (working form + mailto dispatch) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
 - ✔ C4. SEO plumbing: `sitemap-index.xml`, `robots.txt`, `ads.txt`, canonicals, Open Graph/Twitter cards, `rss.xml`
 - ✔ C5. JSON-LD Schema: `BlogPosting` + `Person` + `BreadcrumbList` on every article; `WebSite` + `Organization` site-wide
@@ -80,7 +80,7 @@
 - ✔ F1. GitHub repo created — `CyberElias-TechPros/biopreneur-analysis`
 - ✔ F2. Scrape removed from repo + git history; `.gitignore` updated for Astro (`faith-site/node_modules/`, `faith-site/dist/`, `faith-site/.astro/`)
 - ☐ F3. Keep repo synced: commit after every content/design batch
-- ✔ F4. README (`REPO.md`) updated for **In Jesus Name** Astro build
+- ✔ F4. README (`REPO.md`) updated for **Live In Jesus Name** Astro build
 - ✔ F5. Visibility note: repo is **public** (note: consider removing `rhapsody_extract.txt` + scratch files from public tracking if keeping repo public)
 
 ## NEXT SPRINT (immediate next actions)
