@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–353 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–354 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -396,6 +396,7 @@
 | 351 | M12·D351 | Unto Us a Child: The Government on His Shoulder | `/unto-us-a-child-the-government-on-his-shoulder/` | Redemption & His Return | Isa 9:6 | 918 | 47c / 144c | 20/20 ✔ | 2027-10-18 |
 | 352 | M12·D352 | The Advent of the Spirit, Not Just the Season | `/the-advent-of-the-spirit-not-just-the-season/` | Redemption & His Return | John 14:16 | 910 | 45c / 148c | 20/20 ✔ | 2027-10-19 |
 | 353 | M12·D353 | The Manger and the Mercy Seat | `/the-manger-and-the-mercy-seat/` | Redemption & His Return | Exod 25:21–22 | 944 | 29c / 151c | 20/20 ✔ | 2027-10-20 |
+| 354 | M12·D354 | Mary's Yes and Your Yes | `/marys-yes-and-your-yes/` | Redemption & His Return | Luke 1:38 | 940 | 43c / 147c | 20/20 ✔ | 2027-10-21 |
 
 ---
 
