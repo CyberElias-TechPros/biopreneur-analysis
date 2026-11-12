@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–340 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–341 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -383,6 +383,7 @@
 | 338 | M12·D338 | The Fullness of Time Came for Your Fullness | `/the-fullness-of-time-came-for-your-fullness/` | Redemption & His Return | Gal 4:4–5 | 938 | 43c / 142c | 20/20 ✔ | 2027-10-05 |
 | 339 | M12·D339 | He Emptied Himself to Fill You | `/he-emptied-himself-to-fill-you/` | Redemption & His Return | Phil 2:7 | 1,043 | 30c / 154c | 20/20 ✔ | 2027-10-06 |
 | 340 | M12·D340 | The Light Shines in Darkness — Still | `/the-light-shines-in-darkness-still/` | Redemption & His Return | John 1:5 | 1,112 | 36c / 150c | 20/20 ✔ | 2027-10-07 |
+| 341 | M12·D341 | Born to Die, Raised to Reign | `/born-to-die-raised-to-reign/` | Redemption & His Return | Rom 14:9 | 1,099 | 28c / 142c | 20/20 ✔ | 2027-10-08 |
 
 ---
 
