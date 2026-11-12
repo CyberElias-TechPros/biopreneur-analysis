@@ -1,4 +1,4 @@
-# WIREFRAMES & PAGE ARCHITECTURE — *In Jesus Name*
+# WIREFRAMES & PAGE ARCHITECTURE — *Live In Jesus Name*
 *Governs TODO item B1 · Implements `DESIGN_SPEC.md` ("Reverent Editorial") v1.0*
 
 ## Grid & Structural Invariants
@@ -165,7 +165,7 @@
 
 ```text
 +----------------------------------------------------------------------------+
-|  Hero Split: H1 "Why In Jesus Name Exists" + Open-Scripture editorial photo|
+|  Hero Split: H1 "Why Live In Jesus Name Exists" + Open-Scripture editorial photo|
 |  1. Our Mission (Information -> Understanding -> Consciousness -> Living)  |
 |  2. Who Writes & Teaches Here (Resident Bible Teacher profile & method)    |
 |  3. How Every Teaching Is Built (8-step Scripture Chain + Originality Law) |

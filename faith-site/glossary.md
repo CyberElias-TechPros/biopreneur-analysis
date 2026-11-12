@@ -1,4 +1,4 @@
-# SITE GLOSSARY v1 — *In Jesus Name*
+# SITE GLOSSARY v1 — *Live In Jesus Name*
 *Governs TODO item A9 & Terminity Law (`FAITH_TEACHING_PROMPT.md` §2.8, §4)*
 *36 core conceptual terms across the 12 doctrinal families · v1.0*
 

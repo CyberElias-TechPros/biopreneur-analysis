@@ -1,4 +1,4 @@
-# USED-TITLE & PUBLICATION LEDGER — *In Jesus Name*
+# USED-TITLE & PUBLICATION LEDGER — *Live In Jesus Name*
 *Governs TODO item A10 & Originality Law (`FAITH_TEACHING_PROMPT.md` §2.1, §11)*
 *Updated on every publication batch to guarantee zero title, angle, or phrasing duplication.*
 
@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–209 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–212 Live — Months 1–7 Complete)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -252,6 +252,9 @@
 | 207 | M7·D207 | Testimonies: The Report That Builds Faith | `/testimonies-the-report-that-builds-faith/` | Divine Health | Rev 12:11 | 1,089 | 41c / 149c | 20/20 ✔ | 2027-05-27 |
 | 208 | M7·D208 | Wholeness Has an Order: Spirit, Soul, Then Body | `/wholeness-has-an-order-spirit-soul-then-body/` | Divine Health | 3 John 2 | 1,118 | 42c / 150c | 20/20 ✔ | 2027-05-28 |
 | 209 | M7·D209 | Long Life: The Conditions Scripture Names | `/long-life-the-conditions-scripture-names/` | Divine Health | Ps 91:16 | 1,123 | 41c / 151c | 20/20 ✔ | 2027-05-29 |
+| 210 | M7·D210 | Healing Streams: Life Where the River Comes | `/healing-streams-life-where-the-river-comes/` | Divine Health | Ezek 47:9 | 988 | 43c / 143c | 20/20 ✔ | 2027-05-30 |
+| 211 | M7·D211 | A Healing Culture Begins at Home | `/a-healing-culture-begins-at-home/` | Divine Health | Prov 14:1 | 1,068 | 32c / 157c | 20/20 ✔ | 2027-05-31 |
+| 212 | M7·D212 | Whole and Holy: The Same Word in Two Directions | `/whole-and-holy-the-same-word-in-two-directions/` | Divine Health | 1 Thess 5:23 | 1,061 | 47c / 150c | 20/20 ✔ | 2027-06-01 |
 
 ---
 
