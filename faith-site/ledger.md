@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–166 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–167 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -209,6 +209,7 @@
 | 164 | M6·D164 | Effectual, Fervent Prayer Works | `/effectual-fervent-prayer-works/` | Prayer & Fasting | Jas 5:16 | 1,009 | 31c / 140c | 20/20 ✔ | 2027-04-14 |
 | 165 | M6·D165 | Ask Amiss: Diagnosing Empty Prayers | `/ask-amiss-diagnosing-empty-prayers/` | Prayer & Fasting | Jas 4:3 | 1,556 | 35c / 147c | 20/20 ✔ | 2027-04-15 |
 | 166 | M6·D166 | Persistence Is Not Nagging Heaven | `/persistence-is-not-nagging-heaven/` | Prayer & Fasting | Luke 18:1–8 | 1,540 | 33c / 147c | 20/20 ✔ | 2027-04-16 |
+| 167 | M6·D167 | Watch and Pray: Awake at the Gates | `/watch-and-pray-awake-at-the-gates/` | Prayer & Fasting | Matt 26:41 | 1,572 | 34c / 146c | 20/20 ✔ | 2027-04-17 |
 
 ---
 
