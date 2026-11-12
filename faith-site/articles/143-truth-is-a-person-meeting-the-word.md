@@ -42,7 +42,7 @@ relatedTeachings:
     slug: "the-entrance-of-the-word-gives-light"
     category: "The Word"
     handoff: "Read what happens when understanding dawns."
-  - title: "In Jesus' Name" Living — "The Name of Jesus: Heaven's Legal Instrument"
+  - title: "The Name of Jesus: Heaven's Legal Instrument"
     slug: "the-name-of-jesus-heavens-legal-instrument"
     category: "Authority of the Believer"
     handoff: "Learn the name this Person carries."
