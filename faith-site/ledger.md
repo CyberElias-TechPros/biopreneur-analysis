@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–158 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–159 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -201,6 +201,7 @@
 | 156 | M6·D156 | The Prayer of Consecration: Not My Will | `/the-prayer-of-consecration-not-my-will/` | Prayer & Fasting | Luke 22:42 | 1,044 | 39c / 147c | 20/20 ✔ | 2027-04-06 |
 | 157 | M6·D157 | The Prayer of Intercession: Standing in the Gap | `/the-prayer-of-intercession-standing-in-the-gap/` | Prayer & Fasting | Ezek 22:30 | 1,148 | 47c / 143c | 20/20 ✔ | 2027-04-07 |
 | 158 | M6·D158 | The Prayer of Agreement: Two Are Better | `/the-prayer-of-agreement-two-are-better/` | Prayer & Fasting | Matt 18:19–20 | 1,039 | 39c / 143c | 20/20 ✔ | 2027-04-08 |
+| 159 | M6·D159 | Fasting Sharpens What Prayer Fires | `/fasting-sharpens-what-prayer-fires/` | Prayer & Fasting | Matt 6:16 | 943 | 34c / 149c | 20/20 ✔ | 2027-04-09 |
 
 ---
 
