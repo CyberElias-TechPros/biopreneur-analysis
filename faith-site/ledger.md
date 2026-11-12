@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–109 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–110 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -152,6 +152,7 @@
 | 107 | M4·D107 | The Armour Is for Standing | `/the-armour-is-for-standing/` | Authority of the Believer | Eph 6:13 | 1,396 | 26c / 150c | 20/20 ✔ | 2027-02-16 |
 | 108 | M4·D108 | Casting Down Imaginations: Authority at Thought Level | `/casting-down-imaginations-authority-at-thought-level/` | Authority of the Believer | 2 Cor 10:5 | 1,390 | 39c / 151c | 20/20 ✔ | 2027-02-17 |
 | 109 | M4·D109 | Wielding the Sword of the Spirit | `/wielding-the-sword-of-the-spirit/` | Authority of the Believer | Eph 6:17 | 1,400 | 30c / 146c | 20/20 ✔ | 2027-02-18 |
+| 110 | M4·D110 | Ambassadors Do Not Negotiate From Weakness | `/ambassadors-do-not-negotiate-from-weakness/` | Authority of the Believer | 2 Cor 5:20 | 1,371 | 41c / 153c | 20/20 ✔ | 2027-02-19 |
 
 ---
 
