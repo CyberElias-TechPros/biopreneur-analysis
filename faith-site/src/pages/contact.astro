@@ -41,7 +41,7 @@ const contactSchema = [
 
 <BaseLayout
   title={`Contact ${SITE.name} — Questions, Corrections & Prayer`}
-  description="Reach the editorial and teaching desk at In Jesus Name with Scripture questions, feedback, editorial corrections, or correspondence."
+  description="Reach the editorial and teaching desk at Live In Jesus Name with Scripture questions, feedback, editorial corrections, or correspondence."
   canonicalPath="/contact/"
   jsonLd={contactSchema}
 >
@@ -181,7 +181,7 @@ const contactSchema = [
         var topic = document.getElementById('contact-topic').value;
         var message = document.getElementById('contact-message').value.trim();
 
-        var subject = encodeURIComponent('[In Jesus Name] ' + topic + ' — from ' + name);
+        var subject = encodeURIComponent('[Live In Jesus Name] ' + topic + ' — from ' + name);
         var body = encodeURIComponent(
           'Name: ' + name + '\nReply Email: ' + email + '\nTopic: ' + topic + '\n\n' + message
         );

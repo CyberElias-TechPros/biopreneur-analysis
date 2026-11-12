@@ -22,6 +22,13 @@ const aboutSchema = [
       jobTitle: SITE.teacher.role,
       description: SITE.teacher.shortBio,
       url: aboutUrl,
+      image: {
+        '@type': 'ImageObject',
+        url: `${aboutOrigin}${SITE.teacher.image}`,
+        width: SITE.teacher.imageWidth,
+        height: SITE.teacher.imageHeight,
+        caption: SITE.teacher.imageAlt,
+      },
       worksFor: { '@id': `${aboutOrigin}/#organization` },
     },
   },
@@ -37,8 +44,8 @@ const aboutSchema = [
 ---
 
 <BaseLayout
-  title={`About ${SITE.name} — Editorial Mission & Bible Teaching`}
-  description="Learn why In Jesus Name exists, who writes and edits our Scripture-anchored Christian teachings, and how every article moves from exegesis to weekday living."
+  title={`About ${SITE.name} — Mission & Bible Teaching`}
+  description="Learn why Live In Jesus Name exists, who writes and edits our Scripture-anchored teachings, and how every article is built."
   canonicalPath="/about/"
   jsonLd={aboutSchema}
 >
@@ -85,7 +92,7 @@ const aboutSchema = [
       </figcaption>
     </figure>
 
-    <h2>Why In Jesus Name Exists</h2>
+    <h2>Why Live In Jesus Name Exists</h2>
     <p>
       Across the modern church, believers do not suffer from a shortage of religious noise; they suffer from a shortage of
       unhurried biblical clarity. Many love Jesus sincerely yet still carry quiet confusion about what happened at the New Birth,
@@ -98,6 +105,26 @@ const aboutSchema = [
     </p>
 
     <h2>Who Teaches Here</h2>
+    <figure class="author-portrait">
+      <picture>
+        <source
+          type="image/webp"
+          srcset="/images/author-ellis-graham-400.webp 400w, /images/author-ellis-graham-800.webp 800w"
+          sizes="(max-width: 560px) 80vw, 340px"
+        />
+        <img
+          src="/images/author-ellis-graham-400.jpg"
+          srcset="/images/author-ellis-graham-400.jpg 400w, /images/author-ellis-graham-800.jpg 800w"
+          sizes="(max-width: 560px) 80vw, 340px"
+          alt={SITE.teacher.imageAlt}
+          width="800"
+          height="1067"
+          loading="lazy"
+          decoding="async"
+        />
+      </picture>
+      <figcaption class="meta-caps">{SITE.teacher.name} &middot; {SITE.teacher.role}</figcaption>
+    </figure>
     <p>
       Our studies are written and edited under the oversight of <strong>{SITE.teacher.name}</strong>, {SITE.teacher.role}.
       {SITE.name} is an original editorial teaching desk: we do not impersonate any living preacher or ministry, nor do we reprint

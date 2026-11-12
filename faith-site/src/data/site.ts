@@ -1,11 +1,11 @@
 export const SITE = {
-  name: 'In Jesus Name',
-  shortName: 'IJN',
+  name: 'Live In Jesus Name',
+  shortName: 'LIJN',
   tagline: 'The entrance of His Word gives light.',
   mission:
     'Scripture-anchored teachings unveiling who you are in Christ, what His finished work secured, and how to live from that reality every day of the week.',
   description:
-    'In Jesus Name is a Christian teaching publication devoted to Scripture-saturated revelation, new-creation identity, sound doctrine, and practical everyday discipleship.',
+    'Live In Jesus Name is a Christian teaching publication devoted to Scripture-saturated revelation, new-creation identity, sound doctrine, and practical everyday discipleship.',
   /**
    * Canonical origin fallback. Production sets PUBLIC_SITE_URL=https://lij.name.ng
    * in Vercel, so every canonical/sitemap/JSON-LD URL resolves to the live host
@@ -15,7 +15,7 @@ export const SITE = {
   url: 'https://lij.name.ng',
   locale: 'en_US',
   language: 'en',
-  email: 'editorial@injesusname.org',
+  email: 'editorial@lij.name.ng',
   foundedYear: 2026,
   adsense: {
     publisherId: 'ca-pub-9124992249317290',
@@ -61,7 +61,13 @@ export const SITE = {
     name: 'Ellis Graham',
     role: 'Editor-in-Chief & Resident Bible Teacher',
     initials: 'EG',
+    /** Portrait used in the author box, the About page schema, and og:image:alt. */
+    image: '/images/author-ellis-graham-800.jpg',
+    imageWidth: 800,
+    imageHeight: 1067,
+    imageAlt:
+      'Ellis Graham, Editor-in-Chief and resident Bible teacher of Live In Jesus Name, seated at a desk with an open Bible.',
     shortBio:
-      'Ellis Graham serves as Editor-in-Chief and resident Bible teacher at In Jesus Name, writing Scripture-anchored studies that bridge careful New Testament exegesis with Monday-morning Christian living. Every teaching is built on an eight-step Scripture chain — moving from text to principle, identity, and responsible action. The conviction behind each study is simple: when believers understand what Christ has finished, holiness and peace stop feeling forced.',
+      'Ellis Graham serves as Editor-in-Chief and resident Bible teacher at Live In Jesus Name, writing Scripture-anchored studies that bridge careful New Testament exegesis with Monday-morning Christian living. Every teaching is built on an eight-step Scripture chain — moving from text to principle, identity, and responsible action. The conviction behind each study is simple: when believers understand what Christ has finished, holiness and peace stop feeling forced.',
   },
 } as const;

@@ -3,9 +3,17 @@ import { SITE } from '../data/site';
 ---
 
 <aside class="author-box" aria-label="About the Teacher">
-  <div class="author-avatar" aria-hidden="true">
-    {SITE.teacher.initials}
-  </div>
+  <picture class="author-avatar">
+    <source type="image/webp" srcset={SITE.teacher.image.replace('.jpg', '.webp')} />
+    <img
+      src={SITE.teacher.image}
+      alt={SITE.teacher.imageAlt}
+      width="72"
+      height="72"
+      loading="lazy"
+      decoding="async"
+    />
+  </picture>
   <div>
     <p class="meta-caps" style="margin: 0 0 0.25rem 0;">
       {SITE.teacher.role}

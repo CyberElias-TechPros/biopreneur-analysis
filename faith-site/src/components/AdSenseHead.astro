@@ -2,13 +2,16 @@
 import { SITE } from '../data/site';
 ---
 
-{
-  SITE.adsense.live && (
-    <script
-      is:inline
-      async
-      src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsense.publisherId}`}
-      crossorigin="anonymous"
-    />
-  )
-}
+<!--
+  Google AdSense loader.
+  Emitted on every page so AdSense can crawl, verify, and serve on any URL —
+  the script tag is harmless when no ad units are live. Ad units themselves are
+  rendered by <AdSlot />, which only inserts <ins class="adsbygoogle"> blocks
+  once PUBLIC_ADSENSE_LIVE="true".
+-->
+<script
+  is:inline
+  async
+  src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsense.publisherId}`}
+  crossorigin="anonymous"
+></script>

@@ -75,6 +75,13 @@ const structuredData = [
       name: SITE.teacher.name,
       jobTitle: SITE.teacher.role,
       url: `${siteOrigin}/about/`,
+      image: {
+        '@type': 'ImageObject',
+        url: `${siteOrigin}${SITE.teacher.image}`,
+        width: SITE.teacher.imageWidth,
+        height: SITE.teacher.imageHeight,
+        caption: SITE.teacher.imageAlt,
+      },
     },
     publisher: { '@id': `${siteOrigin}/#organization` },
     isPartOf: { '@id': `${siteOrigin}/#website` },
