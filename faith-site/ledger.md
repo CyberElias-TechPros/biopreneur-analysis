@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–246 Live — Month 9 In Progress)
+## 2. Published Articles Ledger (Days 001–247 Live — Month 9 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -289,6 +289,7 @@
 | 244 | M9·D244 | Awake to Righteousness: Living Free From Accusation | `/awake-to-righteousness-living-free-from-accusation/` | Righteousness & Grace | 1 Cor 15:34 | 1,085 | 44c / 147c | 20/20 ✔ | 2027-07-03 |
 | 245 | M9·D245 | No Condemnation: The Case Is Closed | `/no-condemnation-the-case-is-closed/` | Righteousness & Grace | Rom 8:1 | 1,183 | 35c / 146c | 20/20 ✔ | 2027-07-04 |
 | 246 | M9·D246 | The Consciousness of Sin Produces the Cycle of Sin | `/the-consciousness-of-sin-produces-the-cycle-of-sin/` | Righteousness & Grace | Heb 10:1 | 1,044 | 43c / 140c | 20/20 ✔ | 2027-07-05 |
+| 247 | M9·D247 | Boldness on Judgment Day Begins Today | `/boldness-on-judgment-day-begins-today/` | Righteousness & Grace | 1 John 4:17 | 1,019 | 37c / 144c | 20/20 ✔ | 2027-07-06 |
 
 ---
 
