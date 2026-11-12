@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–264 Live — Month 9 In Progress)
+## 2. Published Articles Ledger (Days 001–273 Live — Month 9 Complete)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -307,6 +307,15 @@
 | 262 | M9·D262 | Sin Shall Not Have Dominion Over You | `/sin-shall-not-have-dominion-over-you/` | Righteousness & Grace | Rom 6:14 | 1,062 | 36c / 153c | 20/20 ✔ | 2027-07-21 |
 | 263 | M9·D263 | The Liberated Conscience | `/the-liberated-conscience/` | Righteousness & Grace | Heb 9:14 | 938 | 43c / 141c | 20/20 ✔ | 2027-07-22 |
 | 264 | M9·D264 | Confidence Before God Is Your Birthright | `/confidence-before-god-is-your-birthright/` | Righteousness & Grace | Heb 10:19 | 973 | 40c / 153c | 20/20 ✔ | 2027-07-23 |
+| 265 | M9·D265 | When You Miss It: The Short Path Back | `/when-you-miss-it-the-short-path-back/` | Righteousness & Grace | 1 John 1:9 | 1,094 | 37c / 141c | 20/20 ✔ | 2027-07-24 |
+| 266 | M9·D266 | Legal Standing vs Emotional Weather | `/legal-standing-vs-emotional-weather/` | Righteousness & Grace | 2 Cor 5:7 | 906 | 35c / 158c | 20/20 ✔ | 2027-07-25 |
+| 267 | M9·D267 | The Robe of Righteousness Fits Perfectly | `/the-robe-of-righteousness-fits-perfectly/` | Righteousness & Grace | Isa 61:10 | 1,031 | 40c / 151c | 20/20 ✔ | 2027-07-26 |
+| 268 | M9·D268 | Religion Says Do; Grace Says Done | `/religion-says-do-grace-says-done/` | Righteousness & Grace | John 19:30 | 1,126 | 33c / 151c | 20/20 ✔ | 2027-07-27 |
+| 269 | M9·D269 | Righteousness Guards the Heart's Gate | `/righteousness-guards-the-hearts-gate/` | Righteousness & Grace | Prov 4:23 | 949 | 37c / 142c | 20/20 ✔ | 2027-07-28 |
+| 270 | M9·D270 | The Righteous Are Bold as a Lion | `/the-righteous-are-bold-as-a-lion/` | Righteousness & Grace | Prov 28:1 | 976 | 32c / 143c | 20/20 ✔ | 2027-07-29 |
+| 271 | M9·D271 | From Slavish Service to Sonship Service | `/from-slavish-service-to-sonship-service/` | Righteousness & Grace | Gal 4:7 | 1,009 | 39c / 140c | 20/20 ✔ | 2027-07-30 |
+| 272 | M9·D272 | Righteousness and Peace Have Kissed — Guard Both | `/righteousness-and-peace-have-kissed/` | Righteousness & Grace | Ps 85:10 | 1,004 | 35c / 151c | 20/20 ✔ | 2027-07-31 |
+| 273 | M9·D273 | Live Right Because You Are Right | `/live-right-because-you-are-right/` | Righteousness & Grace | 1 John 3:7 | 1,065 | 32c / 153c | 20/20 ✔ | 2027-08-01 |
 
 ---
 
