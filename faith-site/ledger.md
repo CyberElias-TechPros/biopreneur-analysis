@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–200 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–203 Live — Months 1–6 Complete, Month 7 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -243,6 +243,9 @@
 | 198 | M7·D198 | Symptoms Are Signals, Not Verdicts | `/symptoms-are-signals-not-verdicts/` | Divine Health | Gen 1:31 | 1,137 | 34c / 155c | 20/20 ✔ | 2027-05-18 |
 | 199 | M7·D199 | Healthy Thoughts Make Whole Bodies | `/healthy-thoughts-make-whole-bodies/` | Divine Health | Prov 17:22 | 1,198 | 34c / 146c | 20/20 ✔ | 2027-05-19 |
 | 200 | M7·D200 | Forgiveness Unblocks the Flow of Life | `/forgiveness-unblocks-the-flow-of-life/` | Divine Health | Eph 4:31–32 | 1,156 | 37c / 153c | 20/20 ✔ | 2027-05-20 |
+| 201 | M7·D201 | Anointing With Oil: Obedience With Meaning | `/anointing-with-oil-obedience-with-meaning/` | Divine Health | James 5:14 | 1,047 | 42c / 146c | 20/20 ✔ | 2027-05-21 |
+| 202 | M7·D202 | The Elders and the Prayer of Faith | `/the-elders-and-the-prayer-of-faith/` | Divine Health | James 5:15 | 1,114 | 34c / 149c | 20/20 ✔ | 2027-05-22 |
+| 203 | M7·D203 | His Presence Is Your Healing Environment | `/his-presence-is-your-healing-environment/` | Divine Health | Ps 16:11 | 1,060 | 40c / 142c | 20/20 ✔ | 2027-05-23 |
 
 ---
 
