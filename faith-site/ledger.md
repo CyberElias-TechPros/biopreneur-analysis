@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–320 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–323 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -363,6 +363,9 @@
 | 318 | M11·D318 | Divine Ideas Are Raw Material for Industry | `/divine-ideas-are-raw-material-for-industry/` | Christian Living | Exod 31:3 | 967 | 42c / 148c | 20/20 ✔ | 2027-09-15 |
 | 319 | M11·D319 | Favor Is a Climate, Not a Coincidence | `/favor-is-a-climate-not-a-coincidence/` | Christian Living | Gen 39:21 | 964 | 37c / 152c | 20/20 ✔ | 2027-09-16 |
 | 320 | M11·D320 | The Wisdom From Above Is First Pure | `/the-wisdom-from-above-is-first-pure/` | Christian Living | Jas 3:17 | 984 | 35c / 146c | 20/20 ✔ | 2027-09-17 |
+| 321 | M11·D321 | The Supernatural Without Spectacle | `/the-supernatural-without-spectacle/` | Christian Living | 1 Kgs 19:12 | 917 | 34c / 158c | 20/20 ✔ | 2027-09-18 |
+| 322 | M11·D322 | Your First Seat Is the Presence | `/your-first-seat-is-the-presence/` | Christian Living | Luke 10:42 | 955 | 31c / 148c | 20/20 ✔ | 2027-09-19 |
+| 323 | M11·D323 | When Kings Seek the Joseph in You | `/when-kings-seek-the-joseph-in-you/` | Christian Living | Gen 41:38 | 978 | 33c / 144c | 20/20 ✔ | 2027-09-20 |
 
 ---
 
