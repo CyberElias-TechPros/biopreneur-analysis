@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–119 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–120 Live — Months 1–4 Complete (Month 5 begins Day 121))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -162,6 +162,7 @@
 | 117 | M4·D117 | Offense-Proof Living: Authority Over Bitterness | `/offense-proof-living-authority-over-bitterness/` | Authority of the Believer | Matt 18:7 | 1,280 | 47c / 148c | 20/20 ✔ | 2027-02-26 |
 | 118 | M4·D118 | The Throne-Room Address of the Saints | `/the-throne-room-address-of-the-saints/` | Authority of the Believer | Heb 4:16 | 1,134 | 37c / 142c | 20/20 ✔ | 2027-02-27 |
 | 119 | M4·D119 | Walk Like a King's Child | `/walk-like-a-kings-child/` | Authority of the Believer | 2 Sam 9:7 | 1,187 | 46c / 144c | 20/20 ✔ | 2027-02-28 |
+| 120 | M4·D120 | Occupying Until He Comes: Authority as Stewardship | `/occupying-until-he-comes/` | Authority of the Believer | Luke 19:12–13 | 1,232 | 50c / 150c | 20/20 ✔ | 2027-03-01 |
 
 ---
 
