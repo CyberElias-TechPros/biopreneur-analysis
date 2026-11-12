@@ -459,12 +459,62 @@ def check_indexability(pages: list[str], origin: str) -> None:
     ]
     leak = [n for n in noindex if not n.startswith("404")]
     if leak:
-        warn("E5", f"noindex on indexable page(s): {leak[:5]}")
+        warn("E8", f"noindex on indexable page(s): {leak[:5]}")
     else:
-        ok("E5", "no accidental noindex")
+        ok("E8", "no accidental noindex")
 
 
 # ---------------------------------------------------------------- F. links
+def check_flat_sitemap(pages: list[str], origin: str) -> None:
+    """E5 — /sitemap.xml must exist, parse, and cover every canonical URL.
+
+    The @astrojs/sitemap integration emits sitemap-index.xml + sitemap-0.xml;
+    /sitemap.xml is the human/console entry point. It is a separate document, so
+    it needs its own guard against drifting out of sync with the site.
+    """
+    flat = os.path.join(DIST, "sitemap.xml")
+    if not os.path.exists(flat):
+        fail("E5", "/sitemap.xml missing")
+        return
+    try:
+        root = ET.parse(flat).getroot()
+    except ET.ParseError as exc:
+        fail("E5", f"/sitemap.xml unparseable: {exc}")
+        return
+
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    urls = root.findall(".//s:url", ns)
+    locs = {el.text for el in root.findall(".//s:loc", ns) if el.text}
+
+    defects: list[str] = []
+    for url in urls:
+        loc = url.findtext("s:loc", default="", namespaces=ns)
+        last = url.findtext("s:lastmod", default="", namespaces=ns)
+        prio = url.findtext("s:priority", default="", namespaces=ns)
+        if not loc.startswith(origin + "/"):
+            defects.append(f"{loc}: wrong origin")
+        if not loc.endswith("/"):
+            defects.append(f"{loc}: missing trailing slash")
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", last or ""):
+            defects.append(f"{loc}: bad lastmod")
+        if not re.match(r"^[01]\.\d$", prio or ""):
+            defects.append(f"{loc}: bad priority")
+
+    canon = set()
+    for p in pages:
+        m = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', read(p))
+        if m:
+            canon.add(m.group(1).strip())
+    missing = canon - locs
+
+    if defects:
+        fail("E5", "/sitemap.xml defects: " + "; ".join(defects[:5]))
+    elif missing:
+        fail("E5", f"{len(missing)} canonical URL(s) absent from /sitemap.xml: {sorted(missing)[:3]}")
+    else:
+        ok("E5", f"/sitemap.xml lists {len(locs)} URLs, all canonical, all with lastmod + priority")
+
+
 def check_links(pages: list[str], origin: str) -> None:
     host = urlparse(origin).netloc
     broken: dict[str, set[str]] = defaultdict(set)
@@ -627,6 +677,8 @@ LIGHTHOUSE_MAP = [
     ("D1", "heading-order, single-h1, landmarks"),
     ("E1", "sitemap validity"),
     ("E2", "sitemap covers canonicals"),
+    ("E5", "/sitemap.xml flat sitemap"),
+    ("E8", "no accidental noindex"),
     ("E6", "sitemap lastmod/priority metadata"),
     ("E7", "404 document is noindex"),
     ("F1", "crawlable-anchors / internal link integrity"),
@@ -663,6 +715,7 @@ def main() -> None:
     check_jsonld(pages)
     check_semantics(pages)
     check_indexability(pages, origin)
+    check_flat_sitemap(pages, origin)
     check_links(pages, origin)
     check_feeds(pages)
     check_images(pages)

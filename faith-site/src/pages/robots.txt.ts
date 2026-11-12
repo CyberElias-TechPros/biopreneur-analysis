@@ -8,6 +8,7 @@ export function GET(context: APIContext) {
   const body = `User-agent: *
 Allow: /
 
+Sitemap: ${origin}/sitemap.xml
 Sitemap: ${origin}/sitemap-index.xml
 `;
   return new Response(body, {
