@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–101 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–102 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -144,6 +144,7 @@
 | 099 | M4·D99 | Principalities Acknowledge Position | `/principalities-acknowledge-position/` | Authority of the Believer | Eph 2:6 | 1,247 | 35c / 152c | 20/20 ✔ | 2027-02-08 |
 | 100 | M4·D100 | Greater Is He: The Internal Majority | `/greater-is-he-the-internal-majority/` | Authority of the Believer | 1 John 4:4 | 1,214 | 36c / 153c | 20/20 ✔ | 2027-02-09 |
 | 101 | M4·D101 | Tread on Serpents and Scorpions | `/tread-on-serpents-and-scorpions/` | Authority of the Believer | Luke 10:19 | 1,351 | 31c / 146c | 20/20 ✔ | 2027-02-10 |
+| 102 | M4·D102 | Resist the Devil and He Must Flee | `/resist-the-devil-and-he-must-flee/` | Authority of the Believer | Jas 4:7 | 1,211 | 36c / 151c | 20/20 ✔ | 2027-02-11 |
 
 ---
 
