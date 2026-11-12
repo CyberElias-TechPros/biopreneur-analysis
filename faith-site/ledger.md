@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–183 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–184 Live — Months 1–6 Complete, Month 7 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -226,6 +226,7 @@
 | 181 | M6·D181 | The House of Prayer: What the Temple Teaches | `/the-house-of-prayer-what-the-temple-teaches/` | Prayer & Fasting | Isa 56:7 | 1,611 | 44c / 145c | 20/20 ✔ | 2027-05-01 |
 | 182 | M7·D182 | Healing Is the Children's Bread | `/healing-is-the-childrens-bread/` | Divine Health | Matt 15:26–27 | 1,385 | 31c / 148c | 20/20 ✔ | 2027-05-02 |
 | 183 | M7·D183 | By His Stripes You Were Healed — Past Tense | `/by-his-stripes-you-were-healed-past-tense/` | Divine Health | Isa 53:5 | 1,466 | 42c / 148c | 20/20 ✔ | 2027-05-03 |
+| 184 | M7·D184 | Sickness Is Not From God | `/sickness-is-not-from-god/` | Divine Health | Lam 3:33 | 1,553 | 43c / 142c | 20/20 ✔ | 2027-05-04 |
 
 ---
 
