@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–137 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–138 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -180,6 +180,7 @@
 | 135 | M5·D135 | The Word Works When You Work It | `/the-word-works-when-you-work-it/` | The Word | Jas 1:22 | 1,157 | 31c / 149c | 20/20 ✔ | 2027-03-16 |
 | 136 | M5·D136 | Take Heed How You Hear | `/take-heed-how-you-hear/` | The Word | Luke 8:18 | 1,079 | 34c / 146c | 20/20 ✔ | 2027-03-17 |
 | 137 | M5·D137 | Soil Determines Harvest: The Parable of Hearing | `/soil-determines-harvest-the-parable-of-hearing/` | The Word | Matt 13:23 | 1,099 | 47c / 150c | 20/20 ✔ | 2027-03-18 |
+| 138 | M5·D138 | Doers, Not Hearers Only: The Architecture of Obedience | `/doers-not-hearers-only/` | The Word | Matt 7:24 | 1,073 | 54c / 145c | 20/20 ✔ | 2027-03-19 |
 
 ---
 
