@@ -83,6 +83,8 @@ And look at the qualifier Paul adds: you were made the righteousness **of God** 
 
 **4. Approach God immediately when you need help.** Hebrews 4:16 invites you to come boldly to the throne of grace to obtain mercy and find grace to help *in time of need* — not two weeks after you feel respectable again.
 
+**5. Let Faith and Wisdom govern how you act on it.** Believing you are righteous is faith; choosing honest weights, keeping your word, paying what you owe, and getting proper rest are wisdom. The two are not rivals. Faith receives the standing; wisdom decides what a person with that standing actually does on a Tuesday afternoon. A believer who claims right standing while cutting corners has not wandered into boldness — he has only stopped thinking.
+
 ## Putting It to Work This Week
 
 - **Answer accusation with the exchange, not with excuses.** When guilt whispers, "Look at how flawed your week has been," do not argue from your own track record. Answer from 2 Corinthians 5:21: "My confidence is not my report card; Jesus bore my sin so that in Him I stand righteous before God."
@@ -135,7 +137,7 @@ And look at the qualifier Paul adds: you were made the righteousness **of God** 
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Practical integrity & Honesty-law synthesis included |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — Righteousness, the Consciousness of Righteousness, the Finished Work |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 58c · Meta 151c|
-| 17 | Words | ≥900 (Standard) | ✔ 1,025 words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1100 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 10 anchors |

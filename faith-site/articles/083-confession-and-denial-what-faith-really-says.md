@@ -109,9 +109,13 @@ And the psalm he quotes is about being delivered from death, which was written b
 Speak about your circumstances the way God speaks about them — accurately, and with Him included. If a doctor gave a diagnosis, you may say so. Then say what God has promised. That is not double-mindedness; it is honesty with a larger fact attached.
 
 **1. Read before you speak.** Find the scripture that addresses your situation before you form a sentence about it.
+
 **2. Remove exaggeration.** Fear inflates; faith states.
+
 **3. Confess sin quickly.** Unconfessed failure makes the mouth unreliable.
+
 **4. Say it out loud sometimes.** Private speech shapes private conviction.
+
 **5. Faith and wisdom speak with discretion.** Not every promise is for public broadcast, and not every hearer is ready for it.
 
 ## Putting It to Work This Week

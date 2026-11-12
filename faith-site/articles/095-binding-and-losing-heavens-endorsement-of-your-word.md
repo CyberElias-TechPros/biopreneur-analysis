@@ -108,9 +108,13 @@ Judged already, in the name, gathered together. Three conditions. And the purpos
 The most important question is not whether you can bind something, but whether your judgement has been formed by God's word or by your preferences. Authority follows agreement.
 
 **1. Learn God's verdicts before you pronounce yours.** Read before you speak.
+
 **2. Seek agreement, not just consensus.** Two or three gathered in the Name, not merely in the habit.
+
 **3. Never bind what God has loosed.** Legalism is a misuse of this authority.
+
 **4. Never loose what God has bound.** Licence is the opposite misuse.
+
 **5. Faith and wisdom handle verdicts with care.** Wisdom remembers that a human verdict has consequences for real people; authority is stewardship, not entertainment.
 
 ## Putting It to Work This Week

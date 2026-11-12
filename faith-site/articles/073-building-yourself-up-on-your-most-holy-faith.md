@@ -90,9 +90,13 @@ Two questions are worth sitting with. First: what are you actually building with
 These questions are not meant to produce shame. They are meant to hand you back the trowel. Jude writes to people under pressure and calls them "beloved" before he calls them builders.
 
 **1. Build daily, not occasionally.** A wall that goes up in spurts cracks. Twenty minutes of word and prayer every day outbuilds a monthly marathon.
+
 **2. Pray in the Spirit when you do not have words.** Let the Holy Spirit carry the prayer your understanding cannot frame.
+
 **3. Keep yourself in the love of God.** Build from acceptance, never toward it.
+
 **4. Build with others.** Find one believer to build alongside and be honest with.
+
 **5. Faith and wisdom build with a plan.** Faith lays the foundation, while wisdom chooses materials, counts the cost, and keeps the site ordered — the wise builder in Luke 14:28 sat down first and calculated.
 
 ### The Word Says the Same Thing From Three Directions

@@ -98,9 +98,13 @@ Note his image. Bread. What the ten saw as an unassailable wall, Caleb saw as a 
 "Who hath believed our report? and to whom is the arm of the LORD revealed?" (Isaiah 53:1). The question links belief to revelation — the arm of the Lord is revealed to those who believe the report. Paul quotes the same verse in Romans 10 and then says "faith cometh by hearing."
 
 **1. Audit your intake.** You cannot choose what happens, but you can choose what you keep listening to and repeating.
+
 **2. Name the facts, then name God.** Be honest about the giants, then say what He has said about them.
+
 **3. Be a Caleb in the room.** Somebody has to still the people. Let it be you.
+
 **4. Refuse to rehearse fear.** Every retelling of the worst-case is a rehearsal for it.
+
 **5. Faith and wisdom count the cost honestly.** Faith does not inflate numbers; wisdom gathers the real data and sets it beside the promise, then decides on the promise.
 
 ## Putting It to Work This Week

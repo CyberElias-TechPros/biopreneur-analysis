@@ -100,9 +100,13 @@ Mark gives us the sentence every honest believer eventually prays: "Lord, I beli
 And the boy was healed. Jesus did not wait for a tidy heart. He honoured a man who was honest about the mess and asked for more.
 
 **1. Name the mountain.** Vagueness is unbelief in disguise; be specific about what stands against you.
+
 **2. Check whether God has spoken.** Faith rests on a word. Find the promise, then stand on the promise.
+
 **3. Start where your faith actually is.** A seed is a place to begin, not a reason for shame.
+
 **4. Speak, but do not perform.** Faith speaks because it is convinced, not because words are magic.
+
 **5. Address unbelief as a decision.** Repent of it the way you would repent of any other sin — and ask for help.
 
 ## Putting It to Work This Week

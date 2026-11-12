@@ -106,9 +106,13 @@ Revelation names the shield's contents from a heavenly perspective: "They overca
 That is why faith and confession belong together. The shield is made of the finished work and the spoken word about the finished work.
 
 **1. Lift the shield intentionally.** Morning is the moment. A shield left on the ground covers nothing.
+
 **2. Answer accusations with the phone book, not with feelings.** State what is written.
+
 **3. Do not rehearse the dart.** Retelling a tormenting thought to yourself is how it burns.
+
 **4. Soak the shield in the word.** Preaching to yourself is armour maintenance.
+
 **5. Faith and wisdom know the difference between a dart and a duty.** Not every uncomfortable thought is an attack; some conviction is the Spirit's, and wisdom tests the fruit.
 
 ## Putting It to Work This Week

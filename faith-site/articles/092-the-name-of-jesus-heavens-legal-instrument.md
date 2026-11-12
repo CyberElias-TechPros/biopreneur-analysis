@@ -107,9 +107,13 @@ Acts 19 gives the cautionary tale: seven men tried to use the Name they had seen
 That is not a threat to sincere believers; it is a reminder that the Name is a relationship before it is a resource.
 
 **1. Say the Name with understanding.** Pause and mean it.
+
 **2. Keep short accounts.** Unrepented sin muddies the confidence with which we appeal to Him.
+
 **3. Stand on the Name in prayer daily.** Make it habitual, not theatrical.
+
 **4. Refuse superstition in both directions.** Neither magic nor neglect.
+
 **5. Faith and wisdom speak within commission.** Wisdom asks whether this is an instruction from the Lord, not merely whether the Name is available.
 
 ## Putting It to Work This Week

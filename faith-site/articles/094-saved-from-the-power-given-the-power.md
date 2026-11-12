@@ -109,9 +109,13 @@ Four movements. Eyes opened, darkness left, authority changed, inheritance recei
 ## What This Means for You
 
 **1. Stop renegotiating a completed transfer.** Repentance for a past failure, yes — but not re-imprisonment.
+
 **2. Learn the laws of the new country.** Read the Sermon on the Mount and the epistles as the constitution of where you live.
+
 **3. Act on your credentials.** Speak with the authority of your citizenship.
+
 **4. Expect the old regime to resent the loss.** Resistance is a sign of what you left, not of whether you left.
+
 **5. Faith and wisdom live lawfully in the new kingdom.** Wisdom asks whether a behaviour is fitting for a citizen, not merely permitted.
 
 ## Putting It to Work This Week

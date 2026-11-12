@@ -104,9 +104,13 @@ Matthew 14 gives the clearest picture. Peter asked to come, and he walked on wat
 Consider what each one actually is. Fear keeps a man safely in the boat and calls it wisdom; faith gets him out and lets him learn. Both are remembered in the same story — but only one is a testimony.
 
 **1. Name the paralysis.** Find the thing you have been circling for months without deciding.
+
 **2. Take the smallest step available today.** Movement breaks the spell that analysis sustains.
+
 **3. Speak to yourself in scripture.** "What time I am afraid, I will trust in thee" (Psalm 56:3).
+
 **4. Let love cast out the fear of people.** "Perfect love casteth out fear" (1 John 4:18).
+
 **5. Faith and wisdom distinguish caution from cowardice.** Wisdom counts cost and asks real questions; fear asks endless ones. If the questions never end, it is not wisdom.
 
 ## Putting It to Work This Week

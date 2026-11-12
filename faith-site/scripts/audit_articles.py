@@ -9,6 +9,31 @@ import os
 import re
 import sys
 
+# Section 12 row 14 — the faith-and-wisdom line. Every article touches ordinary
+# life (health, money, work, speech), so every article must carry it somewhere.
+FAITH_AND_WISDOM = [
+    "faith and wisdom", "faith and practical wisdom", "faith and wisdom work",
+    "wisdom and faith", "prayer and wisdom", "faith works with", "faith and medicine",
+    "medical care", "professional counsel", "sound care", "diligent work",
+    "wisdom work together", "wisdom and diligence", "faith plus wisdom",
+]
+
+# Section 2 Law 4 / Section 8 — at least two explicit contrast pairs.
+# Detector is deliberately conservative: it looks for the grammatical shape of a
+# correction ("is not X; it is Y", "not X but Y", "rather than", "instead of", "vs").
+CONTRAST_PATTERNS = [
+    # "is not X; it is Y" — the core corrective shape, across any verb/punctuation.
+    r"\b(?:is|are|was|were|does|do)\s+not\b[^.!?\n]{0,110}[;,—–.]\s*"
+    r"(?:it|this|that|he|she|they|you)\s+(?:is|was|are|were|does|do)\b",
+    # "not X but Y"
+    r"\bnot\s+(?:a|an|the|merely|just|simply|only|by|from|of)\b[^.!?\n]{0,110}\bbut\b",
+    # appositive correction: "an intruder, not your landlord" / "grace — not performance"
+    r"\b\w+\s*,\s*not\s+(?:your|a|an|the|merely|just|only)\s+\w+",
+    r"—\s*not\s+\w+[^.!?\n]{0,70}\bbut\b",
+    r"\bvs\.?\b", r"\bversus\b", r"\brather than\b", r"\binstead of\b",
+    r"\bwhat it is not\b", r"\bis not the same as\b", r"\bmisconception\b",
+]
+
 BANNED_PHRASES = [
     "in today's fast-paced world",
     "delve",
@@ -190,6 +215,15 @@ def main():
 
         if "here is the contrast:" in prose_only.lower():
             errors.append("template tic 'Here is the contrast:' — rewrite the contrast")
+
+        # Row 14 — faith-and-wisdom line wherever practical life is touched.
+        if not any(fw in prose_only.lower() for fw in FAITH_AND_WISDOM):
+            errors.append("missing faith-and-wisdom line (Section 12 row 14)")
+
+        # Row 5 — explicit contrast pairs (Section 2 Law 4: minimum two).
+        contrast = sum(len(re.findall(pat, prose_only, flags=re.I)) for pat in CONTRAST_PATTERNS)
+        if contrast < 2:
+            errors.append(f"contrast pairs {contrast} < 2")
 
         # "Bold anchors" (Section 8) are bolded STATEMENTS carrying the revelation,
         # not inline emphasis of a single word inside a quoted verse. Count only

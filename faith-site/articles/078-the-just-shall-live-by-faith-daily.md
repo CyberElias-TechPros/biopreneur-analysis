@@ -101,9 +101,13 @@ Hebrews is honest about the pull. "Cast not away therefore your confidence, whic
 Trace the difference to its root: The crisis-faith believer performs well in the emergency and drifts in the ordinary; the daily-faith believer may be unremarkable in the emergency precisely because faithfulness has already become a habit.
 
 **1. Start the day with a declaration.** Decide what is true before the news decides for you.
+
 **2. Make one small act of obedience visible.** Faith needs an outlet to stay alive.
+
 **3. Keep a written record of God's faithfulness.** Memory is a fuel tank.
+
 **4. Do not wait for the dramatic.** Live well in the unremarkable hours.
+
 **5. Faith and wisdom plan ordinary life.** Faith is not a substitute for diligence; wisdom budgets the money, keeps the appointment, and does the work — then trusts God with the outcome.
 
 ## Putting It to Work This Week

@@ -108,9 +108,13 @@ The brevity is the teaching. If the most important thing about a man's life can 
 God was pleased because Enoch liked being with Him. If that sounds too low a bar for the living God, remember that a person is not honoured by being used; he is honoured by being wanted.
 
 **1. Make believing the first act of your day.** Decide what is true before you decide what to do.
+
 **2. Trust His disposition, not just His existence.** God is not reluctant to bless His children.
+
 **3. Seek Him with diligence, not formality.** Put it in the calendar, not merely in the constitution.
+
 **4. Let faith precede effort.** Check the root of your acts, not only their output.
+
 **5. Faith and wisdom serve from conviction.** Wisdom does the right thing well; faith ensures it is done for the right God and from the right ground.
 
 ## Putting It to Work This Week

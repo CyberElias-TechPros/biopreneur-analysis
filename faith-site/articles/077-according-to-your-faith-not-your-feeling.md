@@ -100,9 +100,13 @@ Jesus's response did not rebuke the contradiction: "Daughter, thy faith hath mad
 That is the practical shape of living by faith over feeling. You do not wait for calm; you speak to the thing that is not calm.
 
 **1. Ask the question Jesus asked.** "Believe ye that I am able?" Answer it honestly, not emotionally.
+
 **2. Give feelings their seat, not their throne.** Listen, then decide.
+
 **3. Do the next faithful thing.** Action taken in obedience outruns analysis of mood.
+
 **4. Feed the deciding faculty.** Faith comes by hearing, so read and hear more than you scroll.
+
 **5. Faith and wisdom read the body honestly.** Persistent anxiety or despair can carry clinical weight; wisdom seeks help and rest while faith still holds the promise.
 
 ## Putting It to Work This Week

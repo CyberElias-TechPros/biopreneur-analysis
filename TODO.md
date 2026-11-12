@@ -59,6 +59,7 @@
 - ☐ D11. Month 11 (Nov — Glory Life): 30
 - ☐ D12. Month 12 (Dec — Incarnation & Return): 31
 - ✔ D13. Self-audit + SEO pack + ledger update workflow active (`faith-site/scripts/audit_articles.py` + `faith-site/ledger.md`)
+- ✔ D14b. **Rows 14 and 5 now measured, not asserted.** Every article carries the faith-and-wisdom line (§12 row 14) and at least two explicit contrast pairs (§2 Law 4); `audit_articles.py` fails on either if absent. Nine articles whose numbered applications were collapsing into one paragraph in the rendered HTML are fixed and verified in `dist/`.
 - ✔ D14a. **Prose floor verified on the correct measure.** All 97 articles ≥900 words of *teaching prose* (min 902, median 998, max 1,139) with the closing reaffirmation/declaration block excluded from the count; Standard's 0–3 H2 limit and the required "What This Means for You" section enforced by `audit_articles.py`.
 - ✔ D14. Internal-link discipline: all 97 articles interlinked with 0 broken links across all 118 built pages (0 dangling related-teaching slugs, 0 invalid categories or glossary terms)
 - ✔ D15. Launch minimum: **97 live articles** (floor 50 cleared with buffer)

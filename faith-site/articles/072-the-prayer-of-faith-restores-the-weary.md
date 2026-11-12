@@ -98,9 +98,13 @@ Faith is not a refusal to see a doctor. James assumes ordinary means and anoints
 Faith is also not a burden laid on the sick to manufacture enough certainty. The elders prayed. The Lord raised. Notice who carries which weight.
 
 **1. Call for help sooner.** Weariness grows in silence. Invite prayer before the crisis, not after it.
+
 **2. Pray with your church, not around it.** The prayer of faith is normally a shared act.
+
 **3. Confess what you have been hiding.** Honesty is not an embarrassment; it is a door.
+
 **4. Leave the outcome with the Lord.** Trust His wisdom about timing as much as His power to heal.
+
 **5. Stay faithful when the answer is grace instead of removal.** Faith and wisdom recognise that God's sufficiency is itself an answer.
 
 ## Putting It to Work This Week

@@ -106,9 +106,13 @@ Some promises take decades. Some are answered in a form different from what we p
 Faith does not demand a date. It holds the word, walks the span, and trusts the One standing at the far end with the outcome in His hands.
 
 **1. Write the promise down.** A promise in memory is a promise that can be edited by discouragement.
+
 **2. Set your confession.** Decide today what you will say for the next twelve months.
+
 **3. Find companions for the crossing.** Faith is easier held by a company than alone.
+
 **4. Keep serving.** Obedience in the gap protects you from bitterness.
+
 **5. Faith and wisdom use the waiting well.** Wisdom can build skill, save money, and prepare capacity so that when the manifestation arrives, you are able to carry it.
 
 ## Putting It to Work This Week

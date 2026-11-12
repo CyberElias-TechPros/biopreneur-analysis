@@ -83,6 +83,8 @@ Watch how both Testaments build a fortress of assurance around this single truth
 
 **4. Mirror your Father's truthfulness in everyday speech.** Children of the God who cannot lie are called to become people whose word can be trusted at home, in business contracts, and in private commitments (Ephesians 4:25).
 
+**5. Keep **Faith and Wisdom** in the same sentence.** Believing God's verdict about you is faith; verifying the contract, reading the terms before you sign, and keeping records of what you promised are wisdom. God's truthfulness does not suspend your diligence — it obligates it. The believer whose speech can be trusted is usually also the believer who checked the facts before speaking.
+
 ## Putting It to Work This Week
 
 - **Conduct a two-column truth check.** Write down one recurring fearful sentence you have been repeating this month on the left side of a page; on the right side, write a plain, contextually faithful Scripture promise in Christ. Choose deliberately which column gets your agreement this week.
@@ -135,7 +137,7 @@ Watch how both Testaments build a fortress of assurance around this single truth
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Point 2 & App 2 explicitly pair faith with sober practical action |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Word of God, Confession of the Word, Spiritual Realities |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 55c · Meta 152c|
-| 17 | Words | ≥900 (Standard) | ✔ 1,030 words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1092 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 12 anchors |

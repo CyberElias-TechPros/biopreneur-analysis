@@ -63,7 +63,7 @@ Look first at the word *justified* (Greek *dikaioo*). It is a legal term from th
 
 Now look at the word right beside it: *freely*. In the Greek New Testament, this is the word *dorean*. Would it surprise you to learn where else the Holy Spirit uses that exact word? In John 15:25, Jesus quotes the Psalms concerning His enemies: "They hated me **without a cause** (*dorean*)." There was nothing whatsoever in Jesus to provoke hatred; the cause lay entirely outside Him. Now carry that exact meaning back into Romans 3:24! You were justified *dorean* — without a merit-cause in you. God did not inspect your future decades, find enough polish to justify a discount, and meet you halfway. The cause of your acquittal lay completely in His grace and in Christ's ransom.
 
-Consider the difference between a prisoner released on parole and a citizen handed a signed order of full exoneration from the nation's highest court. The parolee flinches every time a police siren passes the street, wondering if an old file is being reopened. The exonerated citizen walks past the courthouse in broad daylight because the supreme bench has already ruled, the debt is cancelled, and no lower official has jurisdiction to retry the case. Religion offers nervous parole. The gospel announces supreme-court justification.
+Consider the difference between a prisoner released on parole and a citizen handed a signed order of full exoneration from the nation's highest court. The parolee flinches every time a police siren passes the street, wondering if an old file is being reopened. The exonerated citizen walks past the courthouse in broad daylight because the supreme bench has already ruled, the debt is cancelled, and no lower official has jurisdiction to retry the case. Religion offers nervous parole. The gospel announces supreme-court justification. A sentence of exoneration, though, is not a licence to ignore the traffic code. **Faith and Wisdom** — believing God's verdict and then acting with ordinary prudence — are meant to travel together: the exonerated citizen still renews his documents, keeps his accounts honest, and answers letters promptly, not because the verdict is in doubt, but because a cleared name deserves a careful life.
 
 ### How Scripture Confirms the Settled Verdict
 
@@ -133,7 +133,7 @@ Consider the difference between a prisoner released on parole and a citizen hand
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Practical restitution & honest reconciliation included |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — Justification, Legal Position, the Blood of Jesus |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 57c · Meta 154c|
-| 17 | Words | ≥900 (Standard) | ✔ 1,013 words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1075 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 1 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 12 anchors |

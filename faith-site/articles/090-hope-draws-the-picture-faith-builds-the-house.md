@@ -105,9 +105,13 @@ Which suggests a test for your own hope. Can it be translated into a specificati
 If hope has dimmed, the remedy is not to try harder to feel optimistic. It is to return to the promises, which is where hope is manufactured.
 
 **1. Write your picture down.** Vague hope builds nothing.
+
 **2. Check that the picture is God's.** Hope drawn from your own imagination will not survive the weather.
+
 **3. Take one building action.** Faith without a hammer is a hobby.
+
 **4. Anchor daily.** Pray toward the veil, not only toward the problem.
+
 **5. Faith and wisdom use a plan.** Hope draws, faith builds, and wisdom draws the schedule — the wise builder sits down first and counts the cost (Luke 14:28).
 
 #### Month Three in Review

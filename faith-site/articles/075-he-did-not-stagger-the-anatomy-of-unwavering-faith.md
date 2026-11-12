@@ -99,9 +99,13 @@ We should not read Romans 4 as if Abraham and Sarah were made of stone. Sarah la
 That is a mercy worth sitting with. Have you ever assumed that one wobble has disqualified you from being called strong in faith? What if the God who named laughter after your doubt is the same God who still counts your faith as righteousness? Abraham's own record includes a detour into Hagar, and God still calls him the father of faith.
 
 **1. Answer the facts, do not suppress them.** Name the deadness honestly, then name God's ability over it.
+
 **2. Stop re-asking a settled question.** When God has spoken, treat further doubt as a decision rather than a feeling.
+
 **3. Give glory early.** Thank God for the answer before you can see it.
+
 **4. Feed your attention deliberately.** Faith comes by hearing, so choose the voices that report God's ability.
+
 **5. Faith and wisdom test the promise.** Faith does not stagger at what God has said, but wisdom checks whether God actually said it, rather than declaring whatever you want.
 
 ## Putting It to Work This Week

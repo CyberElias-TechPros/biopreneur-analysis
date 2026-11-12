@@ -111,9 +111,13 @@ Romans 13 establishes that human authority is also delegated, which is why the c
 A believer who resents all authority will struggle to exercise any. The kingdom does not produce freelancers.
 
 **1. Receive before you attempt.** Start the day by acknowledging what has been given, not by assessing how strong you feel.
+
 **2. Learn what the warrant covers.** Read Matthew 28, Luke 10, and Mark 16 and write down what is authorized.
+
 **3. Speak the Name deliberately.** Authority is exercised in His name, not in yours.
+
 **4. Submit where submission is due.** Authority flows through order, not around it.
+
 **5. Faith and wisdom use authority lawfully.** Wisdom asks whether this is your assignment, this hour, and this person — because an ambassador who exceeds his brief does not expand the kingdom.
 
 ## Putting It to Work This Week

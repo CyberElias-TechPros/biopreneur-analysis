@@ -112,9 +112,13 @@ That kills both comparison and paralysis at once. Comparison says "why is his me
 ## What This Means for You
 
 **1. Identify your current level.** What do you trust God for without flinching? Start the inventory there.
+
 **2. Name the next one.** What is the thing you currently avoid because it requires more trust?
+
 **3. Take one step toward it this week.** Movement is made of small decisions.
+
 **4. Stay under the word.** Exposure is the soil of growth.
+
 **5. Faith and wisdom grow without recklessness.** Wisdom tests the leading, seeks counsel, and counts the cost; faith supplies the courage to obey once the leading is clear.
 
 ## Putting It to Work This Week

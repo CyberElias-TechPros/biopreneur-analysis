@@ -108,9 +108,13 @@ Isaiah gives the same instruction with a different image: "Lift up thine eyes ro
 "If ye then be risen with Christ, seek those things which are above... Set your affection on things above, not on things on the earth" (Colossians 3:1–2). The instruction is about affection, not merely attention — the heart's investment.
 
 **1. Ask for opened eyes.** Elisha prayed for it; Paul prayed for it (Ephesians 1:18). This is a legitimate, ongoing request.
+
 **2. Reduce the noise that floods the visible.** Whatever you stare at becomes your world.
+
 **3. Read the eternal report daily.** The word trains the eye.
+
 **4. Reframe one visible fear each day.** Place it against the eternal fact beside it.
+
 **5. Faith and wisdom see what is actually there.** Faith does not invent facts; it sees facts others have not yet noticed.
 
 ## Putting It to Work This Week

@@ -81,6 +81,10 @@ James uses his most famous image in verse 26: "as the body without the spirit is
 
 A body in a coffin is still a body. It has the right shape, the right proportions, the right features. What it does not have is animation. That is a faith that talks and does not move.
 
+The Greek word James uses for "dead" is *nekros* — the word used for a corpse, not for a weakened or sleeping thing. He is not describing faith on life support, needing encouragement. He is describing a body in a room where nobody expects it to get up. That is why his language offends us: we would prefer to grade faith, calling some of it strong and some of it weak. James does not grade it. He examines it for a pulse.
+
+There is a further detail worth noticing. In verse 26 he does not say the body needs the spirit in order to be useful; he says it needs the spirit in order to be a body at all. The spirit is not an accessory the body carries. It is the thing that makes the shape mean something. So it is with faith. Works are not decorations hung on faith to make it presentable; they are the evidence that something living is inside. Strip them away and you are left with a form that can be photographed and cannot be used.
+
 ### Abraham's Hand and Rahab's Window
 
 James reaches for two examples at opposite ends of the social scale. Abraham lifting the knife on Moriah (Genesis 22) — a patriarch's obedience. Rahab hanging a scarlet cord from her window (Joshua 2) — a prostitute's risk.
@@ -101,16 +105,14 @@ Which is the test James is applying. Not "is your faith sincere?" but "is there 
 
 ## What This Means for You
 
-- **In generosity.** A hand that opens is a creed with legs.
-- **In forgiveness.** Forgiving someone who has not apologised is invisible faith made public.
-- **In courage.** Saying the true thing when it costs you.
-- **In consistency.** The same person on Monday as on Sunday.
-- **In service.** "Whoso hath this world's good... and shutteth up his bowels of compassion... how dwelleth the love of God in him?" (1 John 3:17).
-
 **1. Ask what your faith would do if it were visible.** Then do that.
+
 **2. Choose one concrete act this week.** Not a sentiment — a deed with a date.
+
 **3. Keep the order right.** Never act to be accepted; act because you are.
+
 **4. Let someone see it.** Faith that is deliberately hidden cannot be shown.
+
 **5. Faith and wisdom choose fitting works.** Wisdom matters: not every dramatic gesture is obedience, and some very loud acts are not faith at all.
 
 ## Putting It to Work This Week
@@ -154,7 +156,7 @@ Which is the test James is applying. Not "is your faith sincere?" but "is there 
 | 3 | Theme scripture block | ✔ quoted, translation labeled | ✔ James 2:18 (KJV) |
 | 4 | Cross-references (beyond theme verse) | 3 (Standard) | ✔ 9 distinct passages|
 | 5 | Contrast pairs | 2 | ✔ 4 — describing vs showing · cause vs effect · Paul's emphasis vs James's · body vs corpse |
-| 6 | Rhetorical questions | 2 | ✔ 6 literal `?` in prose|
+| 6 | Rhetorical questions | 2 | ✔ 5 literal `?` in prose|
 | 7 | Illustrations (bridge, then explained) | 1 | ✔ Electricity demonstrated by turning on a light |
 | 8 | Techniques deployed (of the 7) | ≥4 | ✔ 6 — definition, contrast, word study, cumulative build, practical translation, reaffirmation |
 | 9 | Central-truth repetitions (strengthened) | 3 | ✔ restated 4× (opening, development, reaffirmation, declaration)|
@@ -165,7 +167,7 @@ Which is the test James is applying. Not "is your faith sincere?" but "is there 
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in Point 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — the Life of Faith, Faith and Wisdom, Kingdom Stewardship |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 31c · Meta 146c|
-| 17 | Words | ≥900 (Standard) | ✔ 937 words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1049 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 4 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 6 anchors |
