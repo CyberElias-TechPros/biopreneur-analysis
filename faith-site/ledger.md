@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–234 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–236 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -276,7 +276,9 @@
 | 231 | M8·D231 | The Cheerful Giver's Secret | `/the-cheerful-givers-secret/` | Prosperity & Stewardship | 2 Cor 9:7 | 1,013 | 27c / 156c | 20/20 ✔ | 2027-06-20 |
 | 232 | M8·D232 | The Power to Get Wealth Is Covenant Enablement | `/the-power-to-get-wealth-is-covenant-enablement/` | Prosperity & Stewardship | Deut 8:18 | 994 | 33c / 142c | 20/20 ✔ | 2027-06-21 |
 | 233 | M8·D233 | Prosper Your Soul First | `/prosper-your-soul-first/` | Prosperity & Stewardship | 3 John 2 | 919 | 49c / 140c | 20/20 ✔ | 2027-06-22 |
-| 234 | M8·D234 | Generosity Is the Antidote to Anxiety | `/generosity-is-the-antidote-to-anxiety/` | Prosperity & Stewardship | Phil 4:6 | 1,048 | 37c / 140c | 20/20 ✔ | 2027-06-23 |
+| 234 | M8·D234 | Generosity Is the Antidote to Anxiety | `/generosity-is-the-antidote-to-anxiety/` | Prosperity & Stewardship | Phil 4:6 | 1,064 | 37c / 140c | 20/20 ✔ | 2027-06-23 |
+| 235 | M8·D235 | Barns, Bigger Barns, and the Bigger Life | `/barns-bigger-barns-and-the-bigger-life/` | Prosperity & Stewardship | Luke 12:20 | 1,156 | 36c / 147c | 20/20 ✔ | 2027-06-24 |
+| 236 | M8·D236 | Partnerships That Preach: Supporting the Gospel | `/partnerships-that-preach-supporting-the-gospel/` | Prosperity & Stewardship | Phil 1:5 | 1,118 | 36c / 147c | 20/20 ✔ | 2027-06-25 |
 
 ---
 

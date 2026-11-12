@@ -131,11 +131,9 @@ Paul's whole prescription has this shape: stop rehearsing, start requesting, add
 
 **You cannot rehearse disaster and gratitude in the same motion.**
 
-### It Is the Opposite of the Rich Fool
+### It Has an Ancient Witness
 
-Jesus told a parable about a man whose entire anxiety strategy was accumulation: bigger barns, more storage, and a soul he addressed as if it were a shareholder (Luke 12:19).
-
-The verdict was not that he had too much grain. It was that he was "not rich toward God" (Luke 12:21).
+Jesus' parable of the man with the bigger barns ends on a verdict that has nothing to do with the size of the harvest: "So is he that layeth up treasure for himself, and is not rich toward God" (Luke 12:21). The man's mistake was not storage. It was that his anxiety strategy and his accumulation strategy were the same strategy — and neither of them had a Giver in it.
 
 **Hoarding and worry are the same activity with different account balances.**
 
@@ -213,7 +211,7 @@ Second, giving in order to stop feeling anxious, as a technique, will disappoint
 | 14 | Faith-and-wisdom line where practical life touched | ✔ | ✔ Explicit in the boundary and application 5 |
 | 15 | Glossary terms highlighted (1–3) + defined first use | ✔ | ✔ 3 — The Life of Faith, Kingdom Stewardship, Faith and Wisdom |
 | 16 | SEO pack (title ≤60, meta 140–158, slug, links) | ✔ | ✔ Title 37c · Meta 140c |
-| 17 | Words | ≥900 (Standard) | ✔ 1,048 words of prose (floor 900) |
+| 17 | Words | ≥900 (Standard) | ✔ 1,064 words of prose (floor 900) |
 | 18 | No banned patterns; voice law clean | ✔ | ✔ 0 banned phrases, 0 template tics |
 | 19 | Structure (Standard variant) | 0–3 H2 | ✔ 3 H2 · 7 H3 · '## What This Means for You' present |
 | 20 | Bold anchors (5+ word statements) | 4–14 | ✔ 14 anchors |
