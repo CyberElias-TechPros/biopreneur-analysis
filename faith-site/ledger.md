@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–105 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–106 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -148,6 +148,7 @@
 | 103 | M4·D103 | Silence the Accuser With Your Testimony | `/silence-the-accuser-with-your-testimony/` | Authority of the Believer | Rev 12:11 | 1,436 | 35c / 150c | 20/20 ✔ | 2027-02-12 |
 | 104 | M4·D104 | Spiritual Authority Is Spoken, Not Wished | `/spiritual-authority-is-spoken-not-wished/` | Authority of the Believer | Mark 11:23 | 1,553 | 39c / 150c | 20/20 ✔ | 2027-02-13 |
 | 105 | M4·D105 | Christ in You: The Hope of Glory, the Power of Now | `/christ-in-you-hope-of-glory-power-of-now/` | Authority of the Believer | Col 1:27 | 1,243 | 42c / 149c | 20/20 ✔ | 2027-02-14 |
+| 106 | M4·D106 | Under His Feet, Above Your Problems | `/under-his-feet-above-your-problems/` | Authority of the Believer | Eph 1:22 | 1,272 | 35c / 146c | 20/20 ✔ | 2027-02-15 |
 
 ---
 
