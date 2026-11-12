@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–145 Live — Months 1–4 Complete, Month 5 In Progress)
+## 2. Published Articles Ledger (Days 001–146 Live — Months 1–4 Complete, Month 5 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -188,6 +188,7 @@
 | 143 | M5·D143 | Truth Is a Person: Meeting the Word | `/truth-is-a-person-meeting-the-word/` | The Word | John 1:14 | 1,090 | 35c / 149c | 20/20 ✔ | 2027-03-24 |
 | 144 | M5·D144 | No Foundation, No Collapse: Build on the Rock | `/no-foundation-no-collapse-build-on-the-rock/` | The Word | Luke 6:48 | 1,001 | 45c / 141c | 20/20 ✔ | 2027-03-25 |
 | 145 | M5·D145 | Renewed Mind, Transformed Life | `/renewed-mind-transformed-life/` | The Word | Rom 12:2 | 1,094 | 43c / 154c | 20/20 ✔ | 2027-03-26 |
+| 146 | M5·D146 | The Mirror That Never Fogs: James's Word-Mirror | `/the-mirror-that-never-fogs/` | The Word | Jas 1:25 | 1,079 | 47c / 153c | 20/20 ✔ | 2027-03-27 |
 
 ---
 
