@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–243 Live — Months 1–8 Complete)
+## 2. Published Articles Ledger (Days 001–244 Live — Month 9 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -286,6 +286,7 @@
 | 241 | M8·D241 | Rich Toward God, Wise Toward Earth | `/rich-toward-god-wise-toward-earth/` | Prosperity & Stewardship | Luke 16:8 | 1,010 | 34c / 146c | 20/20 ✔ | 2027-06-30 |
 | 242 | M8·D242 | Overflow Is for Distribution | `/overflow-is-for-distribution/` | Prosperity & Stewardship | Ps 23:5 | 927 | 28c / 146c | 20/20 ✔ | 2027-07-01 |
 | 243 | M8·D243 | Prosperity Has an Order: Soul, Seed, Surplus | `/prosperity-has-an-order-soul-seed-surplus/` | Prosperity & Stewardship | 3 John 2 | 1,098 | 44c / 148c | 20/20 ✔ | 2027-07-02 |
+| 244 | M9·D244 | Awake to Righteousness: Living Free From Accusation | `/awake-to-righteousness-living-free-from-accusation/` | Righteousness & Grace | 1 Cor 15:34 | 1,085 | 44c / 147c | 20/20 ✔ | 2027-07-03 |
 
 ---
 
