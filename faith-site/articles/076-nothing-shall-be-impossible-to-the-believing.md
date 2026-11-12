@@ -67,15 +67,15 @@ The story is not a rebuke of weak people. These were the men who had cast out de
 
 Notice what Jesus did not say. He did not say they needed more authority, a better technique, or a louder voice. He said they needed faith, and He compared it to a seed — which is to say, something small, alive, and planted.
 
-## A Seed, Not a Stone
+### A Seed, Not a Stone
 
 A mustard seed is unimpressive. It has no mass to speak of and no visible strength. But it is alive, and life in the right place moves more than weight ever could.
 
 Think of a crack in a pavement. Nobody breaks concrete with brute force from above; a root does it from beneath, quietly, over months, with a force drawn from sunlight. Faith works like the root, not the hammer.
 
-Here is the contrast: unbelief asks how big the mountain is, while faith asks how alive the seed is. One measures the obstacle; the other measures the God who spoke.
+Set them side by side and the gap shows. Unbelief asks how big the mountain is, while faith asks how alive the seed is. One measures the obstacle; the other measures the God who spoke.
 
-## "Nothing Shall Be Impossible" Is a Category, Not a Blank Cheque
+### "Nothing Shall Be Impossible" Is a Category, Not a Blank Cheque
 
 We should read this promise as Scripture intends. "Nothing shall be impossible unto you" is spoken in the context of a kingdom, a Father's will, and a word already given. It does not license a believer to demand whatever imagination suggests.
 
@@ -85,7 +85,7 @@ Two Old Testament questions stand behind this promise. "Is any thing too hard fo
 
 Have you noticed that in Scripture the hard question is never aimed at God's capability? It is always aimed at a human heart.
 
-## What the Father's Cry Teaches
+## What This Means for You
 
 Mark gives us the sentence every honest believer eventually prays: "Lord, I believe; help thou mine unbelief" (Mark 9:24). He did not clean himself up first. He brought the mixture and asked for help with the mixture.
 

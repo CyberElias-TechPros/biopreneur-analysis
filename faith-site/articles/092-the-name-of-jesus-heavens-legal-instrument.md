@@ -65,7 +65,7 @@ Notice the grammar of Philippians 2. God exalted Him. God gave Him the name. The
 
 Think of a company seal. The seal is not powerful in itself; it is powerful because of the company it represents and the signature authority behind it.
 
-## What the Early Church Did With It
+### What the Early Church Did With It
 
 Acts 3 is the case study. Peter and John meet a lame man at the gate and say, "Silver and gold have I none; but such as I have give I thee: In the name of Jesus Christ of Nazareth rise up and walk" (Acts 3:6).
 
@@ -73,7 +73,7 @@ Notice what Peter says about the result: "And his name through faith in his name
 
 Then comes the confrontation before the council: "by what power, or by what name, have ye done this?" (Acts 4:7). The question is legal, and Peter's answer is the whole gospel in one sentence: "Neither is there salvation in any other: for there is none other name under heaven given among men, whereby we must be saved" (Acts 4:12).
 
-## Why the Name Is Not a Formula
+### Why the Name Is Not a Formula
 
 Somewhere along the way, the Name got treated like an incantation — a phrase appended to the end of a request to make it work. That is closer to the pagan view of names than to Scripture.
 
@@ -81,20 +81,20 @@ A name in the ancient world stood for the character and authority of the one who
 
 Have you ever used the Name as a closing formula rather than as a conscious appeal to the authority of Christ? What would change if you said it slowly and meant it?
 
-## The Scope of the Name
+### The Scope of the Name
 
 "Things in heaven, and things in earth, and things under the earth" (Philippians 2:10). That is not a narrow jurisdiction. Ephesians 1 puts the same truth in architectural terms: Christ is seated "far above all principality, and power, and might, and dominion, and every name that is named" (Ephesians 1:21).
 
-Here is the contrast: the believer who knows the scope of the name speaks to a situation with calm authority; the believer who thinks the name is a lucky phrase speaks nervously and hopes something happens.
+Watch what separates the two: The believer who knows the scope of the name speaks to a situation with calm authority; the believer who thinks the name is a lucky phrase speaks nervously and hopes something happens.
 
-## Using the Name Rightly
+### Using the Name Rightly
 
 - **In prayer.** "Whatsoever ye shall ask in my name, that will I do" (John 14:14). The Name is a request made to the Father in the Son's credit.
 - **In declaration.** Speaking to mountains, storms, and sickness in the Name is the ordinary practice of the church.
 - **In baptism.** The Name is the ground of identity, not merely a ritual word.
 - **In daily work.** "Whatsoever ye do, do all in the name of the Lord Jesus" (Colossians 3:17) — the whole of life under the authority.
 
-## When the Name Seems Not to Work
+## What This Means for You
 
 Acts 19 gives the cautionary tale: seven men tried to use the Name they had seen Paul use, and the spirit answered, "Jesus I know, and Paul I know; but who are ye?" (Acts 19:15). The Name does not work for strangers to Christ.
 

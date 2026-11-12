@@ -65,7 +65,7 @@ The phrase is emphatic, and it is deliberate. Paul lists the belt, breastplate, 
 
 Notice the weapon: not swords but darts. Not assault but insinuation. The enemy's ordinary tactic is a thought delivered fast and burning.
 
-## Fiery Darts Are Ideas That Ignite
+### Fiery Darts Are Ideas That Ignite
 
 A fiery dart had two effects. The point wounded, and the fire consumed. That is exactly how an accusation works: it strikes and then keeps burning long after the strike.
 
@@ -75,7 +75,7 @@ The dart is designed to do its damage *inside* you, where nobody can see — and
 
 It helps to notice where Paul locates the battle. The armour he lists contains nothing for the back. There is no rear guard, no retreat posture, no protection for a soldier heading the other way. The shield is for a person who is standing, and standing is a decision long before it is a sensation.
 
-## What Hurts the Shield
+### What Hurts the Shield
 
 A soldier's shield was soaked in water before battle so that it could catch a burning arrow and hold it harmlessly. That detail matters. The shield was effective not because it was thick but because it had been treated.
 
@@ -85,13 +85,13 @@ Have you ever noticed that a scripture you have thought about often loses its po
 
 The darts also come in seasons. A man may go months without a serious arrow and then face a week of them, one after another, until the arm tires. That is precisely when the shield must be held by something other than willpower. What has been soaked in for years is what catches the fire in an afternoon.
 
-## Quenched, Not Dodged
+### Quenched, Not Dodged
 
 The promise is not that no dart will be thrown. It is that the dart will not burn you. Paul does not promise a quiet battlefield; he promises a working shield.
 
-Here is the contrast: the unguarded believer spends the day trying to outrun the accusation; the shielded believer stands still and lets it die against the armour.
+Watch what separates the two: The unguarded believer spends the day trying to outrun the accusation; the shielded believer stands still and lets it die against the armour.
 
-## The Blood and the Testimony
+## What This Means for You
 
 Revelation names the shield's contents from a heavenly perspective: "They overcame him by the blood of the Lamb, and by the word of their testimony" (Revelation 12:11). The blood is the objective ground; the testimony is the voice that declares it.
 

@@ -65,7 +65,7 @@ The picture is a guide walking behind a traveller, speaking direction at the mom
 
 Think of a father teaching a child to ride a bicycle. He does not explain the physics of balance in advance; he steadies the bike and calls out at the moment balance wavers. God's guidance often works exactly that way: a word at the wobble.
 
-## Sensitivity Is Trained, Not Merely Given
+### Sensitivity Is Trained, Not Merely Given
 
 Scripture assumes believers can hear. Jesus said, "My sheep hear my voice, and I know them, and they follow me" (John 10:27). But hearing is a capacity that must be trained, like a musician's ear. Three things train it.
 
@@ -77,9 +77,19 @@ Scripture assumes believers can hear. Jesus said, "My sheep hear my voice, and I
 
 Sensitivity also requires community. God often confirms direction through the counsel of mature believers, the agreement of Scripture, and the peace that survives conversation with wise friends. The believer who listens only alone mistakes isolation for intimacy and can confuse personal preference with divine guidance. Isaiah's generation had ears but refused to hear, and the remedy was not more information but a softened heart. Listening, in the biblical sense, is a posture of surrender before it is a technique of attention.
 
-Here is the contrast: the anxious believer demands a sign before moving, and waits indefinitely. The trained believer listens, tests, takes a step, and stays adjustable. One waits for certainty; the other walks in sensitivity. Which of those two postures has described your last month?
+The difference is this: The anxious believer demands a sign before moving, and waits indefinitely. The trained believer listens, tests, takes a step, and stays adjustable. One waits for certainty; the other walks in sensitivity. Which of those two postures has described your last month?
 
-## The Word Says the Same Thing From Three Directions
+### The Still Small Voice Was Not the Quietest Thing
+
+Elijah's story is usually told as though God spoke in a whisper and Elijah had to be quiet enough to hear it. Read the text again: the wind tore the rocks, the earthquake shook, the fire passed — and the LORD was in none of them. Then came "a still small voice" (1 Kings 19:12).
+
+The Hebrew is closer to "a sound of gentle stillness." The point is not volume. It is category. God was not in the impressive things at all, and Elijah learned something about how God prefers to identify Himself — not with the spectacle but with the whisper.
+
+That has a practical consequence. If you train yourself to hear only in silence, you will miss Him in the noise of an ordinary week. If you train yourself to hear only in spectacle, you will miss Him entirely. What is required is not a soundproof room but a recognisable voice.
+
+Jesus settled the matter with a single sentence: "My sheep hear my voice, and I know them, and they follow me" (John 10:27). Hearing is not an elite skill. It is a sheep's ordinary competence.
+
+### The Word Says the Same Thing From Three Directions
 
 - **John 10:4** — "And when he putteth forth his own sheep, he goeth before them, and the sheep follow him: for they know his voice." Recognition is expected, not exceptional. Sheep know; they do not merely hope.
 - **1 Kings 19:12** — "And after the fire a still small voice." The most significant guidance often arrives quietly, which means stillness is not optional but essential to hearing.

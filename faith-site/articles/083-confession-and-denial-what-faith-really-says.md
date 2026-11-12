@@ -63,7 +63,7 @@ The word translated "confession" in the New Testament is *homologia* — literal
 
 Notice that confession is second, not first. Belief comes in the heart, and the mouth follows. A mouth running ahead of a heart produces the strange religious phenomenon of loud claims nobody believes, including the speaker.
 
-## Where Faith Confession Stops and Denial Starts
+### Where Faith Confession Stops and Denial Starts
 
 The difference is honesty. Confession says, "This is what God says about my situation, and I am aligning with it." Denial says, "This situation does not exist."
 
@@ -75,7 +75,7 @@ The second half of Romans 10:9 makes the pairing explicit: "if thou shalt confes
 
 This is also why the earliest Christian creed was so short. Nobody needed a systematic theology to be saved; they needed to say who Jesus is and mean it.
 
-## The Mouth Matters More Than We Think
+### The Mouth Matters More Than We Think
 
 Proverbs is blunt: "Death and life are in the power of the tongue" (Proverbs 18:21). Jesus went further, tying words to the state of the heart: "out of the abundance of the heart the mouth speaketh" (Matthew 12:34).
 
@@ -85,19 +85,19 @@ Have you ever listened to yourself describe your situation and realised the desc
 
 And 2 Corinthians 4:13 ties speech to the same spirit of faith Paul found in the psalm: "I believed, and therefore have I spoken; we also believe, and therefore speak." The order is fixed. Belief produces speech; speech does not produce belief.
 
-## Confession as Agreement, Not Incantation
+### Confession as Agreement, Not Incantation
 
-Here is the contrast: the incantation believer repeats a phrase and hopes the repetition does the work; the confessing believer speaks from conviction and rests in the God who hears.
+Two postures, one choice: The incantation believer repeats a phrase and hopes the repetition does the work; the confessing believer speaks from conviction and rests in the God who hears.
 
 Jesus warned against the first instinct: "when ye pray, use not vain repetitions, as the heathen do: for they think that they shall be heard for their much speaking" (Matthew 6:7). Words are not a technology.
 
-## Why This Requires Courage
+### Why This Requires Courage
 
 True confession costs something. "Whosoever therefore shall confess me before men, him will I confess also before my Father" (Matthew 10:32). In the first century, that confession could cost a livelihood or a life.
 
 And there is a quiet confession nobody applauds: agreeing with God about your own sin, your own need, your own limits. "If we confess our sins, he is faithful and just to forgive" (1 John 1:9). Denial cannot receive forgiveness, because denial has nothing to bring.
 
-## The Practical Rule
+## What This Means for You
 
 Speak about your circumstances the way God speaks about them — accurately, and with Him included. If a doctor gave a diagnosis, you may say so. Then say what God has promised. That is not double-mindedness; it is honesty with a larger fact attached.
 

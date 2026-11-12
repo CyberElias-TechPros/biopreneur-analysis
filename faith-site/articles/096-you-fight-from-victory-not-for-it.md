@@ -59,7 +59,7 @@ Paul borrows that image: "And having spoiled principalities and powers, he made 
 
 The letter to the Colossians was written against a teaching that made Christ insufficient — that added angelic intermediaries, ascetic rules, and mystical experiences to the gospel. Paul's answer is not a new technique but a completed fact. If the powers have been publicly disarmed, then any system that treats them as still in charge is not deeper spirituality; it is out-of-date information.
 
-## What Was Spoiled
+### What Was Spoiled
 
 The word means to strip, to disarm, to despoil. Christ did not merely defeat the powers; He took from them what they used to hold people — the record of debt, the accusation, the legal claim.
 
@@ -77,7 +77,7 @@ Hebrews says the same of the devil: "that through death he might destroy him tha
 
 It is worth understanding why the New Testament can speak of victory in the past tense while still commanding believers to stand. Both are true because the kingdom has come and is coming. The decisive victory is accomplished; its full manifestation awaits. In between, the church lives by faith in a verdict already issued.
 
-## The Difference It Makes
+### The Difference It Makes
 
 A man fighting for victory prays with desperation, checks constantly for signs of progress, and interprets every setback as evidence that God has not come through.
 
@@ -85,19 +85,19 @@ A man fighting from victory prays with authority, expects resistance as a normal
 
 Have you been praying as though the verdict were still being deliberated? What would your prayers sound like if you already knew the ruling?
 
-## Occupation, Not Conquest
+### Occupation, Not Conquest
 
 The book of Joshua is the pattern. God said, "I have given you the land" — past tense — and then Israel had to possess it city by city. The gift did not remove the process, and the process did not invalidate the gift.
 
-Here is the contrast: the unbeliever fights to change the outcome; the believer fights because the outcome is already settled and the territory belongs to his King.
+Set them side by side and the gap shows. The unbeliever fights to change the outcome; the believer fights because the outcome is already settled and the territory belongs to his King.
 
 Paul's own language in Ephesians is military but oddly static: "having done all, to stand" (Ephesians 6:13). The soldier's assignment is not to advance into enemy territory alone and improvise; it is to hold the line his commander assigned. That is a far less glamorous picture than many of us were given, and a far more sustainable one.
 
-## The Weapons Fit the Task
+### The Weapons Fit the Task
 
 Ephesians 6 lists defensive armour for the most part, with one offensive item — the sword of the Spirit, which is the word of God. That is not an accident. Those who are enforcing a victory need protection and a single reliable weapon, not an arsenal.
 
-## Practical Consequences
+## What This Means for You
 
 - **Resist, do not plead.** "Resist the devil, and he will flee from you" (James 4:7).
 - **Stand when nothing happens.** Standing is the whole instruction in Ephesians 6:13–14.

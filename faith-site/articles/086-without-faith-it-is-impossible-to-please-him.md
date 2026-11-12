@@ -69,7 +69,7 @@ Think of a child presenting a drawing. The crayon is not the reason it is loved;
 
 Note where this verse sits in the argument of Hebrews. The writer has just spent a chapter showing that the old system could not make anyone perfect, that its sacrifices were repeated because they were incomplete, and that Christ offered one sacrifice and sat down. Then he turns to the practical question every reader asks: what do you want from me now? The answer is not a programme. It is trust.
 
-## Two Things You Must Believe
+### Two Things You Must Believe
 
 The verse names the content: that he is, and that he is a rewarder of them that diligently seek him. Both halves matter, and both are frequently attacked.
 
@@ -77,23 +77,23 @@ The first is existence and reality: He is, He is there, He is who He says He is.
 
 Which of the two is harder for you right now — believing that God exists, or believing that God is glad you came?
 
-## Diligence, Not Leisure
+### Diligence, Not Leisure
 
 The Greek seeks to capture more than casual interest. "Diligently seek" carries the sense of searching for and enquiring after. It implies effort, priority, and repeated return.
 
 That is consistent with what Scripture says elsewhere: "this is the work of God, that ye believe on him whom he hath sent" (John 6:29). Jesus calls believing a work — not an earning, but an activity that occupies the will.
 
-## Other Things That Do Not Please Him
+### Other Things That Do Not Please Him
 
 Hebrews 11:5 contrasts Enoch with a world that was not pleasing. And Romans 14:23 adds a hard line: "Whatsoever is not of faith is sin." Paul is not inventing a new burden; he is clarifying that God evaluates the root, not only the fruit.
 
-Here is the contrast: the performer asks "is this enough?" while the believer asks "is this believing?" One keeps measuring the fruit; the other examines the root.
+Set them side by side and the gap shows. The performer asks "is this enough?" while the believer asks "is this believing?" One keeps measuring the fruit; the other examines the root.
 
 There is also a warning folded into the grammar. The word is "impossible" — not difficult, not uncommon, not reserved for the exceptionally devout. It describes a category: an act that does not proceed from faith is not an act of worship at all, however impressive it appears.
 
 That should not discourage anyone; it should simplify things. You are not being asked to produce an extraordinary life. You are being asked to bring an ordinary life to an extraordinary God, trusting Him as you go.
 
-## Enoch's Walk in Plain Words
+## What This Means for You
 
 "Enoch walked with God: and he was not; for God took him" (Genesis 5:24). A walk is unremarkable in itself — day after day, the same direction, the same company. That is the whole biography.
 

@@ -67,15 +67,23 @@ Paul's grammar is deliberate. The reigning ones are described first as receivers
 
 Think of a child given the keys to a family business. The keys do not make him capable; his father's appointment does. But unless he takes the keys and acts, the business will not benefit from his position. Righteousness is the appointment; receiving is taking the keys and acting.
 
-## Where Reign Is Actually Fought
+### Where Reign Is Actually Fought
 
 Has it ever occurred to you that a throne is usually occupied in private long before it is visible in public? Reign is rarely about spectacular authority; it is usually about ordinary government. You reign when anger does not rule your words. You reign when fear does not rule your decisions. You reign when appetite does not rule your body, money does not rule your peace, and comparison does not rule your joy. That is the throne room of daily life.
 
 Romans 6:12 says, "Let not sin therefore reign in your mortal body, that ye should obey it in the lusts thereof." Paul assumes believers can choose which government operates in their members. Reign is contested in habits, not in headlines.
 
-Here is the contrast: the striving believer fights to become righteous and loses ground to condemnation. The receiving believer fights from righteousness and gains ground in conduct. Same battle, different footing.
+Trace the difference to its root: The striving believer fights to become righteous and loses ground to condemnation. The receiving believer fights from righteousness and gains ground in conduct. Same battle, different footing.
 
-## The Word Says the Same Thing From Three Directions
+### The King Who Is Also a Subject
+
+There is a paradox in Paul's vocabulary that repays attention. The same man who says we are to "reign in life" also calls himself "the servant of Jesus Christ" (Romans 1:1) and "a prisoner of Jesus Christ" (Ephesians 3:1). He is free enough to reign and bound enough to be owned, and he is both without contradiction.
+
+That is because reign in Romans 5 is not self-rule. The verse is careful: it is those who "receive abundance of grace and of the gift of righteousness" who "shall reign in life by one, Jesus Christ" (Romans 5:17). The reign is *by* Him. A governor ruling a province on behalf of a king is not diminished by the king; he is constituted by him.
+
+Romans 6 continues the same argument without changing the metaphor: "Let not sin therefore reign in your mortal body" (Romans 6:12). So there are two possible reigns in one life, and the one you submit to is the one that governs. Righteousness makes the second available.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 5:20–21** — "Where sin abounded, grace did much more abound: that as sin hath reigned unto death, even so might grace reign through righteousness unto eternal life." Paul sets reign against reign: grace reigns through righteousness, and you are the territory where that reign becomes visible.
 - **Ephesians 2:6** — "And hath raised us up together, and made us sit together in heavenly places in Christ Jesus." Seated is the position from which authority is exercised. You are not climbing toward a throne; you are learning to live from one.

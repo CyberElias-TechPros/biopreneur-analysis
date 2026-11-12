@@ -65,7 +65,7 @@ This is **the Inheritance of the Believer** — the covenantal estate that belon
 
 Think of a young tree planted in rich soil beside a river. The tree does not manufacture water, minerals, and sunlight by straining upward. It draws from the soil and river that surround its roots. Completeness in Christ works the same way: you do not produce fullness by effort; you draw from the fullness in which you are rooted. Effort has its place in tending the tree — watering, pruning, protecting — but effort never creates the river.
 
-## Complete Is a Position, Not a Mood
+### Complete Is a Position, Not a Mood
 
 Notice the contrast Paul sets up. Religion measures completeness by recent performance: complete on good days, incomplete on hard days. The Word measures completeness by union with Christ: complete in Him on every day, because His fullness does not fluctuate with your mood. **Spiritual Realities** — unseen covenantal facts established by God's Word that endure longer than temporary circumstances — are exactly this kind of truth. Your feelings report the weather. Colossians 2:10 reports the climate.
 
@@ -73,7 +73,7 @@ Why does this matter so much? Because lack-consciousness quietly governs prayer,
 
 And look at the title Paul gives Christ in the same verse: "the head of all principality and power." Your completeness is not in a system, a personality, or a denomination. It is in the risen Head over every power that could accuse you. Nothing missing. Nothing broken. Nothing left for darkness to claim.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Ephesians 1:3** — "Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ." Paul's word is *all* — not some, not a portion. Every spiritual blessing God has for His children is already located in Christ, where you already are.
 - **John 1:16** — "And of his fulness have all we received, and grace for grace." The fullness in Christ is not locked away from believers; it is received from Him, grace upon grace, like wave after wave from the same ocean.

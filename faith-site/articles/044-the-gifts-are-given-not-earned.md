@@ -65,15 +65,23 @@ Paul makes three claims in one sentence. *Every man* — no believer is giftless
 
 Think of a household where each member is given a tool suited to the family's needs. One receives a lamp, another a rope, another a key. The tools differ, but the purpose is identical: the household functions. No one boasts about the lamp, and no one apologises for the key. Each uses what was placed in his hand.
 
-## Diversity on Purpose
+### Diversity on Purpose
 
 Paul's chapter celebrates variety: word of wisdom, word of knowledge, faith, healings, miracles, prophecy, discerning of spirits, tongues, interpretation. The variety is not a ranking; it is a distribution. The Spirit divides "to every man severally as he will" (1 Corinthians 12:11).
 
 Paul goes further by insisting that no member can dismiss another as unnecessary. In verses 21–26 he imagines the eye telling the hand, "I have no need of thee," and the head telling the feet the same. His conclusion is that the parts which seem more feeble are necessary, and those we think less honourable receive more abundant honour. God arranges the body deliberately, mixing visible and hidden gifts so that no member can boast and no member can withdraw. The believer who thinks his gift is too small has misunderstood the design; the body is built precisely from what looks unimpressive. That single phrase dismantles both pride and envy. Pride says, "My gift makes me important." Envy says, "My gift makes me lesser." Paul says, "The Spirit distributes as He wills" — which means your gift is neither your achievement nor your deficiency. It is your assignment.
 
-Here is the contrast: the gift-centred believer builds a platform; the stewardship-centred believer builds a body. One measures by visibility; the other by benefit. Which measure have you been using on your own gift?
+The distinction could not be sharper. The gift-centred believer builds a platform; the stewardship-centred believer builds a body. One measures by visibility; the other by benefit. Which measure have you been using on your own gift?
 
-## The Word Says the Same Thing From Three Directions
+### The Gifts Are Not a Ladder
+
+Paul's argument in 1 Corinthians 12 is deliberately level: "But the manifestation of the Spirit is given to every man to profit withal" (1 Corinthians 12:7). Every man. Not every mature man, not every ordained man — every believer has a manifestation, and the purpose is stated: to profit withal, for the common good.
+
+He then lists, and the list is startlingly unranked. Wisdom, knowledge, faith, healing, miracles, prophecy, discerning of spirits, tongues, interpretation — "but all these worketh that one and the selfsame Spirit, dividing to every man severally as he will" (1 Corinthians 12:11).
+
+The sovereignty is His, not yours. You did not choose your gift, and you cannot upgrade it by deserving it. What you can do is identify it, steward it, and refuse the two great distractions: envy of another's gift, and contempt for a gift that seems less visible.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 12:6** — "Having then gifts differing according to the grace that is given to us, let us use them." Grace is the measure, and use is the assignment. Difference is assumed; faithful use is commanded.
 - **1 Peter 4:10** — "As every man hath received the gift, even so minister the same one to another, as good stewards of the manifold grace of God." Gifts are received, then ministered — stewardship language throughout.

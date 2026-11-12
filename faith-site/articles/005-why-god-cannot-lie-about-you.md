@@ -65,7 +65,7 @@ That is why **the Word of God** — God's authoritative self-revelation, supreme
 
 Imagine holding a bar of pure gold stamped by a national sovereign mint with its certified weight and `.9999` purity mark. Suppose you carry that bar into a dimly lit hallway and a nervous passerby squints at it and mutters, "In this shadow it looks dull — I doubt it is worth much." Did the dim hallway lower the purity of the gold? Not by a fraction of a gram! The assay stamp testifies to what the refiner verified in the furnace, not to how bright the hallway happens to be at dusk. In Christ, God's Word is the Refiner's stamp on your redeemed spirit. Hard seasons may dim the lighting around you, yet they never alter what God has certified in His Son.
 
-## From Moses to Hebrews: One Unbroken Testimony
+### From Moses to Hebrews: One Unbroken Testimony
 
 Watch how both Testaments build a fortress of assurance around this single truth:
 

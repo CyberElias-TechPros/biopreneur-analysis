@@ -65,15 +65,15 @@ This is **Righteousness** in its relational sense: right standing with God, both
 
 Think of an adopted child welcomed into a family home. The adoption papers are signed before the child learns the family rules, earns a place at the table, or contributes to the household. The child does not live to earn adoption; the child lives from adoption, learning the family ways because the family is already theirs. That is the order of grace: accepted first, then trained as a beloved child.
 
-## Approval Before Achievement Changes Everything
+### Approval Before Achievement Changes Everything
 
 Why does this order matter so much? Because achievement-first religion produces two opposite failures. On good days it produces pride: "God must be pleased because I performed well." On hard days it produces despair: "God must be distant because I performed poorly." Both reactions assume approval fluctuates with performance. Ephesians 1:6 ends that fluctuation: your approval rests in the Beloved, whose standing never fluctuates.
 
 That settled approval gives rise to **the Consciousness of Righteousness** — the settled inward awareness that you stand forgiven, clean, and welcomed before the Father in Christ. Sin-consciousness keeps you hiding like Adam among the trees, rehearsing failure. Righteousness-consciousness brings you boldly to the throne, confessing honestly and receiving cleansing without fear that one failure revokes your acceptance.
 
-Here is the contrast: the applicant serves to be accepted; the accepted child serves because he is accepted. The applicant gives to impress; the child gives to express gratitude. The applicant obeys to stay approved; the child obeys to walk in the joy of approval. Same activities — entirely different engine.
+Watch what separates the two: The applicant serves to be accepted; the accepted child serves because he is accepted. The applicant gives to impress; the child gives to express gratitude. The applicant obeys to stay approved; the child obeys to walk in the joy of approval. Same activities — entirely different engine.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 5:1** — "Therefore being justified by faith, we have peace with God through our Lord Jesus Christ." Justification by faith produces peace — settled, reconciled peace — not anxious probation. Peace is the fruit of acceptance already given.
 - **Colossians 1:12** — "Giving thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light." God *hath made us meet* — qualified us — in Christ. Qualification preceded participation; acceptance preceded inheritance.

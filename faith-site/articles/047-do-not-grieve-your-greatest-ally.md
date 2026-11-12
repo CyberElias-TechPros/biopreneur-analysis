@@ -67,15 +67,25 @@ Notice the security in the verse: "whereby ye are sealed unto the day of redempt
 
 Think of a marriage. A spouse cannot be "unmarried" by a harsh word, but the closeness can be damaged for days. The relationship is secure while the fellowship suffers. Paul writes to sealed believers about exactly that kind of damage.
 
-## What Grieves Him
+### What Grieves Him
 
 Paul's context is specific. Immediately before verse 30 he writes, "Let no corrupt communication proceed out of your mouth" (Ephesians 4:29). Immediately after he lists bitterness, wrath, anger, clamour, evil speaking, and malice (verse 31). Gossip, cruelty, resentment, and dirty speech are not minor habits; they grieve the Spirit who lives in you.
 
 Paul's list in verse 31 is worth reading slowly: bitterness, wrath, anger, clamour, evil speaking, and malice. Each one begins internally and ends relationally, and each one dulls sensitivity to the Spirit's voice. A believer who nurses resentment gradually finds prayer harder, Scripture flatter, and fellowship thinner; the Spirit has not moved, but the channel has narrowed. Verse 32 gives the remedy in three words: be kind, tenderhearted, forgiving, "even as God for Christ's sake hath forgiven you." The Spirit is also grieved by hypocrisy, by resistance to His leading, and by the neglect that treats Him as optional. In Acts 5, Ananias lied to the Holy Spirit — and Peter says he lied not to men but to God. In Isaiah 63:10, Israel rebelled and vexed His Holy Spirit.
 
-Here is the contrast: the careless believer treats the Spirit as a resource to access when needed. Would you speak to a friend the way you sometimes speak to the One who sealed you? The careful believer treats Him as a Person whose nearness is the treasure of life.
+The line between them runs here: The careless believer treats the Spirit as a resource to access when needed. Would you speak to a friend the way you sometimes speak to the One who sealed you? The careful believer treats Him as a Person whose nearness is the treasure of life.
 
-## The Word Says the Same Thing From Three Directions
+### Grief and Quenching Are Different Sins
+
+Paul distinguishes two injuries to the Spirit that are often blurred. "Grieve not the holy Spirit of God, whereby ye were sealed unto the day of redemption" (Ephesians 4:30) — and "Quench not the Spirit" (1 Thessalonians 5:19).
+
+Grief is relational. It is what a person feels when someone they love chooses against them. Quenching is functional. It is a fire being put out — ministry suppressed, prompting refused, the flow of the Spirit in a gathering doused by cynicism or control.
+
+One costs you intimacy. The other costs you power. Both are avoidable, and neither is unpardonable.
+
+Ephesians frames grief with what precedes it: "Let no corrupt communication proceed out of your mouth, but that which is good to the use of edifying" (Ephesians 4:29). The context of grieving the Spirit is ordinary speech. Which means our words are not a small matter; they are the daily arena in which the Spirit is either honoured or wounded.
+
+### The Word Says the Same Thing From Three Directions
 
 - **1 Thessalonians 5:19** — "Quench not the Spirit." Grieving and quenching are related: one wounds His heart, the other stifles His expression. Both are guarded by attentiveness.
 - **Isaiah 63:10** — "But they rebelled, and vexed his holy Spirit: therefore he was turned to be their enemy." The Old Testament pattern shows that resisting the Spirit damages the relationship's closeness.

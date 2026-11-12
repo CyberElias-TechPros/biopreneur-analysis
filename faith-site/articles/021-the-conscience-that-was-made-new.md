@@ -69,7 +69,7 @@ Scripture treats the conscience as a witness inside you — Paul says the Gentil
 
 Think of a wound that is properly cleaned and closed versus one merely bandaged over. The bandaged wound looks dealt with, but infection festers beneath and the pain returns. The cleaned wound heals from the inside out. Christ's blood does not bandage your guilt; it cleanses it, so healing can begin where it started.
 
-## A Cleansed Conscience Serves Differently
+### A Cleansed Conscience Serves Differently
 
 The purpose clause matters: "to serve the living God." A cleansed conscience is not given for comfort alone; it is given for service. Guilt makes servants who hide, hesitate, and burn out. Cleansing makes servants who draw near, work joyfully, and endure.
 
@@ -77,9 +77,9 @@ This is **the Consciousness of Righteousness** — an inner awareness, settled b
 
 **The Finished Work** — Christ's complete, once-for-all redemptive accomplishment — is the ground of this cleansing. Because the offering was perfect and complete, the cleansing is perfect and complete. Your conscience is not cleansed by the intensity of your repentance but by the sufficiency of His blood.
 
-Here is the contrast: an unclean conscience serves God to silence guilt; a cleansed conscience serves God because guilt is silenced. One serves from debt; the other from delight.
+The difference is this: An unclean conscience serves God to silence guilt; a cleansed conscience serves God because guilt is silenced. One serves from debt; the other from delight.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Hebrews 10:22** — "Let us draw near with a true heart in full assurance of faith, having our hearts sprinkled from an evil conscience, and our bodies washed with pure water." The same writer calls for bold approach on the basis of a sprinkled, cleansed conscience. Cleansing produces confidence.
 - **1 John 3:21** — "Beloved, if our heart condemn us not, then have we confidence toward God." John links a non-condemning heart with confidence in prayer. A purged conscience prays differently.

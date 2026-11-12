@@ -67,7 +67,7 @@ Notice Paul's verdict: Abraham was "not weak in faith" precisely because he did 
 
 Think of a navigator in a storm. He knows the waves are real, but he steers by the compass rather than by the swell. The swell is information; the compass is authority. Faith navigates that way.
 
-## Facts, Faith, and Focus
+### Facts, Faith, and Focus
 
 Faith is not anti-fact. Abraham knew he was a hundred and that Sarah's womb was dead. He simply did not let those facts preside over God's promise. Proverbs 4:20–23 tells us to attend to God's words, keep them in the midst of the heart, for they are life to those who find them.
 
@@ -75,9 +75,9 @@ There is also a communal dimension to consideration. Abraham's household knew th
 
 That is why Philippians 4:8 commands a particular kind of thinking: whatsoever is true, honest, just, pure, lovely, of good report — think on these things. Attention is a steward, and what you give it authority over your heart.
 
-Have you ever noticed that the more you explain a problem, the larger it becomes in your mind? Here is the contrast: the circumstance-centred believer prays and then studies the problem, growing more convinced of impossibility. The promise-centred believer prays and then studies God's faithfulness, growing more confident of His character.
+Have you ever noticed that the more you explain a problem, the larger it becomes in your mind? The distinction could not be sharper. The circumstance-centred believer prays and then studies the problem, growing more convinced of impossibility. The promise-centred believer prays and then studies God's faithfulness, growing more confident of His character.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 4:18** — "While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal." Paul commands a deliberate redirect of the eyes.
 - **Hebrews 12:2** — "Looking unto Jesus the author and finisher of our faith; who for the joy that was set before him endured the cross." Endurance follows looking, and looking has an object.

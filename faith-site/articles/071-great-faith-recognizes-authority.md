@@ -71,15 +71,15 @@ Luke's account adds a detail Matthew leaves out. The centurion first sent Jewish
 
 That shift is the whole journey of faith in miniature. We begin by presenting our record, our service, our sincerity. Then we discover that the ground we actually stand on is not our worthiness but His word. What has been your argument before God lately — your record, or His word?
 
-## Why Great Faith Looks Small
+### Why Great Faith Looks Small
 
 The centurion did not ask for a sign, a sensation, or a personal visit. He asked for a word. That is what made his faith great: it needed very little from Jesus because it expected very much from His authority.
 
 Contrast that with the demand for evidence that so often passes for devotion. "If I could just feel something," we say, or "If God would show me a sign." The centurion had understood something we easily forget: the word of a person in authority is already the sign.
 
-Here is the contrast: the small-faith believer asks for a spectacle and grows anxious without one. The great-faith believer asks for a word and rests because the word is enough.
+The difference is this: The small-faith believer asks for a spectacle and grows anxious without one. The great-faith believer asks for a word and rests because the word is enough.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Matthew 28:18** — "All power is given unto me in heaven and in earth." Jesus states the authority plainly, and everything the centurion inferred is confirmed.
 - **Philippians 2:9–10** — "God also hath highly exalted him, and given him a name which is above every name: That at the name of Jesus every knee should bow." The name's authority is universal and final.

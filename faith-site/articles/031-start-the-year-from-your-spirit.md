@@ -67,15 +67,25 @@ Notice what is being acknowledged: "every good thing which is in you in Christ J
 
 Think of a house with a fully furnished room behind a closed door. Everything needed is already inside, but until the door is opened and the room acknowledged as yours, you live as though the house were empty. Acknowledgement opens the door of the room that is already furnished.
 
-## Living From the Inside Out
+### Living From the Inside Out
 
 Scripture consistently locates the source of life within the spirit, not in circumstances. Proverbs 4:23 says, "Keep thy heart with all diligence; for out of it are the issues of life." Your heart — your spirit — is the source, not the symptom.
 
 That means a new year is not primarily about new external conditions; it is about new internal recognition. When you live from your spirit, you bring your mind, emotions, body, relationships, and work under the influence of what God has placed within you. When you live only from circumstances, you react to whatever is loudest.
 
-Here is the contrast: the outside-in life asks, "What is happening to me, and how should I feel about it?" The inside-out life asks, "What has God placed in me, and how does that shape my response?" The first is governed by events; the second by revelation.
+The difference is this: The outside-in life asks, "What is happening to me, and how should I feel about it?" The inside-out life asks, "What has God placed in me, and how does that shape my response?" The first is governed by events; the second by revelation.
 
-## The Word Says the Same Thing From Three Directions
+### Why the Spirit Is the Starting Point
+
+Paul's prayer for Philemon is a small masterpiece on this subject: "the communication of thy faith may become effectual by the acknowledging of every good thing which is in you in Christ Jesus" (Philemon 1:6). Effectual faith, Paul says, runs through acknowledgment. What you do not acknowledge does not operate through you.
+
+The word "acknowledging" carries the sense of recognising something as true and giving it full weight. It is not a technique for generating faith; it is the posture of a person who has stopped disputing the facts about himself in Christ.
+
+**The Life of the Spirit** — the Spirit's own life ordering your thoughts and responses — is where such acknowledgement lives. The flesh can only press its case; the spirit has been given the facts.
+
+Proverbs 4:23 makes the guard rail explicit: "Keep thy heart with all diligence; for out of it are the issues of life." The issues of life do not flow from your calendar. They flow from your inner men.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Colossians 1:27** — "Christ in you, the hope of glory." Paul locates the hope inside the believer. Glory is not merely awaited from above; it is resident within.
 - **Romans 8:16** — "The Spirit itself beareth witness with our spirit, that we are the children of God." Your spirit is where the Spirit testifies. Acknowledgement begins with listening there.

@@ -67,7 +67,7 @@ Think of a small brown acorn pressed into dark soil. On the day it is planted, i
 
 In the exact same way, God did not drop a temporary pep talk into your heart when you trusted Christ; He planted *His seed* — incorruptible, resurrection life — into your spirit, and John declares that this seed **remains** in you. It does not evaporate when a week feels heavy.
 
-## Three Passages Showing What That Seed Produces
+### Three Passages Showing What That Seed Produces
 
 - **1 Peter 1:23** — "Being born again, **not of corruptible seed, but of incorruptible**, by the word of God, which liveth and abideth for ever." Everything born of Adam's fallen line carries decay inside its seed. What God planted in you through the gospel is *aphthartos* — imperishable, undying, immune to rot.
 - **2 Peter 1:3–4** — Through His exceeding great and precious promises, you become "**partakers of the divine nature**, having escaped the corruption that is in the world through lust." Notice that sharing in God's moral nature never turns a creature into deity; rather, it imparts Christ's likeness and desires so you escape the gravitational pull of corruption.

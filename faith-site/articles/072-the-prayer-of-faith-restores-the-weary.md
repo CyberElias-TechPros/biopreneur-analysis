@@ -65,7 +65,7 @@ That matters, because James does not describe a solo performance. He says, "Is a
 
 Consider a man carried on a stretcher through a broken roof by four friends. His faith is barely visible in the text; theirs is the faith that moves the roof. Sometimes you are the one on the mat, and sometimes you are the one carrying.
 
-## Three Movements in One Verse
+### Three Movements in One Verse
 
 - **The prayer of faith.** Not a prayer of desperation and not a prayer of certainty about a timeline, but prayer that trusts God's character and leaves the outcome in His hands.
 - **"Shall save the sick."** The word carries the sense of deliverance and wholeness — restoration, not merely symptom relief.
@@ -73,15 +73,15 @@ Consider a man carried on a stretcher through a broken roof by four friends. His
 
 Then James adds a further mercy: "if he have committed sins, they shall be forgiven him." Healing and forgiveness are held together, because the whole person is in view.
 
-## Confession: The Forgotten Ingredient
+### Confession: The Forgotten Ingredient
 
 "Confess your faults one to another, and pray one for another, that ye may be healed" (James 5:16). Many of us pray for healing while guarding a secret that weighs on us. James puts confession inside the same instruction.
 
 Why does this matter so much? Because unconfessed sin quietly divides the heart, and a divided heart struggles to trust. Confession restores the honesty that faith requires. Have you been carrying something alone that was never meant to be carried alone?
 
-Here is the contrast: proud prayer hides and stays sick at heart; humble prayer confesses and is healed. One protects a reputation; the other receives a restoration.
+Watch what separates the two: Proud prayer hides and stays sick at heart; humble prayer confesses and is healed. One protects a reputation; the other receives a restoration.
 
-## What Faith Is Not
+## What This Means for You
 
 Faith is not a refusal to see a doctor. James assumes ordinary means and anoints with oil, which was itself a medicinal staple of the day. Faith is not a demand for a particular outcome on a particular day either. Consider Paul, who prayed three times for relief and received a different answer: "My grace is sufficient for thee" (2 Corinthians 12:9). The prayer of faith was answered — with grace rather than removal.
 

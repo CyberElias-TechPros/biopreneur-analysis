@@ -67,15 +67,23 @@ Why would God choose an agricultural feast for a spiritual outpouring? The timin
 
 Think of a dam breaking upstream. The water had always existed, but once the barrier was removed, the same water reached every downstream field. Pentecost did not create the Spirit; it released the Spirit's ministry to all flesh, as Joel had promised.
 
-## What Pentecost Established
+### What Pentecost Established
 
 Three permanent realities began that day. First, the Spirit now indwells every believer — not merely visits leaders. Second, the Spirit forms one body: Jews, proselytes, and eventually Gentiles baptised into one body by one Spirit (1 Corinthians 12:13). Third, the Spirit empowers witness, as the gathered believers spilled into the streets and thousands believed.
 
 Notice what the crowd heard: "we do hear them speak in our tongues the wonderful works of God" (Acts 2:11). The Spirit's first public act was not chaos but communication — the gospel made intelligible across languages.
 
-Here is the contrast: the Pentecost-sceptic treats the Spirit's gifts as optional extras; the Pentecost-believer treats them as the era's normal equipment. One lives in the shadow; the other in the fulfilment.
+The difference is this: The Pentecost-sceptic treats the Spirit's gifts as optional extras; the Pentecost-believer treats them as the era's normal equipment. One lives in the shadow; the other in the fulfilment.
 
-## The Word Says the Same Thing From Three Directions
+### Pentecost Was a Reversal, Not an Addition
+
+The detail that is easy to miss in Acts 2 is the list of nations. Parthians, Medes, Elamites, dwellers in Mesopotamia, Egypt, Libya, visitors from Rome — and each heard "the wonderful works of God" in his own tongue (Acts 2:11).
+
+Set that beside Genesis 11. At Babel, humanity was scattered and one language became many as an act of judgement. At Pentecost, many languages carried one message as an act of grace. The Spirit did not undo the scattering; He gathered across it.
+
+Peter's explanation reaches even further back: "this is that which was spoken by the prophet Joel; And it shall come to pass in the last days, saith God, I will pour out of my Spirit upon all flesh" (Acts 2:16–17). All flesh — sons and daughters, young men and old, servants and handmaidens. The Spirit's coming was not a private experience for a select group.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Joel 2:28** — "And it shall come to pass afterward, that I will pour out my spirit upon all flesh; and your sons and your daughters shall prophesy." Peter quotes Joel at Pentecost, showing the day fulfilled "all flesh" — not a single tribe or office.
 - **1 Corinthians 12:13** — "For by one Spirit are we all baptized into one body... and have been all made to drink into one Spirit." Pentecost's lasting result is unity in the Spirit, not division over gifts.

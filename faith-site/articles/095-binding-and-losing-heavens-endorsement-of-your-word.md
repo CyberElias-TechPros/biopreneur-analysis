@@ -67,13 +67,13 @@ The Greek construction is commonly read as a future perfect: whatever you bind o
 
 Think of a court clerk reading a judge's ruling. The clerk's voice carries weight because the decision was already made elsewhere.
 
-## What "Bind" and "Loose" Meant
+### What "Bind" and "Loose" Meant
 
 In first-century Jewish usage, the phrases referred to forbidding and permitting — declaring what was prohibited and what was allowed. They were rabbinic terms for authoritative interpretation.
 
 Jesus gave that authority to a community of ordinary disciples, not to a panel of experts. He also framed it in chapter 16 with the image of keys and the promise that "the gates of hell shall not prevail against it" (Matthew 16:18).
 
-## What It Does Not Mean
+### What It Does Not Mean
 
 It does not mean you can decide anything and heaven will comply. That would make God an endorser of your preferences rather than the Lord of your life.
 
@@ -81,13 +81,13 @@ It does not mean a believer never loses a battle, or that any loss proves a fail
 
 Have you ever treated authority as a way of getting God to agree with you, rather than as a way of agreeing with God? What might that reversal have cost you?
 
-## The Two-Thirds Agreement
+### The Two-Thirds Agreement
 
 Notice the "two or three" condition. The authority of Matthew 18 is corporate before it is individual, and it is tied to the Name — gathered *in my name*, not merely gathered in a room.
 
-Here is the contrast: private certainty about a verdict produces isolation; shared agreement in the Name produces endorsement.
+Note where the two part company: Private certainty about a verdict produces isolation; shared agreement in the Name produces endorsement.
 
-## Binding and Loosing in Practice
+### Binding and Loosing in Practice
 
 - **Binding a pattern of sin.** A church that names a destructive behaviour and refuses to bless it is exercising this authority.
 - **Loosing a repentant person.** Paul instructed the Corinthians to forgive and comfort the man they had disciplined, "lest perhaps such a one should be swallowed up with overmuch sorrow" (2 Corinthians 2:7).
@@ -97,7 +97,7 @@ Here is the contrast: private certainty about a verdict produces isolation; shar
 
 One more observation about the setting. The authority in Matthew 18 is granted in the middle of a conversation about a brother who has sinned, and Peter's very next question is, "how oft shall my brother sin against me, and I forgive him?" (Matthew 18:21). It is as though Jesus anticipated that the first use of church authority would be forgiveness, and the parable that follows — the unforgiving servant — makes the point unforgettable.
 
-## The Heart of the Matter
+## What This Means for You
 
 The most important question is not whether you can bind something, but whether your judgement has been formed by God's word or by your preferences. Authority follows agreement.
 

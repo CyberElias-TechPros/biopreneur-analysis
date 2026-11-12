@@ -67,7 +67,7 @@ Romans 12:3 says God has dealt to every man "the measure of faith." You have a m
 
 Think of a muscle. Nobody grows stronger by waiting; strength comes from repeated load, recovery, and use. Faith behaves the same way. The believer who never risks anything for God's word never develops the capacity to trust Him in anything large.
 
-## Why Age Alone Does Not Grow Faith
+### Why Age Alone Does Not Grow Faith
 
 Jesus' answer also removes the excuse of smallness. A mustard seed is not impressive, but it is alive, and a living seed in soil outperforms a dead tree in a courtyard. The disciples wanted a bigger quantity; Jesus redirected them to a working quality. Faith that is used, however small, moves what faith that is admired never touches.
 
@@ -77,9 +77,9 @@ James 1:2–4 shows the mechanism: trials produce patience, and patience produce
 
 There is also a communal dimension. Paul thanked God for a church's growing faith, which means growth is visible to others and often encouraged by them. Believers who exercise faith together — taking risks for the gospel, giving, serving, forgiving — grow faster than believers who practise alone in private reflection. The body is part of the training ground.
 
-Here is the contrast: the passive believer waits for a feeling of greater faith and remains where he is. The exercising believer obeys in small things and discovers his capacity has grown without his noticing.
+Consider what each one actually is. The passive believer waits for a feeling of greater faith and remains where he is. The exercising believer obeys in small things and discovers his capacity has grown without his noticing.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **2 Thessalonians 1:3** — "Your faith groweth exceedingly, and the charity of every one of you all toward each other aboundeth." Paul describes measurable growth — not a static quantity but an increasing one.
 - **Luke 17:6** — "If ye had faith as a grain of mustard seed, ye might say unto this sycamine tree, Be thou plucked up by the root." Small faith, rightly used, accomplishes what large faith imagined but never exercised cannot.

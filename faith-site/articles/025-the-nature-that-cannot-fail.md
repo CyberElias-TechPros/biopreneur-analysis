@@ -65,15 +65,15 @@ John is not claiming that believers never stumble. He already wrote in 1 John 1:
 
 Think of a healthy tree grafted into an old stump. The stump may still sprout old shoots from below, but the grafted branch carries new life with its own fruit. When shoots appear from below, the gardener does not conclude the graft failed; he prunes what does not belong to the new life. John says your graft is divine, and its fruit is inevitable.
 
-## Cannot Sin — What It Does and Does Not Mean
+### Cannot Sin — What It Does and Does Not Mean
 
 John's phrase is precise: the one born of God *cannot sin* because the seed remains. The incapacity belongs to the new nature, not to your unrenewed thinking. Your spirit, born of God, has no capacity for sin; your mind and body, still being renewed, can be drawn into it — which is why Paul describes the inward conflict in Romans 7 and calls for renewed thinking in Romans 12:2.
 
 So how do you live? You stop identifying with the failures and start agreeing with the nature. When you sin, your Advocate intercedes (1 John 2:1), you confess and are cleansed (1 John 1:9), and you return to who you are. You do not conclude, "I am a sinner who sometimes does right." You conclude, "I am a child of God who slipped, and my Father restores me."
 
-Here is the contrast: the old-identity believer treats sin as evidence of what he is; the new-identity believer treats sin as an intrusion into what he is. One descends into identity crisis; the other returns to identity clarity.
+Note where the two part company: The old-identity believer treats sin as evidence of what he is; the new-identity believer treats sin as an intrusion into what he is. One descends into identity crisis; the other returns to identity clarity.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **1 Peter 1:23** — "Being born again, not of corruptible seed, but of incorruptible, by the word of God, which liveth and abideth for ever." Peter names the seed incorruptible and permanent. Whatever is born of an incorruptible seed cannot decay into its opposite.
 - **Galatians 5:17** — "For the flesh lusteth against the Spirit, and the Spirit against the flesh: and these are contrary the one to the other." Paul explains the conflict without denying either reality: two natures oppose each other, and you choose whom to feed. Conflict is not proof of failure; it is proof of life.

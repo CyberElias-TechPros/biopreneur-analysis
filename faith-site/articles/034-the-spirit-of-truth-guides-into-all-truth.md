@@ -67,15 +67,25 @@ Notice two guardrails Jesus builds into the promise. First, "he shall not speak 
 
 Think of a mountain guide who has walked the trail many times. He does not replace the map; he reads it with you, warns of the cliff the map marks but does not describe, and chooses the safe path around the washed-out bridge. The map is trustworthy; the guide makes it walkable.
 
-## Truth That Agrees With the Word
+### Truth That Agrees With the Word
 
 Every genuine leading of the Spirit agrees with Scripture. This is not a limitation on His power; it is a guarantee of His consistency. The Spirit who inspired the Word will never contradict the Word. So when an impression, a prophecy, or a strong feeling conflicts with Scripture, Scripture governs.
 
 The Spirit also always points to Jesus: "He shall glorify me: for he shall receive of mine, and shall shew it unto you" (John 16:14). Any voice that diminishes Christ, denies His finished work, or shifts your confidence from Him to yourself is not the Spirit of truth.
 
-Here is the contrast: the unguided believer treats every strong impression as divine and stumbles between zeal and confusion. The guided believer listens, tests against the Word, seeks wise counsel, and walks with confidence. One is led by feelings; the other by the Guide.
+The distinction could not be sharper. The unguided believer treats every strong impression as divine and stumbles between zeal and confusion. The guided believer listens, tests against the Word, seeks wise counsel, and walks with confidence. One is led by feelings; the other by the Guide.
 
-## The Word Says the Same Thing From Three Directions
+### The Difference Between Guidance and Gossip
+
+John gives a test that runs the length of the letter: "But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things, and is truth, and is no lie" (1 John 2:27).
+
+This is not a dismissal of teachers — the same author writes to instruct them. It is a statement about where the final authority sits. The Spirit's teaching is not one voice among many; it is the standard by which the other voices are weighed.
+
+The Spirit's guidance has a recognisable character. He does not flatter; He convicts (John 16:8). He does not contradict the word He inspired; He takes what is Christ's and shows it (John 16:14). And He does not leave you with a vague impression and no direction; the promise is that He will "guide you into all truth."
+
+Which means a great deal of what passes for spiritual leading can be tested. Does it exalt Christ? Does it agree with Scripture? Does it produce love, joy, peace, and self-control? Those are not decoration on the guidance; they are its fingerprints.
+
+### The Word Says the Same Thing From Three Directions
 
 - **1 Corinthians 2:10** — "But God hath revealed them unto us by his Spirit: for the Spirit searcheth all things, yea, the deep things of God." Revelation is the Spirit's work; the deep things of God are opened by Him, not by intellect alone.
 - **1 John 2:27** — "But the anointing which ye have received of him abideth in you, and ye need not that any man teach you: but as the same anointing teacheth you of all things." The anointing is an internal teacher, resident and reliable, always in agreement with the written Word.

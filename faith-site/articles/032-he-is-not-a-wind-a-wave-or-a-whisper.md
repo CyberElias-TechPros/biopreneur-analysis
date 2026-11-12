@@ -65,15 +65,23 @@ Notice the pronouns. Jesus uses "he" — not "it" — and assigns personal actio
 
 Think of the difference between a live phone line and a living friend on the other end. The line carries the voice, but you do not talk to the line. Many believers spend their lives tending the line — techniques, formulas, moods — while neglecting the Friend who speaks through it. Jesus introduces us to the Friend.
 
-## Why Personhood Changes Everything
+### Why Personhood Changes Everything
 
 If the Spirit is a force, then the Christian life becomes manipulation: find the right technique, the right volume, the right formula, and harness the power. If the Spirit is a Person, the Christian life becomes relationship: listen, obey, grieve not, quench not, and enjoy.
 
 That difference shows up in how you pray. To a force, you speak formulas. To a Person, you speak honestly. It shows up in how you decide. With a force, you search for a mechanism. With a Person, you ask and listen. It shows up in how you handle failure. A force can be disappointed in your technique; only a Person can be grieved by your distance.
 
-Here is the contrast: the force mindset asks, "How do I get more of the Spirit?" The Person mindset asks, "Am I listening to the Spirit I already have?" One searches for a switch; the other cultivates a friendship.
+Watch what separates the two: The force mindset asks, "How do I get more of the Spirit?" The Person mindset asks, "Am I listening to the Spirit I already have?" One searches for a switch; the other cultivates a friendship.
 
-## The Word Says the Same Thing From Three Directions
+### Why We Mistake the Spirit for an Atmosphere
+
+Jesus anticipated the confusion. Three times in the farewell discourse He tells the disciples that the Helper will come — and each time the promise is personal rather than atmospheric: "he shall give you another Comforter, that he may abide with you for ever" (John 14:16), "he dwelleth with you, and shall be in you" (John 14:17), "it is expedient for you that I go away" (John 16:7).
+
+The word "another" is doing heavy work. Greek distinguishes *allos* — another of the same kind — from *heteros* — another of a different kind. Jesus promises *allos*, a Comforter of the same order as Himself. The disciples were not losing a person and gaining a force. They were exchanging one form of presence for another.
+
+That distinction dissolves a great deal of confusion. If the Spirit were an atmosphere, faith would be a matter of finding the right conditions. Because He is a Person, faith is a matter of attending to Someone who is already present and already speaking.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Acts 13:2** — "As they ministered to the Lord, and fasted, the Holy Ghost said, Separate me Barnabas and Saul for the work whereunto I have called them." The Spirit speaks, chooses, and sends. These are personal acts of will, not mechanical impulses.
 - **Romans 8:26** — "Likewise the Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us." The Spirit helps and intercedes — personal care expressed in weakness, not a power surge.

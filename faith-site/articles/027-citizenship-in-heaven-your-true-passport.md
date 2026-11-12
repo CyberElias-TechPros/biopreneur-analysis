@@ -65,15 +65,23 @@ The King James word *conversation* does not mean speech; it means conduct and co
 
 Think of an ambassador serving in a foreign country. He eats the local food, learns the language, and loves the people — but he is not governed by that country's laws. His passport, salary, and instructions come from home. He represents his nation's interests, not his host's. Paul says you live the same way: at home in the world's daily life, loyal to heaven's government.
 
-## Loyalty, Values, and Conduct
+### Loyalty, Values, and Conduct
 
 Citizenship shapes three things. Loyalty: when the world's demands conflict with heaven's Word, your allegiance is already decided. Values: you measure success, worth, and security by heaven's economy, not the market's. Conduct: your speech, money, relationships, and work reflect the character of your King.
 
 Paul's context is striking. He has just described false teachers whose "god is their belly" and whose "glory is in their shame" (Philippians 3:19). Their citizenship is earthly, so their appetites govern them. Believers have a different passport, so a different government governs them.
 
-Here is the contrast: the earthly citizen asks, "What will people think?" The heavenly citizen asks, "What does my King require?" One is governed by approval; the other by allegiance.
+The line between them runs here: The earthly citizen asks, "What will people think?" The heavenly citizen asks, "What does my King require?" One is governed by approval; the other by allegiance.
 
-## The Word Says the Same Thing From Three Directions
+### Why Citizenship Changes Your Grief
+
+There is a particular sorrow that belongs to the believer and a particular sorrow that does not. Paul tells the Thessalonians they need not "sorrow as others which have no hope" (1 Thessalonians 4:13). He does not say they will not sorrow. He says their sorrow will have a different shape because it has a different horizon.
+
+A citizen living abroad grieves over distance, but not over loss of home. The home is not gone; it is simply elsewhere. That distinction is the difference between a sadness that has a destination and one that has none.
+
+Hebrews makes the same move with the patriarchs, all at once: "These all died in faith, not having received the promises, but having seen them afar off, and were persuaded of them, and embraced them, and confessed that they were strangers and pilgrims on the earth" (Hebrews 11:13). Seen, persuaded, embraced, confessed — four verbs of a person who knows where his papers are held.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Ephesians 2:19** — "Now therefore ye are no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God." Paul removes the outsider status entirely: fellow citizens and household members, not guests.
 - **1 Peter 2:11** — "Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against the soul." Peter names the tension honestly — strangers and pilgrims — and calls for conduct that fits the journey.

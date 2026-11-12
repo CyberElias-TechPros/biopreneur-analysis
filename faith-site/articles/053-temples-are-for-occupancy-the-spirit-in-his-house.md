@@ -67,7 +67,7 @@ In the Old Testament, God's glory filled the tabernacle and later the temple. Th
 
 Think of a family that moves into a house and makes it a home. The house is no longer neutral space; it carries their presence, their rhythms, their name. God has done something similar in you — He has made your body a home for His presence.
 
-## Not Your Own — The Freedom of Ownership
+### Not Your Own — The Freedom of Ownership
 
 The verse's second half is just as important: "ye are not your own... for ye are bought with a price" (verses 19–20). Paul grounds stewardship in purchase. You were bought, and the price was Christ's blood.
 
@@ -75,9 +75,19 @@ At first, "not your own" sounds like a restriction. In context, it is the opposi
 
 Paul also warns that defiling the temple invites serious consequences: "If any man defile the temple of God, him shall God destroy; for the temple of God is holy, which temple ye are" (1 Corinthians 3:17). The warning is not petty legalism; it reflects the value of what God has made sacred. A believer who understands the dwelling place becomes careful without becoming fearful.
 
-Here is the contrast: the self-owned life negotiates every boundary by preference. The temple life asks what honours the Resident. One is governed by appetite; the other by reverence.
+Two postures, one choice: The self-owned life negotiates every boundary by preference. The temple life asks what honours the Resident. One is governed by appetite; the other by reverence.
 
-## The Word Says the Same Thing From Three Directions
+### A Temple Is Judged by Its Resident
+
+Paul's question in 1 Corinthians 6 is almost indignant: "What? know ye not that your body is the temple of the Holy Ghost which is in you, which ye have of God, and ye are not your own?" (1 Corinthians 6:19).
+
+The argument runs from architecture to ownership. A temple belongs to the god it houses. If the Spirit lives in you, then your body is not neutral territory — it is consecrated ground, and its use is a matter of reverence rather than preference.
+
+That is a far stronger motive than rule-keeping. "For ye are bought with a price: therefore glorify God in your body" (1 Corinthians 6:20). The price establishes the ownership, and the ownership establishes the obligation.
+
+2 Corinthians 6:16 makes the same claim with a promise attached: "ye are the temple of the living God; as God hath said, I will dwell in them, and walk in them; and I will be their God, and they shall be my people." Dwelling and walking — occupancy, not a visit.
+
+### The Word Says the Same Thing From Three Directions
 
 - **1 Corinthians 3:16** — "Know ye not that ye are the temple of God, and that the Spirit of God dwelleth in you?" Paul says it of the church corporately and of the believer personally — the same Spirit, the same sacredness.
 - **Romans 12:1** — "Present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service." Body stewardship is described as worship, not merely discipline.

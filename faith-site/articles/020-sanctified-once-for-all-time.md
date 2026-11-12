@@ -69,15 +69,15 @@ The Spirit is not idle in this. Peter writes that believers are sanctified by th
 
 Think of a house legally transferred to your name. The deed is signed once, but you live in the house every day. The signing was once for all; the living is daily. Sanctification works the same way: the transfer happened once at Calvary and once in you at the New Birth; the living out happens daily.
 
-## Position and Practice — Both Are Real
+### Position and Practice — Both Are Real
 
 Does this mean your conduct does not matter? Far from it. Scripture teaches two dimensions of sanctification, and confusion between them causes both legalism and licence. **Positional sanctification** is what Christ accomplished: you were set apart to God once for all, and nothing can reverse it. **Practical sanctification** is your daily growth in expressing that position: purity, honesty, love, and obedience worked out in ordinary life.
 
 **Righteousness** — right standing with God, received as a gift in Christ — is the foundation of both. You do not become holy to be accepted; you are accepted, and therefore you pursue holiness. Positional truth gives practical practice a home.
 
-Here is the contrast: the legalist pursues sanctification to secure standing; the believer pursues sanctification because standing is secure. The legalist's holiness is anxious and brittle; the believer's holiness is grateful and steady.
+Consider what each one actually is. The legalist pursues sanctification to secure standing; the believer pursues sanctification because standing is secure. The legalist's holiness is anxious and brittle; the believer's holiness is grateful and steady.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Hebrews 10:14** — "For by one offering he hath perfected for ever them that are sanctified." The same writer joins perfection and sanctification: those set apart are perfected forever by one offering. Your standing is complete, not pending.
 - **1 Corinthians 6:11** — "But ye are washed, but ye are sanctified, but ye are justified in the name of the Lord Jesus, and by the Spirit of our God." Paul lists sanctification among accomplished realities, not aspirations — and places it beside washing and justification.

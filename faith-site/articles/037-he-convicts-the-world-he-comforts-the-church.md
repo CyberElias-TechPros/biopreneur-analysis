@@ -65,7 +65,7 @@ Jesus names three specific convictions. Of **sin** — because the world does no
 
 Think of a physician who diagnoses accurately and then treats. A good doctor does not wound for the sake of wounding; he names the disease so he can heal it. The Spirit's conviction is diagnostic grace, not punishment. He tells you the truth about your condition and immediately points to the cure.
 
-## Conviction Versus Condemnation
+### Conviction Versus Condemnation
 
 The difference is recognisable. Conviction is specific — it names a particular attitude, word, or action. Condemnation is vague and total — it says you are worthless, hopeless, and beyond repair. Conviction points to Christ and produces repentance that leads to life. Condemnation points to you and produces shame that leads to withdrawal.
 
@@ -73,9 +73,19 @@ This is why Jesus could say the Spirit would convict the world of righteousness 
 
 **The Consciousness of Righteousness** — an inner awareness, settled by God's Word and witness, that you are right with Him in Christ — is how you tell the difference. A believer conscious of righteousness can hear conviction without collapsing, because conviction threatens conduct, not identity.
 
-Here is the contrast: conviction says, "You did wrong; come and be cleansed." Condemnation says, "You are wrong; go and hide." One leads to the Father's presence; the other leads away from it.
+The line between them runs here: Conviction says, "You did wrong; come and be cleansed." Condemnation says, "You are wrong; go and hide." One leads to the Father's presence; the other leads away from it.
 
-## The Word Says the Same Thing From Three Directions
+### Godly Sorrow Has a Destination
+
+Paul draws a line that many believers cannot find on their own: "For godly sorrow worketh repentance to salvation not to be repented of: but the sorrow of the world worketh death" (2 Corinthians 7:10).
+
+Both are sorrow. Both can produce tears. The difference is not intensity but destination. Godly sorrow moves toward the Father and ends in restoration; worldly sorrow moves toward the self and ends in either despair or defensiveness.
+
+That is why the Spirit's conviction can be recognised by what it produces. Conviction is specific — it names the thing. Condemnation is total — it names you. Conviction comes with a door in it. Condemnation has only a wall.
+
+"There is therefore now no condemnation to them which are in Christ Jesus" (Romans 8:1) is not a denial of conviction. It is the guarantee that the Spirit's work in you will never end in your destruction, because the verdict has already been given.
+
+### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 7:10** — "For godly sorrow worketh repentance to salvation not to be repented of: but the sorrow of the world worketh death." Paul distinguishes two sorrows by their fruit, not their intensity.
 - **Romans 8:1** — "There is therefore now no condemnation to them which are in Christ Jesus." The Spirit who convicts believers never revokes the verdict Christ secured. Both truths stand together.

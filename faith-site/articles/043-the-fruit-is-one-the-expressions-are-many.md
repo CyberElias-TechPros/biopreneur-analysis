@@ -65,7 +65,7 @@ In the original language, *karpos* is singular, followed by nine nouns describin
 
 Think of an orange. You do not produce sweetness, colour, and juice as three separate projects; they all come from one tree drawing from one root. When the root is healthy, the fruit is whole. Paul says the same about character: one root, one life, many expressions.
 
-## Character Cannot Be Assembled
+### Character Cannot Be Assembled
 
 This matters because checklist spirituality always fails in the same way: it produces impressive fragments and hidden fatigue. You can force patience in public while bitterness grows in private. You can manufacture generosity while resentment accumulates. Fragmentary effort creates inconsistency because it works on behaviours while leaving the root untouched.
 
@@ -73,9 +73,17 @@ The fruit model works differently. Abide in Christ, yield to the Spirit, and the
 
 Paul sets the fruit directly against the works of the flesh for a reason. Works are produced by effort and multiplied by anxiety; fruit is produced by life and ripened by time. The flesh generates activity that looks religious and exhausts the worker, while the Spirit generates character that looks like Jesus and refreshes the bearer. That is why Paul can list fifteen works of the flesh and then a single fruit with nine expressions — the flesh multiplies effort, the Spirit unifies life. When your Christianity feels like an ever-growing list of behaviours to manage, you have likely slipped from fruit to works without noticing.
 
-Here is the contrast: the assembler asks, "Which quality do I need to fix this week?" The abider asks, "Am I staying connected to the life that produces all of them?" One manages symptoms; the other nourishes the root.
+Two postures, one choice: The assembler asks, "Which quality do I need to fix this week?" The abider asks, "Am I staying connected to the life that produces all of them?" One manages symptoms; the other nourishes the root.
 
-## The Word Says the Same Thing From Three Directions
+### Fruit Cannot Be Manufactured Under Pressure
+
+There is a reason Paul chose agriculture rather than manufacturing for this list. A factory can increase output by adding shifts and pressure. An orchard cannot. Push a tree and you get bruises, not apples.
+
+Jesus used the same logic about Himself: "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit" (John 15:5). Then He added the diagnosis that settles the matter — "for without me ye can do nothing." Not "very little." Nothing. Whatever is produced by pressure rather than by life is not fruit; it is a manufactured imitation that will not nourish anyone.
+
+That is why the fruit of the Spirit is described as fruit at all. It is evidence of union, not achievement of willpower. And it is why the list can be read as a character sketch of Jesus: the qualities described are not a checklist for you to complete, but a portrait of the life now resident in you.
+
+### The Word Says the Same Thing From Three Directions
 
 - **John 15:5** — "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing." Fruit is the product of union, not of willpower. Abiding is the whole assignment.
 - **Ephesians 5:9** — "For the fruit of the Spirit is in all goodness and righteousness and truth." Paul also speaks of fruit in unified terms — goodness, righteousness, truth — describing a whole manner of life.

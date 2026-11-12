@@ -65,17 +65,17 @@ Three times in Matthew's Gospel the phrase recurs — to the two blind men, to t
 
 Notice that Jesus never asked the blind men how they felt. He asked what they believed. That is not because feelings are wicked; it is because feelings were never designed to be the arbiter.
 
-## Where Feelings Actually Belong
+### Where Feelings Actually Belong
 
 Feelings are real, informative, and usually honest about the wrong thing. Anxiety tells you your body has detected a threat; it does not tell you whether the threat is real. Sadness tells you something matters; it does not tell you how matters will end.
 
 A car's warning light is useful. You would be foolish to cover it, and more foolish to navigate by it. Feelings are the dashboard, not the road.
 
-Here is the contrast: the feeling-led believer asks "do I feel believed?" and waits; the faith-led believer asks "what has God said?" and acts. One consults a gauge; the other reads a map.
+The line between them runs here: The feeling-led believer asks "do I feel believed?" and waits; the faith-led believer asks "what has God said?" and acts. One consults a gauge; the other reads a map.
 
 Hebrews makes the same distinction with unusual bluntness. Moses "endured, as seeing him who is invisible" (Hebrews 11:27) — not as feeling him, and not as seeing the outcome. The whole cloud of witnesses is introduced that way: people who acted on what they had been told rather than on what their senses reported. If faith were a feeling, the eleventh chapter of Hebrews would be a catalogue of moods. Instead it is a catalogue of decisions — journeys taken, houses left, seas crossed, promises embraced before they were received.
 
-## What the Woman With the Blood Issue Shows
+### What the Woman With the Blood Issue Shows
 
 Mark's account gives us the richest case. She had suffered twelve years, spent everything, and grew worse. Her feeling was of exhaustion and shame. Yet she pressed through the crowd and touched the hem of His garment.
 
@@ -85,7 +85,7 @@ Have you been waiting to feel different before you dare to believe? What if the 
 
 One caution is worth stating plainly, because this truth has been abused. Telling a grieving person to stop feeling is not faith; it is cruelty dressed as doctrine. Jesus wept at a graveside He was about to empty. Faith does not hurry grief along — it simply refuses to let grief have the final word.
 
-## Psalm 42 and the Argument With Yourself
+## What This Means for You
 
 "Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God" (Psalm 42:5). The psalmist does not deny the depression. He talks to it. He addresses the soul as one addresses a frightened child, and then answers his own question with hope.
 

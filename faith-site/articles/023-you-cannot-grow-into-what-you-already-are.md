@@ -65,7 +65,7 @@ Notice the tense. Peter does not say God will give; he says God *hath given*. Th
 
 Think of a mango seed and a mango tree. The seed does not grow into something foreign to itself; it grows into the expression of what it already is. Everything the tree will ever be is already resident in the seed. Your new nature works the same way: growth is expression, not addition. You are not adding divinity; you are unfolding it.
 
-## Growth Is Expression, Not Attainment
+### Growth Is Expression, Not Attainment
 
 This distinction changes how you read every exhortation in the New Testament. When Peter tells you to add virtue, knowledge, temperance, patience, and godliness (2 Peter 1:5–7), he is not asking you to manufacture qualities you lack. He is asking you to bring your conduct into agreement with the nature you possess.
 
@@ -73,9 +73,9 @@ Peter's own language in verse 4 makes this unmistakable: you are made "partakers
 
 **Spiritual Understanding** — the God-given capacity to perceive and grasp spiritual truth, seeing reality as God sees it — is the mechanism of this growth. As your understanding enlarges, your expression matures. You do not become more righteous; you become more aware of the righteousness you have, and your behaviour follows your awareness.
 
-Here is the contrast: the attainment mindset asks, "What must I do to become acceptable?" The expression mindset asks, "How do I live out what I already am?" One is endless striving; the other is progressive discovery. Both involve effort — but only one has a finished foundation.
+Two postures, one choice: The attainment mindset asks, "What must I do to become acceptable?" The expression mindset asks, "How do I live out what I already am?" One is endless striving; the other is progressive discovery. Both involve effort — but only one has a finished foundation.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Colossians 2:9–10** — "For in him dwelleth all the fulness of the Godhead bodily. And ye are complete in him." Paul places Christ's fullness and your completeness side by side. Complete is not a future goal; it is a present position.
 - **Ephesians 1:3** — "Blessed be the God and Father of our Lord Jesus Christ, who hath blessed us with all spiritual blessings in heavenly places in Christ." Paul also uses the past tense: hath blessed. Every spiritual blessing is already yours in Christ, not pending your improvement.

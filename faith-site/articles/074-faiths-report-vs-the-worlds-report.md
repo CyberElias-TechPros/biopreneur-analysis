@@ -65,19 +65,19 @@ The ten spies were not liars. They reported real Anakim, real walled cities, rea
 
 Notice the ten never said God was weak. They simply never mentioned Him. A report can be factually accurate and still be fatally incomplete.
 
-## What Made the Difference
+### What Made the Difference
 
 Numbers 14:24 gives the verdict on Caleb: "he had another spirit with him, and hath followed me fully." Another spirit, and a full following. Two things, and both are choices.
 
 Then the ten infected the whole camp: "all the congregation lifted up their voice, and cried; and the people wept that night" (Numbers 14:1). Fear is not a private emotion; it is a contagious report. Within hours, an entire nation had agreed with ten men and forgotten the God who had split the sea in front of them.
 
-Here is the contrast: the world's report moves from facts to despair; faith's report moves from facts to God and then to action. The first says "we are grasshoppers" (Numbers 13:33); the second says "we are well able."
+The distinction could not be sharper. The world's report moves from facts to despair; faith's report moves from facts to God and then to action. The first says "we are grasshoppers" (Numbers 13:33); the second says "we are well able."
 
 There is a detail in the narrative worth pausing over. The spies brought back grapes so heavy they carried them on a staff between two men (Numbers 13:23). The very evidence of the land's goodness became the thing they used to argue against entering it. That is how unbelief works: it takes God's own proofs and turns them into reasons to stay put.
 
 Ask yourself an honest question. Have you ever held something good in your hands — an open door, a genuine promise, a real opportunity — and used its size as an argument for fear rather than for faith?
 
-## Forty Years for Ten Miles
+### Forty Years for Ten Miles
 
 The consequence is one of the most sobering sentences in Scripture. The generation that believed the evil report died in the wilderness, and their children inherited what their parents refused. "Surely they shall not see the land... save Caleb... and Joshua" (Numbers 14:30).
 
@@ -85,7 +85,7 @@ Do you see what unbelief costs? The distance from Kadesh-barnea to Canaan was a 
 
 Caleb, though, was still collecting on that day when he was eighty-five: "I wholly followed the LORD my God... Now therefore give me this mountain" (Joshua 14:8, 12). A good report can be a long-term investment.
 
-## Isaiah's Question and Ours
+## What This Means for You
 
 "Who hath believed our report? and to whom is the arm of the LORD revealed?" (Isaiah 53:1). The question links belief to revelation — the arm of the Lord is revealed to those who believe the report. Paul quotes the same verse in Romans 10 and then says "faith cometh by hearing."
 

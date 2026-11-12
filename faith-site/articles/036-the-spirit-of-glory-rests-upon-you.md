@@ -67,15 +67,25 @@ Peter's context is remarkable: believers were suffering for the name of Christ, 
 
 Think of a lamp in a dark room. The darkness does not diminish the lamp; it makes its light visible. Reproach is the dark room; the Spirit of glory is the lamp. What feels like exposure is actually illumination.
 
-## Reproach Reveals What Was Always There
+### Reproach Reveals What Was Always There
 
 The glory was already resting on you; reproach made it apparent. That is why Peter can call the reproached believer "happy" without pretending the experience is pleasant. He is describing a deeper reality than the surface pain.
 
 Notice both sides in the verse: "on their part he is evil spoken of, but on your part he is glorified." The same event is slander on one side and glory on the other. Nothing about your circumstances decides which side you experience; your union with Christ does.
 
-Here is the contrast: the believer who lives for approval shrinks under reproach, because approval is his supply. The believer who lives from glory stands under reproach, because glory rests on him regardless of who approves.
+Set them side by side and the gap shows. The believer who lives for approval shrinks under reproach, because approval is his supply. The believer who lives from glory stands under reproach, because glory rests on him regardless of who approves.
 
-## The Word Says the Same Thing From Three Directions
+### The Glory That Shows Up in the Fire
+
+Peter's phrase is startling because of where he places it. He does not say the Spirit of glory rests on you in the quiet seasons. He says it in the middle of a trial: "If ye be reproached for the name of Christ, happy are ye; for the spirit of glory and of God resteth upon you" (1 Peter 4:14).
+
+The glory is not the absence of the furnace. It is the presence of God inside it — which is precisely the pattern of the three men in Daniel 3, where a fourth figure walked with them in the flames. The fire did not go out. The glory came in.
+
+Paul reaches for the same logic in Romans 8: "if so be that we suffer with him, that we may be also glorified together. For I reckon that the sufferings of this present time are not worthy to be compared with the glory which shall be revealed in us" (Romans 8:17–18). Present suffering, future glory, and — in Peter's version — present glory as well, resting on the sufferer now.
+
+**The Presence of God** — His manifest nearness — is not withdrawn in the trial. It is often the most conspicuous thing about it.
+
+### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 4:6–7** — "God, who commanded the light to shine out of darkness, hath shined in our hearts... But we have this treasure in earthen vessels, that the excellency of the power may be of God, and not of us." Treasure in a vessel explains how ordinary believers carry extraordinary glory.
 - **Isaiah 60:1** — "Arise, shine; for thy light is come, and the glory of the LORD is risen upon thee." The command to shine is grounded in a fact: glory has risen upon you. You reveal; you do not manufacture.

@@ -65,15 +65,15 @@ That is why Paul can say in the same breath that the old man was crucified *with
 
 Think of a house that has been sold and the new owner has moved in. The old tenant's name still sits on a mailbox down the road, and old mail still arrives. But the tenant has no legal right to enter, no keys to the door, and no authority over the new household. If the new owner keeps paying the old tenant's bills out of habit, the problem is not that the lease is still valid. The problem is that the new owner has not yet learned to refuse the old address. That is the picture behind this teaching: the old man's appetites still knock, but his ownership has ended.
 
-## Crucified Is a Finished Legal Fact, Not a Daily Struggle
+### Crucified Is a Finished Legal Fact, Not a Daily Struggle
 
 Notice what Paul says the crucifixion accomplished: "that the body of sin might be destroyed, that henceforth we should not serve sin." The purpose clause is decisive. The old man was crucified so that you would **not serve** sin anymore. Serving implies a master. Paul is announcing that your master changed.
 
 Why, then, do old appetites still feel so loud? Because the body and the mind still carry memories of the old regime. **Renewing of the Mind** — replacing old, fearful, flesh-shaped habits of thought with God's way of thinking through steady meditation and practice of Scripture — is the daily work of bringing your thinking into agreement with a verdict already given. You are not renewing your spirit; your spirit was made new at the New Birth. You are renewing your mind so that your choices stop voting for a dead man.
 
-Here is the contrast that matters: religion tells you to bury the old man a little more every day, as though your effort keeps him dead. The gospel tells you he died once with Christ, and your part is to **reckon** it so — to count it true and act accordingly. Burial is effort. Reckoning is agreement with fact.
+Here the two diverge. Religion tells you to bury the old man a little more every day, as though your effort keeps him dead. The gospel tells you he died once with Christ, and your part is to **reckon** it so — to count it true and act accordingly. Burial is effort. Reckoning is agreement with fact.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 6:11** — "Likewise reckon ye also yourselves to be dead indeed unto sin, but alive unto God through Jesus Christ our Lord." Paul does not say, "Try to become dead to sin." He says reckon yourselves dead. Reckoning is accounting language: count what heaven counts, even before your feelings catch up.
 - **Galatians 5:24** — "And they that are Christ's have crucified the flesh with the affections and lusts." The crucifixion of the flesh is presented as the settled position of those who belong to Christ — not as a future achievement for the most disciplined believers.

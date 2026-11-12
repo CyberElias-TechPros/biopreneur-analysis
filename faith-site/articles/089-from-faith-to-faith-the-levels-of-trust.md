@@ -67,7 +67,7 @@ Think of learning to swim. There is a first day when you let go of the wall and 
 
 The verse also carries the gospel's whole logic in miniature. Righteousness is "revealed" — not achieved, not negotiated, not inherited by effort. It is disclosed, the way a landscape is disclosed when the fog lifts. And the instrument by which a person receives a revelation is faith, which is why the revelation keeps expanding as the faith does.
 
-## Different Measures, One Lord
+### Different Measures, One Lord
 
 Scripture is unembarrassed about levels. Jesus spoke of "little faith" (Matthew 14:31), of faith that grows, and once marvelled at "great faith" (Matthew 8:10). Paul speaks of a "measure of faith" distributed by God (Romans 12:3).
 
@@ -75,7 +75,7 @@ Nobody in the New Testament is scolded for having a small measure. People are sc
 
 This is why the same sermon lands differently in two people. One hears a familiar phrase and moves on; another hears it as an invitation and takes a step. The word did not change; the measure of trust did.
 
-## How Movement Happens
+### How Movement Happens
 
 Faith grows by exposure, exercise, and evidence.
 
@@ -87,21 +87,21 @@ The church at Thessalonica had this pattern commended: "your faith groweth excee
 
 Have you ever noticed that you now trust God for things that once terrified you? That is not personality change; that is a level crossed.
 
-## The Danger of Both Directions
+### The Danger of Both Directions
 
-Here is the contrast: the stagnant believer keeps standing where the last level ended, treating a past obedience as a permanent address; the reckless believer leaps to a measure he has not grown into and calls presumption faith.
+Here the two diverge. The stagnant believer keeps standing where the last level ended, treating a past obedience as a permanent address; the reckless believer leaps to a measure he has not grown into and calls presumption faith.
 
 Movement is the point. Neither standing still nor skipping steps produces the trust the gospel is building.
 
 It is worth saying plainly that no level is reached by comparison. Peter's question in John 21 — "what shall this man do?" — got a gentle rebuke, because the measure assigned to another is not the measure assigned to you. Paul says God has dealt to every man "the measure of faith" (Romans 12:3), and a measure is a gift before it is a target.
 
-## What a Level Change Feels Like
+### What a Level Change Feels Like
 
 Usually not like triumph. Often like fear with your feet moving. Peter walked on water before he understood the physics of it, and he also sank and was caught by a hand.
 
 The measure you are being invited into will almost always feel slightly beyond you. That is what makes it a level rather than a repeat.
 
-## Practical Steps Upward
+## What This Means for You
 
 **1. Identify your current level.** What do you trust God for without flinching? Start the inventory there.
 **2. Name the next one.** What is the thing you currently avoid because it requires more trust?

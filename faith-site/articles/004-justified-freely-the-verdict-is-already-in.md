@@ -65,7 +65,7 @@ Now look at the word right beside it: *freely*. In the Greek New Testament, this
 
 Consider the difference between a prisoner released on parole and a citizen handed a signed order of full exoneration from the nation's highest court. The parolee flinches every time a police siren passes the street, wondering if an old file is being reopened. The exonerated citizen walks past the courthouse in broad daylight because the supreme bench has already ruled, the debt is cancelled, and no lower official has jurisdiction to retry the case. Religion offers nervous parole. The gospel announces supreme-court justification.
 
-## How Scripture Confirms the Settled Verdict
+### How Scripture Confirms the Settled Verdict
 
 - **Romans 5:1** — "Therefore **being justified by faith, we have peace with God** through our Lord Jesus Christ." Notice the tense: *having been justified* (a completed past action), we *have* peace with God right now. The war between your conscience and God's throne is not winding down; it is over.
 - **Romans 8:33–34** — "Who shall lay any thing to the charge of God's elect? **It is God that justifieth.** Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us." Look at the two thrones that silence every accuser: the Father is the Judge who pronounced the verdict, and the risen Christ at His right hand is the Sacrifice and Advocate who upholds it.

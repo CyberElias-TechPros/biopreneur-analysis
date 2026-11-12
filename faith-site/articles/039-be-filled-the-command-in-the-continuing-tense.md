@@ -67,15 +67,25 @@ Paul's contrast is instructive. Wine fills a person and produces excess: loss of
 
 Think of a sailboat on a lake. The wind is steady, but the sailor adjusts the sails continuously to catch it. Does a sailor "get the wind" once and then drift for the rest of the voyage? No — he stays under it, trims for it, and moves with it. Paul says the same about the Spirit: keep catching the wind.
 
-## Why One Experience Is Not Enough
+### Why One Experience Is Not Enough
 
 The New Testament records believers being filled repeatedly. In Acts 2:4 they were filled at Pentecost. In Acts 4:31 they were filled again after prayer. In Acts 13:52 the disciples were "filled with joy and with the Holy Ghost." The filling is repeatable, and it is connected to specific conditions: prayer, surrender, obedience, and fellowship.
 
 That should encourage you. If your last sense of fullness was months ago, you have not missed your only chance. You can come again today, and the same Spirit is still willing to fill.
 
-Here is the contrast: the experience-chaser depends on emotional highs and fears their absence. The continual-receiver lives in steady supply, receiving afresh each day regardless of feeling.
+Here the two diverge. The experience-chaser depends on emotional highs and fears their absence. The continual-receiver lives in steady supply, receiving afresh each day regardless of feeling.
 
-## The Word Says the Same Thing From Three Directions
+### The Grammar of "Be Filled"
+
+Paul's command in Ephesians 5:18 is a present imperative, and the tense matters: "be not drunk with wine... but be filled with the Spirit." The contrast is between two kinds of influence, and the command is continuous — be being filled, keep on being filled.
+
+The comparison to wine is not incidental. A man filled with wine is controlled by something outside himself that alters his speech, his walk, and his courage. Paul is saying there is a legitimate version of that: a life so under the Spirit's influence that its ordinary conduct is visibly different.
+
+This is why the filling is repeatable. Acts records it more than once — "they were all filled with the Holy Ghost" at Pentecost (Acts 2:4), again after prayer in Acts 4:31, and the disciples are described as "filled with joy and with the Holy Ghost" in Acts 13:52. The Spirit is not re-given; the fullness is re-received.
+
+**The Anointing** — the Spirit's empowering presence resting on a believer for service — is not a reservoir you drain. It is a relationship you keep returning to.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Colossians 3:16** — "Let the word of Christ dwell in you richly... teaching and admonishing one another in psalms and hymns and spiritual songs." Paul's parallel passage to Ephesians 5:18 substitutes the Word for the Spirit's filling — showing that Scripture is a primary means of being filled.
 - **Acts 4:31** — "And when they had prayed, the place was shaken where they were assembled together; and they were all filled with the Holy Ghost, and they spake the word of God with boldness." Filling followed corporate prayer and produced bold witness. It is repeatable and purposeful.

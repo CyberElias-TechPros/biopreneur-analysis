@@ -67,7 +67,7 @@ Think of an X-ray. The skin is real and the bone is real, and the technician is 
 
 The prayer of Ephesians 1 asks for exactly this capacity: "the eyes of your understanding being enlightened; that ye may know what is the hope of his calling, and what the riches of the glory of his inheritance in the saints" (Ephesians 1:18). Paul does not pray for more information. He prays for sight — the ability to perceive what is already true and already yours.
 
-## Moses and the Invisible King
+### Moses and the Invisible King
 
 Hebrews gives the pattern in a single phrase: Moses "endured, as seeing him who is invisible" (Hebrews 11:27). The verse before explains what he had chosen instead: the pleasures of Egypt, the treasures, the position.
 
@@ -75,7 +75,7 @@ Hebrews gives the pattern in a single phrase: Moses "endured, as seeing him who 
 
 Have you ever done that arithmetic — weighed a visible cost against an unseen reward — and found the numbers embarrassing to explain to anyone who cannot see the second column?
 
-## Paul's Word: "Look"
+### Paul's Word: "Look"
 
 Paul's verb in 2 Corinthians 4:18 is a looking verb, aimed at a target. It is not passive; it is a deliberate fixation of attention. And his reasoning is about durability: "the things which are seen are temporal; but the things which are not seen are eternal."
 
@@ -85,7 +85,7 @@ There is a discipline in this that most believers never learn. Attention is not 
 
 So what has been getting your attention lately, and what size has it grown to?
 
-## What the Unseen Looks Like When You See It
+### What the Unseen Looks Like When You See It
 
 - **A finished work.** The verdict is in, even when you feel accused.
 - **A seated Christ.** "He sat down on the right hand of the Majesty on high" (Hebrews 1:3).
@@ -93,9 +93,9 @@ So what has been getting your attention lately, and what size has it grown to?
 - **A written name.** Your citizenship is already recorded.
 - **A coming day.** Every account will be settled in a courtroom you have not yet seen.
 
-Here is the contrast: the sight-led believer allocates attention to whatever is loudest; the faith-led believer allocates attention to whatever is permanent, then lives in the light of it.
+The distinction could not be sharper. The sight-led believer allocates attention to whatever is loudest; the faith-led believer allocates attention to whatever is permanent, then lives in the light of it.
 
-## Colossians 3 and the Direction of Attention
+## What This Means for You
 
 "If ye then be risen with Christ, seek those things which are above... Set your affection on things above, not on things on the earth" (Colossians 3:1–2). The instruction is about affection, not merely attention — the heart's investment.
 

@@ -65,7 +65,7 @@ Prayer has a beginning and an end in human experience, but faith does not stop a
 
 Think of a farmer who plants seed and then walks his field every day digging it up to check whether it is growing. His anxiety does not speed the harvest; it damages the seed. Prayer plants; the believing afterward is the refusal to keep digging.
 
-## What Belief After Prayer Looks Like
+### What Belief After Prayer Looks Like
 
 Believing after prayer is not a feeling of certainty. It is a set of concrete choices. It is choosing not to re-ask the same request in panic. It is choosing not to repeat the problem to every person you meet. It is choosing gratitude before evidence and obedience before explanation.
 
@@ -73,9 +73,9 @@ Jesus also attached a condition to this promise that we are tempted to skip: for
 
 Philippians 4:6–7 describes the pattern: prayer with thanksgiving, and then the peace of God guarding your heart and mind. Notice the order — thanksgiving accompanies the request, and peace follows as a guard. Thanksgiving is faith's early instalment.
 
-Do you know what you believe in the hour after you pray — or does the request simply take you over again? Here is the contrast: the anxious believer prays and then keeps negotiating, treating prayer as a lever to be pumped. The believing believer prays, thanks God, and guards the ground he has taken.
+Do you know what you believe in the hour after you pray — or does the request simply take you over again? Here the two diverge. The anxious believer prays and then keeps negotiating, treating prayer as a lever to be pumped. The believing believer prays, thanks God, and guards the ground he has taken.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **1 John 5:14–15** — "And this is the confidence that we have in him, that, if we ask any thing according to his will, he heareth us: And if we know that he hear us... we know that we have the petitions that we desired of him." John moves from asking to knowing, then to having.
 - **Hebrews 10:35** — "Cast not away therefore your confidence, which hath great recompence of reward." The writer assumes confidence can be thrown away after it has been exercised — and warns against it.

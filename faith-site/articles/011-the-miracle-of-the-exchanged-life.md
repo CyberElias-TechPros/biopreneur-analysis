@@ -65,15 +65,15 @@ This is **Divine Life** — God's own life (*zoe*), the resurrection life of Chr
 
 Think of electricity in a lamp. The lamp does not generate light by straining; it expresses the current that flows through it. A lamp that has been wired but never switched on still has the connection, yet it stays dark. The exchanged life is the switch being on: Christ's life flowing through your mind, mouth, hands, and decisions. Discipline matters — you keep the lamp clean and the switch on — but the light itself comes from the current, not from the lamp's effort.
 
-## Not I, But Christ in Me — Without Losing You
+### Not I, But Christ in Me — Without Losing You
 
 Hear this carefully, because the exchanged life is often misunderstood. "Yet not I, but Christ liveth in me" does not mean you become passive, thoughtless, or irresponsible. Paul still says, "the life which **I** now live in the flesh I live by the faith of the Son of God." The *I* remains. The *I* remains responsible. What changed is the source of the life: no longer the old man's appetites, but Christ's indwelling life.
 
 That is **the Life of the Spirit** — daily Christian living energized, guided, and fruited by the indwelling Holy Spirit rather than willpower or external rule-keeping alone. The Spirit does not bypass your mind; He renews it. The Spirit does not bypass your will; He strengthens it. The exchanged life is partnership: Christ in you supplying the life, you yielding your thoughts and actions to that life in faith and wisdom.
 
-Here is the contrast: self-effort says, "I must live like Christ by my own strength." The exchanged life says, "Christ lives in me, and I live by faith in Him." One produces exhaustion and pride. The other produces fruitfulness and humility — because the life is His, and the faith is yours.
+The difference is this: Self-effort says, "I must live like Christ by my own strength." The exchanged life says, "Christ lives in me, and I live by faith in Him." One produces exhaustion and pride. The other produces fruitfulness and humility — because the life is His, and the faith is yours.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **John 15:5** — "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing." Jesus Himself teaches the exchange: abiding produces fruit; striving without abiding produces nothing lasting.
 - **Romans 6:11** — "Likewise reckon ye also yourselves to be dead indeed unto sin, but alive unto God through Jesus Christ our Lord." The exchanged life is reckoned daily: dead to sin's ownership, alive to God's life through Christ.

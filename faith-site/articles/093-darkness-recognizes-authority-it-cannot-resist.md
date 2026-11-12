@@ -57,7 +57,7 @@ In the synagogue at Capernaum, a man with an unclean spirit disrupted the servic
 
 "And they were all amazed... saying, What a word is this! for with authority and power he commandeth the unclean spirits, and they come out" (Luke 4:36). Here is the central truth of this teaching: **the spirit realm does not respond to sincerity, volume, or seniority — it responds to genuine authority, and it can tell the difference immediately.**
 
-## It Knew Before the Crowd Did
+### It Knew Before the Crowd Did
 
 The congregation was still deciding who Jesus was. The demon already knew. Darkness is not ignorant of Christ; it is in rebellion against Him, which requires knowing exactly whom it is defying.
 
@@ -73,23 +73,23 @@ Notice the reaction in verse 36: they marvelled at the *word*, not the shouting.
 
 Mark's account adds a detail Luke compresses: "And Jesus rebuked him, saying, Hold thy peace, and come out of him. And when the unclean spirit had torn him, and cried with a loud voice, he came out of him" (Mark 1:26). The spirit made a noise on the way out, but it left. Noise at the exit is not evidence of victory at the door.
 
-## Why Volume Is Not Authority
+### Why Volume Is Not Authority
 
 A man can be furious and impotent at the same time. Many believers, unsure of their standing, compensate with intensity — longer prayers, louder commands, more dramatic gestures. The spirit realm is unmoved.
 
-Here is the contrast: the insecure believer performs authority and hopes it works; the secure believer exercises authority and watches it work.
+Two postures, one choice: The insecure believer performs authority and hopes it works; the secure believer exercises authority and watches it work.
 
 Have you ever left a prayer meeting unsure whether anything happened, and quietly suspected it was because you were not loud enough? What would it mean to know your standing instead?
 
 It is worth noticing what the demon said about Jesus in Luke 4:34: "I know thee who thou art; the Holy One of God." Accurate theology, spoken by an unclean spirit. Correct information about God is not the same as submission to Him — which is a sobering thought for anyone whose Christianity is mostly vocabulary.
 
-## Acts 16 and the Ordinary Case
+### Acts 16 and the Ordinary Case
 
 Paul and Silas met a slave girl with a spirit of divination who followed them for days, announcing their mission accurately. Paul, "being grieved, turned and said to the spirit, I command thee in the name of Jesus Christ to come out of her. And he came out the same hour" (Acts 16:18).
 
 Notice how unspectacular it is. No ceremony, no struggle, no negotiation — a command, a departure, and a riot afterward because somebody's income had been interrupted.
 
-## The Warning of Acts 19
+### The Warning of Acts 19
 
 The seven sons of Sceva attempted to use the formula without the relationship: "We adjure you by Jesus whom Paul preacheth." The answer is chilling: "Jesus I know, and Paul I know; but who are ye?" (Acts 19:15).
 
@@ -97,7 +97,7 @@ Authority is not transferable by imitation. It is relational and delegated, and 
 
 There is a further point in the text that is easily missed. Luke says the report of this spread "into every place of the country round about" (Luke 4:37). Authority has a public effect. When darkness is displaced, the people watching take note, and the reputation of the Name grows.
 
-## What This Means Practically
+## What This Means for You
 
 - **Stand, do not strive.** Authority is a position, not an exertion.
 - **Speak the command, then stop.** Endless repetition suggests doubt.

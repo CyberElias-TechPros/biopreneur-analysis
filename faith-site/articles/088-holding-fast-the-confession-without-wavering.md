@@ -57,7 +57,7 @@ Hebrews was written to people who had started well and were in danger of driftin
 
 "Let us hold fast the profession of our faith without wavering; (for he is faithful that promised;)" (Hebrews 10:23). Here is the central truth of this teaching: **confession is a thing you hold rather than a thing you say once — and it can be held steadily because the faithfulness behind it is not yours.**
 
-## Why a Confession Needs Holding
+### Why a Confession Needs Holding
 
 You do not "hold fast" something that is weightless. The word picture is of a hand gripping under strain — the way a man holds a rope in a storm.
 
@@ -77,7 +77,7 @@ Think of a climber clipped to a bolt that has held for decades. He still holds t
 
 There is also a corporate dimension to holding. Israel's confessions were rehearsed in assembly — the same words, out of many mouths, at the same feasts, year after year. Truth repeated by a body becomes harder to abandon than truth held privately, because abandoning it now costs more than reputation; it costs relationship.
 
-## What Wavering Actually Looks Like
+### What Wavering Actually Looks Like
 
 Wavering is rarely dramatic denial. It is the slow edit. A man stops saying "God will provide" and starts saying "we'll see what happens." Nothing sounds heretical; the confession has simply gone soft at the edges.
 
@@ -85,15 +85,15 @@ James describes the alternative and warns about the double-minded man who is "un
 
 Have you ever caught yourself saying something about your situation that you would not want to say in front of Jesus? What did that sentence reveal?
 
-## The Context of Drawing Near
+### The Context of Drawing Near
 
 The verses around our text matter. Verse 19 says we have "boldness to enter into the holiest by the blood of Jesus." Verse 22 says draw near with a true heart. Then verse 23 says hold fast. Then verse 24 says consider one another.
 
-Here is the contrast: a confession held alone eventually weakens; a confession held in a community of believers is sustained by shared memory and shared prayer.
+Trace the difference to its root: A confession held alone eventually weakens; a confession held in a community of believers is sustained by shared memory and shared prayer.
 
 One more pastoral note. Holding fast does not mean refusing to process pain. The same chapter that says hold fast says draw near and consider one another. Tears and confession are not competitors; the psalmists hold both in the same verse — telling God their trouble while insisting on His word.
 
-## How to Hold It
+## What This Means for You
 
 - **Write the confession down.** Precision protects against drift.
 - **Say it when nothing is happening.** The unremarkable day is the training ground.

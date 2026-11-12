@@ -65,7 +65,7 @@ Jesus uses three tenses in one sentence, and their order is everything. You desi
 
 Think of a man who signs a contract and then waits for delivery. He does not wait before signing; he signs, and then he expects. His expectation is not presumption because the contract is signed. Faith signs at prayer and expects afterwards.
 
-## Why the Present Tense Is Hard
+### Why the Present Tense Is Hard
 
 Believing you have received before you see anything feels like pretending, and that is why many believers slide into a future tense: they believe they will receive someday. But that is not faith in Mark 11:24; it is hope dressed in prayer language.
 
@@ -73,9 +73,9 @@ Jesus anchored the instruction in something remarkable: "Have faith in God" (Mar
 
 The difficulty is not intellectual; it is emotional. Your senses report absence, and your feelings argue for delay. Faith does not deny the senses; it chooses a higher authority. You are not claiming that nothing is wrong; you are claiming that God's word is truer than your circumstances.
 
-Have you ever noticed how quickly a prayer turns into worry once you stop praying it? Here is the contrast: the future-tense believer prays and then re-prays the same request in anxiety, treating prayer as repetition rather than reception. The present-tense believer prays once in faith, gives thanks, and guards the confession.
+Have you ever noticed how quickly a prayer turns into worry once you stop praying it? Consider what each one actually is. The future-tense believer prays and then re-prays the same request in anxiety, treating prayer as repetition rather than reception. The present-tense believer prays once in faith, gives thanks, and guards the confession.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **1 John 5:14–15** — "If we ask any thing according to his will, he heareth us: And if we know that he hear us, whatsoever we ask, we know that we have the petitions that we desired of him." John moves from asking to knowing — the same present-tense confidence Jesus commands.
 - **James 1:6** — "But let him ask in faith, nothing wavering. For he that wavereth is like a wave of the sea driven with the wind and tossed." Wavering is a tense problem as much as a doubt problem.

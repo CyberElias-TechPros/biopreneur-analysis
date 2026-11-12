@@ -65,7 +65,7 @@ Paul used the same metaphor. "Other foundation can no man lay than that is laid,
 
 Think of a lighthouse on a rock. The storms do not ask the keeper's permission, and they do not negotiate with the tower. They test whether the thing was built on rock or sand. Jude is telling you which rock to build on before the weather comes.
 
-## Building Is a Verb With Your Name On It
+### Building Is a Verb With Your Name On It
 
 "Building up yourselves" is an instruction, and it puts the trowel in your hand. Nobody can eat for you, and nobody can believe for you. Your pastor can teach, your friends can pray, but the daily construction is yours.
 
@@ -73,7 +73,7 @@ Think of a lighthouse on a rock. The storms do not ask the keeper's permission, 
 
 Colossians 2:7 describes the same project from another angle: "Rooted and built up in him, and stablished in the faith, as ye have been taught, abounding therein with thanksgiving." Rooted below, built above, established within, overflowing outward.
 
-## What the Building Work Actually Looks Like
+### What the Building Work Actually Looks Like
 
 - **Hearing.** "Faith cometh by hearing" (Romans 10:17). Every day you spend in the word is a delivery of material to the site.
 - **Praying.** Especially praying in the Holy Ghost, which builds the inner man while your understanding is still catching up.
@@ -81,9 +81,9 @@ Colossians 2:7 describes the same project from another angle: "Rooted and built 
 - **Gathering.** Peter calls believers "lively stones... built up a spiritual house" (1 Peter 2:5). Some building only happens in company.
 - **Obeying.** Every act of obedience is a course of stone that will not move when the ground shakes.
 
-Here is the contrast: the passive believer waits for growth to happen and wonders why nothing changes; the building believer does something small and deliberate every day and is surprised by how much has risen in a year.
+Two postures, one choice: The passive believer waits for growth to happen and wonders why nothing changes; the building believer does something small and deliberate every day and is surprised by how much has risen in a year.
 
-## The Question Jude Is Asking You
+## What This Means for You
 
 Two questions are worth sitting with. First: what are you actually building with your ordinary week — the hours, the habits, the attention? Second: if the same storm hit your faith that hit your finances or your health, would there be a structure left standing?
 

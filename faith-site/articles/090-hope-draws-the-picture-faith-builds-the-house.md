@@ -75,7 +75,7 @@ Hope does the drawing. It says: this marriage can be restored, this city can be 
 
 Have you ever noticed how quickly you stop working on something when you lose hope for it? What has that taught you about the order of these two?
 
-## Abraham's Two Acts
+### Abraham's Two Acts
 
 Hebrews puts both faculties in one man. "Against hope he believed in hope" (Romans 4:18) — hope, then faith. And "faith is the substance of things hoped for" (Hebrews 11:1) — faith, acting on hope.
 
@@ -83,15 +83,15 @@ He pictured a son because God had promised one. Then he built a life around the 
 
 Peter describes the same order in the opening of his first letter: God has "begotten us again unto a lively hope" (1 Peter 1:3), and that hope is "to an inheritance incorruptible, and undefiled, and that fadeth not away." Notice that the inheritance is described before any instruction is given. First the picture, then the life.
 
-## The Anchor and the Build
+### The Anchor and the Build
 
 The anchor image in Hebrews 6 is worth holding. An anchor does not stop the boat from moving through the water; it keeps the boat from drifting off its position. Hope anchors the soul while the building goes on.
 
 Notice where the anchor is fastened: "that within the veil" (Hebrews 6:19). The anchor is not in your circumstances; it is in the presence of God, behind the curtain, where Jesus has entered.
 
-Here is the contrast: the wishful believer has a picture and no anchor, so the first storm erases the drawing; the anchored believer has both, and the storm only tests the walls.
+Consider what each one actually is. The wishful believer has a picture and no anchor, so the first storm erases the drawing; the anchored believer has both, and the storm only tests the walls.
 
-## When Hope Runs Thin
+## What This Means for You
 
 "Now the God of hope fill you with all joy and peace in believing, that ye may abound in hope" (Romans 15:13). Paul prays for hope to overflow, and he links it to believing — the two feed each other.
 
@@ -103,7 +103,7 @@ If hope has dimmed, the remedy is not to try harder to feel optimistic. It is to
 **4. Anchor daily.** Pray toward the veil, not only toward the problem.
 **5. Faith and wisdom use a plan.** Hope draws, faith builds, and wisdom draws the schedule — the wise builder sits down first and counts the cost (Luke 14:28).
 
-## Month Three in Review
+### Month Three in Review
 
 This month we have walked through faith as the attitude and action of trust: faith present tense, faith speaking, faith refusing to consider circumstances, faith growing by use, faith recognising authority, faith bridging the gap. Every one of those teachings rests on the same foundation — God has spoken, and what He said is more solid than what you can see.
 

@@ -65,7 +65,7 @@ The word pictures a wavering balance, a person pulled between two positions. Sta
 
 Think of a bridge surveyor who trusts the engineer's report rather than the sway he feels mid-span. The sway is real. He does not deny it. He simply knows which report governs the crossing.
 
-## The Anatomy, Step by Step
+### The Anatomy, Step by Step
 
 Paul gives four movements, in order, and the order matters.
 
@@ -78,13 +78,13 @@ Hebrews gives the same man a slightly different angle: "she judged him faithful 
 
 That is why Paul can speak of being "strong in faith" without implying that Abraham never felt weak. Strength here is not bravado. It is the settled weight of a verdict that has already been returned.
 
-## Why Staggering Is So Expensive
+### Why Staggering Is So Expensive
 
 James explains the cost. The one who wavers "is like a wave of the sea driven with the wind and tossed... let not that man think that he shall receive any thing of the Lord" (James 1:6–7). The problem is not that God is stingy; the problem is that a double heart has nothing stable to receive with.
 
-Here is the contrast: staggering keeps asking whether God meant it, while unwavering faith has already settled the question and moved on to obedience. One keeps reopening the file; the other files it and gets to work.
+Note where the two part company: Staggering keeps asking whether God meant it, while unwavering faith has already settled the question and moved on to obedience. One keeps reopening the file; the other files it and gets to work.
 
-## What Sarah's Laughter Teaches
+## What This Means for You
 
 We should not read Romans 4 as if Abraham and Sarah were made of stone. Sarah laughed at the promise, and God answered her laughter not with rebuke but with a name: Isaac, "laughter." He took the very sound of her unbelief and turned it into the name of her son.
 

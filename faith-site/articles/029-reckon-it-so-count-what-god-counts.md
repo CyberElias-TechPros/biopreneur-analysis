@@ -67,15 +67,23 @@ The Greek word *logizomai* is a bookkeeping term: to count, to credit, to put to
 
 Think of a bank statement that contradicts your memory. You may feel sure you have less money than the statement shows, but the statement governs your spending. You do not argue with the bank; you update your understanding and act accordingly. Reckoning is updating your understanding to match God's statement and then acting on it.
 
-## Dead to Sin, Alive to God
+### Dead to Sin, Alive to God
 
 Paul gives two sides of one accounting. Dead to sin: sin's legal claim on you was settled at the cross; you are no longer its property. Alive to God: you now belong to a new life, with new appetites, capacities, and allegiances. Both are stated as facts to reckon, not goals to achieve.
 
 Notice the present tense of your experience and the past tense of God's work. Because the work is done, the reckoning is possible. You do not reckon to make something true; you reckon because it is true.
 
-Here is the contrast: the uninformed believer fights sin as though it still owned him, and loses. The reckoning believer refuses sin as something already disowned, and stands. Same temptation, different accounting.
+Here the two diverge. The uninformed believer fights sin as though it still owned him, and loses. The reckoning believer refuses sin as something already disowned, and stands. Same temptation, different accounting.
 
-## The Word Says the Same Thing From Three Directions
+### Why the Command Is "Reckon" and Not "Feel"
+
+Paul's instruction in Romans 6:11 is grammatically striking. He does not say, "Become dead to sin," or, "Experience deadness to sin." He says, "Reckon ye also yourselves to be dead indeed unto sin, but alive unto God through Jesus Christ our Lord." The verb is an accounting verb, and it presumes a fact already recorded.
+
+This is why the battle is fought at the level of instruction rather than sensation. Feelings report; reckonings rule. A woman who has paid off a mortgage can feel the weight of the years she spent paying it and still know the property is hers. The document is not undone by the memory.
+
+**Revelation Knowledge** — what the Spirit makes real to your understanding — is what makes reckoning possible. You cannot count what you do not know. Which is why Paul prays so persistently for the church's understanding rather than for the church's circumstances.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 6:6–7** — "Knowing this, that our old man is crucified with him... For he that is dead is freed from sin." Paul grounds the reckoning in a completed crucifixion. Reckoning rests on redemption, not imagination.
 - **Colossians 3:3** — "For ye are dead, and your life is hid with Christ in God." Paul states the same accounting in different words: dead to the old order, alive in a hidden union with Christ.

@@ -67,15 +67,15 @@ Timothy is told to lay hold on eternal life — to take hold of what is already 
 
 Think of a soldier holding a position that has already been won. He is not fighting to capture the hill; he is fighting to keep standing on it while the enemy tries to convince him to retreat. Faith fights to stay, not to arrive.
 
-## Fighting Without Fighting People
+### Fighting Without Fighting People
 
 The temptation in a fight is to find an enemy with a face. A spouse, a boss, a critic, a doctor, a rival — someone to blame. Paul redirects the fight entirely: it is fought against doubt, discouragement, distraction, and deception, none of which have a face.
 
 Have you ever noticed how quickly a spiritual struggle turns into an argument with a person? Jude 1:3 speaks of contending earnestly for the faith once delivered to the saints. Contending is a good word — it implies effort, clarity, and persistence, but it does not imply cruelty. You can contend for truth without becoming harsh toward people, and in fact harshness almost always signals that the fight has slipped into the wrong arena.
 
-Here is the contrast: the fighter-with-a-face burns energy on arguments and relationships and loses ground in his own heart. The good fighter keeps his weapons aimed at unbelief and his kindness aimed at people.
+The line between them runs here: The fighter-with-a-face burns energy on arguments and relationships and loses ground in his own heart. The good fighter keeps his weapons aimed at unbelief and his kindness aimed at people.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **1 Timothy 1:18–19** — "That thou by them mightest war a good warfare; Holding faith, and a good conscience; which some having put away concerning faith have made shipwreck." Paul links the fight to holding faith *and* a good conscience — the battle is moral as well as mental.
 - **2 Timothy 4:7** — "I have fought a good fight, I have finished my course, I have kept the faith." At the end of his life Paul names three achievements, and keeping the faith is one of them — a fight he finished.

@@ -65,15 +65,15 @@ That fellowship is **Divine Life** — God's own life (*zoe*), the resurrection 
 
 Think of a seed planted in soil. The seed's life is present from planting, even before the plant is visible above ground. Harvest comes later, but life begins at planting. Eternal life works the same way: planted in your spirit at the New Birth, it grows through fellowship now and flowers fully at the resurrection. You do not wait for life to begin; you wait for life to be revealed in fullness.
 
-## Eternity in Your Spirit Changes Your Today
+### Eternity in Your Spirit Changes Your Today
 
 Ecclesiastes 3:11 says God "hath set the world in their heart" — the Hebrew points to eternity, *ha-olam*, placed within the human heart. You were made with an eternal dimension because you were made for eternal fellowship. When God birthed your spirit, He answered that deepest design: eternity moved in.
 
 Why does this matter on an ordinary Tuesday? Because eternal life reframes time, fear, and purpose. Time is no longer merely passing; it is being lived in fellowship with the eternal God. Fear loses its final word because death cannot cancel a life already indwelt by God's life. Purpose gains weight because every act of love, integrity, and obedience is done in the presence of eternity.
 
-Here is the contrast: destination-only religion lives for heaven later and neglects fellowship now. Eternal-life revelation lives in fellowship now and looks forward to heaven with confidence. One postpones life. The other practises it.
+The line between them runs here: Destination-only religion lives for heaven later and neglects fellowship now. Eternal-life revelation lives in fellowship now and looks forward to heaven with confidence. One postpones life. The other practises it.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 6:23** — "For the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord." Eternal life is called a **gift** — given in Christ, not earned by longevity or morality. Gifts are received now, not merely hoped for later.
 - **1 John 5:11** — "And this is the record, that God hath given to us eternal life; and this life is in his Son." John uses the same present tense: God **hath given** — already given — eternal life, and this life is in His Son, in whom you already are.

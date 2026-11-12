@@ -67,7 +67,7 @@ Notice what James does *not* say. He does not say works save you; Paul settles t
 
 Think of a tree in winter and a tree in summer. Both are trees, but only one shows evidence of life. Faith without works is a winter tree that never comes to spring.
 
-## Doctrine Informs, Trust Moves
+### Doctrine Informs, Trust Moves
 
 Doctrine matters. Wrong doctrine produces wrong living, and James is not anti-teaching. But doctrine is the map, not the journey. A man who studies the map for years and never sets out has not travelled.
 
@@ -77,9 +77,9 @@ James gives concrete examples: a brother or sister lacking daily food, and a bel
 
 James also insists that such faith cannot save a person who claims it, because it has never moved him toward God or neighbour. The point is not that actions earn salvation but that genuine trust inevitably expresses itself. A faith that never forgives, never gives, never serves, and never risks is a faith that has not yet encountered the living God.
 
-Here is the contrast: the doctrinal believer can explain faith accurately; the living believer can show faith visibly. One is prepared for an exam; the other is prepared for life.
+Set them side by side and the gap shows. The doctrinal believer can explain faith accurately; the living believer can show faith visibly. One is prepared for an exam; the other is prepared for life.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Galatians 5:6** — "For in Jesus Christ neither circumcision availeth any thing, nor uncircumcision; but faith which worketh by love." Paul describes faith as active, working through love.
 - **1 Thessalonians 1:3** — "Remembering without ceasing your work of faith, and labour of love, and patience of hope." Paul names "work of faith" as a normal marker of a healthy church.

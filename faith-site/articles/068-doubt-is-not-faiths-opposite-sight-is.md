@@ -65,7 +65,7 @@ Paul does not write "we walk by faith, not by doubt." He sets faith against sigh
 
 Think of walking a familiar path at night with a torch that lights only three steps ahead. You do not refuse to walk because you cannot see the whole road; you take the three steps and the light moves with you. That is faith — not blindness, but trust with limited visibility.
 
-## Doubt Is a Wobble, Not a Verdict
+### Doubt Is a Wobble, Not a Verdict
 
 If doubt were faith's opposite, then every believer who has ever asked a hard question would be an unbeliever. But Scripture treats doubt as a wavering within faith, not its replacement. Jesus dealt gently with Thomas's questions and still called the others blessed who believed without seeing.
 
@@ -73,9 +73,9 @@ Paul's larger argument in 2 Corinthians 5 makes the stakes clear. He speaks of a
 
 James warns that the one who doubts is like a wave tossed by wind — not because doubt disqualifies him, but because it destabilises his receiving. Doubt is a wobble in the walk, and wobbles can be steadied.
 
-Which of the three — sight, faith, or doubt — has been directing your steps this month? Here is the contrast: sight demands proof before movement and calls it wisdom. Faith moves on God's word and calls it obedience. Doubt sits between them, asking whether to move at all.
+Which of the three — sight, faith, or doubt — has been directing your steps this month? Trace the difference to its root: Sight demands proof before movement and calls it wisdom. Faith moves on God's word and calls it obedience. Doubt sits between them, asking whether to move at all.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **John 20:29** — "Jesus saith unto him, Thomas, because thou hast seen me, thou hast believed: blessed are they that have not seen, and yet have believed." Jesus names the sight-faith distinction directly and blesses the second.
 - **Hebrews 11:1** — "Now faith is the substance of things hoped for, the evidence of things not seen." Faith supplies evidence of a different kind — the kind sight cannot produce.

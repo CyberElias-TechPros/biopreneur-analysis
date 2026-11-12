@@ -65,15 +65,23 @@ Peter's language is a transfer, not an improvement. God *called you out* — the
 
 Think of being moved from a dark, windowless room into a sunlit garden. The room did not change; you changed location. You do not return to the room to negotiate your identity; you live in the light that now surrounds you. Peter says God did that for you — decisively, once, in Christ.
 
-## Four Names That Settle Your Identity
+### Four Names That Settle Your Identity
 
 Has any of those four names ever felt too true to be real for you? Peter gives four titles, each answering a different insecurity. **Chosen generation** answers rejection: you were not an accident; you were selected. **Royal priesthood** answers insignificance: you have priestly access to God and represent Him to the world. **Holy nation** answers defilement: you are set apart, claimed, and clean. **Peculiar people** answers anonymity: the word means *purchased, preserved, owned* — you are God's own treasured possession.
 
 And all four serve one purpose: "that ye should shew forth the praises of him." Your identity is not for private comfort; it is for public display. You are light so that God's excellence becomes visible through you.
 
-Here is the contrast: the darkness identity lives to hide, compensate, and survive. The light identity lives to display, serve, and shine. One is always managing a reputation; the other is revealing a Father.
+Set them side by side and the gap shows. The darkness identity lives to hide, compensate, and survive. The light identity lives to display, serve, and shine. One is always managing a reputation; the other is revealing a Father.
 
-## The Word Says the Same Thing From Three Directions
+### What a Transfer Does to Your Past
+
+Peter calls the church "a chosen generation, a royal priesthood, an holy nation, a peculiar people" and then gives the reason for those titles: "that ye should shew forth the praises of him who hath called you out of darkness into his marvellous light" (1 Peter 2:9). The titles are not applause for your character. They are the job description of a transferred people.
+
+Paul makes the same point with an agricultural image in Colossians 1, immediately after our verse: "that ye might walk worthy of the Lord unto all pleasing, being fruitful in every good work" (Colossians 1:10). Notice the order once more — the walk follows the transfer, it does not purchase it.
+
+What does a transfer do to your past? It places it in a different jurisdiction. A man who has been pardoned and moved to a new country does not spend his evenings studying the statutes of the country that no longer governs him. Yet many believers do exactly that, rehearsing an old identity with such devotion that it begins to feel like humility.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Colossians 1:13** — "Who hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son." Paul uses the language of rescue and transfer, both past tense. The move is complete; you now live in the kingdom of His beloved Son.
 - **Ephesians 5:8** — "For ye were sometimes darkness, but now are ye light in the Lord: walk as children of light." Paul names the past honestly — *were* — then commands conduct consistent with the present: *now are*. Identity governs behaviour.

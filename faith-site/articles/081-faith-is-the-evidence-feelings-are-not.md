@@ -67,7 +67,7 @@ Think of a title deed. It does not vibrate with reassurance. It simply states, i
 
 The word behind "substance" in Hebrews 11:1 is the word for a title deed or a legal guarantee — the document that stands under a hope and makes it secure. The word behind "evidence" is the word for a proof offered in court. Put them together and you have something remarkable: faith is described as the paperwork and the proof of a future you have not touched.
 
-## Thomas and the Evidence Question
+### Thomas and the Evidence Question
 
 "Except I shall see in his hands the print of the nails... I will not believe" (John 20:25). Thomas wanted sensory proof, and Jesus graciously gave it. But He added a blessing that reaches all the way to us: "blessed are they that have not seen, and yet have believed" (John 20:29).
 
@@ -77,19 +77,19 @@ Have you been waiting for an inner sensation before you will grant that God has 
 
 This is why two believers can face the same diagnosis and one sleeps while the other cannot. The difference is not that one is braver. It is that one has been persuaded by evidence the other has not yet weighed. Faith grows when the evidence is examined, not when the feelings are shouted down.
 
-## What Feelings Are Actually For
+### What Feelings Are Actually For
 
 Feelings are not enemies. They are indicators — fast, useful, and easily misread. Guilt can signal a real wrong or a false accusation. Peace can accompany truth or mere exhaustion. Joy can rise from the Spirit or from a good meal.
 
-Here is the contrast: feelings describe your interior weather; faith describes the climate God has established. One changes hourly; the other is fixed in heaven.
+The difference is this: Feelings describe your interior weather; faith describes the climate God has established. One changes hourly; the other is fixed in heaven.
 
-## The Witness of the Spirit
+### The Witness of the Spirit
 
 Romans 8:16 says, "The Spirit itself beareth witness with our spirit, that we are the children of God." That is real, and it is not nothing. But notice where the witness is lodged — with our *spirit*, not our moods. A believer can have a settled witness in the spirit and a turbulent surface at the same time.
 
 John makes the same case in legal language: "If we receive the witness of men, the witness of God is greater" (1 John 5:9). God's testimony about His Son is greater evidence than any human testimony — and vastly greater than any emotional state.
 
-## When the Case Has Already Been Settled
+## What This Means for You
 
 2 Corinthians 5:7 is the summary: "we walk by faith, not by sight." Walking implies motion, and motion implies you have decided where you are going before you feel like going.
 

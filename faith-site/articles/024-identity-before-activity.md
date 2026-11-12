@@ -65,15 +65,23 @@ Paul's word is *poiema* — that which is made, a masterpiece, a work of art. Yo
 
 Think of a potter and a vessel. The vessel does not earn its purpose by performing well; its purpose flows from what the potter made it to be. A cup is made for pouring; a bowl is made for holding. The vessel's usefulness is the expression of the potter's design. You are God's vessel, crafted in Christ for works He already prepared — and your usefulness flows from His design, not your striving.
 
-## Why the Order Matters Every Day
+### Why the Order Matters Every Day
 
 Wrong order produces two predictable problems. When activity comes before identity, you work to become someone — and every failure threatens your sense of self. When identity comes before activity, you work because you already are someone — and failure becomes feedback rather than identity collapse.
 
 **Kingdom Stewardship** — managing God-given life, time, gifts, and resources as a trustworthy steward rather than an anxious owner — only makes sense in this order. A steward serves from secure belonging; an owner labours from insecure grasping. You are a steward of a life God crafted, not the author of a life you must justify.
 
-Here is the contrast: the performer asks, "What must I do to be somebody?" The child asks, "What has my Father made me, and how do I walk in it?" One is driven by fear; the other is directed by design.
+The distinction could not be sharper. The performer asks, "What must I do to be somebody?" The child asks, "What has my Father made me, and how do I walk in it?" One is driven by fear; the other is directed by design.
 
-## The Word Says the Same Thing From Three Directions
+### The Two Questions Every Failure Asks
+
+When you fail at something, two different questions rise in you, and which one you hear determines whether you recover. The first is, "What does this prove about me?" The second is, "What does this teach me?" The first question is asked from identity; the second is asked about behaviour. Only one of them can be answered without lying.
+
+Paul models the second in his own account of ministry: "I laboured more abundantly than they all: yet not I, but the grace of God which was with me" (1 Corinthians 15:10). He worked — hard — and refused to let the work become his identity in either direction. He did not take credit for the results, and he did not take shame for the labour. Both were absorbed by the phrase "the grace of God."
+
+That is what a settled identity sounds like under pressure. It can say "I was wrong" without unravelling, because being wrong about a decision is not the same as being wrong as a person.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Titus 2:14** — "Who gave himself for us, that he might redeem us from all iniquity, and purify unto himself a peculiar people, zealous of good works." Christ's giving comes first; zeal for good works follows as fruit of redemption. The order is redemption, purification, then zeal.
 - **John 15:5** — "I am the vine, ye are the branches: He that abideth in me, and I in him, the same bringeth forth much fruit: for without me ye can do nothing." Fruit comes from union, not from effort apart from the vine. Identity in Christ produces activity; activity apart from Him produces nothing.

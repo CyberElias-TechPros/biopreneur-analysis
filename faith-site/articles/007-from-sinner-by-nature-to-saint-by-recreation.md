@@ -67,7 +67,7 @@ Think of two distinct nations separated by a sovereign border, each governed by 
 
 And what does the New Testament call every citizen of this new realm? *Saints* — Greek *hagioi*, meaning "holy ones, set-apart ones belonging exclusively to God." Religion turned "saint" into a bronze statue awarded centuries after death to an elite handful. Scripture places "saint" at the front door of the Christian life as the family name of every born-again child of God.
 
-## Scripture's Consistent Address to the Believer
+### Scripture's Consistent Address to the Believer
 
 - **1 Corinthians 1:2** — Written to "the church of God which is at Corinth, to them that are **sanctified in Christ Jesus, called to be saints**." Note that "to be" is italicized in the KJV because translators supplied it; the Greek reads simply *kletois hagiois* — **saints by calling**! Even while correcting Corinth's messy divisions, Paul appealed to them on the basis of who they already were in Christ, never by stripping away their name.
 - **Ephesians 2:1–5, 19** — Once dead in trespasses and "by nature the children of wrath," God quickened us together with Christ, so that "now therefore ye are no more strangers and foreigners, **but fellowcitizens with the saints, and of the household of God**." Notice the sharp before-and-after: *were* by nature children of wrath; *now* fellowcitizens and household family! This is **Sonship** — your full adoption and family relationship as a born child and heir of God through Christ.

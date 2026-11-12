@@ -67,7 +67,7 @@ Think of the difference between a school report card and the DNA record on a bir
 
 And look at the qualifier Paul adds: you were made the righteousness **of God** *in Him*. Not the fragile righteousness of human willpower, which Isaiah compared to stained rags when offered as payment for salvation, but God's own standard of rightness credited and imparted to everyone united to His Son.
 
-## Three Scriptures That Lock This Truth in Place
+### Three Scriptures That Lock This Truth in Place
 
 - **Romans 5:17** — "Much more they which receive abundance of grace and of **the gift of righteousness** shall reign in life by one, Jesus Christ." Paul explicitly calls righteousness a *gift* to be received, not a wage to be negotiated. And notice its effect: people who know righteousness is a gift do not grow spiritually lazy — they *reign in life* over sin, fear, and accusation.
 - **Philippians 3:9** — Paul prays to "be found in him, **not having mine own righteousness**, which is of the law, but that which is through the faith of Christ, the righteousness which is of God by faith." Nobody had a cleaner religious report card than Saul of Tarsus, yet he traded the entire ledger for the righteousness that comes from God by faith.

@@ -65,15 +65,25 @@ That is why **Communion With the Holy Spirit** — ongoing personal fellowship, 
 
 Think of a soldier whose commanding officer is transferred away, only to be told that the officer's own spirit and skill will remain with him in the person of a permanent aide. The aide is not a lesser officer; he carries the same mission, the same training, the same loyalty. Jesus sent exactly that kind of Helper.
 
-## Abide Forever — The Permanence That Steadies You
+### Abide Forever — The Permanence That Steadies You
 
 Notice the promise: "abide with you for ever." Not for a season, not until you fail, not until the next revival. Forever. **Sonship** — the legal and relational status of being God's child in Christ — is what makes this permanence coherent: a Father does not send a Helper to His children temporarily and then recall Him. Would a perfect Father equip His children for a lifetime and then withdraw the equipment halfway through?
 
 Permanence changes how you face your worst days. If the Comforter came and went with your performance, every failure would leave you alone. Because He abides forever, every failure finds you still accompanied. You do not have to earn His return; you have to recognise His presence.
 
-Here is the contrast: the unaided life carries burdens alone and calls it maturity. The abided life carries burdens with a Helper and calls it fellowship. One is stoic; the other is scriptural.
+Two postures, one choice: The unaided life carries burdens alone and calls it maturity. The abided life carries burdens with a Helper and calls it fellowship. One is stoic; the other is scriptural.
 
-## The Word Says the Same Thing From Three Directions
+### The Ministry That Requires a Wounded Man
+
+Paul's opening to 2 Corinthians is not a doctrine delivered from a distance: "Blessed be God, even the Father of our Lord Jesus Christ, the Father of mercies, and the God of all comfort; Who comforteth us in all our tribulation, that we may be able to comfort them which are in any trouble" (2 Corinthians 1:3–4).
+
+Trace the chain. Comfort is received, then transmitted. The Greek word behind "comfort" is *paraklesis* — the noun form of the same root as *Parakletos*, the title Jesus gives the Spirit in John 14:16. The Comforter does not merely console; He supplies the very comfort He is named for.
+
+That means your trials are not wasted material. They are the raw supply of a ministry you could not otherwise perform. A man who has never been comforted cannot comfort; he can only advise.
+
+**The Supernatural Life** — life lived in conscious dependence on the Spirit — is not a life without tribulation. It is a life in which tribulation is recycled into comfort for someone else.
+
+### The Word Says the Same Thing From Three Directions
 
 - **John 14:18** — "I will not leave you comfortless: I will come to you." Jesus equates the Spirit's coming with His own coming to them. The Comforter is not a distant deputy; He is Christ's own presence with you.
 - **Acts 9:31** — "Then had the churches rest... and were edified; and walking in the fear of the Lord, and in the comfort of the Holy Ghost, were multiplied." The early church grew in the comfort of the Spirit — comfort as an atmosphere for advancement, not a retreat from it.

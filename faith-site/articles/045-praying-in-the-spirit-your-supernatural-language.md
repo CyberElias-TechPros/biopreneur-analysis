@@ -69,15 +69,23 @@ Paul himself says, "I thank my God, I speak with tongues more than ye all" (1 Co
 
 Think of a private line to headquarters that does not need translation. In public you speak the local language for everyone's benefit; in private you use the direct line for clarity and strength. Paul keeps both in balance.
 
-## Building Yourself Up
+### Building Yourself Up
 
 First Corinthians 14:4 says, "He that speaketh in an unknown tongue edifieth himself." Edification means building — strengthening, constructing, fortifying. Prayer in the spirit builds you up spiritually the way exercise builds the body: unspectacularly, cumulatively, and genuinely.
 
 Jude gives the practical instruction: "But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost" (Jude 1:20). And Ephesians 6:18 calls believers to pray "always with all prayer and supplication in the Spirit." Prayer in the spirit is not an exotic extra; it is part of the armour.
 
-Have you ever noticed how often your prayers repeat the same few phrases? Here is the contrast: prayer limited only to what you already understand stays within your current insight. Prayer in the spirit reaches beyond it, allowing the Spirit to pray through you about matters your mind has not yet grasped.
+Have you ever noticed how often your prayers repeat the same few phrases? Note where the two part company: Prayer limited only to what you already understand stays within your current insight. Prayer in the spirit reaches beyond it, allowing the Spirit to pray through you about matters your mind has not yet grasped.
 
-## The Word Says the Same Thing From Three Directions
+### Praying Beyond Your Own Understanding
+
+Paul makes a claim in 1 Corinthians 14 that is easy to read past: "For if I pray in an unknown tongue, my spirit prayeth, but my understanding is unfruitful" (1 Corinthians 14:14). Then, rather than withdrawing the practice, he resolves to keep both: "I will pray with the spirit, and I will pray with the understanding also" (1 Corinthians 14:15).
+
+That is a remarkable arrangement. Prayer is not limited to what the mind has already processed. The spirit prays beyond the understanding's capacity — which is precisely what Romans 8:26 describes: "we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered."
+
+**The Life of the Spirit** — the Spirit's own life ordering your prayer — means your praying can be larger than your insight. And Jude makes it a matter of preservation: "But ye, beloved, building up yourselves on your most holy faith, praying in the Holy Ghost" (Jude 1:20).
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 8:26** — "The Spirit also helpeth our infirmities: for we know not what we should pray for as we ought: but the Spirit itself maketh intercession for us with groanings which cannot be uttered." The Spirit prays when you cannot frame the request.
 - **1 Corinthians 14:15** — "I will pray with the spirit, and I will pray with the understanding also." Paul keeps both together: spiritual prayer and intelligent prayer belong in one life.

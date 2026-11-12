@@ -67,7 +67,7 @@ Consider two animals standing in the same farmyard after a heavy rain: a pig and
 
 In the same way, **the New Birth** — the inward regeneration accomplished by the Holy Spirit when you trusted Christ — gave your human spirit a new Parent and therefore a new appetite. God imparted **Divine Life** (*zoe*, His own eternal, uncreated life) into your inward man. That is why a genuinely born-again believer can never again feel permanently at home in sin. Even when an unrenewed habit trips you up, something deep inside you protests, grieves, and reaches for cleansing. That inner protest is not proof that you are fake; it is evidence that your nature has changed!
 
-## Scripture Witnesses to One Miracle of Origin
+### Scripture Witnesses to One Miracle of Origin
 
 Watch how the rest of the New Testament explains this same miracle of origin from three distinct angles:
 

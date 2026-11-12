@@ -67,15 +67,25 @@ James calls the mirror "the perfect law of liberty." That phrase is remarkable: 
 
 Think of a young man told all his life that he resembles someone he does not. One day, with the family album open, he sees a portrait and understands for the first time whose features he carries. Nothing about his face changed — but his identity changed, and so did the way he stood. Scripture does that for your spirit.
 
-## The Danger of Forgetting
+### The Danger of Forgetting
 
 James' concern is not ignorance but forgetting. The man looks and then goes away, and memory fades. How can you forget what you have seen? James implies it is easy: distraction, discouragement, and the press of daily life pull attention away from the reflection and back toward circumstance.
 
 **Abiding in the Word** is his prescription: "But whoso looketh into the perfect law of liberty, and continueth therein, he being not a forgetful hearer, but a doer of the work, this man shall be blessed in his deed" (James 1:25). Continued looking, not casual glancing. Blessing comes with continuing.
 
-Here is the contrast: the forgetful hearer treats the Word as information to be admired. The continual doer treats it as identity to be lived. One leaves the reflection; the other lives from it.
+Consider what each one actually is. The forgetful hearer treats the Word as information to be admired. The continual doer treats it as identity to be lived. One leaves the reflection; the other lives from it.
 
-## The Word Says the Same Thing From Three Directions
+### The Mirror Requires a Face
+
+James 1:23 describes the hearer "not being a forgetful hearer, but a doer of the work" — and his image of a man who looks in a mirror and immediately forgets his own face is almost comic. How do you forget your own face? Only by not being interested in it.
+
+That is the danger of Bible reading that produces information but no reflection. A student can memorise a facial anatomy chart and never once look into the glass at himself. The Word is meant to be personal before it is doctrinal, though it is never less than doctrinal.
+
+**Meditation in the Word** — the slow, repeated turning of a passage over in the mind until it shapes consciousness — is how the mirror becomes useful. Not speed, but exposure. Not volume, but attention.
+
+Samuel gives us the model: "Speak, LORD; for thy servant heareth" (1 Samuel 3:9). Note the posture: standing before a mirror, expecting a face to be shown, ready to be sent.
+
+### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 3:18** — "But we all, with open face beholding as in a glass the glory of the Lord, are changed into the same image from glory to glory." Beholding produces transformation. The mirror does not merely inform you; it renews you as you look.
 - **Romans 12:2** — "Be not conformed to this world: but be ye transformed by the renewing of your mind." The world offers its own mirror — image, status, comparison. God's mirror renews; the world's mirror distorts.

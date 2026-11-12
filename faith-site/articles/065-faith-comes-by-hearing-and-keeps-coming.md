@@ -67,7 +67,7 @@ Notice the preposition: hearing *by* the word of God. The word is the channel th
 
 Think of a battery and a charger. You do not argue a battery into charge; you connect it to the source and let the process happen. Faith works that way — connection produces charge, and neglect produces drain.
 
-## Hearing Is a Habit
+### Hearing Is a Habit
 
 If faith comes by hearing, then the question of your life becomes: what are you hearing, and how often? Joshua 1:8 ties success to meditation on the Word day and night. Psalm 1 describes the blessed man whose delight is in the law of the Lord, meditating day and night.
 
@@ -77,9 +77,9 @@ Hebrews 4:2 adds a warning: the word preached did not profit some because it was
 
 It also matters how you hear. Jesus repeatedly said, "He that hath ears to hear, let him hear" — a phrase that assumes hearing can be either active or passive. Active hearing asks questions, takes notes, and looks for application. Passive hearing lets words pass through without landing.
 
-Here is the contrast: the starved believer hears the Word occasionally and wonders why faith feels thin, while the fed believer keeps hearing until faith becomes the natural atmosphere of the heart.
+Note where the two part company: The starved believer hears the Word occasionally and wonders why faith feels thin, while the fed believer keeps hearing until faith becomes the natural atmosphere of the heart.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 10:14** — "How then shall they call on him in whom they have not believed? and how shall they believe in him of whom they have not heard?" Paul's logic ties belief to hearing and hearing to preaching — the whole chain matters.
 - **Joshua 1:8** — "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night... for then thou shalt make thy way prosperous." Meditation is sustained hearing.

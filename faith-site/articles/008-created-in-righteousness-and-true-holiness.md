@@ -67,7 +67,7 @@ Picture a craftsman redeemed out of debt and adopted into a royal household. Cle
 
 Between "put off the old man" (verse 22) and "put on the new man" (verse 24), Paul places the hinge of the entire passage in verse 23: "And **be renewed in the spirit of your mind**." **Renewing of the Mind** — replacing old, deceit-trained patterns of thought with Scripture's truth — is the daily dressing room where inward creation becomes outward character.
 
-## How the Rest of Scripture Unpacks This Wardrobe
+### How the Rest of Scripture Unpacks This Wardrobe
 
 - **Ephesians 4:25–32** — Immediately after saying "put on the new man," Paul shows what that wardrobe looks like on Tuesday afternoon: putting away lying to speak truth, refusing to let anger harden overnight, working diligently with your hands so you have something to give to those in need, speaking words that minister grace, and forgiving one another "even as God for Christ's sake hath forgiven you." True holiness is wonderfully down-to-earth!
 - **Colossians 3:9–10, 12** — Seeing you have put off the old man with his deeds and "have put on the new man, which is renewed in knowledge **after the image of him that created him**… Put on therefore, as the elect of God, holy and beloved, bowels of mercies, kindness, humbleness of mind, meekness, longsuffering." Every virtue you wear in relationships flows from the image of the Creator stamped on your reborn spirit.

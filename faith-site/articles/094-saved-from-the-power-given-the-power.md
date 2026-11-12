@@ -65,7 +65,7 @@ The Greek word carries the sense of rescuing from danger, of snatching someone o
 
 Think of a prisoner exchange. The man does not become free by degrees; the moment he crosses the line he is in another jurisdiction.
 
-## The Word Behind "Translated"
+### The Word Behind "Translated"
 
 This is the stronger image. The word describes a transfer of a whole population from one realm to another — a relocation of citizenship and allegiance. It is used of transplanting a people.
 
@@ -75,15 +75,15 @@ Have you ever thought of yourself as still living in the territory you were resc
 
 Paul's prayer in the preceding verses tells us what he wants the Colossians to grasp: that they would be "giving thanks unto the Father, which hath made us meet to be partakers of the inheritance of the saints in light" (Colossians 1:12). Thanksgiving and authority belong together. A believer who has not thanked God for the transfer will still be trying to earn it.
 
-## Two Errors to Avoid
+### Two Errors to Avoid
 
 **Error one: still a captive.** Some believers live as though nothing happened at conversion — forgiven in principle, enslaved in practice. That contradicts the past tense.
 
 **Error two: still at war for freedom.** Others fight for a victory that was already won, as if their struggle were the cause rather than the consequence. That contradicts the word "delivered."
 
-Here is the contrast: the captive asks for rescue again; the citizen takes up the responsibilities of the new country.
+The distinction could not be sharper. The captive asks for rescue again; the citizen takes up the responsibilities of the new country.
 
-## Why This Produces Boldness
+### Why This Produces Boldness
 
 Ephesians 2 makes the same move: "But God, who is rich in mercy... hath quickened us together with Christ... and hath raised us up together, and made us sit together in heavenly places in Christ Jesus" (Ephesians 2:4–6).
 
@@ -91,7 +91,7 @@ Sitting is not a posture of warfare; it is a posture of authority. A king sits t
 
 Luke 10 gives the practical outworking. The seventy returned rejoicing that the demons were subject to them, and Jesus did not rebuke their joy — but He redirected it: "rejoice not, that the spirits are subject unto you; but rather rejoice, because your names are written in heaven" (Luke 10:20). The authority is real; the citizenship is better.
 
-## What Changed at the Border
+### What Changed at the Border
 
 - **Ownership changed.** You are not the property of the old regime.
 - **Jurisdiction changed.** The law of sin no longer has a claim on you.
@@ -100,7 +100,7 @@ Luke 10 gives the practical outworking. The seventy returned rejoicing that the 
 
 Peter states it as an identity: "a chosen generation, a royal priesthood, an holy nation, a peculiar people" (1 Peter 2:9). Every phrase is a citizenship term.
 
-## Living Out the Transfer
+## What This Means for You
 
 **1. Stop renegotiating a completed transfer.** Repentance for a past failure, yes — but not re-imprisonment.
 **2. Learn the laws of the new country.** Read the Sermon on the Mount and the epistles as the constitution of where you live.

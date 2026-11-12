@@ -67,15 +67,25 @@ Have you ever felt that your prayers were too confused to be worth praying? Noti
 
 Think of a climbing partner who takes the rope when your hands are too tired to hold it. He does not scold you for fatigue; he secures you and carries the weight until you can grip again. The Spirit is that partner, always.
 
-## Weakness Is Not Disqualification
+### Weakness Is Not Disqualification
 
 Paul had already learned this personally. In 2 Corinthians 12:9, God told him, "My grace is sufficient for thee: for my strength is made perfect in weakness." Paul then chose to glory in infirmities, because Christ's power rests on the weak.
 
 That reframes how you bring your limitations to God. Your confusion, fatigue, grief, and inability are not reasons to stay away; they are the very places where the Spirit's intercession begins. Hebrews 4:15–16 adds that your High Priest sympathises with your weaknesses and invites you to come boldly to the throne of grace for help in time of need.
 
-Here is the contrast: the self-sufficient believer prays only when composed and articulate, and prays rarely. The honest believer prays in weakness and finds help available. One prays from strength; the other receives strength while praying.
+Set them side by side and the gap shows. The self-sufficient believer prays only when composed and articulate, and prays rarely. The honest believer prays in weakness and finds help available. One prays from strength; the other receives strength while praying.
 
-## The Word Says the Same Thing From Three Directions
+### Weakness Is Not Disqualification
+
+The instinct when we feel weak is to stay away from prayer until we are composed enough to be worth listening to. Paul dismantles that instinct from the other direction: "And he said unto me, My grace is sufficient for thee: for my strength is made perfect in weakness" (2 Corinthians 12:9).
+
+Notice the preposition. Strength is not merely given *despite* weakness; it is perfected *in* it. The weakness is the location, not the obstacle.
+
+Hebrews adds a detail that should end the argument: "For we have not an high priest which cannot be touched with the feeling of our infirmities; but was in all points tempted like as we are, yet without sin" (Hebrews 4:15). The One you are praying to has already been where you are. He is not embarrassed by your condition.
+
+Psalm 73:26 puts it in one line: "My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever." The failing is stated and the portion is stated, in the same verse.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 8:27** — "And he that searcheth the hearts knoweth what is the mind of the Spirit, because he maketh intercession for the saints according to the will of God." The Spirit's prayer is always aligned with God's will — which means His help is never misdirected.
 - **Psalm 73:26** — "My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever." The psalmist names failing and finds strength in the same breath.

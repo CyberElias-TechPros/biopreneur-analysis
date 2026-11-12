@@ -65,15 +65,15 @@ Incorruptible seed is the opposite: *aphthartos* — incapable of decay. **The W
 
 Think of the difference between a handwritten note and a printed banknote. A handwritten note can fade, tear, or be lost. A printed banknote carries the authority of the issuing government in every copy. Your new birth was not a handwritten note of human intention. It was issued by the living Word of God, and it carries His authority in you.
 
-## The Word That Births You Also Sustains You
+### The Word That Births You Also Sustains You
 
 Notice Peter's description: the Word "liveth and abideth for ever." It is not merely ancient; it is alive. It does not merely survive; it abides — it remains, endures, and continues to operate. Isaiah 40:8 declares the same permanence: "The word of our God shall stand for ever." The Word that gave you birth is the same Word that sustains your walk.
 
 That is why Scripture commands you to feed on the Word daily. You are not feeding on it to earn your birth; you are feeding on it because birth has already happened and life must be nourished. James 1:18 confirms the pattern: "Of his own will begat he us with the word of truth." God birthed you by truth, and truth continues to shape you as you receive it.
 
-Here is the contrast: corruptible religion births believers by human effort and sustains them by human effort — and wonders why they spoil. Incorruptible revelation births believers by God's Word and sustains them by God's Word — and they abide. Same human beings. Entirely different seed.
+The distinction could not be sharper. Corruptible religion births believers by human effort and sustains them by human effort — and wonders why they spoil. Incorruptible revelation births believers by God's Word and sustains them by God's Word — and they abide. Same human beings. Entirely different seed.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **John 1:13** — Jesus' own birth is described as "not of blood, nor of the will of the flesh, nor of the will of man, but of God." The principle extends to every believer: spiritual birth is God's work through His Word, not man's work through his will.
 - **James 1:18** — "Of his own will begat he us with the word of truth, that we should be a kind of firstfruits of his creatures." The Word of truth is the instrument of your begetting. Truth birthed you; truth will mature you.

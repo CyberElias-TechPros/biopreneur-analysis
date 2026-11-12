@@ -65,15 +65,15 @@ This sealing is part of **the New Birth** — the spiritual regeneration wrought
 
 Think of a seal on an official document. The seal does not merely decorate the paper; it authenticates it, secures it, and declares whose authority stands behind it. Your sealing does the same for your person. It authenticates you as God's child, secures you against accusation, and declares that heaven's authority stands behind your new life. You are not an unsigned draft of a Christian. You are a sealed document of the Holy Spirit.
 
-## A Transfer, Not Just a Forgiveness
+### A Transfer, Not Just a Forgiveness
 
 Forgiveness was essential, but it was not all that happened. Have you ever felt forgiven yet still unsure of your new standing in Christ? Colossians 1:13 describes a transfer: God "hath delivered us from the power of darkness, and hath translated us into the kingdom of his dear Son." Translated — moved from one dominion to another. You did not merely receive a pardon while remaining under the old regime. You changed kingdoms.
 
 That transfer is one of those **Spiritual Realities** — unseen covenantal facts established by God's Word that endure longer than temporary circumstances. Your feelings may still remember the old kingdom's habits, but your legal address changed. The old dominion lost its claim. The new King gained your allegiance. And the Holy Spirit sealed the transfer so that no accusation can reopen what God has closed.
 
-Here is the contrast: religion forgives your record and sends you back to try harder under the same dominion. The gospel forgives your record, transfers your person into Christ, and seals you with His Spirit to live from the new dominion. One produces anxious effort. The other produces confident obedience.
+Note where the two part company: Religion forgives your record and sends you back to try harder under the same dominion. The gospel forgives your record, transfers your person into Christ, and seals you with His Spirit to live from the new dominion. One produces anxious effort. The other produces confident obedience.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 8:9** — "But ye are not in the flesh, but in the Spirit, if so be that the Spirit of God dwell in you. Now if any man have not the Spirit of Christ, he is none of his." Indwelling is the mark of belonging. The sealed believer carries the Spirit's presence as proof of Christ's ownership.
 - **2 Corinthians 1:22** — "Who hath also sealed us, and given the earnest of the Spirit in our hearts." The seal and the earnest — the down payment of the inheritance — came together. You were sealed not only for security but for supply: the Spirit in your heart is heaven's first instalment of glory.

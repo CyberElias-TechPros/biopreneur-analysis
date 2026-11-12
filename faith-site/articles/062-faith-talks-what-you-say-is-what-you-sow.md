@@ -65,7 +65,7 @@ Jesus gives a sequence: you say, you believe, you have. The saying and the belie
 
 Think of a farmer sowing seed. He does not sow rocks and expect wheat. Every word you speak is a seed that grows something, and the harvest always matches the seed.
 
-## Words That Build and Words That Break
+### Words That Build and Words That Break
 
 Proverbs 18:21 says, "Death and life are in the power of the tongue: and they that love it shall eat the fruit thereof." James devotes an entire chapter to the tongue's disproportionate power, comparing it to a rudder that steers a ship and a spark that ignites a forest.
 
@@ -73,9 +73,9 @@ Jesus' own example is instructive. He stood before a fig tree and spoke to it, a
 
 This is not a call to denial. Faith does not pretend the mountain is not there; it speaks to the mountain. Jesus said "say unto this mountain," not "pretend there is no mountain." Faith names the obstacle honestly and then addresses it with God's authority.
 
-Have you ever counted how many times you described a problem before you prayed about it? Here is the contrast: the fearful believer describes the problem in detail and calls it realism. The believing believer states the problem briefly and then speaks God's word over it.
+Have you ever counted how many times you described a problem before you prayed about it? Watch what separates the two: The fearful believer describes the problem in detail and calls it realism. The believing believer states the problem briefly and then speaks God's word over it.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 10:10** — "For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation." Belief and confession cooperate in salvation itself — the pattern continues into daily faith.
 - **2 Corinthians 4:13** — "We having the same spirit of faith, according as it is written, I believed, and therefore have I spoken; we also believe, and therefore speak." Paul names the mechanism: belief produces speech.

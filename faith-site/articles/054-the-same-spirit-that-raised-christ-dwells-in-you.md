@@ -67,15 +67,25 @@ Have you ever wondered why the New Testament speaks of the resurrection so often
 
 Think of a house wired to the same power station that lights a whole city. The house does not generate its own electricity; it draws from the grid. Your mortal body is wired to the resurrection grid, and the Spirit is the connection.
 
-## Power for Living, Not Only for Raising
+### Power for Living, Not Only for Raising
 
 Paul immediately applies this to sanctification: "Therefore, brethren, we are debtors, not to the flesh, to live after the flesh. For if ye live after the flesh, ye shall die: but if ye through the Spirit do mortify the deeds of the body, ye shall live" (Romans 8:12–13).
 
 Resurrection power is given so that you can put sin to death. The same energy that raised Christ is available to break habits, heal wounds, and strengthen weakness. Paul's prayer in Ephesians 1:19–20 asks that believers would know "the exceeding greatness of his power to us-ward who believe, according to the working of his mighty power, which he wrought in Christ, when he raised him from the dead."
 
-Here is the contrast: the believer who does not know this power fights sin in his own strength and loses. The believer who knows it fights from resurrection resources and prevails.
+The distinction could not be sharper. The believer who does not know this power fights sin in his own strength and loses. The believer who knows it fights from resurrection resources and prevails.
 
-## The Word Says the Same Thing From Three Directions
+### Resurrection Power Has a Present Address
+
+The verse is often read as a promise about the future, and it is that: "But if the Spirit of him that raised up Jesus from the dead dwell in you, he that raised up Christ from the dead shall also quicken your mortal bodies by his Spirit that dwelleth in you" (Romans 8:11).
+
+But the word "dwell" is doing present work. The Spirit who accomplished the greatest act of power in history is not waiting at the end of your life; He is resident in it now. The resurrection engine is already installed.
+
+Paul prays for the Ephesians to know this specifically: "the exceeding greatness of his power to us-ward who believe, according to the working of his mighty power, which he wrought in Christ, when he raised him from the dead" (Ephesians 1:19–20). The measure of the power available to you is the measure that emptied a tomb.
+
+Ezekiel's valley gives the picture: "Thus saith the Lord GOD unto these bones; Behold, I will cause breath to enter into you, and ye shall live" (Ezekiel 37:5). Dry bones, a prophet's word, and a living army — the same sequence Paul assumes when he tells believers to walk "after the Spirit" rather than after the flesh.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Ephesians 1:19–20** — "The exceeding greatness of his power to us-ward who believe... which he wrought in Christ, when he raised him from the dead." Paul measures available power by the resurrection itself.
 - **Philippians 3:10** — "That I may know him, and the power of his resurrection, and the fellowship of his sufferings." Paul longs to know resurrection power experientially, not merely doctrinally.

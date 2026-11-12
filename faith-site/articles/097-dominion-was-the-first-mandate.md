@@ -57,7 +57,7 @@ Before the ten commandments, before the tabernacle, before Abraham was called ou
 
 "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea" (Genesis 1:26). Here is the central truth of this teaching: **dominion is not a reward for spiritual maturity but a feature of the image — humanity was made to rule, and redemption restores what creation was designed for.**
 
-## A Mandate Before a Fall
+### A Mandate Before a Fall
 
 It is easy to read the Bible as a story of humanity losing ground, with a rescue appended at the end. But Genesis begins with a commission, not a warning. The very first thing God says about the creature He is about to make is that it will rule.
 
@@ -67,7 +67,7 @@ Think of a steward given a great house before he has done a single day's work. T
 
 Notice the plural: "let them have dominion." The mandate is given to a pair, and therefore to a community. Ruling was never designed to be a solo project, which is one reason the New Testament locates so much authority in the gathered church rather than in the individual hero.
 
-## What Dominion Is Not
+### What Dominion Is Not
 
 It is not the right to exploit. The mandate in Genesis 1 is followed immediately by a diet of plants and fruit (Genesis 1:29) — a picture of provision, not predation. Humanity was to rule as God rules: by care, order, and generosity.
 
@@ -85,13 +85,13 @@ Have you ever considered that passivity in the face of circumstances might be mo
 
 Genesis 9 repeats the commission after the flood to Noah: "Be fruitful, and multiply, and replenish the earth" (Genesis 9:1). Even after judgement, the office stands. God does not withdraw the assignment because the officeholder failed; He works toward restoration.
 
-## Hebrews 2 and the Missing Crown
+### Hebrews 2 and the Missing Crown
 
 Hebrews quotes Psalm 8 and then says something startling: "But now we see not yet all things put under him. But we see Jesus... crowned with glory and honour" (Hebrews 2:8–9).
 
 The psalm's promise looks unfulfilled until you look at Christ. In Him, the crown is worn, and those who are in Him are joined to His reign. That is why Paul can say believers are "raised up together, and made to sit together in heavenly places in Christ Jesus" (Ephesians 2:6).
 
-## Recovering the Mandate
+### Recovering the Mandate
 
 - **Take responsibility before you take authority.** Dominion begins with ownership of what is actually yours to manage.
 - **Rule your inner world first.** "He that is slow to anger is better than the mighty" (Proverbs 16:32).
@@ -99,11 +99,19 @@ The psalm's promise looks unfulfilled until you look at Christ. In Him, the crow
 - **Refuse passivity as a spiritual virtue.** Waiting on God is not the same as doing nothing.
 - **Faith and wisdom govern with skill.** Dominion is exercised through competence, planning, and diligence — wisdom is how authority becomes useful instead of merely loud.
 
-## Two Directions of Error
+### Two Directions of Error
 
-Here is the contrast: the abdicating believer blames circumstances and calls it humility; the domineering believer seizes what was never given and calls it faith. One is passive where it should act; the other acts where it should submit.
+The line between them runs here: The abdicating believer blames circumstances and calls it humility; the domineering believer seizes what was never given and calls it faith. One is passive where it should act; the other acts where it should submit.
 
-**Putting It to Work This Week**
+## What This Means for You
+
+- **Take responsibility before you take authority.** Dominion begins with ownership of what is actually yours to manage.
+- **Rule your inner world first.** "He that is slow to anger is better than the mighty" (Proverbs 16:32).
+- **Govern your sphere, not someone else's.** The earth was given; the neighbour's field was not.
+- **Refuse passivity as a spiritual virtue.** Waiting on God is not the same as doing nothing.
+- **Exercise dominion with skill.** Faith and wisdom govern together: competence, planning, and diligence are how authority becomes useful instead of merely loud.
+
+## Putting It to Work This Week
 
 - **Read Genesis 1:26–31** and write down what was actually given.
 - **Name one area of your life where you have been passive.**

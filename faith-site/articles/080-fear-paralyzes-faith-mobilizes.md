@@ -65,7 +65,7 @@ Fear is not loud. Fear's signature is stillness. It narrows attention, contracts
 
 Think of a car with the handbrake on. The engine may be running, the route may be clear, and the driver may be ready. Nothing moves, and the problem is not power.
 
-## Power, Love, and a Sound Mind
+### Power, Love, and a Sound Mind
 
 Paul names three replacements, and each one addresses a different face of fear.
 
@@ -79,7 +79,7 @@ Paul's charge to Timothy immediately after our verse is instructive: "Be not tho
 
 He then tells Timothy to "stir up the gift of God" that was in him (2 Timothy 1:6). Notice the logic: the remedy for fear is not merely a feeling of courage; it is an action taken on what God has already placed in your hands.
 
-## Joshua's Commission
+### Joshua's Commission
 
 "Be strong and of a good courage... only be thou strong and very courageous" (Joshua 1:6–7). God said some version of "be strong" four times in one conversation, to a man who had already been in the wilderness for forty years.
 
@@ -89,11 +89,11 @@ Have you been waiting to feel ready? What if readiness in Scripture is a by-prod
 
 There is a reason Scripture so often joins courage to faith. Courage without faith is bravado; faith without courage is theory. The two together are what the Bible calls believing with your feet.
 
-## Peter's Step and Peter's Sink
+## What This Means for You
 
 Matthew 14 gives the clearest picture. Peter asked to come, and he walked on water — while the wind was still blowing. Then he looked at it and began to sink, and Jesus caught him with the gentlest rebuke in the Gospels: "O thou of little faith, wherefore didst thou doubt?" (Matthew 14:31).
 
-Here is the contrast: fear keeps a man safely in the boat and calls it wisdom; faith gets him out and lets him learn. Both are remembered in the same story — but only one is a testimony.
+Consider what each one actually is. Fear keeps a man safely in the boat and calls it wisdom; faith gets him out and lets him learn. Both are remembered in the same story — but only one is a testimony.
 
 **1. Name the paralysis.** Find the thing you have been circling for months without deciding.
 **2. Take the smallest step available today.** Movement breaks the spell that analysis sustains.

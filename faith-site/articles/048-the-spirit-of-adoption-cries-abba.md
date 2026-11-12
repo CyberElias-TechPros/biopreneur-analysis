@@ -67,15 +67,25 @@ Notice what the Spirit does in your heart: He *cries* Abba. The word *Abba* is t
 
 Think of a child running into a house and calling for a father without a receptionist, an appointment, or a formal greeting. The child's access is not earned; it is familial. The Spirit puts that same access in your spirit.
 
-## From Servant to Son
+### From Servant to Son
 
 Paul's larger argument in Galatians 4 is striking. He describes an heir who is, for a time, no different from a servant — under tutors and governors until the appointed time. Then God sent His Son, born of a woman, born under the law, to redeem those under the law so that we might receive the adoption of sons.
 
 The shift is from status under supervision to status in the family. A servant obeys to keep his place; a son obeys because his place is secure. That is why the Spirit's cry matters so much: it reorders your entire approach to God.
 
-Here is the contrast: the servant prays to earn attention and then wonders whether he was heard. The son prays because attention is already given, and then listens for the Father's heart.
+Trace the difference to its root: The servant prays to earn attention and then wonders whether he was heard. The son prays because attention is already given, and then listens for the Father's heart.
 
-## The Word Says the Same Thing From Three Directions
+### The Word a Slave Could Not Say
+
+"Abba" is Aramaic, and it is the word a child used for a father — not a formal title but an intimate address. That Paul preserves the Aramaic in letters written in Greek tells us it was the church's own remembered word, carried over from the upper room and the garden.
+
+Mark preserves it in Gethsemane: "And he said, Abba, Father, all things are possible unto thee" (Mark 14:36). Jesus prayed it in the hour of His greatest anguish. The cry of adoption is not a fair-weather phrase.
+
+Paul's argument in Galatians completes it: "And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father" (Galatians 4:6). The Spirit does not teach you to perform the word. He cries it in you.
+
+That is why assurance is not built on the quality of your emotions but on the presence of the One who prays in you. **Sonship** — the standing of one who belongs to God as Father — is what makes the word true. **The Spirit of Adoption** is what makes it audible.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 8:15** — "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father." Paul sets bondage and adoption side by side, and fear is the dividing line.
 - **Mark 14:36** — "And he said, Abba, Father, all things are possible unto thee; take away this cup from me." Jesus prayed with intimate address in His hardest hour — proof that intimacy and honesty belong together.

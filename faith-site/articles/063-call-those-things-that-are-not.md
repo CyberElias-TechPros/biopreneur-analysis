@@ -67,7 +67,7 @@ The order matters. Faith does not invent a desired outcome and then call it into
 
 Think of a builder working from an architect's blueprint. He does not design the building by announcing it; he reads the plan and builds to match. Faith's declarations are the builder reading the plan aloud — not the builder writing it.
 
-## Calling Versus Pretending
+### Calling Versus Pretending
 
 The distinction between calling and pretending is honesty. Pretending says the problem does not exist. Calling says the problem exists but God's word about it is final. Abraham did not pretend he was young; Romans 4:19 says he considered his own body now dead and Sarah's womb dead — then he staggered not at the promise through unbelief.
 
@@ -75,9 +75,9 @@ Paul's phrase about Abraham is worth lingering over: he "considered not his own 
 
 So faith looks honestly at the facts and then deliberately chooses the promise. It does not lie about the diagnosis; it speaks the truth of God's word over it. That is why the same mouth can say, "This is hard," and also, "But God has said."
 
-Which of the two have you been practising — honest calling or quiet pretending? Here is the contrast: the pretender denies reality and loses credibility, while the caller acknowledges reality and stands on revelation.
+Which of the two have you been practising — honest calling or quiet pretending? Two postures, one choice: The pretender denies reality and loses credibility, while the caller acknowledges reality and stands on revelation.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Isaiah 46:10** — "Declaring the end from the beginning, and from ancient times the things that are not yet done, saying, My counsel shall stand." God's declarations precede and determine events.
 - **Ezekiel 37:4–5** — "Prophesy upon these bones... Behold, I will cause breath to enter into you, and ye shall live." Ezekiel was told to speak to what could not respond, and life came.

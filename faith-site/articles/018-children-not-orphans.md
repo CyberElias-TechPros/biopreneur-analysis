@@ -65,15 +65,15 @@ Adoption in the ancient world was a legal act that gave a child full rights in a
 
 Think of two children in the same house. One is a guest child, careful not to touch anything, afraid to ask for anything, sleeping lightly in case he is sent home. The other is a family child, running to the kitchen, asking boldly, sleeping soundly because the house is his home. Same roof. Entirely different spirits. Romans 8:15 says you are the second child.
 
-## Abba, Father — The Cry of a Child
+### Abba, Father — The Cry of a Child
 
 Paul preserves the Aramaic word *Abba* — the intimate cry of a young child to his father, closer than a formal title. Jesus Himself cried "Abba" in Gethsemane (Mark 14:36). The Holy Spirit now teaches you to cry the same word. Adoption is not cold legalism; it is warm intimacy. The Spirit of adoption does not make you shout at God from fear; He makes you cry to God from love.
 
 This is **Communion With the Holy Spirit** — ongoing personal fellowship, partnership, sensitivity, and conversation with the Holy Spirit throughout ordinary work and prayer. Communion is the daily conversation of a child with a Father who is near, not the anxious knocking of an orphan at a closed door. You do not pray to be adopted; you pray because you are adopted.
 
-Here is the contrast: orphan religion serves from fear of rejection; sonship serves from joy of acceptance. Orphan religion hides failure; sonship confesses failure to a welcoming Father. Orphan religion measures God's love by performance; sonship rests in a love secured by Christ.
+Trace the difference to its root: Orphan religion serves from fear of rejection; sonship serves from joy of acceptance. Orphan religion hides failure; sonship confesses failure to a welcoming Father. Orphan religion measures God's love by performance; sonship rests in a love secured by Christ.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Galatians 4:6** — "And because ye are sons, God hath sent forth the Spirit of his Son into your hearts, crying, Abba, Father." Paul joins sonship and the Spirit's cry: because you are sons, the Spirit cries in you. Adoption and indwelling are one work.
 - **John 1:12** — "But as many as received him, to them gave he power to become the sons of God, even to them that believe on his name." Receiving Christ gave you the right — the legal authority — to become God's children. Adoption is Christ's gift, received by faith.

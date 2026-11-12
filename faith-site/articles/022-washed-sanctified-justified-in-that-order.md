@@ -67,7 +67,7 @@ Paul writes to a church that had come out of serious sin, and he does not soften
 
 Think of a patient wheeled into surgery already declared eligible for treatment. The declaration of eligibility comes before the healing, and the healing unfolds because the declaration was made. God's order is similar: the verdict precedes the transformation, and the transformation flows from the verdict.
 
-## Why the Order Never Reverses
+### Why the Order Never Reverses
 
 Try reversing the order and see what happens. If sanctification came before justification, your holiness would have to earn your verdict — and no holiness of yours could ever be sufficient. If justification came before washing, you would be declared righteous while still defiled, which would make God's verdict dishonest.
 
@@ -75,9 +75,9 @@ God's order is both gracious and honest. He washes because cleansing is needed. 
 
 This is **Justification** at work — a legal declaration, not a moral improvement programme. The judge has ruled; the family has received you. Your behaviour now grows into a verdict already announced, rather than straining to produce one.
 
-Here is the contrast: the self-improvement life tries to become acceptable and hopes for a verdict later. The gospel life receives the verdict now and grows into it daily. One lives under uncertainty; the other under a settled sentence of righteousness.
+Watch what separates the two: The self-improvement life tries to become acceptable and hopes for a verdict later. The gospel life receives the verdict now and grows into it daily. One lives under uncertainty; the other under a settled sentence of righteousness.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 3:24** — "Being justified freely by his grace through the redemption that is in Christ Jesus." Paul uses *freely* — without cause in you, without cost to you — and grounds it in Christ's redemption. Justification is a gift, not a wage.
 - **Titus 3:5–7** — "Not by works of righteousness which we have done, but according to his mercy he saved us, by the washing of regeneration... that being justified by his grace, we should be made heirs." Paul's order matches: washing, renewing, justifying, heirship — all by grace.

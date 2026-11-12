@@ -65,7 +65,7 @@ This verse is deliberately practical. It has one speaker offering an impossible 
 
 Think of electricity. Nobody demonstrates electricity by describing it; they turn on a light.
 
-## Grace and Works in One Sentence
+### Grace and Works in One Sentence
 
 Paul says, "By grace are ye saved through faith... not of works, lest any man should boast" (Ephesians 2:8–9). And then, in the very next verse, "we are his workmanship, created in Christ Jesus unto good works, which God hath before ordained that we should walk in them" (Ephesians 2:10).
 
@@ -75,23 +75,23 @@ Have you ever used grace as a reason to do nothing? What would James say to that
 
 James makes the point with a case study at the top of the chapter. A brother or sister is naked and destitute of daily food, and a believer says, "Depart in peace, be ye warmed and filled" — while giving nothing (James 2:16). The words are orthodox and the outcome is empty. That is not a failure of compassion; it is a demonstration that a faith which never reaches the hands was never really in the heart.
 
-## The Body and the Spirit of Faith
+### The Body and the Spirit of Faith
 
 James uses his most famous image in verse 26: "as the body without the spirit is dead, so faith without works is dead also." The comparison is not that works are more important than faith. It is that faith without works is a corpse — real in form, absent in life.
 
 A body in a coffin is still a body. It has the right shape, the right proportions, the right features. What it does not have is animation. That is a faith that talks and does not move.
 
-## Abraham's Hand and Rahab's Window
+### Abraham's Hand and Rahab's Window
 
 James reaches for two examples at opposite ends of the social scale. Abraham lifting the knife on Moriah (Genesis 22) — a patriarch's obedience. Rahab hanging a scarlet cord from her window (Joshua 2) — a prostitute's risk.
 
 Neither act was the cause of their acceptance; both were the proof of it. "Faith wrought with his works, and by works was faith made perfect" (James 2:22). The word "perfect" means completed, brought to its intended end.
 
-Here is the contrast: a faith that is only spoken stays theoretical; a faith that acts becomes visible, testable, and useful.
+The line between them runs here: A faith that is only spoken stays theoretical; a faith that acts becomes visible, testable, and useful.
 
 There is a subtle trap here worth naming. Some believers swing from doing nothing to doing everything, treating activity as a substitute for trust. That is not James's point and it is not the gospel. The question is never how much you are doing; it is whether what you are doing is the fruit of what you believe.
 
-## Faith That Can Be Seen
+## What This Means for You
 
 - **In generosity.** A hand that opens is a creed with legs.
 - **In forgiveness.** Forgiving someone who has not apologised is invisible faith made public.

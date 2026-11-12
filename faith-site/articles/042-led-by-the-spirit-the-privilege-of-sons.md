@@ -67,7 +67,7 @@ Notice the context Paul builds. Verses 12–13 speak of putting to death the dee
 
 Think of children in a household. They do not apply for parental guidance; they receive it because they belong at the table. The question is never whether they qualify, but whether they are listening.
 
-## Led, Not Driven
+### Led, Not Driven
 
 There is a difference between being led and being driven. The Spirit leads with peace, clarity, and timing; drivenness comes with pressure, fear, and haste. Paul's word for led carries the sense of being guided along a path, not shoved from behind.
 
@@ -75,9 +75,19 @@ That distinction protects you from two errors. The first is passivity: waiting f
 
 Paul's surrounding sentences make the family logic even clearer. Verse 15 contrasts the spirit of bondage that produces fear with the Spirit of adoption that produces the cry, Abba, Father. Verse 16 adds that the Spirit Himself bears witness with our spirit that we are children of God. Leading flows out of that witness: the One who tells you whose you are is the same One who tells you where to walk. Guidance and identity are two expressions of one relationship, which is why believers who doubt their sonship usually doubt their guidance as well. Settle the relationship, and direction becomes far less mysterious.
 
-Here is the contrast: the driven believer treats every sense of urgency as divine and burns out. The led believer moves at the Spirit's pace and stays fruitful.
+Watch what separates the two: The driven believer treats every sense of urgency as divine and burns out. The led believer moves at the Spirit's pace and stays fruitful.
 
-## The Word Says the Same Thing From Three Directions
+### Led Is a Present Tense
+
+"For as many as are led by the Spirit of God, they are the sons of God" (Romans 8:14). The verb is present and continuous. Not "were led" and not "will be led" — are being led, habitually, as a defining characteristic of sonship.
+
+Paul then draws out the family logic: "For ye have not received the spirit of bondage again to fear; but ye have received the Spirit of adoption, whereby we cry, Abba, Father" (Romans 8:15). The leading and the adoption are the same transaction viewed from two angles. A father guides his children because they are his.
+
+That reframes the whole subject. Guidance is not God's way of managing employees. It is His way of raising sons. And sons are not merely told the destination — they are taken by the hand through the process.
+
+**Sonship** — the standing of one who belongs to God as Father — is the ground of guidance, not the reward for it. The Spirit does not lead you because you have earned direction. He leads you because you are His.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Galatians 5:18** — "But if ye be led of the Spirit, ye are not under the law." Leading and law are contrasted: the Spirit guides from relationship, not from a rulebook of minimum requirements.
 - **Psalm 32:8** — "I will instruct thee and teach thee in the way which thou shalt go: I will guide thee with mine eye." God's guidance is personal and attentive — the eye of a father on a child, not a distant directive.

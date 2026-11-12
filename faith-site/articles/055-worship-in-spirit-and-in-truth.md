@@ -69,7 +69,7 @@ That is why followers of Jesus can worship in a cathedral, a kitchen, a car, or 
 
 Think of a conversation with a close friend. It does not require a particular café; the relationship carries the intimacy wherever you go. Worship works that way — the place is incidental, the Person is essential.
 
-## Spirit Without Truth, Truth Without Spirit
+### Spirit Without Truth, Truth Without Spirit
 
 Jesus names two dimensions, and both are necessary. Worship in spirit means your inner person engages — genuine affection, attention, and surrender rather than outward form alone. Worship in truth means your engagement is anchored in who God actually is, as He has revealed Himself, not in a God of your own imagination.
 
@@ -77,9 +77,19 @@ Spirit without truth drifts into sentimentality: intense feeling with no anchor.
 
 Psalm 51:17 says, "The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise." David learned that the heart is the altar, even after failure.
 
-Here is the contrast: the performer worships to be seen, and the formalist worships to be correct. Which of those have you slipped into without noticing? The true worshipper worships to be near.
+Note where the two part company: The performer worships to be seen, and the formalist worships to be correct. Which of those have you slipped into without noticing? The true worshipper worships to be near.
 
-## The Word Says the Same Thing From Three Directions
+### The Worship That Costs Nothing
+
+David makes a distinction in Psalm 51 that settles a great deal of confusion about worship: "For thou desirest not sacrifice; else would I give it: thou delightest not in burnt offering. The sacrifices of God are a broken spirit: a broken and a contrite heart, O God, thou wilt not despise" (Psalm 51:16–17).
+
+This is written by a king who could afford any number of sacrifices. His point is that the transaction he had been tempted to make — religious payment in exchange for spiritual relief — was never on offer. God was not selling absolution.
+
+That is why worship "in spirit and in truth" is demanding. Anyone can attend a service. Anyone can sing while thinking about lunch. To bring your actual self, unmanaged and unperformed, before God — that is costly, and it is the only kind He is described as seeking.
+
+Hebrews gives the same worship a voice: "By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit of lips giving thanks to his name" (Hebrews 13:15). Continually — not only when the music is right.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 12:1** — "Present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service." Worship includes the body offered in ordinary obedience, not only the voice raised in song.
 - **Hebrews 13:15** — "By him therefore let us offer the sacrifice of praise to God continually, that is, the fruit of lips giving thanks to his name." Continual praise makes worship a lifestyle rather than an event.

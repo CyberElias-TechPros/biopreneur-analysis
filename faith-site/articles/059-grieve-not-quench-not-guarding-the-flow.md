@@ -67,7 +67,7 @@ Together they describe a two-sided discipline. Guard your conduct so you do not 
 
 Think of a fireplace. Water poured on the fire quenches it; ash and neglect smother it. Both leave you cold, though only one looks dramatic. Grieving is the water; quenching is the ash.
 
-## The Cost of Small Compromises
+### The Cost of Small Compromises
 
 The context of 1 Thessalonians 5 is instructive. Paul has just told the church to rejoice evermore, pray without ceasing, and give thanks in everything, and he follows those commands with "quench not the Spirit" and "despise not prophesyings." Gratitude and responsiveness belong together. A thankful heart is a soft heart, and a soft heart hears quickly. Murmuring, by contrast, dulls the ear and makes every prompting feel like an interruption.
 
@@ -77,9 +77,19 @@ Quenching rarely happens in one decision. It accumulates through small disobedie
 
 Acts 7:51 describes resisters as "stiffnecked and uncircumcised in heart and ears, ye do always resist the Holy Ghost." Resistance is a posture that hardens over time.
 
-Which of those two describes your last month more accurately? Here is the contrast: the responsive believer keeps short accounts and quick obedience, while the resistant believer accumulates small delays until sensitivity fades entirely.
+Which of those two describes your last month more accurately? Here the two diverge. The responsive believer keeps short accounts and quick obedience, while the resistant believer accumulates small delays until sensitivity fades entirely.
 
-## The Word Says the Same Thing From Three Directions
+### Two Verbs, One Reverence
+
+Paul's two commands sit inside a cluster of short instructions that are all about responsiveness: "Rejoice evermore. Pray without ceasing. In every thing give thanks... Quench not the Spirit. Despise not prophesyings. Prove all things; hold fast that which is good" (1 Thessalonians 5:16–21).
+
+Read them as a sequence. Gratitude keeps the channel open. Quenching closes it. Despising prophecy closes it with contempt rather than neglect. And proving all things keeps the openness from becoming credulity.
+
+Isaiah describes the alternative from God's side: "But they rebelled, and vexed his holy Spirit: therefore he was turned to be their enemy, and he fought against them" (Isaiah 63:10). Vexed, or grieved — the same family of meaning. Persistent resistance changes a relationship.
+
+Psalm 51 gives the prayer of a man who knows the stakes: "Create in me a clean heart, O God; and renew a right spirit within me. Cast me not away from thy presence; and take not thy holy spirit from me" (Psalm 51:10–11). He asks for cleansing, not for escape.
+
+### The Word Says the Same Thing From Three Directions
 
 - **1 Thessalonians 5:20–21** — "Despise not prophesyings. Prove all things; hold fast that which is good." Paul pairs not quenching with testing — responsiveness and discernment belong together.
 - **Isaiah 63:10** — "But they rebelled, and vexed his holy Spirit: therefore he was turned to be their enemy." The Old Testament pattern shows what prolonged resistance produces.

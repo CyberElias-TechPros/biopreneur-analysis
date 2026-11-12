@@ -65,7 +65,7 @@ Think of the difference between renovating an old house and building a new one. 
 
 And notice how this happened. Why do so many sincere believers still exhaust themselves trying to earn what God has already created? Because they treat sonship as the reward for discipline instead of its starting line. Yet Paul writes, "if any man be **in Christ**." The new creation is not the trophy of human effort; it is the fact of your union with Christ. Your part is not to manufacture it. Your part is to **know** it and walk in what is already real.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Galatians 6:15** — "For in Christ Jesus neither circumcision availeth any thing, nor uncircumcision, but **a new creature**." Paul puts outward religious ceremony and new creation in direct opposition. Religious upgrade counts for nothing; new kind counts for everything.
 - **Ephesians 4:24** — "And that ye **put on the new man**, which after God is created in righteousness and true holiness." The new man was *created* — not coached into existence — and his built-in constitution is righteousness and true holiness.

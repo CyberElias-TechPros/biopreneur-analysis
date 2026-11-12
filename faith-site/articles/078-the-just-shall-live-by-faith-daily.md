@@ -69,7 +69,7 @@ Habakkuk's setting matters. He was not asking about personal peace; he was askin
 
 That is the situation almost every believer inherits. We are not given a schedule; we are given a word and a way to walk while we wait.
 
-## Why Three Apostles Quoted It
+### Why Three Apostles Quoted It
 
 Paul quotes Habakkuk 2:4 in Romans 1:17 to introduce the righteousness of God. He quotes it again in Galatians 3:11 to prove that no one is justified by law-keeping. And Hebrews 10:38 quotes it just before the great faith chapter: "Now the just shall live by faith: but if any man draw back, my soul shall have no pleasure in him."
 
@@ -77,7 +77,7 @@ Three different arguments, one foundation. If the just live by faith, then justi
 
 Think of a fish asked to describe water. It cannot, because water is not an event in its life; it is the medium of its life. That is the force of "shall live by faith" — not an activity but a habitat.
 
-## Daily Means Unspectacular
+### Daily Means Unspectacular
 
 Most of us imagine living by faith as a series of dramatic moments. Scripture describes something quieter: a morning decision about what is true, a midday choice about what to say, an evening act of obedience when no one is watching.
 
@@ -87,11 +87,11 @@ Have you been treating faith as a parachute, something you check before takeoff 
 
 Practically, this means the Christian life is sustained by intake and output. Intake: the word heard, read, and meditated on until it becomes the mind's default. Output: the obedience, speech, and generosity that prove the intake has landed. Skip the first and the second becomes performance; skip the second and the first becomes a hobby.
 
-## When Drawing Back Feels Reasonable
+## What This Means for You
 
 Hebrews is honest about the pull. "Cast not away therefore your confidence, which hath great recompence of reward" (Hebrews 10:35). The audience was tired, and their circumstances had not improved as quickly as they hoped.
 
-Here is the contrast: the crisis-faith believer performs well in the emergency and drifts in the ordinary; the daily-faith believer may be unremarkable in the emergency precisely because faithfulness has already become a habit.
+Trace the difference to its root: The crisis-faith believer performs well in the emergency and drifts in the ordinary; the daily-faith believer may be unremarkable in the emergency precisely because faithfulness has already become a habit.
 
 **1. Start the day with a declaration.** Decide what is true before the news decides for you.
 **2. Make one small act of obedience visible.** Faith needs an outlet to stay alive.

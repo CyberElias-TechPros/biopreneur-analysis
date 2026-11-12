@@ -65,7 +65,7 @@ Luke uses both *dunamis* and *exousia* — power and authority. Power is the abi
 
 Notice the sequence in the verse. He called. He gave. Then, in verse 2, He sent. Calling, gift, commission — never the reverse.
 
-## What Delegation Actually Means
+### What Delegation Actually Means
 
 Delegation is a legal arrangement, not a personality trait. An ambassador does not become important by feeling important; he becomes an ambassador when a government appoints him and gives him credentials.
 
@@ -73,21 +73,21 @@ Paul uses exactly that language: "Now then we are ambassadors for Christ" (2 Cor
 
 Think of a power of attorney. The document does not make a person wiser or stronger. It makes his signature count.
 
-## Why This Matters So Much
+### Why This Matters So Much
 
 If authority is manufactured, then only the strong, loud, and confident can exercise it — and everyone else is left waiting to become someone else. If authority is delegated, then the timid believer with a Bible and a Name has the same warrant as the bold one.
 
 Have you ever held back from praying for someone because you did not feel spiritually impressive enough? What does that hesitation assume about where authority comes from?
 
-## The Ceiling on Delegated Authority
+### The Ceiling on Delegated Authority
 
 A delegated authority can only act within its commission. A police officer cannot search a house on a warrant for a different address. So it matters enormously what Christ actually authorized.
 
 Matthew 28:18 gives the scope: "All power is given unto me in heaven and in earth." Then verse 19 sends. Luke 10:19 states the commission plainly: "Behold, I give unto you power to tread on serpents and scorpions, and over all the power of the enemy."
 
-Here is the contrast: presumption acts where it was never sent and calls the failure a lack of faith; faith acts where it was sent and expects the warrant to be honoured.
+The difference is this: Presumption acts where it was never sent and calls the failure a lack of faith; faith acts where it was sent and expects the warrant to be honoured.
 
-## The Posture of the Delegated
+### The Posture of the Delegated
 
 - **Humility.** You are a representative, not the government.
 - **Boldness.** A representative who doubts the credential dishonours the sender.
@@ -96,7 +96,7 @@ Here is the contrast: presumption acts where it was never sent and calls the fai
 
 None of these is a formality. In Scripture, authority is always relational before it is functional.
 
-## Recognising the Chain of Command
+## What This Means for You
 
 Romans 13 establishes that human authority is also delegated, which is why the centurion's insight in Matthew 8 was so sharp: he understood that a word carries weight when the one speaking stands under authority.
 

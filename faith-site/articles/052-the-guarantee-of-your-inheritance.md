@@ -65,15 +65,25 @@ Paul applies that commercial image to the Spirit's indwelling. **The Inheritance
 
 Think of a farmer given the firstfruits of a harvest as proof of the whole crop to come. The firstfruits are not a substitute for the harvest; they are a sample and a guarantee of it. The Spirit in you is that firstfruits — a present taste of a future fullness.
 
-## Sealed, Pledged, and Waiting
+### Sealed, Pledged, and Waiting
 
 This doctrine steadies believers who are weary of waiting. The Spirit's presence does not remove the interval between promise and fulfilment, but it fills the interval with evidence. Every impulse of genuine worship, every quiet assurance of sonship, every prompting toward holiness is a sample of the age to come delivered early to your address. Paul prays in the same letter that the eyes of the Ephesians' understanding would be enlightened so that they might know the hope of His calling and the riches of the glory of His inheritance in the saints (Ephesians 1:18). He does not pray for them to receive an inheritance; he prays for them to see one they already have. Paul uses three related images in Ephesians 1. You were *sealed* with the Spirit (verse 13) — marked as God's possession. The Spirit is the *earnest* of your inheritance (verse 14) — the pledge of full payment. And you are *waiting* for the redemption of the purchased possession — the final delivery, when the body is redeemed and all things are made new.
 
 That sequence keeps you both secure and expectant. Secure, because the pledge is already given and cannot be revoked. Expectant, because the fullness has not yet arrived. You are not hoping to be bought; you are waiting to be delivered. Has any promise of God ever felt more distant than the evidence of His Spirit in your own heart?
 
-Here is the contrast: the believer who forgets the earnest lives anxiously, wondering whether God will come through. The believer who remembers it lives confidently, holding the down payment in his own spirit.
+Watch what separates the two: The believer who forgets the earnest lives anxiously, wondering whether God will come through. The believer who remembers it lives confidently, holding the down payment in his own spirit.
 
-## The Word Says the Same Thing From Three Directions
+### The Earnest Is a First Instalment
+
+The word Paul uses is commercial, and it is deliberate: "who hath also sealed us, and given the earnest of the Spirit in our hearts" (2 Corinthians 1:22). An *arrabon* was a deposit paid to guarantee the full sum would follow. It was not a gift; it was a pledge with legal weight.
+
+That is why Paul can say the Spirit is "the earnest of our inheritance until the redemption of the purchased possession" (Ephesians 1:14). The Spirit is not the whole inheritance. He is the proof of it — a first instalment so substantial that it makes the remainder certain.
+
+Peter describes the inheritance itself in four negatives: "incorruptible, and undefiled, and that fadeth not away, reserved in heaven for you" (1 Peter 1:4). Not subject to decay, not stained, not fading, not unguarded.
+
+The logic is worth following to its end. If the deposit is this good, what must the balance be? And if the deposit has already been placed in your hands, on what grounds would you doubt the purchase?
+
+### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 1:22** — "Who hath also sealed us, and given the earnest of the Spirit in our hearts." Paul repeats both images — sealing and earnest — as the ground of his confidence.
 - **2 Corinthians 5:5** — "Now he that hath wrought us for the selfsame thing is God, who also hath given unto us the earnest of the Spirit." The Spirit is given precisely so that we will not lose heart while waiting.

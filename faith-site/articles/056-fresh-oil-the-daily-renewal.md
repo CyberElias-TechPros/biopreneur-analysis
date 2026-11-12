@@ -65,15 +65,25 @@ In Scripture, oil is a symbol of the Holy Spirit's presence and enablement. Prie
 
 Think of a lamp that must be refilled. The flame does not fail because oil is scarce; it fails because the vessel was not brought back to the supply. Renewal is not a crisis intervention; it is a daily habit.
 
-## Renewed Day by Day
+### Renewed Day by Day
 
 The psalmist's setting matters. Psalm 92 is titled a song for the Sabbath, a day of rest and worship. Yet its subject is freshness that endures into old age and fruitfulness that does not fade. Rest and renewal are connected: the believer who never stops cannot receive, and the believer who never rests eventually runs on reserves that were never designed to sustain him. God built renewal into the rhythm of weeks and days, not only into annual holidays. Paul gives the same principle in 2 Corinthians 4:16: "though our outward man perish, yet the inward man is renewed day by day." The renewal is daily, inward, and ongoing — even while outward strength declines.
 
 Lamentations 3:22–23 adds, "It is of the LORD's mercies that we are not consumed... They are new every morning: great is thy faithfulness." God's mercies arrive on a daily schedule. Isaiah 40:31 promises that those who wait on the Lord renew their strength.
 
-Have you ever returned from a spiritual high and found the freshness gone within a week? Renewal also has a corporate dimension. Believers who gather regularly around the Word and worship receive strength they cannot generate alone, and Paul assumes the assembly is where much of this strengthening happens. Hebrews 10:25 warns against forsaking the gathering, not as a rule to enforce but as a leak to prevent. Isolation feels spiritual and quietly starves the inner man, while fellowship keeps the vessel near the supply. Here is the contrast: the seasonal believer waits for conferences and mountaintops, and dries out between them. The daily believer draws from the supply every morning and stays fresh in ordinary weeks.
+Have you ever returned from a spiritual high and found the freshness gone within a week? Renewal also has a corporate dimension. Believers who gather regularly around the Word and worship receive strength they cannot generate alone, and Paul assumes the assembly is where much of this strengthening happens. Hebrews 10:25 warns against forsaking the gathering, not as a rule to enforce but as a leak to prevent. Isolation feels spiritual and quietly starves the inner man, while fellowship keeps the vessel near the supply. Set them side by side and the gap shows. The seasonal believer waits for conferences and mountaintops, and dries out between them. The daily believer draws from the supply every morning and stays fresh in ordinary weeks.
 
-## The Word Says the Same Thing From Three Directions
+### Renewal Is Daily Because Decay Is Daily
+
+Paul's sentence sets two processes against each other in one verse: "For which cause we faint not; but though our outward man perish, yet the inward man is renewed day by day" (2 Corinthians 4:16).
+
+The verb for "perish" is a present passive — is being decayed. The verb for "renewed" is also present: is being renewed. Both are happening now, in the same person, on the same day. The Christian life is not the absence of decline; it is the daily counteraction of it.
+
+Psalm 92 makes the same promise with an image: "But my horn shalt thou exalt like the horn of an unicorn: I shall be anointed with fresh oil" (Psalm 92:10) — and then the outcome, "They shall still bring forth fruit in old age; they shall be fat and flourishing" (Psalm 92:14).
+
+**The Anointing** — the Spirit's empowering presence — is not a reserve that depletes over a lifetime. It is a supply renewed every morning, which is why the psalm can promise fruit in old age rather than merely survival.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Psalm 92:14** — "They shall still bring forth fruit in old age; they shall be fat and flourishing." The psalm ties freshness to longevity of fruitfulness — the anointed life does not run out of usefulness.
 - **Ephesians 5:18** — "Be filled with the Spirit." The continuous command is the mechanism of freshness: keep being filled rather than relying on an old filling.

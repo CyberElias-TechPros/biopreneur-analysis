@@ -65,15 +65,15 @@ This is **Sonship** — the legal and relational status of being God's child in 
 
 Think of a house with a front door, a living room, and a private study. Guests may enter the living room, but only family knows the way to the study where the owner keeps his most personal papers. Your spirit is that study. God does not merely visit your living room of emotions; He dwells in your spirit and speaks from there. Learning to hear Him means learning to attend to that innermost address, not merely to your loudest feeling.
 
-## Communion Happens at the Spirit Level
+### Communion Happens at the Spirit Level
 
 This is **Communion With the Holy Spirit** — ongoing personal fellowship, partnership, sensitivity, and conversation with the Holy Spirit throughout ordinary work and prayer. Have you ever sensed that quiet witness in your spirit during prayer — a settled knowing that you are loved and led? Communion is not confined to a prayer closet or a Sunday service. It is the settled awareness that the indwelling Spirit is with you in the kitchen, the office, the car, and the hospital corridor, bearing witness and guiding from your spirit.
 
 Notice the order in Romans 8:16. The Holy Spirit bears witness *with* our spirit — He does not bypass it. Your reborn spirit is the receiver. That is why a renewed mind matters so much: your mind can either cooperate with what your spirit knows or contradict it with old fears and old habits. When your mind agrees with your spirit's witness — "I am God's child, forgiven, accepted, led" — peace governs your decisions.
 
-Here is the contrast: orphan religion prays to a distant God from the outside, hoping to be noticed. Sonship communion listens at the address where God already dwells, expecting to be led. One prays from distance. The other prays from indwelling.
+Two postures, one choice: Orphan religion prays to a distant God from the outside, hoping to be noticed. Sonship communion listens at the address where God already dwells, expecting to be led. One prays from distance. The other prays from indwelling.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **1 Corinthians 6:17** — "But he that is joined unto the Lord is one spirit." Union with the Lord is described as oneness of spirit. Your spirit and the Lord's presence are not strangers; they are joined.
 - **John 4:24** — "God is a Spirit: and they that worship him must worship him in spirit and in truth." True worship happens at the spirit level, in agreement with truth — not merely in outward ritual.

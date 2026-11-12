@@ -65,7 +65,7 @@ The word Paul uses is *koinonia* — partnership, sharing, common life, intimate
 
 Think of a marriage versus a vending machine. A vending machine delivers what you select and then returns to silence. A marriage is a shared life with conversation, presence, and unremarkable daily companionship. If you approach the Spirit only when you need something, you will experience selection without intimacy — and you will call it fellowship.
 
-## Why Communion Comes First
+### Why Communion Comes First
 
 Everything the Spirit does flows from who He is to you. Gifts without communion become performances. Power without communion becomes pride. Guidance without communion becomes a search for instructions rather than a walk with a Guide. But when communion is first, the gifts carry character, power carries humility, and guidance becomes conversation.
 
@@ -73,9 +73,17 @@ Communion also produces discernment. A believer who talks with the Spirit daily 
 
 He is also grieved by distance. Ephesians 4:30 does not say the Spirit is annoyed by poor technique; it says He is grieved by conduct inconsistent with relationship. That is the language of affection, and affection is what communion protects. What kind of companion would He be if He only appeared when summoned?
 
-Here is the contrast: the functional believer seeks the Spirit's hand; the communing believer enjoys the Spirit's presence. One is always asking for something; the other is always with Someone.
+Note where the two part company: The functional believer seeks the Spirit's hand; the communing believer enjoys the Spirit's presence. One is always asking for something; the other is always with Someone.
 
-## The Word Says the Same Thing From Three Directions
+### Fellowship Is a Verb Before It Is a Feeling
+
+"God is faithful, by whom ye were called unto the fellowship of his Son Jesus Christ our Lord" (1 Corinthians 1:9). The word is *koinonia* — partnership, shared life, common interest. It is the word used of a business partnership and of a collection taken for the poor. It is not primarily a warm sensation; it is a shared stake.
+
+That reframes the practice. Communion is not waiting until you feel close; it is showing up to a relationship that already exists by covenant. A husband does not measure his marriage by whether he felt married this morning.
+
+Acts 2:42 gives the church's shape: "they continued stedfastly in the apostles' doctrine and fellowship, and in breaking of bread, and in prayers." Continued stedfastly — the same verb used of the disciples' devotion. Fellowship was a discipline before it was a delight, and it became a delight because it was a discipline.
+
+### The Word Says the Same Thing From Three Directions
 
 - **John 14:17** — "For he dwelleth with you, and shall be in you." Jesus locates the Spirit's ministry in nearness — with you and in you — before He mentions any function. Presence precedes power.
 - **Philippians 2:1** — "If there be therefore any consolation in Christ, if any comfort of love, if any fellowship of the Spirit." Paul treats fellowship of the Spirit as a shared reality the church should draw on, not a rare experience.

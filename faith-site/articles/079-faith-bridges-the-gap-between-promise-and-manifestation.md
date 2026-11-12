@@ -67,7 +67,7 @@ Think of a bridge under construction over a wide river. The far bank does not mo
 
 Consider how much of Scripture is set in this middle space. Israel spent four hundred years in Egypt between a promise to Abraham and a deliverer named Moses. David was anointed king and then spent years hiding in caves. Paul received a revelation of his mission and then went to Arabia and to Tarsus before a single church was planted by him. The pattern is not an accident of one man's biography; it is the normal shape of how God keeps His word.
 
-## Why the Gap Exists at All
+### Why the Gap Exists at All
 
 Habakkuk was told plainly: "the vision is yet for an appointed time... though it tarry, wait for it; because it will surely come, it will not tarry" (Habakkuk 2:3). The apparent contradiction is the point — from our side it tarries; from God's side it is precisely on time.
 
@@ -75,15 +75,15 @@ Why would God work this way? Because the gap produces something the instant answ
 
 One more thing deserves naming. The gap has a purpose that only becomes visible from the far side. Looking back, Abraham could see that every year of waiting had made the eventual laughter louder. Isaac was not merely a son; he was an argument — proof that God does what He says, in a timeline He owns.
 
-## What the Gap Is Not
+### What the Gap Is Not
 
 The gap is not evidence of unbelief. It is not a punishment. It is not permission to manufacture the outcome.
 
 Abraham and Sarah tried to help God with Hagar, and the result was a wound that is still bleeding in the world today. Manufactured manifestations carry generational consequences.
 
-Here is the contrast: unbelief abandons the bridge and returns to the near bank; presumption jumps off the bridge and tries to swim; faith keeps walking across.
+Here the two diverge. Unbelief abandons the bridge and returns to the near bank; presumption jumps off the bridge and tries to swim; faith keeps walking across.
 
-## Three Disciplines of the Middle
+### Three Disciplines of the Middle
 
 - **Keep the confession clean.** Say what God said, not what the delay suggests. The gap is where the tongue is trained.
 - **Keep doing the will of God.** Hebrews ties receiving the promise to having done the will of God — the waiting is not a pause in obedience.
@@ -91,7 +91,7 @@ Here is the contrast: unbelief abandons the bridge and returns to the near bank;
 
 Have you ever treated the gap as a waiting room? What if it is a workshop?
 
-## When the Bridge Feels Long
+## What This Means for You
 
 Some promises take decades. Some are answered in a form different from what we pictured. Some are inherited by the next generation rather than received by us.
 

@@ -67,7 +67,7 @@ Notice what faith is *not*: it is not the things hoped for, and it is not the th
 
 Think of a title deed to a house you have not yet entered. The deed is not the house, but it is substance and evidence — it establishes your ownership now. Faith is that deed in the realm of the spirit.
 
-## Hope and Faith Together
+### Hope and Faith Together
 
 Hope anticipates; faith substantiates. Hope says, "God has promised"; faith says, "I stand on it now." Romans 8:24–25 adds that hope that is seen is not hope, and that we wait with patience for what we hope for. Faith and patience are partners, not rivals.
 
@@ -77,9 +77,9 @@ Faith also has a moral dimension. Hebrews 11:6 says without faith it is impossib
 
 Hebrews 11 goes on to show faith in action: Abel offered, Noah built, Abraham went out, Sarah conceived, Moses refused Egypt's privileges. Each acted before seeing, because each treated God's word as substance.
 
-Here is the contrast: the hopeful believer admires the promise and waits passively; the believing believer acts on the promise and waits actively. One lives in anticipation; the other lives in appropriation. Which describes your relationship to the promise you are carrying right now?
+The difference is this: The hopeful believer admires the promise and waits passively; the believing believer acts on the promise and waits actively. One lives in anticipation; the other lives in appropriation. Which describes your relationship to the promise you are carrying right now?
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **2 Corinthians 4:18** — "While we look not at the things which are seen, but at the things which are not seen: for the things which are seen are temporal; but the things which are not seen are eternal." Paul redirects attention because attention determines what feels real.
 - **1 Peter 1:8** — "Whom having not seen, ye love; in whom, though now ye see him not, yet believing, ye rejoice with joy unspeakable." Peter describes believers whose joy rests on unseen realities they hold as certain.

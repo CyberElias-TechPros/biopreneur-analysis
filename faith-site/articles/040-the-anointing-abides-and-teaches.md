@@ -65,7 +65,7 @@ In the Old Testament, anointing oil was poured on prophets, priests, and kings t
 
 Think of a built-in compass rather than a map consulted occasionally. A compass does not tell you every detail of the terrain, but it always points true north, and it works wherever you are. The anointing is that internal compass, and the Word is the terrain map. Together they guide you reliably.
 
-## Teaching That Guards and Confirms
+### Teaching That Guards and Confirms
 
 John's context is warning about false teachers who denied that Jesus is the Christ. His comfort is not "you need better teachers" but "you have an anointing that teaches." The indwelling Spirit is the believer's safeguard against deception.
 
@@ -73,9 +73,19 @@ This indwelling Teacher also explains why ordinary believers can discern spiritu
 
 Notice three claims John makes about this teaching. It is *truth* — reliable. It is *no lie* — never deceptive. And it teaches you to *abide in Him* — its aim is always deeper union with Christ, never independence from Him. Any supposed anointing that pulls you away from Jesus, from Scripture, or from humble fellowship is not the anointing John describes. Has any teacher ever spoken impressively and still left your spirit uneasy?
 
-Here is the contrast: the untaught believer drifts with every new voice and every persuasive argument. The anointed believer listens widely but weighs everything against the internal witness and the written Word.
+Consider what each one actually is. The untaught believer drifts with every new voice and every persuasive argument. The anointed believer listens widely but weighs everything against the internal witness and the written Word.
 
-## The Word Says the Same Thing From Three Directions
+### Why the Anointing Teaches Rather Than Informs
+
+John's claim is bold: "the anointing which ye have received of him abideth in you, and ye need not that any man teach you" (1 John 2:27). This is written by a man who is himself teaching, so it cannot mean that teachers are redundant. It means the Spirit supplies an internal witness by which teaching is either confirmed or refused.
+
+The distinction is between information and recognition. You can be told a true thing about your own heart and know, before you have finished hearing it, that it is true. That recognition is not a feeling that happens to accompany truth; it is the Spirit's own testimony.
+
+Jesus promised exactly this: "But the Comforter, which is the Holy Ghost, whom the Father will send in my name, he shall teach you all things, and bring all things to your remembrance, whatsoever I have said unto you" (John 14:26). Note the two verbs. He teaches new things and He recalls old ones. Both are the anointing at work.
+
+**Revelation Knowledge** — what the Spirit makes real to your understanding — is therefore cumulative. It is not a single insight but an increasingly furnished house.
+
+### The Word Says the Same Thing From Three Directions
 
 - **John 14:26** — "But the Comforter, which is the Holy Ghost... he shall teach you all things, and bring all things to your remembrance." Jesus promised the same teaching ministry John describes: internal, personal, and reliable.
 - **1 Corinthians 2:12** — "Now we have received, not the spirit of the world, but the spirit which is of God; that we might know the things that are freely given to us of God." The Spirit is given so that you might *know* — revelation is the purpose, not a bonus.

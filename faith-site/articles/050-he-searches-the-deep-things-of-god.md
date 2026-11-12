@@ -67,15 +67,25 @@ Notice that the Spirit does not merely know the deep things; He searches them. T
 
 Think of a guide who has explored an entire cave system and now walks with you through it. You do not have to map the tunnels yourself; you walk behind someone who already knows them, and he points out what your eyes would miss in the dark.
 
-## Why Pride Blocks Depth
+### Why Pride Blocks Depth
 
 Revelation is given, which means pride blocks it. Paul's entire argument in 1 Corinthians 1–2 dismantles human boasting: God chose the foolish things to confound the wise, so that no flesh should glory in His presence.
 
 Paul also distinguishes the natural man from the spiritual man. The natural man receives not the things of the Spirit of God, for they are foolishness to him, neither can he know them, because they are spiritually discerned (verse 14). This is not an insult to intelligence; it is a statement about instruments. A microscope cannot read music, and an unregenerate mind cannot judge spiritual truth, no matter how sharp it is. But the spiritual man judges all things, because he has the mind of Christ (verse 16). Revelation does not make you arrogant; it makes you humble, because you know the source of what you have received. A proud mind approaches Scripture to master it; a humble heart approaches to be mastered by it. The first collects information and stays unchanged. The second receives revelation and is transformed. Ephesians 1:17 prays for "the spirit of wisdom and revelation in the knowledge of him" — a prayer that assumes dependence, not expertise.
 
-Here is the contrast: the reasoning-only believer curates doctrines and remains dry. Have you ever mistaken familiarity with a verse for understanding of it? The reveal-and-obey believer keeps discovering depths and stays hungry.
+Consider what each one actually is. The reasoning-only believer curates doctrines and remains dry. Have you ever mistaken familiarity with a verse for understanding of it? The reveal-and-obey believer keeps discovering depths and stays hungry.
 
-## The Word Says the Same Thing From Three Directions
+### The Deep Things Are Given, Not Achieved
+
+Paul's sentence is one of the most striking claims in his letters: "But God hath revealed them unto us by his Spirit: for the Spirit searcheth all things, yea, the deep things of God" (1 Corinthians 2:10).
+
+The context makes it sharper still. Verse 9 had said, "Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him" — and then verse 10 turns the corner with "But God hath revealed them." The unreachable has been reached, and the reaching was God's.
+
+He explains the mechanism by analogy: "For what man knoweth the things of a man, save the spirit of man which is in him? even so the things of God knoweth no man, but the Spirit of God" (1 Corinthians 2:11). Nobody can be argued into knowing you; they must be told by your own spirit. In the same way, the deep things of God are not deduced. They are disclosed.
+
+Daniel had said it centuries before: "He revealeth the deep and secret things: he knoweth what is in the darkness, and the light dwelleth with him" (Daniel 2:22). The unveiling is His work, and the posture that receives it is humility rather than brilliance.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Daniel 2:22** — "He revealeth the deep and secret things: he knoweth what is in the darkness, and the light dwelleth with him." Daniel's insight into a king's dream came by revelation, and he thanked God for it rather than taking credit.
 - **Psalm 25:14** — "The secret of the LORD is with them that fear him; and he will shew them his covenant." Intimacy and reverence are the conditions for receiving God's secrets.

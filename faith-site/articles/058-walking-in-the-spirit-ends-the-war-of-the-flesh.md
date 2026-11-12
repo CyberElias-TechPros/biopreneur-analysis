@@ -67,7 +67,7 @@ The contrast Paul draws is between two directions, not two equal powers. The fle
 
 Think of a man walking uphill against a strong wind. He does not defeat the wind once and for all; he keeps facing the right direction, step after step, and the wind never determines his destination. The flesh is the wind. The walk is your direction.
 
-## Why Willpower Loses
+### Why Willpower Loses
 
 Paul's own testimony in Romans 7 makes this plain. He describes wanting to do good and failing, delighting in the law of God in the inward man while another law warred in his members. His conclusion is not a better technique but a person: "I thank God through Jesus Christ our Lord" (Romans 7:25). The deliverance is relational, which is why a walk is the right metaphor. You are not managing a defect; you are accompanying a Person who is stronger than the defect.
 
@@ -75,9 +75,19 @@ Willpower alone is a finite resource that depletes under pressure. It can restra
 
 Paul's alternative is supply rather than suppression. When you walk in the Spirit, the flesh's desires are not fulfilled because a stronger desire is occupying you. You are not merely saying no; you are saying yes to something better.
 
-Have you ever noticed that temptation is strongest when you are emptiest — tired, hungry, lonely, or discouraged? Here is the contrast: the willpower believer white-knuckles his way through temptation and eventually breaks. The walking believer is occupied with the Spirit's agenda and finds the temptation losing its grip.
+Have you ever noticed that temptation is strongest when you are emptiest — tired, hungry, lonely, or discouraged? Trace the difference to its root: The willpower believer white-knuckles his way through temptation and eventually breaks. The walking believer is occupied with the Spirit's agenda and finds the temptation losing its grip.
 
-## The Word Says the Same Thing From Three Directions
+### The War Is Between Two Minds
+
+Paul locates the conflict precisely: "For to be carnally minded is death; but to be spiritually minded is life and peace" (Romans 8:6). The battlefield is not the body and it is not the environment. It is the mind.
+
+That is why his remedy in Romans 13 is not asceticism but attention: "But put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfil the lusts thereof" (Romans 13:14). Provision — the Greek is *pronoia*, forethought. You do not defeat the flesh by fighting it in a moment of crisis; you defeat it by refusing to stock its pantry.
+
+He says the same in Galatians with a different image: "This I say then, Walk in the Spirit, and ye shall not fulfil the lust of the flesh" (Galatians 5:16). The promise is stated negatively but the mechanism is positive. The way to stop fulfilling one desire is to be occupied with another.
+
+Peter frames it as a war against the soul itself: "Dearly beloved, I beseech you as strangers and pilgrims, abstain from fleshly lusts, which war against your soul" (1 Peter 2:11). The soul is the casualty, not the culprit.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Romans 8:6** — "For to be carnally minded is death; but to be spiritually minded is life and peace." Paul locates the battle in the mind's orientation, not merely in behaviour.
 - **Romans 13:14** — "But put ye on the Lord Jesus Christ, and make not provision for the flesh, to fulfil the lusts thereof." Walking involves removing provision — cutting the supply lines that feed the flesh.

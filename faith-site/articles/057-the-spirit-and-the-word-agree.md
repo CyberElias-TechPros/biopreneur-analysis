@@ -67,15 +67,25 @@ Because the Spirit is the author, He cannot contradict His book. When an impress
 
 Think of a playwright who attends a performance of his own play. If someone claims the playwright told them a different ending, you would check the script. The author does not contradict his own work. God does not contradict His Word.
 
-## Quickened Word, Not Substitute Word
+### Quickened Word, Not Substitute Word
 
 Notice what Jesus says about His words: they are spirit and they are life. The Word is not merely information; it carries the Spirit's quickening power. That is why reading Scripture can suddenly make a familiar verse alive, or why a passage you have read many times suddenly addresses your exact situation.
 
 John 6 also shows the alternative. Many disciples left when Jesus' teaching became hard, and Peter answered, "Lord, to whom shall we go? thou hast the words of eternal life" (verse 68). The Word is where life is, even when it challenges.
 
-Peter adds a decisive principle in his second letter: "no prophecy of the scripture is of any private interpretation. For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost" (2 Peter 1:20–21). The Spirit's authorship rules out private reinvention. Scripture is not a text we bend toward our preferences; it is a voice we submit to. That posture protects believers from the two extremes that have shipwrecked many: the mystic who trusts every inner impression and the sceptic who trusts no inner witness at all. The Spirit-and-Word believer lives between them, listening carefully and checking faithfully. Here is the contrast: the impression-only believer treats every feeling as divine and drifts, while the Word-only believer reads without expectancy and stays cold. The Spirit-and-Word believer receives both — quickened Scripture and tested revelation.
+Peter adds a decisive principle in his second letter: "no prophecy of the scripture is of any private interpretation. For the prophecy came not in old time by the will of man: but holy men of God spake as they were moved by the Holy Ghost" (2 Peter 1:20–21). The Spirit's authorship rules out private reinvention. Scripture is not a text we bend toward our preferences; it is a voice we submit to. That posture protects believers from the two extremes that have shipwrecked many: the mystic who trusts every inner impression and the sceptic who trusts no inner witness at all. The Spirit-and-Word believer lives between them, listening carefully and checking faithfully. The line between them runs here: The impression-only believer treats every feeling as divine and drifts, while the Word-only believer reads without expectancy and stays cold. The Spirit-and-Word believer receives both — quickened Scripture and tested revelation.
 
-## The Word Says the Same Thing From Three Directions
+### The Test Is Not Novelty
+
+John's instruction is blunt: "Beloved, believe not every spirit, but try the spirits whether they are of God: because many false prophets are gone out into the world" (1 John 4:1). The assumption is not that the church is gullible but that the church is contested.
+
+The Bereans show the method: "These were more noble than those in Thessalonica, in that they received the word with all readiness of mind, and searched the scriptures daily, whether those things were so" (Acts 17:11). Note both halves — readiness and searching. They were neither cynical nor credulous.
+
+That is the balance the Spirit-and-Word principle produces. A genuine move of the Spirit will not fear the word; a genuine understanding of the word will not fear the Spirit. Where either is set against the other, something has already gone wrong.
+
+Jesus put the two together in one sentence: "It is the spirit that quickeneth; the flesh profiteth nothing: the words that I speak unto you, they are spirit, and they are life" (John 6:63). The words are spirit. That is the agreement in a single clause.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Hebrews 4:12** — "For the word of God is quick, and powerful, and sharper than any twoedged sword." The Word is described as living and active — its power is intrinsic because the Spirit is in it.
 - **1 John 4:1** — "Beloved, believe not every spirit, but try the spirits whether they are of God." Testing is commanded, and the test is whether a spirit honours the truth about Christ.

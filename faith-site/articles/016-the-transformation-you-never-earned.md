@@ -65,15 +65,15 @@ This is **the New Birth** — the spiritual regeneration wrought by the Holy Spi
 
 Think of the difference between polishing a tarnished coin and minting a new one. Polishing removes surface dirt but leaves the old metal, old weight, and old value. Minting creates new metal with a new stamp and a new worth. Religion polishes. Regeneration mints. God did not polish your old life; He minted a new one in Christ.
 
-## Earned Religion vs Gifted Transformation
+### Earned Religion vs Gifted Transformation
 
 Why does this distinction matter so much? Because earned religion always produces the same two results: pride when you succeed and despair when you fail. Gifted transformation produces something steadier: gratitude that obeys and humility that endures. You do not walk with God to earn transformation; you walk with God because transformation has already been given.
 
 Notice Paul's honesty: "works of righteousness which **we had done**." He does not deny that believers do good works. He denies that those works saved them. Good works are the fruit of transformation, not its root. Ephesians 2:8–10 says it plainly: saved by grace through faith, created in Christ Jesus **unto** good works — good works prepared beforehand for you to walk in, not to earn your standing.
 
-Here is the contrast: the wage-earner works to be paid; the heir works from sonship. The wage-earner fears the boss will withhold payment; the heir trusts the Father has already provided. Your transformation is an heir's gift, not a wage-earner's pay.
+Set them side by side and the gap shows. The wage-earner works to be paid; the heir works from sonship. The wage-earner fears the boss will withhold payment; the heir trusts the Father has already provided. Your transformation is an heir's gift, not a wage-earner's pay.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **Ephesians 2:8–10** — "For by grace are ye saved through faith; and that not of yourselves: it is the gift of God: not of works, lest any man should boast." Paul calls salvation a gift twice — grace and gift — to leave no room for boasting. You are God's workmanship, created in Christ unto good works.
 - **Ezekiel 36:26** — "A new heart also will I give you, and a new spirit will I put within you: and I will take away the stony heart out of your flesh, and I will give you an heart of flesh." The prophet shows the pattern Paul fulfils: God gives the new heart; man does not manufacture it.

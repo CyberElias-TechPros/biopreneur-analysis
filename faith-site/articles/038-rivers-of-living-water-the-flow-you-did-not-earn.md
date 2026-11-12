@@ -67,15 +67,25 @@ The condition is not striving but believing: "He that believeth on me." And Jesu
 
 Think of a tap connected to a municipal main. The tap does not generate water; it opens to a supply that is already flowing. Your job is not to produce the river; it is to stay connected and open. Dryness is usually a connection problem, not a production problem.
 
-## Why Effort Cannot Substitute for Drinking
+### Why Effort Cannot Substitute for Drinking
 
 Effort can produce activity, but it cannot produce life. You can preach, serve, and organise without drinking — and you will eventually run dry while appearing productive. Jesus' invitation is addressed to the thirsty, which means acknowledging thirst is part of receiving the supply.
 
 **Isaiah 55:1** makes the same offer centuries earlier: "Ho, every one that thirsteth, come ye to the waters... come, buy wine and milk without money and without price." The flow is not for sale, and it is not earned. It is received.
 
-Here is the contrast: the reservoir life asks, "How much do I have left?" The river life asks, "Am I still connected?" One measures depletion; the other maintains fellowship.
+Trace the difference to its root: The reservoir life asks, "How much do I have left?" The river life asks, "Am I still connected?" One measures depletion; the other maintains fellowship.
 
-## The Word Says the Same Thing From Three Directions
+### The River Has a Direction
+
+Ezekiel's vision is unusually specific about geography: the water flows "out from under the threshold of the house eastward" (Ezekiel 47:1), and the prophet is led out until the water is ankle-deep, then knee-deep, then to the loins, then "a river that I could not pass over" (Ezekiel 47:5).
+
+Two details reward attention. First, the river flows *from* the house of God *toward* the dead places — "these waters issue out toward the east country, and go down into the desert, and go into the sea: which being brought forth into the sea, the waters shall be healed" (Ezekiel 47:8). The flow is not for the sanctuary's comfort. It is for the desert's recovery.
+
+Second, the river deepens with distance. At the source it is a trickle; a thousand cubits out it is unfordable. That is the opposite of how most of us expect supply to behave, and it tells you something about the Spirit's intent: He is not maintaining a puddle. He is building a flood.
+
+Which raises a question worth sitting with. If the river is meant to deepen as it moves, what does it say about a believer whose flow has narrowed year after year?
+
+### The Word Says the Same Thing From Three Directions
 
 - **John 4:14** — "Whosoever drinketh of the water that I shall give him shall never thirst; but the water that I shall give him shall be in him a well of water springing up into everlasting life." Jesus moves from well to springing — the supply is internal and rising.
 - **Ezekiel 47:1–9** — Water flows from the temple, deepening as it goes — ankle-deep, knee-deep, waist-deep, then a river that brings life wherever it goes. God's flow increases with distance from the source, not with effort at the source.

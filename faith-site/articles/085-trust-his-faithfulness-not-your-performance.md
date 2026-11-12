@@ -57,7 +57,7 @@ Jeremiah wrote these lines while sitting in the rubble of a burned city. Lamenta
 
 "They are new every morning: great is thy faithfulness" (Lamentations 3:23). Here is the central truth of this teaching: **your confidence was never meant to rest on how well you are doing but on how unchangeably faithful He is — and that is what makes sustained obedience possible.**
 
-## The Basis Jeremiah Names
+### The Basis Jeremiah Names
 
 Notice the reason given for hope: "It is of the LORD's mercies that we are not consumed" (Lamentations 3:22). Not Israel's improvement. Not the nation's repentance. The mercy of God and the fact that His compassions fail not.
 
@@ -77,7 +77,7 @@ That is not faith in God; it is faith in a spreadsheet. And a spreadsheet cannot
 
 Look at what Paul says about his own striving: "But by the grace of God I am what I am: and his grace which was bestowed upon me was not in vain; but I laboured more abundantly than they all: yet not I, but the grace of God which was with me" (1 Corinthians 15:10). Effort, yes — enormous effort. But the engine is grace.
 
-## Why His Faithfulness Can Carry It
+### Why His Faithfulness Can Carry It
 
 "He cannot deny himself" (2 Timothy 2:13). "God is faithful, by whom ye were called unto the fellowship of his Son" (1 Corinthians 1:9). "Faithful is he that calleth you, who also will do it" (1 Thessalonians 5:24).
 
@@ -85,9 +85,9 @@ The logic is consistent: His faithfulness is anchored in His own nature, not in 
 
 Have you ever noticed that the Bible never once says "great is your consistency"? It says great is His faithfulness. What would change if you stopped auditioning and started resting?
 
-## Two Kinds of Fear
+### Two Kinds of Fear
 
-Here is the contrast: the performance-driven believer fears falling short of acceptance; the faith-driven believer fears grieving a Father who has already accepted him. Both are concerned about holiness — but only one of them can obey without dread.
+Note where the two part company: The performance-driven believer fears falling short of acceptance; the faith-driven believer fears grieving a Father who has already accepted him. Both are concerned about holiness — but only one of them can obey without dread.
 
 "Perfect love casteth out fear" (1 John 4:18). Casting out fear is not the same as casting out reverence.
 
@@ -95,7 +95,7 @@ There is a deep pastoral consequence to this. A believer who thinks God's dispos
 
 Grace removes both pressures at once. You can be honest about a bad week, because a bad week does not change your standing.
 
-## What Rest Looks Like in Practice
+## What This Means for You
 
 - **Confess quickly instead of hiding.** "If we confess our sins, he is faithful and just" (1 John 1:9). The faithfulness is His, and it is the grounds for your return.
 - **Do the work without monitoring yourself.** Obedience is a direction, not a performance review.

@@ -65,15 +65,15 @@ Notice the condition: "even to them that **believe on his name**." The name of J
 
 Think of a marriage certificate that changes a surname. The person does not merely act like a spouse; legally, she carries the family name, with all its rights and responsibilities. Your new birth did something greater: it gave you God's family name in Christ. Wherever you go — home, work, market, hospital — you carry that name. It opens doors that talent cannot open and closes doors that shame once opened.
 
-## The Honour and Inheritance of the Name
+### The Honour and Inheritance of the Name
 
 A family name carries honour. To bear God's name means your conduct reflects His character: truth, love, integrity, and mercy. What could be more worthy of your days than representing a Father whose name is love itself? It also carries inheritance. **The Inheritance of the Believer** — the covenantal estate that belongs to every child of God in Christ — includes forgiveness, acceptance, sonship, supply, and eternal life. Romans 8:17 calls you "heirs of God, and joint-heirs with Christ." Heirs do not beg for scraps; they receive an estate.
 
 This is **the New Creation** — the brand-new spiritual person God made in Christ — now bearing the family name. The new creation is not an anonymous convert; it is a named child. Heaven knows you by your new name in Christ, not merely by your old record.
 
-Here is the contrast: the stranger visits the house; the child carries the name. The stranger hopes to be tolerated; the child knows he belongs. The stranger protects his reputation; the child protects the family honour. Same house. Entirely different standing.
+Here the two diverge. The stranger visits the house; the child carries the name. The stranger hopes to be tolerated; the child knows he belongs. The stranger protects his reputation; the child protects the family honour. Same house. Entirely different standing.
 
-## The Word Says the Same Thing From Three Directions
+### The Word Says the Same Thing From Three Directions
 
 - **1 John 3:1** — "Behold, what manner of love the Father hath bestowed upon us, that we should be called the sons of God: and so we are." John moves from called to actual: called God's children — and so you are. The name is present reality, not future hope.
 - **Galatians 3:26** — "For ye are all the children of God by faith in Christ Jesus." Paul confirms the family status is by faith in Christ: all who believe carry the name. No one is a second-class child in Christ.

@@ -157,8 +157,11 @@ def main():
 
         body_words = count_words(reader_part)
         prose_words = count_words(prose_only)
-        if body_words < 900:
-            errors.append(f"body words {body_words} < 900 floor")
+        # The 900-word floor applies to TEACHING PROSE — the body before
+        # <!-- END-PROSE -->. The closing reaffirmation/declaration/further-study
+        # block is fixed furniture and must never be counted toward the floor.
+        if prose_words < 900:
+            errors.append(f"prose words {prose_words} < 900 floor")
 
         seo_len = len(fm.get("seoTitle", ""))
         if not (25 <= seo_len <= 60):
@@ -179,6 +182,25 @@ def main():
         h2s = re.findall(r"^##\s+(.+)$", prose_only, flags=re.M)
         if len(h2s) < 3:
             errors.append(f"H2 count {len(h2s)} < 3")
+        if len(h2s) > 3:
+            errors.append(f"H2 count {len(h2s)} > 3 (Standard allows 0-3; demote extras to H3)")
+
+        if not re.search(r"^##\s+What This Means for You", prose_only, flags=re.M):
+            errors.append("missing required '## What This Means for You' section")
+
+        if "here is the contrast:" in prose_only.lower():
+            errors.append("template tic 'Here is the contrast:' — rewrite the contrast")
+
+        # "Bold anchors" (Section 8) are bolded STATEMENTS carrying the revelation,
+        # not inline emphasis of a single word inside a quoted verse. Count only
+        # bold spans of 5+ words, which is the length at which a phrase becomes an anchor.
+        bold_anchors = sum(
+            1
+            for sp in re.findall(r"\*\*((?:[^*]|\*(?!\*))+)\*\*", prose_only)
+            if len(sp.split()) >= 5
+        )
+        if not (4 <= bold_anchors <= 14):
+            errors.append(f"bold anchors {bold_anchors} outside 4..14")
 
         low = prose_only.lower()
         for bp in BANNED_PHRASES:
@@ -226,14 +248,14 @@ def main():
         if errors:
             failures += 1
         print(
-            f"{fname[:46]:46s} | {body_words:5d} | {seo_len:3d} | {meta_len:4d} | {decl_words:4d} | {q_count:2d} | {len(h2s):2d} | {status}"
+            f"{fname[:46]:46s} | {prose_words:5d} | {seo_len:3d} | {meta_len:4d} | {decl_words:4d} | {q_count:2d} | {len(h2s):2d} | {status}"
         )
 
     print("-" * len(header))
     if failures:
         print(f"\nFAILED: {failures} article(s) had audit errors.")
         sys.exit(1)
-    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, length, voice, link-integrity, glossary, category, and compliance check.")
+    print(f"\nSUCCESS: All {len(files)} article(s) passed every SEO, prose-length, structure, voice, link-integrity, glossary, category, and compliance check.")
 
 
 if __name__ == "__main__":

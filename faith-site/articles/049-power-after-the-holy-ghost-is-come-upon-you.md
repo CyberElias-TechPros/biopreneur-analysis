@@ -67,15 +67,25 @@ Notice the geographical expansion: Jerusalem, Judaea, Samaria, uttermost parts. 
 
 Think of a power station and a grid. The station does not generate electricity for its own satisfaction; the current flows along lines to homes and businesses. If the lines are cut, the power has nowhere to go. The Spirit's power in you is meant to flow along the lines of relationship, speech, and service to people who need Jesus.
 
-## Boldness, Not Spectacle
+### Boldness, Not Spectacle
 
 Read Acts and you find the earliest evidence of this power was boldness. In Acts 4:31, after prayer, "they were all filled with the Holy Ghost, and they spake the word of God with boldness." In Acts 4:33, "with great power gave the apostles witness of the resurrection of the Lord Jesus."
 
 Boldness is unspectacular but undeniable. It is the courage to speak when silence is safer, to stand when compromise is easier, and to keep speaking after opposition. Miracles accompanied the apostolic witness — and still can — but the primary evidence of power was a church that would not stop talking about Jesus.
 
-Here is the contrast: power pursued for display produces spiritual theatre; power received for witness produces transformed courage. One draws attention to the vessel; the other draws attention to Christ.
+Here the two diverge. Power pursued for display produces spiritual theatre; power received for witness produces transformed courage. One draws attention to the vessel; the other draws attention to Christ.
 
-## The Word Says the Same Thing From Three Directions
+### Power Is for a Purpose You Did Not Choose
+
+The disciples asked a question about timing and received an answer about assignment: "Lord, wilt thou at this time restore again the kingdom to Israel? And he said unto them, It is not for you to know the times or the seasons... But ye shall receive power, after that the Holy Ghost is come upon you: and ye shall be witnesses unto me" (Acts 1:6–8).
+
+They wanted a crown; He gave them a commission. And the power was tied to the commission, not to their curiosity.
+
+Acts 4 shows what that looks like once it is working: "And with great power gave the apostles witness of the resurrection of the Lord Jesus: and great grace was upon them all" (Acts 4:33). Power, witness, grace — the three travel together. Where power is severed from witness it curdles into performance.
+
+Luke's Gospel gives the same shape at the end: "that repentance and remission of sins should be preached in his name among all nations... And ye are witnesses of these things" (Luke 24:47–48). The Spirit's power is not a personal upgrade. It is an equipment for a message.
+
+### The Word Says the Same Thing From Three Directions
 
 - **Luke 24:48–49** — "And ye are witnesses of these things. And, behold, I send the promise of my Father upon you: but tarry ye in the city of Jerusalem, until ye be endued with power from on high." Jesus links witness and power directly, and tells them to wait for it.
 - **2 Timothy 1:7** — "For God hath not given us the spirit of fear; but of power, and of love, and of a sound mind." Power, love, and a sound mind together: power without love is harsh, and power without soundness is reckless.
