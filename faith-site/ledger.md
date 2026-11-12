@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–133 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–134 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -176,6 +176,7 @@
 | 131 | M5·D131 | Promises Are Provisions, Not Decorations | `/promises-are-provisions-not-decorations/` | The Word | 2 Pet 1:4 | 1,081 | 40c / 147c | 20/20 ✔ | 2027-03-12 |
 | 132 | M5·D132 | The Entrance of the Word Gives Light | `/the-entrance-of-the-word-gives-light/` | The Word | Ps 119:130 | 1,036 | 36c / 146c | 20/20 ✔ | 2027-03-13 |
 | 133 | M5·D133 | Quick and Powerful: The Word That Reads You | `/quick-and-powerful-the-word-that-reads-you/` | The Word | Heb 4:12 | 1,234 | 43c / 155c | 20/20 ✔ | 2027-03-14 |
+| 134 | M5·D134 | Broken Cisterns and the Fountain of the Word | `/broken-cisterns-and-the-fountain-of-the-word/` | The Word | Jer 2:13 | 1,068 | 44c / 156c | 20/20 ✔ | 2027-03-15 |
 
 ---
 
