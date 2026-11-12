@@ -73,7 +73,7 @@ Effort can produce activity, but it cannot produce life. You can preach, serve, 
 
 **Isaiah 55:1** makes the same offer centuries earlier: "Ho, every one that thirsteth, come ye to the waters... come, buy wine and milk without money and without price." The flow is not for sale, and it is not earned. It is received.
 
-Trace the difference to its root: The reservoir life asks, "How much do I have left?" The river life asks, "Am I still connected?" One measures depletion; the other maintains fellowship.
+Trace the difference to its root: the reservoir life asks, "How much do I have left?" The river life asks, "Am I still connected?" One measures depletion; the other maintains fellowship.
 
 ### The River Has a Direction
 
