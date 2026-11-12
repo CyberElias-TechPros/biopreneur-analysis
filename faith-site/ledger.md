@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–123 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–124 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -166,6 +166,7 @@
 | 121 | M5·D121 | The Word Is Alive — and It Knows You | `/the-word-is-alive-and-it-knows-you/` | The Word | Heb 4:12 | 1,174 | 36c / 148c | 20/20 ✔ | 2027-03-02 |
 | 122 | M5·D122 | God-Breathed and God-Relevant: Why All Scripture Works | `/god-breathed-and-god-relevant/` | The Word | 2 Tim 3:16–17 | 1,226 | 54c / 145c | 20/20 ✔ | 2027-03-03 |
 | 123 | M5·D123 | Feed on the Word, Not on the News | `/feed-on-the-word-not-on-the-news/` | The Word | Jer 15:16 | 1,093 | 33c / 149c | 20/20 ✔ | 2027-03-04 |
+| 124 | M5·D124 | The Word Has No Sunset Clause | `/the-word-has-no-sunset-clause/` | The Word | Matt 24:35 | 1,111 | 29c / 143c | 20/20 ✔ | 2027-03-05 |
 
 ---
 
