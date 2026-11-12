@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–128 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–129 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -171,6 +171,7 @@
 | 126 | M5·D126 | The Engrafted Word That Saves Your Soul | `/the-engrafted-word-that-saves-your-soul/` | The Word | Jas 1:21 | 1,212 | 39c / 151c | 20/20 ✔ | 2027-03-07 |
 | 127 | M5·D127 | A Lamp to My Path: Direction for the Next Step | `/a-lamp-to-my-path-direction-for-the-next-step/` | The Word | Ps 119:105 | 1,111 | 46c / 143c | 20/20 ✔ | 2027-03-08 |
 | 128 | M5·D128 | Study to Show Yourself Approved | `/study-to-show-yourself-approved/` | The Word | 2 Tim 2:15 | 1,116 | 40c / 158c | 20/20 ✔ | 2027-03-09 |
+| 129 | M5·D129 | Let the Word Dwell in You Richly | `/let-the-word-dwell-in-you-richly/` | The Word | Col 3:16 | 1,086 | 32c / 149c | 20/20 ✔ | 2027-03-10 |
 
 ---
 
