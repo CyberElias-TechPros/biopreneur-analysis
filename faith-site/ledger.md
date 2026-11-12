@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–260 Live — Month 9 In Progress)
+## 2. Published Articles Ledger (Days 001–264 Live — Month 9 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -303,6 +303,10 @@
 | 258 | M9·D258 | Holiness Is Harvested From Identity | `/holiness-is-harvested-from-identity/` | Righteousness & Grace | 1 Pet 1:15 | 1,009 | 35c / 149c | 20/20 ✔ | 2027-07-17 |
 | 259 | M9·D259 | The Blood Speaks Better Things | `/the-blood-speaks-better-things/` | Righteousness & Grace | Heb 12:24 | 1,021 | 30c / 140c | 20/20 ✔ | 2027-07-18 |
 | 260 | M9·D260 | Cleansed Once, Cleansed Continuously | `/cleansed-once-cleansed-continuously/` | Righteousness & Grace | 1 John 1:7 | 983 | 36c / 143c | 20/20 ✔ | 2027-07-19 |
+| 261 | M9·D261 | Right Living Flows From Right Thinking | `/right-living-flows-from-right-thinking/` | Righteousness & Grace | Rom 12:2 | 1,018 | 38c / 147c | 20/20 ✔ | 2027-07-20 |
+| 262 | M9·D262 | Sin Shall Not Have Dominion Over You | `/sin-shall-not-have-dominion-over-you/` | Righteousness & Grace | Rom 6:14 | 1,062 | 36c / 153c | 20/20 ✔ | 2027-07-21 |
+| 263 | M9·D263 | The Liberated Conscience | `/the-liberated-conscience/` | Righteousness & Grace | Heb 9:14 | 938 | 43c / 141c | 20/20 ✔ | 2027-07-22 |
+| 264 | M9·D264 | Confidence Before God Is Your Birthright | `/confidence-before-god-is-your-birthright/` | Righteousness & Grace | Heb 10:19 | 973 | 40c / 153c | 20/20 ✔ | 2027-07-23 |
 
 ---
 
