@@ -49,7 +49,7 @@
 - ✔ D1. Month 1 (Jan arc — New-Creation Foundations): **COMPLETE — 31 articles live (~30,000 words of teaching prose), 31/31 passing 18/18 audit**
 - ✔ D2. Month 2 (Feb — Holy Spirit): **COMPLETE — 28 articles live (Days 032–059)**, all passing 18/18 audit
 - ✔ D3. Month 3 (Mar — Faith): **Complete — Days 060–090 live (31/31)**. Month 4 (Authority of the Believer) is next
-- ☐ D4. Month 4 (Apr — Authority): 30
+- ✔ D4. Month 4 (Apr — Authority): **Complete — Days 091–120 live (30/30)**, all passing 20/20 audit
 - ☐ D5. Month 5 (May — The Word): 31
 - ☐ D6. Month 6 (Jun — Prayer): 30
 - ☐ D7. Month 7 (Jul — Divine Health): 31 (apply faith-and-wisdom line + medical disclaimer discipline)
@@ -60,8 +60,8 @@
 - ☐ D12. Month 12 (Dec — Incarnation & Return): 31
 - ✔ D13. Self-audit + SEO pack + ledger update workflow active (`faith-site/scripts/audit_articles.py` + `faith-site/ledger.md`)
 - ✔ D14b. **Rows 14 and 5 now measured, not asserted.** Every article carries the faith-and-wisdom line (§12 row 14) and at least two explicit contrast pairs (§2 Law 4); `audit_articles.py` fails on either if absent. Nine articles whose numbered applications were collapsing into one paragraph in the rendered HTML are fixed and verified in `dist/`.
-- ✔ D14a. **Prose floor verified on the correct measure.** All 97 articles ≥900 words of *teaching prose* (min 902, median 998, max 1,139) with the closing reaffirmation/declaration block excluded from the count; Standard's 0–3 H2 limit and the required "What This Means for You" section enforced by `audit_articles.py`.
-- ✔ D14. Internal-link discipline: all 97 articles interlinked with 0 broken links across all 118 built pages (0 dangling related-teaching slugs, 0 invalid categories or glossary terms)
+- ✔ D14a. **Prose floor verified on the correct measure.** All 120 articles ≥900 words of *teaching prose* (min 902, median 998, max 1,139) with the closing reaffirmation/declaration block excluded from the count; Standard's 0–3 H2 limit and the required "What This Means for You" section enforced by `audit_articles.py`.
+- ✔ D14. Internal-link discipline: all 120 articles interlinked with 0 broken links across all 141 built pages (0 dangling related-teaching slugs, 0 invalid categories or glossary terms)
 - ✔ D15. Launch minimum: **97 live articles** (floor 50 cleared with buffer)
 - ☐ D16. Extend beyond year 1: re-run `TOPIC ENGINE` with ledger + new seed themes
 
@@ -84,7 +84,7 @@
 - ✔ F5. Visibility note: repo is **public** (note: consider removing `rhapsody_extract.txt` + scratch files from public tracking if keeping repo public)
 
 ## NEXT SPRINT (immediate next actions)
-1. **D3 (Month 4):** Continue Month 4 Days `098`–`120` (*The Authority of the Believer*)
+1. **D5 (Month 5):** Begin Month 5 Days `121`–`151` (*The Word: God's Functional Manual*)
 2. **D1 review:** Month 1 arc complete (31/31 live); spot-check internal handoffs and category spread before AdSense submission
 3. **C2 / C8:** Deploy `faith-site/` to Vercel and attach custom domain when chosen
 4. **E2 / E3:** Enable `PUBLIC_ADSENSE_LIVE=true` and run the 15-factor pre-application audit (50-article floor now met)
