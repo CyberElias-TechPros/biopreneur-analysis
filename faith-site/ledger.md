@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–323 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–327 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -366,6 +366,10 @@
 | 321 | M11·D321 | The Supernatural Without Spectacle | `/the-supernatural-without-spectacle/` | Christian Living | 1 Kgs 19:12 | 917 | 34c / 158c | 20/20 ✔ | 2027-09-18 |
 | 322 | M11·D322 | Your First Seat Is the Presence | `/your-first-seat-is-the-presence/` | Christian Living | Luke 10:42 | 955 | 31c / 148c | 20/20 ✔ | 2027-09-19 |
 | 323 | M11·D323 | When Kings Seek the Joseph in You | `/when-kings-seek-the-joseph-in-you/` | Christian Living | Gen 41:38 | 978 | 33c / 144c | 20/20 ✔ | 2027-09-20 |
+| 324 | M11·D324 | Honor Unlocks the Flow | `/honor-unlocks-the-flow/` | Christian Living | Matt 13:58 | 948 | 29c / 143c | 20/20 ✔ | 2027-09-21 |
+| 325 | M11·D325 | The Ministry of Encouragement | `/the-ministry-of-encouragement/` | Christian Living | Acts 11:23 | 975 | 29c / 155c | 20/20 ✔ | 2027-09-22 |
+| 326 | M11·D326 | Hospitality as High Worship | `/hospitality-as-high-worship/` | Christian Living | Heb 13:2 | 981 | 27c / 150c | 20/20 ✔ | 2027-09-23 |
+| 327 | M11·D327 | The Secret Power of a Thankful Heart | `/the-secret-power-of-a-thankful-heart/` | Christian Living | Phil 4:6 | 979 | 36c / 154c | 20/20 ✔ | 2027-09-24 |
 
 ---
 
