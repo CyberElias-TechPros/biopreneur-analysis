@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–126 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–127 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -169,6 +169,7 @@
 | 124 | M5·D124 | The Word Has No Sunset Clause | `/the-word-has-no-sunset-clause/` | The Word | Matt 24:35 | 1,111 | 29c / 143c | 20/20 ✔ | 2027-03-05 |
 | 125 | M5·D125 | Meditation: Chewing the Word Until It Becomes You | `/meditation-chewing-the-word-until-it-becomes-you/` | The Word | Josh 1:8 | 1,180 | 49c / 141c | 20/20 ✔ | 2027-03-06 |
 | 126 | M5·D126 | The Engrafted Word That Saves Your Soul | `/the-engrafted-word-that-saves-your-soul/` | The Word | Jas 1:21 | 1,212 | 39c / 151c | 20/20 ✔ | 2027-03-07 |
+| 127 | M5·D127 | A Lamp to My Path: Direction for the Next Step | `/a-lamp-to-my-path-direction-for-the-next-step/` | The Word | Ps 119:105 | 1,111 | 46c / 143c | 20/20 ✔ | 2027-03-08 |
 
 ---
 
