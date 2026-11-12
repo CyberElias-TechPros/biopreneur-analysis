@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–212 Live — Months 1–7 Complete)
+## 2. Published Articles Ledger (Days 001–223 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -255,6 +255,17 @@
 | 210 | M7·D210 | Healing Streams: Life Where the River Comes | `/healing-streams-life-where-the-river-comes/` | Divine Health | Ezek 47:9 | 988 | 43c / 143c | 20/20 ✔ | 2027-05-30 |
 | 211 | M7·D211 | A Healing Culture Begins at Home | `/a-healing-culture-begins-at-home/` | Divine Health | Prov 14:1 | 1,068 | 32c / 157c | 20/20 ✔ | 2027-05-31 |
 | 212 | M7·D212 | Whole and Holy: The Same Word in Two Directions | `/whole-and-holy-the-same-word-in-two-directions/` | Divine Health | 1 Thess 5:23 | 1,061 | 47c / 150c | 20/20 ✔ | 2027-06-01 |
+| 213 | M8·D213 | Prosperity Is Progressive | `/prosperity-is-progressive/` | Prosperity & Stewardship | Prov 4:18 | 1,075 | 25c / 142c | 20/20 ✔ | 2027-06-02 |
+| 214 | M8·D214 | The Blessing That Adds No Sorrow | `/the-blessing-that-adds-no-sorrow/` | Prosperity & Stewardship | Prov 10:22 | 1,033 | 32c / 144c | 20/20 ✔ | 2027-06-03 |
+| 215 | M8·D215 | Wealth With a Purpose: Covenant Distribution | `/wealth-with-a-purpose-covenant-distribution/` | Prosperity & Stewardship | 2 Cor 9:8 | 1,081 | 44c / 150c | 20/20 ✔ | 2027-06-04 |
+| 216 | M8·D216 | Tithing Teaches the Heart | `/tithing-teaches-the-heart/` | Prosperity & Stewardship | Matt 6:21 | 941 | 25c / 144c | 20/20 ✔ | 2027-06-05 |
+| 217 | M8·D217 | The Tithe as Testimony of Priority | `/the-tithe-as-testimony-of-priority/` | Prosperity & Stewardship | Matt 6:33 | 1,109 | 34c / 158c | 20/20 ✔ | 2027-06-06 |
+| 218 | M8·D218 | Sowing and Reaping: A Law Without Favorites | `/sowing-and-reaping-a-law-without-favorites/` | Prosperity & Stewardship | Gal 6:7 | 1,024 | 43c / 147c | 20/20 ✔ | 2027-06-07 |
+| 219 | M8·D219 | Giving Is Grace, Not Pressure | `/giving-is-grace-not-pressure/` | Prosperity & Stewardship | 2 Cor 8:7 | 1,132 | 29c / 146c | 20/20 ✔ | 2027-06-08 |
+| 220 | M8·D220 | God Gives Seed to the Sower | `/god-gives-seed-to-the-sower/` | Prosperity & Stewardship | 2 Cor 9:10 | 1008 | 27c / 142c | 20/20 ✔ | 2027-06-09 |
+| 221 | M8·D221 | Stewardship: You Manage, He Owns | `/stewardship-you-manage-he-owns/` | Prosperity & Stewardship | Ps 24:1 | 1,025 | 32c / 146c | 20/20 ✔ | 2027-06-10 |
+| 222 | M8·D222 | First Fruits Honour First Things | `/first-fruits-honour-first-things/` | Prosperity & Stewardship | Prov 3:9 | 939 | 32c / 149c | 20/20 ✔ | 2027-06-11 |
+| 223 | M8·D223 | The Hand of the Diligent Rules | `/the-hand-of-the-diligent-rules/` | Prosperity & Stewardship | Prov 12:24 | 1,057 | 30c / 142c | 20/20 ✔ | 2027-06-12 |
 
 ---
 
