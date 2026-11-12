@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–341 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–343 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -384,6 +384,8 @@
 | 339 | M12·D339 | He Emptied Himself to Fill You | `/he-emptied-himself-to-fill-you/` | Redemption & His Return | Phil 2:7 | 1,043 | 30c / 154c | 20/20 ✔ | 2027-10-06 |
 | 340 | M12·D340 | The Light Shines in Darkness — Still | `/the-light-shines-in-darkness-still/` | Redemption & His Return | John 1:5 | 1,112 | 36c / 150c | 20/20 ✔ | 2027-10-07 |
 | 341 | M12·D341 | Born to Die, Raised to Reign | `/born-to-die-raised-to-reign/` | Redemption & His Return | Rom 14:9 | 1,099 | 28c / 142c | 20/20 ✔ | 2027-10-08 |
+| 342 | M12·D342 | The Gift Behind All Gifts | `/the-gift-behind-all-gifts/` | Redemption & His Return | James 1:17 | 990 | 25c / 148c | 20/20 ✔ | 2027-10-09 |
+| 343 | M12·D343 | Shepherds and Stars: Heaven's Publicity | `/shepherds-and-stars-heavens-publicity/` | Redemption & His Return | Luke 2:8 | 962 | 39c / 150c | 20/20 ✔ | 2027-10-10 |
 
 ---
 
