@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–219 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–220 Live — Months 1–7 Complete, Month 8 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -262,6 +262,7 @@
 | 217 | M8·D217 | The Tithe as Testimony of Priority | `/the-tithe-as-testimony-of-priority/` | Prosperity & Stewardship | Matt 6:33 | 1,109 | 34c / 158c | 20/20 ✔ | 2027-06-06 |
 | 218 | M8·D218 | Sowing and Reaping: A Law Without Favorites | `/sowing-and-reaping-a-law-without-favorites/` | Prosperity & Stewardship | Gal 6:7 | 1,024 | 43c / 147c | 20/20 ✔ | 2027-06-07 |
 | 219 | M8·D219 | Giving Is Grace, Not Pressure | `/giving-is-grace-not-pressure/` | Prosperity & Stewardship | 2 Cor 8:7 | 1,132 | 29c / 146c | 20/20 ✔ | 2027-06-08 |
+| 220 | M8·D220 | God Gives Seed to the Sower | `/god-gives-seed-to-the-sower/` | Prosperity & Stewardship | 2 Cor 9:10 | 1008 | 27c / 142c | 20/20 ✔ | 2027-06-09 |
 
 ---
 
