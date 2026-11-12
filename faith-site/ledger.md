@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–250 Live — Month 9 In Progress)
+## 2. Published Articles Ledger (Days 001–251 Live — Month 9 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -293,6 +293,7 @@
 | 248 | M9·D248 | Guilt Is a Debt Already Paid | `/guilt-is-a-debt-already-paid/` | Righteousness & Grace | Matt 6:12 | 1,078 | 28c / 146c | 20/20 ✔ | 2027-07-07 |
 | 249 | M9·D249 | Stand in the Liberty — Do Not Re-Enslave Yourself | `/stand-in-the-liberty-do-not-re-enslave-yourself/` | Righteousness & Grace | Gal 5:1 | 1,204 | 36c / 141c | 20/20 ✔ | 2027-07-08 |
 | 250 | M9·D250 | The Gift of Righteousness Reigns | `/the-gift-of-righteousness-reigns/` | Righteousness & Grace | Rom 5:17 | 1,166 | 32c / 144c | 20/20 ✔ | 2027-07-09 |
+| 251 | M9·D251 | Condemnation Speaks; Righteousness Answers | `/condemnation-speaks-righteousness-answers/` | Righteousness & Grace | Rev 12:10 | 1,144 | 42c / 144c | 20/20 ✔ | 2027-07-10 |
 
 ---
 
