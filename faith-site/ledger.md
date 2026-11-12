@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–178 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–179 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -221,6 +221,7 @@
 | 176 | M6·D176 | The Spirit Prays When Words Run Out | `/the-spirit-prays-when-words-run-out/` | Prayer & Fasting | Rom 8:26 | 1,449 | 36c / 145c | 20/20 ✔ | 2027-04-26 |
 | 177 | M6·D177 | Family Altars and Generational Coverings | `/family-altars-and-generational-coverings/` | Prayer & Fasting | Josh 24:15 | 1,449 | 40c / 146c | 20/20 ✔ | 2027-04-27 |
 | 178 | M6·D178 | Praying the Word Is Praying His Will | `/praying-the-word-is-praying-his-will/` | Prayer & Fasting | 1 John 5:14–15 | 1,601 | 36c / 149c | 20/20 ✔ | 2027-04-28 |
+| 179 | M6·D179 | The Prayer of Dedication: Saying Yes to His Plan | `/the-prayer-of-dedication-saying-yes/` | Prayer & Fasting | Rom 12:1 | 1,418 | 36c / 148c | 20/20 ✔ | 2027-04-29 |
 
 ---
 
