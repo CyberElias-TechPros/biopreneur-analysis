@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–283 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–300 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -326,6 +326,23 @@
 | 281 | M10·D281 | The Battle Is in the Mind First | `/the-battle-is-in-the-mind-first/` | Spiritual Warfare | 2 Cor 10:3 | 950 | 31c / 149c | 20/20 ✔ | 2027-08-09 |
 | 282 | M10·D282 | Covenant Covering: What Darkness Cannot Cancel | `/covenant-covering-what-darkness-cannot-cancel/` | Spiritual Warfare | Exod 12:13 | 928 | 46c / 145c | 20/20 ✔ | 2027-08-10 |
 | 283 | M10·D283 | Strongholds Are Thought-Structures | `/strongholds-are-thought-structures/` | Spiritual Warfare | 2 Cor 10:5 | 931 | 34c / 143c | 20/20 ✔ | 2027-08-11 |
+| 284 | M10·D284 | The Blood on the Doorposts Still Works | `/the-blood-on-the-doorposts-still-works/` | Spiritual Warfare | Heb 11:28 | 985 | 38c / 145c | 20/20 ✔ | 2027-08-12 |
+| 285 | M10·D285 | Angelic Assistance Answers the Word | `/angelic-assistance-answers-the-word/` | Spiritual Warfare | Ps 103:20 | 927 | 35c / 158c | 20/20 ✔ | 2027-08-13 |
+| 286 | M10·D286 | Foundations Speak: Breaking Generational Patterns | `/foundations-speak-breaking-generational-patterns/` | Spiritual Warfare | 2 Cor 5:17 | 1,036 | 49c / 153c | 20/20 ✔ | 2027-08-14 |
+| 287 | M10·D287 | The Adversary's Loopholes and How Grace Closes Them | `/the-adversarys-loopholes-and-how-grace-closes-them/` | Spiritual Warfare | Col 2:14 | 943 | 51c / 154c | 20/20 ✔ | 2027-08-15 |
+| 288 | M10·D288 | Vengeance Belongs to God; Victory Belongs to You | `/vengeance-belongs-to-god-victory-belongs-to-you/` | Spiritual Warfare | Rom 12:19 | 928 | 48c / 140c | 20/20 ✔ | 2027-08-16 |
+| 289 | M10·D289 | Offense Opens Gates; Forgiveness Closes Them | `/offense-opens-gates-forgiveness-closes-them/` | Spiritual Warfare | Luke 17:1 | 990 | 44c / 153c | 20/20 ✔ | 2027-08-17 |
+| 290 | M10·D290 | Night Seasons and the God Who Watches | `/night-seasons-and-the-god-who-watches/` | Spiritual Warfare | Ps 121:4 | 1,129 | 37c / 153c | 20/20 ✔ | 2027-08-18 |
+| 291 | M10·D291 | False Light Requires Discernment | `/false-light-requires-discernment/` | Spiritual Warfare | 2 Cor 11:14 | 951 | 32c / 152c | 20/20 ✔ | 2027-08-19 |
+| 292 | M10·D292 | The Trophies of War: Plundering the Enemy's Camp | `/the-trophies-of-war-plundering-the-enemys-camp/` | Spiritual Warfare | 1 Sam 30:18 | 982 | 48c / 158c | 20/20 ✔ | 2027-08-20 |
+| 293 | M10·D293 | When Darkness Surrounds, Declare the Light | `/when-darkness-surrounds-declare-the-light/` | Spiritual Warfare | Gen 1:3 | 991 | 42c / 153c | 20/20 ✔ | 2027-08-21 |
+| 294 | M10·D294 | Covenant Rights the Enemy Cannot Appeal | `/covenant-rights-the-enemy-cannot-appeal/` | Spiritual Warfare | Heb 8:6 | 1,032 | 39c / 153c | 20/20 ✔ | 2027-08-22 |
+| 295 | M10·D295 | The Spirit of Fear Is a Liar | `/the-spirit-of-fear-is-a-liar/` | Spiritual Warfare | 2 Tim 1:7 | 990 | 28c / 143c | 20/20 ✔ | 2027-08-23 |
+| 296 | M10·D296 | Watchmen on the Walls: The Ministry of Watchful Prayer | `/watchmen-on-the-walls-the-ministry-of-watchful-prayer/` | Spiritual Warfare | Isa 62:6 | 925 | 38c / 153c | 20/20 ✔ | 2027-08-24 |
+| 297 | M10·D297 | Prophetic Warnings Protect Destiny | `/prophetic-warnings-protect-destiny/` | Spiritual Warfare | Acts 11:28 | 953 | 34c / 151c | 20/20 ✔ | 2027-08-25 |
+| 298 | M10·D298 | The Enemy's Expired Lease on Your Life | `/the-enemys-expired-lease-on-your-life/` | Spiritual Warfare | Col 2:15 | 923 | 38c / 155c | 20/20 ✔ | 2027-08-26 |
+| 299 | M10·D299 | War in the Heavenlies, Peace in the Heart | `/war-in-the-heavenlies-peace-in-the-heart/` | Spiritual Warfare | Phil 4:7 | 959 | 41c / 147c | 20/20 ✔ | 2027-08-27 |
+| 300 | M10·D300 | Don't Date Defeated Lies | `/dont-date-defeated-lies/` | Spiritual Warfare | 2 Cor 10:5 | 926 | 45c / 147c | 20/20 ✔ | 2027-08-28 |
 
 ---
 
