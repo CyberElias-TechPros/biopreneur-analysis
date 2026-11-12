@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–362 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–363 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -405,6 +405,7 @@
 | 360 | M12·D360 | The Glory of the Only Begotten | `/the-glory-of-the-only-begotten/` | Redemption & His Return | John 1:14 (doxa) | 927 | 30c / 150c | 20/20 ✔ | 2027-10-27 |
 | 361 | M12·D361 | Christmas Is a Decision, Not a Date | `/christmas-is-a-decision-not-a-date/` | Redemption & His Return | John 1:12 | 932 | 35c / 153c | 20/20 ✔ | 2027-10-28 |
 | 362 | M12·D362 | The Blessed Hope: Looking for His Appearing | `/the-blessed-hope-looking-for-his-appearing/` | Redemption & His Return | Titus 2:13 | 923 | 43c / 152c | 20/20 ✔ | 2027-10-29 |
+| 363 | M12·D363 | Come, Lord Jesus: Living Ready | `/come-lord-jesus-living-ready/` | Redemption & His Return | Rev 22:20 | 927 | 30c / 141c | 20/20 ✔ | 2027-10-30 |
 
 ---
 
