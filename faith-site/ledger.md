@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–187 Live — Months 1–6 Complete, Month 7 In Progress)
+## 2. Published Articles Ledger (Days 001–188 Live — Months 1–6 Complete, Month 7 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -230,6 +230,7 @@
 | 185 | M7·D185 | The Body Is for the Lord | `/the-body-is-for-the-lord/` | Divine Health | 1 Cor 6:19–20 | 1,435 | 41c / 144c | 20/20 ✔ | 2027-05-05 |
 | 186 | M7·D186 | Divine Health: The Higher Normal | `/divine-health-the-higher-normal/` | Divine Health | 3 John 2 | 1,411 | 32c / 147c | 20/20 ✔ | 2027-05-06 |
 | 187 | M7·D187 | Faith and Medicine Are Not Enemies | `/faith-and-medicine-are-not-enemies/` | Divine Health | 1 Tim 5:23 | 1,388 | 34c / 147c | 20/20 ✔ | 2027-05-07 |
+| 188 | M7·D188 | Guard Your Heart, Guard Your Health | `/guard-your-heart-guard-your-health/` | Divine Health | Prov 4:23 | 1,452 | 35c / 153c | 20/20 ✔ | 2027-05-08 |
 
 ---
 
