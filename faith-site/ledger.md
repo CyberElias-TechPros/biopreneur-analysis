@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–317 Live — Month 10 In Progress)
+## 2. Published Articles Ledger (Days 001–320 Live — Month 10 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -360,6 +360,9 @@
 | 315 | M11·D315 | The Fragrance of Christ in Ordinary Rooms | `/the-fragrance-of-christ-in-ordinary-rooms/` | Christian Living | 2 Cor 2:15 | 933 | 41c / 149c | 20/20 ✔ | 2027-09-12 |
 | 316 | M11·D316 | Kingdom Culture: Heaven's Etiquette on Earth | `/kingdom-culture-heavens-etiquette-on-earth/` | Christian Living | Matt 6:10 | 957 | 44c / 151c | 20/20 ✔ | 2027-09-13 |
 | 317 | M11·D317 | The Spirit of Might for Monotony | `/the-spirit-of-might-for-monotony/` | Christian Living | Isa 11:2 | 943 | 32c / 141c | 20/20 ✔ | 2027-09-14 |
+| 318 | M11·D318 | Divine Ideas Are Raw Material for Industry | `/divine-ideas-are-raw-material-for-industry/` | Christian Living | Exod 31:3 | 967 | 42c / 148c | 20/20 ✔ | 2027-09-15 |
+| 319 | M11·D319 | Favor Is a Climate, Not a Coincidence | `/favor-is-a-climate-not-a-coincidence/` | Christian Living | Gen 39:21 | 964 | 37c / 152c | 20/20 ✔ | 2027-09-16 |
+| 320 | M11·D320 | The Wisdom From Above Is First Pure | `/the-wisdom-from-above-is-first-pure/` | Christian Living | Jas 3:17 | 984 | 35c / 146c | 20/20 ✔ | 2027-09-17 |
 
 ---
 
