@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–172 Live — Months 1–5 Complete, Month 6 In Progress)
+## 2. Published Articles Ledger (Days 001–173 Live — Months 1–5 Complete, Month 6 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -215,6 +215,7 @@
 | 170 | M6·D170 | Midnight Prayers Move Morning Mountains | `/midnight-prayers-move-morning-mountains/` | Prayer & Fasting | Acts 16:25–26 | 1,379 | 39c / 147c | 20/20 ✔ | 2027-04-20 |
 | 171 | M6·D171 | Praying for Governments: A Kingdom Assignment | `/praying-for-governments-a-kingdom-assignment/` | Prayer & Fasting | 1 Tim 2:1–2 | 1,498 | 39c / 147c | 20/20 ✔ | 2027-04-21 |
 | 172 | M6·D172 | The Prayer of Worship: When Asking Ends | `/the-prayer-of-worship-when-asking-ends/` | Prayer & Fasting | Acts 13:1–2 | 1,412 | 39c / 145c | 20/20 ✔ | 2027-04-22 |
+| 173 | M6·D173 | Confession and Cleansing Restore Fellowship | `/confession-and-cleansing-restore-fellowship/` | Prayer & Fasting | 1 John 1:9 | 1,576 | 43c / 147c | 20/20 ✔ | 2027-04-23 |
 
 ---
 
