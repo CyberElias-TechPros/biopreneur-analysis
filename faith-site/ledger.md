@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–121 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
+## 2. Published Articles Ledger (Days 001–122 Live — Months 1–4 Complete (Months 1–4 Complete, Month 5 In Progress))
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -164,6 +164,7 @@
 | 119 | M4·D119 | Walk Like a King's Child | `/walk-like-a-kings-child/` | Authority of the Believer | 2 Sam 9:7 | 1,187 | 46c / 144c | 20/20 ✔ | 2027-02-28 |
 | 120 | M4·D120 | Occupying Until He Comes: Authority as Stewardship | `/occupying-until-he-comes/` | Authority of the Believer | Luke 19:12–13 | 1,232 | 50c / 150c | 20/20 ✔ | 2027-03-01 |
 | 121 | M5·D121 | The Word Is Alive — and It Knows You | `/the-word-is-alive-and-it-knows-you/` | The Word | Heb 4:12 | 1,174 | 36c / 148c | 20/20 ✔ | 2027-03-02 |
+| 122 | M5·D122 | God-Breathed and God-Relevant: Why All Scripture Works | `/god-breathed-and-god-relevant/` | The Word | 2 Tim 3:16–17 | 1,226 | 54c / 145c | 20/20 ✔ | 2027-03-03 |
 
 ---
 
