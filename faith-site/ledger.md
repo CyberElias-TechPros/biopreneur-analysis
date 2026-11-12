@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–108 Live — Months 1–3 Complete, Month 4 In Progress)
+## 2. Published Articles Ledger (Days 001–109 Live — Months 1–3 Complete, Month 4 In Progress)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -151,6 +151,7 @@
 | 106 | M4·D106 | Under His Feet, Above Your Problems | `/under-his-feet-above-your-problems/` | Authority of the Believer | Eph 1:22 | 1,272 | 35c / 146c | 20/20 ✔ | 2027-02-15 |
 | 107 | M4·D107 | The Armour Is for Standing | `/the-armour-is-for-standing/` | Authority of the Believer | Eph 6:13 | 1,396 | 26c / 150c | 20/20 ✔ | 2027-02-16 |
 | 108 | M4·D108 | Casting Down Imaginations: Authority at Thought Level | `/casting-down-imaginations-authority-at-thought-level/` | Authority of the Believer | 2 Cor 10:5 | 1,390 | 39c / 151c | 20/20 ✔ | 2027-02-17 |
+| 109 | M4·D109 | Wielding the Sword of the Spirit | `/wielding-the-sword-of-the-spirit/` | Authority of the Believer | Eph 6:17 | 1,400 | 30c / 146c | 20/20 ✔ | 2027-02-18 |
 
 ---
 
