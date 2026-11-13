@@ -1,0 +1,41 @@
+{
+  "name": "Live In Jesus Name",
+  "short_name": "LIJN",
+  "description": "Scripture-anchored daily teachings on identity in Christ, read or listened to on any device.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui", "browser"],
+  "orientation": "portrait-primary",
+  "background_color": "#FAF7F0",
+  "theme_color": "#0D1117",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["books", "education", "lifestyle"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today's teaching",
+      "short_name": "Today",
+      "url": "/teachings/",
+      "description": "The full teaching library"
+    },
+    {
+      "name": "The Listening Room",
+      "short_name": "Listen",
+      "url": "/listen/",
+      "description": "Hear any teaching read aloud"
+    },
+    {
+      "name": "Reader community",
+      "short_name": "Community",
+      "url": "/community/",
+      "description": "WhatsApp channel and readers' group"
+    }
+  ]
+}

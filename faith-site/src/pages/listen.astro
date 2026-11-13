@@ -1,0 +1,338 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import ListenRoom from '../components/ListenRoom.astro';
+import { SITE } from '../data/site';
+import { LISTEN_LANGUAGES } from '../data/languages';
+
+const origin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const pageUrl = `${origin}/listen/`;
+
+const articles = (await getCollection('articles'))
+  .filter((a) => a.data.day <= 7)
+  .sort((a, b) => a.data.day - b.data.day);
+
+const latest = [...(await getCollection('articles'))].sort((a, b) => b.data.day - a.data.day)[0];
+
+const listenSchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pageUrl}#listen`,
+    name: `The Listening Room — ${SITE.name}`,
+    description:
+      'Hear every teaching read aloud, in the voice and language you choose. Narration runs on your own device — no download, no account, nothing collected.',
+    url: pageUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${origin}/#website` },
+    about: { '@id': `${origin}/#organization` },
+    potentialAction: {
+      '@type': 'ListenAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${origin}/listen/`,
+      },
+      expectsAcceptanceOf: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${origin}/` },
+      { '@type': 'ListItem', position: 2, name: 'The Listening Room', item: pageUrl },
+    ],
+  },
+];
+
+const steps = [
+  {
+    n: '01',
+    title: 'Open any teaching',
+    body: 'Every one of the 365 teachings carries a Listen control directly under the byline. It is silent until you press play — nothing on this site ever starts speaking on its own.',
+  },
+  {
+    n: '02',
+    title: 'Choose a voice and speed',
+    body: 'Four named voices, from a warm pastoral reading to a slower elder register, each with six speeds. Your choice is remembered across every article you open afterwards.',
+  },
+  {
+    n: '03',
+    title: 'Pick your language',
+    body: 'Thirteen reading languages, starting with English, French, Spanish, Portuguese, Kiswahili, Yorùbá, Igbo, and Hausa. On-device translation is used where your browser supports it; otherwise you are told plainly and offered the original.',
+  },
+  {
+    n: '04',
+    title: 'Follow along, or simply listen',
+    body: 'The section being spoken is marked with a quiet gold hairline so the eye and ear stay together. Skip a section, pause, resume, or stop at any point.',
+  },
+];
+---
+
+<BaseLayout
+  title="The Listening Room — Hear Every Teaching Read Aloud"
+  description="Listen to any of the 365 Scripture teachings in the voice, speed, and language you choose. Narration runs on your own device — free and private."
+  canonicalPath="/listen/"
+  jsonLd={listenSchema}
+>
+  <section class="page-header">
+    <div class="reading-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        The Listening Room
+      </p>
+      <h1>Scripture You Can Hear, in the Voice You Choose</h1>
+      <p style="font-size: 1.12rem; color: var(--ink-soft);">
+        Every teaching on this site can be listened to instead of read. Narration runs on your own device,
+        costs nothing, needs no account, and never begins without you pressing play.
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <section class="reading-container" style="padding-block: clamp(2rem, 4vw, 2.75rem);">
+    <ListenRoom
+      title={latest.data.title}
+      url={`${origin}/${latest.data.slug}/`}
+      slug={latest.data.slug}
+    />
+    <p style="font-size: 0.9rem; color: var(--ink-soft); margin-top: -0.75rem;">
+      This is the live control, reading the most recent teaching
+      (<a href={`/${latest.data.slug}/`}>{latest.data.title}</a>).
+      Voice and speed choices made here follow you to every other teaching.
+    </p>
+  </section>
+
+  <LightLine />
+
+  <section class="swiss-container" style="padding-block: clamp(2.5rem, 5vw, 3.5rem);">
+    <div class="swiss-grid" style="align-items: start;">
+      <div style="grid-column: span 5;">
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">How It Works</p>
+        <h2 style="margin-top: 0;">Four Steps, No Downloads</h2>
+        <p style="color: var(--ink-soft);">
+          The Listening Room is built on the speech engine already inside your browser. That single
+          decision is why it is free, private, and instant.
+        </p>
+        <p style="color: var(--ink-soft); font-size: 0.92rem;">
+          Nothing is uploaded, no voice service is called, and no audio file is streamed. Your device
+          generates the speech locally, which also means it keeps working on a plane or a slow connection.
+        </p>
+      </div>
+      <div style="grid-column: span 7;">
+        <ol class="listen-steps">
+          {
+            steps.map((s) => (
+              <li>
+                <span class="meta-caps listen-steps__n">{s.n}</span>
+                <div>
+                  <h3 style="margin: 0 0 0.3rem 0; font-size: 1.05rem;">{s.title}</h3>
+                  <p style="margin: 0; color: var(--ink-soft); font-size: 0.93rem;">{s.body}</p>
+                </div>
+              </li>
+            ))
+          }
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <section style="background: var(--surface); border-block: 1px solid var(--border-subtle); padding-block: clamp(2.5rem, 5vw, 3.5rem);">
+    <div class="swiss-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">Languages</p>
+      <h2 style="margin-top: 0;">Thirteen Languages, Stated Honestly</h2>
+      <p style="color: var(--ink-soft); max-width: 68ch; margin-bottom: 1.5rem;">
+        Machine translation is never as careful as the original, and this site will not pretend otherwise.
+        Where your browser carries an on-device model, the translation happens on your device and nothing is
+        sent anywhere. Where it does not, we say so and offer the original rather than quietly shipping your
+        reading to a server.
+      </p>
+      <ul class="listen-langs">
+        {
+          LISTEN_LANGUAGES.map((l) => (
+            <li>
+              <span class="listen-langs__native">{l.label}</span>
+              <span class="listen-langs__english">{l.english}</span>
+              <span class:list={['listen-langs__tag', l.translate === 'browser' ? 'is-onddevice' : 'is-external']}>
+                {l.translate === 'browser' ? 'on-device' : 'external'}
+              </span>
+            </li>
+          ))
+        }
+      </ul>
+      <p style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 1.25rem;">
+        <strong>on-device</strong> — translated and spoken by your browser, nothing leaves your device.
+        <strong>external</strong> — you are offered a link to an outside translation service; the choice is yours.
+        In every language, the English original remains one click away and is never replaced.
+      </p>
+    </div>
+  </section>
+
+  <section class="swiss-container" style="padding-block: clamp(2.5rem, 5vw, 3.5rem);">
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: baseline; justify-content: space-between; margin-bottom: 1.5rem;">
+      <div>
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">Start Here</p>
+        <h2 style="margin: 0;">The First Seven Days, Ready to Hear</h2>
+      </div>
+      <a class="meta-caps" href="/teachings/">All 365 teachings &rarr;</a>
+    </div>
+    <ul class="listen-start">
+      {
+        articles.map((a) => (
+          <li>
+            <a href={`/${a.data.slug}/`}>
+              <span class="meta-caps" style="color: var(--gold-text);">
+                Day {String(a.data.day).padStart(3, '0')}
+              </span>
+              <span class="listen-start__title">{a.data.title}</span>
+              <span class="listen-start__meta">{a.data.category}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <LightLine />
+
+  <section class="reading-container" style="padding-block: clamp(2.25rem, 4vw, 3rem);">
+    <h2>Accessibility &amp; Honest Limits</h2>
+    <p>
+      Some browsers speak better than others. Chrome, Edge, and Safari have the strongest voice
+      libraries; Firefox speaks if a system voice is installed. On iOS and Android the voices are the
+      operating system's own. If a voice sounds mechanical on your device, that is the platform's
+      engine, not the teaching.
+    </p>
+    <p>
+      Narration is a reading aid, not a replacement for reading. Where a passage is quoted Scripture, the
+      translation named beside it is the one being read aloud. Phonetic pronunciation of Hebrew and Greek
+      terms follows your device's language rules and may differ from a pulpit reading.
+    </p>
+    <p style="margin-bottom: 0;">
+      Missing a language you need? Ask for it on the <a href="/contact/">teaching desk</a> — languages are
+      added in the order readers ask for them.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .listen-steps {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1.15rem;
+  }
+
+  .listen-steps li {
+    display: grid;
+    grid-template-columns: 2.4rem 1fr;
+    gap: 0.85rem;
+    padding-bottom: 1.15rem;
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .listen-steps li:last-child {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .listen-steps__n {
+    color: var(--gold-text);
+    padding-top: 0.15rem;
+  }
+
+  .listen-langs {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 0.6rem;
+  }
+
+  .listen-langs li {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.1rem 0.6rem;
+    align-items: baseline;
+    padding: 0.6rem 0.75rem;
+    background: var(--bg);
+    border: 1px solid var(--border-subtle);
+  }
+
+  .listen-langs__native {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    color: var(--ink);
+  }
+
+  .listen-langs__english {
+    grid-column: 1;
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+  }
+
+  .listen-langs__tag {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    font-size: 0.62rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    padding: 0.15rem 0.4rem;
+    border-radius: 999px;
+    border: 1px solid var(--border-gold);
+    white-space: nowrap;
+  }
+
+  .listen-langs__tag.is-onddevice {
+    color: var(--gold-text);
+  }
+
+  .listen-langs__tag.is-external {
+    color: var(--ink-soft);
+    border-color: var(--border-subtle);
+  }
+
+  .listen-start {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 0.9rem;
+  }
+
+  .listen-start a {
+    display: grid;
+    gap: 0.2rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg);
+    color: var(--ink);
+    background-image: none;
+    height: 100%;
+  }
+
+  .listen-start a:hover {
+    border-color: var(--gold);
+  }
+
+  .listen-start__title {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+
+  .listen-start__meta {
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+  }
+
+  @media (max-width: 820px) {
+    .swiss-grid > div {
+      grid-column: 1 / -1 !important;
+    }
+  }
+</style>

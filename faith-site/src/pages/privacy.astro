@@ -80,8 +80,31 @@ const privacySchema = [
     <p>
       To make long-form Scripture study comfortable, the Site remembers two optional interface settings strictly inside your own browser’s
       <code>localStorage</code>: your preferred theme mode (<code>ijn-theme</code>: Light or Night) and your preferred reading text scale
-      (<code>ijn-scale</code>). These values stay on your device, contain zero personal identifiers, and are never transmitted to our servers.
-      Clearing your browser storage resets them immediately.
+      (<code>ijn-scale</code>). The <a href="/listen/">Listening Room</a> stores two more: your chosen voice and speed
+      (<code>ijn-listen</code>), so a preference set on one teaching carries to the next, and your advertising choice
+      (<code>ijn-consent-v1</code>), so you are not asked twice. These values stay on your device, contain zero personal
+      identifiers, and are never transmitted to our servers. Clearing your browser storage resets them immediately.
+    </p>
+
+    <h3>2.2a The Listening Room: Speech and Translation</h3>
+    <p>
+      Narration is produced by your own browser's speech engine. The text of a teaching is <strong>never sent to us or to a
+      speech vendor</strong> — there is no audio file to download and no text-to-speech service involved. Some browsers fetch
+      their voices from the operating system or the browser vendor under that vendor&rsquo;s own terms; that is outside our control and
+      outside our servers.
+    </p>
+    <p>
+      Translation follows the same rule. Where your browser supports its built-in on-device translator, the translation happens
+      locally and no text leaves your device. Where it does not, we do not translate silently — the page tells you plainly and
+      offers either the English original or a link to an external translation service that you choose to open. If you follow that
+      link, the outside service&rsquo;s privacy policy governs the visit.
+    </p>
+
+    <h3>2.2b Offline Reading</h3>
+    <p>
+      The Site registers a service worker so that pages you have already opened can be read again without a connection. It stores
+      page HTML, fonts, and images in your browser&rsquo;s own cache, on your device. Nothing is uploaded, and clearing your browser
+      storage or your site data removes it.
     </p>
 
     <h3>2.3 Standard Server Log and Diagnostic Data</h3>
@@ -117,6 +140,13 @@ const privacySchema = [
     </p>
 
     <h2>4. Google AdSense and Third-Party Advertising Disclosures</h2>
+    <p>
+      <strong>Advertising loads only with your consent.</strong> On your first visit a small panel asks whether Google may show
+      advertisements. Both answers are given equal weight. If you choose <em>Essential only</em>, the AdSense script is never
+      injected, no advertising cookie is set, and every teaching remains fully available. If you choose <em>Allow ads</em>, the
+      AdSense loader is added and Google may serve and measure advertising as described below. You can change the choice at any
+      time with the <strong>Cookie settings</strong> control in the footer of every page.
+    </p>
     <p>
       To keep every teaching on {SITE.name} free of paywalls and subscription fees, the Site is configured to participate in the
       <strong> Google AdSense</strong> program (Publisher ID: <code>{SITE.adsense.publisherId}</code>, verified via our root <code>/ads.txt</code> file).

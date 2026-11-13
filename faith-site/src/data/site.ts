@@ -27,6 +27,51 @@ export const SITE = {
     e164: '2347089138631',
     tel: '+2347089138631',
   },
+  /**
+   * The Listening Room. Speech is produced by the reader's own browser
+   * (Web Speech API) — no audio files, no third-party TTS keys, no quota, and
+   * nothing leaves the device. Language translation uses the browser's built-in
+   * Translator API where it exists and is otherwise *offered*, never faked.
+   */
+  listen: {
+    /** Voice presets. `match` strings are tested against the platform voice list. */
+    voices: [
+      {
+        id: 'dawn',
+        label: 'Dawn',
+        description: 'Warm, unhurried, closest to a pastoral reading.',
+        prefer: ['female', 'Samantha', 'Google UK English Female', 'Serena', 'Karen'],
+        rate: 0.94,
+        pitch: 1.0,
+      },
+      {
+        id: 'clarity',
+        label: 'Clarity',
+        description: 'Neutral and even — the default for study and note-taking.',
+        prefer: ['Google US English', 'Microsoft Aria', 'Daniel', 'Alex'],
+        rate: 1.0,
+        pitch: 1.0,
+      },
+      {
+        id: 'elder',
+        label: 'Elder',
+        description: 'Lower, slower, like a father reading the text aloud.',
+        prefer: ['male', 'Daniel', 'Google UK English Male', 'Microsoft Guy', 'Fred'],
+        rate: 0.88,
+        pitch: 0.86,
+      },
+      {
+        id: 'bright',
+        label: 'Bright',
+        description: 'Quick and clear — good for a second pass or a commute.',
+        prefer: ['Google US English', 'Zira', 'Moira'],
+        rate: 1.08,
+        pitch: 1.04,
+      },
+    ],
+    /** Rates the reader can choose from, independent of the preset's own rate. */
+    rates: [0.8, 0.9, 1.0, 1.1, 1.2, 1.35],
+  },
   foundedYear: 2026,
   adsense: {
     publisherId: 'ca-pub-9124992249317290',
@@ -83,6 +128,7 @@ export const SITE = {
   },
   footerLinks: {
     study: [
+      { label: 'The Listening Room', href: '/listen/' },
       { label: 'All Teachings', href: '/teachings/' },
       { label: '365-Day Curriculum Slate', href: '/slate/' },
       { label: 'Site Glossary (36 Terms)', href: '/glossary/' },
@@ -92,6 +138,7 @@ export const SITE = {
       { label: 'About This Publication', href: '/about/' },
       { label: 'Doctrinal Basis', href: '/doctrinal-basis/' },
       { label: 'Contact the Desk', href: '/contact/' },
+      { label: 'Accessibility', href: '/accessibility/' },
       { label: 'Privacy Policy', href: '/privacy/' },
     ],
     /** Reader community. Rendered as a third footer column with live joins. */

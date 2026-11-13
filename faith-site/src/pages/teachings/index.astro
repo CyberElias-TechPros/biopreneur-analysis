@@ -88,7 +88,13 @@ const teachingsSchema = [
         <a class="category-chip" href="/slate/" style="padding: 0.78rem 1rem;">
           Full 365-Day Slate &rarr;
         </a>
+        <a class="category-chip" href="/listen/" style="padding: 0.78rem 1rem;">
+          Listen to any teaching &rarr;
+        </a>
       </div>
+      <p class="meta-caps" id="filter-count" aria-live="polite" style="margin: 0.9rem 0 0 0;">
+        Showing all {allArticles.length} teachings
+      </p>
     </div>
   </section>
 
@@ -229,6 +235,7 @@ const teachingsSchema = [
       var filterBtns = document.querySelectorAll('[data-cat-filter]');
       var emptyMsg = document.getElementById('no-results-msg');
       var activeCat = 'all';
+      var countEl = document.getElementById('filter-count');
 
       function applyFilter() {
         var q = input ? input.value.trim().toLowerCase() : '';
@@ -246,7 +253,37 @@ const teachingsSchema = [
           }
         });
         if (emptyMsg) emptyMsg.hidden = visible > 0;
+        if (countEl) {
+          countEl.textContent =
+            visible === rows.length
+              ? 'Showing all ' + rows.length + ' teachings'
+              : 'Showing ' + visible + ' of ' + rows.length + ' teachings';
+        }
+        // Keep the URL shareable: /teachings/?q=faith&cat=Faith
+        try {
+          var url = new URL(window.location.href);
+          if (q) url.searchParams.set('q', q);
+          else url.searchParams.delete('q');
+          if (activeCat !== 'all') url.searchParams.set('cat', activeCat);
+          else url.searchParams.delete('cat');
+          window.history.replaceState({}, '', url);
+        } catch (e) {}
       }
+
+      // Restore a shared filter state (?q= and ?cat=).
+      try {
+        var p2 = new URLSearchParams(window.location.search);
+        var seedCat = p2.get('cat');
+        if (seedCat) {
+          var seedBtn = document.querySelector('[data-cat-filter="' + CSS.escape(seedCat) + '"]');
+          if (seedBtn) {
+            activeCat = seedCat;
+            filterBtns.forEach(function (b) {
+              b.style.backgroundColor = b === seedBtn ? 'var(--gold-tint)' : 'transparent';
+            });
+          }
+        }
+      } catch (e) {}
 
       if (input) input.addEventListener('input', applyFilter);
       filterBtns.forEach(function (btn) {
@@ -258,6 +295,8 @@ const teachingsSchema = [
           applyFilter();
         });
       });
+
+      applyFilter();
     })();
   </script>
 </BaseLayout>

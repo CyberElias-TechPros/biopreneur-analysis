@@ -2,23 +2,18 @@
 import { SITE } from '../data/site';
 
 /*
-  Google AdSense — Auto ads.
+  Google AdSense identity + consent-gated loader.
 
-  The loader below is Google's own snippet, emitted unconditionally on every
-  page: Auto ads needs nothing else to place units, and AdSense verifies site
-  ownership by crawling it. It is inert until the account is approved.
+  Two things must be true at once for a publisher site:
+    · Google must be able to verify ownership and serve Auto ads.
+    · EU/UK/EEA readers must give consent before advertising cookies are set.
 
-  Because Auto ads chooses placement itself, the article template renders no
-  manual ad blocks (see the `adsense` block in src/data/site.ts).
-
-  The `google-adsense-account` meta tag is the second ownership signal Google
-  documents for Auto ads sites, so verification does not hinge on the script
-  alone.
+  So the account meta tag (a passive ownership signal, no cookies) is always
+  emitted, while the ad *script* — which is what actually sets advertising
+  cookies — is injected by `consent.ts` only after a reader chooses "Accept all".
+  A reader who chooses "Essential only" is never tracked and sees no ads; the
+  teaching is unaffected.
 */
 ---
 <meta name="google-adsense-account" content={SITE.adsense.publisherId} />
-<script
-  is:inline
-  async
-  src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${SITE.adsense.publisherId}`}
-  crossorigin="anonymous"></script>
+<meta name="ijn-adsense-client" content={SITE.adsense.publisherId} />

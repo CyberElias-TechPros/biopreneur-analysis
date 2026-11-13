@@ -1,0 +1,182 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import { SITE } from '../data/site';
+
+const origin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const pageUrl = `${origin}/accessibility/`;
+
+const schema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pageUrl}#accessibility`,
+    name: `Accessibility — ${SITE.name}`,
+    description:
+      'How Live In Jesus Name is built for screen readers, keyboard use, low bandwidth, and readers who listen instead of reading — plus the limits we know about.',
+    url: pageUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${origin}/#website` },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${origin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Accessibility', item: pageUrl },
+    ],
+  },
+];
+
+const done = [
+  ['Listen to anything', 'Every teaching can be narrated on-device in four voices, at six speeds, in thirteen reading languages.'],
+  ['Keyboard first', 'Every control — theme, text size, listen, filters, consent — is reachable and operable by keyboard, with a visible focus ring.'],
+  ['Skip link', 'The first tab stop on every page jumps past the header to the teaching.'],
+  ['Semantic structure', 'One <h1> per page, no skipped heading levels, landmarks for header, navigation, main, and footer.'],
+  ['Contrast', 'Body and interface text meet WCAG AA on both the ivory and midnight palettes; gold is split into a decorative tone and a text-safe tone.'],
+  ['Motion respect', 'All reveals and transitions collapse under prefers-reduced-motion. Nothing moves, loops, or plays on its own.'],
+  ['Text scaling', 'Four reading sizes on top of native browser zoom, remembered between visits.'],
+  ['Print', 'Teachings print cleanly — instrument chrome is stripped and internal links are expanded as text.'],
+  ['Low bandwidth', 'Pages are static HTML with no framework runtime. The Listening Room adds about 3 KB of gzipped script and reads cached pages offline.'],
+  ['No dark patterns', 'The consent choice treats both answers equally, and declining ads does not restrict any teaching.'],
+];
+
+const limits = [
+  ['Voice quality varies by device', 'Narration uses your device’s speech engine. Android and Windows voices differ from iOS and macOS. A mechanical voice is the platform, not the text.'],
+  ['Translation is machine work', 'On-device translation is convenient, not authoritative. For doctrine, read the English original, which is always one click away.'],
+  ['Hebrew and Greek terms', 'Transliterated terms are spoken according to your device’s language rules and may not match a teacher’s pronunciation.'],
+  ['Two languages are right-to-left', 'Arabic is offered but has not been reviewed by a native reader. Treat it as a first pass, and tell us what is wrong.'],
+  ['Community rooms are external', 'WhatsApp is not ours to make accessible. The site is fully usable without ever opening it.'],
+];
+
+const audit = [
+  ['Screen readers', 'Structured and labelled; tested against VoiceOver and NVDA semantics in markup.'],
+  ['Keyboard', 'No focus traps, no hover-only controls, no keyboard-inaccessible custom widgets.'],
+  ['Contrast', 'Targeting WCAG 2.2 AA for text and interface components.'],
+  ['Zoom', 'Layout holds at 200% text zoom with no horizontal scrolling on a 320px viewport.'],
+];
+---
+
+<BaseLayout
+  title="Accessibility — Reading, Listening, and the Limits"
+  description="How Live In Jesus Name is built for screen readers, keyboard use, low bandwidth, and readers who listen instead of read — plus the limits we know about."
+  canonicalPath="/accessibility/"
+  jsonLd={schema}
+>
+  <section class="page-header">
+    <div class="reading-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        Accessibility
+      </p>
+      <h1>A Teaching Nobody Can Reach Is Not Yet a Teaching</h1>
+      <p style="font-size: 1.12rem; color: var(--ink-soft);">
+        This publication is read on phones in low light, on old laptops, by screen readers, and by people who
+        cannot see the page at all. What follows is what we have done about that — and what we know is still
+        imperfect.
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <section class="reading-container" style="padding-block: clamp(2rem, 4vw, 2.75rem);">
+    <h2 style="margin-top: 0;">What Is In Place</h2>
+    <dl class="a11y-list">
+      {
+        done.map(([title, body]) => (
+          <div>
+            <dt>{title}</dt>
+            <dd>{body}</dd>
+          </div>
+        ))
+      }
+    </dl>
+  </section>
+
+  <section style="background: var(--surface); border-block: 1px solid var(--border-subtle); padding-block: clamp(2.25rem, 4.5vw, 3rem);">
+    <div class="reading-container">
+      <h2 style="margin-top: 0;">Known Limits — Stated Plainly</h2>
+      <p style="color: var(--ink-soft);">
+        An accessibility page that lists only successes is marketing. These are the places this site still
+        falls short.
+      </p>
+      <dl class="a11y-list a11y-list--limits">
+        {
+          limits.map(([title, body]) => (
+            <div>
+              <dt>{title}</dt>
+              <dd>{body}</dd>
+            </div>
+          ))
+        }
+      </dl>
+    </div>
+  </section>
+
+  <section class="reading-container" style="padding-block: clamp(2.25rem, 4.5vw, 3rem);">
+    <h2>How We Check</h2>
+    <dl class="a11y-list">
+      {
+        audit.map(([title, body]) => (
+          <div>
+            <dt>{title}</dt>
+            <dd>{body}</dd>
+          </div>
+        ))
+      }
+    </dl>
+
+    <h2>Tell Us What Is Broken</h2>
+    <p>
+      If a screen reader reads something out of order, if a control will not take focus, if the contrast fails
+      on your device, or if you need a teaching in a format that does not exist yet, say so. Accessibility
+      reports are treated as editorial corrections, not as complaints.
+    </p>
+    <p>
+      Message the teaching desk on WhatsApp at
+      <a href={`https://wa.me/${SITE.whatsapp.e164}?text=${encodeURIComponent('Accessibility report: ')}`} target="_blank" rel="noopener">
+        {SITE.whatsapp.display}
+      </a>
+      , or read the <a href="/privacy/">privacy policy</a> first if you would like to know how that conversation is handled.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .a11y-list {
+    margin: 0;
+    display: grid;
+    gap: 0;
+  }
+
+  .a11y-list > div {
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.6fr);
+    gap: 0.35rem 1.5rem;
+    padding-block: 0.85rem;
+    border-top: 1px solid var(--border-subtle);
+  }
+
+  .a11y-list > div:last-child {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .a11y-list dt {
+    font-weight: 600;
+    font-size: 0.93rem;
+    color: var(--ink);
+  }
+
+  .a11y-list dd {
+    margin: 0;
+    font-size: 0.93rem;
+    color: var(--ink-soft);
+    line-height: 1.6;
+  }
+
+  @media (max-width: 640px) {
+    .a11y-list > div {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

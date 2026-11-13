@@ -64,7 +64,8 @@ function latestArticleDate(dates: Map<string, ArticleDateInfo>): string | undefi
 /**
  * Priority/changefreq policy:
  *   1.0 home · 0.9 article pages & teachings library · 0.8 category hubs
- *   0.7 slate & glossary · 0.6 community · 0.5 about/doctrinal/contact
+ *   0.7 slate, glossary & listening room · 0.6 community
+ *   0.5 about/doctrinal/contact
  *   0.3 privacy/legal
  */
 export function routeMetaFor(pathname: string): RouteMeta {
@@ -103,11 +104,17 @@ export function routeMetaFor(pathname: string): RouteMeta {
   if (url === '/rss.xml' || url === '/robots.txt') {
     return { lastmod: latest, changefreq: 'daily', priority: 0.3 };
   }
+  if (url === '/listen') {
+    return { lastmod: latest, changefreq: 'weekly', priority: 0.7 };
+  }
   if (url === '/community') {
     return { lastmod: latest, changefreq: 'monthly', priority: 0.6 };
   }
   if (url === '/about' || url === '/doctrinal-basis' || url === '/contact') {
     return { lastmod: latest, changefreq: 'yearly', priority: 0.5 };
+  }
+  if (url === '/accessibility') {
+    return { lastmod: latest, changefreq: 'yearly', priority: 0.4 };
   }
   if (url === '/privacy') {
     return { lastmod: latest, changefreq: 'yearly', priority: 0.3 };

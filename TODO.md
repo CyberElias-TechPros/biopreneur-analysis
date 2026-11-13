@@ -88,3 +88,17 @@
 2. **D1 review:** Month 1 arc complete (31/31 live); spot-check internal handoffs and category spread before AdSense submission
 3. **C2 / C8:** Deploy `faith-site/` to Vercel and attach custom domain when chosen
 4. **E2 / E3:** Enable `PUBLIC_ADSENSE_LIVE=true` and run the 15-factor pre-application audit (50-article floor now met)
+
+### Listening Room & reader resilience (shipped)
+
+- ✔ L1. On-device narration on every teaching: four voices, six speeds, remembered per reader (`ListenRoom.astro`, `listen-room.ts`).
+- ✔ L2. Thirteen reading languages; on-device translation where the browser supports it, honest link-out where it does not (`languages.ts`, `/listen/`).
+- ✔ L3. `/listen/` hub page listing languages, steps, and the first seven days ready to hear.
+- ✔ L4. Consent-gated AdSense — advertising loads only after "Allow ads"; both choices weighted equally; footer "Cookie settings" re-opens the choice (`consent.ts`).
+- ✔ L5. Offline reading via service worker + `/offline.html`; cache headers in `vercel.json`.
+- ✔ L6. Installable: web manifest, maskable icons, app shortcuts.
+- ✔ L7. `/accessibility/` statement with stated limits and a report route.
+- ✔ L8. Print stylesheet so a teaching can be printed for a house group or prison ministry.
+- ✔ L9. Shareable filtered search (`?q=`, `?cat=`) with a live result count.
+- ✔ L10. Speakable + AudioObject schema on every article.
+- ✔ L11. Days 224–365 article files committed (they were untracked and would have been missing from a clean build).

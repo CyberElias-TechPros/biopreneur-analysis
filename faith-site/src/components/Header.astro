@@ -68,6 +68,20 @@ const isActive = (href: string) =>
       </nav>
 
       <a
+        class="header-listen"
+        href="/listen/"
+        aria-label="The Listening Room — hear every teaching read aloud"
+      >
+        <span aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="13" height="13" fill="none" focusable="false">
+            <path d="M4 10v4h3l4 3V7l-4 3H4Z" fill="currentColor" />
+            <path d="M15 9.5a4 4 0 0 1 0 5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="header-listen__text">Listen</span>
+      </a>
+
+      <a
         class="header-community"
         href="/community/"
         aria-label="Reader community — WhatsApp channel and readers' group"

@@ -139,6 +139,21 @@ const pageSchema = jsonLd
     <Footer />
     <WhatsAppFloat />
 
+    <script is:inline src="/sw-register.js" defer></script>
+
+    <script>
+      import { initConsent } from '../scripts/consent';
+      initConsent();
+
+      document.querySelectorAll('[data-open-consent]').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          // Re-opens the same sheet the reader saw on first visit.
+          var api = window.ijnConsent;
+          if (api) api.open();
+        });
+      });
+    </script>
+
     <!-- Lightweight Progressive Enhancement (< 3.5 KB unminified) -->
     <script is:inline>
       (function () {
