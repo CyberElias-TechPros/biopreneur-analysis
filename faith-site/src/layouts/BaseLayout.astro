@@ -39,77 +39,158 @@ const {
 } = Astro.props;
 
 const siteUrl = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+/**
+ * Site-wide identity graph.
+ *
+ * Emitted as ONE `@graph` document per page rather than a stack of unrelated
+ * `<script>` blocks. That distinction matters to AI systems and search engines:
+ * a graph lets a parser resolve `{ "@id": ... }` references and understand that
+ * the article, the person, the website, and the publisher are different nodes of
+ * the same entity, instead of four things that happen to share a page.
+ *
+ * Node inventory:
+ *   Organization · WebSite · Person (author) · Subject/Thing for the topic of
+ *   the publication · CollectionPage for the library (referenced, not repeated).
+ */
+const personId = `${siteUrl}/about/#ellis-graham`;
+const orgId = `${siteUrl}/#organization`;
+const siteId = `${siteUrl}/#website`;
+
 const organizationSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Organization',
-  '@id': `${siteUrl}/#organization`,
+  '@type': ['Organization', 'OnlineBusiness'],
+  '@id': orgId,
   name: SITE.name,
   alternateName: SITE.shortName,
   url: `${siteUrl}/`,
   description: SITE.description,
+  slogan: SITE.tagline,
   foundingDate: String(SITE.foundedYear),
+  knowsLanguage: ['en'],
   logo: {
     '@type': 'ImageObject',
     '@id': `${siteUrl}/#logo`,
-    url: `${siteUrl}/favicon.svg`,
+    url: `${siteUrl}/icons/icon-512.png`,
+    contentUrl: `${siteUrl}/icons/icon-512.png`,
+    width: 512,
+    height: 512,
     caption: SITE.name,
   },
-  image: `${siteUrl}/images/og-default.png`,
-  founder: {
-    '@type': 'Person',
-    '@id': `${siteUrl}/about/#ellis-graham`,
-    name: SITE.teacher.name,
-    jobTitle: SITE.teacher.role,
-    url: `${siteUrl}/about/`,
-    image: `${siteUrl}${SITE.teacher.image}`,
-  },
-  knowsAbout: [
-    'Christian theology',
-    'New Testament exegesis',
-    'New creation identity in Christ',
-    'Righteousness by faith',
-    'Divine healing',
-    'Prayer and fasting',
-    'Biblical stewardship',
-  ],
+  image: { '@id': `${siteUrl}/images/og-default.png#primaryimage` },
+  founder: { '@id': personId },
+  employee: { '@id': personId },
+  knowsAbout: SITE.topics,
   publishingPrinciples: `${siteUrl}/doctrinal-basis/`,
-  contactPoint: {
-    '@type': 'ContactPoint',
-    contactType: 'editorial',
-    telephone: SITE.whatsapp.tel,
-    url: `${siteUrl}/contact/`,
-    availableLanguage: ['en'],
-  },
+  diversityPolicy: `${siteUrl}/about/`,
+  ethicsPolicy: `${siteUrl}/doctrinal-basis/`,
+  ownershipFundingInfo: `${siteUrl}/about/`,
+  actionableFeedbackPolicy: `${siteUrl}/contact/`,
+  correctionsPolicy: `${siteUrl}/contact/`,
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      contactType: 'editorial',
+      telephone: SITE.whatsapp.tel,
+      url: `${siteUrl}/contact/`,
+      contactOption: 'TollFree',
+      availableLanguage: ['en'],
+    },
+  ],
   sameAs: [SITE.community.channel.href, SITE.community.group.href],
 };
 
 const defaultWebSiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
-  '@id': `${siteUrl}/#website`,
+  '@id': siteId,
   name: SITE.name,
   alternateName: SITE.shortName,
   url: `${siteUrl}/`,
   description: SITE.description,
   inLanguage: SITE.language,
-  publisher: { '@id': `${siteUrl}/#organization` },
-  potentialAction: {
-    '@type': 'SearchAction',
-    target: {
-      '@type': 'EntryPoint',
-      urlTemplate: `${siteUrl}/teachings/?q={search_term_string}`,
+  publisher: { '@id': orgId },
+  license: `${siteUrl}/about/`,
+  copyrightHolder: { '@id': orgId },
+  potentialAction: [
+    {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${siteUrl}/teachings/?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
     },
-    'query-input': 'required name=search_term_string',
+    {
+      // The Listening Room is a first-class way into the corpus, so the site
+      // advertises it as an action rather than only as a link.
+      '@type': 'ListenAction',
+      target: { '@type': 'EntryPoint', urlTemplate: `${siteUrl}/listen/` },
+      name: 'Hear any teaching read aloud',
+    },
+  ],
+};
+
+const authorSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': personId,
+  name: SITE.teacher.name,
+  jobTitle: SITE.teacher.role,
+  description: SITE.teacher.shortBio,
+  url: `${siteUrl}/about/`,
+  worksFor: { '@id': orgId },
+  knowsAbout: SITE.topics,
+  image: {
+    '@type': 'ImageObject',
+    url: `${siteUrl}${SITE.teacher.image}`,
+    width: SITE.teacher.imageWidth,
+    height: SITE.teacher.imageHeight,
+    caption: SITE.teacher.imageAlt,
   },
 };
 
-// Every page carries the Organization + WebSite identity graph plus any
-// page-specific nodes, so crawlers never see a page without a publisher.
-const pageSchema = jsonLd
-  ? Array.isArray(jsonLd)
-    ? [...jsonLd, organizationSchema, defaultWebSiteSchema]
-    : [jsonLd, organizationSchema, defaultWebSiteSchema]
-  : [organizationSchema, defaultWebSiteSchema];
+// What the publication is *about*, as an entity. This is the node answer engines
+// reach for when asked "what is Live In Jesus Name about?".
+const subjectSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'DefinedTermSet',
+  '@id': `${siteUrl}/#subject`,
+  name: `${SITE.name} — teaching subjects`,
+  description:
+    'The doctrinal and practical subjects covered by the teaching library, from new-creation identity to divine healing and stewardship.',
+  url: `${siteUrl}/glossary/`,
+  inLanguage: SITE.language,
+  publisher: { '@id': orgId },
+  hasDefinedTerm: SITE.topics.slice(0, 12).map((topic) => ({
+    '@type': 'DefinedTerm',
+    name: topic,
+    inDefinedTermSet: { '@id': `${siteUrl}/#subject` },
+  })),
+};
+
+// One @graph per page: page-specific nodes (minus their own @context) followed by
+// the shared identity nodes. `@graph` with a single @context is the form Google
+// documents and the form that lets a consumer link nodes by @id.
+const pageNodes = jsonLd
+  ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map((node) => {
+      const { '@context': _ctx, ...rest } = node as Record<string, unknown>;
+      return rest;
+    })
+  : [];
+
+const pageSchema = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    ...pageNodes,
+    organizationSchema,
+    defaultWebSiteSchema,
+    authorSchema,
+    subjectSchema,
+  ].map((node) => {
+    const { '@context': _ctx, ...rest } = node as Record<string, unknown>;
+    return rest;
+  }),
+};
 ---
 
 <!doctype html>

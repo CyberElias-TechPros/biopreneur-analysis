@@ -38,6 +38,14 @@ const homeSchema = [
     inLanguage: SITE.language,
     publisher: { '@id': `${homeOrigin}/#organization` },
     isPartOf: { '@id': `${homeOrigin}/#website` },
+    // The home page is the entry point of a 365-day course, so it advertises the
+    // course shape as a Course + syllabus rather than only as a list of posts.
+    about: { '@id': `${homeOrigin}/#subject` },
+    audience: {
+      '@type': 'Audience',
+      audienceType: 'Christians seeking Scripture-anchored teaching',
+      geographicArea: SITE.targetRegions.map((r) => ({ '@type': 'Country', identifier: r })),
+    },
     blogPost: recentArticles.map((entry) => {
       const prose = (entry.body || '')
         .split('<!-- AUDIT-BELOW -->')[0]

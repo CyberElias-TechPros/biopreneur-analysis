@@ -102,3 +102,17 @@
 - ✔ L9. Shareable filtered search (`?q=`, `?cat=`) with a live result count.
 - ✔ L10. Speakable + AudioObject schema on every article.
 - ✔ L11. Days 224–365 article files committed (they were untracked and would have been missing from a clean build).
+
+### Search & AI readiness (shipped)
+
+- ✔ S1. `llms.txt` — curated machine index for language models, with citation format and licence.
+- ✔ S2. `llms-full.txt` — the entire 365-article corpus as one plain-text document (2.7 MB).
+- ✔ S3. `/api/articles.json` — all 365 articles as structured JSON with schema version.
+- ✔ S4. `robots.txt` names 18 AI crawlers (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot, Applebot-Extended, Meta-ExternalAgent and others) and allows each.
+- ✔ S5. One unified `@graph` per page (article, breadcrumb, Organization, WebSite, Person, DefinedTermSet), all linked by `@id`.
+- ✔ S6. AI policy meta + `Link: rel="llms"` response header.
+- ✔ S7. Regional `hreflang` for NG, GH, KE, ZA, GB, US, CA, AU on a single English edition, plus `x-default`.
+- ✔ S8. `*.vercel.app` → 301 to the canonical host, so no duplicate-host content.
+- ✔ S9. `X-Robots-Tag`, `browsing-topics` opt-out, and cache headers for machine endpoints.
+- ✔ S10. Audit extended to 34 checks including four AI-readiness gates (H4–H7).
+- ✔ S11. `SEARCH_READINESS.md` — the full checklist, including what is deliberately not claimed.

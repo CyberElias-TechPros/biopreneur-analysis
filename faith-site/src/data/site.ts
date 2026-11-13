@@ -16,6 +16,18 @@ export const SITE = {
   locale: 'en_US',
   language: 'en',
   /**
+   * Markets this publication is written for. Emitted as regional hreflang
+   * alternates on one English URL — the correct signal when the content is not
+   * translated but is *targeted*: it tells a Nigerian, Ghanaian, or Kenyan
+   * search engine that this page is meant for its readers, without inventing
+   * duplicate URLs for pages that would be identical.
+   *
+   * `en` and `x-default` are always emitted alongside these; keep that pair.
+   */
+  targetRegions: ['NG', 'GH', 'KE', 'ZA', 'GB', 'US', 'CA', 'AU'],
+  /** Open Graph alternates, matching the regions above. */
+  ogAlternateLocales: ['en_NG', 'en_GB'],
+  /**
    * No public mailbox. Reader correspondence runs through the Contact page's
    * WhatsApp hand-off and the community channels below; AdSense's publisher
    * requirements are met by a reachable contact route, not by an inbox.
@@ -72,6 +84,27 @@ export const SITE = {
     /** Rates the reader can choose from, independent of the preset's own rate. */
     rates: [0.8, 0.9, 1.0, 1.1, 1.2, 1.35],
   },
+  /**
+   * What this publication is *about*, as a controlled vocabulary. Used for
+   * schema.org knowsAbout, the subject graph node, and llms.txt — one list so a
+   * machine and a reader are told the same thing.
+   */
+  topics: [
+    'Christian theology',
+    'New creation identity in Christ',
+    'Righteousness by faith',
+    'Grace and justification',
+    'The person and work of the Holy Spirit',
+    'Biblical authority and interpretation',
+    'Divine healing',
+    'Prayer and fasting',
+    'Spiritual warfare',
+    'Biblical stewardship and prosperity',
+    'Christian living and discipleship',
+    'Redemption and the return of Christ',
+    'Faith and confession',
+    'Authority of the believer',
+  ],
   foundedYear: 2026,
   adsense: {
     publisherId: 'ca-pub-9124992249317290',

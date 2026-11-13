@@ -43,6 +43,9 @@ const ogImageUrl = new URL('/images/og-default.png', Astro.site || SITE.url).toS
 )}
 {!noindex && <link rel="canonical" href={canonicalUrl} />}
 {!noindex && <link rel="alternate" hreflang="en" href={canonicalUrl} />}
+{!noindex && SITE.targetRegions.map((region) => (
+  <link rel="alternate" hreflang={`en-${region}`} href={canonicalUrl} />
+))}
 {!noindex && <link rel="alternate" hreflang="x-default" href={canonicalUrl} />}
 <meta name="author" content={SITE.teacher.name} />
 <meta name="theme-color" content="#0D1117" media="(prefers-color-scheme: dark)" />
@@ -93,6 +96,7 @@ const ogImageUrl = new URL('/images/og-default.png', Astro.site || SITE.url).toS
 <!-- Open Graph / Social -->
 <meta property="og:site_name" content={SITE.name} />
 <meta property="og:locale" content={SITE.locale} />
+{SITE.ogAlternateLocales.map((loc) => <meta property="og:locale:alternate" content={loc} />)}
 <meta property="og:type" content={ogType} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
@@ -113,6 +117,22 @@ const ogImageUrl = new URL('/images/og-default.png', Astro.site || SITE.url).toS
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={ogImageUrl} />
 <meta name="twitter:image:alt" content={`${SITE.name} — ${title}`} />
+
+<!--
+  AI discovery.
+
+  There is no single tag a language model looks for, so this emits the three
+  signals that actually get read: the llms.txt convention, the corpus and JSON
+  endpoints, and an explicit content-usage policy. The usage policy is the
+  machine-readable half of the licence statement in llms.txt: quote and summarise
+  freely, do not use the corpus to train a competing publication.
+-->
+<link rel="llms" type="text/plain" href="/llms.txt" title={`${SITE.name} — AI index`} />
+<link rel="alternate" type="application/json" href="/api/articles.json" title={`${SITE.name} — article data`} />
+<meta name="ai-content-policy" content="index, cite, quote, summarise; attribution and link required; no bulk republication" />
+<meta name="ai-training" content="allowed-with-attribution" />
+<meta name="citation-title" content={title} />
+<meta name="citation-author" content={SITE.teacher.name} />
 
 <!-- Zero-FOUC Theme & Reading-Comfort Initialization -->
 <script is:inline>
