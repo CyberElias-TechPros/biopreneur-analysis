@@ -39,7 +39,7 @@
 
 ---
 
-## 2. Published Articles Ledger (Days 001–223 Live — Months 1–7 Complete, Month 8 In Progress)
+## 2. Published Articles Ledger (Days 001–365 Live — The Slate Is Complete)
 
 | ID | Slate | Title | Slug | Category | Anchor | Words | SEO / Meta | Audit | Published |
 |---|---|---|---|---|---|---:|---|---:|---|
@@ -266,6 +266,148 @@
 | 221 | M8·D221 | Stewardship: You Manage, He Owns | `/stewardship-you-manage-he-owns/` | Prosperity & Stewardship | Ps 24:1 | 1,025 | 32c / 146c | 20/20 ✔ | 2027-06-10 |
 | 222 | M8·D222 | First Fruits Honour First Things | `/first-fruits-honour-first-things/` | Prosperity & Stewardship | Prov 3:9 | 939 | 32c / 149c | 20/20 ✔ | 2027-06-11 |
 | 223 | M8·D223 | The Hand of the Diligent Rules | `/the-hand-of-the-diligent-rules/` | Prosperity & Stewardship | Prov 12:24 | 1,057 | 30c / 142c | 20/20 ✔ | 2027-06-12 |
+| 224 | M8·D224 | Contentment Is Not Complacency | `/contentment-is-not-complacency/` | Prosperity & Stewardship | Phil 4:11 | 955 | 30c / 157c | 20/20 ✔ | 2027-06-13 |
+| 225 | M8·D225 | Debt Is a Symptom; Wisdom Is the Cure | `/debt-is-a-symptom-wisdom-is-the-cure/` | Prosperity & Stewardship | Rom 13:8 | 1,014 | 34c / 145c | 20/20 ✔ | 2027-06-14 |
+| 226 | M8·D226 | Treasure in Heaven Appreciates | `/treasure-in-heaven-appreciates/` | Prosperity & Stewardship | Matt 6:20–21 | 949 | 30c / 149c | 20/20 ✔ | 2027-06-15 |
+| 227 | M8·D227 | The Blessed Man Meditates — Then Prospers | `/the-blessed-man-meditates-then-prospers/` | Prosperity & Stewardship | Ps 1:3 | 969 | 40c / 150c | 20/20 ✔ | 2027-06-16 |
+| 228 | M8·D228 | Abundance for Every Good Work | `/abundance-for-every-good-work/` | Prosperity & Stewardship | 2 Cor 9:8 | 968 | 29c / 144c | 20/20 ✔ | 2027-06-17 |
+| 229 | M8·D229 | Money Answers, but Wisdom Directs | `/money-answers-but-wisdom-directs/` | Prosperity & Stewardship | Eccl 10:19 | 1,005 | 33c / 155c | 20/20 ✔ | 2027-06-18 |
+| 230 | M8·D230 | Kingdom Investment Pays Eternal Dividends | `/kingdom-investment-pays-eternal-dividends/` | Prosperity & Stewardship | Matt 19:29 | 925 | 41c / 147c | 20/20 ✔ | 2027-06-19 |
+| 231 | M8·D231 | The Cheerful Giver's Secret | `/the-cheerful-givers-secret/` | Prosperity & Stewardship | 2 Cor 9:7 | 1,013 | 27c / 156c | 20/20 ✔ | 2027-06-20 |
+| 232 | M8·D232 | The Power to Get Wealth Is Covenant Enablement | `/the-power-to-get-wealth-is-covenant-enablement/` | Prosperity & Stewardship | Deut 8:18 | 994 | 33c / 142c | 20/20 ✔ | 2027-06-21 |
+| 233 | M8·D233 | Prosper Your Soul First | `/prosper-your-soul-first/` | Prosperity & Stewardship | 3 John 2 | 919 | 49c / 140c | 20/20 ✔ | 2027-06-22 |
+| 234 | M8·D234 | Generosity Is the Antidote to Anxiety | `/generosity-is-the-antidote-to-anxiety/` | Prosperity & Stewardship | Phil 4:6 | 1,064 | 37c / 140c | 20/20 ✔ | 2027-06-23 |
+| 235 | M8·D235 | Barns, Bigger Barns, and the Bigger Life | `/barns-bigger-barns-and-the-bigger-life/` | Prosperity & Stewardship | Luke 12:20 | 1,156 | 36c / 147c | 20/20 ✔ | 2027-06-24 |
+| 236 | M8·D236 | Partnerships That Preach: Supporting the Gospel | `/partnerships-that-preach-supporting-the-gospel/` | Prosperity & Stewardship | Phil 1:5 | 1,118 | 36c / 147c | 20/20 ✔ | 2027-06-25 |
+| 237 | M8·D237 | Little Is Much When God Is in It | `/little-is-much-when-god-is-in-it/` | Prosperity & Stewardship | John 6:9 | 996 | 32c / 149c | 20/20 ✔ | 2027-06-26 |
+| 238 | M8·D238 | Planning With Prayer: Goals Under Grace | `/planning-with-prayer-goals-under-grace/` | Prosperity & Stewardship | James 4:13 | 1,030 | 39c / 141c | 20/20 ✔ | 2027-06-27 |
+| 239 | M8·D239 | The Wealth of the Sinner Is Laid Up — Then Released | `/the-wealth-of-the-sinner-is-laid-up-then-released/` | Prosperity & Stewardship | Prov 13:22 | 1,140 | 35c / 143c | 20/20 ✔ | 2027-06-28 |
+| 240 | M8·D240 | Faithful in Little, Trusted With Much | `/faithful-in-little-trusted-with-much/` | Prosperity & Stewardship | Luke 16:10 | 1,071 | 37c / 154c | 20/20 ✔ | 2027-06-29 |
+| 241 | M8·D241 | Rich Toward God, Wise Toward Earth | `/rich-toward-god-wise-toward-earth/` | Prosperity & Stewardship | Luke 16:8 | 1,010 | 34c / 146c | 20/20 ✔ | 2027-06-30 |
+| 242 | M8·D242 | Overflow Is for Distribution | `/overflow-is-for-distribution/` | Prosperity & Stewardship | Ps 23:5 | 927 | 28c / 146c | 20/20 ✔ | 2027-07-01 |
+| 243 | M8·D243 | Prosperity Has an Order: Soul, Seed, Surplus | `/prosperity-has-an-order-soul-seed-surplus/` | Prosperity & Stewardship | 3 John 2 | 1,098 | 44c / 148c | 20/20 ✔ | 2027-07-02 |
+| 244 | M9·D244 | Awake to Righteousness: Living Free From Accusation | `/awake-to-righteousness-living-free-from-accusation/` | Righteousness & Grace | 1 Cor 15:34 | 1,085 | 44c / 147c | 20/20 ✔ | 2027-07-03 |
+| 245 | M9·D245 | No Condemnation: The Case Is Closed | `/no-condemnation-the-case-is-closed/` | Righteousness & Grace | Rom 8:1 | 1,183 | 35c / 146c | 20/20 ✔ | 2027-07-04 |
+| 246 | M9·D246 | The Consciousness of Sin Produces the Cycle of Sin | `/the-consciousness-of-sin-produces-the-cycle-of-sin/` | Righteousness & Grace | Heb 10:1 | 1,044 | 43c / 140c | 20/20 ✔ | 2027-07-05 |
+| 247 | M9·D247 | Boldness on Judgment Day Begins Today | `/boldness-on-judgment-day-begins-today/` | Righteousness & Grace | 1 John 4:17 | 1,019 | 37c / 144c | 20/20 ✔ | 2027-07-06 |
+| 248 | M9·D248 | Guilt Is a Debt Already Paid | `/guilt-is-a-debt-already-paid/` | Righteousness & Grace | Matt 6:12 | 1,078 | 28c / 146c | 20/20 ✔ | 2027-07-07 |
+| 249 | M9·D249 | Stand in the Liberty — Do Not Re-Enslave Yourself | `/stand-in-the-liberty-do-not-re-enslave-yourself/` | Righteousness & Grace | Gal 5:1 | 1,204 | 36c / 141c | 20/20 ✔ | 2027-07-08 |
+| 250 | M9·D250 | The Gift of Righteousness Reigns | `/the-gift-of-righteousness-reigns/` | Righteousness & Grace | Rom 5:17 | 1,166 | 32c / 144c | 20/20 ✔ | 2027-07-09 |
+| 251 | M9·D251 | Condemnation Speaks; Righteousness Answers | `/condemnation-speaks-righteousness-answers/` | Righteousness & Grace | Rev 12:10 | 1,144 | 42c / 144c | 20/20 ✔ | 2027-07-10 |
+| 252 | M9·D252 | Freedom From the Performance Trap | `/freedom-from-the-performance-trap/` | Righteousness & Grace | Eph 1:6 | 1,020 | 33c / 152c | 20/20 ✔ | 2027-07-11 |
+| 253 | M9·D253 | Your Righteousness Is His Faithfulness | `/your-righteousness-is-his-faithfulness/` | Righteousness & Grace | 1 Cor 1:9 | 995 | 38c / 140c | 20/20 ✔ | 2027-07-12 |
+| 254 | M9·D254 | The Accuser Has No Standing in Court | `/the-accuser-has-no-standing-in-court/` | Righteousness & Grace | Zech 3:1 | 1,020 | 36c / 150c | 20/20 ✔ | 2027-07-13 |
+| 255 | M9·D255 | Grace Teaches; It Never Spoils | `/grace-teaches-it-never-spoils/` | Righteousness & Grace | Titus 2:11 | 1,034 | 30c / 153c | 20/20 ✔ | 2027-07-14 |
+| 256 | M9·D256 | Walking Worthy Is Walking Aware | `/walking-worthy-is-walking-aware/` | Righteousness & Grace | Eph 4:1 | 1,028 | 31c / 141c | 20/20 ✔ | 2027-07-15 |
+| 257 | M9·D257 | The Fear of Falling vs the Rest of Faith | `/the-fear-of-falling-vs-the-rest-of-faith/` | Righteousness & Grace | Jude 24 | 959 | 40c / 141c | 20/20 ✔ | 2027-07-16 |
+| 258 | M9·D258 | Holiness Is Harvested From Identity | `/holiness-is-harvested-from-identity/` | Righteousness & Grace | 1 Pet 1:15 | 1,009 | 35c / 149c | 20/20 ✔ | 2027-07-17 |
+| 259 | M9·D259 | The Blood Speaks Better Things | `/the-blood-speaks-better-things/` | Righteousness & Grace | Heb 12:24 | 1,021 | 30c / 140c | 20/20 ✔ | 2027-07-18 |
+| 260 | M9·D260 | Cleansed Once, Cleansed Continuously | `/cleansed-once-cleansed-continuously/` | Righteousness & Grace | 1 John 1:7 | 983 | 36c / 143c | 20/20 ✔ | 2027-07-19 |
+| 261 | M9·D261 | Right Living Flows From Right Thinking | `/right-living-flows-from-right-thinking/` | Righteousness & Grace | Rom 12:2 | 1,018 | 38c / 147c | 20/20 ✔ | 2027-07-20 |
+| 262 | M9·D262 | Sin Shall Not Have Dominion Over You | `/sin-shall-not-have-dominion-over-you/` | Righteousness & Grace | Rom 6:14 | 1,062 | 36c / 153c | 20/20 ✔ | 2027-07-21 |
+| 263 | M9·D263 | The Liberated Conscience | `/the-liberated-conscience/` | Righteousness & Grace | Heb 9:14 | 938 | 43c / 141c | 20/20 ✔ | 2027-07-22 |
+| 264 | M9·D264 | Confidence Before God Is Your Birthright | `/confidence-before-god-is-your-birthright/` | Righteousness & Grace | Heb 10:19 | 973 | 40c / 153c | 20/20 ✔ | 2027-07-23 |
+| 265 | M9·D265 | When You Miss It: The Short Path Back | `/when-you-miss-it-the-short-path-back/` | Righteousness & Grace | 1 John 1:9 | 1,094 | 37c / 141c | 20/20 ✔ | 2027-07-24 |
+| 266 | M9·D266 | Legal Standing vs Emotional Weather | `/legal-standing-vs-emotional-weather/` | Righteousness & Grace | 2 Cor 5:7 | 906 | 35c / 158c | 20/20 ✔ | 2027-07-25 |
+| 267 | M9·D267 | The Robe of Righteousness Fits Perfectly | `/the-robe-of-righteousness-fits-perfectly/` | Righteousness & Grace | Isa 61:10 | 1,031 | 40c / 151c | 20/20 ✔ | 2027-07-26 |
+| 268 | M9·D268 | Religion Says Do; Grace Says Done | `/religion-says-do-grace-says-done/` | Righteousness & Grace | John 19:30 | 1,126 | 33c / 151c | 20/20 ✔ | 2027-07-27 |
+| 269 | M9·D269 | Righteousness Guards the Heart's Gate | `/righteousness-guards-the-hearts-gate/` | Righteousness & Grace | Prov 4:23 | 949 | 37c / 142c | 20/20 ✔ | 2027-07-28 |
+| 270 | M9·D270 | The Righteous Are Bold as a Lion | `/the-righteous-are-bold-as-a-lion/` | Righteousness & Grace | Prov 28:1 | 976 | 32c / 143c | 20/20 ✔ | 2027-07-29 |
+| 271 | M9·D271 | From Slavish Service to Sonship Service | `/from-slavish-service-to-sonship-service/` | Righteousness & Grace | Gal 4:7 | 1,009 | 39c / 140c | 20/20 ✔ | 2027-07-30 |
+| 272 | M9·D272 | Righteousness and Peace Have Kissed — Guard Both | `/righteousness-and-peace-have-kissed/` | Righteousness & Grace | Ps 85:10 | 1,004 | 35c / 151c | 20/20 ✔ | 2027-07-31 |
+| 273 | M9·D273 | Live Right Because You Are Right | `/live-right-because-you-are-right/` | Righteousness & Grace | 1 John 3:7 | 1,065 | 32c / 153c | 20/20 ✔ | 2027-08-01 |
+| 274 | M10·D274 | The Unseen Realm Is More Real Than the Seen | `/the-unseen-realm-is-more-real-than-the-seen/` | Spiritual Warfare | 2 Kings 6:17 | 1,041 | 43c / 151c | 20/20 ✔ | 2027-08-02 |
+| 275 | M10·D275 | We Wrestle — Therefore We Win | `/we-wrestle-therefore-we-win/` | Spiritual Warfare | Eph 6:12 | 989 | 29c / 156c | 20/20 ✔ | 2027-08-03 |
+| 276 | M10·D276 | The Schemes Are Old; the Victory Is Older | `/the-schemes-are-old-the-victory-is-older/` | Spiritual Warfare | Eph 6:11 | 920 | 41c / 155c | 20/20 ✔ | 2027-08-04 |
+| 277 | M10·D277 | Spiritual Blindness: The Enemy's Favourite Weapon | `/spiritual-blindness-the-enemys-favourite-weapon/` | Spiritual Warfare | 2 Cor 4:4 | 997 | 49c / 152c | 20/20 ✔ | 2027-08-05 |
+| 278 | M10·D278 | Discerning the Times by the Spirit | `/discerning-the-times-by-the-spirit/` | Spiritual Warfare | Matt 16:3 | 996 | 34c / 141c | 20/20 ✔ | 2027-08-06 |
+| 279 | M10·D279 | The Enemy Studies You; Study the Word | `/the-enemy-studies-you-study-the-word/` | Spiritual Warfare | 2 Cor 2:11 | 981 | 37c / 153c | 20/20 ✔ | 2027-08-07 |
+| 280 | M10·D280 | Doors of Access: Close What You Open | `/doors-of-access-close-what-you-open/` | Spiritual Warfare | Eph 4:27 | 985 | 36c / 146c | 20/20 ✔ | 2027-08-08 |
+| 281 | M10·D281 | The Battle Is in the Mind First | `/the-battle-is-in-the-mind-first/` | Spiritual Warfare | 2 Cor 10:3 | 950 | 31c / 149c | 20/20 ✔ | 2027-08-09 |
+| 282 | M10·D282 | Covenant Covering: What Darkness Cannot Cancel | `/covenant-covering-what-darkness-cannot-cancel/` | Spiritual Warfare | Exod 12:13 | 928 | 46c / 145c | 20/20 ✔ | 2027-08-10 |
+| 283 | M10·D283 | Strongholds Are Thought-Structures | `/strongholds-are-thought-structures/` | Spiritual Warfare | 2 Cor 10:5 | 931 | 34c / 143c | 20/20 ✔ | 2027-08-11 |
+| 284 | M10·D284 | The Blood on the Doorposts Still Works | `/the-blood-on-the-doorposts-still-works/` | Spiritual Warfare | Heb 11:28 | 985 | 38c / 145c | 20/20 ✔ | 2027-08-12 |
+| 285 | M10·D285 | Angelic Assistance Answers the Word | `/angelic-assistance-answers-the-word/` | Spiritual Warfare | Ps 103:20 | 927 | 35c / 158c | 20/20 ✔ | 2027-08-13 |
+| 286 | M10·D286 | Foundations Speak: Breaking Generational Patterns | `/foundations-speak-breaking-generational-patterns/` | Spiritual Warfare | 2 Cor 5:17 | 1,036 | 49c / 153c | 20/20 ✔ | 2027-08-14 |
+| 287 | M10·D287 | The Adversary's Loopholes and How Grace Closes Them | `/the-adversarys-loopholes-and-how-grace-closes-them/` | Spiritual Warfare | Col 2:14 | 943 | 51c / 154c | 20/20 ✔ | 2027-08-15 |
+| 288 | M10·D288 | Vengeance Belongs to God; Victory Belongs to You | `/vengeance-belongs-to-god-victory-belongs-to-you/` | Spiritual Warfare | Rom 12:19 | 928 | 48c / 140c | 20/20 ✔ | 2027-08-16 |
+| 289 | M10·D289 | Offense Opens Gates; Forgiveness Closes Them | `/offense-opens-gates-forgiveness-closes-them/` | Spiritual Warfare | Luke 17:1 | 990 | 44c / 153c | 20/20 ✔ | 2027-08-17 |
+| 290 | M10·D290 | Night Seasons and the God Who Watches | `/night-seasons-and-the-god-who-watches/` | Spiritual Warfare | Ps 121:4 | 1,129 | 37c / 153c | 20/20 ✔ | 2027-08-18 |
+| 291 | M10·D291 | False Light Requires Discernment | `/false-light-requires-discernment/` | Spiritual Warfare | 2 Cor 11:14 | 951 | 32c / 152c | 20/20 ✔ | 2027-08-19 |
+| 292 | M10·D292 | The Trophies of War: Plundering the Enemy's Camp | `/the-trophies-of-war-plundering-the-enemys-camp/` | Spiritual Warfare | 1 Sam 30:18 | 982 | 48c / 158c | 20/20 ✔ | 2027-08-20 |
+| 293 | M10·D293 | When Darkness Surrounds, Declare the Light | `/when-darkness-surrounds-declare-the-light/` | Spiritual Warfare | Gen 1:3 | 991 | 42c / 153c | 20/20 ✔ | 2027-08-21 |
+| 294 | M10·D294 | Covenant Rights the Enemy Cannot Appeal | `/covenant-rights-the-enemy-cannot-appeal/` | Spiritual Warfare | Heb 8:6 | 1,032 | 39c / 153c | 20/20 ✔ | 2027-08-22 |
+| 295 | M10·D295 | The Spirit of Fear Is a Liar | `/the-spirit-of-fear-is-a-liar/` | Spiritual Warfare | 2 Tim 1:7 | 990 | 28c / 143c | 20/20 ✔ | 2027-08-23 |
+| 296 | M10·D296 | Watchmen on the Walls: The Ministry of Watchful Prayer | `/watchmen-on-the-walls-the-ministry-of-watchful-prayer/` | Spiritual Warfare | Isa 62:6 | 925 | 38c / 153c | 20/20 ✔ | 2027-08-24 |
+| 297 | M10·D297 | Prophetic Warnings Protect Destiny | `/prophetic-warnings-protect-destiny/` | Spiritual Warfare | Acts 11:28 | 953 | 34c / 151c | 20/20 ✔ | 2027-08-25 |
+| 298 | M10·D298 | The Enemy's Expired Lease on Your Life | `/the-enemys-expired-lease-on-your-life/` | Spiritual Warfare | Col 2:15 | 923 | 38c / 155c | 20/20 ✔ | 2027-08-26 |
+| 299 | M10·D299 | War in the Heavenlies, Peace in the Heart | `/war-in-the-heavenlies-peace-in-the-heart/` | Spiritual Warfare | Phil 4:7 | 959 | 41c / 147c | 20/20 ✔ | 2027-08-27 |
+| 300 | M10·D300 | Don't Date Defeated Lies | `/dont-date-defeated-lies/` | Spiritual Warfare | 2 Cor 10:5 | 926 | 45c / 147c | 20/20 ✔ | 2027-08-28 |
+| 301 | M10·D301 | Victory Is a Position, Not a Mood | `/victory-is-a-position-not-a-mood/` | Spiritual Warfare | 2 Cor 2:14 | 987 | 33c / 156c | 20/20 ✔ | 2027-08-29 |
+| 302 | M10·D302 | Exposing Works of Darkness Without Fearing Them | `/exposing-works-of-darkness-without-fearing-them/` | Spiritual Warfare | Eph 5:11 | 952 | 39c / 154c | 20/20 ✔ | 2027-08-30 |
+| 303 | M10·D303 | The Full Armour, Piece by Piece | `/the-full-armour-piece-by-piece/` | Spiritual Warfare | Eph 6:13 | 954 | 31c / 146c | 20/20 ✔ | 2027-08-31 |
+| 304 | M10·D304 | Greater Is He: Living From the Overcomer's Seat | `/greater-is-he-living-from-the-overcomers-seat/` | Spiritual Warfare | 1 John 4:4 | 950 | 47c / 152c | 20/20 ✔ | 2027-09-01 |
+| 305 | M11·D305 | The Glory in You Outweighs the Pressure Around You | `/the-glory-in-you-outweighs-the-pressure-around-you/` | Christian Living | 2 Cor 4:17 | 1,128 | 39c / 149c | 20/20 ✔ | 2027-09-02 |
+| 306 | M11·D306 | Glorified Together With Christ | `/glorified-together-with-christ/` | Christian Living | Rom 8:17 | 949 | 30c / 147c | 20/20 ✔ | 2027-09-03 |
+| 307 | M11·D307 | Light in the Lord: Children of the Day | `/light-in-the-lord-children-of-the-day/` | Christian Living | Eph 5:8 | 1,114 | 38c / 146c | 20/20 ✔ | 2027-09-04 |
+| 308 | M11·D308 | Creation Is Waiting for Your Manifestation | `/creation-is-waiting-for-your-manifestation/` | Christian Living | Rom 8:19 | 930 | 37c / 147c | 20/20 ✔ | 2027-09-05 |
+| 309 | M11·D309 | Shine as Lights in a Dark Generation | `/shine-as-lights-in-a-dark-generation/` | Christian Living | Phil 2:15 | 961 | 36c / 144c | 20/20 ✔ | 2027-09-06 |
+| 310 | M11·D310 | The Honor of Carrying His Presence | `/the-honor-of-carrying-his-presence/` | Christian Living | 2 Sam 6:14 | 968 | 34c / 156c | 20/20 ✔ | 2027-09-07 |
+| 311 | M11·D311 | Excellence Is a Spirit, Not a Standard | `/excellence-is-a-spirit-not-a-standard/` | Christian Living | Dan 6:3 | 1,013 | 38c / 146c | 20/20 ✔ | 2027-09-08 |
+| 312 | M11·D312 | The Beauty of Holiness Is Real Attractiveness | `/the-beauty-of-holiness-is-real-attractiveness/` | Christian Living | Ps 96:9 | 1,004 | 45c / 156c | 20/20 ✔ | 2027-09-09 |
+| 313 | M11·D313 | Grace Glories in Weakness | `/grace-glories-in-weakness/` | Christian Living | 2 Cor 12:9 | 1,062 | 25c / 155c | 20/20 ✔ | 2027-09-10 |
+| 314 | M11·D314 | Transformed From Glory to Glory | `/transformed-from-glory-to-glory/` | Christian Living | 2 Cor 3:18 | 963 | 31c / 142c | 20/20 ✔ | 2027-09-11 |
+| 315 | M11·D315 | The Fragrance of Christ in Ordinary Rooms | `/the-fragrance-of-christ-in-ordinary-rooms/` | Christian Living | 2 Cor 2:15 | 933 | 41c / 149c | 20/20 ✔ | 2027-09-12 |
+| 316 | M11·D316 | Kingdom Culture: Heaven's Etiquette on Earth | `/kingdom-culture-heavens-etiquette-on-earth/` | Christian Living | Matt 6:10 | 957 | 44c / 151c | 20/20 ✔ | 2027-09-13 |
+| 317 | M11·D317 | The Spirit of Might for Monotony | `/the-spirit-of-might-for-monotony/` | Christian Living | Isa 11:2 | 943 | 32c / 141c | 20/20 ✔ | 2027-09-14 |
+| 318 | M11·D318 | Divine Ideas Are Raw Material for Industry | `/divine-ideas-are-raw-material-for-industry/` | Christian Living | Exod 31:3 | 967 | 42c / 148c | 20/20 ✔ | 2027-09-15 |
+| 319 | M11·D319 | Favor Is a Climate, Not a Coincidence | `/favor-is-a-climate-not-a-coincidence/` | Christian Living | Gen 39:21 | 964 | 37c / 152c | 20/20 ✔ | 2027-09-16 |
+| 320 | M11·D320 | The Wisdom From Above Is First Pure | `/the-wisdom-from-above-is-first-pure/` | Christian Living | Jas 3:17 | 984 | 35c / 146c | 20/20 ✔ | 2027-09-17 |
+| 321 | M11·D321 | The Supernatural Without Spectacle | `/the-supernatural-without-spectacle/` | Christian Living | 1 Kgs 19:12 | 917 | 34c / 158c | 20/20 ✔ | 2027-09-18 |
+| 322 | M11·D322 | Your First Seat Is the Presence | `/your-first-seat-is-the-presence/` | Christian Living | Luke 10:42 | 955 | 31c / 148c | 20/20 ✔ | 2027-09-19 |
+| 323 | M11·D323 | When Kings Seek the Joseph in You | `/when-kings-seek-the-joseph-in-you/` | Christian Living | Gen 41:38 | 978 | 33c / 144c | 20/20 ✔ | 2027-09-20 |
+| 324 | M11·D324 | Honor Unlocks the Flow | `/honor-unlocks-the-flow/` | Christian Living | Matt 13:58 | 948 | 29c / 143c | 20/20 ✔ | 2027-09-21 |
+| 325 | M11·D325 | The Ministry of Encouragement | `/the-ministry-of-encouragement/` | Christian Living | Acts 11:23 | 975 | 29c / 155c | 20/20 ✔ | 2027-09-22 |
+| 326 | M11·D326 | Hospitality as High Worship | `/hospitality-as-high-worship/` | Christian Living | Heb 13:2 | 981 | 27c / 150c | 20/20 ✔ | 2027-09-23 |
+| 327 | M11·D327 | The Secret Power of a Thankful Heart | `/the-secret-power-of-a-thankful-heart/` | Christian Living | Phil 4:6 | 979 | 36c / 154c | 20/20 ✔ | 2027-09-24 |
+| 328 | M11·D328 | Resting Is Not Retiring From Faith | `/resting-is-not-retiring-from-faith/` | Christian Living | Heb 4:9–10 | 957 | 34c / 152c | 20/20 ✔ | 2027-09-25 |
+| 329 | M11·D329 | Joy Is Strength: Select It Daily | `/joy-is-strength-select-it-daily/` | Christian Living | Neh 8:10 | 939 | 32c / 152c | 20/20 ✔ | 2027-09-26 |
+| 330 | M11·D330 | Filled With All Joy and Peace in Believing | `/filled-with-all-joy-and-peace-in-believing/` | Christian Living | Rom 15:13 | 938 | 42c / 140c | 20/20 ✔ | 2027-09-27 |
+| 331 | M11·D331 | Sleeping in Storms: The Mark of Rest | `/sleeping-in-storms-the-mark-of-rest/` | Christian Living | Mark 4:38 | 962 | 36c / 143c | 20/20 ✔ | 2027-09-28 |
+| 332 | M11·D332 | Atmosphere Architect: Change the Room You Enter | `/atmosphere-architect-change-the-room-you-enter/` | Christian Living | Acts 16:25 | 926 | 37c / 142c | 20/20 ✔ | 2027-09-29 |
+| 333 | M11·D333 | Live Loaded: The Fullness That Overflows | `/live-loaded-the-fullness-that-overflows/` | Christian Living | Eph 3:19 | 966 | 40c / 151c | 20/20 ✔ | 2027-09-30 |
+| 334 | M11·D334 | The God of Hope: Anchored and Radiant | `/the-god-of-hope-anchored-and-radiant/` | Christian Living | Rom 15:13 | 945 | 37c / 148c | 20/20 ✔ | 2027-10-01 |
+| 335 | M12·D335 | The Word Became Flesh: Love Moved In | `/the-word-became-flesh-love-moved-in/` | Redemption & His Return | John 1:14 | 952 | 36c / 146c | 20/20 ✔ | 2027-10-02 |
+| 336 | M12·D336 | Immanuel Means God With Us — and in Us | `/immanuel-means-god-with-us-and-in-us/` | Redemption & His Return | Matt 1:23 | 995 | 31c / 149c | 20/20 ✔ | 2027-10-03 |
+| 337 | M12·D337 | Bethlehem's Baby and Calvary's Lamb | `/bethlehems-baby-and-calvarys-lamb/` | Redemption & His Return | Luke 2:7 | 941 | 35c / 142c | 20/20 ✔ | 2027-10-04 |
+| 338 | M12·D338 | The Fullness of Time Came for Your Fullness | `/the-fullness-of-time-came-for-your-fullness/` | Redemption & His Return | Gal 4:4–5 | 938 | 43c / 142c | 20/20 ✔ | 2027-10-05 |
+| 339 | M12·D339 | He Emptied Himself to Fill You | `/he-emptied-himself-to-fill-you/` | Redemption & His Return | Phil 2:7 | 1,043 | 30c / 154c | 20/20 ✔ | 2027-10-06 |
+| 340 | M12·D340 | The Light Shines in Darkness — Still | `/the-light-shines-in-darkness-still/` | Redemption & His Return | John 1:5 | 1,112 | 36c / 150c | 20/20 ✔ | 2027-10-07 |
+| 341 | M12·D341 | Born to Die, Raised to Reign | `/born-to-die-raised-to-reign/` | Redemption & His Return | Rom 14:9 | 1,099 | 28c / 142c | 20/20 ✔ | 2027-10-08 |
+| 342 | M12·D342 | The Gift Behind All Gifts | `/the-gift-behind-all-gifts/` | Redemption & His Return | James 1:17 | 990 | 25c / 148c | 20/20 ✔ | 2027-10-09 |
+| 343 | M12·D343 | Shepherds and Stars: Heaven's Publicity | `/shepherds-and-stars-heavens-publicity/` | Redemption & His Return | Luke 2:8 | 962 | 39c / 150c | 20/20 ✔ | 2027-10-10 |
+| 344 | M12·D344 | Redemption Through His Blood | `/redemption-through-his-blood/` | Redemption & His Return | Eph 1:7 | 999 | 28c / 156c | 20/20 ✔ | 2027-10-11 |
+| 345 | M12·D345 | No Room at the Inn — Make Room in the Heart | `/no-room-at-the-inn-make-room-in-the-heart/` | Redemption & His Return | Luke 2:7 (katalyma) | 988 | 43c / 144c | 20/20 ✔ | 2027-10-12 |
+| 346 | M12·D346 | Wise Men Still Seek Him | `/wise-men-still-seek-him/` | Redemption & His Return | Matt 2:2 | 913 | 43c / 150c | 20/20 ✔ | 2027-10-13 |
+| 347 | M12·D347 | The Name Above Every Name You Fear | `/the-name-above-every-name-you-fear/` | Redemption & His Return | Phil 2:9 | 1,009 | 34c / 146c | 20/20 ✔ | 2027-10-14 |
+| 348 | M12·D348 | Grace Came Down; Glory Goes Up | `/grace-came-down-glory-goes-up/` | Redemption & His Return | 2 Cor 4:15 | 936 | 30c / 149c | 20/20 ✔ | 2027-10-15 |
+| 349 | M12·D349 | The First Christmas Sermon Was Sung | `/the-first-christmas-sermon-was-sung/` | Redemption & His Return | Luke 2:14 | 901 | 35c / 147c | 20/20 ✔ | 2027-10-16 |
+| 350 | M12·D350 | God's Speech Became a Person | `/gods-speech-became-a-person/` | Redemption & His Return | Heb 1:1–2 | 933 | 28c / 140c | 20/20 ✔ | 2027-10-17 |
+| 351 | M12·D351 | Unto Us a Child: The Government on His Shoulder | `/unto-us-a-child-the-government-on-his-shoulder/` | Redemption & His Return | Isa 9:6 | 918 | 47c / 144c | 20/20 ✔ | 2027-10-18 |
+| 352 | M12·D352 | The Advent of the Spirit, Not Just the Season | `/the-advent-of-the-spirit-not-just-the-season/` | Redemption & His Return | John 14:16 | 910 | 45c / 148c | 20/20 ✔ | 2027-10-19 |
+| 353 | M12·D353 | The Manger and the Mercy Seat | `/the-manger-and-the-mercy-seat/` | Redemption & His Return | Exod 25:21–22 | 944 | 29c / 151c | 20/20 ✔ | 2027-10-20 |
+| 354 | M12·D354 | Mary's Yes and Your Yes | `/marys-yes-and-your-yes/` | Redemption & His Return | Luke 1:38 | 940 | 43c / 147c | 20/20 ✔ | 2027-10-21 |
+| 355 | M12·D355 | Peace on Earth Begins in the Heart | `/peace-on-earth-begins-in-the-heart/` | Redemption & His Return | Col 3:15 | 951 | 34c / 152c | 20/20 ✔ | 2027-10-22 |
+| 356 | M12·D356 | The Promise Kept: Every Prophecy Certified | `/the-promise-kept-every-prophecy-certified/` | Redemption & His Return | 2 Cor 1:20 | 946 | 42c / 141c | 20/20 ✔ | 2027-10-23 |
+| 357 | M12·D357 | The Word Made Flesh Heals Your Flesh | `/the-word-made-flesh-heals-your-flesh/` | Redemption & His Return | John 1:14 (sarx) | 916 | 36c / 144c | 20/20 ✔ | 2027-10-24 |
+| 358 | M12·D358 | He Was Poor That You Might Be Rich | `/he-was-poor-that-you-might-be-rich/` | Redemption & His Return | 2 Cor 8:9 | 929 | 34c / 146c | 20/20 ✔ | 2027-10-25 |
+| 359 | M12·D359 | Wrapped in Swaddling Cloths, Wrapped in Prophecy | `/wrapped-in-swaddling-cloths-wrapped-in-prophecy/` | Redemption & His Return | Luke 2:12 | 907 | 48c / 151c | 20/20 ✔ | 2027-10-26 |
+| 360 | M12·D360 | The Glory of the Only Begotten | `/the-glory-of-the-only-begotten/` | Redemption & His Return | John 1:14 (doxa) | 927 | 30c / 150c | 20/20 ✔ | 2027-10-27 |
+| 361 | M12·D361 | Christmas Is a Decision, Not a Date | `/christmas-is-a-decision-not-a-date/` | Redemption & His Return | John 1:12 | 932 | 35c / 153c | 20/20 ✔ | 2027-10-28 |
+| 362 | M12·D362 | The Blessed Hope: Looking for His Appearing | `/the-blessed-hope-looking-for-his-appearing/` | Redemption & His Return | Titus 2:13 | 923 | 43c / 152c | 20/20 ✔ | 2027-10-29 |
+| 363 | M12·D363 | Come, Lord Jesus: Living Ready | `/come-lord-jesus-living-ready/` | Redemption & His Return | Rev 22:20 | 927 | 30c / 141c | 20/20 ✔ | 2027-10-30 |
+| 364 | M12·D364 | The Story Continues in You | `/the-story-continues-in-you/` | Redemption & His Return | Acts 1:8 | 928 | 26c / 146c | 20/20 ✔ | 2027-10-31 |
+| 365 | M12·D365 | A New Year, an Everlasting Covenant | `/a-new-year-an-everlasting-covenant/` | Redemption & His Return | Heb 13:20–21 | 949 | 35c / 150c | 20/20 ✔ | 2027-11-01 |
 
 ---
 

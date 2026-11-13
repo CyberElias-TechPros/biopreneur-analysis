@@ -66,6 +66,16 @@ def page_paths() -> list[str]:
     return pages
 
 
+def _types_of(node: dict) -> list[str]:
+    """A schema @type may be a string or a list (e.g. ['Organization','OnlineBusiness'])."""
+    raw = node.get("@type")
+    if isinstance(raw, str):
+        return [raw]
+    if isinstance(raw, list):
+        return [x for x in raw if isinstance(x, str)]
+    return []
+
+
 def url_for(path: str, origin: str) -> str:
     rel = os.path.relpath(os.path.dirname(path), DIST).replace(os.sep, "/")
     if rel == ".":
@@ -245,8 +255,9 @@ def check_jsonld(pages: list[str]) -> None:
                         yield from walk(v)
 
             for node in walk(data):
-                typed[node["@type"]] += 1
-                if node["@type"] == "BlogPosting":
+                for t_ in _types_of(node):
+                    typed[t_] += 1
+                if "BlogPosting" in _types_of(node):
                     for field in (
                         "headline",
                         "description",
@@ -290,7 +301,7 @@ def check_jsonld(pages: list[str]) -> None:
         def walk(node):
             if isinstance(node, dict):
                 if "@type" in node:
-                    found.add(node["@type"])
+                    found.update(_types_of(node))
                 for v in node.values():
                     walk(v)
             elif isinstance(node, list):
@@ -312,6 +323,9 @@ def check_jsonld(pages: list[str]) -> None:
         "glossary/index.html": {"DefinedTermSet", "DefinedTerm", "BreadcrumbList"},
         "about/index.html": {"AboutPage", "Person", "BreadcrumbList"},
         "contact/index.html": {"ContactPage", "BreadcrumbList"},
+        "listen/index.html": {"WebPage", "BreadcrumbList"},
+        "accessibility/index.html": {"WebPage", "BreadcrumbList"},
+        "community/index.html": {"WebPage", "BreadcrumbList"},
         "doctrinal-basis/index.html": {"WebPage", "BreadcrumbList"},
         "privacy/index.html": {"WebPage", "BreadcrumbList"},
         "slate/index.html": {"CollectionPage", "ItemList", "BreadcrumbList"},
@@ -412,7 +426,10 @@ def check_indexability(pages: list[str], origin: str) -> None:
         r = read(rb)
         if "Sitemap:" not in r:
             fail("E4", "robots.txt does not reference the sitemap")
-        elif "Disallow: /" in r.replace("Disallow: /$", ""):
+        elif any(
+            line.strip() in ("Disallow: /", "Disallow:/")
+            for line in r.splitlines()
+        ):
             fail("E4", "robots.txt blocks the site")
         else:
             ok("E4", "robots.txt allows crawling and points to sitemap")
@@ -459,12 +476,62 @@ def check_indexability(pages: list[str], origin: str) -> None:
     ]
     leak = [n for n in noindex if not n.startswith("404")]
     if leak:
-        warn("E5", f"noindex on indexable page(s): {leak[:5]}")
+        warn("E8", f"noindex on indexable page(s): {leak[:5]}")
     else:
-        ok("E5", "no accidental noindex")
+        ok("E8", "no accidental noindex")
 
 
 # ---------------------------------------------------------------- F. links
+def check_flat_sitemap(pages: list[str], origin: str) -> None:
+    """E5 — /sitemap.xml must exist, parse, and cover every canonical URL.
+
+    The @astrojs/sitemap integration emits sitemap-index.xml + sitemap-0.xml;
+    /sitemap.xml is the human/console entry point. It is a separate document, so
+    it needs its own guard against drifting out of sync with the site.
+    """
+    flat = os.path.join(DIST, "sitemap.xml")
+    if not os.path.exists(flat):
+        fail("E5", "/sitemap.xml missing")
+        return
+    try:
+        root = ET.parse(flat).getroot()
+    except ET.ParseError as exc:
+        fail("E5", f"/sitemap.xml unparseable: {exc}")
+        return
+
+    ns = {"s": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    urls = root.findall(".//s:url", ns)
+    locs = {el.text for el in root.findall(".//s:loc", ns) if el.text}
+
+    defects: list[str] = []
+    for url in urls:
+        loc = url.findtext("s:loc", default="", namespaces=ns)
+        last = url.findtext("s:lastmod", default="", namespaces=ns)
+        prio = url.findtext("s:priority", default="", namespaces=ns)
+        if not loc.startswith(origin + "/"):
+            defects.append(f"{loc}: wrong origin")
+        if not loc.endswith("/"):
+            defects.append(f"{loc}: missing trailing slash")
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", last or ""):
+            defects.append(f"{loc}: bad lastmod")
+        if not re.match(r"^[01]\.\d$", prio or ""):
+            defects.append(f"{loc}: bad priority")
+
+    canon = set()
+    for p in pages:
+        m = re.search(r'<link\s+rel="canonical"\s+href="([^"]+)"', read(p))
+        if m:
+            canon.add(m.group(1).strip())
+    missing = canon - locs
+
+    if defects:
+        fail("E5", "/sitemap.xml defects: " + "; ".join(defects[:5]))
+    elif missing:
+        fail("E5", f"{len(missing)} canonical URL(s) absent from /sitemap.xml: {sorted(missing)[:3]}")
+    else:
+        ok("E5", f"/sitemap.xml lists {len(locs)} URLs, all canonical, all with lastmod + priority")
+
+
 def check_links(pages: list[str], origin: str) -> None:
     host = urlparse(origin).netloc
     broken: dict[str, set[str]] = defaultdict(set)
@@ -517,6 +584,9 @@ def check_links(pages: list[str], origin: str) -> None:
             "glossary",
             "slate",
             "doctrinal-basis",
+            "community",
+            "listen",
+            "accessibility",
         }
     }
     unreachable = {a for a in articles if a not in linked and os.path.exists(os.path.join(DIST, a, "index.html"))}
@@ -527,6 +597,110 @@ def check_links(pages: list[str], origin: str) -> None:
 
 
 # ---------------------------------------------------------------- G. feeds
+# ---------------------------------------------------------------- G2. AI readiness
+def check_ai_readiness(pages: list[str], origin: str) -> None:
+    """
+    AI/answer-engine readiness, checked as facts in dist/ rather than as intent.
+
+    Four things decide whether a model can use a site well:
+      H4 — a documented machine entry point (llms.txt) that names the corpus
+      H5 — a stable structured-data endpoint for the whole corpus
+      H6 — an explicit crawler policy for named AI agents
+      H7 — every page carries the cite-able identity graph (author + publisher ids)
+    """
+
+    # H4 — llms.txt exists, is text, names the site, and points at real pages
+    llms = os.path.join(DIST, "llms.txt")
+    if not os.path.exists(llms):
+        fail("H4", "llms.txt missing — answer engines have no curated index")
+    else:
+        body = read(llms)
+        missing = []
+        if not body.startswith("#"):
+            missing.append("no H1")
+        if ">" not in body:
+            missing.append("no summary block")
+        for path in ("/teachings/", "/slate/", "/glossary/", "/doctrinal-basis/", "/api/articles.json"):
+            if path not in body:
+                missing.append(f"does not point at {path}")
+        if missing:
+            fail("H4", "llms.txt incomplete: " + ", ".join(missing[:4]))
+        else:
+            ok("H4", f"llms.txt present ({len(body.splitlines())} lines) and links the corpus")
+
+    # H5 — machine corpus endpoint is real, parses, matches the article count
+    api = os.path.join(DIST, "api", "articles.json")
+    if not os.path.exists(api):
+        fail("H5", "api/articles.json missing")
+    else:
+        try:
+            data = json.loads(read(api))
+            n = data.get("count", 0)
+            arts = data.get("articles", [])
+            bad = [
+                a for a in arts[:50]
+                if not all(k in a for k in ("title", "slug", "url", "themeScripture", "datePublished"))
+            ]
+            if n < 300 or len(arts) != n or bad:
+                fail("H5", f"articles.json inconsistent ({n} declared, {len(arts)} found)")
+            else:
+                ok("H5", f"api/articles.json valid — {n} articles, {len(data.get('categories', []))} categories")
+        except Exception as exc:  # noqa: BLE001
+            fail("H5", f"articles.json unparseable: {exc}")
+
+    # H6 — robots.txt speaks to named AI agents and does not block them
+    rb = os.path.join(DIST, "robots.txt")
+    if os.path.exists(rb):
+        r = read(rb)
+        wanted = ["GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended", "CCBot"]
+        absent = [a for a in wanted if f"User-agent: {a}" not in r]
+        blocked = [
+            a for a in wanted
+            if re.search(rf"User-agent:\s*{a}\s*\n(?:.*\n){{0,3}}?Disallow:\s*/\s*$", r, re.M)
+        ]
+        if absent:
+            fail("H6", f"robots.txt silent on AI agents: {absent}")
+        elif blocked:
+            fail("H6", f"robots.txt blocks named AI agents: {blocked}")
+        else:
+            ok("H6", f"robots.txt names {len(wanted)} AI crawlers and allows each")
+    else:
+        fail("H6", "robots.txt missing")
+
+    # H7 — the identity graph is on every page and resolvable by @id
+    h7: list[str] = []
+    for p in pages:
+        try:
+            rel = os.path.relpath(p, DIST)
+        except ValueError:
+            continue
+        if rel.startswith(("404", "offline")):
+            continue
+        t = read(p)
+        blocks = re.findall(
+            r'<script[^>]*type="application/ld\+json"[^>]*>(.*?)</script>', t, re.S
+        )
+        if not blocks:
+            h7.append(f"{rel}: no JSON-LD")
+            continue
+        try:
+            data = json.loads(blocks[0])
+        except Exception:  # noqa: BLE001
+            h7.append(f"{rel}: bad JSON-LD")
+            continue
+        if "@graph" not in data:
+            h7.append(f"{rel}: not an @graph")
+            continue
+        ids = {n.get("@id") for n in data["@graph"] if isinstance(n, dict)}
+        want = {f"{origin}/#organization", f"{origin}/about/#ellis-graham"}
+        if not want <= ids:
+            h7.append(f"{rel}: graph missing publisher/author @id")
+    if h7:
+        fail("H7", "identity graph gaps: " + "; ".join(h7[:4]))
+    else:
+        ok("H7", f"every page carries a resolvable @graph (publisher + author by @id)")
+
+
 def check_feeds(pages: list[str]) -> None:
     rss = os.path.join(DIST, "rss.xml")
     if not os.path.exists(rss):
@@ -627,10 +801,16 @@ LIGHTHOUSE_MAP = [
     ("D1", "heading-order, single-h1, landmarks"),
     ("E1", "sitemap validity"),
     ("E2", "sitemap covers canonicals"),
+    ("E5", "/sitemap.xml flat sitemap"),
+    ("E8", "no accidental noindex"),
     ("E6", "sitemap lastmod/priority metadata"),
     ("E7", "404 document is noindex"),
     ("F1", "crawlable-anchors / internal link integrity"),
     ("F2", "orphan-page check"),
+    ("H4", "llms.txt machine index"),
+    ("H5", "structured corpus endpoint"),
+    ("H6", "AI crawler policy"),
+    ("H7", "cite-able identity graph"),
     ("G1", "RSS validity"),
     ("G3", "RSS full-content delivery"),
     ("H1", "image-alt, unsized-images"),
@@ -663,7 +843,9 @@ def main() -> None:
     check_jsonld(pages)
     check_semantics(pages)
     check_indexability(pages, origin)
+    check_flat_sitemap(pages, origin)
     check_links(pages, origin)
+    check_ai_readiness(pages, origin)
     check_feeds(pages)
     check_images(pages)
 

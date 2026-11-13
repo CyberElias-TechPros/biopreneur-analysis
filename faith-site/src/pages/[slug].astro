@@ -7,6 +7,8 @@ import DeclarationCard from '../components/DeclarationCard.astro';
 import FurtherStudy from '../components/FurtherStudy.astro';
 import RelatedTeachings from '../components/RelatedTeachings.astro';
 import AuthorBox from '../components/AuthorBox.astro';
+import CommunityInvite from '../components/CommunityInvite.astro';
+import ListenRoom from '../components/ListenRoom.astro';
 import CategoryChip from '../components/CategoryChip.astro';
 import { SITE } from '../data/site';
 import { getCategoryByName } from '../data/categories';
@@ -85,6 +87,23 @@ const structuredData = [
     publisher: { '@id': `${siteOrigin}/#organization` },
     isPartOf: { '@id': `${siteOrigin}/#website` },
     isAccessibleForFree: true,
+    // Speakable marks the blocks a voice assistant or screen reader should read
+    // first. The Listening Room reads the same region, which is why the
+    // selectors are stable classes rather than positional paths.
+    speakable: {
+      '@type': 'SpeakableSpecification',
+      cssSelector: ['h1', '.theme-scripture blockquote', '.declaration-text'],
+    },
+    audio: {
+      '@type': 'AudioObject',
+      name: `${data.title} — read aloud`,
+      description:
+        'On-device narration of this teaching in four voices and thirteen reading languages.',
+      contentUrl: `${siteOrigin}/listen/`,
+      encodingFormat: 'text/html',
+      inLanguage: SITE.language,
+      isAccessibleForFree: true,
+    },
     copyrightHolder: { '@id': `${siteOrigin}/#organization` },
     copyrightYear: new Date(`${data.pubDate}T00:00:00Z`).getUTCFullYear(),
   },
@@ -175,6 +194,9 @@ const structuredData = [
       </div>
     </div>
 
+    <!-- The Listening Room: on-device narration + translation, silent until asked -->
+    <ListenRoom title={data.title} url={canonicalUrl} slug={data.slug} />
+
     <!-- H1 -->
     <h1>{data.title}</h1>
 
@@ -207,6 +229,10 @@ const structuredData = [
       </figcaption>
     </figure>
 
+    <!-- Everything inside #listen-source is what the Listening Room reads, in
+         document order. Keeping the anchor here (not on <article>) leaves the
+         breadcrumb, byline, and hero caption out of the narration. -->
+    <div id="listen-source">
     <!-- 1. Theme-Scripture Block -->
     <ThemeScripture
       text={data.themeScripture.text}
@@ -239,6 +265,8 @@ const structuredData = [
         ))
       }
     </div>
+
+    </div><!-- /#listen-source -->
 
     <!-- 4. Further Study -->
     <FurtherStudy passages={data.furtherStudy} />
@@ -296,6 +324,11 @@ const structuredData = [
         }
       </div>
     </nav>
+
+    <!-- 6b. Reader community — after the teaching, before the author note. -->
+    <div class="article-community" data-reveal>
+      <CommunityInvite variant="inline" heading="Take this one to the room" />
+    </div>
 
     <!-- 7. Author Box -->
     <AuthorBox />

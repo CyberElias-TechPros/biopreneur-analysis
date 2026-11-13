@@ -32,11 +32,32 @@
         {
           "key": "Cross-Origin-Opener-Policy",
           "value": "same-origin"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "index, follow, max-image-preview:large, max-snippet:-1"
+        },
+        {
+          "key": "Link",
+          "value": "</llms.txt>; rel=\"llms\", </sitemap.xml>; rel=\"sitemap\", </api/articles.json>; rel=\"alternate\"; type=\"application/json\""
         }
       ]
     },
     {
-      "source": "/(fonts|images)/(.*)",
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "Service-Worker-Allowed",
+          "value": "/"
+        }
+      ]
+    },
+    {
+      "source": "/(fonts|images|icons)/(.*)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -54,13 +75,26 @@
       ]
     },
     {
-      "source": "/(sitemap.*\\.xml|rss\\.xml|robots\\.txt)",
+      "source": "/(sitemap.*\\.xml|rss\\.xml|robots\\.txt|llms\\.txt|llms-full\\.txt|api/articles\\.json)",
       "headers": [
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600, s-maxage=86400"
         }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "biopreneur-analysis.*"
+        }
+      ],
+      "destination": "https://lij.name.ng/$1",
+      "permanent": true
     }
   ]
 }

@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LightLine from '../components/LightLine.astro';
 import CategoryStrips from '../components/CategoryStrips.astro';
+import CommunityInvite from '../components/CommunityInvite.astro';
 import CategoryChip from '../components/CategoryChip.astro';
 import AuthorBox from '../components/AuthorBox.astro';
 import { SITE } from '../data/site';
@@ -37,6 +38,14 @@ const homeSchema = [
     inLanguage: SITE.language,
     publisher: { '@id': `${homeOrigin}/#organization` },
     isPartOf: { '@id': `${homeOrigin}/#website` },
+    // The home page is the entry point of a 365-day course, so it advertises the
+    // course shape as a Course + syllabus rather than only as a list of posts.
+    about: { '@id': `${homeOrigin}/#subject` },
+    audience: {
+      '@type': 'Audience',
+      audienceType: 'Christians seeking Scripture-anchored teaching',
+      geographicArea: SITE.targetRegions.map((r) => ({ '@type': 'Country', identifier: r })),
+    },
     blogPost: recentArticles.map((entry) => {
       const prose = (entry.body || '')
         .split('<!-- AUDIT-BELOW -->')[0]
@@ -273,6 +282,51 @@ const homeSchema = [
           ))
         }
       </div>
+    </div>
+  </section>
+
+  <!-- The Listening Room: the second way into the same 365 teachings. -->
+  <section class="listen-band" data-reveal>
+    <div class="swiss-container listen-band__inner">
+      <div class="listen-band__copy">
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">The Listening Room</p>
+        <h2 style="margin: 0 0 0.9rem 0;">Hear It While You Drive, Cook, or Lie Awake</h2>
+        <p style="color: var(--ink-soft); margin-bottom: 1rem;">
+          Every teaching can be listened to instead of read &mdash; in four voices, six speeds, and thirteen
+          languages. The speech is generated on your own device, so it is private, free, and works without a
+          connection once the page has loaded.
+        </p>
+        <a class="btn-editorial btn-editorial-ghost" href="/listen/">Enter the Listening Room &rarr;</a>
+      </div>
+      <div class="listen-band__art" aria-hidden="true">
+        <div class="listen-wave">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="meta-caps listen-band__caption">
+          On-device narration &middot; No download &middot; Never autoplays
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reader Community: the two WhatsApp rooms, offered once, after the slate. -->
+  <section class="community-band" data-reveal>
+    <div class="swiss-container community-band__inner">
+      <div>
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">
+          Beyond the Page
+        </p>
+        <h2 style="margin: 0 0 0.9rem 0;">Read Alone, or Read Together</h2>
+        <p style="color: var(--ink-soft); margin-bottom: 1rem;">
+          These teachings are written to be read in a quiet room. They are also written to be argued with,
+          prayed over, and lived out among people. If you want company for that work, there are two rooms
+          waiting &mdash; one where the day&rsquo;s teaching arrives, and one where readers talk it through.
+        </p>
+        <a class="meta-caps" href="/community/">How the community rooms work &rarr;</a>
+      </div>
+      <CommunityInvite variant="panel" compact={true} heading="Join in one tap" />
     </div>
   </section>
 

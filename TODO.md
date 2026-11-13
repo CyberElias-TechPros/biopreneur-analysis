@@ -36,8 +36,8 @@
 ## C. SITE BUILD & INFRASTRUCTURE
 
 - ✔ C1. Stack implemented: **Astro 6** static site in `faith-site/` (118 static pages built in ~7s)
-- ✔ C2. Domain decided: canonical origin is `https://lij.name.ng` (set as `PUBLIC_SITE_URL` in Vercel for production + preview). The earlier `injesusname.org` placeholder was a parked domain — replaced everywhere. The editorial address is now `editorial@lij.name.ng` (create that mailbox on the domain before publishing it widely).
-- ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (working form + mailto dispatch) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
+- ✔ C2. Domain decided: canonical origin is `https://lij.name.ng` (set as `PUBLIC_SITE_URL` in Vercel for production + preview). The earlier `injesusname.org` placeholder was a parked domain — replaced everywhere. The editorial desk is now the WhatsApp line `+234 708 913 8631` (`https://wa.me/2347089138631`); no public mailbox is published, so there is no mailbox to provision.
+- ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (WhatsApp compose-and-send, no server-side form) · Community (WhatsApp channel + readers' group) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
 - ✔ C4. SEO plumbing: `sitemap-index.xml`, `robots.txt`, `ads.txt`, canonicals, Open Graph/Twitter cards, `rss.xml`
 - ✔ C5. JSON-LD Schema: `BlogPosting` + `Person` + `BreadcrumbList` on every article; `WebSite` + `Organization` site-wide
 - ☐ C6. Analytics: GA4 or privacy-first alternative; Search Console + Bing Webmaster once custom domain is live
@@ -88,3 +88,31 @@
 2. **D1 review:** Month 1 arc complete (31/31 live); spot-check internal handoffs and category spread before AdSense submission
 3. **C2 / C8:** Deploy `faith-site/` to Vercel and attach custom domain when chosen
 4. **E2 / E3:** Enable `PUBLIC_ADSENSE_LIVE=true` and run the 15-factor pre-application audit (50-article floor now met)
+
+### Listening Room & reader resilience (shipped)
+
+- ✔ L1. On-device narration on every teaching: four voices, six speeds, remembered per reader (`ListenRoom.astro`, `listen-room.ts`).
+- ✔ L2. Thirteen reading languages; on-device translation where the browser supports it, honest link-out where it does not (`languages.ts`, `/listen/`).
+- ✔ L3. `/listen/` hub page listing languages, steps, and the first seven days ready to hear.
+- ✔ L4. Consent-gated AdSense — advertising loads only after "Allow ads"; both choices weighted equally; footer "Cookie settings" re-opens the choice (`consent.ts`).
+- ✔ L5. Offline reading via service worker + `/offline.html`; cache headers in `vercel.json`.
+- ✔ L6. Installable: web manifest, maskable icons, app shortcuts.
+- ✔ L7. `/accessibility/` statement with stated limits and a report route.
+- ✔ L8. Print stylesheet so a teaching can be printed for a house group or prison ministry.
+- ✔ L9. Shareable filtered search (`?q=`, `?cat=`) with a live result count.
+- ✔ L10. Speakable + AudioObject schema on every article.
+- ✔ L11. Days 224–365 article files committed (they were untracked and would have been missing from a clean build).
+
+### Search & AI readiness (shipped)
+
+- ✔ S1. `llms.txt` — curated machine index for language models, with citation format and licence.
+- ✔ S2. `llms-full.txt` — the entire 365-article corpus as one plain-text document (2.7 MB).
+- ✔ S3. `/api/articles.json` — all 365 articles as structured JSON with schema version.
+- ✔ S4. `robots.txt` names 18 AI crawlers (GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot, Applebot-Extended, Meta-ExternalAgent and others) and allows each.
+- ✔ S5. One unified `@graph` per page (article, breadcrumb, Organization, WebSite, Person, DefinedTermSet), all linked by `@id`.
+- ✔ S6. AI policy meta + `Link: rel="llms"` response header.
+- ✔ S7. Regional `hreflang` for NG, GH, KE, ZA, GB, US, CA, AU on a single English edition, plus `x-default`.
+- ✔ S8. `*.vercel.app` → 301 to the canonical host, so no duplicate-host content.
+- ✔ S9. `X-Robots-Tag`, `browsing-topics` opt-out, and cache headers for machine endpoints.
+- ✔ S10. Audit extended to 34 checks including four AI-readiness gates (H4–H7).
+- ✔ S11. `SEARCH_READINESS.md` — the full checklist, including what is deliberately not claimed.
