@@ -1364,3 +1364,101 @@ html.js-ready [data-reveal].is-visible {
 .article-community {
   margin-top: 2.5rem;
 }
+
+/* ------------------------------------------------------------ WhatsApp float
+   A persistent, low-key route to the teaching desk. Sits above the footer and
+   below the header in the stacking order, never overlaps the reading column on
+   desktop, and collapses to a circle on phones. Respects reduced-motion. */
+
+.wa-float {
+  position: fixed;
+  right: clamp(0.85rem, 2.5vw, 1.6rem);
+  bottom: clamp(0.85rem, 2.5vw, 1.5rem);
+  z-index: 90;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.6rem 0.95rem 0.6rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(212, 175, 106, 0.55);
+  background: #14181F;
+  color: #EDE8DF;
+  background-image: none;
+  box-shadow: 0 6px 22px rgba(13, 17, 23, 0.28);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease,
+    background-color 180ms ease;
+}
+
+html[data-theme='dark'] .wa-float {
+  background: #1B222D;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.45);
+}
+
+.wa-float:hover,
+.wa-float:focus-visible {
+  transform: translateY(-2px);
+  border-color: var(--gold);
+  box-shadow: 0 10px 26px rgba(13, 17, 23, 0.34);
+}
+
+.wa-float__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: rgba(212, 175, 106, 0.16);
+  color: #D4AF6A;
+}
+
+.wa-float__text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.15;
+}
+
+.wa-float__label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #D4AF6A;
+}
+
+.wa-float__number {
+  font-size: 0.8rem;
+  color: #C5CBD3;
+  white-space: nowrap;
+}
+
+/* Scrolled state: the label folds away so the control stays small while a
+   reader is deep in a teaching. The number remains until the phone breakpoint. */
+.wa-float.is-scrolled .wa-float__number {
+  display: none;
+}
+
+.wa-float.is-scrolled {
+  padding: 0.5rem;
+}
+
+@media (max-width: 700px) {
+  .wa-float__text {
+    display: none;
+  }
+
+  .wa-float {
+    padding: 0.5rem;
+    border-radius: 999px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .wa-float,
+  .wa-float:hover,
+  .wa-float:focus-visible {
+    transition: none;
+    transform: none;
+  }
+}
