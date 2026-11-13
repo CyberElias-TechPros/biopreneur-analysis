@@ -46,7 +46,6 @@ const organizationSchema = {
   alternateName: SITE.shortName,
   url: `${siteUrl}/`,
   description: SITE.description,
-  email: SITE.email,
   foundingDate: String(SITE.foundedYear),
   logo: {
     '@type': 'ImageObject',
@@ -76,10 +75,11 @@ const organizationSchema = {
   contactPoint: {
     '@type': 'ContactPoint',
     contactType: 'editorial',
-    email: SITE.email,
+    telephone: SITE.whatsapp.tel,
     url: `${siteUrl}/contact/`,
     availableLanguage: ['en'],
   },
+  sameAs: [SITE.community.channel.href, SITE.community.group.href],
 };
 
 const defaultWebSiteSchema = {

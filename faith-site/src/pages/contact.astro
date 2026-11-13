@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LightLine from '../components/LightLine.astro';
+import CommunityInvite from '../components/CommunityInvite.astro';
 import { SITE } from '../data/site';
 
 const contactOrigin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
@@ -19,12 +20,13 @@ const contactSchema = [
       '@type': 'Organization',
       '@id': `${contactOrigin}/#organization`,
       name: SITE.name,
-      email: SITE.email,
       contactPoint: {
         '@type': 'ContactPoint',
         contactType: 'editorial',
-        email: SITE.email,
+        telephone: SITE.whatsapp.tel,
+        url: `${contactOrigin}/contact/`,
         availableLanguage: ['en'],
+        contactOption: 'TollFree',
       },
     },
   },
@@ -41,7 +43,7 @@ const contactSchema = [
 
 <BaseLayout
   title={`Contact ${SITE.name} — Questions, Corrections & Prayer`}
-  description="Reach the editorial and teaching desk at Live In Jesus Name with Scripture questions, feedback, editorial corrections, or correspondence."
+  description="Send Scripture questions, feedback, corrections, or correspondence to the Live In Jesus Name teaching desk by WhatsApp. No account or email needed."
   canonicalPath="/contact/"
   jsonLd={contactSchema}
 >
@@ -54,6 +56,7 @@ const contactSchema = [
       <p style="max-width: 58ch; font-size: 1.1rem; color: var(--ink-soft);">
         Whether you have a thoughtful question about a Scripture passage, want to flag a typographical error,
         or wish to share how a teaching helped clarify your walk with Christ, we welcome your note.
+        Correspondence runs over WhatsApp, so there is no form to leave and no email account to open.
       </p>
     </div>
   </section>
@@ -64,12 +67,20 @@ const contactSchema = [
     <div class="swiss-grid">
       <!-- Left 4 columns: Direct details & expectations -->
       <div style="grid-column: span 4;">
-        <h2 style="margin-top: 0; font-size: 1.45rem;">Direct Editorial Desk</h2>
+        <h2 style="margin-top: 0; font-size: 1.45rem;">Direct Teaching Desk</h2>
         <p style="color: var(--ink-soft);">
-          You may write directly by email at any time:
+          The desk line is a WhatsApp number. Message it any time, from any device with WhatsApp installed.
+          No website account is needed, and this site never asks you for an email address.
         </p>
         <p style="font-family: var(--font-display); font-size: 1.2rem; margin-bottom: 1.75rem;">
-          <a href={`mailto:${SITE.email}`}>{SITE.email}</a>
+          <a
+            href={`https://wa.me/${SITE.whatsapp.e164}`}
+            target="_blank"
+            rel="noopener"
+          >{SITE.whatsapp.display}</a>
+          <span style="display: block; font-family: var(--font-body); font-size: 0.82rem; color: var(--ink-soft); margin-top: 0.35rem;">
+            Opens WhatsApp &middot; international format, replies in West Africa Time (WAT)
+          </span>
         </p>
 
         <h3 style="font-size: 1.15rem;">Response Window</h3>
@@ -88,6 +99,12 @@ const contactSchema = [
 
       <!-- Right 8 columns: Accessible Contact Form -->
       <div style="grid-column: span 8;">
+        <h2 style="margin-top: 0; font-size: 1.45rem;">Compose on WhatsApp</h2>
+        <p style="color: var(--ink-soft); margin-bottom: 1.5rem;">
+          Fill this in and the button opens WhatsApp with your message already written, addressed to the desk.
+          Nothing is submitted to this website — the text goes straight into your own WhatsApp.
+        </p>
+
         <form
           id="contact-form"
           style="padding: clamp(1.5rem, 4vw, 2.5rem); background: var(--surface); border: 1px solid var(--border-subtle);"
@@ -106,15 +123,14 @@ const contactSchema = [
           </div>
 
           <div class="form-field">
-            <label for="contact-email">Email Address *</label>
+            <label for="contact-phone">Your WhatsApp Number <span style="font-weight: 400; color: var(--ink-soft);">(optional)</span></label>
             <input
-              id="contact-email"
-              name="email"
-              type="email"
-              required
-              autocomplete="email"
+              id="contact-phone"
+              name="phone"
+              type="tel"
+              autocomplete="tel"
               class="form-input"
-              placeholder="you@example.com"
+              placeholder="+234 700 000 0000 — so we can reply if the chat does not go through"
             />
           </div>
 
@@ -144,8 +160,9 @@ const contactSchema = [
           </div>
 
           <p style="font-size: 0.85rem; color: var(--ink-soft); margin-bottom: 1.25rem;">
-            By sending a message, you agree that we may use your name and email solely to read and reply to your inquiry,
-            in accordance with our <a href="/privacy/">Privacy Policy</a>. We never sell or rent reader addresses.
+            This form does not send anything to our servers. It only prepares a WhatsApp message on your device.
+            We use the details you write solely to read and reply to your inquiry, in accordance with our
+            <a href="/privacy/">Privacy Policy</a>. We never sell or rent reader details.
           </p>
 
           <button
@@ -153,7 +170,7 @@ const contactSchema = [
             class="btn-editorial"
             style="cursor: pointer;"
           >
-            Compose &amp; Send Message &rarr;
+            Open in WhatsApp &rarr;
           </button>
 
           <div
@@ -168,7 +185,7 @@ const contactSchema = [
     </div>
   </section>
 
-  <script is:inline define:vars={{ deskEmail: SITE.email }}>
+  <script is:inline define:vars={{ deskNumber: SITE.whatsapp.e164, deskDisplay: SITE.whatsapp.display }}>
     (function () {
       var form = document.getElementById('contact-form');
       var status = document.getElementById('contact-status');
@@ -177,30 +194,40 @@ const contactSchema = [
       form.addEventListener('submit', function (e) {
         e.preventDefault();
         var name = document.getElementById('contact-name').value.trim();
-        var email = document.getElementById('contact-email').value.trim();
+        var phone = document.getElementById('contact-phone').value.trim();
         var topic = document.getElementById('contact-topic').value;
         var message = document.getElementById('contact-message').value.trim();
 
-        var subject = encodeURIComponent('[Live In Jesus Name] ' + topic + ' — from ' + name);
-        var body = encodeURIComponent(
-          'Name: ' + name + '\nReply Email: ' + email + '\nTopic: ' + topic + '\n\n' + message
-        );
-        var mailtoHref = 'mailto:' + deskEmail + '?subject=' + subject + '&body=' + body;
+        var lines = ['*' + topic + '*', '', message, '', '— ' + name];
+        if (phone) lines.push('Reply to: ' + phone);
+
+        var waHref = 'https://wa.me/' + deskNumber + '?text=' + encodeURIComponent(lines.join('\n'));
 
         status.hidden = false;
         status.innerHTML =
-          '<strong>Message prepared for dispatch.</strong> Your email client is opening addressed to <code>' +
-          deskEmail +
-          '</code>. If your device does not have a default mail app configured, <a href="' +
-          mailtoHref +
-          '">click here to launch your mail client</a> or copy your note directly to <strong>' +
-          deskEmail +
-          '</strong>.';
+          '<strong>Opening WhatsApp.</strong> Your message is addressed to <code>' +
+          deskDisplay +
+          '</code>. If nothing happens, <a href="' +
+          waHref +
+          '" target="_blank" rel="noopener">tap here to open the chat</a>, or message that number from your own WhatsApp.';
 
-        window.location.href = mailtoHref;
+        window.open(waHref, '_blank', 'noopener');
       });
     })();
   </script>
+
+  <LightLine />
+
+  <section class="swiss-container" style="padding-block: clamp(2.5rem, 5vw, 3.5rem);">
+    <h2 style="margin-top: 0;">Or Join the Conversation</h2>
+    <p style="color: var(--ink-soft); max-width: 62ch;">
+      Many questions are better answered in a room than in a private message. These are the two reader
+      channels — a broadcast for the daily teaching, and a group for discussion and prayer.
+    </p>
+    <div style="max-width: 720px;">
+      <CommunityInvite variant="panel" />
+    </div>
+  </section>
 </BaseLayout>
 
 <style>

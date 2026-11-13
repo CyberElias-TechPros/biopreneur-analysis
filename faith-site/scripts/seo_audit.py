@@ -312,6 +312,7 @@ def check_jsonld(pages: list[str]) -> None:
         "glossary/index.html": {"DefinedTermSet", "DefinedTerm", "BreadcrumbList"},
         "about/index.html": {"AboutPage", "Person", "BreadcrumbList"},
         "contact/index.html": {"ContactPage", "BreadcrumbList"},
+        "community/index.html": {"WebPage", "BreadcrumbList"},
         "doctrinal-basis/index.html": {"WebPage", "BreadcrumbList"},
         "privacy/index.html": {"WebPage", "BreadcrumbList"},
         "slate/index.html": {"CollectionPage", "ItemList", "BreadcrumbList"},
@@ -567,6 +568,7 @@ def check_links(pages: list[str], origin: str) -> None:
             "glossary",
             "slate",
             "doctrinal-basis",
+            "community",
         }
     }
     unreachable = {a for a in articles if a not in linked and os.path.exists(os.path.join(DIST, a, "index.html"))}

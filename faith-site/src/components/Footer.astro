@@ -37,6 +37,38 @@ const year = new Date().getFullYear();
       </div>
 
       <div>
+        <p class="meta-caps" style="color: #9AA3AE; margin: 0;">Reader Community</p>
+        <ul class="footer-list">
+          {
+            SITE.footerLinks.community.map((link) => {
+              const isExternal = link.href.startsWith('http');
+              return (
+                <li>
+                  <a
+                    href={link.href}
+                    {...(isExternal ? { target: '_blank', rel: 'noopener' } : {})}
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              );
+            })
+          }
+        </ul>
+        <p class="meta-caps" style="color: #9AA3AE; margin: 0.9rem 0 0 0;">Teaching Desk</p>
+        <p style="margin: 0.3rem 0 0 0; font-size: 0.92rem; color: #C5CBD3;">
+          <a
+            href={`https://wa.me/${SITE.whatsapp.e164}`}
+            target="_blank"
+            rel="noopener"
+            aria-label={`Message the teaching desk on WhatsApp at ${SITE.whatsapp.display}`}
+          >
+            {SITE.whatsapp.display}
+          </a>
+        </p>
+      </div>
+
+      <div>
         <p class="meta-caps" style="color: #9AA3AE; margin: 0;">Foundations &amp; Policy</p>
         <ul class="footer-list">
           {
@@ -58,7 +90,8 @@ const year = new Date().getFullYear();
         Faith &amp; sound wisdom walk together &middot;{' '}
         <a href="/privacy/">Privacy</a> &middot;{' '}
         <a href="/doctrinal-basis/">Doctrinal Basis</a> &middot;{' '}
-        <a href="/contact/">Contact</a>
+        <a href="/contact/">Contact</a> &middot;{' '}
+        <a href="/community/">Community</a>
       </span>
     </div>
   </div>

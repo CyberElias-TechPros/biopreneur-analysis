@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CategoryChip from '../../components/CategoryChip.astro';
 import LightLine from '../../components/LightLine.astro';
+import CommunityInvite from '../../components/CommunityInvite.astro';
 import { SITE } from '../../data/site';
 import { CATEGORIES } from '../../data/categories';
 
@@ -193,6 +194,25 @@ const teachingsSchema = [
           );
         })
       }
+    </div>
+  </section>
+
+  <!-- Reader community: offered once, after the library, never interleaved. -->
+  <section class="community-band">
+    <div class="swiss-container community-band__inner">
+      <div>
+        <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">
+          Reader Community
+        </p>
+        <h2 style="margin: 0 0 0.9rem 0;">A Library Read Alone Is Half Read</h2>
+        <p style="color: var(--ink-soft); margin-bottom: 1rem;">
+          Three hundred and sixty-five studies invite more than reading. Bring the passage that confused you,
+          the verse that finally landed, and the prayer you cannot yet put into words. Two WhatsApp rooms hold
+          that conversation &mdash; a broadcast channel and a readers&rsquo; group.
+        </p>
+        <a class="meta-caps" href="/community/">What happens in each room &rarr;</a>
+      </div>
+      <CommunityInvite variant="panel" compact={true} heading="Join the readers" />
     </div>
   </section>
 

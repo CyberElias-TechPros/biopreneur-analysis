@@ -1,0 +1,270 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import LightLine from '../components/LightLine.astro';
+import CommunityInvite from '../components/CommunityInvite.astro';
+import { SITE } from '../data/site';
+
+const origin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
+const pageUrl = `${origin}/community/`;
+const { channel, group } = SITE.community;
+
+const communitySchema = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    '@id': `${pageUrl}#community`,
+    name: `Reader Community — ${SITE.name}`,
+    description:
+      'How the Live In Jesus Name reader community works: a WhatsApp broadcast channel for daily teachings and a readers\u2019 group for questions, testimonies, and prayer.',
+    url: pageUrl,
+    inLanguage: SITE.language,
+    isPartOf: { '@id': `${origin}/#website` },
+    about: { '@id': `${origin}/#organization` },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${origin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Community', item: pageUrl },
+    ],
+  },
+];
+
+const rooms = [
+  {
+    key: 'channel',
+    ...channel,
+    title: 'The Broadcast Channel',
+    blurb: 'A quiet delivery of the day\u2019s teaching. Nothing to scroll, nothing to reply to.',
+    cadence: 'One post per teaching day',
+    rhythm: 'Read-only. You receive; you do not have to reply.',
+    privacy: 'Joining a channel does not expose your phone number to other followers.',
+  },
+  {
+    key: 'group',
+    ...group,
+    title: 'The Readers\u2019 Group',
+    blurb: 'The discussion room where readers bring their questions and carry one another\u2019s burdens.',
+    cadence: 'Between teachings, most days',
+    rhythm: 'Two-way. Ask, answer, testify, request prayer.',
+    privacy:
+      'A group chat exposes your number to other members. Use a number you are comfortable sharing, or stay in the channel.',
+  },
+];
+---
+
+<BaseLayout
+  title={`Reader Community — ${SITE.name}`}
+  description="Join the Live In Jesus Name reader community on WhatsApp: a channel for each day's teaching and a group for questions, testimonies, and prayer."
+  canonicalPath="/community/"
+  jsonLd={communitySchema}
+>
+  <section class="page-header">
+    <div class="reading-container">
+      <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.45rem 0;">
+        Reader Community
+      </p>
+      <h1>Where the Teaching Continues After the Page</h1>
+      <p style="font-size: 1.12rem; color: var(--ink-soft);">
+        A study is not finished when the last line is read. These are the two rooms where readers of
+        <strong>{SITE.name}</strong> keep working through the Scriptures together — one to listen in, one to talk.
+      </p>
+    </div>
+  </section>
+
+  <LightLine />
+
+  <section class="swiss-container" style="padding-block: clamp(2.5rem, 5vw, 3.75rem);">
+    <div class="community-rooms">
+      {
+        rooms.map((room) => (
+          <article class="community-room">
+            <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.35rem 0;">
+              {room.label}
+            </p>
+            <h2 style="margin: 0 0 0.65rem 0; font-size: clamp(1.3rem, 2.4vw, 1.6rem);">
+              {room.title}
+            </h2>
+            <p style="color: var(--ink-soft); margin: 0 0 1.1rem 0;">{room.blurb ?? room.summary}</p>
+
+            <dl class="community-facts">
+              <dt>Cadence</dt>
+              <dd>{room.cadence}</dd>
+              <dt>How it works</dt>
+              <dd>{room.rhythm}</dd>
+              <dt>Privacy</dt>
+              <dd>{room.privacy}</dd>
+            </dl>
+
+            <a
+              class="btn-editorial"
+              href={room.href}
+              target="_blank"
+              rel="noopener"
+              aria-label={`Join the ${room.label} (opens WhatsApp in a new tab)`}
+            >
+              Join the {room.key === 'channel' ? 'Channel' : 'Group'} &rarr;
+            </a>
+          </article>
+        ))
+      }
+    </div>
+
+    <p class="meta-caps" style="margin: 2rem 0 0 0;">
+      Both links open WhatsApp. Neither costs anything, and neither is required to read this site.
+    </p>
+  </section>
+
+  <section class="reading-container" style="padding-bottom: clamp(2.5rem, 5vw, 3.5rem);">
+    <h2 style="margin-top: 0;">What the Rooms Are For</h2>
+
+    <h3>A place for questions the teaching raised</h3>
+    <p>
+      A good study usually leaves one loose thread. Bring it. The group is where readers compare notes,
+      ask for a passage to be opened further, and help one another see what the text actually says.
+    </p>
+
+    <h3>A place for testimonies</h3>
+    <p>
+      When a teaching lands and something changes — a habit broken, a fear quietened, a reconciliation begun —
+      say so. Testimony is how one reader's Monday becomes another reader's hope.
+    </p>
+
+    <h3>A place for prayer requests</h3>
+    <p>
+      Ask plainly and pray briefly. We keep requests in the room rather than publishing them, and we do not
+      forward what is shared in confidence.
+    </p>
+
+    <h3>Not a substitute for your church</h3>
+    <p>
+      A chat room is not a congregation. It has no elders, no table, no discipline, and no gathered worship.
+      If these teachings are feeding you, let them send you deeper into a local body, not away from one.
+    </p>
+
+    <h3>Not a private counselling line</h3>
+    <p>
+      Volunteers and readers answer when they can; pastoral emergencies need local shepherds, licensed
+      counsellors, or emergency services. For editorial and teaching correspondence, use the
+      <a href="/contact/">contact desk</a>.
+    </p>
+  </section>
+
+  <LightLine />
+
+  <section class="swiss-container" style="padding-block: clamp(2.5rem, 5vw, 3.75rem);">
+    <div class="swiss-grid">
+      <div style="grid-column: span 5;">
+        <h2 style="margin-top: 0;">House Rules, Kept Short</h2>
+        <p style="color: var(--ink-soft); margin-bottom: 1.25rem;">
+          Four commitments hold the rooms together. They are not decoration; they are how a group of
+          strangers stays useful.
+        </p>
+        <ol class="community-rules">
+          <li><strong>Speak as one who is loved.</strong> No insults, no mockery, no point-scoring.</li>
+          <li><strong>Keep the Scriptures the authority.</strong> Opinions are welcome; proof texts are not props.</li>
+          <li><strong>Guard what is confided.</strong> What is shared in the room stays in the room.</li>
+          <li><strong>No soliciting, no schemes, no forwarded chains.</strong> The room is for the Word, not for business.</li>
+        </ol>
+      </div>
+      <div style="grid-column: span 7;">
+        <CommunityInvite variant="panel" heading="Ready to join? Two doors, one room" />
+      </div>
+    </div>
+  </section>
+
+  <section class="reading-container" style="padding-bottom: clamp(3rem, 6vw, 4.5rem);">
+    <h2>How This Relates to Your Privacy</h2>
+    <p>
+      Joining either room moves the conversation to WhatsApp, which is a separate service with its own terms
+      and privacy policy. This site does not receive, store, or process your phone number: the link goes
+      straight from your browser to WhatsApp, and nothing about your membership is reported back here.
+    </p>
+    <p>
+      If you would rather not use WhatsApp at all, you lose nothing. Every teaching is published in full on
+      this site, the <a href="/rss.xml">RSS feed</a> delivers each one, and no article is ever gated behind
+      a group invite. See the <a href="/privacy/">Privacy Policy</a> for the full picture.
+    </p>
+    <p class="meta-caps" style="margin-bottom: 0;">
+      Direct correspondence: <a href={`https://wa.me/${SITE.whatsapp.e164}`} target="_blank" rel="noopener">{SITE.whatsapp.display}</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .community-rooms {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .community-room {
+    border: 1px solid var(--border-subtle);
+    background: var(--bg);
+    padding: clamp(1.35rem, 3vw, 1.9rem);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .community-room .btn-editorial {
+    margin-top: auto;
+  }
+
+  .community-facts {
+    margin: 0 0 1.4rem 0;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 0.45rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  .community-facts dt {
+    color: var(--gold-text);
+    font-size: 0.74rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    padding-top: 0.15rem;
+  }
+
+  .community-facts dd {
+    margin: 0;
+    color: var(--ink-soft);
+    line-height: 1.5;
+  }
+
+  .community-rules {
+    margin: 0;
+    padding-left: 1.15rem;
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+  }
+
+  .community-rules li {
+    margin-bottom: 0.7rem;
+    line-height: 1.55;
+  }
+
+  .community-rules strong {
+    color: var(--ink);
+  }
+
+  @media (max-width: 560px) {
+    .community-facts {
+      grid-template-columns: 1fr;
+      gap: 0.15rem;
+    }
+
+    .community-facts dd {
+      margin-bottom: 0.55rem;
+    }
+  }
+
+  @media (max-width: 820px) {
+    .swiss-grid > div {
+      grid-column: 1 / -1 !important;
+    }
+  }
+</style>

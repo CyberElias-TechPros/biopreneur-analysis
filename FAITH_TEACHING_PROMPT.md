@@ -179,7 +179,7 @@ Rules: ≤ 65 characters where possible; front-load the revelation; no clickbait
 ## 10. SITE ARCHITECTURE & COMPLIANCE LAW (condensed from the Biopreneur system)
 
 ### 10.1 Site pages (mandatory before launch)
-Home (mission + featured teachings + category strips) · Teachings index (paginated) · About (who teaches here; doctrinal statement summary; honesty note) · Contact (working form + email) · Privacy Policy ≥1,500 words (cookies incl. advertising cookies, GDPR rights, CCPA, advertising & behavioral-remarketing sections, children's policy) · Doctrinal Basis page (what the site teaches — builds trust and E-E-T) · Category archives with 2–3 sentence descriptions.
+Home (mission + featured teachings + category strips) · Teachings index (paginated) · About (who teaches here; doctrinal statement summary; honesty note) · Contact (working form that hands off to WhatsApp) · Community (WhatsApp channel + readers' group, linked site-wide) · Privacy Policy ≥1,500 words (cookies incl. advertising cookies, GDPR rights, CCPA, advertising & behavioral-remarketing sections, children's policy) · Doctrinal Basis page (what the site teaches — builds trust and E-E-T) · Category archives with 2–3 sentence descriptions.
 
 ### 10.2 Categories (start with; add only when a cluster earns one)
 New Creation & Identity · The Holy Spirit · Faith · Authority of the Believer · The Word · Prayer & Fasting · Divine Health · Prosperity & Stewardship · Righteousness & Grace · Spiritual Warfare · Christian Living · Redemption & His Return.

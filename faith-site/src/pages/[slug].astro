@@ -7,6 +7,7 @@ import DeclarationCard from '../components/DeclarationCard.astro';
 import FurtherStudy from '../components/FurtherStudy.astro';
 import RelatedTeachings from '../components/RelatedTeachings.astro';
 import AuthorBox from '../components/AuthorBox.astro';
+import CommunityInvite from '../components/CommunityInvite.astro';
 import CategoryChip from '../components/CategoryChip.astro';
 import { SITE } from '../data/site';
 import { getCategoryByName } from '../data/categories';
@@ -296,6 +297,11 @@ const structuredData = [
         }
       </div>
     </nav>
+
+    <!-- 6b. Reader community — after the teaching, before the author note. -->
+    <div class="article-community" data-reveal>
+      <CommunityInvite variant="inline" heading="Take this one to the room" />
+    </div>
 
     <!-- 7. Author Box -->
     <AuthorBox />

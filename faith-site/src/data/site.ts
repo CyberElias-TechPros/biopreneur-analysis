@@ -15,7 +15,18 @@ export const SITE = {
   url: 'https://lij.name.ng',
   locale: 'en_US',
   language: 'en',
-  email: 'editorial@lij.name.ng',
+  /**
+   * No public mailbox. Reader correspondence runs through the Contact page's
+   * WhatsApp hand-off and the community channels below; AdSense's publisher
+   * requirements are met by a reachable contact route, not by an inbox.
+   */
+  whatsapp: {
+    /** Display form for the desk line, used in copy and the contact card. */
+    display: '+234 708 913 8631',
+    /** E.164 digits only, for wa.me links and tel: fallbacks. */
+    e164: '2347089138631',
+    tel: '+2347089138631',
+  },
   foundedYear: 2026,
   adsense: {
     publisherId: 'ca-pub-9124992249317290',
@@ -49,6 +60,27 @@ export const SITE = {
     { label: 'Doctrinal Basis', href: '/doctrinal-basis/' },
     { label: 'Contact', href: '/contact/' },
   ],
+  /**
+   * Community channels. Kept in one place so the Community page, the site-wide
+   * invite band, the Contact page, and the Organization JSON-LD `sameAs` array
+   * all point at the same URLs.
+   */
+  community: {
+    /** WhatsApp Channels are one-way broadcasts: no member list is exposed. */
+    channel: {
+      label: 'WhatsApp Channel',
+      name: 'Live In Jesus Name — Channel',
+      href: 'https://whatsapp.com/channel/0029Vb9dtURBvvsopt3b2D2v',
+      summary: 'One-way broadcast of each day\u2019s teaching. Joining does not reveal your number.',
+    },
+    /** Group chat: members can post, reply, and see who else is in the room. */
+    group: {
+      label: 'WhatsApp Group',
+      name: 'Live In Jesus Name — Readers\u2019 Group',
+      href: 'https://chat.whatsapp.com/L9ddgfpreCb9P9XqrV1haa',
+      summary: 'The discussion room: questions, testimonies, and prayer requests between readers.',
+    },
+  },
   footerLinks: {
     study: [
       { label: 'All Teachings', href: '/teachings/' },
@@ -61,6 +93,12 @@ export const SITE = {
       { label: 'Doctrinal Basis', href: '/doctrinal-basis/' },
       { label: 'Contact the Desk', href: '/contact/' },
       { label: 'Privacy Policy', href: '/privacy/' },
+    ],
+    /** Reader community. Rendered as a third footer column with live joins. */
+    community: [
+      { label: 'Community & Study Rooms', href: '/community/' },
+      { label: 'WhatsApp Channel', href: 'https://whatsapp.com/channel/0029Vb9dtURBvvsopt3b2D2v' },
+      { label: "WhatsApp Readers' Group", href: 'https://chat.whatsapp.com/L9ddgfpreCb9P9XqrV1haa' },
     ],
   },
   teacher: {

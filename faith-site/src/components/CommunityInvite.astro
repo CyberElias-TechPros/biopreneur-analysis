@@ -1,0 +1,62 @@
+---
+/**
+ * The single place the two WhatsApp links are rendered.
+ *
+ * Everything outward-facing (invite band, article footer, contact page,
+ * community page) uses this component so the labels, `rel` attributes, and
+ * accessibility text cannot drift apart. Links open in a new tab and carry
+ * `rel="noopener"` — both channels are third-party origins.
+ */
+import { SITE } from '../data/site';
+
+interface Props {
+  /** `inline` sits inside prose; `panel` is a bordered block; `stack` is full-width buttons. */
+  variant?: 'panel' | 'inline' | 'stack';
+  /** Optional override for the heading. */
+  heading?: string;
+  /** Hide the summary text (used in tight placements). */
+  compact?: boolean;
+}
+const { variant = 'panel', heading, compact = false } = Astro.props;
+
+const channels = [SITE.community.channel, SITE.community.group];
+---
+
+<div class={`community-cta community-cta--${variant}`}>
+  <p class="meta-caps community-cta__eyebrow">Reader Community</p>
+  <p class="community-cta__heading">
+    {heading ?? 'Study with us between the teachings'}
+  </p>
+  {
+    !compact && (
+      <p class="community-cta__lede">
+        Two rooms, one purpose: readers who want to keep the conversation going after the page ends.
+      </p>
+    )
+  }
+  <ul class="community-cta__list">
+    {
+      channels.map((c) => (
+        <li>
+          <a
+            class="community-cta__link"
+            href={c.href}
+            target="_blank"
+            rel="noopener"
+            aria-label={`${c.name} (opens WhatsApp in a new tab)`}
+          >
+            <span class="community-cta__label">{c.label}</span>
+            {!compact && <span class="community-cta__summary">{c.summary}</span>}
+            <span class="community-cta__arrow" aria-hidden="true">
+              &rarr;
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+  <p class="community-cta__note">
+    Optional, never required for access — every teaching stays free and complete on this site.
+    See <a href="/community/">how the rooms work</a>.
+  </p>
+</div>

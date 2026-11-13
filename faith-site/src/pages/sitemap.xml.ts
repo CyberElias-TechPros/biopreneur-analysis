@@ -19,6 +19,7 @@ import { routeMetaFor } from '../lib/sitemap-routes';
 const STATIC_ROUTES: Array<{ path: string; changefreq: string; priority: string }> = [
   { path: '/', changefreq: 'daily', priority: '1.0' },
   { path: '/teachings/', changefreq: 'daily', priority: '0.9' },
+  { path: '/community/', changefreq: 'monthly', priority: '0.6' },
   { path: '/slate/', changefreq: 'weekly', priority: '0.7' },
   { path: '/glossary/', changefreq: 'monthly', priority: '0.7' },
   { path: '/about/', changefreq: 'yearly', priority: '0.5' },

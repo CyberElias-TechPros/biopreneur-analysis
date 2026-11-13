@@ -69,9 +69,11 @@ const privacySchema = [
     <h2>2. Information We Collect</h2>
     <h3>2.1 Information You Voluntarily Provide</h3>
     <p>
-      When you contact our editorial desk through our <a href="/contact/">Contact page</a> or write directly to <code>{SITE.email}</code>,
-      we receive the details you choose to share — typically your name, email address, the subject category of your message, and the contents
-      of your correspondence. Please refrain from including sensitive medical, financial, or confidential third-party records in general email inquiries.
+      When you contact our editorial desk through the <a href="/contact/">Contact page</a> or message the desk line on WhatsApp
+      (<code>{SITE.whatsapp.display}</code>), you choose what to share — typically your name, a return number if you want one, the subject
+      of your message, and the contents of your correspondence. The Contact page does not submit to our servers: it prepares a WhatsApp
+      message on your own device, and the conversation that follows lives in WhatsApp under WhatsApp&rsquo;s own terms. We see only what you
+      send us there. Please refrain from including sensitive medical, financial, or confidential third-party records in general inquiries.
     </p>
 
     <h3>2.2 On-Device Reading Preferences (Local Storage)</h3>
@@ -191,27 +193,40 @@ const privacySchema = [
     <p>
       For readers in Nigeria and across Africa, {SITE.name} honours the principles of fairness, lawfulness, transparency, data minimization,
       storage limitation, and security established under the Nigeria Data Protection Act (NDPA) 2023. Data subjects may request confirmation,
-      correction, or deletion of any personal correspondence held by our desk by emailing <code>{SITE.email}</code>.
+      correction, or deletion of any personal correspondence held by our desk by messaging <code>{SITE.whatsapp.display}</code>
+      on WhatsApp and asking us plainly.
     </p>
 
     <h2>9. Children’s Privacy (COPPA)</h2>
     <p>
       {SITE.name} is a general-audience Christian Scripture study publication and is not directed at children under the age of 13 (or under 16 in
       jurisdictions with a higher digital consent threshold). We do not knowingly collect personal information from children. If a parent or legal
-      guardian believes a child has submitted personal details to our contact email without parental consent, please notify us at
-      <code>{SITE.email}</code> and we will promptly delete those records.
+      guardian believes a child has submitted personal details to our desk without parental consent, please notify us at
+      <code>{SITE.whatsapp.display}</code> and we will promptly delete those records.
     </p>
 
     <h2>10. Data Retention, Security, and External Links</h2>
     <p>
-      Reader emails sent to our editorial desk are retained only as long as reasonably needed to answer your question and maintain editorial continuity,
-      after which routine correspondence is periodically archived or purged. We protect the Site with HTTPS transport encryption, minimal data collection,
+      Correspondence sent to our editorial desk is retained only as long as reasonably needed to answer your question and maintain editorial continuity,
+      after which routine correspondence is periodically archived or purged from the devices that hold it. We protect the Site with HTTPS transport encryption, minimal data collection,
       and restricted administrative access; however, no method of electronic transmission over the public internet can be guaranteed 100 percent immune
       from risk.
     </p>
     <p>
       Occasionally our pages may reference external resources or opt-out portals operated by third parties. Once you follow a link outside {SITE.name},
       that external website’s own privacy policy governs your visit.
+    </p>
+
+    <h3>10.1 Reader Community Channels (WhatsApp)</h3>
+    <p>
+      Our <a href="/community/">Community page</a>, the footer, the home page, and the end of each teaching link to a WhatsApp Channel and a
+      WhatsApp Group where readers receive daily teachings and discuss them. Those links leave this Site and open WhatsApp, a service operated
+      by WhatsApp LLC / Meta. This Site does not receive, store, or process your phone number, and we are not told who joins or leaves either room.
+    </p>
+    <p>
+      What you post in the group is visible to other members and is governed by WhatsApp&rsquo;s terms and privacy policy. A broadcast Channel
+      does not reveal your number to other followers; a Group does reveal your number to its members. Join with a number you are comfortable
+      sharing, or read the teachings here instead — no teaching is ever gated behind a community invite.
     </p>
 
     <h2>11. Changes to This Privacy Policy and How to Contact Us</h2>
@@ -221,8 +236,9 @@ const privacySchema = [
     </p>
     <p>
       <strong>{SITE.name} — Editorial &amp; Privacy Desk</strong><br />
-      Email: <a href={`mailto:${SITE.email}`}>{SITE.email}</a><br />
-      Contact Form: <a href="/contact/">{SITE.url}/contact/</a>
+      WhatsApp: <a href={`https://wa.me/${SITE.whatsapp.e164}`} target="_blank" rel="noopener">{SITE.whatsapp.display}</a><br />
+      Contact page: <a href="/contact/">{SITE.url}/contact/</a><br />
+      Community: <a href="/community/">{SITE.url}/community/</a>
     </p>
   </article>
 </BaseLayout>

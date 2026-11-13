@@ -36,8 +36,8 @@
 ## C. SITE BUILD & INFRASTRUCTURE
 
 - ✔ C1. Stack implemented: **Astro 6** static site in `faith-site/` (118 static pages built in ~7s)
-- ✔ C2. Domain decided: canonical origin is `https://lij.name.ng` (set as `PUBLIC_SITE_URL` in Vercel for production + preview). The earlier `injesusname.org` placeholder was a parked domain — replaced everywhere. The editorial address is now `editorial@lij.name.ng` (create that mailbox on the domain before publishing it widely).
-- ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (working form + mailto dispatch) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
+- ✔ C2. Domain decided: canonical origin is `https://lij.name.ng` (set as `PUBLIC_SITE_URL` in Vercel for production + preview). The earlier `injesusname.org` placeholder was a parked domain — replaced everywhere. The editorial desk is now the WhatsApp line `+234 708 913 8631` (`https://wa.me/2347089138631`); no public mailbox is published, so there is no mailbox to provision.
+- ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (WhatsApp compose-and-send, no server-side form) · Community (WhatsApp channel + readers' group) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
 - ✔ C4. SEO plumbing: `sitemap-index.xml`, `robots.txt`, `ads.txt`, canonicals, Open Graph/Twitter cards, `rss.xml`
 - ✔ C5. JSON-LD Schema: `BlogPosting` + `Person` + `BreadcrumbList` on every article; `WebSite` + `Organization` site-wide
 - ☐ C6. Analytics: GA4 or privacy-first alternative; Search Console + Bing Webmaster once custom domain is live
