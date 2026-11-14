@@ -5,8 +5,8 @@
  * (a couple of locales speak better under a regional tag than the base tag).
  *
  * `translate` is the honest state of machine translation for that language:
- *   · 'browser'  — the Chrome/Edge Translator API supports it today; we use the
- *                  on-device model, nothing leaves the device.
+ *   · 'browser'  — the browser Translator API may support it; availability is
+ *                  checked at runtime and the on-device model is used only then.
  *   · 'external' — no on-device model; we offer a link-out the reader chooses,
  *                  we never translate silently.
  *

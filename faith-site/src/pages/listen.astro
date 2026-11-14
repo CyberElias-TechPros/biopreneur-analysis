@@ -3,8 +3,12 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LightLine from '../components/LightLine.astro';
 import ListenRoom from '../components/ListenRoom.astro';
+import ThemeScripture from '../components/ThemeScripture.astro';
+import Reaffirmation from '../components/Reaffirmation.astro';
+import DeclarationCard from '../components/DeclarationCard.astro';
 import { SITE } from '../data/site';
 import { LISTEN_LANGUAGES } from '../data/languages';
+import { renderArticleProse } from '../lib/markdown';
 
 const origin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
 const pageUrl = `${origin}/listen/`;
@@ -14,6 +18,7 @@ const articles = (await getCollection('articles'))
   .sort((a, b) => a.data.day - b.data.day);
 
 const latest = [...(await getCollection('articles'))].sort((a, b) => b.data.day - a.data.day)[0];
+const latestProse = await renderArticleProse(latest.body || '');
 
 const listenSchema = [
   {
@@ -22,7 +27,7 @@ const listenSchema = [
     '@id': `${pageUrl}#listen`,
     name: `The Listening Room — ${SITE.name}`,
     description:
-      'Hear every teaching read aloud, in the voice and language you choose. Narration runs on your own device — no download, no account, nothing collected.',
+      'Hear every teaching read aloud in your browser, with voice, speed, and language choices. No audio download, no account; speech uses your device or browser voice engine.',
     url: pageUrl,
     inLanguage: SITE.language,
     isPartOf: { '@id': `${origin}/#website` },
@@ -55,12 +60,12 @@ const steps = [
   {
     n: '02',
     title: 'Choose a voice and speed',
-    body: 'Four named voices, from a warm pastoral reading to a slower elder register, each with six speeds. Your choice is remembered across every article you open afterwards.',
+    body: 'Four reading styles, from a warm pastoral pace to a slower elder register, each with six speeds. They shape the voices installed on your device, and your choice is remembered across every teaching.',
   },
   {
     n: '03',
     title: 'Pick your language',
-    body: 'Thirteen reading languages, starting with English, French, Spanish, Portuguese, Kiswahili, Yorùbá, Igbo, and Hausa. On-device translation is used where your browser supports it; otherwise you are told plainly and offered the original.',
+    body: 'Thirteen reading languages, starting with English, French, Spanish, Portuguese, Kiswahili, Yorùbá, Igbo, and Hausa. On-device translation is used where your browser supports it; otherwise you are told plainly and offered the original or an explicit external link.',
   },
   {
     n: '04',
@@ -72,8 +77,9 @@ const steps = [
 
 <BaseLayout
   title="The Listening Room — Hear Every Teaching Read Aloud"
-  description="Listen to any of the 365 Scripture teachings in the voice, speed, and language you choose. Narration runs on your own device — free and private."
+  description="Listen to any of the 365 Scripture teachings in the voice, speed, and language you choose. Browser speech synthesis — free, no account, never autoplayed."
   canonicalPath="/listen/"
+  experience={true}
   jsonLd={listenSchema}
 >
   <section class="page-header">
@@ -83,8 +89,8 @@ const steps = [
       </p>
       <h1>Scripture You Can Hear, in the Voice You Choose</h1>
       <p style="font-size: 1.12rem; color: var(--ink-soft);">
-        Every teaching on this site can be listened to instead of read. Narration runs on your own device,
-        costs nothing, needs no account, and never begins without you pressing play.
+        Every teaching on this site can be listened to instead of read. Narration uses your browser's
+        speech engine, costs nothing, needs no account, and never begins without you pressing play.
       </p>
     </div>
   </section>
@@ -102,6 +108,22 @@ const steps = [
       (<a href={`/${latest.data.slug}/`}>{latest.data.title}</a>).
       Voice and speed choices made here follow you to every other teaching.
     </p>
+
+    <details class="listen-transcript" data-listen-transcript>
+      <summary class="listen-transcript__summary">Read the teaching being narrated</summary>
+      <div id="listen-source" lang="en" dir="ltr">
+        <h2 class="listen-transcript__title">{latest.data.title}</h2>
+        <ThemeScripture
+          text={latest.data.themeScripture.text}
+          reference={latest.data.themeScripture.reference}
+          translation={latest.data.themeScripture.translation}
+        />
+        <div class="article-prose" set:html={latestProse.part1Html} />
+        {latestProse.part2Html && <div class="article-prose" set:html={latestProse.part2Html} />}
+        <Reaffirmation text={latest.data.reaffirmation} />
+        <DeclarationCard text={latest.data.declaration} />
+      </div>
+    </details>
   </section>
 
   <LightLine />
@@ -112,12 +134,13 @@ const steps = [
         <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">How It Works</p>
         <h2 style="margin-top: 0;">Four Steps, No Downloads</h2>
         <p style="color: var(--ink-soft);">
-          The Listening Room is built on the speech engine already inside your browser. That single
-          decision is why it is free, private, and instant.
+          The Listening Room uses the Web Speech API already inside your browser. There is no audio
+          file to download and no account to create.
         </p>
         <p style="color: var(--ink-soft); font-size: 0.92rem;">
-          Nothing is uploaded, no voice service is called, and no audio file is streamed. Your device
-          generates the speech locally, which also means it keeps working on a plane or a slow connection.
+          Installed local voices can work offline. Some browser voices use the vendor's network service
+          under that vendor's own terms; the player tells you when a matching voice is missing. Translation
+          stays on-device only where the browser's Translator API is available.
         </p>
       </div>
       <div style="grid-column: span 7;">
@@ -144,9 +167,9 @@ const steps = [
       <h2 style="margin-top: 0;">Thirteen Languages, Stated Honestly</h2>
       <p style="color: var(--ink-soft); max-width: 68ch; margin-bottom: 1.5rem;">
         Machine translation is never as careful as the original, and this site will not pretend otherwise.
-        Where your browser carries an on-device model, the translation happens on your device and nothing is
-        sent anywhere. Where it does not, we say so and offer the original rather than quietly shipping your
-        reading to a server.
+        Where your browser carries an on-device model, the translation happens on your device. Where it
+        does not, we say so and keep the English original rather than quietly shipping your reading to a
+        server. An external translation link is always an explicit choice.
       </p>
       <ul class="listen-langs">
         {
@@ -162,9 +185,9 @@ const steps = [
         }
       </ul>
       <p style="font-size: 0.85rem; color: var(--ink-soft); margin-top: 1.25rem;">
-        <strong>on-device</strong> — translated and spoken by your browser, nothing leaves your device.
-        <strong>external</strong> — you are offered a link to an outside translation service; the choice is yours.
-        In every language, the English original remains one click away and is never replaced.
+        <strong>on-device</strong> — translated by your browser's on-device model where available; speech still
+        depends on a matching installed voice. <strong>external</strong> — you are offered a link to an outside
+        translation service; the choice is yours. In every language, the English original remains one click away.
       </p>
     </div>
   </section>
@@ -217,6 +240,34 @@ const steps = [
 </BaseLayout>
 
 <style>
+  .listen-transcript {
+    margin-top: 1.25rem;
+    border: 1px solid var(--border-subtle);
+    background: var(--bg);
+  }
+
+  .listen-transcript__summary {
+    cursor: pointer;
+    padding: 0.75rem 0.9rem;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--gold-text);
+  }
+
+  .listen-transcript[open] .listen-transcript__summary {
+    border-bottom: 1px solid var(--border-subtle);
+  }
+
+  .listen-transcript #listen-source {
+    padding: 1rem 0.9rem 1.25rem;
+  }
+
+  .listen-transcript__title {
+    margin-top: 0;
+    font-size: 1.35rem;
+  }
+
   .listen-steps {
     list-style: none;
     margin: 0;

@@ -98,7 +98,7 @@ const structuredData = [
       '@type': 'AudioObject',
       name: `${data.title} — read aloud`,
       description:
-        'On-device narration of this teaching in four voices and thirteen reading languages.',
+        'Browser-synthesized narration of this teaching; voice and language availability depend on the reader’s device.',
       contentUrl: `${siteOrigin}/listen/`,
       encodingFormat: 'text/html',
       inLanguage: SITE.language,
@@ -194,9 +194,12 @@ const structuredData = [
       </div>
     </div>
 
-    <!-- The Listening Room: on-device narration + translation, silent until asked -->
+    <!-- The Listening Room: browser narration + translation, silent until asked -->
     <ListenRoom title={data.title} url={canonicalUrl} slug={data.slug} />
 
+    <!-- Everything inside #listen-source is what the Listening Room reads, in
+         document order. The breadcrumb, byline, and hero caption stay outside. -->
+    <div id="listen-source" lang="en" dir="ltr">
     <!-- H1 -->
     <h1>{data.title}</h1>
 
@@ -229,10 +232,6 @@ const structuredData = [
       </figcaption>
     </figure>
 
-    <!-- Everything inside #listen-source is what the Listening Room reads, in
-         document order. Keeping the anchor here (not on <article>) leaves the
-         breadcrumb, byline, and hero caption out of the narration. -->
-    <div id="listen-source">
     <!-- 1. Theme-Scripture Block -->
     <ThemeScripture
       text={data.themeScripture.text}

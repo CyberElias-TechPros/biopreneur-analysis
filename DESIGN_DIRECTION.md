@@ -1,118 +1,145 @@
-# Design Direction — Live In Jesus Name
+# Design Direction v2 — Live In Jesus Name
 
-A decision document, not a mood board. It names the direction this site already
-runs on, then states exactly what is added, so every future screen has a rule to
-obey instead of a vibe to imitate.
+**Status: superseding v1 ("Editorial Devotional Minimalism").**
+v1 optimised a quiet reading room. The brief for v2 is a *showpiece*: a
+top-class, state-of-the-art site that demonstrates craft — built on **GSAP**,
+**Lenis**, and **React Bits**, in a cinematic / bespoke / futuristic / spatial /
+editorial / premium register. This document is the rulebook every screen obeys.
 
 ---
 
-## 1. Where the site already sits
+## 1. The creative direction
 
-The site is built on **Swiss editorial** bones: a 12-column grid, one reading
-column (680px), a two-family type system (Fraunces for display, Inter for body),
-hairline gold rules, and a midnight footer that never changes register. That is
-already the correct foundation for long-form Scripture teaching, and it is not
-the thing to replace.
+> **Cinematic Immersive Luxury × Editorial × Futuristic Spatial.**
+> A midnight environment lit by dawn-gold. The home page is a *showroom* you
+> travel through; the teachings remain a *reading room* you settle into.
 
-What a reader feels on arrival is the combination of four traditions:
+We deliberately combine several families from the style catalogue rather than
+pick one adjective:
 
-| Layer | Tradition | What it gives |
+| Layer | Choice | What it gives |
 |---|---|---|
-| Structure | Swiss International Style | Order, measure, whitespace discipline |
-| Voice | Editorial luxury (magazine) | Kickers, drop caps, pull quotes, a serious byline |
-| Atmosphere | Devotional / liturgical minimalism | Dawn light, gold, silence, room to breathe |
-| Interaction | Quiet premium | Motion only where it clarifies, never for decoration |
+| Visual philosophy | Premium minimalism, restraint that is visible | Nothing decorative without a job |
+| Art direction | Cinematic + celestial | One light source (dawn-gold) in the dark |
+| Layout | Swiss 12-col + asymmetric bento + pinned horizontal rail | Order with drama |
+| Typography | Fraunces Variable (display) + Inter Variable (body) | Editorial conviction, kinetic headlines |
+| Colour & material | Midnight `#06080d`, ivory `#f3efe6`, gold `#d4af6a`, glass + grain | Luxury, depth, atmosphere |
+| Motion | GSAP ScrollTrigger + Lenis smooth scroll | Scrollytelling, parallax, reveals |
+| Interactive | React Bits islands (aurora, spotlight, magnet, star-border, count-up, split-text, velocity marquee, shiny text) | Tactile, memorable micro-worlds |
+| Storytelling | Hero → manifesto → pillars → year-rail → index → listen → community | A narrative, not a widget pile |
+| UX | Reading always beats chrome on article pages | The corpus stays usable |
+| Performance & a11y | Static HTML first, lazy islands, reduced-motion law | Fast, inclusive, indexable |
 
-**The direction is: Editorial Devotional Minimalism.**
-
-Not immersive 3D, not cinematic scrollytelling, not neo-brutalism, not
-maximalism. Those are correct for agencies, launches, and portfolios. They are
-wrong here for three concrete reasons:
-
-1. **The product is a text.** A 950-word teaching read on a phone. Every pixel of
-   chrome competes with the Scripture it frames.
-2. **The reader is often tired, grieving, or searching.** The design must lower
-   arousal, not raise it. Dawn palette, generous leading, no autoplay.
-3. **AdSense + Core Web Vitals.** Heavy WebGL, autoplaying video, and
-   scroll-hijacking cost LCP, INP, and revenue. The editorial route is both the
-   most beautiful *and* the fastest option here.
+The signature motif survives from v1: **the dawn arc over a horizon line with a
+cross** — now blown up as a celestial orbit instrument in the hero, and kept on
+the favicon and brand mark.
 
 ---
 
-## 2. What "award-winning" means in this category
+## 2. Architecture of the experience
 
-Awards in editorial/devotional publishing come from three things, not from
-effects:
+The site is still **Astro 6, fully static** (389 pages, 365 teachings). Motion is
+a progressive enhancement layered on readable HTML:
 
-1. **Typographic conviction** — one typeface used with total commitment, at
-   sizes and rhythms most sites are afraid of. Fraunces at 3.2rem with tight
-   leading is already that move.
-2. **A signature motif** — the dawn arc over a horizon line. It is on the
-   favicon, the hero, and — from this change — on the reader tools.
-3. **Restraint that is visible** — the site never moves under your thumb without
-   being asked. Nothing autoplays. Nothing follows you.
+- **`src/scripts/experience.ts`** — the GSAP × Lenis controller. Loaded only on
+  pages that pass `experience={true}` to `BaseLayout` (home + the marketing
+  surfaces: teachings, slate, listen, community, about, category hubs). It owns
+  smooth scroll, the hero timeline, rise-in reveals, the pinned 12-month rail,
+  parallax, the cursor glow, and magnetic accents.
+- **`src/scripts/chrome.ts`** — dependency-free chrome on *every* page: theme,
+  mobile menu, reading-scale, declaration speech, consent, and the quiet
+  IntersectionObserver reveals + reading progress used by **article pages**.
+- **React Bits islands** (`src/components/reactbits/`, vendored with license)
+  hydrate lazily (`client:load` / `client:visible`) only where used. The
+  365 article pages ship **no React and no GSAP** — they stay light.
 
-The addition below honours all three.
+### The two registers
 
----
+1. **The Showroom** (`.showcase`, home + marketing surfaces): a design
+   environment, like a film. Re-maps the editorial tokens so shared components
+   inherit the set. It has **two lighting states** driven by the same header
+   toggle as the rest of the site:
+   - **Midnight** (default): `#06080d` environment, additive gold aurora.
+   - **Dawn / Ivory** (`html[data-theme='light']`): `#faf7f0` environment, the
+     aurora switches to `lightMode`, spotlight cards use the light palette, and
+     every translucent surface follows via `--sc-*-rgb` channel tokens. The
+     React islands re-tune live through the `ijn:theme` event + `useTheme` hook.
+2. **The Reading Room** (articles, legal, glossary): dark-first by default with a
+   one-tap switch to the dawn/ivory register. Native scroll, 680px measure, drop
+   cap, calm reveals. The Listening Room, text-resize and AdSense are unchanged.
 
-## 3. The one thing this site was missing
+The footer is a deliberate **midnight sign-off in both registers** — the one
+surface that never changes, like the colophon at the end of a book.
 
-It was a beautiful place to *read* and had no way to *listen*. For a devotional
-publication that is not a feature gap, it is an access gap: readers who commute,
-who are visually impaired, who read English as a second language, or who simply
-retain more by ear were locked out of 365 teachings.
+### Page-transition curtain
 
-So the new layer is not a redesign. It is a **reading instrument**:
+A dependency-free gilded wipe (`chrome.ts`, so article pages get it too) covers
+the gap between full page loads. Clicking an internal link raises a midnight (or
+ivory) panel bearing the dawn-arc mark; the next page lifts it on arrival. It is
+`aria-hidden` and `pointer-events:none`, skips modifiers / new tabs / downloads /
+anchors / external links, respects reduced-motion, restores clean from bfcache,
+and has a 5-second failsafe so it can **never strand the reader**.
 
-> **The Listening Room.** A single, quiet control surface that turns any teaching
-> into speech in the reader's own language, in a voice they chose, at a speed
-> they set — and never plays unless asked.
+### Morphing cursor
 
-### How it looks
-
-- Sits directly under the article meta line, where the text-size control already
-  lives. Same hairline language, same uppercase micro-labels.
-- Collapsed state is one line: `▷ Listen · English · Dawn` plus a language chip.
-- Expanded state opens a narrow panel — voice (4 named presets), speed
-  (0.8×–1.4×), language (13), and a live "now reading: section" readout.
-- While speaking: the current paragraph is marked with a gold hairline on the
-  left edge. The page does not move. Nothing scrolls itself. The reader can
-  follow with the eye or ignore the screen entirely.
-- On phones the panel is a bottom sheet that clears the WhatsApp button.
-
-### Why this is the right answer rather than a prettier one
-
-- It uses the **platform** speech engine: zero bytes shipped, zero API keys,
-  works offline once the page is cached, and cannot rate-limit.
-- Translation is **on-device** via the browser's own translator when available,
-  and degrades to a clear, honest offer to read the original instead of
-  pretending.
-- A **Listen** entry is added to the primary nav only where it does not breach
-  the five-item rule: it is a control inside the article, a utility in the
-  header, and a destination page (`/listen/`) for readers who want the whole
-  library spoken.
+On experience pages with a fine pointer, a gold ring + dot trail the pointer
+(GSAP `quickTo`). The ring expands over links and buttons and can carry a verb
+(`data-cursor="Read|Listen|Explore|Browse|Join|Open|View"`). The **native cursor
+is never hidden** — this is a decorative accent, not a replacement, so precision
+and accessibility are preserved. Disabled for coarse pointers and reduced motion.
 
 ---
 
-## 4. Type, colour, motion — unchanged, now enforced
+## 3. Motion law (non-negotiable)
 
-- **Type:** Fraunces Variable (display, optical sizing on) + Inter Variable
-  (body). No third family. Scripture is Fraunces italic; UI is Inter.
-- **Colour:** ivory `#FAF7F0`, ink `#1A1714`, gold `#B08D3E` decorative and
-  `#7A5C1B` for text (AA on ivory), midnight `#0D1117` for the footer. No pure
-  black anywhere, ever.
-- **Motion:** 600ms ease-out reveals, once, never repeating. `prefers-reduced-motion`
-  removes transforms and keeps opacity. Nothing autoplays — audio included.
-- **Space:** one column, 680px measure, section rhythm on a 4px scale.
+1. **`prefers-reduced-motion` is honoured everywhere.** No Lenis, no pins, no
+   parallax, no aurora, no cursor glow; simple opacity fades only.
+2. **Nothing autoplays audio.** The waveform is a scroll-reveal, not a playing
+   equaliser. Speech is always user-initiated.
+3. **Content is never hidden waiting for JS.** Every reveal animates *from* a
+   hidden state at runtime; with JS off the page is fully readable. React Bits
+   `SplitText`'s `visibility:hidden` is overridden so a headline can never strand.
+4. **The reader is never trapped.** Pins release; in-page anchors use
+   `lenis.scrollTo`; article pages keep native scroll and find-in-page.
+5. **One rAF loop.** Lenis rides GSAP's ticker; ScrollTrigger updates on Lenis
+   scroll. No competing animation clocks.
+6. **Transitions never trap.** The curtain is pointer-events:none with a failsafe
+   lift; the morphing cursor never hides the native pointer. Both are pure
+   enhancement and vanish under reduced motion.
 
 ---
 
-## 5. Non-negotiables this direction imposes
+## 4. Type, colour, space
 
-1. Reading always beats chrome: no sticky bars over prose, no interstitials.
-2. One idea per screen; one column per page.
-3. Every interactive addition must be keyboard-reachable, labelled, and silent
-   by default.
-4. Every new page must earn its place in the sitemap, the nav budget, and the
-   SEO audit — or it does not ship.
+- **Type:** Fraunces Variable (display, optical sizing to 144) + Inter Variable
+  (body). No third family. Headlines are kinetic; Scripture is Fraunces italic.
+- **Colour:** midnight `#06080d` / `#0a0e15`, ivory `#f3efe6`, gold `#d4af6a`
+  (decorative `#b08d3e`), sky `#2e4a66` as a cool counter-light. No pure black.
+- **Material:** glass header, 1px gold hairlines, film grain, radial dawn glows,
+  pointer-tracked spotlights.
+- **Space:** Swiss 12-column grid; one 680px reading column on articles; section
+  rhythm on a 4px scale; generous `clamp()` vertical padding.
+
+---
+
+## 5. What "award-winning" means here
+
+Not effects for their own sake — **typographic conviction, a signature motif,
+and restraint that is visible**, executed with a modern motion stack. The
+showroom earns attention; the reading room earns trust. Both are measured
+against the same bar: every page passes the 34-check SEO audit, type-checks
+clean, and degrades to fast, accessible, indexable HTML.
+
+---
+
+## 6. Stack reference
+
+- **GSAP 3** + ScrollTrigger + SplitText + `@gsap/react` — timelines, pins,
+  parallax, kinetic type.
+- **Lenis** — inertial smooth scroll, synced to the GSAP ticker.
+- **React Bits** (vendored, MIT + Commons Clause) — Aurora (WebGL2), SplitText,
+  ScrollVelocity, SpotlightCard, Magnet, CountUp, StarBorder, ShinyText.
+- **Motion** — powers the CountUp and ScrollVelocity islands.
+- **Astro 6 + @astrojs/react 5** — static corpus with lazy React islands.
+
+See `faith-site/src/components/reactbits/README.md` for component provenance.

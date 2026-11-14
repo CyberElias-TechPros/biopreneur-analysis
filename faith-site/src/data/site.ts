@@ -40,10 +40,11 @@ export const SITE = {
     tel: '+2347089138631',
   },
   /**
-   * The Listening Room. Speech is produced by the reader's own browser
-   * (Web Speech API) — no audio files, no third-party TTS keys, no quota, and
-   * nothing leaves the device. Language translation uses the browser's built-in
-   * Translator API where it exists and is otherwise *offered*, never faked.
+   * The Listening Room. Speech is produced by the reader's browser/OS
+   * (Web Speech API) — no audio files, no third-party TTS keys, and no quota.
+   * Installed local voices work offline; network voices follow the vendor's
+   * terms. Language translation uses the browser's built-in Translator API
+   * where it exists and is otherwise *offered*, never faked.
    */
   listen: {
     /** Voice presets. `match` strings are tested against the platform voice list. */

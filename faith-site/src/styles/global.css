@@ -1508,7 +1508,7 @@ html[data-theme='dark'] .wa-float {
 }
 
 /* ------------------------------------------------------------- Listening Room
-   One control surface for on-device narration. Static markup, so it is styled
+   One control surface for browser narration. Static markup, so it is styled
    and focusable before any script runs; the JS only adds behaviour. */
 
 .visually-hidden {
@@ -1769,6 +1769,24 @@ html[data-theme='dark'] .listen-btn--play {
   font-size: 0.8rem;
   text-decoration: underline;
   cursor: pointer;
+}
+
+.listen-external {
+  display: inline-block;
+  margin-top: 0.5rem;
+  margin-left: 0.75rem;
+  color: var(--gold-text);
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  text-decoration: underline;
+}
+
+.listen-btn:disabled,
+.listen-rate:disabled,
+.listen-choice:disabled,
+.listen-select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
 }
 
 .listen-unavailable {

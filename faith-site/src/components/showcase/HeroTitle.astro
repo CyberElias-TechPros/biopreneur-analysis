@@ -1,0 +1,22 @@
+---
+/**
+ * Cinematic display headline. Each line lives in an overflow-hidden mask so the
+ * experience layer can rise it into view (GSAP yPercent + rotateX). The text is
+ * plain HTML — fully readable with JS disabled and to every crawler.
+ */
+interface Props {
+  lines: string[];
+  accentLine?: number;
+  as?: 'h1' | 'h2' | 'p';
+  class?: string;
+}
+const { lines, accentLine = -1, as: Tag = 'h1', class: className = '' } = Astro.props;
+---
+
+<Tag class={`hero-title ${className}`} data-hero-title>
+  {lines.map((line, i) => (
+    <span class="hero-title-mask">
+      <span class={`hero-title-line${i === accentLine ? ' is-accent' : ''}`}>{line}</span>
+    </span>
+  ))}
+</Tag>

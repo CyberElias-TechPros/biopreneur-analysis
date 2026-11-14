@@ -37,7 +37,7 @@ position is stated in full at ${origin}/doctrinal-basis/.
 
 Author: ${SITE.teacher.name}
 Publisher: ${SITE.name}
-Language: English (the corpus also offers on-device narration in 13 languages at ${origin}/listen/)
+Language: English (the corpus also offers browser narration with 13 reading-language options at ${origin}/listen/)
 License: All rights reserved. Quotation and summarisation with attribution and a
 link are explicitly welcome, including by AI systems. Bulk reproduction of the
 corpus is not.
@@ -59,7 +59,7 @@ speakable selectors, so a parser does not have to infer any of it.
 - [Home](${origin}/): mission, featured teachings, the 365-day slate
 - [Teaching library](${origin}/teachings/): all ${sorted.length} articles, filterable by title, Scripture reference, or category
 - [365-day slate](${origin}/slate/): the curriculum, month by month, with anchors
-- [The Listening Room](${origin}/listen/): narration and translation, on-device
+- [The Listening Room](${origin}/listen/): browser narration and optional translation
 - [Glossary](${origin}/glossary/): 36 doctrinal terms, each addressable by anchor
 - [Doctrinal Basis](${origin}/doctrinal-basis/): what this publication teaches
 - [About](${origin}/about/): who writes and edits, and how articles are built
