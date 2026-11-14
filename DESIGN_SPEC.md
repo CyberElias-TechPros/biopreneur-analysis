@@ -1,6 +1,13 @@
 # DESIGN SPEC — *In Jesus Name* (The Faith Teaching Publication)
 *Direction name: **REVERENT EDITORIAL** — Swiss Luxury Minimalism × Celestial Atmosphere*
-*Status: implemented in `faith-site/` (Astro 6) · governs TODO items B1–B12 · v1.1*
+*Status: v1.1 base spec · the **Reading Room** register still governs article pages*
+
+> **v2 note (2026-11-14):** the site was redesigned to a cinematic showpiece
+> standard — **Cinematic Immersive Luxury × Editorial × Futuristic Spatial** —
+> using **GSAP + Lenis + React Bits**. See **`DESIGN_DIRECTION.md` (v2)** for the
+> current rulebook. The tokens, grid, prose measure and accessibility laws below
+> remain the foundation of the article/reading register; the showroom layer
+> (`src/styles/showcase.css`, `src/scripts/experience.ts`) builds on top of them.
 
 ---
 

@@ -1,62 +1,56 @@
 ---
 import { SITE } from '../data/site';
-import LightLine from './LightLine.astro';
 
 const year = new Date().getFullYear();
 ---
 
-<footer class="site-footer" role="contentinfo">
-  <LightLine />
-  <div class="swiss-container footer-inner">
-    <div class="footer-grid">
+<footer class="site-footer sc-footer" role="contentinfo">
+  <div class="sc-footer__glow" aria-hidden="true"></div>
+
+  <div class="swiss-container sc-footer__inner">
+    <!-- Cinematic sign-off: the verse, then the name as a horizon of type. -->
+    <div class="sc-footer__statement">
+      <p class="sc-footer__verse">
+        “The entrance of thy words giveth light; it giveth understanding unto the simple.”
+        <span class="sc-footer__ref">— Psalm 119:130</span>
+      </p>
+      <p class="sc-footer__wordmark" aria-hidden="true">{SITE.name}</p>
+      <p class="visually-hidden">{SITE.name}</p>
+    </div>
+
+    <hr class="sc-rule" />
+
+    <div class="footer-grid sc-footer__grid">
       <div>
-        <p
-          style="font-family: var(--font-display); font-size: 1.5rem; margin: 0 0 0.65rem 0; color: #FAF7F0;"
-        >
-          {SITE.name}
-        </p>
-        <p style="margin: 0 0 1rem 0; color: #C5CBD3; max-width: 44ch; font-size: 0.96rem;">
-          {SITE.mission}
-        </p>
-        <p class="meta-caps" style="color: #D4AF6A; margin: 0;">
-          “The entrance of thy words giveth light; it giveth understanding unto the simple.” — Psalm 119:130
-        </p>
+        <p class="sc-footer__brand">{SITE.name}</p>
+        <p class="sc-footer__mission">{SITE.mission}</p>
       </div>
 
       <div>
-        <p class="meta-caps" style="color: #9AA3AE; margin: 0;">Teaching Room</p>
+        <p class="meta-caps sc-footer__label">Teaching Room</p>
         <ul class="footer-list">
-          {
-            SITE.footerLinks.study.map((link) => (
+          {SITE.footerLinks.study.map((link) => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </div>
+
+      <div>
+        <p class="meta-caps sc-footer__label">Reader Community</p>
+        <ul class="footer-list">
+          {SITE.footerLinks.community.map((link) => {
+            const isExternal = link.href.startsWith('http');
+            return (
               <li>
-                <a href={link.href}>{link.label}</a>
+                <a href={link.href} {...(isExternal ? { target: '_blank', rel: 'noopener' } : {})}>
+                  {link.label}
+                </a>
               </li>
-            ))
-          }
+            );
+          })}
         </ul>
-      </div>
-
-      <div>
-        <p class="meta-caps" style="color: #9AA3AE; margin: 0;">Reader Community</p>
-        <ul class="footer-list">
-          {
-            SITE.footerLinks.community.map((link) => {
-              const isExternal = link.href.startsWith('http');
-              return (
-                <li>
-                  <a
-                    href={link.href}
-                    {...(isExternal ? { target: '_blank', rel: 'noopener' } : {})}
-                  >
-                    {link.label}
-                  </a>
-                </li>
-              );
-            })
-          }
-        </ul>
-        <p class="meta-caps" style="color: #9AA3AE; margin: 0.9rem 0 0 0;">Teaching Desk</p>
-        <p style="margin: 0.3rem 0 0 0; font-size: 0.92rem; color: #C5CBD3;">
+        <p class="meta-caps sc-footer__label sc-footer__label--gap">Teaching Desk</p>
+        <p class="sc-footer__desk">
           <a
             href={`https://wa.me/${SITE.whatsapp.e164}`}
             target="_blank"
@@ -69,20 +63,16 @@ const year = new Date().getFullYear();
       </div>
 
       <div>
-        <p class="meta-caps" style="color: #9AA3AE; margin: 0;">Foundations &amp; Policy</p>
+        <p class="meta-caps sc-footer__label">Foundations &amp; Policy</p>
         <ul class="footer-list">
-          {
-            SITE.footerLinks.trust.map((link) => (
-              <li>
-                <a href={link.href}>{link.label}</a>
-              </li>
-            ))
-          }
+          {SITE.footerLinks.trust.map((link) => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
         </ul>
       </div>
     </div>
 
-    <div class="footer-bottom">
+    <div class="footer-bottom sc-footer__bottom">
       <span>
         &copy; {year} {SITE.name}. All teachings are original Scripture-anchored works.
       </span>
@@ -91,7 +81,6 @@ const year = new Date().getFullYear();
         <a href="/privacy/">Privacy</a> &middot;{' '}
         <a href="/doctrinal-basis/">Doctrinal Basis</a> &middot;{' '}
         <a href="/contact/">Contact</a> &middot;{' '}
-        <a href="/community/">Community</a> &middot;{' '}
         <button type="button" class="footer-consent" data-open-consent>
           Cookie settings
         </button>

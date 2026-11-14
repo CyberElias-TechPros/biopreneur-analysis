@@ -139,10 +139,9 @@ const ogImageUrl = new URL('/images/og-default.png', Astro.site || SITE.url).toS
   (function () {
     try {
       var saved = localStorage.getItem('ijn-theme');
-      var prefersDark =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches;
-      var theme = saved === 'dark' || saved === 'light' ? saved : prefersDark ? 'dark' : 'light';
+      // Dark-first: the publication is a cinematic midnight environment by
+      // default; the reader can switch to the dawn reading register at any time.
+      var theme = saved === 'dark' || saved === 'light' ? saved : 'dark';
       document.documentElement.setAttribute('data-theme', theme);
       var scale = localStorage.getItem('ijn-scale');
       if (scale && ['0.92', '1', '1.12', '1.24'].indexOf(scale) !== -1) {

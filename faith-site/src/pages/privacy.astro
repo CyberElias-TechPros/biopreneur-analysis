@@ -88,23 +88,24 @@ const privacySchema = [
 
     <h3>2.2a The Listening Room: Speech and Translation</h3>
     <p>
-      Narration is produced by your own browser's speech engine. The text of a teaching is <strong>never sent to us or to a
-      speech vendor</strong> — there is no audio file to download and no text-to-speech service involved. Some browsers fetch
-      their voices from the operating system or the browser vendor under that vendor&rsquo;s own terms; that is outside our control and
-      outside our servers.
+      Narration is produced by your browser&rsquo;s Web Speech engine. This site does not upload teaching text to our servers,
+      store audio files, or call a text-to-speech API of its own. Your browser may use an installed local voice (which can work
+      offline) or a network voice provided by the browser or operating-system vendor under that vendor&rsquo;s own terms.
+      The player reports when no matching voice is available.
     </p>
     <p>
       Translation follows the same rule. Where your browser supports its built-in on-device translator, the translation happens
-      locally and no text leaves your device. Where it does not, we do not translate silently — the page tells you plainly and
-      offers either the English original or a link to an external translation service that you choose to open. If you follow that
-      link, the outside service&rsquo;s privacy policy governs the visit.
+      locally. Where it does not, we do not translate silently — the page tells you plainly and keeps the English original.
+      An external translation link is offered only as an explicit choice; if you open it and paste text there, the outside
+      service&rsquo;s privacy policy governs that visit.
     </p>
 
     <h3>2.2b Offline Reading</h3>
     <p>
       The Site registers a service worker so that pages you have already opened can be read again without a connection. It stores
       page HTML, fonts, and images in your browser&rsquo;s own cache, on your device. Nothing is uploaded, and clearing your browser
-      storage or your site data removes it.
+      storage or your site data removes it. Listening offline requires a cached page and an installed local voice; network voices
+      need a connection.
     </p>
 
     <h3>2.3 Standard Server Log and Diagnostic Data</h3>
