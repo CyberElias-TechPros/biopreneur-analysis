@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import react from '@astrojs/react';
+import vercel from '@astrojs/vercel';
 import { serializeSitemapEntry } from './src/lib/sitemap-routes.ts';
 
 const siteUrl =
@@ -14,6 +15,10 @@ const siteUrl =
 export default defineConfig({
   site: siteUrl,
   trailingSlash: 'always',
+  output: 'static',
+  adapter: vercel({
+    webAnalytics: { enabled: true },
+  }),
   integrations: [
     // React islands only: the corpus stays static HTML. React Bits components
     // (Aurora, SplitText, ScrollVelocity, SpotlightCard, Magnet, CountUp,
