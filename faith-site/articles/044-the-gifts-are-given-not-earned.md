@@ -6,8 +6,8 @@ title: "The Gifts Are Given, Not Earned"
 seoTitle: "The Gifts Are Given, Not Earned — 1 Corinthians 12:7"
 description: "1 Corinthians 12:7 says the Spirit gives gifts to each for the common good. Discover why spiritual gifts are distributed by grace, not deserved by status."
 slug: "the-gifts-are-given-not-earned"
-pubDate: "2026-12-15"
-updatedDate: "2026-12-15"
+pubDate: "2025-12-26"
+updatedDate: "2025-12-26"
 category: "The Holy Spirit"
 tags:
   - "the Power of the Holy Spirit"
@@ -51,6 +51,14 @@ glossaryTerms:
   - "the Anointing"
   - "Kingdom Stewardship"
 featuredImageAlt: "The Gifts Are Given, Not Earned — 1 Corinthians 12:7"
+answerQuestion: "What does it mean that the gift of the Spirit is given to every man to profit?"
+answerText: "First Corinthians 12:7 says the manifestation is given to every believer with an outcome in view. The profit belongs to others, not to your reputation. Which means no believer is a spectator, and no gift was issued to sit in a storeroom unused."
+alsoAsked:
+  - "the gift of the spirit is given to everyone for profit"
+  - "manifestation of the spirit"
+  - "spiritual gifts for every believer"
+answerLinkSlug: "the-gift-of-the-spirit-is-given-to-every-man-to-profit"
+answerLinkLabel: "Given to Every Man to Profit"
 ---
 
 Have you ever looked at another believer's gift and wondered why yours seems smaller — or whether you have one at all? Gift comparison is one of the quickest ways to miss the point of gifts entirely.

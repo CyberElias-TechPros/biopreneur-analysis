@@ -6,8 +6,8 @@ title: "The Light Shines in Darkness — Still"
 seoTitle: "The Light Shines in Darkness — Still"
 description: "John 1:5 says the light shines in the darkness, present tense, and the darkness has not overcome it. See why the shining never stopped and never will."
 slug: "the-light-shines-in-darkness-still"
-pubDate: "2027-10-07"
-updatedDate: "2027-10-07"
+pubDate: "2026-10-18"
+updatedDate: "2026-10-18"
 category: "Redemption & His Return"
 tags:
   - "Redemption & His Return"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "The New Creation"
   - "The Blessed Hope"
 featuredImageAlt: "The light shines in darkness — John 1:5"
+answerQuestion: "What does 'the light shines in the darkness' mean?"
+answerText: "John writes shines in the present tense, so the light is not a seasonal event. The darkness is described as failing to lay hold of it, not as winning a contest. Light keeps shining and darkness keeps being unable to extinguish or absorb it — which is the believer's position too."
+alsoAsked:
+  - "the light shines"
+  - "the light shines in the darkness"
+answerLinkSlug: "light-in-the-lord-children-of-the-day"
+answerLinkLabel: "Light in the Lord: Children of the Day"
 ---
 
 John's gospel opens with the most quoted sentence of the Christmas story that nobody wraps in tinsel, and grammarians have quietly noticed something the greeting cards missed.

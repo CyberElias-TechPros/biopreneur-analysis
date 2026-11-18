@@ -6,8 +6,8 @@ title: "The Prayer of Intercession: Standing in the Gap"
 seoTitle: "The Prayer of Intercession: Standing in the Gap"
 description: "Ezekiel 22:30 pictures God seeking a man to stand in the gap. Learn why intercession is a position rather than a petition, and who takes it up."
 slug: "the-prayer-of-intercession-standing-in-the-gap"
-pubDate: "2027-04-07"
-updatedDate: "2027-04-07"
+pubDate: "2026-04-18"
+updatedDate: "2026-04-18"
 category: "Prayer & Fasting"
 tags:
   - "Prayer & Fasting"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Communion With the Holy Spirit"
   - "The Life of Faith"
 featuredImageAlt: "The Prayer of Intercession: Standing in the Gap — Ezekiel 22:30"
+answerQuestion: "What does 'I sought for a man among them that should stand in the gap' mean?"
+answerText: "It means intercession is standing at cost where mercy and judgement meet. God was not looking for a more merciful advisor; He was looking for someone willing to stand in the breach. The search is the sobering part — He looked, and found none."
+alsoAsked:
+  - "i sought a man to stand in the gap"
+  - "standing in the gap"
+answerLinkSlug: "the-prayer-of-agreement-what-two-agreeing-does"
+answerLinkLabel: "The Prayer of Agreement: What It Means That Two Agree"
 ---
 
 Ezekiel 22 is one of the darkest chapters in the prophets, and it ends with a sentence that should be read slowly.

@@ -6,8 +6,8 @@ title: "The Body Is for the Lord"
 seoTitle: "The Body Is for the Lord, Not Against You"
 description: "Paul answered a slogan with a resurrection. Learn why your body is a member of Christ, a temple of the Spirit, and never a disposable container."
 slug: "the-body-is-for-the-lord"
-pubDate: "2027-05-05"
-updatedDate: "2027-05-05"
+pubDate: "2026-05-16"
+updatedDate: "2026-05-16"
 category: "Divine Health"
 tags:
   - "Divine Health"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "The Inheritance of the Believer"
   - "The New Creation"
 featuredImageAlt: "The Body Is for the Lord — 1 Corinthians 6:19–20"
+answerQuestion: "What does 'the body is for the Lord' mean?"
+answerText: "It means your body is not a disposable container for a soul that matters more. First Corinthians 6 calls it a member of Christ and a temple of the Holy Spirit. God's interest in your body is covenantal, not cosmetic — which is why caring for it is worship, not vanity."
+alsoAsked:
+  - "lord of body"
+  - "the body is for the lord"
+answerLinkSlug: "stewardship-of-the-temple-eat-rest-and-rule"
+answerLinkLabel: "Stewardship of the Temple: Eat, Rest, and Rule"
 ---
 
 There is a Greek idea that has quietly entered the church and done more damage to Christian health than any doctrine of demons: the idea that the body is a disposable container and only the soul matters.

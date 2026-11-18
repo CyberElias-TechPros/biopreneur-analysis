@@ -40,7 +40,7 @@
 - ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (WhatsApp compose-and-send, no server-side form) · Community (WhatsApp channel + readers' group) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
 - ✔ C4. SEO plumbing: `sitemap-index.xml`, `robots.txt`, `ads.txt`, canonicals, Open Graph/Twitter cards, `rss.xml`
 - ✔ C5. JSON-LD Schema: `BlogPosting` + `Person` + `BreadcrumbList` on every article; `WebSite` + `Organization` site-wide
-- ☐ C6. Analytics: GA4 or privacy-first alternative; Search Console + Bing Webmaster once custom domain is live
+- ◐ C6. Analytics: Search Console live (first query report received 2026-11-18 and acted on — see D17); GA4 or privacy-first alternative + Bing Webmaster still pending
 - ☐ C7. Comments: lightweight (giscus or none — zero-comment is fine per analysis)
 - ☐ C8. Backup/deploy pipeline: connect `faith-site/` root directory to Vercel for automatic deploys
 
@@ -58,6 +58,8 @@
 - ☐ D10. Month 10 (Oct — Unseen Realm): 31 (no demonizing people; victory-framing)
 - ☐ D11. Month 11 (Nov — Glory Life): 30
 - ☐ D12. Month 12 (Dec — Incarnation & Return): 31
+- ✔ D17. **Search-intent pass (2026-11-18):** first Search Console report = 124 queries / 47 clusters / 182 impressions / 0 clicks. All 47 clusters mapped to existing teachings; added the search-intent answer block to 47 articles and wrote 6 new search-led teachings (Days 366–371) for the genuine gaps. Mapping + per-cluster log in `SEARCH_INTENT_MAP.md`; audit extended with three new gates (future `pubDate`, malformed answer block, unresolved `answerLinkSlug`).
+- ✔ D18. **Publication dates corrected (2026-11-18):** 348 of 365 articles carried a future `pubDate`, pushing sitemap `lastmod` a year ahead and RSS/home freshness to a not-yet-published teaching. Whole slate shifted back 354 days (Day 001 → 2025-11-13, Day 365 → 2026-11-12), cadence and order intact; `audit_articles.py` now fails any future-dated article.
 - ✔ D13. Self-audit + SEO pack + ledger update workflow active (`faith-site/scripts/audit_articles.py` + `faith-site/ledger.md`)
 - ✔ D14b. **Rows 14 and 5 now measured, not asserted.** Every article carries the faith-and-wisdom line (§12 row 14) and at least two explicit contrast pairs (§2 Law 4); `audit_articles.py` fails on either if absent. Nine articles whose numbered applications were collapsing into one paragraph in the rendered HTML are fixed and verified in `dist/`.
 - ✔ D14a. **Prose floor verified on the correct measure.** All 120 articles ≥900 words of *teaching prose* (min 902, median 998, max 1,139) with the closing reaffirmation/declaration block excluded from the count; Standard's 0–3 H2 limit and the required "What This Means for You" section enforced by `audit_articles.py`.

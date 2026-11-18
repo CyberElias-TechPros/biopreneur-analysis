@@ -18,3 +18,7 @@ faith-site/.astro/
 .env
 .env.*
 
+
+# Python bytecode from the audit scripts
+faith-site/scripts/__pycache__/
+__pycache__/

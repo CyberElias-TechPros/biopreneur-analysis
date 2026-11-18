@@ -6,8 +6,8 @@ title: "Worship in Spirit and in Truth"
 seoTitle: "Worship in Spirit and in Truth — John 4:24"
 description: "John 4:24 says the Father seeks worshippers in spirit and truth. Discover how worship moves beyond location and style into reality and relationship."
 slug: "worship-in-spirit-and-in-truth"
-pubDate: "2026-12-26"
-updatedDate: "2026-12-26"
+pubDate: "2026-01-06"
+updatedDate: "2026-01-06"
 category: "The Holy Spirit"
 tags:
   - "the Presence of God"
@@ -51,6 +51,15 @@ glossaryTerms:
   - "Communion With the Holy Spirit"
   - "the Word of God"
 featuredImageAlt: "Worship in Spirit and in Truth — John 4:24"
+answerQuestion: "What does it mean to worship in spirit and truth?"
+answerText: "It means worship is not tied to a location, a style, or a mood. Your own spirit engages God directly, and truth — what God has actually said about Himself — governs how you engage Him. The Father is seeking that kind of worshipper, not a better performance."
+alsoAsked:
+  - "worship in spirit and truth"
+  - "worship him in spirit and truth"
+  - "john 4 24"
+  - "spirit and truth"
+answerLinkSlug: "where-two-or-three-are-gathered-the-promise-of-his-presence"
+answerLinkLabel: "Where Two or Three Are Gathered: The Smallest Congregation"
 ---
 
 Have you ever felt that your worship depended on the right song, the right room, or the right mood — and collapsed when those were missing? Jesus addressed that exact assumption with a Samaritan woman at a well.

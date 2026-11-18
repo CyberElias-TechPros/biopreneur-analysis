@@ -6,8 +6,8 @@ title: "Without Faith It Is Impossible to Please Him"
 seoTitle: "Without Faith It Is Impossible to Please Him"
 description: "Hebrews 11:6 makes faith the non-negotiable of a life that pleases God. Learn what pleases Him, who He rewards, and why belief is the first obedience."
 slug: "without-faith-it-is-impossible-to-please-him"
-pubDate: "2027-01-26"
-updatedDate: "2027-01-26"
+pubDate: "2026-02-06"
+updatedDate: "2026-02-06"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "the Word of God"
   - "the Kingdom of God"
 featuredImageAlt: "Without Faith It Is Impossible to Please Him — Hebrews 11:6"
+answerQuestion: "What does 'without faith it is impossible to please him' mean?"
+answerText: "It means believing God is the first obedience, not an optional extra. Hebrews 11:6 says the one who comes to God must believe that He is, and that He rewards those who seek Him. Every other obedience grows out of that confidence or collapses for lack of it."
+alsoAsked:
+  - "cannot please god without faith"
+  - "without faith it is impossible to please him"
+answerLinkSlug: "faith-is-now"
+answerLinkLabel: "Faith Is Now"
 ---
 
 Enoch gets eleven verses in the Bible, and the summary is astonishing: "he pleased God" (Hebrews 11:5). No records of anything else. Nobody else in the genealogies is described that way.

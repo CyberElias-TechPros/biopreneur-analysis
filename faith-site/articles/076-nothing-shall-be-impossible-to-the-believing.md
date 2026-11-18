@@ -6,8 +6,8 @@ title: "Nothing Shall Be Impossible to the Believing"
 seoTitle: "Nothing Shall Be Impossible — Matthew 17:20"
 description: "Jesus said nothing shall be impossible to the one who believes. Matthew 17:20 shows why impossibility is a limit of means, not a verdict on your future."
 slug: "nothing-shall-be-impossible-to-the-believing"
-pubDate: "2027-01-16"
-updatedDate: "2027-01-16"
+pubDate: "2026-01-27"
+updatedDate: "2026-01-27"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,14 @@ glossaryTerms:
   - "the Word of God"
   - "the Power of the Holy Spirit"
 featuredImageAlt: "Nothing Shall Be Impossible to the Believing — Matthew 17:20"
+answerQuestion: "What does 'nothing shall be impossible to them that believe' mean?"
+answerText: "Jesus locates impossibility in the size of your means, not in the size of your God. A mustard seed of real faith outranks a mountain of fact. The statement is not a promise that every wish succeeds; it is a statement about what genuine believing does to obstacles."
+alsoAsked:
+  - "if you have faith nothing shall be impossible"
+  - "nothing shall be impossible to them that believe"
+  - "nothing shall be impossible unto you"
+answerLinkSlug: "the-god-kind-of-faith-does-not-consider-circumstances"
+answerLinkLabel: "The God-Kind of Faith Does Not Consider Circumstances"
 ---
 
 A father had just watched nine disciples fail. He brought his son to Jesus with the least confident prayer in the Gospels: "If thou canst do any thing, have compassion on us, and help us" (Mark 9:22). Jesus turned the doubt back on him — "If thou canst believe, all things are possible to him that believeth" (Mark 9:23).

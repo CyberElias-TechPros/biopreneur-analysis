@@ -6,8 +6,8 @@ title: "A Lamp to My Path: Direction for the Next Step"
 seoTitle: "A Lamp to My Path: Direction for the Next Step"
 description: "Psalm 119:105 promises light for the path, not a map of the whole journey. Learn how the Word guides the next step rather than the next decade."
 slug: "a-lamp-to-my-path-direction-for-the-next-step"
-pubDate: "2027-03-08"
-updatedDate: "2027-03-08"
+pubDate: "2026-03-19"
+updatedDate: "2026-03-19"
 category: "The Word"
 tags:
   - "The Word"
@@ -51,6 +51,14 @@ glossaryTerms:
   - "The Life of Faith"
   - "The Life of the Spirit"
 featuredImageAlt: "A Lamp to My Path — Psalm 119:105"
+answerQuestion: "What does 'thy word is a lamp unto my feet' mean?"
+answerText: "A lamp lights the next step, not the whole road. Psalm 119:105 promises direction for walking rather than a map of the entire journey. A believer who waits to see the whole route before moving will stand in the dark where there was light for the step in front of them."
+alsoAsked:
+  - "light my path"
+  - "light your path"
+  - "a lamp to my path"
+answerLinkSlug: "the-entrance-of-the-word-gives-light"
+answerLinkLabel: "The Entrance of the Word Gives Light"
 ---
 
 Psalm 119 is the longest chapter in the Bible, and its subject never changes. One hundred and seventy-six verses, almost all of them about the Word of God, from a man who is being hunted.

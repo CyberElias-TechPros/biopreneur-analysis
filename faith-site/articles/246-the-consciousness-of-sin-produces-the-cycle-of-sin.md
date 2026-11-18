@@ -6,8 +6,8 @@ title: "The Consciousness of Sin Produces the Cycle of Sin"
 seoTitle: "Sin-Consciousness Produces the Cycle of Sin"
 description: "What you fix your attention on grows. See why a sin-conscious believer keeps sinning, and how a righteousness-conscious one breaks the loop."
 slug: "the-consciousness-of-sin-produces-the-cycle-of-sin"
-pubDate: "2027-07-05"
-updatedDate: "2027-07-05"
+pubDate: "2026-07-16"
+updatedDate: "2026-07-16"
 category: "Righteousness & Grace"
 tags:
   - "Righteousness & Grace"
@@ -51,6 +51,14 @@ glossaryTerms:
   - "Renewing of the Mind"
   - "The Finished Work"
 featuredImageAlt: "The Consciousness of Sin Produces the Cycle of Sin — Hebrews 10:1"
+answerQuestion: "What is a sin cycle?"
+answerText: "It is a loop with three parts: a trigger, a deed, and a verdict. The deed lasts minutes and the verdict lasts days, which is what sets up the next failure. That is why the loop is broken by a settled verdict rather than by stronger effort — a conscience still expecting punishment keeps returning to the scene."
+alsoAsked:
+  - "what is a sin cycle"
+  - "cycle of sin in the bible"
+  - "breaking the cycle of sin"
+answerLinkSlug: "what-is-a-sin-cycle-and-where-does-it-break"
+answerLinkLabel: "What Is a Sin Cycle — and Where Does It Break?"
 ---
 
 There is a sentence in Hebrews that diagnoses most of the frustration in the Christian life, and it is easy to read straight past it.

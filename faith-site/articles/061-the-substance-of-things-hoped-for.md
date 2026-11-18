@@ -6,8 +6,8 @@ title: "The Substance of Things Hoped For"
 seoTitle: "The Substance of Things Hoped For — Hebrews 11:1"
 description: "Hebrews 11:1 defines faith as substance and evidence. Discover how faith gives present reality to what hope has promised and sight has not seen."
 slug: "the-substance-of-things-hoped-for"
-pubDate: "2027-01-01"
-updatedDate: "2027-01-01"
+pubDate: "2026-01-12"
+updatedDate: "2026-01-12"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Spiritual Realities"
   - "the Word of God"
 featuredImageAlt: "The Substance of Things Hoped For — Hebrews 11:1"
+answerQuestion: "What does 'faith is the substance of things hoped for' mean?"
+answerText: "Hypostasis means the underlying reality that stands under something. Faith is not a feeling or a wish about the future; it is the present God-given substance of what hope anticipates. Hope draws the picture and faith gives it weight before sight arrives."
+alsoAsked:
+  - "hebrews faith is the substance of things hoped for"
+  - "substance of things hoped for"
+answerLinkSlug: "faith-is-the-evidence-feelings-are-not"
+answerLinkLabel: "Faith Is the Evidence; Feelings Are Not"
 ---
 
 Have you ever said you were "believing God" for something while privately wondering whether you were only hoping? Many believers use the words interchangeably, yet Scripture distinguishes them sharply.

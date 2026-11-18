@@ -6,8 +6,8 @@ title: "The Life That Quickens Your Mortal Body"
 seoTitle: "The Life That Quickens Your Mortal Body"
 description: "Romans 8:11 says the Spirit who raised Jesus gives life to your mortal body. Learn the mechanism of divine health, and why it is not a future hope."
 slug: "the-life-that-quickens-your-mortal-body"
-pubDate: "2027-05-11"
-updatedDate: "2027-05-11"
+pubDate: "2026-05-22"
+updatedDate: "2026-05-22"
 category: "Divine Health"
 tags:
   - "Divine Health"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "The Power of the Holy Spirit"
   - "The Life of the Spirit"
 featuredImageAlt: "The Life That Quickens Your Mortal Body — Romans 8:11"
+answerQuestion: "What does it mean that the Spirit quickens your mortal body?"
+answerText: "It means resurrection power is already resident in you, not merely a doctrine you hope in at a funeral. Romans 8:11 says the Spirit who raised Christ dwells in you and gives life to your mortal body now. The same project God began at the tomb is under way in you."
+alsoAsked:
+  - "quicken my mortal body"
+  - "quicken your mortal body"
+answerLinkSlug: "the-same-spirit-that-raised-christ-dwells-in-you"
+answerLinkLabel: "The Same Spirit That Raised Christ Dwells in You"
 ---
 
 Most believers have a doctrine of the resurrection and almost no expectation of its power in their joints, their lungs, or their blood.

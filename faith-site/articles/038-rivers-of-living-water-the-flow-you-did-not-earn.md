@@ -6,8 +6,8 @@ title: "Rivers of Living Water: The Flow You Did Not Earn"
 seoTitle: "Rivers of Living Water: The Flow You Did Not Earn"
 description: "John 7:38 promises rivers of living water flowing from within you. Discover how the indwelling Spirit produces overflow you could never manufacture."
 slug: "rivers-of-living-water-the-flow-you-did-not-earn"
-pubDate: "2026-12-09"
-updatedDate: "2026-12-09"
+pubDate: "2025-12-20"
+updatedDate: "2025-12-20"
 category: "The Holy Spirit"
 tags:
   - "the Life of the Spirit"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "the Anointing"
   - "the Supernatural Life"
 featuredImageAlt: "Rivers of Living Water: The Flow You Did Not Earn — John 7:38"
+answerQuestion: "What does 'out of his belly shall flow rivers of living water' mean?"
+answerText: "Jesus says the Spirit within you is a flowing river, not a stagnant well. The flow is received by believing and drinking, not manufactured by effort. John adds that He spoke this of the Spirit, which believers would receive — so the river is a person, and He is in you."
+alsoAsked:
+  - "scripture about rivers of living water"
+  - "rivers of living water"
+answerLinkSlug: "healing-streams-life-where-the-river-comes"
+answerLinkLabel: "Healing Streams: Life Where the River Comes"
 ---
 
 Have you ever felt spiritually dry — as though everyone else had a stream and you were carrying a bucket? Many believers try to compensate for dryness with effort, hoping enough discipline will eventually produce a flow.

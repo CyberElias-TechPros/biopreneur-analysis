@@ -6,8 +6,8 @@ title: "Living Faith vs Dead Doctrine"
 seoTitle: "Living Faith vs Dead Doctrine — James 2:26"
 description: "James 2:26 says faith without works is dead. Discover the difference between correct doctrine and living trust, and how faith becomes visible."
 slug: "living-faith-vs-dead-doctrine"
-pubDate: "2027-01-06"
-updatedDate: "2027-01-06"
+pubDate: "2026-01-17"
+updatedDate: "2026-01-17"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Faith and Wisdom"
   - "Kingdom Stewardship"
 featuredImageAlt: "Living Faith vs Dead Doctrine — James 2:26"
+answerQuestion: "What is dead faith in James 2?"
+answerText: "Dead faith is orthodox and inactive — correct opinions that never move the person holding them. James says a faith with no works is like a body with no breath: the parts are all there and nothing is alive. He is not teaching salvation by effort; he is describing faith that exists versus faith that is only claimed."
+alsoAsked:
+  - "dead faith"
+  - "living faith vs dead doctrine"
+answerLinkSlug: "show-me-your-faith-works-are-faith-visible"
+answerLinkLabel: "Show Me Your Faith: Works Are Faith Visible"
 ---
 
 Have you ever met someone with impeccable doctrine and no visible love — correct about everything and moved by nothing? Or recognised the same tendency in yourself on a tired week?

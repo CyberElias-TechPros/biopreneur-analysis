@@ -6,8 +6,8 @@ title: "Discerning the Times by the Spirit"
 seoTitle: "Discerning the Times by the Spirit"
 description: "Jesus rebuked men who could read the sky but not the season. See why discernment is a skill of the Spirit rather than a gift of intelligence."
 slug: "discerning-the-times-by-the-spirit"
-pubDate: "2027-08-06"
-updatedDate: "2027-08-06"
+pubDate: "2026-08-17"
+updatedDate: "2026-08-17"
 category: "Spiritual Warfare"
 tags:
   - "Spiritual Warfare"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Spiritual Realities"
   - "The Life of the Spirit"
 featuredImageAlt: "Discerning the Times by the Spirit — Matthew 16:3"
+answerQuestion: "What does 'discerning the times' mean?"
+answerText: "It is a trained capacity, not a permanent gift. Hebrews 5:14 says the senses are exercised by use, so the ability to read the season grows in those who practise it. Jesus rebuked a generation that could read a sky and not a moment — discernment is learnable, and therefore neglectable."
+alsoAsked:
+  - "discerning the times"
+  - "discerning the times by the spirit"
+answerLinkSlug: "false-light-requires-discernment"
+answerLinkLabel: "False Light Requires Discernment"
 ---
 
 Jesus once rebuked men for being good meteorologists and bad historians.

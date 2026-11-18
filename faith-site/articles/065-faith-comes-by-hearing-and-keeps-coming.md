@@ -6,8 +6,8 @@ title: "Faith Comes by Hearing — and Keeps Coming"
 seoTitle: "Faith Comes by Hearing — Romans 10:17 Explained"
 description: "Romans 10:17 says faith comes by hearing the word of God. Discover why faith is fed, not summoned, and how to build a hearing habit that lasts."
 slug: "faith-comes-by-hearing-and-keeps-coming"
-pubDate: "2027-01-05"
-updatedDate: "2027-01-05"
+pubDate: "2026-01-16"
+updatedDate: "2026-01-16"
 category: "Faith"
 tags:
   - "the Word of God"
@@ -51,6 +51,15 @@ glossaryTerms:
   - "the Life of Faith"
   - "Revelation Knowledge"
 featuredImageAlt: "Faith Comes by Hearing — and Keeps Coming — Romans 10:17"
+answerQuestion: "What does 'faith comes by hearing' mean?"
+answerText: "Faith is produced, not summoned. Romans 10:17 says hearing — the report of God's word — is what generates it, so your faith grows or shrinks by what you keep listening to. That makes hearing a practice rather than an event, which is why the verse says faith comes and keeps coming."
+alsoAsked:
+  - "faith comes by hearing"
+  - "faith comes by hearing meaning"
+  - "faith by hearing"
+  - "faith comes"
+answerLinkSlug: "take-heed-how-you-hear"
+answerLinkLabel: "Take Heed How You Hear"
 ---
 
 Have you ever tried to muster faith by sheer determination — telling yourself to believe harder — and found it slipping away within hours? That struggle usually means you are trying to manufacture what God designed to be received.

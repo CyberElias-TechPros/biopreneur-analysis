@@ -6,8 +6,8 @@ title: "Prayer Changes the One Who Prays"
 seoTitle: "Prayer Changes the One Who Prays"
 description: "Prayer is not only how we move God; it is how God moves us. Learn why the transformation happens in the beholding, and what that means for you."
 slug: "prayer-changes-the-one-who-prays"
-pubDate: "2027-04-19"
-updatedDate: "2027-04-19"
+pubDate: "2026-04-30"
+updatedDate: "2026-04-30"
 category: "Prayer & Fasting"
 tags:
   - "Prayer & Fasting"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "The Glorious Liberty of the Children of God"
   - "Spiritual Understanding"
 featuredImageAlt: "Prayer Changes the One Who Prays — 2 Corinthians 3:18"
+answerQuestion: "Does prayer change things?"
+answerText: "Scripture answers with a deeper change than the one we usually mean: prayer changes the one who prays. Paul says beholding the Lord's glory transforms us from glory to glory, and prayer is beholding. Answered requests are real, and a reshaped heart is the larger answer."
+alsoAsked:
+  - "prayer changes things scripture"
+  - "prayer changes things"
+answerLinkSlug: "prayer-is-relationship-before-request"
+answerLinkLabel: "Prayer Is Relationship Before Request"
 ---
 
 We pray because we want something to change. And almost nobody notices that the first thing prayer reliably changes is the person doing it.
