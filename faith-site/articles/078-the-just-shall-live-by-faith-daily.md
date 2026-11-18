@@ -6,8 +6,8 @@ title: "The Just Shall Live by Faith — Daily"
 seoTitle: "The Just Shall Live by Faith — Daily"
 description: "Habakkuk 2:4 defines the whole Christian life: the just shall live by faith. Explore how a verse of vision becomes the daily rhythm of the righteous."
 slug: "the-just-shall-live-by-faith-daily"
-pubDate: "2027-01-18"
-updatedDate: "2027-01-18"
+pubDate: "2026-01-29"
+updatedDate: "2026-01-29"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,15 @@ glossaryTerms:
   - "Righteousness"
   - "the Word of God"
 featuredImageAlt: "The Just Shall Live by Faith — Daily — Habakkuk 2:4"
+answerQuestion: "What does 'the just shall live by faith' mean?"
+answerText: "It means faith is the atmosphere the righteous live in, not a resource they reach for in a crisis. The just — those made right with God — draw their daily life from what God has said. Habakkuk's line, quoted three times in the New Testament, is a way of life, not an emergency procedure."
+alsoAsked:
+  - "the just shall live by faith"
+  - "the just shall live by faith kjv"
+  - "the just shall live by faith verse"
+  - "from faith to faith"
+answerLinkSlug: "when-you-pray-believe-the-order-inside-mark-11-24"
+answerLinkLabel: "When You Pray, Believe: The Order Inside Mark 11:24"
 ---
 
 Habakkuk had a complaint and a watchtower. He took his grievance up to God, and God gave him an answer He told him to write down so plainly that a messenger could run with it. And inside that answer sits one phrase that shaped three New Testament books.

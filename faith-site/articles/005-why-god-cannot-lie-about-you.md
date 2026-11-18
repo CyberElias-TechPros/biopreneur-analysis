@@ -6,8 +6,8 @@ title: "Why God Cannot Lie About You"
 seoTitle: "Why God Cannot Lie About You — Titus 1:2 & Hebrews 6:18"
 description: "Feelings shift, memories accuse, and circumstances press — yet Titus 1:2 declares that God cannot lie. Trust what His Word says you are in Christ today."
 slug: "why-god-cannot-lie-about-you"
-pubDate: "2026-11-06"
-updatedDate: "2026-11-11"
+pubDate: "2025-11-17"
+updatedDate: "2025-11-17"
 category: "The Word"
 tags:
   - "the Word of God"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Confession of the Word"
   - "Spiritual Realities"
 featuredImageAlt: "Why God Cannot Lie About You — Titus 1:2 and Hebrews 6:18"
+answerQuestion: "What does it mean that God cannot lie?"
+answerText: "It means His promises rest on His nature, not on your performance. Titus 1:2 says He promised eternal life before the world began — a promise made when there was nobody to qualify. Every identity statement He has spoken over you in Christ is anchored in a holy impossibility."
+alsoAsked:
+  - "god cannot lie"
+  - "why god cannot lie"
+answerLinkSlug: "the-word-has-no-sunset-clause"
+answerLinkLabel: "The Word Has No Sunset Clause"
 ---
 
 What do you do when your circumstances say one thing about your future, your memory says another thing about your worth, and Scripture says something completely different about who you are in Christ? Every week, a quiet courtroom convenes inside your own mind, and you have to decide whose testimony carries final weight.

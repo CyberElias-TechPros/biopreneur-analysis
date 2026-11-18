@@ -58,6 +58,7 @@ const config = {
       id="listen-toggle"
       aria-expanded="false"
       aria-controls="listen-panel"
+      aria-pressed="false"
     >
       <span class="listen-icon" aria-hidden="true">
         <svg viewBox="0 0 24 24" width="16" height="16" fill="none" focusable="false">
@@ -66,7 +67,7 @@ const config = {
           <path d="M17.5 7a7.5 7.5 0 0 1 0 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
         </svg>
       </span>
-      <span>Listen to this teaching</span>
+      <span data-listen-toggle-label>Listen to this teaching</span>
     </button>
 
     <div class="listen-quick">

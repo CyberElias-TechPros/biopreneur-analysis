@@ -75,7 +75,8 @@
       }
       ul { margin: 0 0 1rem; padding-left: 1.1rem; color: var(--ink-soft); }
       li { margin-bottom: 0.35rem; }
-      a.back {
+      a.back,
+      button.back {
         display: inline-block;
         margin-top: 1.5rem;
         padding: 0.7rem 1.3rem;
@@ -87,7 +88,9 @@
         letter-spacing: 0.1em;
         text-transform: uppercase;
       }
-      a.back:hover { background: #2b2621; }
+      a.back:hover,
+      button.back:hover { background: #2b2621; }
+      button.back { cursor: pointer; border-radius: 0; }
       a { color: var(--gold-text); }
     </style>
   </head>
@@ -120,11 +123,32 @@
       <h2>What needs a connection</h2>
       <ul>
         <li>Teachings you have not opened before.</li>
-        <li>Search across the full library.</li>
+        <li>Search across the full library (the index is fetched, not bundled).</li>
         <li>The reader community links, which open WhatsApp.</li>
       </ul>
 
+      <button type="button" class="back" id="retry" hidden style="cursor: pointer; border: 0; font: inherit;">
+        Try again
+      </button>
       <a class="back" href="/teachings/">Back to the library</a>
+      <script>
+        // The offline page is served for a navigation that could not resolve, so
+        // it must not promise a journey it cannot complete. If the browser is
+        // actually back online, offer the retry instead of stranding the reader.
+        (function () {
+          var btn = document.getElementById('retry');
+          if (!btn) return;
+          function sync() {
+            btn.hidden = !navigator.onLine;
+          }
+          btn.addEventListener('click', function () {
+            location.reload();
+          });
+          window.addEventListener('online', sync);
+          window.addEventListener('offline', sync);
+          sync();
+        })();
+      </script>
     </main>
   </body>
 </html>

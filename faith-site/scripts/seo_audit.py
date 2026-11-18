@@ -571,25 +571,31 @@ def check_links(pages: list[str], origin: str) -> None:
     # every article must be reachable from the teachings index
     idx = read(os.path.join(DIST, "teachings", "index.html"))
     linked = set(re.findall(r'href="/([a-z0-9-]+)/"', idx))
-    articles = {
-        os.path.basename(os.path.dirname(p))
-        for p in pages
-        if "/articles/" not in p
-        and not os.path.relpath(p, DIST).split("/")[0] in {
-            "category",
-            "teachings",
-            "about",
-            "contact",
-            "privacy",
-            "glossary",
-            "slate",
-            "doctrinal-basis",
-            "community",
-            "listen",
-            "accessibility",
-        }
+    # An article is any built page whose output directory is not one of the
+    # non-article routes. Counting the built article pages (rather than the
+    # slugs found on the index) is what makes this an orphan check: a built
+    # teaching that no index links to is the failure this gate exists to catch.
+    non_article = {
+        "category",
+        "teachings",
+        "about",
+        "contact",
+        "privacy",
+        "glossary",
+        "slate",
+        "doctrinal-basis",
+        "community",
+        "listen",
+        "accessibility",
     }
-    unreachable = {a for a in articles if a not in linked and os.path.exists(os.path.join(DIST, a, "index.html"))}
+    articles = {
+        slug
+        for slug in (
+            os.path.basename(os.path.dirname(p)) for p in pages if "/articles/" not in p
+        )
+        if slug not in non_article and os.path.exists(os.path.join(DIST, slug, "index.html"))
+    }
+    unreachable = {a for a in articles if a not in linked}
     if unreachable:
         fail("F2", f"{len(unreachable)} article(s) not linked from /teachings/: {sorted(unreachable)[:4]}")
     else:

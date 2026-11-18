@@ -6,8 +6,8 @@ title: "The Keys of the Kingdom Are in Your Hand"
 seoTitle: "The Keys of the Kingdom Are in Your Hand"
 description: "Jesus handed Peter the keys of the kingdom, and the same authority belongs to every believer. Learn what those keys open, what they never open."
 slug: "keys-of-the-kingdom-are-in-your-hand"
-pubDate: "2027-02-07"
-updatedDate: "2027-02-07"
+pubDate: "2026-02-18"
+updatedDate: "2026-02-18"
 category: "Authority of the Believer"
 tags:
   - "the Authority of the Believer"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "the Authority of the Believer"
   - "Confession of the Word"
 featuredImageAlt: "The Keys of the Kingdom Are in Your Hand — Matthew 16:19"
+answerQuestion: "What are the keys of the kingdom in Matthew 16:19?"
+answerText: "They are a stewardship entrusted to the believer's confession, not a reward for the believer's strength. Jesus gives them to Peter right after Peter says who He is, and they operate only inside the kingdom they belong to — heaven endorses what agrees with heaven."
+alsoAsked:
+  - "keys of the kingdom scripture"
+  - "keys of the kingdom"
+answerLinkSlug: "binding-and-losing-heavens-endorsement-of-your-word"
+answerLinkLabel: "Binding and Losing: Heaven's Endorsement of Your Word"
 ---
 
 Israel had once possessed visible proof that heaven was near. The temple held furnishings God Himself specified, and one of them — the lampstand — was tended daily. Then came Ezekiel's vision of the glory lifting off the threshold (Ezekiel 10:4), and the light did not come back on by itself. It had to be carried.

@@ -6,8 +6,8 @@ title: "Holding Fast the Confession Without Wavering"
 seoTitle: "Holding Fast the Confession Without Wavering"
 description: "Hebrews 10:23 calls believers to hold fast their confession without wavering. Learn why the confession needs holding and what makes it possible."
 slug: "holding-fast-the-confession-without-wavering"
-pubDate: "2027-01-28"
-updatedDate: "2027-01-28"
+pubDate: "2026-02-08"
+updatedDate: "2026-02-08"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Confession of the Word"
   - "the Name of Jesus"
 featuredImageAlt: "Holding Fast the Confession Without Wavering — Hebrews 10:23"
+answerQuestion: "What does 'let us hold fast the profession of our faith without wavering' mean?"
+answerText: "Confession is a thing you hold, not a thing you say once. Hebrews 10:23 adds the reason it can be held: he is faithful that promised. The steadiness is not sourced in your grip but in the character of the one you are gripping."
+alsoAsked:
+  - "let us hold tightly without wavering"
+  - "holding fast the confession"
+answerLinkSlug: "confession-and-denial-what-faith-really-says"
+answerLinkLabel: "Confession and Denial: What Faith Really Says"
 ---
 
 Hebrews was written to people who had started well and were in danger of drifting. So the writer gives three "let us" instructions in a row: draw near, hold fast, consider one another.

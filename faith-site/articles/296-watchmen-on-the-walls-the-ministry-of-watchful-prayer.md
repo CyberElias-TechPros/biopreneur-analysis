@@ -6,8 +6,8 @@ title: "Watchmen on the Walls: The Ministry of Watchful Prayer"
 seoTitle: "Watchmen on the Walls: Watchful Prayer"
 description: "Isaiah says that I have set watchmen upon your walls. See why watchful prayer is a post rather than a mood, and what a watchman is actually watching for."
 slug: "watchmen-on-the-walls-the-ministry-of-watchful-prayer"
-pubDate: "2027-08-24"
-updatedDate: "2027-08-24"
+pubDate: "2026-09-04"
+updatedDate: "2026-09-04"
 category: "Spiritual Warfare"
 tags:
   - "Spiritual Warfare"
@@ -51,6 +51,15 @@ glossaryTerms:
   - "Communion With the Holy Spirit"
   - "Spiritual Understanding"
 featuredImageAlt: "Watchmen on the Walls: The Ministry of Watchful Prayer — Isaiah 62:6"
+answerQuestion: "What is the watchman on the wall in the Bible?"
+answerText: "A watchman is someone assigned to a post, not someone with a gift for worry. Ezekiel's watchman stayed awake and sounded the warning he was given. The ministry of watchful prayer is measured by whether you were awake when it mattered, not by how anxious you felt."
+alsoAsked:
+  - "watchmen on the wall verse"
+  - "watchman on the wall scripture"
+  - "watchmen on the wall in the bible"
+  - "watchman on the wall bible"
+answerLinkSlug: "watch-and-pray-awake-at-the-gates"
+answerLinkLabel: "Watch and Pray: Awake at the Gates"
 ---
 
 Isaiah 62 is a chapter about a city being rebuilt, and in the middle of it God appoints a position rather than a person.

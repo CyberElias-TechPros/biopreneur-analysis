@@ -6,8 +6,8 @@ title: "The Engrafted Word That Saves Your Soul"
 seoTitle: "The Engrafted Word That Saves Your Soul"
 description: "James 1:21 calls the Word engrafted and able to save the soul. Learn why it must be implanted rather than admired, and what meekness has to do with it."
 slug: "the-engrafted-word-that-saves-your-soul"
-pubDate: "2027-03-07"
-updatedDate: "2027-03-07"
+pubDate: "2026-03-18"
+updatedDate: "2026-03-18"
 category: "The Word"
 tags:
   - "The Word"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Renewing of the Mind"
   - "The Life of the Spirit"
 featuredImageAlt: "The Engrafted Word That Saves Your Soul — James 1:21"
+answerQuestion: "What is the engrafted word in James 1:21?"
+answerText: "The Greek is emphytos — implanted, inborn. James describes the Word as something planted in you rather than something inspected by you, and he says it is able to save the soul. A seed does its work underground, which is why receiving beats analysing."
+alsoAsked:
+  - "engrafted word of god"
+  - "engrafted word"
+answerLinkSlug: "soil-determines-harvest-the-parable-of-hearing"
+answerLinkLabel: "Soil Determines Harvest: The Parable of Hearing"
 ---
 
 James writes to believers who had already been born again, and then tells them something is still able to save their souls.

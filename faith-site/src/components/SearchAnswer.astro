@@ -1,0 +1,82 @@
+---
+/**
+ * SearchAnswer — the "short answer" block.
+ *
+ * Search Console data showed these teachings already rank for the exact
+ * question a reader types ("what does fullness of time mean in Galatians?").
+ * A page that answers the question in one plain sentence near the top earns
+ * the click and the snippet; a page that only *teaches around* the question
+ * does not. This block is that sentence, plus the query wordings the page
+ * actually ranks for, held in the voice of the teaching library.
+ *
+ * Three rules keep it honest:
+ *   1. The answer is authored by hand in the article frontmatter, never
+ *      generated from the prose — a snippet must say something the article
+ *      actually carries.
+ *   2. It renders after the theme scripture, so no reader meets a summary
+ *      before the text it summarises (Revelation-first law).
+ *   3. It is inside #listen-source, so the Listening Room reads it in order.
+ */
+interface Props {
+  question: string;
+  answer: string;
+  alsoAsked?: string[];
+  category?: string;
+  linkSlug?: string;
+  linkLabel?: string;
+}
+
+const { question, answer, alsoAsked = [], category, linkSlug, linkLabel } = Astro.props;
+---
+<div
+  class="search-answer"
+  data-reveal
+  style="
+    margin-block: 1.75rem 2rem;
+    padding: 1.15rem 1.35rem 1.25rem;
+    border: 1px solid var(--hairline);
+    border-left: 3px solid var(--gold-text);
+    background: var(--surface-raised, transparent);
+  "
+>
+  <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.55rem 0;">
+    The question, answered plainly
+  </p>
+  <h2
+    style="
+      font-family: var(--font-display);
+      font-size: clamp(1.15rem, 1.6vw, 1.32rem);
+      line-height: 1.28;
+      margin: 0 0 0.6rem 0;
+      color: var(--ink);
+    "
+  >
+    {question}
+  </h2>
+  <p style="margin: 0; color: var(--ink-soft); font-size: 1.02rem; line-height: 1.62;">
+    {answer}
+  </p>
+  {
+    alsoAsked.length > 0 && (
+      <p class="meta-caps" style="margin: 0.9rem 0 0 0; color: var(--ink-soft); font-size: 0.72rem;">
+        Also asked: {alsoAsked.join(' · ')}
+      </p>
+    )
+  }
+  {
+    linkSlug && linkLabel && (
+      <p style="margin: 0.75rem 0 0 0; font-size: 0.95rem;">
+        <a href={`/${linkSlug}/`} style="color: var(--gold-text); font-weight: 600;">
+          Read the full teaching: {linkLabel} &rarr;
+        </a>
+      </p>
+    )
+  }
+  {
+    category && (
+      <p class="meta-caps" style="margin: 0.45rem 0 0 0; font-size: 0.72rem;">
+        <a href={`/category/${category}/`}>More on this doctrine &rarr;</a>
+      </p>
+    )
+  }
+</div>

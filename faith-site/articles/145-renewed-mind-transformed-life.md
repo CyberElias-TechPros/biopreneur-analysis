@@ -6,8 +6,8 @@ title: "Renewed Mind, Transformed Life"
 seoTitle: "Renewed Mind, Transformed Life: Romans 12:2"
 description: "Romans 12:2 commands renewal of the mind, not behaviour modification. Learn why transformation works from the inside and what a renewed mind thinks about."
 slug: "renewed-mind-transformed-life"
-pubDate: "2027-03-26"
-updatedDate: "2027-03-26"
+pubDate: "2026-04-06"
+updatedDate: "2026-04-06"
 category: "The Word"
 tags:
   - "The Word"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "The Word of God"
   - "The Divine Nature"
 featuredImageAlt: "Renewed Mind, Transformed Life — Romans 12:2"
+answerQuestion: "What does 'be transformed by the renewing of your mind' mean?"
+answerText: "The Greek is metamorphoo — transformed from the inside, as a caterpillar becomes a butterfly. Paul commands the mind because behaviour follows thinking. Renewal is the replacement of the world's report with God's, which is why the change is gradual, repeatable, and never once-for-all."
+alsoAsked:
+  - "transformed by the renewing of your mind"
+  - "renewed mind"
+answerLinkSlug: "the-mirror-of-the-word-seeing-your-real-self"
+answerLinkLabel: "The Mirror of the Word: Seeing Your Real Self"
 ---
 
 Romans 12 turns a corner in the letter, and the corner is a command about your thinking.

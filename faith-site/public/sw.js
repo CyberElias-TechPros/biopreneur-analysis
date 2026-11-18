@@ -12,7 +12,7 @@
   still need a connection.
 */
 
-const VERSION = 'lijn-v4-listening';
+const VERSION = 'lijn-v5-search';
 const HTML_CACHE = `${VERSION}-html`;
 const ASSET_CACHE = `${VERSION}-assets`;
 const OFFLINE_URL = '/offline.html';
@@ -62,6 +62,35 @@ self.addEventListener('fetch', (event) => {
 
   // Third-party (ads, fonts CDNs, translation) are never intercepted.
   if (url.origin !== self.location.origin) return;
+
+  // The search index and health payload are fetched by the client, not
+  // navigated to. Cache the index so search keeps working offline for a reader
+  // who has already opened it once; never cache health (it must be live).
+  if (url.pathname === '/api/search-index.json') {
+    event.respondWith(
+      (async () => {
+        const cache = await caches.open(ASSET_CACHE);
+        const hit = await cache.match(request);
+        const network = fetch(request)
+          .then((response) => {
+            if (response.ok) cache.put(request, response.clone());
+            return response;
+          })
+          .catch(() => null);
+        if (hit) {
+          // Refresh in the background, serve instantly.
+          event.waitUntil(network.then(() => undefined));
+          return hit;
+        }
+        const fresh = await network;
+        if (fresh) return fresh;
+        return new Response(JSON.stringify({ version: 1, count: 0, items: [] }), {
+          headers: { 'Content-Type': 'application/json' },
+        });
+      })()
+    );
+    return;
+  }
 
   if (isCacheableAsset(url)) {
     event.respondWith(

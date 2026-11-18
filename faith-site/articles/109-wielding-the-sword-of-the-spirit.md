@@ -6,8 +6,8 @@ title: "Wielding the Sword of the Spirit"
 seoTitle: "Wielding the Sword of the Spirit"
 description: "Ephesians 6 names one offensive weapon: the sword of the Spirit, the word of God. Learn how Jesus used it in the wilderness and how to use it now."
 slug: "wielding-the-sword-of-the-spirit"
-pubDate: "2027-02-18"
-updatedDate: "2027-02-18"
+pubDate: "2026-03-01"
+updatedDate: "2026-03-01"
 category: "Authority of the Believer"
 tags:
   - "the Authority of the Believer"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Spiritual Warfare"
   - "the Authority of the Believer"
 featuredImageAlt: "Wielding the Sword of the Spirit — Ephesians 6:17"
+answerQuestion: "What is the sword of the Spirit and how do you wield it?"
+answerText: "It is God's own speech — rhema, the spoken word — and it is wielded the way Jesus wielded it in the wilderness: a specific verse, spoken aloud, aimed at a specific lie. The only offensive weapon in the armour is a quotation used in faith."
+alsoAsked:
+  - "wield the sword"
+  - "sword of the spirit"
+answerLinkSlug: "the-full-armour-piece-by-piece"
+answerLinkLabel: "The Full Armour, Piece by Piece"
 ---
 
 When Paul described the armour of God, he listed six pieces and then added a seventh that is different in kind. Five of the six are for protection. One is for use.

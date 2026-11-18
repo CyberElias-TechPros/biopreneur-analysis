@@ -6,8 +6,8 @@ title: "What You Feed Grows; What You Starve Dies"
 seoTitle: "What You Feed Grows; What You Starve Dies"
 description: "Scripture describes two natures and two appetites. Learn why growth follows attention rather than willpower, and how starvation actually works in a life."
 slug: "what-you-feed-grows-what-you-starve-dies"
-pubDate: "2027-03-21"
-updatedDate: "2027-03-21"
+pubDate: "2026-04-01"
+updatedDate: "2026-04-01"
 category: "The Word"
 tags:
   - "The Word"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Renewing of the Mind"
   - "The Life of the Spirit"
 featuredImageAlt: "What You Feed Grows; What You Starve Dies"
+answerQuestion: "What does 'what you feed grows, what you starve dies' mean in the Bible?"
+answerText: "It is Galatians 6:7–8 in plain language: whatever you sow to, that is what grows. Growth in a believer is a matter of provision before willpower. Feed the spirit on the Word and it strengthens; starve the old appetite and it weakens. Nobody drifts toward holiness."
+alsoAsked:
+  - "what you feed grows what you starve dies bible"
+  - "what you feed grows"
+answerLinkSlug: "feed-on-the-word-not-on-the-news"
+answerLinkLabel: "Feed on the Word, Not on the News"
 ---
 
 Galatians 5 describes a war, and then tells you how it is fought.

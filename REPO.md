@@ -13,7 +13,7 @@ This repository holds two connected bodies of work:
 | `faith-site/src/components/reactbits/` | Vendored React Bits components (MIT + Commons Clause) + provenance README |
 | `faith-site/src/styles/showcase.css` | The v2 cinematic design layer over the Reverent Editorial base |
 | `faith-site/articles/` | Published Markdown teaching articles (`001`–`365`, full 12-month curriculum — all verified 20/20) |
-| `faith-site/src/scripts/listen-room.ts` | Listening Room controller — Web Speech narration, voice/speed presets, on-device translation, playback state machine (`npm run test:listening`) |
+| `faith-site/src/scripts/listen-room.ts` | Listening Room controller — Web Speech narration, natural-voice ranking (neural/Enhanced/cloud preferred over merely-installed voices, legacy and novelty voices rejected), voice/speed presets, on-device translation, playback state machine (`npm run test:listening`, 15 tests) |
 | `faith-site/scripts/test-listening.mjs` | Listening Room regression suite — 10 tests over the real controller with a mocked speech engine |
 | `faith-site/glossary.md` | Site Glossary v1 — 36 core doctrinal terms, scripture anchors, and boundaries (`/glossary/`) |
 | `faith-site/ledger.md` | Used-title & publication ledger (30 excluded source titles + published article metrics) |

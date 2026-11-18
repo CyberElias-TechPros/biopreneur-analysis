@@ -6,8 +6,8 @@ title: "No Room at the Inn — Make Room in the Heart"
 seoTitle: "No Room at the Inn — Make Room in the Heart"
 description: "Luke says there was no room for them in the inn. The word is katalyma, a guest room, and the question it leaves is not about Bethlehem's hotels."
 slug: "no-room-at-the-inn-make-room-in-the-heart"
-pubDate: "2027-10-12"
-updatedDate: "2027-10-12"
+pubDate: "2026-10-23"
+updatedDate: "2026-10-23"
 category: "Redemption & His Return"
 tags:
   - "Redemption & His Return"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Communion With the Holy Spirit"
   - "The New Birth"
 featuredImageAlt: "No Room at the Inn — Luke 2:7"
+answerQuestion: "What does 'no room at the inn' mean?"
+answerText: "Luke's word is katalyma — a guest room, not a commercial inn. The tragedy of Bethlehem was not a shortage of buildings but a shortage of hospitality. Luke keeps the question open for the reader: the birth was refused a room, so is there room in you?"
+alsoAsked:
+  - "no room in the inn meaning"
+  - "no room at the inn"
+answerLinkSlug: "hospitality-as-high-worship"
+answerLinkLabel: "Hospitality as High Worship"
 ---
 
 Every nativity scene has the same silent detail in it, and it is not the animals or the star: somebody turned a family away on the night the Son of God was born.

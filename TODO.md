@@ -30,7 +30,7 @@
 - ✔ B8. Home page build (`faith-site/src/pages/index.astro`): 70vh full-bleed Dawn Hero (AVIF/WebP preloaded), editorial promise, 4 numbered category strips, Week One featured teachings, 12-month arc overview, teacher box
 - ✔ B9. Light / Night theme toggle in header with `prefers-color-scheme` default, zero-FOUC bootstrap, and `localStorage` persistence
 - ✔ B10. Accessibility pass: skip-to-content link, semantic landmarks, strict heading hierarchy, `2px` gold `:focus-visible` outlines, WCAG AA verified
-- ✔ B11. Performance budget verified: `16.5 KB` total CSS (`≤50 KB` budget), `6.6 KB` inline JS + `0 KB` external JS (`≤40 KB` budget), AVIF/WebP responsive images
+- ✔ B11. Performance budget verified, now against the built site and gzipped: **9.3 KB JS + 12.1 KB CSS per article (21.4 KB total)** against the ≤40 KB / ≤50 KB budgets, enforced by a test that fails the build on regression (P8). AVIF/WebP responsive images
 - ✔ B12. AdSense slot styling (`AdSlot.astro`): 3 reserved-height (`min-height: 250px`, `contain: layout`) slots with hairline top rule + `ADVERTISEMENT` label; previewable via `?ads=preview`
 
 ## C. SITE BUILD & INFRASTRUCTURE
@@ -40,9 +40,9 @@
 - ✔ C3. All static pages built: Home · Teachings index (with search/filter) · About · Contact (WhatsApp compose-and-send, no server-side form) · Community (WhatsApp channel + readers' group) · Privacy Policy (1,567 words: cookies/AdSense/DoubleClick/GDPR/CCPA/NDPA/COPPA) · Doctrinal Basis · Glossary · 365-Day Slate · 12 Category archives
 - ✔ C4. SEO plumbing: `sitemap-index.xml`, `robots.txt`, `ads.txt`, canonicals, Open Graph/Twitter cards, `rss.xml`
 - ✔ C5. JSON-LD Schema: `BlogPosting` + `Person` + `BreadcrumbList` on every article; `WebSite` + `Organization` site-wide
-- ☐ C6. Analytics: GA4 or privacy-first alternative; Search Console + Bing Webmaster once custom domain is live
+- ◐ C6. Analytics: Search Console live (first query report received 2026-11-18 and acted on — see D17); GA4 or privacy-first alternative + Bing Webmaster still pending
 - ☐ C7. Comments: lightweight (giscus or none — zero-comment is fine per analysis)
-- ☐ C8. Backup/deploy pipeline: connect `faith-site/` root directory to Vercel for automatic deploys
+- ◐ C8. Backup/deploy pipeline: `faith-site/` is the Vercel root directory and `vercel.json` carries the headers/redirects. What remains is the *first* deploy, which needs the Vercel account connected — the build itself is now verified end-to-end by CI (P1) before any deploy.
 
 ## D. CONTENT PRODUCTION (365-slate execution)
 
@@ -58,6 +58,8 @@
 - ☐ D10. Month 10 (Oct — Unseen Realm): 31 (no demonizing people; victory-framing)
 - ☐ D11. Month 11 (Nov — Glory Life): 30
 - ☐ D12. Month 12 (Dec — Incarnation & Return): 31
+- ✔ D17. **Search-intent pass (2026-11-18):** first Search Console report = 124 queries / 47 clusters / 182 impressions / 0 clicks. All 47 clusters mapped to existing teachings; added the search-intent answer block to 47 articles and wrote 6 new search-led teachings (Days 366–371) for the genuine gaps. Mapping + per-cluster log in `SEARCH_INTENT_MAP.md`; audit extended with three new gates (future `pubDate`, malformed answer block, unresolved `answerLinkSlug`).
+- ✔ D18. **Publication dates corrected (2026-11-18):** 348 of 365 articles carried a future `pubDate`, pushing sitemap `lastmod` a year ahead and RSS/home freshness to a not-yet-published teaching. Whole slate shifted back 354 days (Day 001 → 2025-11-13, Day 365 → 2026-11-12), cadence and order intact; `audit_articles.py` now fails any future-dated article.
 - ✔ D13. Self-audit + SEO pack + ledger update workflow active (`faith-site/scripts/audit_articles.py` + `faith-site/ledger.md`)
 - ✔ D14b. **Rows 14 and 5 now measured, not asserted.** Every article carries the faith-and-wisdom line (§12 row 14) and at least two explicit contrast pairs (§2 Law 4); `audit_articles.py` fails on either if absent. Nine articles whose numbered applications were collapsing into one paragraph in the rendered HTML are fixed and verified in `dist/`.
 - ✔ D14a. **Prose floor verified on the correct measure.** All 120 articles ≥900 words of *teaching prose* (min 902, median 998, max 1,139) with the closing reaffirmation/declaration block excluded from the count; Standard's 0–3 H2 limit and the required "What This Means for You" section enforced by `audit_articles.py`.
@@ -92,7 +94,8 @@
 ### Listening Room & reader resilience (shipped)
 
 - ✔ L1. On-device narration on every teaching: four voices, six speeds, remembered per reader (`ListenRoom.astro`, `listen-room.ts`).
-- ✔ L2. Thirteen reading languages; on-device translation where the browser supports it, honest link-out where it does not (`languages.ts`, `/listen/`).
+- ✔ L2. Reading languages (count derived from `languages.ts`, never typed into prose); on-device translation where the browser supports it, honest link-out where it does not. `/listen/` states the split (7 on-device / 6 external) from the data.
+- ✔ L12. **Natural-voice ranking (2026-11-18).** Voice selection now prefers the most natural voice the device already has — Microsoft neural "Online (Natural)", Apple Siri/Enhanced/Premium, Google cloud — instead of preferring any installed voice. The old score gave `localService` +100 and the preset match +10, so a robotic offline voice beat a neural online one. Natural names score +90, legacy/novelty voices (eSpeak, Fred, Zarvox, Albert, Compact) −120, and offline capability is now only a +8 tie-breaker. Still zero cost and zero audio bytes: every voice ships with the reader's OS or browser. The note under the picker names the chosen voice, says whether it needs a connection, and offers the upgrade when a better online voice exists. 5 new regression tests (novelty rejection, no language crossing, upgrade detection, no hardcoded counts).
 - ✔ L3. `/listen/` hub page listing languages, steps, and the first seven days ready to hear.
 - ✔ L4. Consent-gated AdSense — advertising loads only after "Allow ads"; both choices weighted equally; footer "Cookie settings" re-opens the choice (`consent.ts`).
 - ✔ L5. Offline reading via service worker + `/offline.html`; cache headers in `vercel.json`.
@@ -116,3 +119,16 @@
 - ✔ S9. `X-Robots-Tag`, `browsing-topics` opt-out, and cache headers for machine endpoints.
 - ✔ S10. Audit extended to 34 checks including four AI-readiness gates (H4–H7).
 - ✔ S11. `SEARCH_READINESS.md` — the full checklist, including what is deliberately not claimed.
+
+### Production readiness (shipped 2026-11-18)
+
+- ✔ P1. **Continuous integration** — `.github/workflows/ci.yml` (the repo's first CI): Node 22 + Python 3.12, `npm ci`, typecheck → article audit → listening tests → build → SEO checks → site tests, with `dist/` uploaded on failure so a red build is diagnosable. Every gate below now runs on every push, not on trust.
+- ✔ P2. **Site-wide search** — `SiteSearch.astro` + `search.ts` + `/api/search-index.json` (176 KB, all 371 teachings). Native `<dialog>`, so focus trapping and Esc come from the browser rather than from imitation. Cmd/Ctrl-K, `/`, arrows, Enter, `aria-activedescendant`. Ranking is phrase-first (title phrase +100, reference +80, then word hits, day as tie-break) and typo-tolerant: `leg two agree` finds *The Prayer of Agreement*. The index is fetched on first keystroke, never on page load.
+- ✔ P3. **`/api/health.json`** — deploy verification: article count, category count, day range, and six invariants (`uniqueSlugs`, `allDated`, `uniqueDays`, `canonicalOrigin`, `hasContent`, `descriptionsInRange`). A deploy that silently loses articles now says so.
+- ✔ P4. **404 rebuilt** — search trigger, the four newest teachings, and links to the library and slate. Heading order corrected to `h1` → `h2`.
+- ✔ P5. **Offline retry** — `/offline.html` gained a "Try again" button, shown only when `navigator.onLine` is true. Still zero external references, so it works with no network.
+- ✔ P6. **Service worker** — `lijn-v5-search`; `/api/search-index.json` uses stale-while-revalidate so search stays instant offline. `/api/health.json` is never cached.
+- ✔ P7. **Site regression tests** — `scripts/test-site.mjs`, 6 tests against built `dist/`: index coverage, the dialog on every page, ranked results for real queries, health invariants, 404 recovery, and a per-page weight budget.
+- ✔ P8. **Weight budget, measured honestly** — the earlier "58 KB CSS" reading was uncompressed. What a reader actually downloads per article is **9.3 KB gzipped JS + 12.1 KB gzipped CSS = 21.4 KB**, well inside the ≤40 KB / ≤50 KB spec. Astro emits one merged CSS bundle, so splitting `showcase.css` by import would not have changed the number; that refactor was reverted rather than kept as dead complexity. The new budget test fails the build above 40 KB JS, 25 KB CSS, or 45 KB total per page.
+- ✔ P9. **Listen is one click** — the article-level button now opens *and* plays, then pauses, then resumes, and its label and `aria-pressed` track the state (`Pause this teaching` / `Resume this teaching`). Still no autoplay: playback only ever starts inside a click.
+- ✔ P10. **`npm run verify`** — one command that runs every gate in the right order (typecheck → audit → listening → build → SEO → site). `npm test` runs the fast suites.

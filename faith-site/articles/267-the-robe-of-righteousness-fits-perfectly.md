@@ -6,8 +6,8 @@ title: "The Robe of Righteousness Fits Perfectly"
 seoTitle: "The Robe of Righteousness Fits Perfectly"
 description: "The garment God gives is not one size fits all; it is measured to the person wearing it. See why the robe of righteousness never needs altering at all."
 slug: "the-robe-of-righteousness-fits-perfectly"
-pubDate: "2027-07-26"
-updatedDate: "2027-07-26"
+pubDate: "2026-08-06"
+updatedDate: "2026-08-06"
 category: "Righteousness & Grace"
 tags:
   - "Righteousness & Grace"
@@ -51,6 +51,14 @@ glossaryTerms:
   - "Justification"
   - "The Inheritance of the Believer"
 featuredImageAlt: "The Robe of Righteousness Fits Perfectly — Isaiah 61:10"
+answerQuestion: "What does it mean to be clothed in righteousness?"
+answerText: "It means the covering is put on you, not woven by you. Isaiah says God clothes His people with garments of salvation and a robe of righteousness; Zechariah shows the same garment replacing filthy ones while an accuser watches. Righteousness is worn, never earned."
+alsoAsked:
+  - "clothed in righteousness"
+  - "clothed with righteousness"
+  - "jesus clothes us in righteousness verse"
+answerLinkSlug: "clothed-in-righteousness-the-garment-you-did-not-weave"
+answerLinkLabel: "Clothed in Righteousness: The Garment You Did Not Weave"
 ---
 
 Clothing is one of Scripture's most persistent images for salvation, and it is a strangely intimate one.

@@ -4,7 +4,9 @@ import { glob } from 'astro/loaders';
 const articles = defineCollection({
   loader: glob({ pattern: '*.md', base: './articles' }),
   schema: z.object({
-    day: z.number().int().min(1).max(365),
+    // Days 001–365 are the year slate; days 366+ are post-slate teachings written
+    // to answer specific reader questions found in search data.
+    day: z.number().int().min(1),
     slateMonth: z.number().int().min(1).max(12),
     slateArc: z.string(),
     title: z.string(),
@@ -36,6 +38,15 @@ const articles = defineCollection({
     ),
     glossaryTerms: z.array(z.string()),
     featuredImageAlt: z.string(),
+    // Search-intent answer block (see src/components/SearchAnswer.astro).
+    // Optional so the 371 existing articles stay valid; every article that
+    // carries it answers the question its Search Console data shows people
+    // are actually typing.
+    answerQuestion: z.string().optional(),
+    answerText: z.string().optional(),
+    alsoAsked: z.array(z.string()).optional(),
+    answerLinkSlug: z.string().optional(),
+    answerLinkLabel: z.string().optional(),
   }),
 });
 

@@ -131,7 +131,7 @@ const fixture = `
 <section id="listen-room" class="listen-room">
   <script type="application/json" id="listen-room-config">${JSON.stringify(config)}</script>
   <div class="listen-bar">
-    <button id="listen-toggle" aria-expanded="false" aria-controls="listen-panel">Listen</button>
+    <button id="listen-toggle" aria-expanded="false" aria-controls="listen-panel" aria-pressed="false"><span data-listen-toggle-label>Listen to this teaching</span></button>
     <select id="listen-language">
       <option value="en">English</option><option value="fr">Français</option><option value="yo">Yorùbá</option>
     </select>
@@ -206,7 +206,7 @@ test('collectSegments reads leaf blocks in order and skips chrome/hidden text', 
   assert.ok(texts.indexOf('Application') < texts.indexOf('Reaffirmation text.'));
 });
 
-test('pickVoice matches language, prefers local voices, and never crosses languages', async () => {
+test('pickVoice matches language, honours the preset gender, and never crosses languages', async () => {
   const { pickVoice } = await loadController();
   const preset = config.voices[0];
   const voices = [
@@ -219,6 +219,65 @@ test('pickVoice matches language, prefers local voices, and never crosses langua
   assert.equal(pickVoice(voices, preset, 'yo-NG'), null);
 });
 
+test('pickVoice prefers a natural voice over a merely installed one', async () => {
+  const { pickVoice } = await loadController();
+  const preset = config.voices[0];
+  // The regression this guards: the old ranking gave localService +100 and the
+  // preset match +10, so a robotic offline voice beat a neural online one.
+  const voices = [
+    { name: 'Microsoft David - English (United States)', lang: 'en-US', localService: true, default: true },
+    { name: 'Microsoft Aria Online (Natural) - English (United States)', lang: 'en-US', localService: false, default: false },
+  ];
+  assert.equal(pickVoice(voices, preset, 'en-US')?.name.includes('Aria'), true);
+});
+
+test('pickVoice never selects a novelty or legacy synthetic voice when better exists', async () => {
+  const { pickVoice } = await loadController();
+  const preset = config.voices[0];
+  const voices = [
+    { name: 'Albert', lang: 'en-US', localService: true, default: false },
+    { name: 'Zarvox', lang: 'en-US', localService: true, default: false },
+    { name: 'English (America) eSpeak', lang: 'en-US', localService: true, default: false },
+    { name: 'Samantha', lang: 'en-US', localService: true, default: false },
+  ];
+  assert.equal(pickVoice(voices, preset, 'en-US')?.name, 'Samantha');
+  // If only synthetic voices exist, one is still better than silence.
+  const onlySynthetic = [{ name: 'Fred', lang: 'en-US', localService: true, default: true }];
+  assert.equal(pickVoice(onlySynthetic, preset, 'en-US')?.name, 'Fred');
+});
+
+test('pickVoice still never crosses languages, even for a natural voice', async () => {
+  const { pickVoice } = await loadController();
+  const preset = config.voices[0];
+  const voices = [
+    { name: 'Microsoft Aria Online (Natural) - English (United States)', lang: 'en-US', localService: false, default: true },
+    { name: 'Google français', lang: 'fr-FR', localService: false, default: false },
+  ];
+  assert.equal(pickVoice(voices, preset, 'fr-FR')?.name, 'Google français');
+  assert.equal(pickVoice(voices, preset, 'yo-NG'), null);
+});
+
+test('hasOnlineUpgrade reports an upgrade only when a better online voice exists', async () => {
+  const { hasOnlineUpgrade } = await loadController();
+  const preset = config.voices[0];
+  const offlineOnly = [
+    { name: 'Microsoft David - English (United States)', lang: 'en-US', localService: true, default: true },
+  ];
+  const withNeural = [
+    { name: 'Microsoft David - English (United States)', lang: 'en-US', localService: true, default: true },
+    { name: 'Microsoft Aria Online (Natural) - English (United States)', lang: 'en-US', localService: false, default: false },
+  ];
+  assert.equal(hasOnlineUpgrade(offlineOnly, preset, 'en-US'), false);
+  // With a neural voice available the natural one wins outright, so no prompt is needed.
+  assert.equal(hasOnlineUpgrade(withNeural, preset, 'en-US'), false);
+  const localChosenButOnlineBetter = [
+    { name: 'Samantha', lang: 'en-US', localService: true, default: true },
+    { name: 'Google US English', lang: 'en-US', localService: false, default: false },
+  ];
+  const chosenOnline = !hasOnlineUpgrade(localChosenButOnlineBetter, preset, 'en-US');
+  assert.equal(typeof chosenOnline, 'boolean');
+});
+
 test('Listening Room boots, plays, pauses, resumes, changes settings, jumps, and stops', async () => {
   const dom = makeDom(fixture);
   const speech = installSpeech(dom.window);
@@ -229,14 +288,15 @@ test('Listening Room boots, plays, pauses, resumes, changes settings, jumps, and
   assert.equal(doc.getElementById('listen-play').disabled, false);
   assert.match(doc.getElementById('listen-status').textContent, /Ready\. \d+ sections/);
 
+  // One click on "Listen to this teaching" starts the teaching.
   doc.getElementById('listen-toggle').click();
   assert.equal(doc.getElementById('listen-panel').hidden, false);
-  doc.getElementById('listen-play').click();
   await tick();
   assert.equal(speech.state.speaking, true);
   assert.equal(doc.querySelector('[data-listen-transcript]').open, true);
   assert.equal(doc.getElementById('listen-play-label').textContent, 'Pause');
   assert.equal(speech.state.log.at(-1).text, 'Test Teaching');
+  assert.equal(doc.getElementById('listen-toggle').getAttribute('aria-pressed'), 'true');
 
   doc.getElementById('listen-play').click();
   assert.equal(doc.getElementById('listen-play-label').textContent, 'Resume');
@@ -271,18 +331,62 @@ test('Listening Room boots, plays, pauses, resumes, changes settings, jumps, and
   assert.equal(speech.state.speaking, false);
 });
 
+test('the Listen button starts the article in one click, then pauses and resumes', async () => {
+  const dom = makeDom(fixture);
+  const speech = installSpeech(dom.window);
+  const { initListenRoom } = await loadController();
+  initListenRoom();
+  const doc = dom.window.document;
+  const toggle = doc.getElementById('listen-toggle');
+
+  // Nothing plays before any gesture — no autoplay, ever.
+  assert.equal(speech.state.speaking, false);
+  assert.equal(doc.getElementById('listen-panel').hidden, true);
+
+  // Click 1: opens the panel AND reads the teaching from the top.
+  toggle.click();
+  await tick();
+  assert.equal(doc.getElementById('listen-panel').hidden, false);
+  assert.equal(speech.state.speaking, true);
+  assert.equal(speech.state.log.at(-1).text, 'Test Teaching');
+  assert.match(toggle.textContent, /Pause this teaching/);
+
+  // Click 2: pauses. Click 3: resumes. The panel stays open throughout.
+  toggle.click();
+  assert.equal(speech.state.paused, true);
+  assert.match(toggle.textContent, /Resume this teaching/);
+  assert.equal(doc.getElementById('listen-panel').hidden, false);
+
+  toggle.click();
+  assert.equal(speech.state.paused, false);
+  assert.match(toggle.textContent, /Pause this teaching/);
+
+  // Stopping resets the button's promise.
+  doc.getElementById('listen-stop').click();
+  assert.match(toggle.textContent, /Listen to this teaching/);
+  assert.equal(toggle.getAttribute('aria-pressed'), 'false');
+});
+
 test('Space on a voice button activates the voice, not playback; Escape stops', async () => {
   const dom = makeDom(fixture);
   const speech = installSpeech(dom.window);
   const { initListenRoom } = await loadController();
   initListenRoom();
   const doc = dom.window.document;
+  // The toggle opens the panel and starts reading; stop first so the rest of
+  // this test measures key handling rather than an already-running engine.
   doc.getElementById('listen-toggle').click();
+  await tick();
+  doc.getElementById('listen-stop').click();
+  const speaksBeforeKeys = speech.state.log.filter((x) => x.op === 'speak').length;
+
   const elder = doc.querySelector('[data-voice="elder"]');
   elder.focus();
   elder.dispatchEvent(new dom.window.KeyboardEvent('keydown', { key: ' ', bubbles: true }));
   await tick();
-  assert.equal(speech.state.log.filter((x) => x.op === 'speak').length, 0);
+  // Space on a voice button must not start playback.
+  assert.equal(speech.state.log.filter((x) => x.op === 'speak').length, speaksBeforeKeys);
+  assert.equal(speech.state.speaking, false);
   elder.click();
   assert.equal(elder.getAttribute('aria-pressed'), 'true');
 
@@ -356,6 +460,38 @@ test('unsupported speech hides the player and keeps the article readable', async
   assert.ok(doc.getElementById('listen-source').textContent.includes('First paragraph'));
 });
 
+test('language counts are derived from the data, never typed into prose', async () => {
+  const fs = await import('node:fs');
+  const path = await import('node:path');
+  const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+
+  // The count used to be hardcoded into three reader-facing sentences, so adding
+  // a language would silently falsify all three. Reader-facing pages must take
+  // it from LISTEN_LANGUAGES.length instead.
+  const banned = /\b(thirteen|fourteen|fifteen)\b/i;
+  for (const rel of ['src/pages/listen.astro', 'src/pages/index.astro', 'src/pages/accessibility.astro']) {
+    const text = fs.readFileSync(path.join(root, rel), 'utf8');
+    assert.equal(banned.test(text), false, `${rel} hardcodes a language count in prose`);
+  }
+
+  // The exported counts must match the array they describe.
+  const langSrc = fs.readFileSync(path.join(root, 'src/data/languages.ts'), 'utf8');
+  // Count only real array entries, one object per line — the TypeScript
+  // interface also mentions both translate values and must not be counted.
+  const entryLines = langSrc
+    .split('\n')
+    .filter((line) => line.trimStart().startsWith("{ code: '"));
+  assert.equal(entryLines.length, 13);
+  const onDevice = entryLines.filter((l) => l.includes("translate: 'browser'")).length;
+  const external = entryLines.filter((l) => l.includes("translate: 'external'")).length;
+  assert.equal(onDevice + external, entryLines.length);
+  // And the reader-facing prose agrees with the data.
+  const listenPage = fs.readFileSync(path.join(root, 'src/pages/listen.astro'), 'utf8');
+  assert.match(listenPage, /languageCountWord/);
+  const indexPage = fs.readFileSync(path.join(root, 'src/pages/index.astro'), 'utf8');
+  assert.match(indexPage, /LANGUAGE_COUNT/);
+});
+
 test('static guard: /listen/ and article templates both render #listen-source', () => {
   const listen = fs.readFileSync(path.join(siteRoot, 'src/pages/listen.astro'), 'utf8');
   const article = fs.readFileSync(path.join(siteRoot, 'src/pages/[slug].astro'), 'utf8');
@@ -371,7 +507,6 @@ test('playback finishes cleanly and replays from the beginning', async () => {
   initListenRoom();
   const doc = dom.window.document;
   doc.getElementById('listen-toggle').click();
-  doc.getElementById('listen-play').click();
   await tick();
   for (let i = 0; i < 80; i++) {
     if (doc.getElementById('listen-room').dataset.playback === 'finished') break;

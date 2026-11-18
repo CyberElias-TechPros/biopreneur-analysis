@@ -6,8 +6,8 @@ title: "Resist the Devil and He Must Flee"
 seoTitle: "Resist the Devil and He Must Flee"
 description: "James 4:7 gives one posture with a guaranteed outcome: resist the devil and he will flee. Learn what resistance is, and what it is not, in practice."
 slug: "resist-the-devil-and-he-must-flee"
-pubDate: "2027-02-11"
-updatedDate: "2027-02-11"
+pubDate: "2026-02-22"
+updatedDate: "2026-02-22"
 category: "Authority of the Believer"
 tags:
   - "the Authority of the Believer"
@@ -51,6 +51,15 @@ glossaryTerms:
   - "the Word of God"
   - "the Authority of the Believer"
 featuredImageAlt: "Resist the Devil and He Must Flee — James 4:7"
+answerQuestion: "What does 'resist the devil and he will flee from you' mean?"
+answerText: "James commands a stance, not a performance. Resistance is a settled refusal made from under God's authority — submit first, then stand — and the fleeing is something the devil does, not something you arrange. The same verse promises he leaves, not that he debates."
+alsoAsked:
+  - "resist the devil and he will flee"
+  - "devil must flee scripture"
+  - "resist satan and he will flee"
+  - "resist the devil and he will flee from you"
+answerLinkSlug: "what-is-a-sin-cycle-and-where-does-it-break"
+answerLinkLabel: "What Is a Sin Cycle — and Where Does It Break?"
 ---
 
 There is a sentence in James that reads like a promise and is actually a procedure: "Submit yourselves therefore to God. Resist the devil, and he will flee from you" (James 4:7).

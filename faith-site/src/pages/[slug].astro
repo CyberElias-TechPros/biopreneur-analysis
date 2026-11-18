@@ -10,6 +10,7 @@ import AuthorBox from '../components/AuthorBox.astro';
 import CommunityInvite from '../components/CommunityInvite.astro';
 import ListenRoom from '../components/ListenRoom.astro';
 import CategoryChip from '../components/CategoryChip.astro';
+import SearchAnswer from '../components/SearchAnswer.astro';
 import { SITE } from '../data/site';
 import { getCategoryByName } from '../data/categories';
 import { renderArticleProse } from '../lib/markdown';
@@ -238,6 +239,21 @@ const structuredData = [
       reference={data.themeScripture.reference}
       translation={data.themeScripture.translation}
     />
+
+    <!-- 1b. Search-intent answer block: the question this teaching was written
+         to answer, stated plainly, after the scripture it rests on. -->
+    {
+      data.answerQuestion && data.answerText && (
+        <SearchAnswer
+          question={data.answerQuestion}
+          answer={data.answerText}
+          alsoAsked={data.alsoAsked}
+          category={cat.slug}
+          linkSlug={data.answerLinkSlug}
+          linkLabel={data.answerLinkLabel}
+        />
+      )
+    }
 
     <!-- Article Prose Part 1 (Opening + Word Study + Cross-References) -->
     <div class="article-prose" set:html={part1Html} />

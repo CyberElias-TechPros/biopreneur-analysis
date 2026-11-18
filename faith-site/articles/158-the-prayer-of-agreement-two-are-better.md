@@ -6,8 +6,8 @@ title: "The Prayer of Agreement: Two Are Better"
 seoTitle: "The Prayer of Agreement: Two Are Better"
 description: "Jesus tied His presence and His answers to two or three gathered. Learn why agreement in prayer is a covenant act, not a coincidence of wishes."
 slug: "the-prayer-of-agreement-two-are-better"
-pubDate: "2027-04-08"
-updatedDate: "2027-04-08"
+pubDate: "2026-04-19"
+updatedDate: "2026-04-19"
 category: "Prayer & Fasting"
 tags:
   - "Prayer & Fasting"
@@ -51,6 +51,15 @@ glossaryTerms:
   - "Communion With the Holy Spirit"
   - "The Kingdom of God"
 featuredImageAlt: "The Prayer of Agreement: Two Are Better — Matthew 18:19–20"
+answerQuestion: "What is the prayer of agreement in Matthew 18:19?"
+answerText: "It is two believers settling on one verdict from heaven, not two people wanting the same outcome. The Greek word is sumphoneo — to sound together. Jesus attaches the promise to that arrived-at harmony, which is why the Scripture agreed on matters more than the request agreed on."
+alsoAsked:
+  - "prayer of agreement"
+  - "leg two agree"
+  - "agreement in prayer scripture"
+  - "prayer of agreement verse"
+answerLinkSlug: "the-prayer-of-agreement-what-two-agreeing-does"
+answerLinkLabel: "The Prayer of Agreement: What It Means That Two Agree"
 ---
 
 Matthew 18 is a chapter about how to handle a brother who sins — a very unglamorous subject — and it is where Jesus makes one of the largest promises about prayer in the Gospels.

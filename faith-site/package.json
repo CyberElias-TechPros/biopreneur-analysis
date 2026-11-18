@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "In Jesus Name — Reverent Editorial Christian revelation-teaching publication built with Astro",
+  "description": "In Jesus Name \u2014 Reverent Editorial Christian revelation-teaching publication built with Astro",
   "scripts": {
     "dev": "astro dev --host 0.0.0.0 --port 4321",
     "build": "astro build",
@@ -12,7 +12,10 @@
     "audit": "python3 scripts/audit_articles.py",
     "seo": "python3 scripts/seo_audit.py",
     "typecheck": "astro check",
-    "test:listening": "node --experimental-strip-types --test scripts/test-listening.mjs"
+    "test:listening": "node --experimental-strip-types --test scripts/test-listening.mjs",
+    "test:site": "node --experimental-strip-types --test scripts/test-site.mjs",
+    "test": "npm run audit && npm run test:listening && npm run test:site",
+    "verify": "npm run typecheck && npm run audit && npm run test:listening && npm run build && npm run seo && npm run test:site"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.7",

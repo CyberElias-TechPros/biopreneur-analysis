@@ -44,3 +44,44 @@ export function getListenLanguage(code: string): ListenLanguage {
 
 /** Languages the browser can translate on-device today, for the UI chips. */
 export const ON_DEVICE_LANGUAGES = LISTEN_LANGUAGES.filter((l) => l.translate === 'browser');
+
+/** Languages that fall back to an explicit external translation link. */
+export const EXTERNAL_LANGUAGES = LISTEN_LANGUAGES.filter((l) => l.translate === 'external');
+
+/**
+ * Counts derived from the list itself.
+ *
+ * The numbers used to be typed into prose ("thirteen languages") in three
+ * places, so adding a language would have left three sentences quietly wrong.
+ * Everything reader-facing now reads from here.
+ */
+export const LANGUAGE_COUNT = LISTEN_LANGUAGES.length;
+export const ON_DEVICE_COUNT = ON_DEVICE_LANGUAGES.length;
+export const EXTERNAL_COUNT = EXTERNAL_LANGUAGES.length;
+
+const NUMBER_WORDS = [
+  'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
+  'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen',
+  'nineteen', 'twenty',
+] as const;
+
+const capitalise = (value: string): string => value.charAt(0).toUpperCase() + value.slice(1);
+
+/**
+ * A small count as a capitalised word ("Thirteen"), for sentence-initial use.
+ * Falls back to the numeral when the list outgrows the word table, so the copy
+ * degrades to a correct number rather than an absent one.
+ */
+export const languageCountWord: string = capitalise(
+  NUMBER_WORDS[LANGUAGE_COUNT] ?? String(LANGUAGE_COUNT)
+);
+
+/** The same count mid-sentence ("thirteen"). */
+export const languageCountWordLower: string = languageCountWord.toLowerCase();
+
+/** Names as a readable list: "A, B and C". */
+export function listNames(languages: ListenLanguage[] = LISTEN_LANGUAGES): string {
+  const names = languages.map((l) => l.english);
+  if (names.length <= 1) return names[0] ?? '';
+  return `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+}

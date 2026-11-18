@@ -6,8 +6,8 @@ title: "From Faith to Faith: The Levels of Trust"
 seoTitle: "From Faith to Faith — Romans 1:17"
 description: "Romans 1:17 speaks of a righteousness revealed from faith to faith. Learn how trust grows in stages and how a believer moves from one measure to the next."
 slug: "from-faith-to-faith-the-levels-of-trust"
-pubDate: "2027-01-29"
-updatedDate: "2027-01-29"
+pubDate: "2026-02-09"
+updatedDate: "2026-02-09"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,14 @@ glossaryTerms:
   - "Righteousness"
   - "the Word of God"
 featuredImageAlt: "From Faith to Faith: The Levels of Trust — Romans 1:17"
+answerQuestion: "What does 'from faith to faith' mean in Romans 1:17?"
+answerText: "It describes movement, not a single threshold. The same gospel that starts you keeps moving you from one measure of trust to the next. Paul's phrase means the righteousness of God is revealed to faith and then to more faith — the Christian life travels, it does not park."
+alsoAsked:
+  - "faith to faith bible verse"
+  - "from faith to faith"
+  - "faith grows"
+answerLinkSlug: "faith-grows-by-use-not-by-age"
+answerLinkLabel: "Faith Grows by Use, Not by Age"
 ---
 
 Romans 1:17 is the verse that lit a fire in a monk named Martin Luther. He had been trying to manufacture a righteousness of his own, and this sentence told him where righteousness actually comes from.

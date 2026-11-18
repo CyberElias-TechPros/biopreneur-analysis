@@ -6,8 +6,8 @@ title: "What You Believe After You Pray"
 seoTitle: "What You Believe After You Pray — Mark 11:24"
 description: "Mark 11:24 shows faith reaches its decisive point after prayer. Discover what you believe once you have asked and why that moment settles the outcome."
 slug: "what-you-believe-after-you-pray"
-pubDate: "2027-01-09"
-updatedDate: "2027-01-09"
+pubDate: "2026-01-20"
+updatedDate: "2026-01-20"
 category: "Faith"
 tags:
   - "the Life of Faith"
@@ -51,6 +51,14 @@ glossaryTerms:
   - "Confession of the Word"
   - "the Name of Jesus"
 featuredImageAlt: "What You Believe After You Pray — Mark 11:24"
+answerQuestion: "What does 'what things soever ye desire, when ye pray, believe that ye receive them' mean?"
+answerText: "Mark 11:24 sets an order. Desire names the thing, prayer asks for it, and believing receives it before it appears. The receiving is the step most believers never take, which is why so much praying repeats the request and never arrives at thanksgiving."
+alsoAsked:
+  - "what things soever you desire when you pray believe"
+  - "pray believing"
+  - "pray and believe"
+answerLinkSlug: "when-you-pray-believe-the-order-inside-mark-11-24"
+answerLinkLabel: "When You Pray, Believe: The Order Inside Mark 11:24"
 ---
 
 Have you ever noticed what happens inside you in the ten minutes after you pray? For many believers, the answer is discouraging: the request returns, the doubt returns, and the peace evaporates.

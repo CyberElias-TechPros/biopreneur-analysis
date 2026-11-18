@@ -6,8 +6,8 @@ title: "Transformed From Glory to Glory"
 seoTitle: "Transformed From Glory to Glory"
 description: "Paul says we are changed while looking, not while striving. See why beholding is the mechanism of transformation and what it does to a mirror."
 slug: "transformed-from-glory-to-glory"
-pubDate: "2027-09-11"
-updatedDate: "2027-09-11"
+pubDate: "2026-09-22"
+updatedDate: "2026-09-22"
 category: "Christian Living"
 tags:
   - "Christian Living"
@@ -51,6 +51,15 @@ glossaryTerms:
   - "The Presence of God"
   - "The Supernatural Life"
 featuredImageAlt: "Transformed From Glory to Glory — 2 Corinthians 3:18"
+answerQuestion: "What does 'from glory to glory' mean?"
+answerText: "It describes direction, not achievement. Paul says beholding the Lord's glory changes us into the same image, from one degree to another, by the Spirit. The verb is passive — the change happens to you while you are looking at Him, which is why beholding is the work."
+alsoAsked:
+  - "from glory to glory scripture"
+  - "from glory to glory verse"
+  - "from glory to glory bible"
+  - "from glory to glory"
+answerLinkSlug: "prayer-changes-the-one-who-prays"
+answerLinkLabel: "Prayer Changes the One Who Prays"
 ---
 
 Second Corinthians 3:18 is the only place in the New Testament where transformation is described as something that happens to a person rather than something a person does.

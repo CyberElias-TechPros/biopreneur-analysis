@@ -6,8 +6,8 @@ title: "Healing Is the Children's Bread"
 seoTitle: "Healing Is the Children's Bread"
 description: "Jesus called healing bread and called you a child at the table. Learn why that single word settles whether healing is yours to expect or to beg for."
 slug: "healing-is-the-childrens-bread"
-pubDate: "2027-05-02"
-updatedDate: "2027-05-02"
+pubDate: "2026-05-13"
+updatedDate: "2026-05-13"
 category: "Divine Health"
 tags:
   - "Divine Health"
@@ -51,6 +51,13 @@ glossaryTerms:
   - "Divine Wholeness"
   - "The Inheritance of the Believer"
 featuredImageAlt: "Healing Is the Children's Bread — Matthew 15:26–27"
+answerQuestion: "What does 'healing is the children's bread' mean?"
+answerText: "Jesus called healing bread — ordinary food set on the family table, not a rare medicine for strangers. The only question left in Mark 7 is whether you know whose table you are sitting at. Bread is not begged for by children; it is taken, thankfully, as theirs."
+alsoAsked:
+  - "healing is the children s bread scripture kjv"
+  - "healing is the childrens bread"
+answerLinkSlug: "health-is-a-covenant-right-not-a-lottery"
+answerLinkLabel: "Health Is a Covenant Right, Not a Lottery"
 ---
 
 Jesus chose a strange word for healing, and He chose it in a conversation that has offended readers for twenty centuries.

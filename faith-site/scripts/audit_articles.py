@@ -4,6 +4,7 @@ Batch QA & 18-point Compliance Verifier for In Jesus Name teaching articles.
 Fulfills TODO item E1 + FAITH_TEACHING_PROMPT.md Section 12 + Originality Law.
 """
 
+import datetime
 import glob
 import os
 import re
@@ -260,6 +261,38 @@ def main():
         )
         if len(refs) < 3:
             errors.append(f"cross-references in prose {len(refs)} < 3")
+
+        # A publication date in the future is a freshness signal a crawler will
+        # discount: the sitemap's lastmod runs past today, the feed sorts a
+        # not-yet-"published" teaching first, and the corpus reads as a mass
+        # pre-date. Every article must claim a date it has actually reached.
+        pub = fm.get("pubDate", "")
+        if pub:
+            try:
+                if datetime.date.fromisoformat(pub) > datetime.date.today():
+                    errors.append(f"pubDate {pub} is in the future")
+            except ValueError:
+                errors.append(f"pubDate '{pub}' is not YYYY-MM-DD")
+
+        # Search-intent answer block: if an article carries one, it must be a
+        # real answer (not a stub), name the queries it serves, and hand the
+        # reader to a teaching that exists. A dead link in a snippet block is
+        # worse than no block.
+        q_ans, a_ans = fm.get("answerQuestion", ""), fm.get("answerText", "")
+        if bool(q_ans) != bool(a_ans):
+            errors.append("answerQuestion/answerText must be set together")
+        if a_ans:
+            aw = count_words(a_ans)
+            if not (35 <= aw <= 85):
+                errors.append(f"answerText {aw} words outside 35..85 (aim for a 40-60 word answer)")
+            if not q_ans.rstrip().endswith("?"):
+                errors.append("answerQuestion should be phrased as the reader's question")
+            also = fm_block_terms(raw)
+            if "alsoAsked:" not in raw:
+                errors.append("answer block missing alsoAsked (the query wordings it serves)")
+            link = re.search(r'^answerLinkSlug:\s*"?([A-Za-z0-9\-]+)"?\s*$', raw, flags=re.M)
+            if link and link.group(1) not in published_slugs:
+                errors.append(f"answerLinkSlug '{link.group(1)}' is not published")
 
         # Related-teaching handoffs must resolve to a published article (no 404s / fallbacks).
         related_slugs = re.findall(r'slug:\s*"([A-Za-z0-9\-]+)"', raw)
