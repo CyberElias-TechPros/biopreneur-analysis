@@ -42,7 +42,7 @@
 - ✔ C5. JSON-LD Schema: `BlogPosting` + `Person` + `BreadcrumbList` on every article; `WebSite` + `Organization` site-wide
 - ◐ C6. Analytics: Search Console live (first query report received 2026-11-18 and acted on — see D17); GA4 or privacy-first alternative + Bing Webmaster still pending
 - ☐ C7. Comments: lightweight (giscus or none — zero-comment is fine per analysis)
-- ◐ C8. Backup/deploy pipeline: `faith-site/` is the Vercel root directory and `vercel.json` carries the headers/redirects. What remains is the *first* deploy, which needs the Vercel account connected — the build itself is now verified end-to-end by CI (P1) before any deploy.
+- ✔ C8. **Deployed (2026-11-18).** Vercel project `biopreneur-analysis` builds `faith-site/` (root directory) on Astro; `PUBLIC_SITE_URL=https://lij.name.ng` is set for production, preview and development. PR #13 merged as `cfcaaf9` and production deployment `dpl_5WB4fTMUaYhtWMPfnDpJXTuuyaU9` promoted to `lij.name.ng` in 35 s. Verified live: `/api/health.json` reports ok with 371 articles and all six invariants true, `/api/search-index.json` serves 371 items, an article page carries the search dialog, the Listen control and its answer block, and an unknown path returns the recovery 404. **Caveat:** the project has git auto-deploy *disabled*, so a push does not redeploy — production is promoted deliberately (this is why the site sat on an older build while `main` moved ahead).
 
 ## D. CONTENT PRODUCTION (365-slate execution)
 
@@ -88,7 +88,7 @@
 ## NEXT SPRINT (immediate next actions)
 1. **D7 (Month 7):** Begin Month 7 Days `182`–`212` (*Divine Health and Wholeness*)
 2. **D1 review:** Month 1 arc complete (31/31 live); spot-check internal handoffs and category spread before AdSense submission
-3. **C2 / C8:** Deploy `faith-site/` to Vercel and attach custom domain when chosen
+3. **C8 follow-up:** decide whether to enable Vercel git auto-deploy for `main`, or keep promoting productions deliberately after CI passes (P1)
 4. **E2 / E3:** Enable `PUBLIC_ADSENSE_LIVE=true` and run the 15-factor pre-application audit (50-article floor now met)
 
 ### Listening Room & reader resilience (shipped)
