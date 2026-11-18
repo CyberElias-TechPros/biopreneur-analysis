@@ -94,7 +94,8 @@
 ### Listening Room & reader resilience (shipped)
 
 - ✔ L1. On-device narration on every teaching: four voices, six speeds, remembered per reader (`ListenRoom.astro`, `listen-room.ts`).
-- ✔ L2. Thirteen reading languages; on-device translation where the browser supports it, honest link-out where it does not (`languages.ts`, `/listen/`).
+- ✔ L2. Reading languages (count derived from `languages.ts`, never typed into prose); on-device translation where the browser supports it, honest link-out where it does not. `/listen/` states the split (7 on-device / 6 external) from the data.
+- ✔ L12. **Natural-voice ranking (2026-11-18).** Voice selection now prefers the most natural voice the device already has — Microsoft neural "Online (Natural)", Apple Siri/Enhanced/Premium, Google cloud — instead of preferring any installed voice. The old score gave `localService` +100 and the preset match +10, so a robotic offline voice beat a neural online one. Natural names score +90, legacy/novelty voices (eSpeak, Fred, Zarvox, Albert, Compact) −120, and offline capability is now only a +8 tie-breaker. Still zero cost and zero audio bytes: every voice ships with the reader's OS or browser. The note under the picker names the chosen voice, says whether it needs a connection, and offers the upgrade when a better online voice exists. 5 new regression tests (novelty rejection, no language crossing, upgrade detection, no hardcoded counts).
 - ✔ L3. `/listen/` hub page listing languages, steps, and the first seven days ready to hear.
 - ✔ L4. Consent-gated AdSense — advertising loads only after "Allow ads"; both choices weighted equally; footer "Cookie settings" re-opens the choice (`consent.ts`).
 - ✔ L5. Offline reading via service worker + `/offline.html`; cache headers in `vercel.json`.

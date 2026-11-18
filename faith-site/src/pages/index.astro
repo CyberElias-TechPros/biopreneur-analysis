@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { LANGUAGE_COUNT } from '../data/languages';
 import CommunityInvite from '../components/CommunityInvite.astro';
 import AuthorBox from '../components/AuthorBox.astro';
 import HeroTitle from '../components/showcase/HeroTitle.astro';
@@ -313,9 +314,8 @@ const homeSchema = [
           <span class="sc-kicker">The Listening Room</span>
           <h2>Hear It While You Drive, Cook, or Lie Awake</h2>
           <p>
-            Every teaching can be listened to instead of read — in four voices, six speeds, and thirteen
-            languages. The speech is generated on your own device, so it is private, free, and works without a
-            connection once the page has loaded.
+            Every teaching can be listened to instead of read — in four reading styles, six speeds, and {LANGUAGE_COUNT} languages. Speech uses the voices already installed on your own device, so it is
+            private and free; the most natural voices need a connection, and installed ones work offline.
           </p>
           <a class="sc-btn-ghost" href="/listen/" data-magnet="0.18" data-cursor="Listen">Enter the Listening Room →</a>
         </div>

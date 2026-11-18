@@ -7,7 +7,13 @@ import ThemeScripture from '../components/ThemeScripture.astro';
 import Reaffirmation from '../components/Reaffirmation.astro';
 import DeclarationCard from '../components/DeclarationCard.astro';
 import { SITE } from '../data/site';
-import { LISTEN_LANGUAGES } from '../data/languages';
+import {
+  LISTEN_LANGUAGES,
+  LANGUAGE_COUNT,
+  languageCountWord,
+  listNames,
+  ON_DEVICE_COUNT,
+} from '../data/languages';
 import { renderArticleProse } from '../lib/markdown';
 
 const origin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
@@ -60,12 +66,12 @@ const steps = [
   {
     n: '02',
     title: 'Choose a voice and speed',
-    body: 'Four reading styles, from a warm pastoral pace to a slower elder register, each with six speeds. They shape the voices installed on your device, and your choice is remembered across every teaching.',
+    body: 'Four reading styles, from a warm pastoral pace to a slower elder register, each with six speeds. Each style picks the most natural voice your device already has — Microsoft’s neural voices, Apple’s Siri and Enhanced voices, Google’s cloud voices — so nothing is downloaded and no text is sent anywhere. The most natural voices need a connection; installed ones work offline. Your choice is remembered across every teaching.',
   },
   {
     n: '03',
     title: 'Pick your language',
-    body: 'Thirteen reading languages, starting with English, French, Spanish, Portuguese, Kiswahili, Yorùbá, Igbo, and Hausa. On-device translation is used where your browser supports it; otherwise you are told plainly and offered the original or an explicit external link.',
+    body: `${languageCountWord} reading languages, starting with ${listNames(LISTEN_LANGUAGES.slice(0, 8))}. On-device translation is used where your browser supports it; otherwise you are told plainly and offered the original or an explicit external link.`,
   },
   {
     n: '04',
@@ -164,7 +170,10 @@ const steps = [
   <section style="background: var(--surface); border-block: 1px solid var(--border-subtle); padding-block: clamp(2.5rem, 5vw, 3.5rem);">
     <div class="swiss-container">
       <p class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.4rem 0;">Languages</p>
-      <h2 style="margin-top: 0;">Thirteen Languages, Stated Honestly</h2>
+      <h2 style="margin-top: 0;">{languageCountWord} Languages, Stated Honestly</h2>
+      <p class="meta-caps" style="color: var(--ink-soft); margin: 0 0 0.75rem 0;">
+        {ON_DEVICE_COUNT} of {LANGUAGE_COUNT} are translated on your device · the other {LANGUAGE_COUNT - ON_DEVICE_COUNT} use a link you choose
+      </p>
       <p style="color: var(--ink-soft); max-width: 68ch; margin-bottom: 1.5rem;">
         Machine translation is never as careful as the original, and this site will not pretend otherwise.
         Where your browser carries an on-device model, the translation happens on your device. Where it

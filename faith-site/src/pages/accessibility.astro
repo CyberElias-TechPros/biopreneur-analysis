@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import LightLine from '../components/LightLine.astro';
 import { SITE } from '../data/site';
+import { languageCountWordLower } from '../data/languages';
 
 const origin = (Astro.site || new URL(SITE.url)).toString().replace(/\/$/, '');
 const pageUrl = `${origin}/accessibility/`;
@@ -29,7 +30,7 @@ const schema = [
 ];
 
 const done = [
-  ['Listen to anything', 'Every teaching can be narrated by your browser’s speech engine in four reading styles, at six speeds, with thirteen reading-language options.'],
+  ['Listen to anything', `Every teaching can be narrated by your browser’s speech engine in four reading styles, at six speeds, with ${languageCountWordLower} reading-language options.`],
   ['Keyboard first', 'Every control — theme, text size, listen, filters, consent — is reachable and operable by keyboard, with a visible focus ring.'],
   ['Skip link', 'The first tab stop on every page jumps past the header to the teaching.'],
   ['Semantic structure', 'One <h1> per page, no skipped heading levels, landmarks for header, navigation, main, and footer.'],

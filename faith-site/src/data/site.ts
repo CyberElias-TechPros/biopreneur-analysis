@@ -47,13 +47,27 @@ export const SITE = {
    * where it exists and is otherwise *offered*, never faked.
    */
   listen: {
-    /** Voice presets. `match` strings are tested against the platform voice list. */
+    /**
+     * Voice presets. `prefer` strings are matched against the platform's own
+     * voice list, best-sounding first.
+     *
+     * Every name here ships free with Windows, macOS, iOS, Android, Chrome or
+     * Edge — nothing is downloaded and no article text leaves the device. The
+     * neural names lead each list because they are the ones that sound human:
+     * Microsoft's "Natural"/"Online" voices on Edge and Windows 11, Apple's
+     * Siri and Enhanced/Premium voices, and Google's cloud voices in Chrome.
+     * Older names trail as fallbacks for machines that have nothing better.
+     */
     voices: [
       {
         id: 'dawn',
         label: 'Dawn',
-        description: 'Warm, unhurried, closest to a pastoral reading.',
-        prefer: ['female', 'Samantha', 'Google UK English Female', 'Serena', 'Karen'],
+        description: 'Warm, unhurried — the closest to a pastoral reading.',
+        prefer: [
+          'Microsoft Aria', 'Aria Online', 'Microsoft Jenny', 'Jenny Online',
+          'Google UK English Female', 'Samantha', 'Serena', 'Karen', 'Moira',
+          'Tessa', 'Zoe', 'Nicky', 'Allison', 'Ava', 'female',
+        ],
         rate: 0.94,
         pitch: 1.0,
       },
@@ -61,15 +75,22 @@ export const SITE = {
         id: 'clarity',
         label: 'Clarity',
         description: 'Neutral and even — the default for study and note-taking.',
-        prefer: ['Google US English', 'Microsoft Aria', 'Daniel', 'Alex'],
+        prefer: [
+          'Microsoft Aria', 'Microsoft Michelle', 'Michelle Online',
+          'Google US English', 'Ava', 'Allison', 'Samantha', 'Daniel',
+        ],
         rate: 1.0,
         pitch: 1.0,
       },
       {
         id: 'elder',
         label: 'Elder',
-        description: 'Lower, slower, like a father reading the text aloud.',
-        prefer: ['male', 'Daniel', 'Google UK English Male', 'Microsoft Guy', 'Fred'],
+        description: 'Lower and slower, like a father reading the text aloud.',
+        prefer: [
+          'Microsoft Guy', 'Guy Online', 'Microsoft Ryan', 'Ryan Online',
+          'Microsoft Christopher', 'Christopher Online', 'Daniel', 'Alex',
+          'Google UK English Male', 'Tom', 'Rishi', 'male',
+        ],
         rate: 0.88,
         pitch: 0.86,
       },
@@ -77,7 +98,10 @@ export const SITE = {
         id: 'bright',
         label: 'Bright',
         description: 'Quick and clear — good for a second pass or a commute.',
-        prefer: ['Google US English', 'Zira', 'Moira'],
+        prefer: [
+          'Microsoft Jenny', 'Jenny Online', 'Microsoft Emma', 'Emma Online',
+          'Google US English', 'Samantha', 'Moira', 'Zira',
+        ],
         rate: 1.08,
         pitch: 1.04,
       },

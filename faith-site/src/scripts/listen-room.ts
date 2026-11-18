@@ -231,7 +231,69 @@ function languageMatches(voiceLang: string, requested: string): boolean {
   return a === b || a.split('-')[0] === b.split('-')[0];
 }
 
-/** Prefer the reading language, then an installed voice, then the named preset. */
+/**
+ * Names of the voices that actually sound human.
+ *
+ * The Web Speech API gives every engine the same handful of names, and the gap
+ * between the best and worst of them is enormous: Apple's Siri-era voices,
+ * Microsoft's "Natural"/"Online" neural voices and Google's cloud voices read
+ * like a person; Apple's novelty voices and the 1990s formant voices
+ * (Fred, Albert, Zarvox, eSpeak) do not.
+ *
+ * This is a name list, not a download: every one of these is free because it
+ * already ships with the reader's own operating system or browser. Picking the
+ * best installed one is the whole point — nothing is fetched, and the no-audio-
+ * bytes guarantee in this file's header still holds.
+ */
+const NATURAL_VOICE_PATTERNS: RegExp[] = [
+  // Microsoft neural / "Online (Natural)" voices — Windows 10/11, Edge.
+  /natural/i, /\bneural\b/i, /online\b/i, /\bmultilingual\b/i, /\bturbo\b/i,
+  // Apple's modern high-quality voices (macOS / iOS downloadable).
+  /\bsiri\b/i, /\bpremium\b/i, /\benhanced\b/i,
+  /samantha|ava|allison|susan|tom|nicky|zoe|joelle|noelle|serena|daniel|karen|moira|tessa|rishi|veena|lekha|sinji|meijia|tingting|yuna|kyoko|milena|yelda|zuzana/i,
+  // Google / Chrome cloud voices.
+  /^google\s/i,
+  // Modern Android.
+  /\bspeech services\b/i, /google tts/i,
+];
+
+/** Older or novelty voices that are audibly synthetic. Never preferred. */
+const SYNTHETIC_VOICE_PATTERNS: RegExp[] = [
+  /\bcompact\b/i, /\bespeak\b/i, /\bpico\b/i, /\bfestival\b/i,
+  /albert|bad news|bahh|bells|boing|bubbles|cellos|good news|jester|organ|superstar|trinoids|whisper|wobble|zarvox|ralph|kathy|fred|hysterical|junior|agnes|bruce|bells/i,
+];
+
+function isNaturalVoiceName(name: string): boolean {
+  return NATURAL_VOICE_PATTERNS.some((pattern) => pattern.test(name));
+}
+
+function isSyntheticVoiceName(name: string): boolean {
+  return SYNTHETIC_VOICE_PATTERNS.some((pattern) => pattern.test(name));
+}
+
+/** Does this voice's name suggest the requested gender? */
+function genderHint(name: string, preset: VoicePreset): number {
+  const explicit = preset.prefer.filter((p) => p === 'female' || p === 'male');
+  if (!explicit.length) return 0;
+  const n = name.toLowerCase();
+  const female = /female|woman|samantha|ava|allison|susan|victoria|karen|moira|tessa|serena|zoe|nicky|joelle|noelle|aria|jenny|michelle|sonia|libby|natasha|clara|emily|olivia|salli|joanna|amy|emma|olivia|hazel|zira|sabina|helena|milena|yelda|zuzana|meijia|tingting|sinji|kyoko|yuna|veena|lekha|catherine|george/i;
+  const male = /\bmale\b|\bman\b|daniel|alex|fred|tom|guy|ryan|davis|tony|jason|brandon|christopher|eric|david|mark|george|rishi|arthur|oliver|thomas/i;
+  const looksFemale = female.test(n);
+  const looksMale = male.test(n);
+  if (looksFemale === looksMale) return 0;
+  return (explicit[0] === 'female') === looksFemale ? 12 : -8;
+}
+
+/**
+ * Prefer the reading language, then the most natural voice available, then the
+ * named preset.
+ *
+ * Naturalness is weighted far above being installed locally, because the old
+ * ranking did the opposite: `localService` scored +100 and the preset match +10,
+ * so on Windows a robotic offline voice beat a neural online one. The trade the
+ * reader is offered is now explicit in the note under the picker — an installed
+ * voice still works offline, and one click puts it back.
+ */
 export function pickVoice(
   voices: SpeechSynthesisVoice[],
   preset: VoicePreset,
@@ -240,13 +302,41 @@ export function pickVoice(
   const matching = voices.filter((voice) => languageMatches(voice.lang, langCode));
   if (!matching.length) return null;
   const score = (voice: SpeechSynthesisVoice): number => {
-    const preference = preset.prefer.findIndex((name) => voice.name.toLowerCase().includes(name.toLowerCase()));
-    return (voice.localService ? 100 : 0)
-      + (voice.lang.toLowerCase() === langCode.toLowerCase() ? 20 : 0)
-      + (voice.default ? 5 : 0)
-      + (preference >= 0 ? 10 - preference : 0);
+    const name = String(voice.name || '');
+    const exact = voice.lang.toLowerCase().replace(/_/g, '-') === langCode.toLowerCase().replace(/_/g, '-');
+    const preference = preset.prefer.findIndex((p) => name.toLowerCase().includes(p.toLowerCase()));
+    return (
+      (isNaturalVoiceName(name) ? 90 : 0)
+      + (isSyntheticVoiceName(name) ? -120 : 0)
+      + (exact ? 24 : 0)
+      + (preference >= 0 ? 18 - preference * 2 : 0)
+      + genderHint(name, preset)
+      // Deliberately small: offline capability is a tie-breaker, not the driver.
+      + (voice.localService ? 8 : 0)
+      + (voice.default ? 3 : 0)
+    );
   };
   return [...matching].sort((a, b) => score(b) - score(a))[0] ?? null;
+}
+
+/**
+ * True when a better-sounding voice exists but needs a connection, while the
+ * chosen voice is an installed one. Used to offer the one-click upgrade.
+ */
+export function hasOnlineUpgrade(
+  voices: SpeechSynthesisVoice[],
+  preset: VoicePreset,
+  langCode: string
+): boolean {
+  const chosen = pickVoice(voices, preset, langCode);
+  if (!chosen || !chosen.localService) return false;
+  return voices.some(
+    (voice) =>
+      !voice.localService
+      && languageMatches(voice.lang, langCode)
+      && isNaturalVoiceName(String(voice.name || ''))
+      && !isSyntheticVoiceName(String(voice.name || ''))
+  );
 }
 
 function speechErrorCopy(code: string): string {
@@ -414,9 +504,17 @@ export function initListenRoom(): void {
   function updateVoiceNote(): void {
     if (!els.voiceNote) return;
     const meta = langMeta(prefs.lang);
-    const voice = pickVoice(voiceList, currentPreset(), meta.speech);
+    const preset = currentPreset();
+    const voice = pickVoice(voiceList, preset, meta.speech);
     if (voice) {
-      els.voiceNote.textContent = `${currentPreset().label} uses ${voice.name} (${voice.lang}) on this device. Preset names are reading styles, not separate hosted voices.`;
+      // Say plainly which voice was chosen, whether it needs a connection, and
+      // whether a better-sounding one is one click away. Nothing is switched
+      // silently: the reader is told what they are hearing and why.
+      const online = voice.localService ? '' : ' (needs a connection)';
+      const upgrade = hasOnlineUpgrade(voiceList, preset, meta.speech)
+        ? ' A more natural voice is available but needs a connection — see Voice options below.'
+        : '';
+      els.voiceNote.textContent = `${preset.label} uses ${voice.name} (${voice.lang})${online}. Preset names are reading styles, not separate hosted voices.${upgrade}`;
     } else if (voiceList.length) {
       els.voiceNote.textContent = `No ${meta.english} voice is installed. The text can still be read on screen; install a system voice to hear it.`;
     } else {
