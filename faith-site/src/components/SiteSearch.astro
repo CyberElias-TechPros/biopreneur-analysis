@@ -1,0 +1,176 @@
+---
+/**
+ * Site-wide search dialog.
+ *
+ * Rendered once per page from BaseLayout, so search is available from any
+ * article — not only from /teachings/. The markup is static and the <dialog>
+ * element is native, which gives focus trapping, Esc-to-close, and the backdrop
+ * for free; the script only fills in results.
+ */
+import { LANGUAGE_COUNT } from '../data/languages';
+---
+
+<dialog id="site-search" class="site-search" aria-labelledby="site-search-label">
+  <div class="site-search__panel">
+    <div class="site-search__head">
+      <label class="visually-hidden" for="site-search-input">Search every teaching</label>
+      <input
+        id="site-search-input"
+        class="site-search__input"
+        type="search"
+        name="q"
+        placeholder="Search by title, Scripture, or theme…"
+        autocomplete="off"
+        spellcheck="false"
+        role="combobox"
+        aria-expanded="true"
+        aria-controls="site-search-results"
+        aria-autocomplete="list"
+        aria-describedby="site-search-status"
+      />
+      <button type="button" class="site-search__close" id="site-search-close" aria-label="Close search">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+    <p class="site-search__status" id="site-search-status" role="status" aria-live="polite">
+      Type to search 371 Scripture teachings by title, verse, or theme.
+    </p>
+
+    <ul class="site-search__results" id="site-search-results" role="listbox" aria-label="Search results"></ul>
+
+    <div class="site-search__foot">
+      <span class="meta-caps">
+        <kbd>/</kbd> or <kbd>⌘K</kbd> to open · <kbd>↑</kbd><kbd>↓</kbd> to move · <kbd>Enter</kbd> to read
+      </span>
+      <a class="meta-caps" href="/teachings/">Browse the full library &rarr;</a>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  import { initSiteSearch } from '../scripts/search';
+  initSiteSearch();
+</script>
+
+<style>
+  .site-search {
+    /* The native dialog is centred by the UA; we supply the panel, backdrop,
+       and motion so it matches the Reverent Editorial surfaces. */
+    border: none;
+    padding: 0;
+    background: transparent;
+    max-width: min(44rem, 92vw);
+    width: 100%;
+    margin: 12vh auto auto;
+    color: var(--ink);
+  }
+  .site-search::backdrop {
+    background: rgba(14, 13, 12, 0.55);
+    backdrop-filter: blur(3px);
+  }
+  .site-search__panel {
+    background: var(--surface, #fff);
+    border: 1px solid var(--hairline);
+    box-shadow: 0 24px 64px rgba(0, 0, 0, 0.24);
+    padding: 1rem 1rem 0.5rem;
+  }
+  .site-search__head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--hairline);
+    padding-bottom: 0.75rem;
+  }
+  .site-search__input {
+    flex: 1;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    padding: 0.35rem 0.25rem;
+    border: none;
+    background: transparent;
+    color: var(--ink);
+  }
+  .site-search__input:focus {
+    outline: none;
+  }
+  .site-search__close {
+    border: 1px solid var(--hairline);
+    background: transparent;
+    color: var(--ink-soft);
+    font-size: 1.15rem;
+    line-height: 1;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+  }
+  .site-search__close:hover {
+    color: var(--gold-text);
+    border-color: var(--gold-text);
+  }
+  .site-search__status {
+    margin: 0.75rem 0 0.5rem;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+  }
+  .site-search__results {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 46vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+  .site-search__link {
+    display: block;
+    padding: 0.6rem 0.5rem;
+    border-bottom: 1px solid var(--hairline);
+    text-decoration: none;
+    color: inherit;
+  }
+  .site-search__link:hover,
+  .site-search__link.is-active {
+    background: var(--gold-tint);
+    outline: none;
+  }
+  .site-search__title {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1rem;
+    color: var(--ink);
+  }
+  .site-search__meta {
+    display: block;
+    margin-top: 0.15rem;
+    font-size: 0.74rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .site-search__foot {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem 0 0.35rem;
+    border-top: 1px solid var(--hairline);
+  }
+  .site-search__foot kbd {
+    font-family: var(--font-mono, monospace);
+    font-size: 0.72rem;
+    border: 1px solid var(--hairline);
+    padding: 0 0.25rem;
+  }
+  @media (max-width: 640px) {
+    .site-search {
+      margin-top: 6vh;
+    }
+    .site-search__foot {
+      display: none;
+    }
+    .site-search__results {
+      max-height: 58vh;
+    }
+  }
+</style>

@@ -67,6 +67,22 @@ const isActive = (href: string) =>
         }
       </nav>
 
+      <button
+        type="button"
+        class="header-search"
+        data-search-open
+        aria-label="Search every teaching (press / or Command-K)"
+        aria-keyshortcuts="/ Control+K Meta+K"
+      >
+        <span aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="none" focusable="false">
+            <circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.6" />
+            <path d="m16 16 4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+          </svg>
+        </span>
+        <span class="header-search__text">Search</span>
+      </button>
+
       <a
         class="header-listen"
         href="/listen/"

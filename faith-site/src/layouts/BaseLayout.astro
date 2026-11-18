@@ -3,6 +3,7 @@ import '../styles/global.css';
 import '../styles/showcase.css';
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
+import SiteSearch from '../components/SiteSearch.astro';
 import Footer from '../components/Footer.astro';
 import WhatsAppFloat from '../components/WhatsAppFloat.astro';
 import ReadingProgress from '../components/ReadingProgress.astro';
@@ -245,6 +246,7 @@ const pageSchema = {
     )}
     {experience && <div class="cursor-dot" data-cursor-dot aria-hidden="true"></div>}
     <Header />
+    <SiteSearch />
     {showReadingProgress && <ReadingProgress />}
     <main id="main-content">
       <slot />

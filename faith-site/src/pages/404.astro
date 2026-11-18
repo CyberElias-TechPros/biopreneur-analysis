@@ -1,28 +1,79 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { SITE } from '../data/site';
+import { getCollection } from 'astro:content';
+
+/**
+ * 404 with recovery, not just an apology.
+ *
+ * A dead end is where a reader leaves. This page does three things a plain
+ * "not found" does not: it offers search immediately, it shows the newest
+ * teachings (so there is always something worth reading), and it keeps the
+ * doctrine entry points one click away. It is the same reasoning as the
+ * offline page — a failure state should still be useful.
+ */
+const pages = ['about', 'teachings', 'slate', 'glossary', 'category', 'listen', 'contact', 'doctrinal-basis', 'community'];
+const articles = await getCollection('articles');
+const newest = [...articles].sort((a, b) => b.data.day - a.data.day).slice(0, 4);
 ---
 
 <BaseLayout
   title={`Page Not Found — ${SITE.name}`}
-  description="That page is not in the library. Return to the Live In Jesus Name teaching library, browse the 365-day curriculum slate, or search all published studies."
+  description="That page is not in the library. Search every teaching, browse the newest studies, or open the 365-day curriculum slate."
   noindex={true}
 >
-  <section class="reading-container" style="padding-block: 5rem; text-align: center;">
+  <section class="reading-container" style="padding-block: 4rem 3rem; text-align: center;">
     <p class="meta-caps" style="color: var(--gold-text); margin-bottom: 0.75rem;">
       404 &middot; Page Not Found
     </p>
     <h1>That path is not in the library.</h1>
-    <p style="color: var(--ink-soft); max-width: 48ch; margin-inline: auto; margin-bottom: 2rem;">
-      The link may have moved or the teaching you are looking for may be scheduled further ahead on our 365-day curriculum slate.
+    <p style="color: var(--ink-soft); max-width: 52ch; margin-inline: auto; margin-bottom: 2rem;">
+      The link may have moved, or the address may have been mistyped. Search is the fastest way back —
+      it covers every published teaching by title, Scripture, or theme.
     </p>
-    <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+
+    <div style="display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap; margin-bottom: 3rem;">
+      <button type="button" class="category-chip" data-search-open style="padding: 0.7rem 1.2rem; cursor: pointer;">
+        Search every teaching
+      </button>
       <a class="category-chip" href="/teachings/" style="padding: 0.7rem 1.2rem;">
-        Browse Published Teachings &rarr;
+        Browse the library &rarr;
       </a>
       <a class="category-chip" href="/slate/" style="padding: 0.7rem 1.2rem;">
-        View 365-Day Slate
+        View the 365-day slate
       </a>
     </div>
+  </section>
+
+  <section class="reading-container" style="padding-bottom: 3rem;">
+    <h2 class="meta-caps" style="color: var(--gold-text); margin: 0 0 0.75rem 0; font-size: 0.75rem; letter-spacing: 0.08em;">Newest Teachings</h2>
+    <ul style="list-style: none; padding: 0; margin: 0;">
+      {
+        newest.map((entry) => (
+          <li style="border-bottom: 1px solid var(--hairline); padding: 0.7rem 0;">
+            <a href={`/${entry.data.slug}/`} style="display: block;">
+              <span style="font-family: var(--font-display); font-size: 1.05rem; color: var(--ink);">
+                {entry.data.title}
+              </span>
+              <span class="meta-caps" style="display: block; margin-top: 0.2rem; color: var(--ink-soft);">
+                {entry.data.themeScripture.reference} &middot; {entry.data.category}
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <p class="meta-caps" style="margin-top: 2rem; color: var(--ink-soft);">
+      Or start here:{' '}
+      {
+        pages.slice(0, 5).map((path, i) => (
+          <>
+            {i > 0 && ' · '}
+            <a href={`/${path}/`}>{path.replace('-', ' ')}</a>
+          </>
+        ))
+      }
+    </p>
   </section>
 </BaseLayout>

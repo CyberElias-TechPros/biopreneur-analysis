@@ -472,6 +472,18 @@ export function initListenRoom(): void {
       els.play.setAttribute('aria-label', playing ? 'Pause reading' : paused ? 'Resume reading' : 'Play reading');
     }
     if (els.playLabel) els.playLabel.textContent = playing ? 'Pause' : paused ? 'Resume' : state === 'finished' ? 'Replay' : 'Play';
+    // The article-level button reflects what pressing it will do next.
+    if (els.toggle) {
+      const label = els.toggle.querySelector('[data-listen-toggle-label]');
+      if (label) {
+        label.textContent = playing
+          ? 'Pause this teaching'
+          : paused
+            ? 'Resume this teaching'
+            : 'Listen to this teaching';
+      }
+      els.toggle.setAttribute('aria-pressed', String(playing));
+    }
     if (els.stop) els.stop.disabled = !hasText || languageBusy || (state === 'idle' && cursor === 0);
     const section = queue[cursor]?.segment ?? (state === 'finished' ? segments.length - 1 : 0);
     if (els.prev) els.prev.disabled = !hasText || languageBusy || section <= 0;
@@ -1003,10 +1015,23 @@ export function initListenRoom(): void {
 
   // Wire controls.
   els.langSelect?.addEventListener('change', () => { void applyLanguage(els.langSelect!.value); });
+  /**
+   * The Listen button does what its label says: one click starts the teaching.
+   *
+   * It used to only unfold a panel, which left a reader who pressed "Listen to
+   * this teaching" staring at a Play button — the click they made did not do the
+   * thing they asked for. Now the first click opens the panel *and* plays; a
+   * second click pauses; a third resumes. The panel stays visible throughout so
+   * voice, speed and language remain one gesture away.
+   *
+   * Gesture handling stays honest: this runs inside the click event, so the
+   * browser's autoplay policy is satisfied and nothing ever starts on its own.
+   */
   els.toggle?.addEventListener('click', () => {
-    const open = els.toggle!.getAttribute('aria-expanded') === 'true';
-    els.toggle!.setAttribute('aria-expanded', String(!open));
-    if (els.panel) els.panel.hidden = open;
+    if (els.panel) els.panel.hidden = false;
+    els.toggle!.setAttribute('aria-expanded', 'true');
+    // play() toggles: it pauses when playing, otherwise starts/resumes/replays.
+    play();
   });
   els.play?.addEventListener('click', play);
   els.stop?.addEventListener('click', () => stop());

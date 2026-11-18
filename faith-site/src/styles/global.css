@@ -362,6 +362,44 @@ h3 {
   letter-spacing: 0.02em;
 }
 
+/* Search sits in the same utility cluster as Listen and Community. It is a
+   button, not a link, because it opens a dialog rather than navigating. */
+.header-search {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.38rem 0.7rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: 999px;
+  background: transparent;
+  font-family: inherit;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ink);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.header-search span[aria-hidden] {
+  display: inline-flex;
+  color: var(--ink-soft);
+}
+
+.header-search:hover,
+.header-search:focus-visible {
+  background: var(--gold-tint);
+  border-color: var(--gold);
+}
+
+.header-search:hover span[aria-hidden],
+.header-search:focus-visible span[aria-hidden] {
+  color: var(--gold-text);
+}
+
+.header-search__text {
+  letter-spacing: 0.02em;
+}
+
 .header-community {
   display: inline-flex;
   align-items: center;
@@ -407,11 +445,13 @@ h3 {
     gap: 0.7rem;
   }
 
-  .header-listen__text {
+  .header-listen__text,
+  .header-search__text {
     display: none;
   }
 
-  .header-listen {
+  .header-listen,
+  .header-search {
     padding: 0.38rem 0.55rem;
   }
 

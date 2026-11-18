@@ -131,7 +131,7 @@ const fixture = `
 <section id="listen-room" class="listen-room">
   <script type="application/json" id="listen-room-config">${JSON.stringify(config)}</script>
   <div class="listen-bar">
-    <button id="listen-toggle" aria-expanded="false" aria-controls="listen-panel">Listen</button>
+    <button id="listen-toggle" aria-expanded="false" aria-controls="listen-panel" aria-pressed="false"><span data-listen-toggle-label>Listen to this teaching</span></button>
     <select id="listen-language">
       <option value="en">English</option><option value="fr">Français</option><option value="yo">Yorùbá</option>
     </select>
@@ -288,14 +288,15 @@ test('Listening Room boots, plays, pauses, resumes, changes settings, jumps, and
   assert.equal(doc.getElementById('listen-play').disabled, false);
   assert.match(doc.getElementById('listen-status').textContent, /Ready\. \d+ sections/);
 
+  // One click on "Listen to this teaching" starts the teaching.
   doc.getElementById('listen-toggle').click();
   assert.equal(doc.getElementById('listen-panel').hidden, false);
-  doc.getElementById('listen-play').click();
   await tick();
   assert.equal(speech.state.speaking, true);
   assert.equal(doc.querySelector('[data-listen-transcript]').open, true);
   assert.equal(doc.getElementById('listen-play-label').textContent, 'Pause');
   assert.equal(speech.state.log.at(-1).text, 'Test Teaching');
+  assert.equal(doc.getElementById('listen-toggle').getAttribute('aria-pressed'), 'true');
 
   doc.getElementById('listen-play').click();
   assert.equal(doc.getElementById('listen-play-label').textContent, 'Resume');
@@ -330,18 +331,62 @@ test('Listening Room boots, plays, pauses, resumes, changes settings, jumps, and
   assert.equal(speech.state.speaking, false);
 });
 
+test('the Listen button starts the article in one click, then pauses and resumes', async () => {
+  const dom = makeDom(fixture);
+  const speech = installSpeech(dom.window);
+  const { initListenRoom } = await loadController();
+  initListenRoom();
+  const doc = dom.window.document;
+  const toggle = doc.getElementById('listen-toggle');
+
+  // Nothing plays before any gesture — no autoplay, ever.
+  assert.equal(speech.state.speaking, false);
+  assert.equal(doc.getElementById('listen-panel').hidden, true);
+
+  // Click 1: opens the panel AND reads the teaching from the top.
+  toggle.click();
+  await tick();
+  assert.equal(doc.getElementById('listen-panel').hidden, false);
+  assert.equal(speech.state.speaking, true);
+  assert.equal(speech.state.log.at(-1).text, 'Test Teaching');
+  assert.match(toggle.textContent, /Pause this teaching/);
+
+  // Click 2: pauses. Click 3: resumes. The panel stays open throughout.
+  toggle.click();
+  assert.equal(speech.state.paused, true);
+  assert.match(toggle.textContent, /Resume this teaching/);
+  assert.equal(doc.getElementById('listen-panel').hidden, false);
+
+  toggle.click();
+  assert.equal(speech.state.paused, false);
+  assert.match(toggle.textContent, /Pause this teaching/);
+
+  // Stopping resets the button's promise.
+  doc.getElementById('listen-stop').click();
+  assert.match(toggle.textContent, /Listen to this teaching/);
+  assert.equal(toggle.getAttribute('aria-pressed'), 'false');
+});
+
 test('Space on a voice button activates the voice, not playback; Escape stops', async () => {
   const dom = makeDom(fixture);
   const speech = installSpeech(dom.window);
   const { initListenRoom } = await loadController();
   initListenRoom();
   const doc = dom.window.document;
+  // The toggle opens the panel and starts reading; stop first so the rest of
+  // this test measures key handling rather than an already-running engine.
   doc.getElementById('listen-toggle').click();
+  await tick();
+  doc.getElementById('listen-stop').click();
+  const speaksBeforeKeys = speech.state.log.filter((x) => x.op === 'speak').length;
+
   const elder = doc.querySelector('[data-voice="elder"]');
   elder.focus();
   elder.dispatchEvent(new dom.window.KeyboardEvent('keydown', { key: ' ', bubbles: true }));
   await tick();
-  assert.equal(speech.state.log.filter((x) => x.op === 'speak').length, 0);
+  // Space on a voice button must not start playback.
+  assert.equal(speech.state.log.filter((x) => x.op === 'speak').length, speaksBeforeKeys);
+  assert.equal(speech.state.speaking, false);
   elder.click();
   assert.equal(elder.getAttribute('aria-pressed'), 'true');
 
@@ -462,7 +507,6 @@ test('playback finishes cleanly and replays from the beginning', async () => {
   initListenRoom();
   const doc = dom.window.document;
   doc.getElementById('listen-toggle').click();
-  doc.getElementById('listen-play').click();
   await tick();
   for (let i = 0; i < 80; i++) {
     if (doc.getElementById('listen-room').dataset.playback === 'finished') break;
