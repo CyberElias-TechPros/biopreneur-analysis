@@ -22,3 +22,8 @@ faith-site/.astro/
 # Python bytecode from the audit scripts
 faith-site/scripts/__pycache__/
 __pycache__/
+
+# Generated video scripts (371 pairs, 5.7 MB). These are rebuilt from the articles by
+# `npm run video:scripts`, exactly like dist/ is rebuilt by the build. Committing them
+# would bloat every clone and guarantee they drift from the teachings they describe.
+faith-site/video-scripts/
