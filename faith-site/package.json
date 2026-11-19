@@ -14,10 +14,12 @@
     "typecheck": "astro check",
     "test:listening": "node --experimental-strip-types --test scripts/test-listening.mjs",
     "test:site": "node --experimental-strip-types --test scripts/test-site.mjs",
-    "test": "npm run test:listening && npm run test:art",
-    "verify": "npm run typecheck && npm run audit && npm run test:listening && npm run test:art && npm run build && npm run seo && npm run test:site",
+    "test": "npm run test:listening && npm run test:art && npm run test:video",
+    "verify": "npm run typecheck && npm run audit && npm run test:listening && npm run test:art && npm run test:video && npm run build && npm run seo && npm run test:site",
     "art": "python3 scripts/make-youtube-banner.py",
-    "test:art": "node --test scripts/test-art.mjs"
+    "test:art": "node --test scripts/test-art.mjs",
+    "video:scripts": "python3 scripts/make-video-scripts.py",
+    "test:video": "node --test scripts/test-video-scripts.mjs"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.7",
