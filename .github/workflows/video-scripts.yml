@@ -1,0 +1,64 @@
+name: Video scripts pack
+
+# Publishes the generated video scripts as downloadable artifacts, so nobody has to
+# install Node and Python just to read them. The scripts are gitignored build output,
+# which is right for the repository but unhelpful for a downloader.
+#
+# This job does not gate anything: it generates, validates, packages, and attaches the
+# zips. If it fails, the tests in `ci.yml` are where the real problem will show.
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'faith-site/articles/**'
+      - 'faith-site/scripts/make-video-scripts.py'
+      - 'faith-site/scripts/make-video-pack.py'
+      - 'faith-site/scripts/test-video-scripts.mjs'
+
+jobs:
+  pack:
+    name: Generate and package video scripts
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    defaults:
+      run:
+        working-directory: faith-site
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: faith-site/package-lock.json
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate one script per teaching
+        run: npm run video:scripts
+
+      - name: Validate all 371 specs
+        run: npm run test:video
+
+      - name: Package as zips
+        run: npm run video:pack
+
+      - name: Upload the packs
+        uses: actions/upload-artifact@v4
+        with:
+          name: lij-video-scripts
+          path: download/*.zip
+          retention-days: 90
+          if-no-files-found: error
