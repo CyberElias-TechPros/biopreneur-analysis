@@ -19,7 +19,8 @@
     "art": "python3 scripts/make-youtube-banner.py",
     "test:art": "node --test scripts/test-art.mjs",
     "video:scripts": "python3 scripts/make-video-scripts.py",
-    "test:video": "node --test scripts/test-video-scripts.mjs"
+    "test:video": "node --test scripts/test-video-scripts.mjs",
+    "video:pack": "python3 scripts/make-video-pack.py"
   },
   "dependencies": {
     "@astrojs/react": "^5.0.7",
